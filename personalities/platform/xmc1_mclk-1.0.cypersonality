@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file xmc1_mclk-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Master clock personality description file for XMC1000 family.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc1_mclk" name="MCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+  <Dependencies>
+    <IpBlock name="xmc1_scu" />
+    <Resource name="scu\.clock\.periclk"/>
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="frequency" paramId="frequency" />
+  </ExposedMembers>
+
+  <Parameters>
+    <!-- Internal -->
+    <ParamString id="fdiv_resource" name="FDIV clock resource" group="Internal"
+      default="scu[0].clock[0].fdivclk[0]" visible="false" editable="false" desc="" />
+    <ParamString id="fdiv_frequency" name="FDIV clock frequency (Hz)" group="Internal"
+      default="`${getExposedMember(fdiv_resource, &quot;frequency&quot;)}`"
+      visible="false" editable="false" desc="" />
+    <ParamString id="frequency" name="Frequency (Hz)" group="Internal"
+      default="`${fdiv_frequency / 2}`" visible="false" editable="false" desc="" />
+
+    <!-- General -->
+    <ParamRange id="frequency_info" name="Frequency (MHz)" group="General"
+      default="`${frequency / 1000000.0}`" min="0" max="48" resolution="0.001"
+      visible="true" editable="false" desc="The resulting main clock frequency in MHz." />
+  </Parameters>
+
+  <ConfigFirmware>
+  </ConfigFirmware>
+</Personality>

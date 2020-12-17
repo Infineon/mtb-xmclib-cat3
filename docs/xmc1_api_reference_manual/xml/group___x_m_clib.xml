@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="group___x_m_clib" kind="group">
+    <compoundname>XMClib</compoundname>
+    <title>XMC Peripheral Library</title>
+    <innergroup refid="group___a_c_m_p">ACMP</innergroup>
+    <innergroup refid="group___b_c_c_u">BCCU</innergroup>
+    <innergroup refid="group___c_a_n">CAN</innergroup>
+    <innergroup refid="group___c_c_u4">CCU4</innergroup>
+    <innergroup refid="group___c_c_u8">CCU8</innergroup>
+    <innergroup refid="group___e_r_u">ERU</innergroup>
+    <innergroup refid="group___f_l_a_s_h">FLASH</innergroup>
+    <innergroup refid="group___g_p_i_o">GPIO</innergroup>
+    <innergroup refid="group___i2_c">I2C</innergroup>
+    <innergroup refid="group___i2_s">I2S</innergroup>
+    <innergroup refid="group___l_e_d_t_s">LEDTS</innergroup>
+    <innergroup refid="group___m_a_t_h">MATH</innergroup>
+    <innergroup refid="group___p_a_u">PAU</innergroup>
+    <innergroup refid="group___p_o_s_i_f">POSIF</innergroup>
+    <innergroup refid="group___p_r_n_g">PRNG</innergroup>
+    <innergroup refid="group___r_t_c">RTC</innergroup>
+    <innergroup refid="group___s_c_u">SCU</innergroup>
+    <innergroup refid="group___s_p_i">SPI</innergroup>
+    <innergroup refid="group___u_a_r_t">UART</innergroup>
+    <innergroup refid="group___u_s_i_c">USIC</innergroup>
+    <innergroup refid="group___v_a_d_c">VADC</innergroup>
+    <innergroup refid="group___w_d_t">WDT</innergroup>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

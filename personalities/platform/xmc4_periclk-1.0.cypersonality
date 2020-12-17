@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file xmc4_periclk-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Peripheral clock personality description file for XMC4000 family.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc4_periclk" name="PERICLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+  <Dependencies>
+    <IpBlock name="xmc4_scu" />
+    <Resource name="scu\.clock\.periclk" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="frequency" paramId="fPERIPH" />
+    <ExposedMember key="divider" paramId="divider" />
+  </ExposedMembers>
+
+  <Parameters>
+    <!-- Internal -->
+    <ParamString id="fSYS_max" name="fSYS maximum frequency (Hz)" group="Internal"
+      default="`${lookupExpression(&quot;FSYS_MAX&quot;, 0)}`" visible="false" editable="false" desc="" />
+    <ParamString id="fCPU" name="CPU clock frequency (Hz)" group="Internal"
+      default="`${getExposedMember(&quot;scu[0].clock[0].cpuclk[0]&quot;, &quot;frequency&quot;)}`"
+      visible="false" editable="false" desc="" />
+
+    <!-- General -->
+    <ParamString id="clock_source_info" name="Clock source" group="General"
+      default="CPU Clock (`${fCPU / 1000000.0}` MHz)"
+      visible="true" editable="false" desc="Peripheral clock source" />
+    <ParamRange id="divider" name="Divider" group="General"
+      default="1" min="1" max="2" resolution="1"
+      visible="true" editable="true" desc="Peripheral clock divider." />
+    <ParamString id="fPERIPH" name="Frequency (Hz)" group="Internal"
+      default="`${fCPU / divider}`" visible="false" editable="false" desc="" />
+    <ParamRange id="frequency_info" name="Frequency (MHz)" group="General"
+      default="`${(fPERIPH / 1000000.0)}`" min="0" max="`${fSYS_max}`" resolution="0.001"
+      visible="true" editable="false" desc="Actual peripheral clock frequency in MHz." />
+  </Parameters>
+
+  <DRCs>
+    <DRC type="ERROR" text="Invalid combination of values for clock dividers for fCCU , fCPU and fPERI clocks" condition="`${
+      (getExposedMember(&quot;scu[0].clock[0].cpuclk[0]&quot;, &quot;divider&quot;) == 2) &amp;&amp;
+      (divider == 2)}`">
+      <FixIt action="SET_PARAM" target="divider" value="1" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Invalid combination of values for clock dividers for fCCU , fCPU and fPERI clocks" condition="`${
+      isBlockUsed(&quot;scu[0].clock[0].ccuclk[0]&quot;) &amp;&amp;
+      (getExposedMember(&quot;scu[0].clock[0].ccuclk[0]&quot;, &quot;divider&quot;) == 2) &amp;&amp;
+      (getExposedMember(&quot;scu[0].clock[0].cpuclk[0]&quot;, &quot;divider&quot;) == 1) &amp;&amp;
+      (divider == 1)}`">
+      <FixIt action="SET_PARAM" target="divider" value="2" valid="true" />
+    </DRC>
+  </DRCs>
+
+  <ConfigFirmware>
+    <ConfigDefine name="CLOCK_PERICLK_DIV" value="`${divider}`" public="false" include="true" />
+  </ConfigFirmware>
+</Personality>

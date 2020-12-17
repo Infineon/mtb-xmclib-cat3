@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_x_m_c___u_s_b_h___p_o_r_t___s_t_a_t_e__t" kind="struct" language="C++" prot="public">
+    <compoundname>XMC_USBH_PORT_STATE_t</compoundname>
+    <includes local="no">xmc_usbh.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_x_m_c___u_s_b_h___p_o_r_t___s_t_a_t_e__t_1abf1a0792d6af28877b0abd141d5524ac" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t connected</definition>
+        <argsstring></argsstring>
+        <name>connected</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB Host Port connected flag </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="256" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_x_m_c___u_s_b_h___p_o_r_t___s_t_a_t_e__t_1ae4b5761b8d095bee008a94856ceca46b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t overcurrent</definition>
+        <argsstring></argsstring>
+        <name>overcurrent</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB Host Port overcurrent flag </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="257" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_x_m_c___u_s_b_h___p_o_r_t___s_t_a_t_e__t_1a220859a8b5da0232739a11cbe7f79fc5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <bitfield> 2</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB Host Port speed setting (ARM_USB_SPEED_xxx) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="258" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>USB Host Port State. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="255" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="254" bodyend="259"/>
+    <listofallmembers>
+      <member refid="struct_x_m_c___u_s_b_h___p_o_r_t___s_t_a_t_e__t_1abf1a0792d6af28877b0abd141d5524ac" prot="public" virt="non-virtual"><scope>XMC_USBH_PORT_STATE_t</scope><name>connected</name></member>
+      <member refid="struct_x_m_c___u_s_b_h___p_o_r_t___s_t_a_t_e__t_1ae4b5761b8d095bee008a94856ceca46b" prot="public" virt="non-virtual"><scope>XMC_USBH_PORT_STATE_t</scope><name>overcurrent</name></member>
+      <member refid="struct_x_m_c___u_s_b_h___p_o_r_t___s_t_a_t_e__t_1a220859a8b5da0232739a11cbe7f79fc5" prot="public" virt="non-virtual"><scope>XMC_USBH_PORT_STATE_t</scope><name>speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
