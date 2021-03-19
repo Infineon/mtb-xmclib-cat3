@@ -1,6 +1,6 @@
 /**
  * @file xmc4_scu.c
- * @date 2019-12-16
+ * @date 2020-12-21
  *
  * @cond
  *****************************************************************************
@@ -102,6 +102,9 @@
  *
  * 2020-11-11:
  *     - Change making implementation of functions XMC_SCU_HighTemperature(), XMC_SCU_LowTemperature() and XMC_SCU_SetRawTempLimits() available only XMC41, XMC42 and XMC44
+ *
+ * 2020-12-21:
+ *     - Updated XMC_SCU_CLOCK_Init to enable USB PLL locking when the System PLL is disabled.
  * @endcond
  *
  */
@@ -568,7 +571,11 @@ void XMC_SCU_CLOCK_Init(const XMC_SCU_CLOCK_CONFIG_t *const config)
 
   if (config->syspll_config.mode == XMC_SCU_CLOCK_SYSPLL_MODE_DISABLED)
   {
-    XMC_SCU_CLOCK_DisableSystemPll();
+    /* Do not enable PLL Power Down Mode when the OSC Watchdog is enabled */
+    if (config->enable_oschp == false)
+    {
+      XMC_SCU_CLOCK_DisableSystemPll();
+    }
   }
   else
   {

@@ -80,10 +80,6 @@ extern "C" {
 #if defined(HRPWM0)
 #include "xmc_hrpwm_map.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup HRPWM
@@ -2305,9 +2301,6 @@ __STATIC_INLINE void XMC_HRPWM_CSG_ClrEventSW(XMC_HRPWM_CSG_t *const csg, XMC_HR
  * @}
  */
 
-/**
- * @}
- */
 
 #endif  /* #if defined(HRPWM0) */
 

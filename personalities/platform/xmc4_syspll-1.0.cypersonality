@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,51 +25,55 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc4_syspll" name="SYSPLL" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc4_syspll" name="SYSPLL" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc4_scu" />
     <Resource name="scu\.clock\.pll_sys" />
   </Dependencies>
   <ExposedMembers>
     <ExposedMember key="frequency" paramId="fPLL" />
+    <ExposedMember key="sourceClockDisplayName" paramId="clock_source_display" />
   </ExposedMembers>
 
   <Parameters>
     <!-- Internal -->
-    <ParamString id="fSYS_max" name="fSYS maximum frequency (Hz)" group="Internal"
+    <ParamString id="fSYS_max" name="fSYS Maximum Frequency (Hz)" group="Internal"
       default="`${lookupExpression(&quot;FSYS_MAX&quot;, 0)}`" visible="false" editable="false" desc="" />
 
     <!-- General -->
-    <ParamChoice id="clock_source" name="PLL clock source" group="General"
+    <ParamChoice id="clock_source" name="Source Clock" group="General"
       default="XMC_SCU_CLOCK_SYSPLLCLKSRC_OFI" visible="true" editable="true" desc="PLL clock source." >
-      <Entry name="External Crystal High Precision Oscillator" value="XMC_SCU_CLOCK_SYSPLLCLKSRC_OSCHP" visible="true" />
-      <Entry name="Internal Fast Oscillator" value="XMC_SCU_CLOCK_SYSPLLCLKSRC_OFI" visible="true" />
+      <Entry name="OSC_HP" value="XMC_SCU_CLOCK_SYSPLLCLKSRC_OSCHP" visible="true" />
+      <Entry name="OFI" value="XMC_SCU_CLOCK_SYSPLLCLKSRC_OFI" visible="true" />
     </ParamChoice>
-    <ParamString id="source_resource" name="Source clock resource" group="Internal"
+    <ParamString id="clock_source_display" name="Source Clock Display" group="Internal"
+      default="`${getParamValueDisplay(&quot;clock_source&quot;)}`" visible="false" editable="false"
+      desc="The display name of the currently selected clock source." />
+    <ParamString id="source_resource" name="Source Resource" group="Internal"
       default="scu[0].clock[0].`${(clock_source eq XMC_SCU_CLOCK_SYSPLLCLKSRC_OSCHP) ?
         &quot;osc_hp[0]&quot; : &quot;osc_fi[0]&quot;}`"
       visible="false" editable="false" desc="" />
-    <ParamBool id="source_enabled" name="Source clock enabled" group="Internal"
+    <ParamBool id="source_enabled" name="Source Enabled" group="Internal"
       default="`${isBlockUsed(source_resource)}`" visible="false" editable="false" desc="" />
-    <ParamString id="source_frequency" name="Source clock frequency (Hz)" group="Internal"
+    <ParamString id="source_frequency" name="Source Frequency (Hz)" group="Internal"
       default="`${source_enabled ? getExposedMember(source_resource, &quot;frequency&quot;) : 0.0 }`"
       visible="false" editable="false" desc="" />
-    <ParamChoice id="syspll_mode" name="PLL operating mode" group="General"
+    <ParamChoice id="syspll_mode" name="PLL Operating Mode" group="General"
       default="XMC_SCU_CLOCK_SYSPLL_MODE_NORMAL" visible="true" editable="true"
       desc="Select a desired mode to bypass a VCO or not." >
       <Entry name="Normal Mode" value="XMC_SCU_CLOCK_SYSPLL_MODE_NORMAL" visible="true" />
       <Entry name="Prescaler Mode" value="XMC_SCU_CLOCK_SYSPLL_MODE_PRESCALAR" visible="true" />
     </ParamChoice>
-    <ParamChoice id="configuration" name="PLL configuration" group="General"
+    <ParamChoice id="configuration" name="PLL Configuration" group="General"
       default="auto" visible="`${syspll_mode eq XMC_SCU_CLOCK_SYSPLL_MODE_NORMAL}`" editable="true"
       desc="Choose the automatic or manual divider tuning.">
       <Entry name="Automatic" value="auto"   visible="true"/>
       <Entry name="Manual"    value="manual" visible="true"/>
     </ParamChoice>
-    <ParamBool id="manConfig" name="Manual PLL configuration" group="Internal"
+    <ParamBool id="manConfig" name="Manual PLL Configuration" group="Internal"
       default="`${(configuration eq manual) || (syspll_mode eq XMC_SCU_CLOCK_SYSPLL_MODE_PRESCALAR)}`"
       visible="false" editable="false" desc="" />
-    <ParamRange id="syspll_frequency" name="Requested PLL frequency (MHz)" group="General"
+    <ParamRange id="syspll_frequency" name="Desired Frequency (MHz)" group="General"
       default="`${fSYS_max / 1000000.0}`" min="2.0" max="520.0" resolution="0.001"
       visible="`${!manConfig}`" editable="true" desc="The requested PLL frequency internally configures the PLL dividers: NDIV, PDIV, K2DIV and K1DIV." />
     <ParamString id="callSolver" name="" group="Internal"
@@ -87,9 +91,9 @@
     <ParamString id="fPLL" name="Frequency (Hz)" group="Internal"
       default="`${(syspll_mode eq XMC_SCU_CLOCK_SYSPLL_MODE_NORMAL) ? ((source_frequency * ndiv) / (pdiv * kdiv)) : (source_frequency / kdiv)}`"
       visible="false" editable="false" desc="" />
-    <ParamRange id="frequency_info" name="Actual PLL frequency (MHz)" group="General"
-      default="`${(fPLL / 1000000.0)}`" min="0.0" max="520.0" resolution="0.001"
-      visible="true" editable="false" desc="Actual PLL clock frequency in MHz." />
+    <ParamString id="frequency_info" name="Actual Frequency" group="General"
+      default="`${formatFrequency(fPLL)}`" visible="true" editable="false"
+      desc="Actual PLL clock frequency." />
   </Parameters>
 
   <DRCs>
@@ -99,11 +103,11 @@
   </DRCs>
 
   <ConfigFirmware>
-    <ConfigDefine name="CLOCK_SYSPLL_ENABLED" value="" public="false" include="true" />
+    <ConfigDefine name="CLOCK_SYSPLL_ENABLED" value="1U" public="false" include="true" />
     <ConfigDefine name="CLOCK_SYSPLL_SEL" value="`${clock_source}`" public="false" include="true" />
     <ConfigDefine name="CLOCK_SYSPLL_MODE" value="`${syspll_mode}`" public="false" include="true" />
-    <ConfigDefine name="CLOCK_SYSPLL_PDIV" value="`${pdiv}`" public="false" include="true" />
-    <ConfigDefine name="CLOCK_SYSPLL_NDIV" value="`${ndiv}`" public="false" include="true" />
-    <ConfigDefine name="CLOCK_SYSPLL_KDIV" value="`${kdiv}`" public="false" include="true" />
+    <ConfigDefine name="CLOCK_SYSPLL_PDIV" value="`${pdiv}`U" public="false" include="true" />
+    <ConfigDefine name="CLOCK_SYSPLL_NDIV" value="`${ndiv}`U" public="false" include="true" />
+    <ConfigDefine name="CLOCK_SYSPLL_KDIV" value="`${kdiv}`U" public="false" include="true" />
   </ConfigFirmware>
 </Personality>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
   <compounddef id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_WDT_CONFIG_t</compoundname>
     <includes local="no">xmc_wdt.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="162" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="159" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="150" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="150" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="147" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="147" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="152" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="152" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="149" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="149" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="154" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="154" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="151" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a4854608c0e776f0704a4d9a4b98ea57d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="158" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="158" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="155" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a3282745b032a6bfb98021a72893c022e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -82,10 +82,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Pre-warning mode (PRE). This accepts boolean values as input. </para>        </detaileddescription>
+<para>Pre-warning mode (PRE). This accepts boolean values as input. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="151" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="151" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="148" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="148" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a520b4ae1c029f1505fdb195b09fd68aa" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -96,10 +97,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Watchdog timer behaviour during debug (DSP). This accepts boolean values as input. </para>        </detaileddescription>
+<para>Watchdog timer behaviour during debug (DSP). This accepts boolean values as input. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="153" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="153" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="150" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a4517f0b60aa2d2e5147db99d20adb28f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -111,10 +113,11 @@
         </briefdescription>
         <detaileddescription>
 <para>Service Indication Pulse Width (SPW). Generated Pulse width is of (SPW+1), in fwdt cycles.<linebreak/>
- Range: [0H to FFH] </para>        </detaileddescription>
+ Range: [0H to FFH] </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="155" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="155" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="152" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1aeac84de094486b36a34f500f5b16f3c1" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -127,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="160" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="160" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="157" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="157" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a880a5d11ae52f7279e36a31270eb8f9f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -138,10 +141,11 @@
         </briefdescription>
         <detaileddescription>
 <para>Lower bound for servicing window (WLB). Setting the lower bound to 0H disables the window mechanism.<linebreak/>
-Range: [0H to FFFFFFFFH] </para>        </detaileddescription>
+Range: [0H to FFFFFFFFH] </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="143" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="143" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="140" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1aff074f1259e6fd21380c7bd67bde38ff" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -152,17 +156,19 @@ Range: [0H to FFFFFFFFH] </para>        </detaileddescription>
         </briefdescription>
         <detaileddescription>
 <para>Upper bound for service window (WUB). Reset request is generated up on overflow of timer. ALways upper bound value has to be more than lower bound value. If it is set lower than WLB, triggers a system reset after timer crossed upper bound value.<linebreak/>
-Range: [0H to FFFFFFFFH] </para>        </detaileddescription>
+Range: [0H to FFFFFFFFH] </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="139" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="139" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="136" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="136" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Structure for initializing watchdog timer. Use type <ref refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t" kindref="compound">XMC_WDT_CONFIG_t</ref> for this structure. </para>    </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="138" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="137" bodyend="163"/>
+<para>Structure for initializing watchdog timer. Use type <ref refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t" kindref="compound">XMC_WDT_CONFIG_t</ref> for this structure. </para>
+    </detaileddescription>
+    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="135" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="134" bodyend="160"/>
     <listofallmembers>
       <member refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_WDT_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_WDT_CONFIG_t</scope><name>__pad1__</name></member>

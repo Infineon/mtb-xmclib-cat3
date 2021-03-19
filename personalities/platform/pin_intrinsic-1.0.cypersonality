@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc_pin_intrinsic" name="Pin-Instrinsic" intrinsic="true" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc_pin_intrinsic" name="Pin-Instrinsic" intrinsic="true" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc_ioss" />
     <Resource name="ioss\.port\.pin" />

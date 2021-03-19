@@ -71,10 +71,6 @@
 
 #include "XMC1000_RomFunctionTable.h"
 
-/**
-* @addtogroup XMClib XMC Peripheral Library
-* @{
-*/
 
 /**
 * @addtogroup FLASH
@@ -451,10 +447,6 @@ __STATIC_INLINE void XMC_FLASH_SetHardReadLevel(XMC_FLASH_HARDREAD_LEVEL_t level
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @}
- */
 
 /**
  * @}

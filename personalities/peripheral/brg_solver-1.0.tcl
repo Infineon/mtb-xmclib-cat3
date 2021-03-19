@@ -1,4 +1,4 @@
-# Copyright 2020 Cypress Semiconductor Corporation
+# Copyright 2020-2021 Cypress Semiconductor Corporation
 # SPDX-License-Identifier: Apache-2.0
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -73,6 +73,7 @@ proc solve_brg_internal {peripheral_clock rate oversampling clockDividerMode} {
         # Fractional divider mode
         set peripheral_clock [expr {int($peripheral_clock / 100)}];
         set rate [expr {int($rate / 100)}];
+        if {$rate == 0} { incr rate 1; }
         
         set divider_step_min 1024;
         
@@ -87,7 +88,7 @@ proc solve_brg_internal {peripheral_clock rate oversampling clockDividerMode} {
             set pdiv_int [expr {$pdiv >> 10}];
             set pdiv_frac [expr {$pdiv & 0x3ff}];
 
-            if {[expr {($pdiv_int <= 1024) && ($pdiv_frac < $pdiv_frac_min)}]} {
+            if {[expr {($pdiv_int > 0) && ($pdiv_int <= 1024) && ($pdiv_frac < $pdiv_frac_min)}]} {
                 set pdiv_frac_min [expr {$pdiv_frac}];
                 set pdiv_int_min [expr {$pdiv_int}];
                 set divider_step_min [expr {$divider_step}];
@@ -104,7 +105,7 @@ proc solve_brg_internal {peripheral_clock rate oversampling clockDividerMode} {
 
         set divider_step [expr {int($peripheral_clock / $brg_clock)}];
         while {$divider_step >= 1023} {
-            incr $pdiv;
+            incr pdiv;
             set brg_clock [expr {$rate * $oversampling * $pdiv}];
             set divider_step [expr {int($peripheral_clock / $brg_clock)}];
         }
@@ -116,7 +117,7 @@ proc solve_brg_internal {peripheral_clock rate oversampling clockDividerMode} {
         
         # choose better approximation if the peripheral frequency is not a multiple of the baudrate
         if {$diff_lower < $diff_upper} {
-            incr $divider_step;
+            incr divider_step;
         }
 
         set actual_rate [expr {int($peripheral_clock / ($divider_step * $pdiv * $oversampling))}]

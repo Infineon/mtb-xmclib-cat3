@@ -83,7 +83,7 @@
  *
  * 2020-12-03:
  *     - Added XMC_SCU_IRQCTRL_CAN0_SR3_IRQ20. XMC_SCU_IRQCTRL_CAN0_SR4_IRQ20 is marked as deprecated
- * 
+ *
  * @endcond
  *
  */
@@ -98,10 +98,6 @@
 
 #if UC_FAMILY == XMC1
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup SCU
@@ -1311,7 +1307,7 @@ __STATIC_INLINE void XMC_SCU_POWER_DisableMonitor(void)
  *             \ref XMC_SCU_BMI_HWCFG_SSC_BSLTO<br>
  *             \ref XMC_SCU_BMI_HWCFG_SBSL<br><br>
  *        optionally OR'd together with any of (only available for XMC1400 series): <br>
- *             \ref XMC_SCU_BMI_HWCFG_PINDIS 
+ *             \ref XMC_SCU_BMI_HWCFG_PINDIS
  *        optionally OR'd together with any of: <br>
  *             \ref XMC_SCU_BMI_DAPTYP_SWD<br>
  *             \ref XMC_SCU_BMI_DAPTYP_SPD<br><br>
@@ -1475,9 +1471,6 @@ __STATIC_INLINE bool XMC_SCU_CLOCK_IsDCO1ClockFrequencyUsable(void)
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* UC_FAMILY == XMC1 */
 

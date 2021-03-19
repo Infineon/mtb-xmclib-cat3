@@ -48,10 +48,6 @@
  * @endcond
  */
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup ECAT
@@ -458,9 +454,6 @@ __STATIC_INLINE void XMC_ECAT_SetALEventMask(uint16_t intMask)
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* defined (ECAT) */
 

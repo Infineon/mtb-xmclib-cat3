@@ -64,11 +64,6 @@
 #if defined (PRNG)
 
 /**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
-
-/**
  * @addtogroup PRNG
  * @brief Pseudo Random Number Generator (PRNG) driver for XMC1000 microcontroller family
  *
@@ -279,10 +274,6 @@ __STATIC_INLINE uint16_t XMC_PRNG_GetPseudoRandomNumber(void)
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @}
- */
 
 /**
  * @}

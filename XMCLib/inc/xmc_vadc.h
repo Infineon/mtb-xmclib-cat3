@@ -128,10 +128,10 @@
  *
  * 2020-09-03:
  *     - Added XMC_VADC_GROUP_GetPowerMode()
- * 
+ *
  * 2020-11-11:
  *     - Fixed XMC_VADC_GLOBAL_SHS_SetAnalogReference() and XMC_VADC_GROUP_SetChannelAlias()
- * 
+ *
  * @endcond
  *
  */
@@ -146,10 +146,6 @@
 #include "xmc_scu.h"
 #include "xmc_vadc_map.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup VADC
@@ -5084,10 +5080,6 @@ __STATIC_INLINE uint32_t XMC_VADC_GROUP_GetResultRegPriority(XMC_VADC_GROUP_t *c
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @}
- */
 
 /**
  * @}

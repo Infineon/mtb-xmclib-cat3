@@ -1,0 +1,66 @@
+var group___e_c_a_t =
+[
+    [ "XMC_ECAT_CONFIG_t", "union_x_m_c___e_c_a_t___c_o_n_f_i_g__t.html", [
+      [ "dword", "union_x_m_c___e_c_a_t___c_o_n_f_i_g__t.html#aa9466df7cd6c8d4169a3106d3ba7c559", null ],
+      [ "station_alias", "union_x_m_c___e_c_a_t___c_o_n_f_i_g__t.html#a54f3032730e8fcfe18957398fecf4347", null ],
+      [ "sync_pulse_length", "union_x_m_c___e_c_a_t___c_o_n_f_i_g__t.html#a231db606aff8c2af9c6261c031ab9a57", null ]
+    ] ],
+    [ "XMC_ECAT_PORT_CTRL_t", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html", [
+      [ "__pad0__", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a3e57c2ef1c3ffb36722f000cc1156824", null ],
+      [ "__pad1__", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a6712ba6dd1d5b43d2d56ff8ac4e275a7", null ],
+      [ "__pad2__", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a9ce12a63de64ef64ae2d59d128251cae", null ],
+      [ "__pad3__", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a4854608c0e776f0704a4d9a4b98ea57d", null ],
+      [ "__pad4__", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a7b2edc85d90e34c4435951e1e5c59517", null ],
+      [ "enable_rstreq", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#af5105c675c5eaa94251e21ad545bc202", null ],
+      [ "latch_input0", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a31dedc2c7ce3f3682a9c610fe0802368", null ],
+      [ "latch_input1", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#ac039c6ce864b47c14511ef580823fe88", null ],
+      [ "link", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a6163461798acb053ba062347095330e0", null ],
+      [ "mdio", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a64c7c0762a879e3ada17a39e8a3080c9", null ],
+      [ "phyaddr_offset", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a80a432d4379551529d62aba3b58603fa", null ],
+      [ "rx_clk", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a2be567cb9a63eebd46b36cfca645f589", null ],
+      [ "rx_dv", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#aab914121f91beccd7f39d6915a2ebdc1", null ],
+      [ "rx_err", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#af4cdaa4fcf622a60f8bcd1419c5ee352", null ],
+      [ "rxd0", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a293a1a55abd9118cbb42d03e382af6d9", null ],
+      [ "rxd1", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a566d7eee6f8a71a3b96bc59aa0971f5c", null ],
+      [ "rxd2", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#ae3826e1526ed6736e3f9ae543aa9375c", null ],
+      [ "rxd3", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a1526257b7badedbd75ffba3ff799c5e3", null ],
+      [ "tx_clk", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a980ee6580fbf842150e8856ef51a6eab", null ],
+      [ "tx_shift", "struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t.html#a70d88973938a54a9414af2b898db12a1", null ]
+    ] ],
+    [ "XMC_ECAT_EVENT_t", "group___e_c_a_t.html#ga9402d2cecbc451c5d399b8421879a868", [
+      [ "XMC_ECAT_EVENT_AL_CONTROL", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a4e2aa9cfeee708fd5fab4851419cd31d", null ],
+      [ "XMC_ECAT_EVENT_DC_LATCH", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a41112774f0b2f4e0ffec1fcc5d5864f2", null ],
+      [ "XMC_ECAT_EVENT_DC_SYNC0", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a1cc677fedae413d018ce84d1f27fbe2f", null ],
+      [ "XMC_ECAT_EVENT_DC_SYNC1", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868ac18135277393fd5800a1185c7f7f93a2", null ],
+      [ "XMC_ECAT_EVENT_SM_ACTIVATION_REGISTER", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868af2b5e847c4fc1f7dbfe6b27f5b589cdd", null ],
+      [ "XMC_ECAT_EVENT_EEPROM", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a7274f70c022eb0ccb8756e0ee54e57fa", null ],
+      [ "XMC_ECAT_EVENT_WATCHDOG", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a13d25e8fc95c101d4ad26d3e3abcfdd2", null ],
+      [ "XMC_ECAT_EVENT_SM0", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a03893697692f86b657a6eb1334865dc9", null ],
+      [ "XMC_ECAT_EVENT_SM1", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a2bf3f483b7e670934b03bbe8805988e0", null ],
+      [ "XMC_ECAT_EVENT_SM2", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868aa12ac74a4523870880fa6a831b6d7793", null ],
+      [ "XMC_ECAT_EVENT_SM3", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a7c4e7da792fcff011b030de6ac1bdaf9", null ],
+      [ "XMC_ECAT_EVENT_SM4", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868afb6edbdff957514248142646d1139d22", null ],
+      [ "XMC_ECAT_EVENT_SM5", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a23dcec8ab1292e89328c76b3aa9d9e96", null ],
+      [ "XMC_ECAT_EVENT_SM6", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a2c9c905fd4d55a8680ba080fd8ffe8db", null ],
+      [ "XMC_ECAT_EVENT_SM7", "group___e_c_a_t.html#gga9402d2cecbc451c5d399b8421879a868a847c7259b2598f22e2d81b17b0204ab0", null ]
+    ] ],
+    [ "XMC_ECAT_STATUS_t", "group___e_c_a_t.html#gab1b5537677cae18a8801a3441b49ee62", [
+      [ "XMC_ECAT_STATUS_OK", "group___e_c_a_t.html#ggab1b5537677cae18a8801a3441b49ee62a5bc826d8b68c209f80f0a7ea3e665933", null ],
+      [ "XMC_ECAT_STATUS_BUSY", "group___e_c_a_t.html#ggab1b5537677cae18a8801a3441b49ee62a4b35955b9ab4d3bbb97a4f29d00ac0cf", null ],
+      [ "XMC_ECAT_STATUS_ERROR", "group___e_c_a_t.html#ggab1b5537677cae18a8801a3441b49ee62ac77d6331741ebb38bfed9c9f12b242d4", null ]
+    ] ],
+    [ "XMC_ECAT_Disable", "group___e_c_a_t.html#ga81b5c1eaffe2c84cf73ce7ebac0544d0", null ],
+    [ "XMC_ECAT_DisableEvent", "group___e_c_a_t.html#ga3e498babbb59882312137766d2b2e70f", null ],
+    [ "XMC_ECAT_DisableSyncManChannel", "group___e_c_a_t.html#ga20fbe77b86c01c3e311fd7ed4be50aa8", null ],
+    [ "XMC_ECAT_Enable", "group___e_c_a_t.html#gaa35b5d6b5f3acbcc087884a05363c3ff", null ],
+    [ "XMC_ECAT_EnableEvent", "group___e_c_a_t.html#ga290147da4fafee983cb87bd89e250422", null ],
+    [ "XMC_ECAT_EnableSyncManChannel", "group___e_c_a_t.html#ga825f2662f72b0c45f324632c7b678f2b", null ],
+    [ "XMC_ECAT_GetALEventMask", "group___e_c_a_t.html#ga3f5f43ca67aec259a94d7fe58ae9777c", null ],
+    [ "XMC_ECAT_GetALEventRegister", "group___e_c_a_t.html#gaab9fab89dd35a17739178337fc8693e7", null ],
+    [ "XMC_ECAT_GetEventStatus", "group___e_c_a_t.html#ga0b0335de55c30755747fdf449645e1a3", null ],
+    [ "XMC_ECAT_Init", "group___e_c_a_t.html#gafe24f6be2d2729750e60e87c27a71381", null ],
+    [ "XMC_ECAT_ReadPhy", "group___e_c_a_t.html#ga1c591d9ba2c9016f328ad79bca9ecbd2", null ],
+    [ "XMC_ECAT_SetALEventMask", "group___e_c_a_t.html#ga172c4c1cabfd29c981fed161ca4d366f", null ],
+    [ "XMC_ECAT_SetPortControl", "group___e_c_a_t.html#ga45a5a867acb63735113c118bcc1a4d51", null ],
+    [ "XMC_ECAT_WritePhy", "group___e_c_a_t.html#ga7d058669f327b10b3725f3c09c30840f", null ]
+];

@@ -76,10 +76,6 @@ extern "C" {
 #if defined(MATH)
 #include "xmc_scu.h"
 
-/**
- * @addtogroup XMClib
- * @{
- */
 
 /**
  * @addtogroup MATH
@@ -1072,10 +1068,6 @@ int16_t XMC_MATH_CORDIC_Q15_Sqrt(int16_t x);
  *
  */
 int32_t XMC_MATH_CORDIC_Q31_Sqrt(int32_t x);
-/**
- * @}
- */
-
 /**
  * @}
  */

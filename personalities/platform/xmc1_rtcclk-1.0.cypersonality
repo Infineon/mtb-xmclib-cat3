@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,42 +25,46 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc1_rtcclk" name="RTCCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc1_rtcclk" name="RTCCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc1_scu" />
     <Resource name="scu\.clock\.rtcclk" />
   </Dependencies>
   <ExposedMembers>
     <ExposedMember key="frequency" paramId="fRTC" />
+    <ExposedMember key="sourceClockDisplayName" paramId="rtc_src_display" />
   </ExposedMembers>
 
   <Parameters>
     <!-- Internal -->
-    <ParamString id="osclp_resource" name="OSC_LP clock resource" group="Internal"
+    <ParamString id="osclp_resource" name="OSC_LP Resource" group="Internal"
       default="scu[0].clock[0].osc_lp[0]" visible="false" editable="false" desc="" />
-    <ParamBool id="osclp_enabled" name="OSC_LP clock enabled" group="Internal"
+    <ParamBool id="osclp_enabled" name="OSC_LP Enabled" group="Internal"
       default="`${isBlockUsed(osclp_resource)}`" visible="false" editable="false" desc="" />
-    <ParamBool id="has_acmp" name="ACMP resource available" group="Internal"
+    <ParamBool id="has_acmp" name="ACMP Resource Available" group="Internal"
       default="`${lookupExpression(&quot;HAS_ACMP&quot;, 0) &gt; 0}`"
       visible="false" editable="false" desc="" />
     <ParamString id="fRTC" name="Frequency (Hz)" group="Internal"
       default="32768" visible="false" editable="false" desc="" />
 
     <!-- General -->
-    <ParamChoice id="rtc_src" name="Clock source" group="General"
+    <ParamChoice id="rtc_src" name="Source Clock" group="General"
       default="XMC_SCU_CLOCK_RTCCLKSRC_DCO2" visible="true" editable="true" desc="RTC clock source." >
       <Entry name="DCO2"      value="XMC_SCU_CLOCK_RTCCLKSRC_DCO2"      visible="true" />
       <Entry name="ERU_IOUT0" value="XMC_SCU_CLOCK_RTCCLKSRC_ERU_IOUT0" visible="true" />
       <Entry name="ACMP0_OUT" value="XMC_SCU_CLOCK_RTCCLKSRC_ACMP0_OUT" visible="`${has_acmp}`" />
       <Entry name="ACMP1_OUT" value="XMC_SCU_CLOCK_RTCCLKSRC_ACMP1_OUT" visible="`${has_acmp}`" />
       <Entry name="ACMP2_OUT" value="XMC_SCU_CLOCK_RTCCLKSRC_ACMP2_OUT" visible="`${has_acmp}`" />
-      <Entry name="OSC_LP"    value="XMC_SCU_CLOCK_RTCCLKSRC_OSCLP"     visible="true" />
+      <Entry name="OSC_LP"    value="XMC_SCU_CLOCK_RTCCLKSRC_OSCLP"     visible="`${lookupExpression(&quot;HAS_OSCLP&quot;, 0) &gt; 0}`" />
     </ParamChoice>
-    <ParamRange id="frequency_info" name="Frequency (KHz)" group="General"
-      default="`${fRTC / 1000.0}`" min="0" max="48" resolution="0.001"
-      visible="true" editable="false" desc="The resulting RTC clock frequency in KHz." />
+    <ParamString id="rtc_src_display" name="Source Clock Display" group="Internal"
+      default="`${getParamValueDisplay(&quot;rtc_src&quot;)}`" visible="false" editable="false"
+      desc="The display name of the currently selected clock source." />
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fRTC)}`" visible="true" editable="false"
+      desc="The resulting RTC clock frequency." />
   </Parameters>
-  
+
   <DRCs>
     <DRC type="ERROR" text="Source clock for RTC clock is not enabled" condition="`${(rtc_src eq XMC_SCU_CLOCK_RTCCLKSRC_OSCLP) &amp;&amp; !osclp_enabled}`" >
       <FixIt action="ENABLE_BLOCK" target="`${osclp_resource}`" value="" valid="true" />

@@ -81,7 +81,7 @@
  * 2019-05-07:
  *     - Fix compilation issues on XMC45
  *     - Fix compilation warnings
- * 
+ *
  * 2020-11-12:
  *     - Fix XMC_SDMMC_SetCardDetectionSource() and XMC_SDMMC_SetCardDetectionStatus()
  *
@@ -110,10 +110,6 @@
 #define SDMMC_CON_CDSVAL_Msk 0x00100000UL
 #endif
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup SDMMC
@@ -1762,9 +1758,6 @@ __STATIC_INLINE void XMC_SDMMC_DisableHighSpeed(XMC_SDMMC_t *const sdmmc)
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* #if defined (SDMMC) */
 

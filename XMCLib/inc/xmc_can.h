@@ -117,10 +117,6 @@
 #include "xmc_can_map.h"
 #include <string.h>
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup CAN
@@ -2362,9 +2358,6 @@ __STATIC_INLINE uint32_t XMC_CAN_MO_GetNextMessageObjectIdx(XMC_CAN_MO_t *can_mo
   * @}
   */
 
-/**
-  * @}
-  */
 
 #endif /* defined(CAN) */
 

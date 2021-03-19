@@ -72,10 +72,6 @@
 /* DAC peripheral is not available on XMC1X devices. */
 #if defined(DAC)
 
-/**
- * @addtogroup XMClib
- * @{
- */
 
 /**
  * @addtogroup DAC
@@ -1345,10 +1341,6 @@ __STATIC_INLINE bool XMC_DAC_CH_IsFifoEmpty(const XMC_DAC_t *const dac, const ui
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @}
- */
 
 /**
  * @}

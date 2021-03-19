@@ -107,10 +107,6 @@
 #include "xmc4_ccu4_map.h"
 #endif
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup CCU4
@@ -2471,9 +2467,6 @@ __STATIC_INLINE XMC_CCU4_SLICE_STATUS_BIT_t XMC_CCU4_GetSliceStatusBit(XMC_CCU4_
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* defined(CCU40) */
 

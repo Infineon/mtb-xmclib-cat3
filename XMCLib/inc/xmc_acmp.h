@@ -76,11 +76,6 @@
 
 
 /**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
-
-/**
  * @addtogroup ACMP
  * @brief Analog Comparator(ACMP) low level driver for XMC1 family of microcontrollers. <br>
  *
@@ -415,10 +410,6 @@ __STATIC_INLINE void XMC_ACMP_ClearLowPowerMode(void)
 {
   COMPARATOR->ANACMP0 &= (uint16_t)(~(uint16_t)COMPARATOR_ANACMP0_CMP_LPWR_Msk);
 }
-
-/**
- * @}
- */
 
 /**
  * @}

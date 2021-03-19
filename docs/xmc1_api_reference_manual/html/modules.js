@@ -1,0 +1,25 @@
+var modules =
+[
+    [ "Analog Comparator(ACMP)", "group___a_c_m_p.html", "group___a_c_m_p" ],
+    [ "Brightness and Color Control Unit(BCCU)", "group___b_c_c_u.html", "group___b_c_c_u" ],
+    [ "Capture Compare Unit 4(CCU4)", "group___c_c_u4.html", "group___c_c_u4" ],
+    [ "Capture Compare Unit 8(CCU8)", "group___c_c_u8.html", "group___c_c_u8" ],
+    [ "Controller Area Network Controller(CAN)", "group___c_a_n.html", "group___c_a_n" ],
+    [ "Event Request Unit (ERU)", "group___e_r_u.html", "group___e_r_u" ],
+    [ "Flash driver (FLASH)", "group___f_l_a_s_h.html", "group___f_l_a_s_h" ],
+    [ "General Purpose Input Output (GPIO)", "group___g_p_i_o.html", "group___g_p_i_o" ],
+    [ "Inter IC Sound (IIS)", "group___i2_s.html", "group___i2_s" ],
+    [ "Inter Integrated Circuit(IIC)", "group___i2_c.html", "group___i2_c" ],
+    [ "LED and Touch-Sense control(LEDTS)", "group___l_e_d_t_s.html", "group___l_e_d_t_s" ],
+    [ "MATH Coprocessor (MATH)", "group___m_a_t_h.html", "group___m_a_t_h" ],
+    [ "Peripheral Access Unit (PAU)", "group___p_a_u.html", "group___p_a_u" ],
+    [ "Position Interface Unit (POSIF)", "group___p_o_s_i_f.html", "group___p_o_s_i_f" ],
+    [ "Pseudo Random Number Generator (PRNG)", "group___p_r_n_g.html", "group___p_r_n_g" ],
+    [ "Real-time clock (RTC)", "group___r_t_c.html", "group___r_t_c" ],
+    [ "Synchronous serial channel for SPI", "group___s_p_i.html", "group___s_p_i" ],
+    [ "System Control Unit(SCU)", "group___s_c_u.html", "group___s_c_u" ],
+    [ "Universal Asynchronous Receiver/Transmitter (UART)", "group___u_a_r_t.html", "group___u_a_r_t" ],
+    [ "Universal Serial Interface Channel(USIC)", "group___u_s_i_c.html", "group___u_s_i_c" ],
+    [ "Versatile Analog to Digital Converter (VADC)", "group___v_a_d_c.html", "group___v_a_d_c" ],
+    [ "Watchdog driver (WDT)", "group___w_d_t.html", "group___w_d_t" ]
+];

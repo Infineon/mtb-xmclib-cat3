@@ -1,8 +1,8 @@
 /*********************************************************************************************************************
  * @file     system_XMC1400.c
  * @brief    Device specific initialization for the XMC1400-Series according to CMSIS
- * @version  V1.9
- * @date     13 Nov 2020
+ * @version  V1.10
+ * @date     02 Feb 2021
  *
  * @cond
  *********************************************************************************************************************
@@ -57,6 +57,7 @@
  * V1.7, 02 Dec 2019, Fix including device header file following the convention: angle brackets are used for standard includes and double quotes for everything else.
  * V1.8, 03 Mar 2020, Fix seeting of ANAOSCHPCTRL accoring to OSC_CM.D001 in errata
  * V1.9, 13 Nov 2020, Added options to disable/enable the OSC_HP/LP. 
+ * V1.10,02 Feb 2021, Fix to support OSCHP_MODE_DIRECT. 
  *
  * @endcond
  */
@@ -208,7 +209,7 @@ __WEAK void SystemCoreClockSetup(void)
   /* disable bit protection */
   SCU_GENERAL->PASSWD = 0x000000C0UL;
 
-#if OSCHP_MODE == OSCHP_MODE_XTAL
+#if OSCHP_MODE != OSCHP_MODE_POWER_DOWN
 
   /* OSC_CM.D001 Additions and corrections related to ANAOSCHPCTRL register */
   if (OSCHP_GetFrequency() <= 20000000U)

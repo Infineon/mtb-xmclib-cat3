@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc_pin" name="Pin" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc_pin" name="Pin" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc_ioss" />
     <Resource name="ioss\.port\.pin" />
@@ -35,22 +35,22 @@
     <!--Internal-->
     <ParamBool id="xmc1" name="xmc1" group="Internal" default="`${lookupExpression(&quot;XMC1&quot;, 0)}`" visible="false" editable="false" desc="" />
     <ParamBool id="xmc4" name="xmc4" group="Internal" default="`${lookupExpression(&quot;XMC4&quot;, 0)}`" visible="false" editable="false" desc="" />
-    <ParamRange id="port" name="Port number" group="Internal" default="`${getInstNumber(&quot;port&quot;)}`" min="0" max="16" resolution="1" visible="false" editable="false" desc="" />
-    <ParamRange id="pin" name="Pin number" group="Internal" default="`${getInstNumber(&quot;pin&quot;)}`" min="0" max="16" resolution="1" visible="false" editable="false" desc="" />
-    <ParamString id="blockName" name="Block name" group="Internal" default="`${&quot;ioss_0_port_&quot; . port . &quot;_pin_&quot; . pin}`" visible="false" editable="false" desc="" />
+    <ParamRange id="port" name="Port Number" group="Internal" default="`${getInstNumber(&quot;port&quot;)}`" min="0" max="16" resolution="1" visible="false" editable="false" desc="" />
+    <ParamRange id="pin" name="Pin Number" group="Internal" default="`${getInstNumber(&quot;pin&quot;)}`" min="0" max="16" resolution="1" visible="false" editable="false" desc="" />
+    <ParamString id="blockName" name="Block Name" group="Internal" default="`${&quot;ioss_0_port_&quot; . port . &quot;_pin_&quot; . pin}`" visible="false" editable="false" desc="" />
 
     <!-- Peripheral documentation -->
     <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${xmc1 ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___g_p_i_o.html" linkText="Open GPIO Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!--General-->
-    <ParamChoice id="io_function" name="Pin direction" group="General" default="XMC_GPIO_INPUT_OUTPUT" visible="true" editable="true" desc="Select Pin functionality." >
+    <ParamChoice id="io_function" name="Pin Direction" group="General" default="XMC_GPIO_INPUT_OUTPUT" visible="true" editable="true" desc="Select Pin functionality." >
       <Entry name="Input" value="XMC_GPIO_INPUT" visible="true" />
       <Entry name="Input/Output" value="XMC_GPIO_INPUT_OUTPUT" visible="true" />
       <Entry name="Hardware Controlled" value="XMC_GPIO_HWCTRL" visible="true" />
     </ParamChoice>
 
     <!--Input Settings-->
-    <ParamChoice id="input_mode" name="Input mode" group="Input" default="XMC_GPIO_MODE_INPUT_TRISTATE" visible="`${io_function ne XMC_GPIO_INPUT_OUTPUT}`" editable="true" desc="Select Pull up/Pull down Devices." >
+    <ParamChoice id="input_mode" name="Input Mode" group="Input" default="XMC_GPIO_MODE_INPUT_TRISTATE" visible="`${io_function eq XMC_GPIO_INPUT}`" editable="true" desc="Select Pull up/Pull down Devices." >
       <Entry name="Tristate" value="XMC_GPIO_MODE_INPUT_TRISTATE" visible="true" />
       <Entry name="Pull Up" value="XMC_GPIO_MODE_INPUT_PULL_UP" visible="true" />
       <Entry name="Pull Down" value="XMC_GPIO_MODE_INPUT_PULL_DOWN" visible="true" />
@@ -66,15 +66,15 @@
     </ParamChoice>
 
     <!--Output Settings-->
-    <ParamChoice id="output_mode" name="Output mode" group="Output" default="XMC_GPIO_MODE_OUTPUT_PUSH_PULL" visible="`${io_function eq XMC_GPIO_INPUT_OUTPUT}`" editable="true" desc="Select push pull/open drain mode." >
+    <ParamChoice id="output_mode" name="Output Mode" group="Output" default="XMC_GPIO_MODE_OUTPUT_PUSH_PULL" visible="`${io_function eq XMC_GPIO_INPUT_OUTPUT}`" editable="true" desc="Select push pull/open drain mode." >
       <Entry name="Push Pull" value="XMC_GPIO_MODE_OUTPUT_PUSH_PULL" visible="true" />
       <Entry name="Open Drain" value="XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN" visible="true" />
     </ParamChoice>
-    <ParamChoice id="output_level" name="Initial output level" group="Output" default="XMC_GPIO_OUTPUT_LEVEL_LOW" visible="`${io_function eq XMC_GPIO_INPUT_OUTPUT}`" editable="true" desc="Select output initialization level for the port." >
+    <ParamChoice id="output_level" name="Initial Output Level" group="Output" default="XMC_GPIO_OUTPUT_LEVEL_LOW" visible="`${io_function eq XMC_GPIO_INPUT_OUTPUT}`" editable="true" desc="Select output initialization level for the port." >
       <Entry name="Low" value="XMC_GPIO_OUTPUT_LEVEL_LOW" visible="true" />
       <Entry name="High" value="XMC_GPIO_OUTPUT_LEVEL_HIGH" visible="true" />
     </ParamChoice>
-    <ParamChoice id="output_strength" name="Driver strength" group="Output" default="XMC_GPIO_OUTPUT_STRENGTH_NONE" visible="`${xmc4 &amp;&amp; (io_function ne XMC_GPIO_INPUT)}`" editable="true" desc="Select output strength and slew rate of a pin." >
+    <ParamChoice id="output_strength" name="Driver Strength" group="Output" default="XMC_GPIO_OUTPUT_STRENGTH_NONE" visible="`${xmc4 &amp;&amp; (io_function ne XMC_GPIO_INPUT)}`" editable="true" desc="Select output strength and slew rate of a pin." >
       <Entry name="Don't Care" value="XMC_GPIO_OUTPUT_STRENGTH_NONE" visible="true" />
       <Entry name="Weak Driver" value="XMC_GPIO_OUTPUT_STRENGTH_WEAK" visible="true" />
       <Entry name="Medium Driver" value="XMC_GPIO_OUTPUT_STRENGTH_MEDIUM" visible="true" />
@@ -95,10 +95,16 @@
 
     <!--Config-->
     <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
-    <ParamBool id="hasDigitalConnection" name="Has digital connection" group="Advanced" default="`${hasConnection(&quot;digital_in&quot;, 0) || hasConnection(&quot;digital_out&quot;, 0)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="hasDigitalConnection" name="Has Digital Connection" group="Advanced" default="`${hasConnection(&quot;digital_in&quot;, 0) || hasConnection(&quot;digital_out&quot;, 0)}`" visible="false" editable="false" desc="" />
   </Parameters>
 
   <DRCs>
+    <DRC type="ERROR" text="The analog terminal cannot be connected when the digital_in terminal is connected."
+      condition="`${hasConnection(&quot;analog&quot;, 0) &amp;&amp; hasConnection(&quot;digital_in&quot;, 0)}`" />
+    <DRC type="ERROR" text="The analog terminal cannot be connected when the digital_out terminal is connected."
+      condition="`${hasConnection(&quot;analog&quot;, 0) &amp;&amp; hasConnection(&quot;digital_out&quot;, 0)}`" />
+    <DRC type="ERROR" text="The analog terminal cannot be connected when the hw_out terminal is connected."
+      condition="`${hasConnection(&quot;analog&quot;, 0) &amp;&amp; hasConnection(&quot;hw_out&quot;, 0)}`" />
   </DRCs>
 
   <ConfigFirmware>
@@ -110,9 +116,9 @@
     <ConfigDefine name="`${INST_NAME}`_PIN" value="`${pin}`U" public="true" include="true" />
     <ConfigDefine name="`${blockName . &quot;_INPUT&quot;}`" value="0U" public="true" include="`${io_function eq XMC_GPIO_INPUT}`" preventOverride="true" />
     <ConfigDefine name="`${blockName . &quot;_ALT&quot;}`" value="0U" public="true" include="`${io_function ne XMC_GPIO_INPUT}`" preventOverride="true" />
-    <ConfigDefine name="`${INST_NAME}`_MODE" value="`${(io_function eq XMC_GPIO_INPUT) ? (&quot;(&quot; . input_mode . &quot; | &quot; . blockName . &quot;_INPUT)&quot;) : (&quot;(&quot; . output_mode . &quot; | &quot; . blockName . &quot;_ALT)&quot;)}`" public="true" include="true" />
-    <ConfigDefine name="`${blockName . &quot;_HWCTRL&quot;}`" value="XMC_GPIO_HWCTRL_DISABLED" public="true" include="true" preventOverride="true" />
-    <ConfigDefine name="`${INST_NAME}`_HWCTRL" value="`${blockName . &quot;_HWCTRL&quot;}`" public="true" include="`${INST_NAME ne blockName}`" />
+    <ConfigDefine name="`${INST_NAME}`_MODE" value="`${(io_function eq XMC_GPIO_INPUT) ? (&quot;(&quot; . input_mode . &quot; | &quot; . blockName . &quot;_INPUT)&quot;) : ((io_function eq XMC_GPIO_INPUT_OUTPUT) ? (&quot;(&quot; . output_mode . &quot; | &quot; . blockName . &quot;_ALT)&quot;) : blockName . &quot;_ALT&quot;)}`" public="true" include="true" />
+    <ConfigDefine name="`${blockName . &quot;_HWO&quot;}`" value="XMC_GPIO_HWCTRL_DISABLED" public="true" include="true" preventOverride="true" />
+    <ConfigDefine name="`${INST_NAME}`_HWO" value="`${blockName . &quot;_HWO&quot;}`" public="true" include="`${INST_NAME ne blockName}`" />
 
     <ConfigStruct name="`${INST_NAME}`_config" type="XMC_GPIO_CONFIG_t" const="`${inFlash}`" public="true" include="true">
       <Member name="mode" value="(XMC_GPIO_MODE_t)`${INST_NAME}`_MODE" />
@@ -122,6 +128,6 @@
     </ConfigStruct>
 
     <ConfigInstruction value="XMC_GPIO_Init(`${INST_NAME}`_PORT, `${INST_NAME}`_PIN, &amp;`${INST_NAME}`_config);" include="`${!skipConfigCodeGen}`"/>
-    <ConfigInstruction value="XMC_GPIO_SetHardwareControl(`${INST_NAME}`_PORT, `${INST_NAME}`_PIN, `${INST_NAME}`_HWCTRL);" include="`${!skipConfigCodeGen}`" />
+    <ConfigInstruction value="XMC_GPIO_SetHardwareControl(`${INST_NAME}`_PORT, `${INST_NAME}`_PIN, `${INST_NAME}`_HWO);" include="`${!skipConfigCodeGen}`" />
   </ConfigFirmware>
 </Personality>

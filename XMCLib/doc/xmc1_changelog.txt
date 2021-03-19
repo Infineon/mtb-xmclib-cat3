@@ -1,8 +1,0 @@
-﻿/**
- * @page Changelog
- *
- * @tableofcontents
- *
- * @section v050 Version 0.5.0
- * - Initial version. Early access for XMC devices in ModusToolbox.
- */

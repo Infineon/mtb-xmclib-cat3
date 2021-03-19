@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc1_dco2" name="DCO2" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc1_dco2" name="DCO2" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc1_scu" />
     <Resource name="scu\.clock\.dco2" />
@@ -40,9 +40,9 @@
       default="32768" visible="false" editable="false" desc="" />
 
     <!-- General -->
-    <ParamRange id="frequency_info" name="Frequency (KHz)" group="General"
-      default="`${fDCO2 / 1000.0}`" min="0" max="48" resolution="0.001"
-      visible="true" editable="false" desc="The actual DCO2 frequency in KHz." />
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fDCO2)}`" visible="true" editable="false"
+      desc="The actual DCO2 frequency." />
   </Parameters>
 
   <ConfigFirmware>

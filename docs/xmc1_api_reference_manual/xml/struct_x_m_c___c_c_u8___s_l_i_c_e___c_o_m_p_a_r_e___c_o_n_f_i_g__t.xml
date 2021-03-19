@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
   <compounddef id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_CCU8_SLICE_COMPARE_CONFIG_t</compoundname>
     <includes local="no">xmc_ccu8.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="962" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="958" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a9bf7f084c3fced704ac03988c358670a" prot="public" static="no" mutable="no">
         <type>union XMC_CCU8_SLICE_COMPARE_CONFIG_t::@64</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="978" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="974" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1abe8cf38a7a1972bf15d134eb49cd8a32" prot="public" static="no" mutable="no">
         <type>union XMC_CCU8_SLICE_COMPARE_CONFIG_t::@66</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1016" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1012" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="947" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="947" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="943" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="943" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="950" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="950" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="946" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="946" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="953" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="953" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="949" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="949" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a4854608c0e776f0704a4d9a4b98ea57d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="956" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="956" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="952" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="952" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a7b2edc85d90e34c4435951e1e5c59517" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="959" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="959" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="955" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="955" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a528225f882cc14ce439e3a26823eca2e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -122,10 +122,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Should the PWM be a function of the 2 compare channels rather than period value? </para>        </detaileddescription>
+<para>Should the PWM be a function of the 2 compare channels rather than period value? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="983" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="983" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="979" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="979" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1ad5f060534d1fcda91816bef46dd879a0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -138,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1015" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1015" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1011" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1011" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1aa14b94114460a1902e0c2a20956448a1" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -149,10 +150,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Can the compare match of the timer dither? </para>        </detaileddescription>
+<para>Can the compare match of the timer dither? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="949" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="949" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="945" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="945" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a310e4ead17ab49ff3ad06799d0c40cce" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -163,10 +165,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The value that determines the spreading of dithering Range : [0 to 15] </para>        </detaileddescription>
+<para>The value that determines the spreading of dithering Range : [0 to 15] </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1021" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1021" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1017" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1017" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1ab5693fb96a5127258d6a41b5726facae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -177,10 +180,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Can the period of the timer dither? </para>        </detaileddescription>
+<para>Can the period of the timer dither? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="948" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="948" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="944" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="944" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a29df27038d64d7e3933d6ae9c83a09d6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -191,10 +195,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The max value which the prescaler divider can increment to. Range : [0 to 15] </para>        </detaileddescription>
+<para>The max value which the prescaler divider can increment to. Range : [0 to 15] </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1019" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1019" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1015" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1015" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a2a87d90134f1b5a6b40d902cf7953a30" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -205,10 +210,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Should inverted ST of Channel-1 be connected to OUT0? </para>        </detaileddescription>
+<para>Should inverted ST of Channel-1 be connected to OUT0? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="986" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="986" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="982" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="982" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1aac59dc5577ca246798fca315537683e2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -219,10 +225,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Should inverted ST of Channel-1 be connected to OUT1? </para>        </detaileddescription>
+<para>Should inverted ST of Channel-1 be connected to OUT1? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="987" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="987" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="983" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="983" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a0e2581bee07874b3a976971c245e6d66" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -233,10 +240,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Should inverted ST of Channel-2 be connected to OUT2? </para>        </detaileddescription>
+<para>Should inverted ST of Channel-2 be connected to OUT2? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="988" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="988" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="984" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="984" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a3a1599a9b7519cacc0badcb398288761" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -247,10 +255,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Should inverted ST of Channel-2 be connected to OUT3? </para>        </detaileddescription>
+<para>Should inverted ST of Channel-2 be connected to OUT3? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="989" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="989" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="985" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="985" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a8c893ce307d8562df9cbbb4a6d679f4c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -261,10 +270,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Multi-Channel mode for compare channel 1 enable? </para>        </detaileddescription>
+<para>Multi-Channel mode for compare channel 1 enable? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="954" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="954" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="950" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="950" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1ac58dd21971455f9626819c37863fd6b8" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -275,10 +285,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Multi-Channel mode for compare channel 2 enable? </para>        </detaileddescription>
+<para>Multi-Channel mode for compare channel 2 enable? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="955" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="955" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="951" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="951" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1aed756297bbca5df8848232df779d05a9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -289,10 +300,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Single shot or Continuous mode . Accepts enum :: XMC_CCU8_SLICE_TIMER_REPEAT_MODE_t </para>        </detaileddescription>
+<para>Single shot or Continuous mode . Accepts enum :: XMC_CCU8_SLICE_TIMER_REPEAT_MODE_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="944" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="944" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="940" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="940" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1ad8073454d51488bfa76a75ff969e0b98" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -303,10 +315,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ST and OUT passive levels Configuration for OUT0. Accepts enum :: XMC_CCU8_SLICE_OUTPUT_PASSIVE_LEVEL_t </para>        </detaileddescription>
+<para>ST and OUT passive levels Configuration for OUT0. Accepts enum :: XMC_CCU8_SLICE_OUTPUT_PASSIVE_LEVEL_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="967" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="967" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="963" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="963" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a93979393d5f9c2c2cb5567a299eaa0a5" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -317,10 +330,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ST and OUT passive levels Configuration for OUT1. Accepts enum :: XMC_CCU8_SLICE_OUTPUT_PASSIVE_LEVEL_t </para>        </detaileddescription>
+<para>ST and OUT passive levels Configuration for OUT1. Accepts enum :: XMC_CCU8_SLICE_OUTPUT_PASSIVE_LEVEL_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="969" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="969" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="965" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="965" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1ad2d232de50713bdaa69e6382fde21216" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -331,10 +345,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ST and OUT passive levels Configuration for OUT2. Accepts enum :: XMC_CCU8_SLICE_OUTPUT_PASSIVE_LEVEL_t </para>        </detaileddescription>
+<para>ST and OUT passive levels Configuration for OUT2. Accepts enum :: XMC_CCU8_SLICE_OUTPUT_PASSIVE_LEVEL_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="971" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="971" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="967" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="967" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a1ec68f46c00efa3abbae07cf3d829ec7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -345,10 +360,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ST and OUT passive levels Configuration for OUT3. Accepts enum :: XMC_CCU8_SLICE_OUTPUT_PASSIVE_LEVEL_t </para>        </detaileddescription>
+<para>ST and OUT passive levels Configuration for OUT3. Accepts enum :: XMC_CCU8_SLICE_OUTPUT_PASSIVE_LEVEL_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="973" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="973" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="969" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="969" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a4a3cf72081f564642983a29ac99a5945" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -359,10 +375,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Initial prescaler divider value Accepts enum :: XMC_CCU8_SLICE_PRESCALER_t </para>        </detaileddescription>
+<para>Initial prescaler divider value Accepts enum :: XMC_CCU8_SLICE_PRESCALER_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1017" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1017" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1013" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1013" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a1ffba296705d58df97d9163e267a642c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -373,10 +390,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Normal or floating prescaler mode. Accepts enum :: XMC_CCU8_SLICE_PRESCALER_MODE_t </para>        </detaileddescription>
+<para>Normal or floating prescaler mode. Accepts enum :: XMC_CCU8_SLICE_PRESCALER_MODE_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="951" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="951" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="947" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="947" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1ac21a0214624498ff7f1b15ba93f5f1aa" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -389,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="977" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="977" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="973" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="973" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a505fbd54665159bd80a4411d479573f0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -400,10 +418,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Should PR and CR shadow xfer happen when timer is cleared? </para>        </detaileddescription>
+<para>Should PR and CR shadow xfer happen when timer is cleared? </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="946" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="946" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="942" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="942" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a957f533724a20a7b2da435016b9b646d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -414,10 +433,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Which of the two channels drives the slice status output. Accepts enum :: XMC_CCU8_SLICE_STATUS_t </para>        </detaileddescription>
+<para>Which of the two channels drives the slice status output. Accepts enum :: XMC_CCU8_SLICE_STATUS_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="957" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="957" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="953" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="953" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a7186ed69fd81b64bca110c9cde9d1b3f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -430,7 +450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="961" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="961" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="957" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="957" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a84667327a4583422e86f6873ff497a77" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -441,10 +461,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enables the concatenation of the timer if true </para>        </detaileddescription>
+<para>Enables the concatenation of the timer if true </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1023" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1023" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1019" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1019" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a9cbe14785b93fb363b9e4c5d7f6769fe" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -455,17 +476,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Edge aligned or Centre Aligned. Accepts enum :: XMC_CCU8_SLICE_TIMER_COUNT_MODE_t </para>        </detaileddescription>
+<para>Edge aligned or Centre Aligned. Accepts enum :: XMC_CCU8_SLICE_TIMER_COUNT_MODE_t </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="942" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="942" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="938" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="938" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Configuration data structure for CCU8 slice. Specifically configures the CCU8 slice to compare mode operation. This excludes event and function configuration. </para>    </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="937" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="936" bodyend="1024"/>
+<para>Configuration data structure for CCU8 slice. Specifically configures the CCU8 slice to compare mode operation. This excludes event and function configuration. </para>
+    </detaileddescription>
+    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="933" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="932" bodyend="1020"/>
     <listofallmembers>
       <member refid="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_CCU8_SLICE_COMPARE_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___c_c_u8___s_l_i_c_e___c_o_m_p_a_r_e___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_CCU8_SLICE_COMPARE_CONFIG_t</scope><name>__pad1__</name></member>

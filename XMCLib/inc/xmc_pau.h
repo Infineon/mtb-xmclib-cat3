@@ -65,11 +65,6 @@
 #if defined(PAU)
 
 /**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
-
-/**
  * @addtogroup PAU
  * @brief Peripheral Access Unit (PAU) driver for the XMC1000 microcontroller family
  *
@@ -386,10 +381,6 @@ __STATIC_INLINE uint32_t XMC_PAU_GetRAMSize(void)
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @}
- */
 
 /**
  * @}

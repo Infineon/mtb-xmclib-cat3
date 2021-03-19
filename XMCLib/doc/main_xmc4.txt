@@ -1,13 +1,9 @@
 /**
- * @mainpage XMC Peripheral Library
+ * @mainpage Introducing XMC Peripheral Library
  *
  * @tableofcontents
  * @image html "xmc.png"
  * @image latex "xmc.png"
- *
- * @warning <span style="color:red; font-weight:bold">This is Early Access Software for XMC devices in ModusToolbox. This software
- * is made available for evaluation purposes only and is not recommended for
- * production development.</span>
  *
  * The XMC Peripheral Library (XMC Lib) consists of low-level drivers for the XMC product family peripherals. <br>
  * Built on top of the Cortex Microcontroller Software Interface Standard (CMSIS), it provides access to all peripheral features. <br>
@@ -23,7 +19,7 @@
  * - XMC4100 series
  *
  * The following toolchains are supported:
- * - GNU GCC for ARM 9.3.1 (provided with ModusToolbox 2.2).
+ * - GNU GCC for ARM 9.3.1 (provided with ModusToolbox 2.3).
  *
  * @section overview Overview
  * XMC Lib consists of routines and data structures which cover all peripheral functions.
@@ -217,7 +213,61 @@
  * - XMC4108_F64x64
  * - XMC4108_Q48x64
  *
+ * @section files Directories and Files
  *
+ * The following diagram shows the most important directories and files provided in the distribution.
+ *
+ * @verbatim
+ * mtb-xmclib-cat3                           - XMClib root directory
+ *  +-- CMSIS                                - The Cortex Microcontroller Software Interface Standard abstraction layer
+ * │   +-- Core                              - Hardware Abstraction Layer (HAL) for Cortex-M processor registers
+ * │   +-- Infineon                          - Includes device header files, system and startup files
+ * +-- docs                                  - XMC Peripheral Library documentation generated with Doxygen
+ * │   +-- xmc1_api_reference_manual.html    - XMC Peripheral Library documentation with XMC1 specific information
+ * │   \-- xmc4_api_reference_manual.html    - XMC Peripheral Library documentation with XMC4 specific information
+ * +-- Newlib                                - C standard library implementation intended for use on embedded systems.
+ * +-- personalities                         - Configuration files that defines a resource behavior for ModusToolbox Device Configurator
+ * +-- udd                                   - Device description files for ModusToolbox Device Configurator
+ * +-- XMCLib
+ * │   +-- doc                               - Doxygen configuration files to generate documentation
+ * │   +-- inc                               - XMC Peripheral Library API interface files
+ * │   +-- src                               - XMC Peripheral Library API implementation files
+ * +-- devicesupport.xml                     - Device description file for ModusToolbox Device Configurator
+ * +-- README.md                             - Description of the library
+ * +-- RELEASE.md                            - Description of the changes in the release
+ * @endverbatim
+ *
+ * @section examples XMC Lib examples
+ *
+ * The XMC Lib examples could be found at https://github.com/cypresssemiconductorco/Code-Examples-for-ModusToolbox-Software
+ *
+ * Create the project and open it using one of the following:
+ *
+ * @subsection mtbide In Eclipse IDE for ModusToolbox
+ *
+ * 1. Click the **New Application** link in the **Quick Panel** (or, use **File** > **New** > **ModusToolbox Application**).
+ *    This launches the [Project Creator](http://www.cypress.com/ModusToolboxProjectCreator) tool.
+ * 2. Pick a kit supported by the code example from the list shown in the **Project Creator - Choose Board Support Package (BSP)** dialog.
+ * 3. In the **Project Creator - Select Application** dialog, choose the example by enabling the checkbox.
+ * 4. Enter the local path in the **Application(s) Root Path** field to indicate where the application needs to be created.
+ * 5. Click **Create** to complete the application creation process.
+ *
+ * For more details, see the Eclipse IDE for [ModusToolbox User Guide](https://www.cypress.com/MTBEclipseIDEUserGuide)
+ *
+ * @subsection cli In Command-line Interface (CLI)
+ *
+ * ModusToolbox provides the Project Creator as both a GUI tool and a command line tool to easily create one or more
+ * ModusToolbox applications. See the "Project Creator Tools" section of the
+ * [ModusToolbox User Guide](https://www.cypress.com/ModusToolboxUserGuide) for more details.
+ *
+ * Alternatively, you can manually create the application using the following steps:
+ *
+ * 1. Download and unzip this repository onto your local machine, or clone the repository.
+ * 2. Open a CLI terminal and navigate to the application folder.
+ * 3. Import the required libraries by executing the `make getlibs` command.
+ *
+ * Various CLI tools include a `-h` option that prints help information to the terminal screen about that tool.
+ * For more details, see the [ModusToolbox User Guide](https://www.cypress.com/ModusToolboxUserGuide).
  *
  * @section test Test conditions
  *	- Limited functional test is applied with XMC4700-F144x2048.
@@ -229,7 +279,7 @@
  *
  * <b> License Terms and Copyright Information </b>
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2021, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -266,3 +316,39 @@
  *
  * <b>Warnings</b> Due to technical requirements, components may contain dangerous substances. For information on the types in question, please contact the nearest Infineon Technologies Office. Infineon Technologies components may be used in life-support devices or systems only with the express written approval of Infineon Technologies, if a failure of such components can reasonably be expected to cause the failure of that life-support device or system or to affect the safety or effectiveness of that device or system. Life support devices or systems are intended to be implanted in the human body or to support and/or maintain and sustain and/or protect human life. If they fail, it is reasonable to assume that the health of the user or other persons may be endangered.
  */
+
+/**
+*
+* \{
+* \defgroup DAC               Digital to Analog Converter (DAC)
+* \defgroup DMA               General purpose DMA (GPDMA)
+* \defgroup DSD               Delta Sigma Demodulator (DSD)
+* \defgroup CAN               Controller Area Network Controller(CAN)
+* \defgroup CCU4              Capture Compare Unit 4(CCU4)
+* \defgroup CCU8              Capture Compare Unit 8(CCU8)
+* \defgroup EBU               External Bus Unit (EBU)
+* \defgroup ECAT              EtherCAT (ECAT)
+* \defgroup ERU               Event Request Unit (ERU)
+* \defgroup ETH_MAC           Ethernet MAC (ETH_MAC)
+* \defgroup ETH_PHY           Ethernet PHY (ETH_PHY)
+* \defgroup FCE               Flexible CRC Engine(FCE)
+* \defgroup FLASH             Flash driver (FLASH)
+* \defgroup GPIO              General Purpose Input Output (GPIO)
+* \defgroup HRPWM             High Resolution PWM Unit (HRPWM)
+* \defgroup I2C               Inter Integrated Circuit(IIC)
+* \defgroup I2S               Inter IC Sound (IIS)
+* \defgroup LEDTS             LED and Touch-Sense control(LEDTS)
+* \defgroup POSIF             Position Interface Unit (POSIF)
+* \defgroup RTC               Real-time clock (RTC)
+* \defgroup SCU               System Control Unit(SCU)
+* \defgroup SDMMC             Secure Digital/Multi Media Card (SDMMC)
+* \defgroup SPI               Synchronous serial channel for SPI
+* \defgroup UART              Universal Asynchronous Receiver/Transmitter (UART)
+* \defgroup USBD              Universal Serial Bus Device (USBD)
+* \defgroup USBH              Universal Serial Bus Host (USBH)
+* \defgroup USIC              Universal Serial Interface Channel(USIC)
+* \defgroup VADC              Versatile Analog to Digital Converter (VADC)
+* \defgroup WDT               Watchdog driver (WDT)
+* \}
+*
+*/

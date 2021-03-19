@@ -65,11 +65,6 @@
 #include "xmc1_gpio_map.h"
 
 /**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
-
-/**
  * @addtogroup GPIO
  * @{
  */
@@ -301,9 +296,6 @@ void XMC_GPIO_SetInputHysteresis(XMC_GPIO_PORT_t *const port,
  * @} (end addtogroup GPIO)
  */
 
-/**
- * @} (end addtogroup XMClib)
- */
 
 #endif /* UC_FAMILY == XMC1 */
 

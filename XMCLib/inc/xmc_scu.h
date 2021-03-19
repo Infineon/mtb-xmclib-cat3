@@ -75,10 +75,6 @@
  ********************************************************************************************************************/
 #include "xmc_common.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup SCU
@@ -599,8 +595,5 @@ void XMC_SCU_IRQHandler(uint32_t sr_num);
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* SCU_H */

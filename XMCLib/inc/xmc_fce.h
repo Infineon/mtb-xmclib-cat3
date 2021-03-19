@@ -71,10 +71,6 @@
 
 #if defined (FCE)
 
-/**
- * @addtogroup XMClib
- * @{
- */
 
 /**
  * @addtogroup FCE
@@ -738,9 +734,6 @@ void XMC_FCE_LittleEndian32bit(uint8_t *inbuffer, uint32_t *outbuffer, uint16_t 
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* defined (FCE) */
 

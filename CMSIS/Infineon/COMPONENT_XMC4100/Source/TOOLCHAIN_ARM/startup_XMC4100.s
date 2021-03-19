@@ -1,8 +1,8 @@
 ;*******************************************************************************
 ;* @file     startup_XMC4100.s
 ;* @brief    CMSIS Core Device Startup File for Infineon XMC4100 Device Series
-;* @version  V1.4
-;* @date     June 2016
+;* @version  V1.5
+;* @date     January 2021
 ;*
 ;* @cond
 ;*********************************************************************************************************************
@@ -48,32 +48,11 @@
 ;                       Only relevant for AA, which needs ENABLE_PMU_CM_001_WORKAROUND 
 ; V1.4, June     2016, Rename ENABLE_CPU_CM_001_WORKAROUND to ENABLE_PMU_CM_001_WORKAROUND
 ;                      Action required: If using AA step, use ENABLE_PMU_CM_001_WORKAROUND instead of ENABLE_CPU_CM_001_WORKAROUND
+; V1.5, January  2021, Stack configured in scatter file
 ;*******************************************************************************
 ;* @endcond 
 
-; ------------------ <<< Use Configuration Wizard in Context Menu >>> ------------------
-
-; <h> Stack Configuration
-;   <o> Stack Size (in Bytes) <0x0-0xFFFFFFFF:8>
-; </h>
-
-Stack_Size      EQU     0x00000800
-
-                AREA    STACK, NOINIT, READWRITE, ALIGN=3
-Stack_Mem       SPACE   Stack_Size
-__initial_sp
-
-
-; <h> Heap Configuration
-;   <o>  Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
-; </h>
-
-Heap_Size       EQU     0x00000200
-
-                AREA    HEAP, NOINIT, READWRITE, ALIGN=3
-__heap_base
-Heap_Mem        SPACE   Heap_Size
-__heap_limit
+				IMPORT |Image$$ARM_LIB_STACK$$ZI$$Limit|
 
                 PRESERVE8
                 THUMB
@@ -97,7 +76,7 @@ __heap_limit
                 EXPORT  __Vectors_End
                 EXPORT  __Vectors_Size
                 
-__Vectors       DCD     __initial_sp              ; 0 Top of Stack
+__Vectors       DCD     |Image$$ARM_LIB_STACK$$ZI$$Limit|              ; 0 Top of Stack
                 DCD     Reset_Handler             ; 1 Reset Handler
                 Entry   NMI_Handler               ; 2 NMI Handler
                 Entry   HardFault_Handler         ; 3 Hard Fault Handler
@@ -239,7 +218,7 @@ Reset_Handler   PROC
                 EXPORT  Reset_Handler           [WEAK]
                 IMPORT  SystemInit
                 IMPORT  __main
-                LDR     SP, =__initial_sp
+                LDR     SP, =|Image$$ARM_LIB_STACK$$ZI$$Limit|
                 LDR     R0, =SystemInit
                 BLX     R0
                 LDR     R0, =__main
@@ -527,30 +506,5 @@ $Handler_Func._Veneer\
                 ENDIF
                 
                 ALIGN
-
-; User Initial Stack & Heap
-
-                IF      :DEF:__MICROLIB
-
-                EXPORT  __initial_sp
-                EXPORT  __heap_base
-                EXPORT  __heap_limit
-
-                ELSE
-
-                IMPORT  __use_two_region_memory
-                EXPORT  __user_initial_stackheap
-__user_initial_stackheap
-
-                LDR     R0, =  Heap_Mem
-                LDR     R1, =(Stack_Mem + Stack_Size)
-                LDR     R2, = (Heap_Mem +  Heap_Size)
-                LDR     R3, = Stack_Mem
-                BX      LR
-
-                ALIGN
-
-                ENDIF
-
 
                 END

@@ -79,10 +79,6 @@
 #include "xmc_scu.h"
 #include "xmc_posif_map.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup POSIF
@@ -1034,10 +1030,6 @@ void XMC_POSIF_SetInterruptNode(XMC_POSIF_t *const peripheral, const XMC_POSIF_I
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @}
- */
 
 /**
  * @}

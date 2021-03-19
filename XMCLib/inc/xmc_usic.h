@@ -107,7 +107,7 @@
  *     - Added XMC_USIC_CH_BRG_CLOCK_SOURCE_DX1S to XMC_USIC_CH_BRG_CLOCK_SOURCE_t
  *     - Added XMC_USIC_CH_BRG_CTQSEL_t
  *     - Added XMC_USIC_CH_SetBaudrateDivider()
- * 
+ *
  * @endcond
  *
  */
@@ -119,11 +119,6 @@
  *******************************************************************************/
 
 #include "xmc_common.h"
-
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup USIC
@@ -743,7 +738,7 @@ XMC_USIC_CH_STATUS_t XMC_USIC_CH_SetBaudrateEx(XMC_USIC_CH_t *const channel, int
  * \par<b>Related APIs:</b><BR>
  * XMC_USIC_CH_SetFractionalDivider() \n\n\n
  */
-void XMC_USIC_CH_SetBaudrateDivider(XMC_USIC_CH_t *const channel, 
+void XMC_USIC_CH_SetBaudrateDivider(XMC_USIC_CH_t *const channel,
                                     XMC_USIC_CH_BRG_CLOCK_SOURCE_t clksel,
                                     bool pppen,
                                     uint32_t pdiv,
@@ -1623,7 +1618,7 @@ void XMC_USIC_CH_TXFIFO_Configure(XMC_USIC_CH_t *const channel,
  * 		\b Range: 0 to \a size -1.
  * @return None
  *
- * \deprecated { Use XMC_USIC_CH_TXFIFO_SetSizeTriggerLimit() }
+ * \deprecated { Use XMC_USIC_CH_TXFIFO_SetTriggerLimit() }
  *
  * \par<b>Description</b><br>
  * Sets the size and trigger limit for the transmit FIFO. \n\n
@@ -2350,8 +2345,5 @@ __STATIC_INLINE void XMC_USIC_CH_SetMode(XMC_USIC_CH_t *const channel, const XMC
  * @}
  */
 
-/**
- * @}
- */
 
 #endif

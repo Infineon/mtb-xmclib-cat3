@@ -92,14 +92,10 @@
  *
  * 2020-11-12:
  *     - Fixed XMC_ETH_MAC_GetAddress()
- * 
+ *
  * @endcond
  */
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup ETH_MAC
@@ -1984,9 +1980,6 @@ uint32_t XMC_ETH_MAC_GetEventStatus(const XMC_ETH_MAC_t *const eth_mac);
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* defined (ETH0) */
 

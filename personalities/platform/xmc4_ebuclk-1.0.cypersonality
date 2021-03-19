@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc4_ebuclk" name="EBUCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc4_ebuclk" name="EBUCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc4_scu" />
     <Resource name="scu\.clock\.ebuclk" />
@@ -36,28 +36,26 @@
 
   <Parameters>
     <!-- Internal -->
-    <ParamString id="fSYS_max" name="fSYS maximum frequency (Hz)" group="Internal"
-      default="`${lookupExpression(&quot;FSYS_MAX&quot;, 0)}`" visible="false" editable="false" desc="" />
-    <ParamString id="syspll_resource" name="System PLL clock resource" group="Internal"
+    <ParamString id="syspll_resource" name="System PLL Resource" group="Internal"
       default="scu[0].clock[0].pll_sys[0]" visible="false" editable="false" desc="" />
-    <ParamBool id="syspll_enabled" name="System PLL clock enabled" group="Internal"
+    <ParamBool id="syspll_enabled" name="System PLL Enabled" group="Internal"
       default="`${isBlockUsed(syspll_resource)}`" visible="false" editable="false" desc="" />
     <ParamString id="fPLL" name="System PLL Frequency (Hz)" group="Internal"
       default="`${syspll_enabled ? getExposedMember(syspll_resource, &quot;frequency&quot;) : 0.0 }`"
       visible="false" editable="false" desc="" />
 
     <!-- General -->
-    <ParamString id="clock_source_info" name="Clock source" group="General"
-      default="System PLL (`${fPLL / 1000000.0}` MHz)"
+    <ParamString id="clock_source_info" name="Source Clock" group="General"
+      default="System PLL (`${formatFrequency(fPLL)}`)"
       visible="true" editable="false" desc="EBU clock source" />
-    <ParamRange id="divider" name="Clock divider" group="General"
+    <ParamRange id="divider" name="Divider" group="General"
       default="1" min="1" max="64" resolution="1"
       visible="true" editable="true" desc="EBU clock divider." />
     <ParamString id="fEBU" name="Frequency (Hz)" group="Internal"
       default="`${fPLL / divider}`" visible="false" editable="false" desc="" />
-    <ParamRange id="frequency_info" name="Frequency (MHz)" group="General"
-      default="`${(fEBU / 1000000.0)}`" min="0" max="`${fSYS_max}`" resolution="0.001"
-      visible="true" editable="false" desc="Actual EBU clock frequency in MHz." />
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fEBU)}`" visible="true" editable="false"
+      desc="Actual EBU clock frequency." />
   </Parameters>
 
   <DRCs>
@@ -67,7 +65,7 @@
   </DRCs>
 
   <ConfigFirmware>
-    <ConfigDefine name="CLOCK_EBUCLK_ENABLED" value="1" public="false" include="true" />
-    <ConfigDefine name="CLOCK_EBUCLK_DIV" value="`${divider}`" public="false" include="true" />
+    <ConfigDefine name="CLOCK_EBUCLK_ENABLED" value="1U" public="false" include="true" />
+    <ConfigDefine name="CLOCK_EBUCLK_DIV" value="`${divider}`U" public="false" include="true" />
   </ConfigFirmware>
 </Personality>

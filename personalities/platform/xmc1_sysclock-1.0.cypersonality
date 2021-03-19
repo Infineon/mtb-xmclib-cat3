@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc1_clocks" name="SysClocks" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc1_clocks" name="SysClocks" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc1_scu" />
     <Resource name="scu\.clock" />
@@ -71,7 +71,10 @@
 #if defined(CLOCK_DCO1_SYNC_ENABLED) &amp;&amp; CLOCK_DCO1_SYNC_ENABLED&#xA;
  /* DCO1 Calibration using external oscillator */&#xA;
  XMC_SCU_CLOCK_EnableDCO1ExtRefCalibration(CLOCK_DCO1_SYNC_SEL, CLOCK_DCO1_SYNC_PRESCALER, CLOCK_DCO1_SYNC_PRELOAD);&#xA;
- while (XMC_SCU_CLOCK_IsDCO1ExtRefCalibrationReady() == false);&#xA;
+ while (XMC_SCU_CLOCK_IsDCO1ExtRefCalibrationReady() == false)&#xA;
+ {&#xA;
+     /* Wait for DCO1 synchronization */&#xA;
+ }&#xA;
 #endif&#xA;
  " public="false" include="true" />
   </ConfigFirmware>

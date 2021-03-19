@@ -53,10 +53,6 @@
  * @endcond
  */
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup ETH_PHY
@@ -223,8 +219,5 @@ bool XMC_ETH_PHY_IsAutonegotiationCompleted(XMC_ETH_MAC_t *const eth_mac, uint8_
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* XMC_ETH_PHY_H */

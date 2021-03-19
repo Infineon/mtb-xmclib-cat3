@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc4_usbclk" name="USBCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc4_usbclk" name="USBCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc4_scu" />
     <Resource name="scu\.clock\.usbclk" />
@@ -35,40 +35,32 @@
   </ExposedMembers>
 
   <Parameters>
-    <!-- General -->
-    <ParamChoice id="clock_source" name="Clock source" group="General"
-      default="XMC_SCU_CLOCK_USBCLKSRC_USBPLL" visible="true" editable="true" desc="USB clock source.">
-      <Entry name="USB PLL Clock" value="XMC_SCU_CLOCK_USBCLKSRC_USBPLL" visible="true"/>
-      <Entry name="System PLL Clock" value="XMC_SCU_CLOCK_USBCLKSRC_SYSPLL" visible="true"/>
-    </ParamChoice>
-    <ParamString id="source_resource" name="Source clock resource" group="Internal"
-      default="scu[0].clock[0].`${(clock_source eq XMC_SCU_CLOCK_USBCLKSRC_USBPLL) ?
-        &quot;pll_usb[0]&quot; : &quot;pll_sys[0]&quot;}`"
-      visible="false" editable="false" desc="" />
-    <ParamBool id="source_enabled" name="Source clock enabled" group="Internal"
+    <!-- Internal -->
+    <ParamString id="source_resource" name="Source Resource" group="Internal"
+      default="scu[0].clock[0].usbdiv[0]" visible="false" editable="false" desc="" />
+    <ParamBool id="source_enabled" name="Source Enabled" group="Internal"
       default="`${isBlockUsed(source_resource)}`" visible="false" editable="false" desc="" />
-    <ParamString id="source_frequency" name="Source clock frequency (Hz)" group="Internal"
+    <ParamString id="fUSB" name="Frequency (Hz)" group="Internal"
       default="`${source_enabled ? getExposedMember(source_resource, &quot;frequency&quot;) : 0.0 }`"
       visible="false" editable="false" desc="" />
-    <ParamRange id="divider" name="Divider" group="General"
-      default="1" min="1" max="8" resolution="1"
-      visible="true" editable="true" desc="USB clock divider." />
-    <ParamString id="fUSB" name="Frequency (Hz)" group="Internal"
-      default="`${source_frequency / divider}`" visible="false" editable="false" desc="" />
-    <ParamRange id="frequency_info" name="Actual frequency (MHz)" group="General"
-      default="`${(fUSB / 1000000.0)}`" min="0.0" max="520.0" resolution="0.001"
-      visible="true" editable="false" desc="Actual USB clock frequency in MHz." />
+
+    <!-- General -->
+    <ParamString id="clock_source_info" name="Source Clock" group="General"
+      default="`${source_enabled ? getExposedMember(source_resource, &quot;sourceClockDisplayName&quot;) : &quot;N/A&quot;}`"
+      visible="true" editable="false"
+      desc="The display name of the currently selected clock source." />
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fUSB)}`" visible="true" editable="false"
+      desc="Actual USB clock frequency." />
   </Parameters>
 
   <DRCs>
-    <DRC type="ERROR" text="Source clock for USB clock is not enabled" condition="`${!source_enabled}`" >
+    <DRC type="ERROR" text="USB clock divider is not enabled" condition="`${!source_enabled}`" >
       <FixIt action="ENABLE_BLOCK" target="`${source_resource}`" value="" valid="true" />
     </DRC>
   </DRCs>
 
   <ConfigFirmware>
-    <ConfigDefine name="CLOCK_USBCLK_ENABLED" value="1" public="false" include="true" />
-    <ConfigDefine name="CLOCK_USBCLK_SEL" value="`${clock_source}`" public="false" include="true" />
-    <ConfigDefine name="CLOCK_USBCLK_DIV" value="`${divider}`" public="false" include="true" />
+    <ConfigDefine name="CLOCK_USBCLK_ENABLED" value="1U" public="false" include="true" />
   </ConfigFirmware>
 </Personality>

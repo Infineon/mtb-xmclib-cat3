@@ -62,10 +62,7 @@
 
 #include "xmc_common.h"
 #include "xmc_scu.h"
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
+
 
 /**
  * @addtogroup WDT
@@ -92,7 +89,7 @@
  * MACROS
   ********************************************************************************************************************/
 
-#define XMC_WDT_MAGIC_WORD             (0xABADCAFEU) /* Magic word to be written in Service Register (SRV), 
+#define XMC_WDT_MAGIC_WORD             (0xABADCAFEU) /* Magic word to be written in Service Register (SRV),
                                                           to service or feed the watchdog. */
 
 /*********************************************************************************************************************

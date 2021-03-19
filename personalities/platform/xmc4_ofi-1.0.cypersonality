@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc4_ofi" name="OFI" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc4_ofi" name="OFI" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc4_scu" />
     <Resource name="scu\.clock\.osc_fi" />
@@ -38,14 +38,14 @@
     <!-- General -->
     <ParamChoice id="calibration_mode" name="Calibration" group="General"
       default="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_FACTORY" visible="true" editable="true" desc="Select calibration mode of the internal fast oscillator." >
-      <Entry name="Factory calibration" value="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_FACTORY" visible="true" />
-      <Entry name="Automatic calibration using standby clock" value="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_AUTOMATIC" visible="true" />
+      <Entry name="Factory" value="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_FACTORY" visible="true" />
+      <Entry name="Using standby clock" value="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_AUTOMATIC" visible="true" />
     </ParamChoice>
     <ParamString id="fOFI" name="Frequency (Hz)" group="Internal"
       default="24000000" visible="false" editable="false" desc="" />
-    <ParamRange id="frequency_info" name="Frequency (MHz)" group="General"
-      default="`${(fOFI / 1000000.0)}`" min="24" max="24" resolution="0.001"
-      visible="true" editable="false" desc="Internal fast oscillator frequency in MHz." />
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fOFI)}`" visible="true" editable="false"
+      desc="Internal fast oscillator frequency." />
   </Parameters>
 
   <ConfigFirmware>

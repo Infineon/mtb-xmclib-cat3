@@ -77,10 +77,6 @@
 
 #include "xmc_dma_map.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup DMA
@@ -1334,9 +1330,6 @@ void XMC_DMA_IRQHandler(XMC_DMA_t *const dma);
  * @} (end addtogroup DMA)
  */
 
-/**
- * @} (end addtogroup XMClib)
- */
 
 #endif /* defined (GPDMA0) */
 #endif /* XMC_DMA_H */

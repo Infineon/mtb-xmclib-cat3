@@ -70,10 +70,6 @@
 #if defined (EBU)
 #include "xmc_scu.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup EBU
@@ -1541,10 +1537,6 @@ __STATIC_INLINE uint32_t XMC_EBU_SdramGetRefreshStatus(XMC_EBU_t *const ebu,
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @}
- */
 
 /**
  * @}

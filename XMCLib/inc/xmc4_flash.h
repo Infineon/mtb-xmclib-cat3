@@ -86,10 +86,6 @@
 
 #if UC_FAMILY == XMC4
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup FLASH
@@ -804,9 +800,6 @@ void XMC_FLASH_Reset(void);
  * @}
  */
 
-/**
- * @}
- */
 
 #endif
 

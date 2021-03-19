@@ -125,10 +125,6 @@
 #include "xmc4_ccu8_map.h"
 #endif
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup CCU8
@@ -3257,9 +3253,6 @@ __STATIC_INLINE XMC_CCU8_SLICE_STATUS_BIT_t XMC_CCU8_GetSliceStatusBit(XMC_CCU8_
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* defined(CCU80) */
 

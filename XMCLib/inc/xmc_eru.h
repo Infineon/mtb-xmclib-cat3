@@ -66,10 +66,6 @@
 
 #include "xmc_common.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup ERU
@@ -889,8 +885,5 @@ void XMC_ERU_OGU_SetServiceRequestMode(XMC_ERU_t *const eru,
  * @} (end addtogroup ERU)
  */
 
-/**
- * @} (end addtogroup XMClib)
- */
 
 #endif /* XMC_ERU_H */

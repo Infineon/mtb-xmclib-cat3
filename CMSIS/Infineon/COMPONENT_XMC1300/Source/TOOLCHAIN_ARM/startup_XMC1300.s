@@ -1,8 +1,8 @@
 ;*********************************************************************************************************************
 ;* @file     startup_XMC1300.s
 ;* @brief    CMSIS Core Device Startup File for Infineon XMC1300 Device Series
-;* @version  V1.4
-;* @date     03 Sep 2015
+;* @version  V1.5
+;* @date     January 2021
 ;*
 ;* @cond
 ;*********************************************************************************************************************
@@ -45,34 +45,14 @@
 ;*                         Default handler used for all IRQs
 ;* V1.3, Dec, 11, 2014 JFT:Default clocking changed, MCLK=32MHz and PCLK=64MHz
 ;* V1.4, Sep, 03, 2015 JFT:SSW default clocking changed, MCLK=8MHz and PCLK=16MHz avoid problems with BMI tool timeout
+;* V1.5, January  2021, Stack configured in scatter file
 ;*
 ;* @endcond 
 ;*
 
 ; ------------------ <<< Use Configuration Wizard in Context Menu >>> ------------------
            
-; <h> Stack Configuration
-;   <o> Stack Size (in Bytes) <0x0-0xFFFFFFFF:8>
-; </h>
-
-Stack_Size      EQU     0x00000400
-
-                AREA    STACK, NOINIT, READWRITE, ALIGN=3
-Stack_Mem       SPACE   Stack_Size
-__initial_sp
-
-
-; <h> Heap Configuration
-;   <o>  Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
-; </h>
-
-Heap_Size       EQU     0x00000200
-
-                AREA    HEAP, NOINIT, READWRITE, ALIGN=3
-__heap_base
-Heap_Mem        SPACE   Heap_Size
-__heap_limit
-
+           
 ; <h> Clock system handling by SSW
 ;   <h> CLK_VAL1 Configuration
 ;    <o0.0..7>    FDIV Fractional Divider Selection
@@ -122,6 +102,8 @@ CLK_VAL1_Val    EQU     0x00010400
 CLK_VAL2_Val    EQU     0x00000100      
 ; </h>
 
+				IMPORT |Image$$ARM_LIB_STACK$$ZI$$Limit|
+
                 PRESERVE8
                 THUMB
 
@@ -132,7 +114,7 @@ CLK_VAL2_Val    EQU     0x00000100
                 EXPORT  __Vectors_End
                 EXPORT  __Vectors_Size
 
-__Vectors       DCD     __initial_sp              ; Top of Stack
+__Vectors       DCD     |Image$$ARM_LIB_STACK$$ZI$$Limit|              ; Top of Stack
                 DCD     Reset_Handler             ; Reset Handler
                 DCD     0                         ; Reserved
                 DCD     0                         ; Reserved
@@ -247,32 +229,6 @@ BCCU0_0_IRQHandler
 
 
                 ALIGN
-
-
-; User Initial Stack & Heap
-
-                IF      :DEF:__MICROLIB
-
-                EXPORT  __initial_sp
-                EXPORT  __heap_base
-                EXPORT  __heap_limit
-
-                ELSE
-
-                IMPORT  __use_two_region_memory
-                EXPORT  __user_initial_stackheap
-
-__user_initial_stackheap PROC
-                LDR     R0, =  Heap_Mem
-                LDR     R1, =(Stack_Mem + Stack_Size)
-                LDR     R2, = (Heap_Mem +  Heap_Size)
-                LDR     R3, = Stack_Mem
-                BX      LR
-                ENDP
-
-                ALIGN
-
-                ENDIF
 
 
 ;* ================== START OF INTERRUPT HANDLER VENEERS ==================== */

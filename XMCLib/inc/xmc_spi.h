@@ -87,7 +87,7 @@
  *
  * 2020-12-05:
  *    - Added XMC_SPI_CH_InitEx() that allows user select if automatic baudrate configuration should be done or not
- * 
+ *
  * @endcond
  *
  */
@@ -100,10 +100,6 @@
  *********************************************************************************************************************/
 #include "xmc_usic.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup SPI

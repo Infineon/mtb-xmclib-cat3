@@ -73,11 +73,6 @@
 
 #include "xmc_common.h"
 
-/**
- *
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup RTC
@@ -685,8 +680,5 @@ __STATIC_INLINE bool XMC_RTC_IsRunning(void)
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* XMC_RTC_H */

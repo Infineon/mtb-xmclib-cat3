@@ -61,10 +61,6 @@
 
 #include "xmc_common.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup GPIO
@@ -473,10 +469,6 @@ __STATIC_INLINE void XMC_GPIO_DisableDigitalInput(XMC_GPIO_PORT_t *const port, c
 
 /**
  * @} (end addtogroup GPIO)
- */
-
-/**
- * @} (end addtogroup XMClib)
  */
 
 #endif /* XMC_GPIO_H */

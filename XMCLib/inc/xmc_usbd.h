@@ -70,10 +70,6 @@
 #include "xmc_usbd_regs.h"
 #include "xmc_scu.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup USBD
@@ -130,7 +126,7 @@
 
 #define XMC_USBD_NUM_EPS                               (7U)		/**< Number of hardware endpoints */
 
-#define	XMC_USBD_MAX_PACKET_SIZE                       (64U)	/**< Maximum packet size for all endpoints 
+#define	XMC_USBD_MAX_PACKET_SIZE                       (64U)	/**< Maximum packet size for all endpoints
 	                                                                (including ep0) */
 
 /**< Maximum transfer size for endpoints.
@@ -996,10 +992,6 @@ void XMC_USBD_IRQHandler(const XMC_USBD_t *const obj);
  *
  * 1. Function like macro- defined- MISRA Advisory Rule 19.7
  * 2. usage of unions - MISRA Required Rule 18.4
- */
-
-/**
- * @}
  */
 
 /**

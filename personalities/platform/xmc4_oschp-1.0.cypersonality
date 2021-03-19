@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc4_oschp" name="OSC_HP" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc4_oschp" name="OSC_HP" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc4_scu" />
     <Resource name="scu\.clock\.osc_hp" />
@@ -36,7 +36,7 @@
 
   <Parameters>
     <!-- General -->
-    <ParamChoice id="mode" name="Operating mode" group="General"
+    <ParamChoice id="mode" name="Operating Mode" group="General"
       default="XMC_SCU_CLOCK_OSCHP_MODE_OSC" visible="true" editable="true"
       desc="Select clock source for OSC_HP." >
       <Entry name="External Crystal" value="XMC_SCU_CLOCK_OSCHP_MODE_OSC" visible="true" />
@@ -51,7 +51,7 @@
   </Parameters>
 
   <ConfigFirmware>
-    <ConfigDefine name="CLOCK_OSCHP_ENABLED" value="1" public="false" include="true" />
+    <ConfigDefine name="CLOCK_OSCHP_ENABLED" value="1U" public="false" include="true" />
     <ConfigDefine name="CLOCK_OSCHP_MODE" value="`${mode}`" public="false" include="true" />
     <ConfigFunction signature="uint32_t OSCHP_GetFrequency(void)"
                     body     ="    return `${fOSC_HP}`U;" public="false" include="true" />

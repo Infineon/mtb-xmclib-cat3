@@ -54,10 +54,6 @@
 #ifndef XMC4_RTC_H
 #define XMC4_RTC_H
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup RTC
@@ -134,8 +130,5 @@ void XMC_RTC_DisableHibernationWakeUp(const uint32_t event);
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* XMC4_RTC_H */

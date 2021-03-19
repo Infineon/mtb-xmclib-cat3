@@ -69,7 +69,7 @@
 *
 * 2020-12-05:
 *    - Added XMC_UART_CH_InitEx() that allows user select if automatic baudrate configuration should be done or not
-* 
+*
 * @endcond
 *
 */
@@ -83,10 +83,6 @@
 
 #include "xmc_usic.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup UART
@@ -907,8 +903,5 @@ __STATIC_INLINE void XMC_UART_CH_DisableDataTransmission(XMC_USIC_CH_t *const ch
  * @}
  */
 
-/**
- * @}
- */
 
 #endif

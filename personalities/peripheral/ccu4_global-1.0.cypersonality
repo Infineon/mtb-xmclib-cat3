@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc_ccu4_global" name="CCU4 Global" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc_ccu4_global" name="CCU4 Global" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc_ccu4" />
     <Resource name="ccu4"/>
@@ -38,7 +38,7 @@
     <!-- Internal -->
     <ParamString id="module_num" name="CCU4 module index" group="Internal"
       default="`${getInstNumber(&quot;ccu4&quot;)}`" visible="false" editable="false" desc="" />
-    <ParamString id="clock_resource" name="CCU clock resource" group="Internal"
+    <ParamString id="clock_resource" name="CCU Clock Resource" group="Internal"
       default="scu[0].clock[0].ccuclk[0]" visible="false" editable="false" desc="" />
     <ParamBool id="clock_error" name="Clock Error" group="Internal"
       default="`${!isBlockUsed(clock_resource)}`" visible="false" editable="false" desc="" />
@@ -50,10 +50,10 @@
     <ParamString id="fCCU4" name="Frequency (Hz)" group="General"
       default="`${clock_error ? 0.0 : getExposedMember(clock_resource, &quot;frequency&quot;)}`"
       visible="false" editable="false" desc="" />
-    <ParamRange id="frequency_info" name="Frequency (MHz)" group="General"
-      default="`${fCCU4 / 1000000.0}`" min="0" max="144" resolution="0.001"
-      visible="true" editable="false" desc="Input frequency to CCU4 module from System Control Unit (SCU)." />
-    <ParamChoice id="mc_shadow_tx_function" name="Multi channel mode shadow transfer" group="General"
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fCCU4)}`" visible="true" editable="false"
+      desc="Input frequency to CCU4 module from System Control Unit (SCU)." />
+    <ParamChoice id="mc_shadow_tx_function" name="Multi Channel Mode Shadow Transfer" group="General"
       default="XMC_CCU4_SLICE_MCMS_ACTION_TRANSFER_PR_CR" visible="true" editable="true"
       desc="Select this to allow the override of the status signal (CC4yST) with a value passed through an external signal. This will consume two events: one configured as edge that will act as trigger to override the status bit and the other configured as level that contains the value to be copied in the status bit." >
       <Entry name="Period and Compare" value="XMC_CCU4_SLICE_MCMS_ACTION_TRANSFER_PR_CR" visible="true" />

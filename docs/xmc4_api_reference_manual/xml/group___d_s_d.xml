@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
   <compounddef id="group___d_s_d" kind="group">
     <compoundname>DSD</compoundname>
-    <title>DSD</title>
+    <title>Delta Sigma Demodulator (DSD)</title>
     <innerclass refid="struct_x_m_c___d_s_d___c_h___a_u_x___f_i_l_t_e_r___c_o_n_f_i_g__t" prot="public">XMC_DSD_CH_AUX_FILTER_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___d_s_d___c_h___c_o_n_f_i_g__t" prot="public">XMC_DSD_CH_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t" prot="public">XMC_DSD_CH_FILTER_CONFIG_t</innerclass>
@@ -11,7 +11,8 @@
     <innerclass refid="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t" prot="public">XMC_DSD_CH_TIMESTAMP_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___d_s_d___g_e_n_e_r_a_t_o_r___c_o_n_f_i_g__t" prot="public">XMC_DSD_GENERATOR_CONFIG_t</innerclass>
       <sectiondef kind="enum">
-      <memberdef kind="enum" id="group___d_s_d_1gae9cb3a22cc1880697d0ea7750a2b6d93" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1gae9cb3a22cc1880697d0ea7750a2b6d93" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_AUX_EVENT_t</name>
         <enumvalue id="group___d_s_d_1ggae9cb3a22cc1880697d0ea7750a2b6d93a57ad2ad31b4899ab088338edc798b52c" prot="public">
           <name>XMC_DSD_CH_AUX_EVENT_DISABLED</name>
@@ -19,7 +20,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Service request is disabled </para>          </detaileddescription>
+<para>Service request is disabled </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggae9cb3a22cc1880697d0ea7750a2b6d93a0a212d10c3ac1bffed59962213fc4a4b" prot="public">
           <name>XMC_DSD_CH_AUX_EVENT_EVERY_NEW_RESULT</name>
@@ -27,7 +29,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Service request generated for aux filter for every new result </para>          </detaileddescription>
+<para>Service request generated for aux filter for every new result </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggae9cb3a22cc1880697d0ea7750a2b6d93a4faabdd8772d2d0cdc1ca7c4338b40d1" prot="public">
           <name>XMC_DSD_CH_AUX_EVENT_CAPTURE_SIGN_DELAY</name>
@@ -35,7 +38,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Service request generated for alternate source </para>          </detaileddescription>
+<para>Service request generated for alternate source </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggae9cb3a22cc1880697d0ea7750a2b6d93a3ab4d0c7568df504e83490122d2307e4" prot="public">
           <name>XMC_DSD_CH_AUX_EVENT_INSIDE_BOUNDARY</name>
@@ -43,7 +47,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Service request generated for aux filter if result is inside boundary </para>          </detaileddescription>
+<para>Service request generated for aux filter if result is inside boundary </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggae9cb3a22cc1880697d0ea7750a2b6d93a3abdc67a3d401ff6844abf8e03c40d7a" prot="public">
           <name>XMC_DSD_CH_AUX_EVENT_OUTSIDE_BOUNDARY</name>
@@ -51,139 +56,160 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Service request generated for aux filter if result is outside boundary </para>          </detaileddescription>
+<para>Service request generated for aux filter if result is outside boundary </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the service request generation mode for auxiliary filter. Use type <ref refid="group___d_s_d_1gae9cb3a22cc1880697d0ea7750a2b6d93" kindref="member">XMC_DSD_CH_AUX_EVENT_t</ref> for this enum. Note: This is combined ENUM for SRGA + ESEL bit fields </para>        </detaileddescription>
+<para>Enumerates the service request generation mode for auxiliary filter. Use type <ref refid="group___d_s_d_1gae9cb3a22cc1880697d0ea7750a2b6d93" kindref="member">XMC_DSD_CH_AUX_EVENT_t</ref> for this enum. Note: This is combined ENUM for SRGA + ESEL bit fields </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="362" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="361" bodyend="369"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="358" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="357" bodyend="365"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1gab4e7fab86390d11083766317842074b6" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1gab4e7fab86390d11083766317842074b6" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_CLK_t</name>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6af92290b5c8d52063a5db34c772afbfd7" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_2</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/2 </para>          </detaileddescription>
+<para>fMOD = fCLK/2 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6ae3f733ce4d8ac562e17b0c2277ad4d5e" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_4</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/4 </para>          </detaileddescription>
+<para>fMOD = fCLK/4 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a986cd51fbdd73966a0366fed1919ca8d" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_6</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/6 </para>          </detaileddescription>
+<para>fMOD = fCLK/6 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6aea0dcaa19c05a30cafd4fcff830a9d24" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_8</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/8 </para>          </detaileddescription>
+<para>fMOD = fCLK/8 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a22ef3429a0285f5d47809d2c539c2e86" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_10</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/10 </para>          </detaileddescription>
+<para>fMOD = fCLK/10 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a1dc3da8a9668cca3acb379f1d4374bf8" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_12</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/12 </para>          </detaileddescription>
+<para>fMOD = fCLK/12 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a1cc347b104335e28022f030f2365ff16" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_14</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/14 </para>          </detaileddescription>
+<para>fMOD = fCLK/14 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a74088346c57fa2153fa4f474dd22d154" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_16</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/16 </para>          </detaileddescription>
+<para>fMOD = fCLK/16 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a106fe80a6d799ce3b7aa32e87dfb2ef9" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_18</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/18 </para>          </detaileddescription>
+<para>fMOD = fCLK/18 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6ab37aa7334b5f943abba4b7865f12d2f1" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_20</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/20 </para>          </detaileddescription>
+<para>fMOD = fCLK/20 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6af32d566fb67e160971a02bbe1e4fba0f" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_22</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/22 </para>          </detaileddescription>
+<para>fMOD = fCLK/22 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a04ca791ac88ab94fb02628c3baed9829" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_24</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/24 </para>          </detaileddescription>
+<para>fMOD = fCLK/24 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a373e5a76ab64bae225ff74f2ca31f384" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_26</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/26 </para>          </detaileddescription>
+<para>fMOD = fCLK/26 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6a3e561cda7535d481e9e443b6392ecf41" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_28</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/28 </para>          </detaileddescription>
+<para>fMOD = fCLK/28 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6ac3aedde9d6599141f0833350ea679b94" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_30</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/30 </para>          </detaileddescription>
+<para>fMOD = fCLK/30 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggab4e7fab86390d11083766317842074b6afed001abcc2f043d5f65731de6cb4cf7" prot="public">
           <name>XMC_DSD_CH_CLK_DIV_32</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fMOD = fCLK/32 </para>          </detaileddescription>
+<para>fMOD = fCLK/32 </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the divider factor for modulator clock (fMOD). Use divider factor to derive modulator clock frequency(fMOD), from the selected internal clock source(fCLK). Use type <ref refid="group___d_s_d_1gab4e7fab86390d11083766317842074b6" kindref="member">XMC_DSD_CH_CLK_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the divider factor for modulator clock (fMOD). Use divider factor to derive modulator clock frequency(fMOD), from the selected internal clock source(fCLK). Use type <ref refid="group___d_s_d_1gab4e7fab86390d11083766317842074b6" kindref="member">XMC_DSD_CH_CLK_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="253" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="252" bodyend="272"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="249" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="248" bodyend="268"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga74e553765a2b78b955d2eb8cd2a9217e" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga74e553765a2b78b955d2eb8cd2a9217e" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_CLOCK_SOURCE_t</name>
         <enumvalue id="group___d_s_d_1gga74e553765a2b78b955d2eb8cd2a9217eaa3e6fac1fc6082713a46fd79b20a634f" prot="public">
           <name>XMC_DSD_CH_CLOCK_SOURCE_A</name>
@@ -191,7 +217,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>External source, from input A </para>          </detaileddescription>
+<para>External source, from input A </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga74e553765a2b78b955d2eb8cd2a9217ea30fb5b3bf5374c6bd5ce4db7f3a3082a" prot="public">
           <name>XMC_DSD_CH_CLOCK_SOURCE_B</name>
@@ -199,7 +226,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>External source, from input B </para>          </detaileddescription>
+<para>External source, from input B </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga74e553765a2b78b955d2eb8cd2a9217eaa52858de2722e044b1e26851571bb6c0" prot="public">
           <name>XMC_DSD_CH_CLOCK_SOURCE_C</name>
@@ -207,7 +235,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>External source, from input C </para>          </detaileddescription>
+<para>External source, from input C </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga74e553765a2b78b955d2eb8cd2a9217ea2db12bdc7816e67d9a413a7333c72558" prot="public">
           <name>XMC_DSD_CH_CLOCK_SOURCE_D</name>
@@ -215,7 +244,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>External source, from input D </para>          </detaileddescription>
+<para>External source, from input D </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga74e553765a2b78b955d2eb8cd2a9217ea558db7a075775df230732ed5a4829a29" prot="public">
           <name>XMC_DSD_CH_CLOCK_SOURCE_INTERN</name>
@@ -223,17 +253,20 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Internal clock source </para>          </detaileddescription>
+<para>Internal clock source </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the sample clock source select. Use type <ref refid="group___d_s_d_1ga74e553765a2b78b955d2eb8cd2a9217e" kindref="member">XMC_DSD_CH_CLOCK_SOURCE_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the sample clock source select. Use type <ref refid="group___d_s_d_1ga74e553765a2b78b955d2eb8cd2a9217e" kindref="member">XMC_DSD_CH_CLOCK_SOURCE_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="219" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="218" bodyend="227"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="215" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="214" bodyend="223"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga7277cae85e421cd975a28a91e21de688" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga7277cae85e421cd975a28a91e21de688" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_DATA_SOURCE_t</name>
         <enumvalue id="group___d_s_d_1gga7277cae85e421cd975a28a91e21de688a3b50e42af50af314a78d734136ab9867" prot="public">
           <name>XMC_DSD_CH_DATA_SOURCE_DISCONNECT</name>
@@ -241,7 +274,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Disconnected </para>          </detaileddescription>
+<para>Disconnected </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga7277cae85e421cd975a28a91e21de688a99dd10b1bf73b04c1d99a63d03f72e69" prot="public">
           <name>XMC_DSD_CH_DATA_SOURCE_A_DIRECT</name>
@@ -249,7 +283,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>External source, from input A, direct </para>          </detaileddescription>
+<para>External source, from input A, direct </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga7277cae85e421cd975a28a91e21de688af7f78d32c58dc1b78f224a474201fc4a" prot="public">
           <name>XMC_DSD_CH_DATA_SOURCE_A_INVERTED</name>
@@ -257,7 +292,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>External source, from input A, inverted </para>          </detaileddescription>
+<para>External source, from input A, inverted </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga7277cae85e421cd975a28a91e21de688a6fe0a48855d02bfc4ae14e63d607aea9" prot="public">
           <name>XMC_DSD_CH_DATA_SOURCE_B_DIRECT</name>
@@ -265,7 +301,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>External source, from input B, direct </para>          </detaileddescription>
+<para>External source, from input B, direct </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga7277cae85e421cd975a28a91e21de688a48988ba9421c4624258650eb359855d9" prot="public">
           <name>XMC_DSD_CH_DATA_SOURCE_B_INVERTED</name>
@@ -273,55 +310,64 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>External source, from input B, inverted </para>          </detaileddescription>
+<para>External source, from input B, inverted </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the input data source select. Use type <ref refid="group___d_s_d_1ga7277cae85e421cd975a28a91e21de688" kindref="member">XMC_DSD_CH_DATA_SOURCE_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the input data source select. Use type <ref refid="group___d_s_d_1ga7277cae85e421cd975a28a91e21de688" kindref="member">XMC_DSD_CH_DATA_SOURCE_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="204" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="203" bodyend="212"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="200" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="199" bodyend="208"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga08bfaecf579c25093fc992320457d86a" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga08bfaecf579c25093fc992320457d86a" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_FILTER_TYPE_t</name>
         <enumvalue id="group___d_s_d_1gga08bfaecf579c25093fc992320457d86aad74cf93e2437ad3313c6aa296d519587" prot="public">
           <name>XMC_DSD_CH_FILTER_TYPE_CIC1</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CIC1 filter </para>          </detaileddescription>
+<para>CIC1 filter </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga08bfaecf579c25093fc992320457d86aacc89ea0bb3a521607af46db1d7dc224e" prot="public">
           <name>XMC_DSD_CH_FILTER_TYPE_CIC2</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CIC2 filter </para>          </detaileddescription>
+<para>CIC2 filter </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga08bfaecf579c25093fc992320457d86aa87e345a272e00f6130a2ce360819fd5b" prot="public">
           <name>XMC_DSD_CH_FILTER_TYPE_CIC3</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CIC3 filter </para>          </detaileddescription>
+<para>CIC3 filter </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga08bfaecf579c25093fc992320457d86aa66ecef471600edaacb1af5471adb99e2" prot="public">
           <name>XMC_DSD_CH_FILTER_TYPE_CICF</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CICF filter </para>          </detaileddescription>
+<para>CICF filter </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the CIC(cyclic integrating comb) filter type. Use type <ref refid="group___d_s_d_1ga08bfaecf579c25093fc992320457d86a" kindref="member">XMC_DSD_CH_FILTER_TYPE_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the CIC(cyclic integrating comb) filter type. Use type <ref refid="group___d_s_d_1ga08bfaecf579c25093fc992320457d86a" kindref="member">XMC_DSD_CH_FILTER_TYPE_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="190" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="189" bodyend="197"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="186" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="185" bodyend="193"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_ID_t</name>
         <enumvalue id="group___d_s_d_1ggaf4be737ccac0300480dabb3635c9f95ca90ba73b0dbf8db34d53f85a0195a69e5" prot="public">
           <name>XMC_DSD_CH_ID_0</name>
@@ -329,7 +375,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Register value for channel 0 </para>          </detaileddescription>
+<para>Register value for channel 0 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggaf4be737ccac0300480dabb3635c9f95cac11a68d45e1de1d459e07779e94ab236" prot="public">
           <name>XMC_DSD_CH_ID_1</name>
@@ -337,7 +384,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Register value for channel 1 </para>          </detaileddescription>
+<para>Register value for channel 1 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggaf4be737ccac0300480dabb3635c9f95cae1a6484ad4995f9a2e8e7c39c2e8f6e7" prot="public">
           <name>XMC_DSD_CH_ID_2</name>
@@ -345,7 +393,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Register value for channel 2 </para>          </detaileddescription>
+<para>Register value for channel 2 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggaf4be737ccac0300480dabb3635c9f95ca9a883136a56e48e6f5e400f5d8f14d16" prot="public">
           <name>XMC_DSD_CH_ID_3</name>
@@ -353,79 +402,92 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Register value for channel 3 </para>          </detaileddescription>
+<para>Register value for channel 3 </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the channel run control bit register value in global run control register. Use type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the channel run control bit register value in global run control register. Use type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="347" bodyend="354"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="344" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="343" bodyend="350"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1gacf67e1a54b42e975838c0331a67d22f8" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1gacf67e1a54b42e975838c0331a67d22f8" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_INTEGRATOR_START_t</name>
         <enumvalue id="group___d_s_d_1ggacf67e1a54b42e975838c0331a67d22f8a6542df96a700282af672859b512f512b" prot="public">
           <name>XMC_DSD_CH_INTEGRATOR_START_OFF</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>No integration trigger </para>          </detaileddescription>
+<para>No integration trigger </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggacf67e1a54b42e975838c0331a67d22f8a41ff83cc378e90276ab31dbccbae8fec" prot="public">
           <name>XMC_DSD_CH_INTEGRATOR_START_TRIGGER_FALL</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger event upon a falling edge </para>          </detaileddescription>
+<para>Trigger event upon a falling edge </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggacf67e1a54b42e975838c0331a67d22f8a41554bac76554e256a140371997bc3e0" prot="public">
           <name>XMC_DSD_CH_INTEGRATOR_START_TRIGGER_RISE</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger event upon a rising edge </para>          </detaileddescription>
+<para>Trigger event upon a rising edge </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1ggacf67e1a54b42e975838c0331a67d22f8aa0f9eae082895c9446d286311e3ae3f1" prot="public">
           <name>XMC_DSD_CH_INTEGRATOR_START_ALLWAYS_ON</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>No trigger, integrator active all the time </para>          </detaileddescription>
+<para>No trigger, integrator active all the time </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the integrator trigger mode. Use type <ref refid="group___d_s_d_1gacf67e1a54b42e975838c0331a67d22f8" kindref="member">XMC_DSD_CH_INTEGRATOR_START_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the integrator trigger mode. Use type <ref refid="group___d_s_d_1gacf67e1a54b42e975838c0331a67d22f8" kindref="member">XMC_DSD_CH_INTEGRATOR_START_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="279" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="278" bodyend="285"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="275" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="274" bodyend="281"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga222a39dba6894d68bc2af180f3d42b34" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga222a39dba6894d68bc2af180f3d42b34" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_INTEGRATOR_STOP_t</name>
         <enumvalue id="group___d_s_d_1gga222a39dba6894d68bc2af180f3d42b34ad75dd79f4a198aa99a8795127737ff95" prot="public">
           <name>XMC_DSD_CH_INTEGRATOR_STOP_END_OF_LOOPS</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Integration stopped upon the inverse trigger event </para>          </detaileddescription>
+<para>Integration stopped upon the inverse trigger event </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga222a39dba6894d68bc2af180f3d42b34a37e30791f02595a9c51505de67c09e1f" prot="public">
           <name>XMC_DSD_CH_INTEGRATOR_STOP_ENDLESS_OR_INVERSE_TRIGGER</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Integration enabled upon the defined trigger event. </para>          </detaileddescription>
+<para>Integration enabled upon the defined trigger event. </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the integration enable. Use type <ref refid="group___d_s_d_1ga222a39dba6894d68bc2af180f3d42b34" kindref="member">XMC_DSD_CH_INTEGRATOR_STOP_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the integration enable. Use type <ref refid="group___d_s_d_1ga222a39dba6894d68bc2af180f3d42b34" kindref="member">XMC_DSD_CH_INTEGRATOR_STOP_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="292" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="291" bodyend="296"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="288" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="287" bodyend="292"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga77628de9d7c52f79eebbe7797bc7b581" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga77628de9d7c52f79eebbe7797bc7b581" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_RESULT_EVENT_t</name>
         <enumvalue id="group___d_s_d_1gga77628de9d7c52f79eebbe7797bc7b581a1d9f8a186836ef365b4182c2dddbd73b" prot="public">
           <name>XMC_DSD_CH_RESULT_EVENT_DISABLE</name>
@@ -433,7 +495,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Disable service request </para>          </detaileddescription>
+<para>Disable service request </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga77628de9d7c52f79eebbe7797bc7b581a9bd8a93a112df3d1572f6669eae2651e" prot="public">
           <name>XMC_DSD_CH_RESULT_EVENT_ENABLE</name>
@@ -441,55 +504,64 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Enable service request for each new result value </para>          </detaileddescription>
+<para>Enable service request for each new result value </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the service request generation for main chain filter. Use type <ref refid="group___d_s_d_1ga77628de9d7c52f79eebbe7797bc7b581" kindref="member">XMC_DSD_CH_RESULT_EVENT_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the service request generation for main chain filter. Use type <ref refid="group___d_s_d_1ga77628de9d7c52f79eebbe7797bc7b581" kindref="member">XMC_DSD_CH_RESULT_EVENT_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="376" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="375" bodyend="380"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="372" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="371" bodyend="376"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga32064f76d8be2050aeb60f7cf6f5717f" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga32064f76d8be2050aeb60f7cf6f5717f" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_SIGN_SOURCE_t</name>
         <enumvalue id="group___d_s_d_1gga32064f76d8be2050aeb60f7cf6f5717fa0b1c0b6fe1fbe7929daa3c6a76cc369f" prot="public">
           <name>XMC_DSD_CH_SIGN_SOURCE_ON_CHIP_GENERATOR</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Carrier is generated internally by DSD </para>          </detaileddescription>
+<para>Carrier is generated internally by DSD </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga32064f76d8be2050aeb60f7cf6f5717fa4ed091a3010c8822b5eb6bd63b2d494c" prot="public">
           <name>XMC_DSD_CH_SIGN_SOURCE_NEXT_CHANNEL</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Carrier sign signal is generated internally by next channel </para>          </detaileddescription>
+<para>Carrier sign signal is generated internally by next channel </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga32064f76d8be2050aeb60f7cf6f5717fa5fb0116ec8d6042e4b056b5d1ef2956c" prot="public">
           <name>XMC_DSD_CH_SIGN_SOURCE_EXTERNAL_A</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Carrier is generated externally, External sign signal A </para>          </detaileddescription>
+<para>Carrier is generated externally, External sign signal A </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga32064f76d8be2050aeb60f7cf6f5717fae70967d5826d425b4c0103b1323f9403" prot="public">
           <name>XMC_DSD_CH_SIGN_SOURCE_EXTERNAL_B</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Carrier is generated externally, External sign signal B </para>          </detaileddescription>
+<para>Carrier is generated externally, External sign signal B </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the carrier generation mode. Use type <ref refid="group___d_s_d_1ga32064f76d8be2050aeb60f7cf6f5717f" kindref="member">XMC_DSD_CH_SIGN_SOURCE_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the carrier generation mode. Use type <ref refid="group___d_s_d_1ga32064f76d8be2050aeb60f7cf6f5717f" kindref="member">XMC_DSD_CH_SIGN_SOURCE_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="335" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="334" bodyend="341"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="331" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="330" bodyend="337"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1gac092a2346cbc4aab408df95beb6284ae" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1gac092a2346cbc4aab408df95beb6284ae" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_STROBE_t</name>
         <enumvalue id="group___d_s_d_1ggac092a2346cbc4aab408df95beb6284aea82b195c9c7e46b769fc81d6368d5cf75" prot="public">
           <name>XMC_DSD_CH_STROBE_DIRECT_CLOCK_RISE</name>
@@ -534,50 +606,58 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the data strobe generation Mode. Use type <ref refid="group___d_s_d_1gac092a2346cbc4aab408df95beb6284ae" kindref="member">XMC_DSD_CH_STROBE_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the data strobe generation Mode. Use type <ref refid="group___d_s_d_1gac092a2346cbc4aab408df95beb6284ae" kindref="member">XMC_DSD_CH_STROBE_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="235" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="234" bodyend="243"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="231" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="230" bodyend="239"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga0b1ee318d29a035ea865a08b6f83b4b6" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga0b1ee318d29a035ea865a08b6f83b4b6" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_TIMESTAMP_TRIGGER_t</name>
         <enumvalue id="group___d_s_d_1gga0b1ee318d29a035ea865a08b6f83b4b6a847dd1a624ff871ba8ab617a46b93800" prot="public">
           <name>XMC_DSD_CH_TIMESTAMP_TRIGGER_DISABLE</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>No trigger event </para>          </detaileddescription>
+<para>No trigger event </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga0b1ee318d29a035ea865a08b6f83b4b6a4c2b8f2723391c141957ca8c5ac1aa29" prot="public">
           <name>XMC_DSD_CH_TIMESTAMP_TRIGGER_FALL</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger event upon a falling edge </para>          </detaileddescription>
+<para>Trigger event upon a falling edge </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga0b1ee318d29a035ea865a08b6f83b4b6a549783fb5ab277a1c1d8142c0c491ee6" prot="public">
           <name>XMC_DSD_CH_TIMESTAMP_TRIGGER_RISE</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger event upon a rising edge </para>          </detaileddescription>
+<para>Trigger event upon a rising edge </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga0b1ee318d29a035ea865a08b6f83b4b6a95228e0589b308b82b26fc5a8038f052" prot="public">
           <name>XMC_DSD_CH_TIMESTAMP_TRIGGER_BOTH_EDGES</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger event upon both the edge </para>          </detaileddescription>
+<para>Trigger event upon both the edge </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the timestamp trigger mode. Use type <ref refid="group___d_s_d_1ga0b1ee318d29a035ea865a08b6f83b4b6" kindref="member">XMC_DSD_CH_TIMESTAMP_TRIGGER_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the timestamp trigger mode. Use type <ref refid="group___d_s_d_1ga0b1ee318d29a035ea865a08b6f83b4b6" kindref="member">XMC_DSD_CH_TIMESTAMP_TRIGGER_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="322" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="321" bodyend="328"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="318" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="317" bodyend="324"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga3a6f085bea1f918759879c3b8516fb55" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga3a6f085bea1f918759879c3b8516fb55" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_CH_TRIGGER_SOURCE_t</name>
         <enumvalue id="group___d_s_d_1gga3a6f085bea1f918759879c3b8516fb55afb22627b045136ac12471971455ae485" prot="public">
           <name>XMC_DSD_CH_TRIGGER_SOURCE_A</name>
@@ -585,7 +665,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger signal,input A </para>          </detaileddescription>
+<para>Trigger signal,input A </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga3a6f085bea1f918759879c3b8516fb55aa613d1b7c9f08fcc129d435ef58e8b77" prot="public">
           <name>XMC_DSD_CH_TRIGGER_SOURCE_B</name>
@@ -593,7 +674,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger signal,input B </para>          </detaileddescription>
+<para>Trigger signal,input B </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga3a6f085bea1f918759879c3b8516fb55a48dd62f1e68906d40d9162b1509343bd" prot="public">
           <name>XMC_DSD_CH_TRIGGER_SOURCE_C</name>
@@ -601,7 +683,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger signal,input C </para>          </detaileddescription>
+<para>Trigger signal,input C </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga3a6f085bea1f918759879c3b8516fb55a5d18997f249d6a4648907f5b8149ac01" prot="public">
           <name>XMC_DSD_CH_TRIGGER_SOURCE_D</name>
@@ -609,7 +692,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger signal,input D </para>          </detaileddescription>
+<para>Trigger signal,input D </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga3a6f085bea1f918759879c3b8516fb55a9611e89435f93733c95030a4ac0bad2f" prot="public">
           <name>XMC_DSD_CH_TRIGGER_SOURCE_E</name>
@@ -617,7 +701,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger signal,input E </para>          </detaileddescription>
+<para>Trigger signal,input E </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga3a6f085bea1f918759879c3b8516fb55a8e413712204a804d1c13f100d2e3b426" prot="public">
           <name>XMC_DSD_CH_TRIGGER_SOURCE_F</name>
@@ -625,7 +710,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger signal,input F </para>          </detaileddescription>
+<para>Trigger signal,input F </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga3a6f085bea1f918759879c3b8516fb55ac7f7473a7a9ac51cb06a19e263bc3b00" prot="public">
           <name>XMC_DSD_CH_TRIGGER_SOURCE_G</name>
@@ -633,7 +719,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger signal,input G </para>          </detaileddescription>
+<para>Trigger signal,input G </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga3a6f085bea1f918759879c3b8516fb55ac8f0f4127665ec3feb70bc3c11ffba82" prot="public">
           <name>XMC_DSD_CH_TRIGGER_SOURCE_H</name>
@@ -641,17 +728,20 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Trigger signal,input H </para>          </detaileddescription>
+<para>Trigger signal,input H </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the trigger signal. Use type <ref refid="group___d_s_d_1ga3a6f085bea1f918759879c3b8516fb55" kindref="member">XMC_DSD_CH_TRIGGER_SOURCE_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the trigger signal. Use type <ref refid="group___d_s_d_1ga3a6f085bea1f918759879c3b8516fb55" kindref="member">XMC_DSD_CH_TRIGGER_SOURCE_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="304" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="303" bodyend="315"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="300" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="299" bodyend="311"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga36d00cfa1835598c73321abc43809042" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga36d00cfa1835598c73321abc43809042" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_GENERATOR_CLKDIV_t</name>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a148a5465bc02207f2aadaecaa63a9bec" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_2048</name>
@@ -659,7 +749,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/2)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/2)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042af42ef259b1010b0d335994ff48d4738b" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_4096</name>
@@ -667,7 +758,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/4)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/4)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a85ea869d9a12a1edc7b44eda29939106" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_6144</name>
@@ -675,7 +767,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/6)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/6)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a67df9e25a1b82cde81022b7f04a89e66" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_8192</name>
@@ -683,7 +776,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/8)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/8)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a2477323af623261b2ae28463de11db2b" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_10240</name>
@@ -691,7 +785,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/10)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/10)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a44be3be30746e5bd13700775fcdf4198" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_12288</name>
@@ -699,7 +794,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/12)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/12)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a6bb0bcd91369d632a1f7d81761b1997e" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_14336</name>
@@ -707,7 +803,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/14)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/14)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a7b08b22cebd1e45beb0bdb4838ea9e6f" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_16384</name>
@@ -715,7 +812,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/16)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/16)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042ada046d28ad75c756aa43443074531bf3" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_18432</name>
@@ -723,7 +821,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/18)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/18)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a702dd967c22b4e4abb1eb5687ef66bdf" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_20480</name>
@@ -731,7 +830,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/20)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/20)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a257a02ff824ebaa32eaa9ebf61ae4ee1" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_22528</name>
@@ -739,7 +839,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/22)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/22)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a6f27993de43741e4058958e5c70e70c6" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_24576</name>
@@ -747,7 +848,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/24)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/24)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a9de978b5540364acb1abac1904ca67fe" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_26624</name>
@@ -755,7 +857,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/26)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/26)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a18d37d0310eb1c7b1b69005290afc157" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_28672</name>
@@ -763,7 +866,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/28)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/28)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042a3d9bedf5aeb71e16a9bc8909f6e65892" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_30720</name>
@@ -771,7 +875,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/30)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/30)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga36d00cfa1835598c73321abc43809042aef70cb4a2eb1dc8ae974b4315bca1c5f" prot="public">
           <name>XMC_DSD_GENERATOR_CLKDIV_32768</name>
@@ -779,17 +884,20 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>fCG = (fCLK/32)/1024 </para>          </detaileddescription>
+<para>fCG = (fCLK/32)/1024 </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the divider factor for the PWM pattern signal generator. Use divider factor to derive input frequency of the carrier signal generator(fCG), from the selected internal clock source(fCLK). Use type <ref refid="group___d_s_d_1ga36d00cfa1835598c73321abc43809042" kindref="member">XMC_DSD_GENERATOR_CLKDIV_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the divider factor for the PWM pattern signal generator. Use divider factor to derive input frequency of the carrier signal generator(fCG), from the selected internal clock source(fCLK). Use type <ref refid="group___d_s_d_1ga36d00cfa1835598c73321abc43809042" kindref="member">XMC_DSD_GENERATOR_CLKDIV_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="150" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="149" bodyend="168"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="146" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="145" bodyend="164"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga5f1d45bf1b7c823102d747bbb2d2afd8" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga5f1d45bf1b7c823102d747bbb2d2afd8" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_GENERATOR_MODE_t</name>
         <enumvalue id="group___d_s_d_1gga5f1d45bf1b7c823102d747bbb2d2afd8aad44dbf2bea2cb4f70c22f80b6572247" prot="public">
           <name>XMC_DSD_GENERATOR_MODE_STOPPED</name>
@@ -797,7 +905,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Stopped </para>          </detaileddescription>
+<para>Stopped </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga5f1d45bf1b7c823102d747bbb2d2afd8a1e1c266a28b6328586fa87e64ea86ecc" prot="public">
           <name>XMC_DSD_GENERATOR_MODE_RECTANGLE</name>
@@ -805,7 +914,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Square wave </para>          </detaileddescription>
+<para>Square wave </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga5f1d45bf1b7c823102d747bbb2d2afd8a344590e160d8538ef7d50d5c67cbcafe" prot="public">
           <name>XMC_DSD_GENERATOR_MODE_TRIANGLE</name>
@@ -813,7 +923,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Triangle </para>          </detaileddescription>
+<para>Triangle </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga5f1d45bf1b7c823102d747bbb2d2afd8a7d33f4ba6f9e25914a2beddd825589a6" prot="public">
           <name>XMC_DSD_GENERATOR_MODE_SINE</name>
@@ -821,39 +932,45 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Sine wave </para>          </detaileddescription>
+<para>Sine wave </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enumerates the carrier generator operating mode. Use type <ref refid="group___d_s_d_1ga5f1d45bf1b7c823102d747bbb2d2afd8" kindref="member">XMC_DSD_GENERATOR_MODE_t</ref> for this enum. </para>        </detaileddescription>
+<para>Enumerates the carrier generator operating mode. Use type <ref refid="group___d_s_d_1ga5f1d45bf1b7c823102d747bbb2d2afd8" kindref="member">XMC_DSD_GENERATOR_MODE_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="176" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="175" bodyend="182"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="172" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="171" bodyend="178"/>
       </memberdef>
-      <memberdef kind="enum" id="group___d_s_d_1ga1fe41bdf5334f8dafa87942e43adf2e4" prot="public" static="no">
+      <memberdef kind="enum" id="group___d_s_d_1ga1fe41bdf5334f8dafa87942e43adf2e4" prot="public" static="no" strong="no">
+        <type></type>
         <name>XMC_DSD_STATUS_t</name>
         <enumvalue id="group___d_s_d_1gga1fe41bdf5334f8dafa87942e43adf2e4ae475b684cda2e9244fce06f7233b371c" prot="public">
           <name>XMC_DSD_STATUS_OK</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>API fulfills request </para>          </detaileddescription>
+<para>API fulfills request </para>
+          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___d_s_d_1gga1fe41bdf5334f8dafa87942e43adf2e4a3fb2552c72b7201d430cc09c347bfab7" prot="public">
           <name>XMC_DSD_STATUS_ERROR</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Error detected </para>          </detaileddescription>
+<para>Error detected </para>
+          </detaileddescription>
         </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Return types of the API&apos;s.Use type <ref refid="group___d_s_d_1ga1fe41bdf5334f8dafa87942e43adf2e4" kindref="member">XMC_DSD_STATUS_t</ref> for this enum. </para>        </detaileddescription>
+<para>Return types of the API&apos;s.Use type <ref refid="group___d_s_d_1ga1fe41bdf5334f8dafa87942e43adf2e4" kindref="member">XMC_DSD_STATUS_t</ref> for this enum. </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="136" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="135" bodyend="141"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="132" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="131" bodyend="137"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -865,10 +982,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DSD Channel </para>        </detaileddescription>
+<para>DSD Channel </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="124" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="124" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="120" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" prot="public" static="no">
         <type>DSD_GLOBAL_TypeDef</type>
@@ -878,10 +996,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DSD Module </para>        </detaileddescription>
+<para>DSD Module </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="129" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="129" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="125" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -902,15 +1021,19 @@
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>This API disable the auxiliary filter service request generation for this channel. Clear the bit fields <emphasis>SRGA</emphasis> and ESEL of register <emphasis>FCFGA</emphasis>. </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>This API disable the auxiliary filter service request generation for this channel. Clear the bit fields <emphasis>SRGA</emphasis> and ESEL of register <emphasis>FCFGA</emphasis>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1036" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1036" bodyend="1040"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1032" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1032" bodyend="1036"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga5caf306dca39c1e83fd2c96ae386b780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -933,22 +1056,27 @@
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>event</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>to select the type of event which will be enabled of type <ref refid="group___d_s_d_1gae9cb3a22cc1880697d0ea7750a2b6d93" kindref="member">XMC_DSD_CH_AUX_EVENT_t</ref> </para></parameterdescription>
+<para>to select the type of event which will be enabled of type <ref refid="group___d_s_d_1gae9cb3a22cc1880697d0ea7750a2b6d93" kindref="member">XMC_DSD_CH_AUX_EVENT_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>This API enable the service request generation for this channel. Result events are generated at the output rate of the configured auxiliary filter chain. Configure bit field <emphasis>SRGA</emphasis> and ESEL of register <emphasis>FCFGA</emphasis> </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>This API enable the service request generation for this channel. Result events are generated at the output rate of the configured auxiliary filter chain. Configure bit field <emphasis>SRGA</emphasis> and ESEL of register <emphasis>FCFGA</emphasis> </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1020" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1020" bodyend="1025"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1016" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1016" bodyend="1021"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -971,30 +1099,37 @@
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>init</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___a_u_x___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_AUX_FILTER_CONFIG_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___a_u_x___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_AUX_FILTER_CONFIG_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>This API initialize auxiliary filter module with <emphasis>init</emphasis>. The auxiliary Filter is mainly used as fast filter.<linebreak/>
 Adding the auxiliary filter to the system structure helps by defining the boundaries and filter configurations.<linebreak/>
-</para></simplesect>
+</para>
+</simplesect>
 <simplesect kind="par"><title>Note</title><para>It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.<linebreak/>
- </para></simplesect>
+ </para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="980" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="976" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gace30e711b2cbdd0a17e6fc856737d051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1021,34 +1156,42 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>lower_boundary</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>lower boundary value for limit checking </para></parameterdescription>
+<para>lower boundary value for limit checking </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>upper_boundary</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>upper boundary value for limit checking </para></parameterdescription>
+<para>upper boundary value for limit checking </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>Invoke this API, to set the lower and upper boundary for limit checking for this channel. This (two’s complement) value is compared to the results of the parallel filter. Configure bit fields <emphasis>BOUNDARYU</emphasis> and <emphasis>BOUNDARYL</emphasis> of register <emphasis>BOUNDSEL</emphasis>.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>Lower and upper boundaries are internally configured by function <ref refid="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" kindref="member">XMC_DSD_CH_AuxFilter_Init()</ref>.</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>Invoke this API, to set the lower and upper boundary for limit checking for this channel. This (two’s complement) value is compared to the results of the parallel filter. Configure bit fields <emphasis>BOUNDARYU</emphasis> and <emphasis>BOUNDARYL</emphasis> of register <emphasis>BOUNDSEL</emphasis>.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>Lower and upper boundaries are internally configured by function <ref refid="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" kindref="member">XMC_DSD_CH_AuxFilter_Init()</ref>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" kindref="member">XMC_DSD_CH_AuxFilter_Init()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="999" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="999" bodyend="1007"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="995" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="995" bodyend="1003"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga78cbc0ea3aa5577e6186f93991bf5fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1071,22 +1214,27 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>delay</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Captured value </para></parameterdescription>
+<para>Captured value </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>uint8_t</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>This API, capture sign delay value for DSD channel. Captured value indicates the values counted between the begin of the positive halfwave of the carrier signal and the first received positive value. Read bit field <emphasis>SDCAP</emphasis> of register <emphasis>CGSYNC</emphasis> </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>uint8_t</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>This API, capture sign delay value for DSD channel. Captured value indicates the values counted between the begin of the positive halfwave of the carrier signal and the first received positive value. Read bit field <emphasis>SDCAP</emphasis> of register <emphasis>CGSYNC</emphasis> </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1091" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1091" bodyend="1095"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1087" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1087" bodyend="1091"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga70a28f988abaccc0c76130beb461efc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1109,27 +1257,33 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>dsd_Result</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>pointer point to the address of 16 bit variable </para></parameterdescription>
+<para>pointer point to the address of 16 bit variable </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description:</title><para>Returns the result of most recent conversion associated with this channel.<linebreak/>
- A call to this API would access the register bit field <emphasis>RESMx.RESULT</emphasis> (x = 0 - 3).</para></simplesect>
+ A call to this API would access the register bit field <emphasis>RESMx.RESULT</emphasis> (x = 0 - 3).</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga56bbc99bfe95ae0507d46d4d72e7e99e" kindref="member">XMC_DSD_CH_GetResult_TS()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="783" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="783" bodyend="788"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="779" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="779" bodyend="784"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gae0d0b8a3009c9314ac07752ecec7945a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1152,27 +1306,33 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>dsd_Result</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>pointer point to the address of 16 bit variable </para></parameterdescription>
+<para>pointer point to the address of 16 bit variable </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description:</title><para>Returns the most recent conversion result values of the auxiliary filter associated with this channel.<linebreak/>
- A call to this API would access the register bit field <emphasis>RESAx.RESULT</emphasis> (x = 0 - 3).</para></simplesect>
+ A call to this API would access the register bit field <emphasis>RESAx.RESULT</emphasis> (x = 0 - 3).</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga56bbc99bfe95ae0507d46d4d72e7e99e" kindref="member">XMC_DSD_CH_GetResult_TS()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="837" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="837" bodyend="842"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="833" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="833" bodyend="838"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga56bbc99bfe95ae0507d46d4d72e7e99e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1203,8 +1363,9 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref><linebreak/>
-</para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type XMC_DSD_CH_t<linebreak/>
+ </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
@@ -1212,7 +1373,8 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 </parameternamelist>
 <parameterdescription>
 <para>pointer point to the address of 16 bit variable holds result value<linebreak/>
-</para></parameterdescription>
+</para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
@@ -1220,7 +1382,8 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 </parameternamelist>
 <parameterdescription>
 <para>pointer point to the address of 8 bit variable holds decimation counter value<linebreak/>
-</para></parameterdescription>
+</para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
@@ -1228,21 +1391,26 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 </parameternamelist>
 <parameterdescription>
 <para>pointer point to the address of 8 bit integration counter variable holds value<linebreak/>
-</para></parameterdescription>
+</para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None<linebreak/>
- </para></simplesect>
+ </para>
+</simplesect>
 <simplesect kind="par"><title>Description:</title><para>API to get the result of the last conversion associated with this channel with CIC filter decimation counter and number of values counted.<linebreak/>
- A call to this API would access the register bit field <emphasis>TSTMPx.RESULT</emphasis> <emphasis>TSTMPx.CFMDCNT</emphasis> and <emphasis>TSTMPx.NVALCNT</emphasis> where (x = 0 - 3).</para></simplesect>
+ A call to this API would access the register bit field <emphasis>TSTMPx.RESULT</emphasis> <emphasis>TSTMPx.CFMDCNT</emphasis> and <emphasis>TSTMPx.NVALCNT</emphasis> where (x = 0 - 3).</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga70a28f988abaccc0c76130beb461efc7" kindref="member">XMC_DSD_CH_GetResult()</ref>,<ref refid="group___d_s_d_1ga97c150a74b54eceae3c8820bcdbb1286" kindref="member">XMC_DSD_CH_GetResult_TS_Time()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="805" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="801" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga97c150a74b54eceae3c8820bcdbb1286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1269,8 +1437,9 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref><linebreak/>
-</para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type XMC_DSD_CH_t<linebreak/>
+ </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
@@ -1278,7 +1447,8 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 </parameternamelist>
 <parameterdescription>
 <para>pointer point to the address of 16 bit variable holds result value<linebreak/>
-</para></parameterdescription>
+</para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
@@ -1286,20 +1456,25 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 </parameternamelist>
 <parameterdescription>
 <para>pointer point to the address of 32 bit variable holds the time<linebreak/>
-</para></parameterdescription>
+</para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description:</title><para>API to get the result of the last conversion with the time, associated with this channel.<linebreak/>
- </para></simplesect>
+ </para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga70a28f988abaccc0c76130beb461efc7" kindref="member">XMC_DSD_CH_GetResult()</ref>,<ref refid="group___d_s_d_1ga56bbc99bfe95ae0507d46d4d72e7e99e" kindref="member">XMC_DSD_CH_GetResult_TS()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="823" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="819" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_s_d_1ga1fe41bdf5334f8dafa87942e43adf2e4" kindref="member">XMC_DSD_STATUS_t</ref></type>
@@ -1322,27 +1497,33 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>init</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_CONFIG_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_CONFIG_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>XMC_DSD_STATUS_t if success Returns <ref refid="group___d_s_d_1gga1fe41bdf5334f8dafa87942e43adf2e4ae475b684cda2e9244fce06f7233b371c" kindref="member">XMC_DSD_STATUS_OK</ref> else return <ref refid="group___d_s_d_1gga1fe41bdf5334f8dafa87942e43adf2e4a3fb2552c72b7201d430cc09c347bfab7" kindref="member">XMC_DSD_STATUS_ERROR</ref>.</para></simplesect>
+<simplesect kind="return"><para>XMC_DSD_STATUS_t if success Returns <ref refid="group___d_s_d_1gga1fe41bdf5334f8dafa87942e43adf2e4ae475b684cda2e9244fce06f7233b371c" kindref="member">XMC_DSD_STATUS_OK</ref> else return <ref refid="group___d_s_d_1gga1fe41bdf5334f8dafa87942e43adf2e4a3fb2552c72b7201d430cc09c347bfab7" kindref="member">XMC_DSD_STATUS_ERROR</ref>.</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Initialize main filter,auxiliary filter,integrator, rectifier and timestamp of DSD module with <emphasis>init</emphasis>.<linebreak/>
-Internally this API invoke main filter, auxiliary filter, integrator, rectifier and timestamp init API.</para></simplesect>
+Internally this API invoke main filter, auxiliary filter, integrator, rectifier and timestamp init API.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga553ef84a4928891b8196e1b302e62070" kindref="member">XMC_DSD_CH_MainFilter_Init()</ref>,<ref refid="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" kindref="member">XMC_DSD_CH_AuxFilter_Init()</ref>,<ref refid="group___d_s_d_1ga84eaf8c2fda261fcce202c81b2ee94c5" kindref="member">XMC_DSD_CH_Integrator_Init()</ref>, <ref refid="group___d_s_d_1ga21153beece159dc431200a17bbf582cb" kindref="member">XMC_DSD_CH_Rectify_Init()</ref>,<ref refid="group___d_s_d_1gaefcf46240b873558f4813d682d3e7db1" kindref="member">XMC_DSD_CH_Timestamp_Init()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="699" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="695" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga84eaf8c2fda261fcce202c81b2ee94c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1365,27 +1546,34 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>init</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___i_n_t_e_g_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_INTEGRATOR_CONFIG_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___i_n_t_e_g_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_INTEGRATOR_CONFIG_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>Initialize integrator of DSD module.The integrator is mainly used for resolver feedback but can also be used for high accurate measurement. This API configures number of integration loops, number of results are discarded before integration starts, integrator stop condition, number of integrator loop to get integration result and trigger mode.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>Trigger source for timestamp and integrator are shared. It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>Initialize integrator of DSD module.The integrator is mainly used for resolver feedback but can also be used for high accurate measurement. This API configures number of integration loops, number of results are discarded before integration starts, integrator stop condition, number of integrator loop to get integration result and trigger mode.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>Trigger source for timestamp and integrator are shared. It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1059" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1055" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga6b7baf705ddd49f5df11d49cdacfff0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1404,15 +1592,19 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>This API disable the service request generation for result of this channel. Configure bit field <emphasis>SRGM</emphasis> of register <emphasis>FCFGC</emphasis> </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>This API disable the service request generation for result of this channel. Configure bit field <emphasis>SRGM</emphasis> of register <emphasis>FCFGC</emphasis> </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="958" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="958" bodyend="962"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="954" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="954" bodyend="958"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga1209337fa505ce1aead18ef6fc1eef72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1431,15 +1623,19 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>This API enable the service request generation for result of this channel. Result events are generated at the output rate of the configured main filter chain. Configure bit field <emphasis>SRGM</emphasis> of register <emphasis>FCFGC</emphasis> </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>This API enable the service request generation for result of this channel. Result events are generated at the output rate of the configured main filter chain. Configure bit field <emphasis>SRGM</emphasis> of register <emphasis>FCFGC</emphasis> </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="943" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="943" bodyend="947"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="939" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="939" bodyend="943"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga553ef84a4928891b8196e1b302e62070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1462,27 +1658,34 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>init</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_FILTER_CONFIG_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_FILTER_CONFIG_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>This API initialize main filter module with <emphasis>init</emphasis>. The filter demodulates the incoming bit stream from the delta sigma modulator to a 16 bit result.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>This API initialize main filter module with <emphasis>init</emphasis>. The filter demodulates the incoming bit stream from the delta sigma modulator to a 16 bit result.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="912" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="908" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga550cf32d8f26da8b9d26bed22eb1171b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1505,23 +1708,29 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>offset</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Signed Offset value to be set </para></parameterdescription>
+<para>Signed Offset value to be set </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>API set the signed offset value for this channel. This offset value is subtracted from each result before being written to the corresponding result register <emphasis>RESMx</emphasis>.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>The offset value is measured for each channel separately. </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>API set the signed offset value for this channel. This offset value is subtracted from each result before being written to the corresponding result register <emphasis>RESMx</emphasis>.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>The offset value is measured for each channel separately. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="927" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="927" bodyend="931"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="923" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="923" bodyend="927"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga21153beece159dc431200a17bbf582cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1544,27 +1753,34 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>init</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___r_e_c_t_i_f_y___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_RECTIFY_CONFIG_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___r_e_c_t_i_f_y___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_RECTIFY_CONFIG_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>Initialize rectification for this channel. In a resolver feedback system, rectifier is used to rectify the result from the integrator. Configure bit field <emphasis>RFEN</emphasis> and <emphasis>SSRC</emphasis> of register <emphasis>RECTCFG</emphasis>. Also configure sign delay value for positive halfwave(<emphasis>SDPOS</emphasis>) and negative halfwave(<emphasis>SDNEG</emphasis>). </para></simplesect>
-<simplesect kind="par"><title>Note</title><para>For the operational capability of rectifier the filter and the integrator is mandatory. It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>Initialize rectification for this channel. In a resolver feedback system, rectifier is used to rectify the result from the integrator. Configure bit field <emphasis>RFEN</emphasis> and <emphasis>SSRC</emphasis> of register <emphasis>RECTCFG</emphasis>. Also configure sign delay value for positive halfwave(<emphasis>SDPOS</emphasis>) and negative halfwave(<emphasis>SDNEG</emphasis>). </para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>For the operational capability of rectifier the filter and the integrator is mandatory. It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1077" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1073" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gaefcf46240b873558f4813d682d3e7db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1587,28 +1803,35 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD channel of type <ref refid="group___d_s_d_1ga0926714ae01c0dc11c07c597e6c48cf4" kindref="member">XMC_DSD_CH_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>init</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_TIMESTAMP_CONFIG_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_TIMESTAMP_CONFIG_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Initialize timestamp mode of DSD module with <emphasis>init</emphasis>.<linebreak/>
-Configures bits <emphasis>TRSEL</emphasis> and <emphasis>TSTRMODE</emphasis> of register <emphasis>DICFG</emphasis> .</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>Trigger source for timestamp and integrator are shared. It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.</para></simplesect>
+Configures bits <emphasis>TRSEL</emphasis> and <emphasis>TSTRMODE</emphasis> of register <emphasis>DICFG</emphasis> .</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>Trigger source for timestamp and integrator are shared. It is internally called by <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="683" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="679" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga14280e89324e1fb9adaa379d8e10b9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1631,28 +1854,35 @@ Configures bits <emphasis>TRSEL</emphasis> and <emphasis>TSTRMODE</emphasis> of 
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>channel_id</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Channel number register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> </para></parameterdescription>
+<para>Channel number register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Clear the result event flag.<linebreak/>
-Set bit fields <emphasis>ALECx</emphasis> of register <emphasis>EVFLAGCLR.Clearing</emphasis> these bits has no effect.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>API call for channel-0 : XMC_DSD_ClearResultEventFlag(DSD,(uint32_t)XMC_DSD_CH_ID_0); API call for channel-0 and 1: XMC_DSD_ClearResultEventFlag(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1));</para></simplesect>
+Set bit fields <emphasis>ALECx</emphasis> of register <emphasis>EVFLAGCLR.Clearing</emphasis> these bits has no effect.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>API call for channel-0 : XMC_DSD_ClearResultEventFlag(DSD,(uint32_t)XMC_DSD_CH_ID_0); API call for channel-0 and 1: XMC_DSD_ClearResultEventFlag(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1));</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gae73cb88751e69031eb5d9ffbbfec47e5" kindref="member">XMC_DSD_SetAlarmEventFlag()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1175" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1175" bodyend="1179"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1171" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1171" bodyend="1175"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gac3e92415ba18b5bcedb454bc02409631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1675,28 +1905,35 @@ Set bit fields <emphasis>ALECx</emphasis> of register <emphasis>EVFLAGCLR.Cleari
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>channel_id</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Channel number register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> </para></parameterdescription>
+<para>Channel number register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Clear the result event flag.<linebreak/>
-Set bit fields <emphasis>RESECx</emphasis> of register <emphasis>EVFLAGCLR.Clearing</emphasis> these bits has no effect.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>API call for channel-0 : XMC_DSD_ClearResultEventFlag(DSD,(uint32_t)XMC_DSD_CH_ID_0); API call for channel-0 and 1: XMC_DSD_ClearResultEventFlag(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1));</para></simplesect>
+Set bit fields <emphasis>RESECx</emphasis> of register <emphasis>EVFLAGCLR.Clearing</emphasis> these bits has no effect.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>API call for channel-0 : XMC_DSD_ClearResultEventFlag(DSD,(uint32_t)XMC_DSD_CH_ID_0); API call for channel-0 and 1: XMC_DSD_ClearResultEventFlag(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1));</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga0dfd9c25608f8dd6d28f68fae3a04d68" kindref="member">XMC_DSD_SetResultEventFlag()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1133" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1133" bodyend="1137"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1129" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1129" bodyend="1133"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gabc530c3f59111a433dca627b52477ccd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1715,20 +1952,25 @@ Set bit fields <emphasis>RESECx</emphasis> of register <emphasis>EVFLAGCLR.Clear
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Asserts the DSD module into reset.<linebreak/>
-Configures <emphasis>PRSET0</emphasis> register&apos;s <emphasis>DSDRS</emphasis> bit field. If running on XMC44/XMC48 device then it will gate the peripheral clock.</para></simplesect>
+Configures <emphasis>PRSET0</emphasis> register&apos;s <emphasis>DSDRS</emphasis> bit field. If running on XMC44/XMC48 device then it will gate the peripheral clock.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gae625acbcea862aaef4ae6ffa1384213d" kindref="member">XMC_DSD_Enable()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="615" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="611" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga201f09e7e0da21c460266de3ad6b7ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1747,20 +1989,25 @@ Configures <emphasis>PRSET0</emphasis> register&apos;s <emphasis>DSDRS</emphasis
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Stop the module clock and disable internal module clock for DSD.<linebreak/>
-Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</emphasis> and bit field <emphasis>DISR</emphasis> of register <emphasis>CLC</emphasis>.</para></simplesect>
+Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</emphasis> and bit field <emphasis>DISR</emphasis> of register <emphasis>CLC</emphasis>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga201f09e7e0da21c460266de3ad6b7ab2" kindref="member">XMC_DSD_DisableClock()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="642" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="638" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gae625acbcea862aaef4ae6ffa1384213d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1779,21 +2026,27 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>De-asserts the DSD module from reset.<linebreak/>
-Configures <emphasis>PRCLR0</emphasis> register&apos;s <emphasis>DSDRS</emphasis> bit field. If running on XMC44/XMC48 device then it will ungate the peripheral clock.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>It is internally called by <ref refid="group___d_s_d_1ga8ef9ed5f2da44e68e667dd86157aa67f" kindref="member">XMC_DSD_Init()</ref>.</para></simplesect>
+Configures <emphasis>PRCLR0</emphasis> register&apos;s <emphasis>DSDRS</emphasis> bit field. If running on XMC44/XMC48 device then it will ungate the peripheral clock.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>It is internally called by <ref refid="group___d_s_d_1ga8ef9ed5f2da44e68e667dd86157aa67f" kindref="member">XMC_DSD_Init()</ref>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gabc530c3f59111a433dca627b52477ccd" kindref="member">XMC_DSD_Disable()</ref>,<ref refid="group___d_s_d_1ga8ef9ed5f2da44e68e667dd86157aa67f" kindref="member">XMC_DSD_Init()</ref> <linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="601" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="597" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gace3fcdbf6e73ac059ac75139f4d4d17c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1812,21 +2065,27 @@ Configures <emphasis>PRCLR0</emphasis> register&apos;s <emphasis>DSDRS</emphasis
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Enable the module clock and internal module clock for DSD.<linebreak/>
-Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</emphasis> and bit field <emphasis>DISR</emphasis> of register <emphasis>CLC</emphasis>.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>It is internally called by <ref refid="group___d_s_d_1ga8ef9ed5f2da44e68e667dd86157aa67f" kindref="member">XMC_DSD_Init()</ref>.</para></simplesect>
+Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</emphasis> and bit field <emphasis>DISR</emphasis> of register <emphasis>CLC</emphasis>.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>It is internally called by <ref refid="group___d_s_d_1ga8ef9ed5f2da44e68e667dd86157aa67f" kindref="member">XMC_DSD_Init()</ref>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga201f09e7e0da21c460266de3ad6b7ab2" kindref="member">XMC_DSD_DisableClock()</ref>,<ref refid="group___d_s_d_1ga8ef9ed5f2da44e68e667dd86157aa67f" kindref="member">XMC_DSD_Init()</ref> <linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="630" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="626" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga4110982124cd1c069bdc80c5461e1d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1849,22 +2108,27 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>init</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___g_e_n_e_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_GENERATOR_CONFIG_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___g_e_n_e_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_GENERATOR_CONFIG_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>This API initialize generator module with <emphasis>init</emphasis>, to generate a wave for a resolver. Three types of waveforms can be generated: Rectangle, Triangle and Sine. </para></simplesect>
-</para>        </detaileddescription>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>This API initialize generator module with <emphasis>init</emphasis>, to generate a wave for a resolver. Three types of waveforms can be generated: Rectangle, Triangle and Sine. </para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="854" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="850" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga7fcaf9ce73d825f8020964d9983d9da2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1887,26 +2151,32 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>config</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___g_e_n_e_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_GENERATOR_CONFIG_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of data structure of type <ref refid="struct_x_m_c___d_s_d___g_e_n_e_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_GENERATOR_CONFIG_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>Start carrier generator by configuring operating mode. Configures bit field <emphasis>CGMOD</emphasis> of register <emphasis>CGCFG</emphasis>.</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>Start carrier generator by configuring operating mode. Configures bit field <emphasis>CGMOD</emphasis> of register <emphasis>CGCFG</emphasis>.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga54588105c52fe3a59667cb946efbca02" kindref="member">XMC_DSD_Generator_Stop()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="869" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="869" bodyend="874"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="865" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="865" bodyend="870"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga54588105c52fe3a59667cb946efbca02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1925,20 +2195,26 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>Stop carrier generator by configuring operating mode. Reset bit field <emphasis>CGMOD</emphasis> of register <emphasis>CGCFG</emphasis>.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>Stopping the carrier generator terminates the PWM output after completion of the current period.</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>Stop carrier generator by configuring operating mode. Reset bit field <emphasis>CGMOD</emphasis> of register <emphasis>CGCFG</emphasis>.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>Stopping the carrier generator terminates the PWM output after completion of the current period.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga7fcaf9ce73d825f8020964d9983d9da2" kindref="member">XMC_DSD_Generator_Start()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="890" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="890" bodyend="894"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="886" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="886" bodyend="890"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga8ef9ed5f2da44e68e667dd86157aa67f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1957,21 +2233,27 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Enable the DSD module and clock.<linebreak/>
- </para></simplesect>
-<simplesect kind="par"><title>Note</title><para>This is the first API which application must invoke to configure DSD.</para></simplesect>
+ </para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>This is the first API which application must invoke to configure DSD.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gae625acbcea862aaef4ae6ffa1384213d" kindref="member">XMC_DSD_Enable()</ref>,<ref refid="group___d_s_d_1gace3fcdbf6e73ac059ac75139f4d4d17c" kindref="member">XMC_DSD_EnableClock()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="666" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="662" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga1c932fe74edcf6f32c2f87663edc1122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1994,30 +2276,36 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref><linebreak/>
-</para></parameterdescription>
+<para>Pointer to an instance of DSD module of type XMC_DSD_t<linebreak/>
+ </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Channel run control bit register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref><linebreak/>
-</para></parameterdescription>
+<para>Channel run control bit register value of type XMC_DSD_CH_ID_t<linebreak/>
+ </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>bool Return 1 if started else 0.<linebreak/>
- </para></simplesect>
+ </para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Find out if particular demodulator channel is started or not.<linebreak/>
- </para></simplesect>
+ </para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gaf8ff4a18539762c79d68125f7298ccfe" kindref="member">XMC_DSD_Start()</ref>,<ref refid="group___d_s_d_1gac90d64373b776d4a0a50040243bb98d4" kindref="member">XMC_DSD_Stop()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="756" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="756" bodyend="769"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="752" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="752" bodyend="765"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gaf99009cda039f955b12950d42d700d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2036,19 +2324,23 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>bool Return 1 if success else 0.</para></simplesect>
+<simplesect kind="return"><para>bool Return 1 if success else 0.</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Find out if the DSD reset is asserted.<linebreak/>
 Read <emphasis>PRSTAT0</emphasis> register&apos;s <emphasis>DSDRS</emphasis> bit field.<linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="651" column="1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="647" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gae73cb88751e69031eb5d9ffbbfec47e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2071,28 +2363,35 @@ Read <emphasis>PRSTAT0</emphasis> register&apos;s <emphasis>DSDRS</emphasis> bit
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>channel_id</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Channel number register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> </para></parameterdescription>
+<para>Channel number register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Set the alarm event flag.<linebreak/>
-Set bit fields <emphasis>ALEVx</emphasis> of register <emphasis>EVFLAG.Clearing</emphasis> these bits has no effect.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>API call for channel-0 : XMC_DSD_SetAlarmEventFlag(DSD,(uint32_t)XMC_DSD_CH_ID_0); API call for channel-0 and 1: XMC_DSD_SetAlarmEventFlag(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1));</para></simplesect>
+Set bit fields <emphasis>ALEVx</emphasis> of register <emphasis>EVFLAG.Clearing</emphasis> these bits has no effect.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>API call for channel-0 : XMC_DSD_SetAlarmEventFlag(DSD,(uint32_t)XMC_DSD_CH_ID_0); API call for channel-0 and 1: XMC_DSD_SetAlarmEventFlag(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1));</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1ga14280e89324e1fb9adaa379d8e10b9fa" kindref="member">XMC_DSD_ClearAlarmEventFlag()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1154" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1154" bodyend="1158"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1150" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1150" bodyend="1154"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga0dfd9c25608f8dd6d28f68fae3a04d68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2115,28 +2414,35 @@ Set bit fields <emphasis>ALEVx</emphasis> of register <emphasis>EVFLAG.Clearing<
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>channel_id</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Channel number register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> </para></parameterdescription>
+<para>Channel number register value of type <ref refid="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" kindref="member">XMC_DSD_CH_ID_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
 <simplesect kind="par"><title>Description</title><para>Set the result event flag and trigger the corresponding event.<linebreak/>
-Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing</emphasis> these bits has no effect.</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>API call for channel-0 : XMC_DSD_SetResultEventFlag(DSD,(uint32_t)XMC_DSD_CH_ID_0); API call for channel-0 and 1: XMC_DSD_SetResultEventFlag(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1));</para></simplesect>
+Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing</emphasis> these bits has no effect.</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>API call for channel-0 : XMC_DSD_SetResultEventFlag(DSD,(uint32_t)XMC_DSD_CH_ID_0); API call for channel-0 and 1: XMC_DSD_SetResultEventFlag(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1));</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gac3e92415ba18b5bcedb454bc02409631" kindref="member">XMC_DSD_ClearResultEventFlag()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1112" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1112" bodyend="1116"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1108" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1108" bodyend="1112"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gaf8ff4a18539762c79d68125f7298ccfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2159,27 +2465,34 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para></parameterdescription>
+<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref> </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>channel</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Channel run control bit register value </para></parameterdescription>
+<para>Channel run control bit register value </para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description</title><para>Start demodulator channel by enabling run control bit. Multiple channel can be start at a time. For an example: To start all four channel, call this function as XMC_DSD_Start(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1|XMC_DSD_CH_ID_2|XMC_DSD_CH_ID_3));</para></simplesect>
-<simplesect kind="par"><title>Note</title><para>All filter blocks are cleared when CHxRUN is set.</para></simplesect>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>Start demodulator channel by enabling run control bit. Multiple channel can be start at a time. For an example: To start all four channel, call this function as XMC_DSD_Start(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1|XMC_DSD_CH_ID_2|XMC_DSD_CH_ID_3));</para>
+</simplesect>
+<simplesect kind="par"><title>Note</title><para>All filter blocks are cleared when CHxRUN is set.</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gac90d64373b776d4a0a50040243bb98d4" kindref="member">XMC_DSD_Stop()</ref>,<ref refid="group___d_s_d_1ga1c932fe74edcf6f32c2f87663edc1122" kindref="member">XMC_DSD_IsChannelStarted()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="718" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="718" bodyend="722"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="714" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="714" bodyend="718"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gac90d64373b776d4a0a50040243bb98d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2202,8 +2515,9 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
 <parametername>dsd</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to an instance of DSD module of type <ref refid="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" kindref="member">XMC_DSD_t</ref><linebreak/>
-</para></parameterdescription>
+<para>Pointer to an instance of DSD module of type XMC_DSD_t<linebreak/>
+ </para>
+</parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
@@ -2211,20 +2525,25 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
 </parameternamelist>
 <parameterdescription>
 <para>Channel run control bit register value<linebreak/>
-</para></parameterdescription>
+</para>
+</parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None<linebreak/>
- </para></simplesect>
-<simplesect kind="par"><title>Description</title><para>Stop demodulator channel by resetting run control bit. Multiple channel can be stop at a time. For an example: To stop all four channel, call this function as XMC_DSD_Stop(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1|XMC_DSD_CH_ID_2|XMC_DSD_CH_ID_3));</para></simplesect>
+ </para>
+</simplesect>
+<simplesect kind="par"><title>Description</title><para>Stop demodulator channel by resetting run control bit. Multiple channel can be stop at a time. For an example: To stop all four channel, call this function as XMC_DSD_Stop(DSD,(uint32_t)(XMC_DSD_CH_ID_0|XMC_DSD_CH_ID_1|XMC_DSD_CH_ID_2|XMC_DSD_CH_ID_3));</para>
+</simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___d_s_d_1gaf8ff4a18539762c79d68125f7298ccfe" kindref="member">XMC_DSD_Start()</ref>,<ref refid="group___d_s_d_1ga1c932fe74edcf6f32c2f87663edc1122" kindref="member">XMC_DSD_IsChannelStarted()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para></simplesect>
-</para>        </detaileddescription>
+</para>
+</simplesect>
+</para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="739" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="739" bodyend="743"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="735" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="735" bodyend="739"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -2238,7 +2557,7 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="116" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="116" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="112" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_s_d_1gaa407d696b0bec52989d3cc8c01f606ac" prot="public" static="no">
         <name>XMC_DSD_CHECK_MODULE_PTR</name>
@@ -2250,18 +2569,35 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="115" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/7e5c9300/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="115" bodyend="-1"/>
+        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="111" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Delta Sigma Demodulator (DSD) driver for the XMC4500, XMC4400 and XMC4800 microcontroller family <linebreak/>
- </para>    </briefdescription>
+ </para>
+    </briefdescription>
     <detaileddescription>
 <para>The DSD unit provides a series of digital input channels accepting data streams from external modulators using the Delta/Sigma (DS) conversion principle. The on-chip demodulator channels convert these inputs to discrete digital values. DSD unit can be used for isolated current/voltage measurement and for sensor interfaces.<linebreak/>
-</para><para>Driver is divided in six DSD functional blocks -<itemizedlist>
-<listitem><para>Main Filter (APIs prefixed with XMC_DSD_CH_MainFilter),</para></listitem><listitem><para>Aux Filter (APIs prefixed with XMC_DSD_CH_AuxFilter),</para></listitem><listitem><para>Integrator (APIs prefixed with XMC_DSD_CH_Integrator),</para></listitem><listitem><para>Timestamp (APIs prefixed with XMC_DSD_CH_Timestamp),</para></listitem><listitem><para>Rectification (APIs prefixed with XMC_DSD_CH_Rectify),</para></listitem><listitem><para>Carrier Generator (APIs prefixed with XMC_DSD_Generator)</para></listitem></itemizedlist>
-</para><para>DSD driver features:<orderedlist>
-<listitem><para>DSD channel Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_CONFIG_t</ref> initialization function <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref> to configure all the functional blocks (except carrier generator)</para></listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___g_e_n_e_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_GENERATOR_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga4110982124cd1c069bdc80c5461e1d56" kindref="member">XMC_DSD_Generator_Init()</ref> to configure carrier generator</para></listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_FILTER_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga553ef84a4928891b8196e1b302e62070" kindref="member">XMC_DSD_CH_MainFilter_Init()</ref> to configure main filter</para></listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___a_u_x___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_AUX_FILTER_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" kindref="member">XMC_DSD_CH_AuxFilter_Init()</ref> to configure auxilary filter</para></listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___i_n_t_e_g_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_INTEGRATOR_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga84eaf8c2fda261fcce202c81b2ee94c5" kindref="member">XMC_DSD_CH_Integrator_Init()</ref> to configure integrator</para></listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_TIMESTAMP_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1gaefcf46240b873558f4813d682d3e7db1" kindref="member">XMC_DSD_CH_Timestamp_Init()</ref> to configure timestamp</para></listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___r_e_c_t_i_f_y___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_RECTIFY_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga21153beece159dc431200a17bbf582cb" kindref="member">XMC_DSD_CH_Rectify_Init()</ref> to configure rectifier </para></listitem></orderedlist>
-</para>    </detaileddescription>
+</para>
+<para>Driver is divided in six DSD functional blocks -<itemizedlist>
+<listitem><para>Main Filter (APIs prefixed with XMC_DSD_CH_MainFilter),</para>
+</listitem><listitem><para>Aux Filter (APIs prefixed with XMC_DSD_CH_AuxFilter),</para>
+</listitem><listitem><para>Integrator (APIs prefixed with XMC_DSD_CH_Integrator),</para>
+</listitem><listitem><para>Timestamp (APIs prefixed with XMC_DSD_CH_Timestamp),</para>
+</listitem><listitem><para>Rectification (APIs prefixed with XMC_DSD_CH_Rectify),</para>
+</listitem><listitem><para>Carrier Generator (APIs prefixed with XMC_DSD_Generator)</para>
+</listitem></itemizedlist>
+</para>
+<para>DSD driver features:<orderedlist>
+<listitem><para>DSD channel Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_CONFIG_t</ref> initialization function <ref refid="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" kindref="member">XMC_DSD_CH_Init()</ref> to configure all the functional blocks (except carrier generator)</para>
+</listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___g_e_n_e_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_GENERATOR_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga4110982124cd1c069bdc80c5461e1d56" kindref="member">XMC_DSD_Generator_Init()</ref> to configure carrier generator</para>
+</listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_FILTER_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga553ef84a4928891b8196e1b302e62070" kindref="member">XMC_DSD_CH_MainFilter_Init()</ref> to configure main filter</para>
+</listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___a_u_x___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_AUX_FILTER_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" kindref="member">XMC_DSD_CH_AuxFilter_Init()</ref> to configure auxilary filter</para>
+</listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___i_n_t_e_g_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_INTEGRATOR_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga84eaf8c2fda261fcce202c81b2ee94c5" kindref="member">XMC_DSD_CH_Integrator_Init()</ref> to configure integrator</para>
+</listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_TIMESTAMP_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1gaefcf46240b873558f4813d682d3e7db1" kindref="member">XMC_DSD_CH_Timestamp_Init()</ref> to configure timestamp</para>
+</listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___r_e_c_t_i_f_y___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_RECTIFY_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga21153beece159dc431200a17bbf582cb" kindref="member">XMC_DSD_CH_Rectify_Init()</ref> to configure rectifier </para>
+</listitem></orderedlist>
+</para>
+    </detaileddescription>
   </compounddef>
 </doxygen>

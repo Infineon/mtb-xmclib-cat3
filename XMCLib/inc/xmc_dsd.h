@@ -76,10 +76,6 @@
 #if defined(DSD)
 #include "xmc_scu.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup DSD
@@ -1185,9 +1181,6 @@ __STATIC_INLINE void XMC_DSD_ClearAlarmEventFlag(XMC_DSD_t *const dsd, const uin
  * @}
  */
 
-/**
- * @}
- */
 
 
 #endif /* DSD_PRESENT */

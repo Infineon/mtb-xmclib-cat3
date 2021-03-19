@@ -71,10 +71,6 @@
 #include "xmc4_flash.h"
 #endif
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup FLASH
@@ -213,9 +209,6 @@ __STATIC_INLINE bool XMC_FLASH_IsBusy(void)
  * @}
  */
 
-/**
- * @}
- */
 
 #endif
 

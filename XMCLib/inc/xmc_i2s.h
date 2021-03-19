@@ -69,7 +69,7 @@
  *
  * 2020-12-05:
  *    - Added XMC_I2S_CH_InitEx() that allows user select if automatic baudrate configuration should be done or not
- * 
+ *
  * @endcond
  *
  */
@@ -81,11 +81,6 @@
  * HEADER FILES
  *********************************************************************************************************************/
 #include "xmc_usic.h"
-
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup I2S
@@ -890,7 +885,4 @@ __STATIC_INLINE void XMC_I2S_CH_DisableDataTransmission(XMC_USIC_CH_t *const cha
  * @}
  */
 
-/**
- * @}
- */
 #endif /* XMC_I2S_H_ */

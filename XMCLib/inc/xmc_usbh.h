@@ -62,10 +62,6 @@
 #include "xmc_scu.h"
 #include "xmc_gpio.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup USBH
@@ -419,9 +415,6 @@ void XMC_USBH_TurnOffResumeBit(void);
 #ifdef __cplusplus
 }
 #endif
-/**
- * @}
- */
 
 /**
  * @}

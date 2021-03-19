@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc4_ethclk" name="ETHCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc4_ethclk" name="ETHCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc4_scu" />
     <Resource name="scu\.clock\.ethclk" />
@@ -36,30 +36,33 @@
 
   <Parameters>
     <!-- Internal -->
-    <ParamString id="fSYS_max" name="fSYS maximum frequency (Hz)" group="Internal"
-      default="`${lookupExpression(&quot;FSYS_MAX&quot;, 0)}`" visible="false" editable="false" desc="" />
-    <ParamString id="sysclk_resource" name="System clock resource" group="Internal"
+    <ParamString id="sysclk_resource" name="Source Resource" group="Internal"
       default="scu[0].clock[0].sysclk[0]" visible="false" editable="false" desc="" />
-    <ParamString id="fSYS" name="System clock frequency (Hz)" group="Internal"
-      default="`${getExposedMember(sysclk_resource, &quot;frequency&quot;)}`"
+    <ParamBool id="sysclk_enabled" name="System Clock Enabled" group="Internal"
+      default="`${isBlockUsed(sysclk_resource)}`" visible="false" editable="false" desc="" />
+    <ParamString id="fSYS" name="Source Frequency (Hz)" group="Internal"
+      default="`${sysclk_enabled ? getExposedMember(sysclk_resource, &quot;frequency&quot;) : 0.0}`"
       visible="false" editable="false" desc="" />
-    <ParamString id="fETH" name="Frequency (Hz)" group="Internal"
-      default="`${fSYS / 2.0}`" visible="false" editable="false" desc="" />
 
     <!-- General -->
-    <ParamString id="clock_source_info" name="Clock source" group="General"
-      default="System Clock (`${fSYS / 1000000.0}` MHz)"
+    <ParamString id="clock_source_info" name="Source Clock" group="General"
+      default="System Clock (`${formatFrequency(fSYS)}`)"
       visible="true" editable="false" desc="Ethernet clock source" />
-    <ParamRange id="frequency_info" name="Frequency (MHz)" group="General"
-      default="`${(fETH / 1000000.0)}`" min="0" max="`${fSYS_max}`" resolution="0.001"
-      visible="true" editable="false" desc="Actual Ethernet clock frequency in MHz." />
+    <ParamString id="divider" name="Divider" group="General"
+      default="2" visible="true" editable="false" desc="Ethernet clock divider." />
+    <ParamString id="fETH" name="Frequency (Hz)" group="Internal"
+      default="`${fSYS / divider}`" visible="false" editable="false" desc="" />
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fETH)}`" visible="true" editable="false"
+      desc="Actual Ethernet clock frequency." />
   </Parameters>
 
   <DRCs>
-    <DRC type="ERROR" text="For proper operation of the Ethernet Interface it is required that fSYS >= 100 MHz" condition="`${fSYS &lt; 100000000}`" paramId="" />
+    <DRC type="ERROR" text="For proper operation of the Ethernet Interface it is required that fSYS >= 100 MHz"
+      condition="`${fSYS &lt; 100000000}`" paramId="" />
   </DRCs>
 
   <ConfigFirmware>
-    <ConfigDefine name="CLOCK_ETHCLK_ENABLED" value="" public="false" include="true" />
+    <ConfigDefine name="CLOCK_ETHCLK_ENABLED" value="1U" public="false" include="true" />
   </ConfigFirmware>
 </Personality>

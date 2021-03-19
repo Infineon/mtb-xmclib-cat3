@@ -88,7 +88,7 @@
  *
  * 2020-12-05:
  *    - Added XMC_I2C_CH_InitEx() that allows user select if automatic baudrate configuration should be done or not
- * 
+ *
  * @endcond
  *
  */
@@ -102,10 +102,6 @@
 
 #include "xmc_usic.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup I2C
@@ -889,10 +885,6 @@ __STATIC_INLINE void XMC_I2C_CH_SetHoldDelay(XMC_USIC_CH_t *const channel, uint3
 #ifdef __cplusplus
 }
 #endif
-
-/**
- * @}
- */
 
 /**
  * @}

@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc4_sdclk" name="SDCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc4_sdclk" name="SDCLK" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc4_scu" />
     <Resource name="scu\.clock\.sdclk" />
@@ -36,31 +36,33 @@
 
   <Parameters>
     <!-- Internal -->
-    <ParamString id="fSYS_max" name="fSYS maximum frequency (Hz)" group="Internal"
-      default="`${lookupExpression(&quot;FSYS_MAX&quot;, 0)}`" visible="false" editable="false" desc="" />
-    <ParamString id="usbclk_resource" name="USB clock resource" group="Internal"
-      default="scu[0].clock[0].usbclk[0]" visible="false" editable="false" desc="" />
-    <ParamBool id="usbclk_enabled" name="USB clock enabled" group="Internal"
-      default="`${isBlockUsed(usbclk_resource)}`" visible="false" editable="false" desc="" />
-    <ParamString id="fSDMMC" name="SD/MMC clock frequency (MHz)" group="Internal"
-      default="`${usbclk_enabled ? getExposedMember(usbclk_resource, &quot;frequency&quot;) : 0.0}`"
+    <ParamString id="source_resource" name="Source Resource" group="Internal"
+      default="scu[0].clock[0].usbdiv[0]" visible="false" editable="false" desc="" />
+    <ParamBool id="source_enabled" name="Source Enabled" group="Internal"
+      default="`${isBlockUsed(source_resource)}`" visible="false" editable="false" desc="" />
+    <ParamString id="fSDMMC" name="Frequency (Hz)" group="Internal"
+      default="`${source_enabled ? getExposedMember(source_resource, &quot;frequency&quot;) : 0.0 }`"
       visible="false" editable="false" desc="" />
 
     <!-- General -->
-    <ParamRange id="frequency_info" name="Frequency (MHz)" group="General"
-      default="`${fSDMMC / 1000000.0}`" min="0" max="`${fSYS_max}`" resolution="0.001"
-      visible="true" editable="false" desc="Actual SD/MMC clock frequency in KHz." />
+    <ParamString id="clock_source_info" name="Source Clock" group="General"
+      default="`${source_enabled ? getExposedMember(source_resource, &quot;sourceClockDisplayName&quot;) : &quot;N/A&quot;}`"
+      visible="true" editable="false"
+      desc="The display name of the currently selected clock source." />
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fSDMMC)}`" visible="true" editable="false"
+      desc="Actual SD/MMC clock frequency." />
   </Parameters>
 
   <DRCs>
-    <DRC type="ERROR" text="USB clock is not enabled" condition="`${!usbclk_enabled}`" >
-      <FixIt action="ENABLE_BLOCK" target="`${usbclk_resource}`" value="" valid="true" />
+    <DRC type="ERROR" text="USB clock divider is not enabled" condition="`${!source_enabled}`" >
+      <FixIt action="ENABLE_BLOCK" target="`${source_resource}`" value="" valid="true" />
     </DRC>
     <DRC type="ERROR" text="SDMMC frequency `${frequency_info}` exceeds the maximum of 48 MHz. Check USB clock frequency"
       condition="`${fSDMMC &gt; 48000000}`" paramId="" />
   </DRCs>
 
   <ConfigFirmware>
-    <ConfigDefine name="CLOCK_SDCLK_ENABLED" value="1" public="false" include="true" />
+    <ConfigDefine name="CLOCK_SDCLK_ENABLED" value="1U" public="false" include="true" />
   </ConfigFirmware>
 </Personality>

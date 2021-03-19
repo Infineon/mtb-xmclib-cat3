@@ -73,10 +73,6 @@
  ********************************************************************************************************************/
 #include "xmc_common.h"
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup BCCU
@@ -1994,9 +1990,6 @@ __STATIC_INLINE uint32_t XMC_BCCU_IsDitherEnable(XMC_BCCU_DIM_t *const dim_engin
  * @}
  */
 
-/**
- * @}
- */
 
 #ifdef __cplusplus
 }

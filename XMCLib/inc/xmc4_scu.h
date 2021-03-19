@@ -1,6 +1,6 @@
 /**
  * @file xmc4_scu.h
- * @date 2019-02-18
+ * @date 2020-11-11
  *
  * @cond
  *****************************************************************************
@@ -89,7 +89,7 @@
  *
  * 2020-11-11:
  *     - Change making declaration of functions XMC_SCU_HighTemperature(), XMC_SCU_LowTemperature() and XMC_SCU_SetRawTempLimits() available only XMC41, XMC42 and XMC44
- * 
+ *
  * @endcond
  *
  */
@@ -105,10 +105,6 @@
 
 #if UC_FAMILY == XMC4
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup SCU
@@ -3622,9 +3618,6 @@ __STATIC_INLINE void XMC_SCU_CLOCK_SetSleepConfig(int32_t config)
  * @}
  */
 
-/**
- * @}
- */
 
 #ifdef __cplusplus
 }

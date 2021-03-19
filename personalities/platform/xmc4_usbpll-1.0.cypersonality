@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020 Cypress Semiconductor Corporation
+* Copyright 2020-2021 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc4_usbpll" name="USBPLL" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v3">
+<Personality id="xmc4_usbpll" name="USBPLL" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v5">
   <Dependencies>
     <IpBlock name="xmc4_scu" />
     <Resource name="scu\.clock\.pll_usb" />
@@ -36,30 +36,28 @@
 
   <Parameters>
     <!-- Internal -->
-    <ParamString id="fSYS_max" name="fSYS maximum frequency (Hz)" group="Internal"
-      default="`${lookupExpression(&quot;FSYS_MAX&quot;, 0)}`" visible="false" editable="false" desc="" />
-    <ParamString id="oschp_resource" name="OSC_HP clock resource" group="Internal"
+    <ParamString id="oschp_resource" name="Source Resource" group="Internal"
       default="scu[0].clock[0].osc_hp[0]" visible="false" editable="false" desc="" />
-    <ParamBool id="oschp_enabled" name="OSC_HP clock enabled" group="Internal"
+    <ParamBool id="oschp_enabled" name="Source Enabled" group="Internal"
       default="`${isBlockUsed(oschp_resource)}`" visible="false" editable="false" desc="" />
-    <ParamString id="fOSCHP" name="OSC_HP clock frequency (Hz)" group="Internal"
+    <ParamString id="fOSCHP" name="Source Frequency (Hz)" group="Internal"
       default="`${oschp_enabled ? getExposedMember(oschp_resource, &quot;frequency&quot;) : 0.0}`"
       visible="false" editable="false" desc="" />
-    <ParamString id="fOSCHP_MHz" name="Clock source frequency (MHz)" group="Internal"
+    <ParamString id="fOSCHP_MHz" name="Source Frequency (MHz)" group="Internal"
       default="`${fOSCHP / 1000000.0}`" visible="false" editable="false" desc="" />
 
     <!-- General -->
-    <ParamString id="clock_source_info" name="Clock source" group="General"
+    <ParamString id="clock_source_info" name="Source Clock" group="General"
       default="OSC_HP (`${fOSCHP_MHz}` MHz)"
       visible="true" editable="false" desc="USB PLL clock source" />
-    <ParamChoice id="configuration" name="PLL configuration" group="General"
+    <ParamChoice id="configuration" name="PLL Configuration" group="General"
       default="auto" visible="true" editable="true" desc="Choose the automatic or manual divider tuning.">
       <Entry name="Automatic" value="auto"   visible="true"/>
       <Entry name="Manual"    value="manual" visible="true"/>
     </ParamChoice>
-    <ParamBool id="manConfig" name="Manual PLL configuration" group="Internal"
+    <ParamBool id="manConfig" name="Manual PLL Configuration" group="Internal"
       default="`${configuration eq manual}`" visible="false" editable="false" desc="" />
-    <ParamRange id="usbpll_frequency" name="Requested PLL frequency (MHz)" group="General"
+    <ParamRange id="usbpll_frequency" name="Desired Frequency (MHz)" group="General"
       default="192.0" min="130.0" max="260.0" resolution="0.001"
       visible="`${!manConfig}`" editable="true" desc="" />
     <ParamString id="callSolver" name="" group="Internal"
@@ -67,18 +65,18 @@
       visible="false" editable="false" desc="" />
     <ParamRange id="pdiv" name="P Divider" group="General"
       default="`${getTclVar(&quot;pDiv&quot;, callSolver)}`" min="1" max="16" resolution="1"
-      visible="true" editable="`${manConfig}`" desc="Input divider P" />
+      visible="true" editable="`${manConfig}`" desc="Input Divider P" />
     <ParamRange id="ndiv" name="N Divider" group="General"
       default="`${getTclVar(&quot;nDiv&quot;, callSolver)}`" min="1" max="128" resolution="1"
-      visible="true" editable="`${manConfig}`" desc="Feedback divider N" />
+      visible="true" editable="`${manConfig}`" desc="Feedback Divider N" />
     <ParamRange id="kdiv" name="K Divider" group="General"
       default="2" min="2" max="2" resolution="1"
-      visible="true" editable="false" desc="Output divider K" />
-    <ParamString id="fPLLUSB" name="Actual PLL frequency (Hz)" group="General"
+      visible="true" editable="false" desc="Output Divider K" />
+    <ParamString id="fPLLUSB" name="Actual Frequency (Hz)" group="General"
       default="`${(fOSCHP * ndiv) / (pdiv * kdiv)}`" visible="false" editable="false" desc="Actual PLL frequency in Hz." />
-    <ParamRange id="frequency_info" name="Actual PLL frequency (MHz)" group="General"
-      default="`${(fPLLUSB / 1000000.0)}`" min="130.0" max="260.0" resolution="0.001"
-      visible="true" editable="false" desc="Actual PLL clock frequency in MHz." />
+    <ParamString id="frequency_info" name="Actual Frequency" group="General"
+      default="`${formatFrequency(fPLLUSB)}`" visible="true" editable="false"
+      desc="Actual PLL clock frequency." />
   </Parameters>
 
   <DRCs>
@@ -88,8 +86,8 @@
   </DRCs>
 
   <ConfigFirmware>
-    <ConfigDefine name="CLOCK_USBPLL_ENABLED" value="1" public="false" include="true" />
-    <ConfigDefine name="CLOCK_USBPLL_PDIV" value="`${pdiv}`" public="false" include="true" />
-    <ConfigDefine name="CLOCK_USBPLL_NDIV" value="`${ndiv}`" public="false" include="true" />
+    <ConfigDefine name="CLOCK_USBPLL_ENABLED" value="1U" public="false" include="true" />
+    <ConfigDefine name="CLOCK_USBPLL_PDIV" value="`${pdiv}`U" public="false" include="true" />
+    <ConfigDefine name="CLOCK_USBPLL_NDIV" value="`${ndiv}`U" public="false" include="true" />
   </ConfigFirmware>
 </Personality>

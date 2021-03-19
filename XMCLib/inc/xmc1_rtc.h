@@ -54,10 +54,6 @@
 #ifndef XMC1_RTC_H
 #define XMC1_RTC_H
 
-/**
- * @addtogroup XMClib XMC Peripheral Library
- * @{
- */
 
 /**
  * @addtogroup RTC
@@ -106,8 +102,5 @@ void XMC_RTC_SetDebugMode(const XMC_RTC_DEBUG_MODE_t debug_mode);
  * @}
  */
 
-/**
- * @}
- */
 
 #endif /* XMC1_RTC_H */
