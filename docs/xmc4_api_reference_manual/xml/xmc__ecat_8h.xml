@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__ecat_8h" kind="file" language="C++">
     <compoundname>xmc_ecat.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <includes local="yes">xmc_ecat_map.h</includes>
     <incdepgraph>
-      <node id="42">
+      <node id="1">
         <label>xmc_ecat.h</label>
         <link refid="xmc__ecat_8h"/>
-        <childnode refid="43" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="2">
         <label>xmc_common.h</label>
       </node>
-      <node id="44">
+      <node id="3">
         <label>xmc_ecat_map.h</label>
       </node>
     </incdepgraph>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="108" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="107" bodyend="124"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="107" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="108" bodyend="124"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_c_a_t_1gab1b5537677cae18a8801a3441b49ee62" prot="public" static="no" strong="no">
         <type></type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="98" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="97" bodyend="102"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="97" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="98" bodyend="102"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="290" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="290" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="290" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga3e498babbb59882312137766d2b2e70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -276,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="363" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="363" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="363" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga20fbe77b86c01c3e311fd7ed4be50aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="389" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="389" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="389" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1gaa35b5d6b5f3acbcc087884a05363c3ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="278" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="278" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="278" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga290147da4fafee983cb87bd89e250422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -377,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="351" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="351" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="351" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga825f2662f72b0c45f324632c7b678f2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -411,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="401" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="401" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="401" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga3f5f43ca67aec259a94d7fe58ae9777c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -444,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="428" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="428" bodyend="431"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="428" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="428" bodyend="431"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1gaab9fab89dd35a17739178337fc8693e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -477,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="413" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="413" bodyend="416"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="413" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="413" bodyend="416"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga0b0335de55c30755747fdf449645e1a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -510,7 +510,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="376" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="376" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="376" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1gafe24f6be2d2729750e60e87c27a71381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -544,7 +544,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="266" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="266" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="266" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga1c591d9ba2c9016f328ad79bca9ecbd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___e_c_a_t_1gab1b5537677cae18a8801a3441b49ee62" kindref="member">XMC_ECAT_STATUS_t</ref></type>
@@ -602,7 +602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="306" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="306" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="306" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga172c4c1cabfd29c981fed161ca4d366f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -636,7 +636,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="443" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="443" bodyend="446"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="443" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="443" bodyend="446"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga45a5a867acb63735113c118bcc1a4d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -670,7 +670,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="334" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="334" bodyend="339"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="334" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" bodystart="334" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="group___e_c_a_t_1ga7d058669f327b10b3725f3c09c30840f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___e_c_a_t_1gab1b5537677cae18a8801a3441b49ee62" kindref="member">XMC_ECAT_STATUS_t</ref></type>
@@ -728,7 +728,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="321" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" line="321" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h" declline="321" declcolumn="19"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -739,8 +739,8 @@
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="73"><highlight class="preprocessor">#ifndef<sp/>XMC_ECAT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_ECAT_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ECAT_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
@@ -761,14 +761,14 @@
 <codeline lineno="91"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="92"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ECAT_STATUS</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ECAT_STATUS</highlight></codeline>
 <codeline lineno="98"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><ref refid="group___e_c_a_t_1ggab1b5537677cae18a8801a3441b49ee62a5bc826d8b68c209f80f0a7ea3e665933" kindref="member">XMC_ECAT_STATUS_OK</ref><sp/><sp/><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><ref refid="group___e_c_a_t_1ggab1b5537677cae18a8801a3441b49ee62a4b35955b9ab4d3bbb97a4f29d00ac0cf" kindref="member">XMC_ECAT_STATUS_BUSY</ref><sp/><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><ref refid="group___e_c_a_t_1ggab1b5537677cae18a8801a3441b49ee62ac77d6331741ebb38bfed9c9f12b242d4" kindref="member">XMC_ECAT_STATUS_ERROR</ref><sp/>=<sp/>2U<sp/><sp/></highlight></codeline>
 <codeline lineno="102"><highlight class="normal">}<sp/><ref refid="group___e_c_a_t_1gab1b5537677cae18a8801a3441b49ee62" kindref="member">XMC_ECAT_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ECAT_EVENT</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ECAT_EVENT</highlight></codeline>
 <codeline lineno="108"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><ref refid="group___e_c_a_t_1gga9402d2cecbc451c5d399b8421879a868a4e2aa9cfeee708fd5fab4851419cd31d" kindref="member">XMC_ECAT_EVENT_AL_CONTROL</ref><sp/>=<sp/>ECAT_AL_EVENT_MASK_AL_CE_MASK_Msk,<sp/></highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><ref refid="group___e_c_a_t_1gga9402d2cecbc451c5d399b8421879a868a41112774f0b2f4e0ffec1fcc5d5864f2" kindref="member">XMC_ECAT_EVENT_DC_LATCH</ref><sp/>=<sp/>ECAT_AL_EVENT_MASK_DC_LE_MASK_Msk,<sp/><sp/></highlight></codeline>
@@ -799,7 +799,7 @@
 <codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_ECAT_PORT_CTRL</highlight></codeline>
+<codeline lineno="141" refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_ECAT_PORT_CTRL</highlight></codeline>
 <codeline lineno="142"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="144"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -864,7 +864,7 @@
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
 <codeline lineno="204"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t" kindref="compound">XMC_ECAT_PORT_CTRL_t</ref>;</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209" refid="union_x_m_c___e_c_a_t___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">XMC_ECAT_CONFIG</highlight></codeline>
+<codeline lineno="209" refid="union_x_m_c___e_c_a_t___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">XMC_ECAT_CONFIG</highlight></codeline>
 <codeline lineno="210"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="212"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -908,11 +908,11 @@
 <codeline lineno="252"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="253"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1gafe24f6be2d2729750e60e87c27a71381" kindref="member">XMC_ECAT_Init</ref>(<ref refid="union_x_m_c___e_c_a_t___c_o_n_f_i_g__t" kindref="compound">XMC_ECAT_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1gafe24f6be2d2729750e60e87c27a71381" kindref="member">XMC_ECAT_Init</ref>(<ref refid="union_x_m_c___e_c_a_t___c_o_n_f_i_g__t" kindref="compound">XMC_ECAT_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="278"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1gaa35b5d6b5f3acbcc087884a05363c3ff" kindref="member">XMC_ECAT_Enable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1gaa35b5d6b5f3acbcc087884a05363c3ff" kindref="member">XMC_ECAT_Enable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga81b5c1eaffe2c84cf73ce7ebac0544d0" kindref="member">XMC_ECAT_Disable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga81b5c1eaffe2c84cf73ce7ebac0544d0" kindref="member">XMC_ECAT_Disable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"></highlight></codeline>
 <codeline lineno="306"><highlight class="normal"><ref refid="group___e_c_a_t_1gab1b5537677cae18a8801a3441b49ee62" kindref="member">XMC_ECAT_STATUS_t</ref><sp/><ref refid="group___e_c_a_t_1ga1c591d9ba2c9016f328ad79bca9ecbd2" kindref="member">XMC_ECAT_ReadPhy</ref>(uint8_t<sp/>phy_addr,<sp/>uint8_t<sp/>reg_addr,<sp/>uint16_t<sp/>*data);</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
@@ -925,16 +925,16 @@
 <codeline lineno="338"><highlight class="normal"><sp/><sp/>ECAT0_CON-&gt;CONP1<sp/>=<sp/>(uint32_t)port_ctrl.port1.raw;</highlight></codeline>
 <codeline lineno="339"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="340"><highlight class="normal"></highlight></codeline>
-<codeline lineno="351"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga290147da4fafee983cb87bd89e250422" kindref="member">XMC_ECAT_EnableEvent</ref>(uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga290147da4fafee983cb87bd89e250422" kindref="member">XMC_ECAT_EnableEvent</ref>(uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="363"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga3e498babbb59882312137766d2b2e70f" kindref="member">XMC_ECAT_DisableEvent</ref>(uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga3e498babbb59882312137766d2b2e70f" kindref="member">XMC_ECAT_DisableEvent</ref>(uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="364"><highlight class="normal"></highlight></codeline>
 <codeline lineno="376"><highlight class="normal">uint32_t<sp/><ref refid="group___e_c_a_t_1ga0b0335de55c30755747fdf449645e1a3" kindref="member">XMC_ECAT_GetEventStatus</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="377"><highlight class="normal"></highlight></codeline>
 <codeline lineno="378"><highlight class="normal"></highlight></codeline>
-<codeline lineno="389"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga20fbe77b86c01c3e311fd7ed4be50aa8" kindref="member">XMC_ECAT_DisableSyncManChannel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga20fbe77b86c01c3e311fd7ed4be50aa8" kindref="member">XMC_ECAT_DisableSyncManChannel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="390"><highlight class="normal"></highlight></codeline>
-<codeline lineno="401"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga825f2662f72b0c45f324632c7b678f2b" kindref="member">XMC_ECAT_EnableSyncManChannel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_c_a_t_1ga825f2662f72b0c45f324632c7b678f2b" kindref="member">XMC_ECAT_EnableSyncManChannel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="402"><highlight class="normal"></highlight></codeline>
 <codeline lineno="413"><highlight class="normal">__STATIC_INLINE<sp/>uint16_t<sp/><ref refid="group___e_c_a_t_1gaab9fab89dd35a17739178337fc8693e7" kindref="member">XMC_ECAT_GetALEventRegister</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="414"><highlight class="normal">{</highlight></codeline>
@@ -956,10 +956,10 @@
 <codeline lineno="450"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="451"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="452"><highlight class="normal"></highlight></codeline>
-<codeline lineno="458"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined<sp/>(ECAT)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="458"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined<sp/>(ECAT)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="459"><highlight class="normal"></highlight></codeline>
 <codeline lineno="460"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_ECAT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ecat.h"/>
   </compounddef>
 </doxygen>

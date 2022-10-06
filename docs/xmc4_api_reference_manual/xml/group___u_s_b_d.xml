@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___u_s_b_d" kind="group">
     <compoundname>USBD</compoundname>
     <title>Universal Serial Bus Device (USBD)</title>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="208" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="207" bodyend="213"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="206" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="207" bodyend="212"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1ga6af185b470e216aeb9f5a8f57934c523" prot="public" static="no" strong="no">
         <type></type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="292" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="291" bodyend="296"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="290" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="291" bodyend="295"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gae9d04ab6e275df9194533711f3f2fffe" prot="public" static="no" strong="no">
         <type></type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="267" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="266" bodyend="272"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="265" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="266" bodyend="271"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gae670af5d633ceb13ed361390c49c2128" prot="public" static="no" strong="no">
         <type></type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="279" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="278" bodyend="284"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="277" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="278" bodyend="283"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" prot="public" static="no" strong="no">
         <type></type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="244" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="243" bodyend="260"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="242" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="243" bodyend="259"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gaef2c56426dd4ecb5da943eab0cf08e13" prot="public" static="no" strong="no">
         <type></type>
@@ -377,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="195" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="194" bodyend="201"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="193" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="194" bodyend="200"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gaa7e7d0502c559923da7e324160c527a7" prot="public" static="no" strong="no">
         <type></type>
@@ -452,7 +452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="313" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="312" bodyend="321"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="311" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="312" bodyend="320"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1ga1983ea285c683f63ee535552d9d2ec1e" prot="public" static="no" strong="no">
         <type></type>
@@ -480,7 +480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="221" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="220" bodyend="224"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="219" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="220" bodyend="223"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" prot="public" static="no" strong="no">
         <type></type>
@@ -519,7 +519,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="232" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="231" bodyend="236"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="230" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="231" bodyend="235"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gac1a7468fe227f852bd4835ae2723d7db" prot="public" static="no" strong="no">
         <type></type>
@@ -547,7 +547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="303" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="302" bodyend="306"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="301" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="302" bodyend="305"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -559,11 +559,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>USB device/endpoint event function pointersPointer to USB device event call back. Uses type <ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref> as the argument of callback. </para>
+<para>USB device/endpoint event function pointers Pointer to USB device event call back. Uses type <ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref> as the argument of callback. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="326" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="326" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="325" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="325" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___u_s_b_d_1ga52dd28acc7e2e09a7d3a48c136f1ecdb" prot="public" static="no">
         <type>void(*</type>
@@ -577,7 +577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="328" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="328" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="327" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="327" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -593,7 +593,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="497" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="496" column="32" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="496" declcolumn="32"/>
       </memberdef>
       <memberdef kind="variable" id="group___u_s_b_d_1ga407e973323123c34ea9c9c04b6899992" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t" kindref="compound">XMC_USBD_DEVICE_t</ref></type>
@@ -607,7 +607,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="504" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="503" column="26" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="503" declcolumn="26"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -648,7 +648,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="561" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="560" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="560" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gaf5f99dc34a65ebd0dd4d5686632702e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -700,7 +700,7 @@ It clears the event by programming DIEPINT register.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="583" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="582" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="582" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gadaef35f7f883268c95e15e8849bf3530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -750,7 +750,7 @@ It clears the event by programming DIEPINT register.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="605" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="604" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="604" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga5a46af80a2ac68076e8d82d0b7967613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -768,7 +768,6 @@ It clears the event by programming DIEPINT register.<linebreak/>
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -788,7 +787,7 @@ It resets the soft disconnect bit, which activates the speed pull up at d+ line 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="718" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="717" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="717" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga7b341bdd4b66740230bda3f94d49052e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -806,7 +805,6 @@ It resets the soft disconnect bit, which activates the speed pull up at d+ line 
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -826,7 +824,7 @@ the speed pull up at d+ line of USB.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="736" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="735" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="735" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga42cdb3dc1b05ec18cf8687ea88c7c175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_x_m_c___u_s_b_d___s_t_a_t_e__t" kindref="compound">XMC_USBD_STATE_t</ref></type>
@@ -865,7 +863,7 @@ the speed pull up at d+ line of USB.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="753" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="752" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="752" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga0cb810be749bfd8e8c733a6e17bd5388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -920,7 +918,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="779" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="778" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="778" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga1c28d84f9afe864fb9dc0e253137ae54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -938,7 +936,6 @@ in the USB device event call back handler, user has to set the address using thi
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -954,7 +951,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="543" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="542" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="542" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga755920b85d839979d699894e98c13b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -972,7 +969,6 @@ in the USB device event call back handler, user has to set the address using thi
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -991,7 +987,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="529" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="528" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="528" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gaaec2e039f617fdbaa50acb34061c5056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1029,7 +1025,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="641" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="640" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="640" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga215e0c7a10299d26c9f91c6ad06866f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1067,7 +1063,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="623" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="622" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="622" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga685e20ab2777c403ae1e3463d47f2d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1102,7 +1098,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="933" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="932" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="932" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga1ec7cf807c281084ab7022c23617bdcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1170,7 +1166,7 @@ required for the device.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="806" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="805" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="805" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gafd364e0fd03285bde32bc6359e6bc218" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1233,7 +1229,7 @@ required for the device.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="894" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="893" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="893" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga18f4cb810289187a885e6f04659bc335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1285,7 +1281,7 @@ The registers DOEPDMA,DOEPTSIZ and DOEPCTL are programmed to start a new read re
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="871" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="870" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="870" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga6b54b58df01ada8156d8449129778f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1336,7 +1332,7 @@ By programming stall bit in the doepctl and diepctl, it sets or clears the stall
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="848" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="847" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="847" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga7903550b9130e811d39b55936174cc36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1373,7 +1369,7 @@ Waits until the endpoint has finished operation and disables it. All (eventualll
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="825" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="824" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="824" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga27d8052980544dc78f56462fc7c157ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1435,7 +1431,7 @@ DIEPDMA,DIEPTSIZ and DIEPCTL registers are programmed to start the IN transfer.<
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="917" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="916" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="916" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga26113550391be8fc0e2678fe0e6e85ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_x_m_c___u_s_b_d___c_a_p_a_b_i_l_i_t_i_e_s__t" kindref="compound">XMC_USBD_CAPABILITIES_t</ref></type>
@@ -1453,7 +1449,6 @@ DIEPDMA,DIEPTSIZ and DIEPCTL registers are programmed to start the IN transfer.<
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1466,7 +1461,7 @@ It can be called after initializing the USB device to get the information on the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="656" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="655" column="25" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="655" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gace9648d66a9f092562ca5da8754f5ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1484,7 +1479,6 @@ It can be called after initializing the USB device to get the information on the
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1497,7 +1491,7 @@ It can be called after initializing the USB device to get the information on the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="945" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="944" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="944" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gaad24c323055e8e5014835159867878c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1535,7 +1529,7 @@ It can be called after initializing the USB device to get the information on the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="681" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="680" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="680" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga275780df6f1b3acf50c4c51151d228b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1570,7 +1564,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="985" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="984" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="984" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gac958c928fc573f39b30126ac2e2828d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1588,7 +1582,6 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1604,7 +1597,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="960" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="959" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="959" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga21f8d8e728cce37ff9d4898acb2e62cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1622,7 +1615,6 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1641,7 +1633,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="698" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="697" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="697" declcolumn="19"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -1654,7 +1646,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="150" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="151" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="150" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gab1c802f6c9e96e1f7da3f74322c208e8" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_DIRECTION_MASK</name>
@@ -1666,7 +1658,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="158" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="159" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="158" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga8037eaa900c5d1a0ae001af59ccdd265" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MAX_PACKET_SIZE_MASK</name>
@@ -1678,7 +1670,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="160" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="161" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="160" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gaf869a105c53ddcc082193e3ed82b64be" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MFRAME_TR_1</name>
@@ -1689,7 +1681,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="163" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="164" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="163" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga6aa86156278ee05d77b7142eea6cc2ba" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MFRAME_TR_2</name>
@@ -1700,7 +1692,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="164" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="165" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="164" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga3c3043344a55263976241b51dfc4c1b2" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MFRAME_TR_3</name>
@@ -1711,7 +1703,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="165" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="166" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="165" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga8e5b147e6fc2ccbade2a696bed557f8b" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MFRAME_TR_MASK</name>
@@ -1722,7 +1714,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="162" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="163" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="162" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga525dd0b1bf8605bfea203b042ca6b108" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_NUMBER_MASK</name>
@@ -1734,7 +1726,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="156" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="157" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="156" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gaa8294afe75e1f11450912fe0e48262c1" prot="public" static="no">
         <name>XMC_USBD_EP0_BUFFER_SIZE</name>
@@ -1745,7 +1737,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="170" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="171" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="170" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gab22693a7bbe49153576b4d481fa2e7a4" prot="public" static="no">
         <name>XMC_USBD_EP1_BUFFER_SIZE</name>
@@ -1756,7 +1748,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="172" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="173" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="172" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga70e21366d5218f367a0b495be2dc2271" prot="public" static="no">
         <name>XMC_USBD_EP2_BUFFER_SIZE</name>
@@ -1767,7 +1759,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="174" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="175" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="174" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga854897d10ad0fecb33d8fc7457d3e4f0" prot="public" static="no">
         <name>XMC_USBD_EP3_BUFFER_SIZE</name>
@@ -1778,7 +1770,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="176" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="177" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="176" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga4e641cf5160e84fd640adcf1d936c418" prot="public" static="no">
         <name>XMC_USBD_EP4_BUFFER_SIZE</name>
@@ -1789,7 +1781,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="178" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="179" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="178" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga3cae8973e1405591c7cdb7a5ba6e4c95" prot="public" static="no">
         <name>XMC_USBD_EP5_BUFFER_SIZE</name>
@@ -1800,7 +1792,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="180" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="181" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="180" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="180" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga94a8c1a01615d8972ce85b5f59e195ae" prot="public" static="no">
         <name>XMC_USBD_EP6_BUFFER_SIZE</name>
@@ -1811,7 +1803,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="182" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="183" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="182" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="182" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga45f97d1784301af706011ec194b7051e" prot="public" static="no">
         <name>XMC_USBD_EP_DIR_MASK</name>
@@ -1823,7 +1815,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="148" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="149" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="148" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="148" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga57c582d9481a38d6d13ff06c9f4556a0" prot="public" static="no">
         <name>XMC_USBD_EP_NUM_MASK</name>
@@ -1835,7 +1827,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="146" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="147" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="146" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="146" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gafa5e2795ac35096a761782612ca72e56" prot="public" static="no">
         <name>XMC_USBD_MAX_FIFO_SIZE</name>
@@ -1847,7 +1839,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="125" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="125" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="125" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gaa793a8df254ec8724b62d3cb4d9e80db" prot="public" static="no">
         <name>XMC_USBD_MAX_PACKET_SIZE</name>
@@ -1860,18 +1852,18 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="130" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="129" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="130" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga9e73ae182ec9da08fe53912e3aaa2ee7" prot="public" static="no">
         <name>XMC_USBD_MAX_TRANSFER_SIZE</name>
-        <initializer>(((uint32_t)((uint32_t)1U &lt;&lt; (uint32_t)10U) - 1U) * (uint32_t)XMC_USBD_MAX_PACKET_SIZE)</initializer>
+        <initializer>(((uint32_t)((uint32_t)1U &lt;&lt; (uint32_t)10U) - 1U) * (uint32_t)<ref refid="group___u_s_b_d_1gaa793a8df254ec8724b62d3cb4d9e80db" kindref="member">XMC_USBD_MAX_PACKET_SIZE</ref>)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="138" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="139" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="138" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga31089a0a781ac70ae6f1445847ab2683" prot="public" static="no">
         <name>XMC_USBD_MAX_TRANSFER_SIZE_EP0</name>
@@ -1883,7 +1875,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="140" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="141" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="140" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga4d76d3b99600addc55f489000ff9d23d" prot="public" static="no">
         <name>XMC_USBD_NUM_EPS</name>
@@ -1895,7 +1887,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="127" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="127" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="127" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga4af1761f07df3a8bb43b6ee8070f92e9" prot="public" static="no">
         <name>XMC_USBD_NUM_TX_FIFOS</name>
@@ -1907,7 +1899,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="123" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga658b3523c9a1a6bfd7a40ea57b1aa7a2" prot="public" static="no">
         <name>XMC_USBD_SETUP_COUNT</name>
@@ -1919,7 +1911,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="142" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="143" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="142" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga4d351b5fc9b8b32dac88369e7d7a4e25" prot="public" static="no">
         <name>XMC_USBD_SETUP_SIZE</name>
@@ -1931,7 +1923,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="144" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="145" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="144" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gacdb39ab4197b13b6363b14181f081e3f" prot="public" static="no">
         <name>XMC_USBD_SPEED_FULL</name>
@@ -1943,7 +1935,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="168" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="169" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="168" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga68bf895d08b62dad20fe2453efb8ac27" prot="public" static="no">
         <name>XMC_USBD_TX_FIFO_OFFSET</name>
@@ -1954,7 +1946,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="154" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="155" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="154" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga6ff731c13cc452ed592b698703694c1c" prot="public" static="no">
         <name>XMC_USBD_TX_FIFO_REG_OFFSET</name>
@@ -1965,7 +1957,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="152" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="153" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="152" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

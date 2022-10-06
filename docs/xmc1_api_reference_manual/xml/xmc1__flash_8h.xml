@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc1__flash_8h" kind="file" language="C++">
     <compoundname>xmc1_flash.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <includes local="yes">XMC1000_RomFunctionTable.h</includes>
     <includedby refid="xmc__flash_8h" local="yes">xmc_flash.h</includedby>
     <incdepgraph>
-      <node id="3">
-        <label>xmc_common.h</label>
+      <node id="1">
+        <label>xmc1_flash.h</label>
+        <link refid="xmc1__flash_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
-      <node id="4">
+      <node id="3">
         <label>XMC1000_RomFunctionTable.h</label>
       </node>
       <node id="2">
-        <label>xmc1_flash.h</label>
-        <link refid="xmc1__flash_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="define">
       <memberdef kind="define" id="group___f_l_a_s_h_1ga0d2b9ed15806748ad4a5ec9f951be20e" prot="public" static="no">
         <name>FLASH_BLOCK_ADDR_MASK</name>
-        <initializer>(15U)    /*   Bitwise AND with block address is done to check the address alignment.
-                                                 Applicable to XMC_FLASH_WriteBlocks() and XMC_FLASH_VerifyBlocks()
+        <initializer>                                                 (15U)    /*   Bitwise AND with block address is done to check the address alignment.
+                                                 Applicable to <ref refid="group___f_l_a_s_h_1ga9d23629533ee3a703972649db4372ebe" kindref="member">XMC_FLASH_WriteBlocks</ref>() and <ref refid="group___f_l_a_s_h_1ga7159be439f872a52db4b20f74477e75d" kindref="member">XMC_FLASH_VerifyBlocks</ref>()
                                                  APIs.*/</initializer>
         <briefdescription>
         </briefdescription>
@@ -33,31 +33,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="97" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="95" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="97" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga3f5991339fd9b6486a4840c010c3bdc6" prot="public" static="no">
         <name>FLASH_PAGE_ADDR_MASK</name>
-        <initializer>(255U)   /*   Bitwise AND with page address is done to check the address alignment.
-                                                 Applicable to XMC_FLASH_ErasePages() API.*/</initializer>
+        <initializer>                                                 (255U)   /*   Bitwise AND with page address is done to check the address alignment.
+                                                 Applicable to <ref refid="group___f_l_a_s_h_1ga581a2ddaeddb1b1ea1fe31ec222521d7" kindref="member">XMC_FLASH_ErasePages</ref>() API.*/</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="99" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="98" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="99" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga3199fac224380bc7a638a3125ffacb8e" prot="public" static="no">
         <name>FLASH_SECTOR_ADDR_MASK</name>
-        <initializer>(4095U)  /*   Bitwise AND with sector address is done to check the address alignment.
-                                                 Applicable to XMC_FLASH_EraseSector API.*/</initializer>
+        <initializer>                                                 (4095U)  /*   Bitwise AND with sector address is done to check the address alignment.
+                                                 Applicable to <ref refid="group___f_l_a_s_h_1gaf697ad9d71bc470ac59e0014bac57d43" kindref="member">XMC_FLASH_EraseSector</ref> API.*/</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="101" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="100" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="101" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga04349ce03dfa72d4f921e26fab7bb908" prot="public" static="no">
         <name>XMC_FLASH_BASE</name>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="103" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="103" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="103" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga4e9511c59c7236d5adfd24eccb00acf9" prot="public" static="no">
         <name>XMC_FLASH_BLOCKS_PER_PAGE</name>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="85" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="85" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="85" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga264df7592f637691b17fda2a74f8e8b9" prot="public" static="no">
         <name>XMC_FLASH_BYTES_PER_BLOCK</name>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="89" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="89" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="89" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga00b2a643c63a3ce66dc6fd2fb9ba5508" prot="public" static="no">
         <name>XMC_FLASH_BYTES_PER_PAGE</name>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="88" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="88" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="88" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga3c8a7688649dce67701e362968ed8b71" prot="public" static="no">
         <name>XMC_FLASH_BYTES_PER_SECTOR</name>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="87" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="87" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="87" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1gae4af65ad5452c6e96162582b28dc012f" prot="public" static="no">
         <name>XMC_FLASH_PAGES_PER_SECTOR</name>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="84" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="84" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="84" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1gad3630a52ad62064d7ec32acb9f6e0ada" prot="public" static="no">
         <name>XMC_FLASH_WORDS_PER_BLOCK</name>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="93" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="93" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="93" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga8baf803359cd0c484bed4123ea4d8446" prot="public" static="no">
         <name>XMC_FLASH_WORDS_PER_PAGE</name>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="92" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="92" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="92" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga26910796f9c90bb2c88060381bc45ff6" prot="public" static="no">
         <name>XMC_FLASH_WORDS_PER_SECTOR</name>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="91" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="91" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="91" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="132" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="131" bodyend="134"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="127" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="128" bodyend="130"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_l_a_s_h_1gab0c36057e8d3848002e1bad7221badf9" prot="public" static="no" strong="no">
         <type></type>
@@ -227,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="142" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="141" bodyend="146"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="137" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="138" bodyend="142"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_l_a_s_h_1gaec69607b9daecffb4215faca73d02ebc" prot="public" static="no" strong="no">
         <type></type>
@@ -302,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="113" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="112" bodyend="126"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="108" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="109" bodyend="122"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -322,7 +322,6 @@
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -342,7 +341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="360" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="360" bodyend="363"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="356" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="356" bodyend="359"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga1d782bca8ed5b31fca6fa58cf6106b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -381,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="323" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="319" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="319" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga581a2ddaeddb1b1ea1fe31ec222521d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -438,7 +437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="220" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="216" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="216" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gaf697ad9d71bc470ac59e0014bac57d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -477,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="193" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="189" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="189" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga032a6acea8c8b125cde1da5941f89c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -495,7 +494,6 @@
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -515,7 +513,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="379" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="379" bodyend="382"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="375" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="375" bodyend="378"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gabc93e46f19331fe15be8cd0f2a8fa28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -552,9 +550,9 @@
         </detaileddescription>
         <inbodydescription>
 <para>&lt; Starting address of flash for XMC1 family of microcontrollers</para>
-<para>&lt; Number of bytes in a sector. (16 pages * 256 bytes = 4096 bytes) </para>
+<para>&lt; Number of bytes in a sector. (16 pages * 256 bytes = 4096 bytes)</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="398" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="398" bodyend="401"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="394" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="394" bodyend="397"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga4374da8ed15f78a182dce3b262d4b6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -603,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="176" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="172" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="172" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gab5d0302105a5696744a6dcfae19db64f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -650,7 +648,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="343" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="339" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="339" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga90cec357405f2edafa4aa96cc3e1de1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -710,7 +708,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="284" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="280" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="280" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga4dc344064838670ac3b0d7b4c2c9a0fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -746,7 +744,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="302" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="302" bodyend="305"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="298" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="298" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gab71e15fdc8ded3ce14f2f697f6ff3027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -783,7 +781,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="441" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="441" bodyend="445"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="437" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="437" bodyend="441"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gab05fe59c132f2f7d9e5b8a5896aa4796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -821,7 +819,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="419" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="419" bodyend="423"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="415" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="415" bodyend="419"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga7159be439f872a52db4b20f74477e75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -881,7 +879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="264" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="260" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="260" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga9d23629533ee3a703972649db4372ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -955,7 +953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="243" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="239" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="239" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -966,8 +964,8 @@
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="61"><highlight class="preprocessor">#ifndef<sp/>XMC1_FLASH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC1_FLASH_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC1_FLASH_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
@@ -981,19 +979,19 @@
 <codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;XMC1000_RomFunctionTable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="81"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="82"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_PAGES_PER_SECTOR<sp/>(16U)<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="85"><highlight class="preprocessor">#define<sp/>XMC_FLASH_BLOCKS_PER_PAGE<sp/><sp/>(16U)<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="87"><highlight class="preprocessor">#define<sp/>XMC_FLASH_BYTES_PER_SECTOR<sp/>(4096U)<sp/><sp/></highlight></codeline>
-<codeline lineno="88"><highlight class="preprocessor">#define<sp/>XMC_FLASH_BYTES_PER_PAGE<sp/><sp/><sp/>(256U)<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="89"><highlight class="preprocessor">#define<sp/>XMC_FLASH_BYTES_PER_BLOCK<sp/><sp/>(16U)<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="91"><highlight class="preprocessor">#define<sp/>XMC_FLASH_WORDS_PER_SECTOR<sp/>(1024U)<sp/><sp/></highlight></codeline>
-<codeline lineno="92"><highlight class="preprocessor">#define<sp/>XMC_FLASH_WORDS_PER_PAGE<sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="93"><highlight class="preprocessor">#define<sp/>XMC_FLASH_WORDS_PER_BLOCK<sp/><sp/>(4U)<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="95"><highlight class="preprocessor">#define<sp/>FLASH_BLOCK_ADDR_MASK<sp/><sp/><sp/><sp/><sp/><sp/>(15U)<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/>Bitwise<sp/>AND<sp/>with<sp/>block<sp/>address<sp/>is<sp/>done<sp/>to<sp/>check<sp/>the<sp/>address<sp/>alignment.</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_PAGES_PER_SECTOR<sp/>(16U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_BLOCKS_PER_PAGE<sp/><sp/>(16U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_BYTES_PER_SECTOR<sp/>(4096U)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_BYTES_PER_PAGE<sp/><sp/><sp/>(256U)<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_BYTES_PER_BLOCK<sp/><sp/>(16U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_WORDS_PER_SECTOR<sp/>(1024U)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_WORDS_PER_PAGE<sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_WORDS_PER_BLOCK<sp/><sp/>(4U)<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLASH_BLOCK_ADDR_MASK<sp/><sp/><sp/><sp/><sp/><sp/>(15U)<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/>Bitwise<sp/>AND<sp/>with<sp/>block<sp/>address<sp/>is<sp/>done<sp/>to<sp/>check<sp/>the<sp/>address<sp/>alignment.</highlight></codeline>
 <codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Applicable<sp/>to<sp/>XMC_FLASH_WriteBlocks()<sp/>and<sp/>XMC_FLASH_VerifyBlocks()</highlight></codeline>
 <codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>APIs.*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLASH_PAGE_ADDR_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(255U)<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/>Bitwise<sp/>AND<sp/>with<sp/>page<sp/>address<sp/>is<sp/>done<sp/>to<sp/>check<sp/>the<sp/>address<sp/>alignment.</highlight></codeline>
@@ -1001,12 +999,11 @@
 <codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLASH_SECTOR_ADDR_MASK<sp/><sp/><sp/><sp/><sp/>(4095U)<sp/><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/>Bitwise<sp/>AND<sp/>with<sp/>sector<sp/>address<sp/>is<sp/>done<sp/>to<sp/>check<sp/>the<sp/>address<sp/>alignment.</highlight></codeline>
 <codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Applicable<sp/>to<sp/>XMC_FLASH_EraseSector<sp/>API.*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_BASE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x10001000U)<sp/></highlight></codeline>
-<codeline lineno="105"><highlight class="preprocessor"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_BASE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x10001000U)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="106"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
-<codeline lineno="107"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_FLASH_STATUS</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_FLASH_STATUS</highlight></codeline>
 <codeline lineno="113"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><ref refid="group___f_l_a_s_h_1ggaec69607b9daecffb4215faca73d02ebca083aba939fe424ed79247a2c2ae27807" kindref="member">XMC_FLASH_STATUS_OK</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><ref refid="group___f_l_a_s_h_1ggaec69607b9daecffb4215faca73d02ebcaf9f87eda000da5d7cb50aed5d8d58835" kindref="member">XMC_FLASH_STATUS_BUSY</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NVM_NVMSTATUS_BUSY_Msk,<sp/><sp/></highlight></codeline>
@@ -1017,12 +1014,12 @@
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="group___f_l_a_s_h_1ggaec69607b9daecffb4215faca73d02ebcae985a7ab48f1505274690d83dffb1319" kindref="member">XMC_FLASH_STATUS_WRITE_PROTOCOL_ERROR</ref><sp/>=<sp/>NVM_NVMSTATUS_WRPERR_Msk,<sp/><sp/></highlight></codeline>
 <codeline lineno="126"><highlight class="normal">}<sp/><ref refid="group___f_l_a_s_h_1gaec69607b9daecffb4215faca73d02ebc" kindref="member">XMC_FLASH_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_FLASH_EVENT</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_FLASH_EVENT</highlight></codeline>
 <codeline lineno="132"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"><sp/><sp/><ref refid="group___f_l_a_s_h_1gga1ef5e96ac5c0fd9dd006a9c3aead2a9dac7785d858af40ee0b8897931f58f1add" kindref="member">XMC_FLASH_EVENT_READY</ref><sp/>=<sp/>NVM_NVMCONF_INT_ON_Msk<sp/><sp/></highlight></codeline>
 <codeline lineno="134"><highlight class="normal">}<sp/><ref refid="group___f_l_a_s_h_1ga1ef5e96ac5c0fd9dd006a9c3aead2a9d" kindref="member">XMC_FLASH_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_FLASH_HARDREAD_LEVEL</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_FLASH_HARDREAD_LEVEL</highlight></codeline>
 <codeline lineno="142"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"><sp/><sp/><ref refid="group___f_l_a_s_h_1ggab0c36057e8d3848002e1bad7221badf9a35f5a67f64daf0ee5a278816750ec2a8" kindref="member">XMC_FLASH_HARDREAD_LEVEL_NORMAL</ref><sp/><sp/>=<sp/>(uint16_t)0x0,<sp/></highlight></codeline>
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="group___f_l_a_s_h_1ggab0c36057e8d3848002e1bad7221badf9a2566fede36c5e94f1d0024869a69d3dd" kindref="member">XMC_FLASH_HARDREAD_LEVEL_WRITTEN</ref><sp/>=<sp/>(uint16_t)0x1,<sp/></highlight></codeline>
@@ -1043,12 +1040,12 @@
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
 <codeline lineno="220"><highlight class="normal">int32_t<sp/><ref refid="group___f_l_a_s_h_1ga581a2ddaeddb1b1ea1fe31ec222521d7" kindref="member">XMC_FLASH_ErasePages</ref>(uint32_t<sp/>*address,<sp/>uint32_t<sp/>num_pages);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga9d23629533ee3a703972649db4372ebe" kindref="member">XMC_FLASH_WriteBlocks</ref>(uint32_t<sp/>*address,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>*data,<sp/>uint32_t<sp/>num_blocks,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>verify);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga9d23629533ee3a703972649db4372ebe" kindref="member">XMC_FLASH_WriteBlocks</ref>(uint32_t<sp/>*address,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>*data,<sp/>uint32_t<sp/>num_blocks,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>verify);</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="264"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga7159be439f872a52db4b20f74477e75d" kindref="member">XMC_FLASH_VerifyBlocks</ref>(uint32_t<sp/>*address,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>*data,<sp/>uint32_t<sp/>num_blocks);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga7159be439f872a52db4b20f74477e75d" kindref="member">XMC_FLASH_VerifyBlocks</ref>(uint32_t<sp/>*address,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>*data,<sp/>uint32_t<sp/>num_blocks);</highlight></codeline>
 <codeline lineno="265"><highlight class="normal"></highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="284"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga90cec357405f2edafa4aa96cc3e1de1d" kindref="member">XMC_FLASH_ReadBlocks</ref>(uint32_t<sp/>*address,<sp/>uint32_t<sp/>*data,<sp/>uint32_t<sp/>num_blocks);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga90cec357405f2edafa4aa96cc3e1de1d" kindref="member">XMC_FLASH_ReadBlocks</ref>(uint32_t<sp/>*address,<sp/>uint32_t<sp/>*data,<sp/>uint32_t<sp/>num_blocks);</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
 <codeline lineno="286"><highlight class="normal"></highlight></codeline>
 <codeline lineno="302"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___f_l_a_s_h_1ga4dc344064838670ac3b0d7b4c2c9a0fb" kindref="member">XMC_FLASH_ReadWord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>address)</highlight></codeline>
@@ -1094,10 +1091,10 @@
 <codeline lineno="448"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="449"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="450"><highlight class="normal"></highlight></codeline>
-<codeline lineno="455"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="455"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="456"><highlight class="normal"></highlight></codeline>
 <codeline lineno="457"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>FLASH_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
   <compound refid="struct_g_p_d_m_a___c_h__t" kind="struct"><name>GPDMA_CH_t</name>
     <member refid="struct_g_p_d_m_a___c_h__t_1a5874f9297ff9db9663cfed357fe02113" kind="variable"><name>CFGH</name></member>
     <member refid="struct_g_p_d_m_a___c_h__t_1a0e55cb376162e10e8045506285c1a637" kind="variable"><name>CFGL</name></member>
@@ -205,9 +205,9 @@
   </compound>
   <compound refid="struct_x_m_c___d_a_c__t" kind="struct"><name>XMC_DAC_t</name>
     <member refid="struct_x_m_c___d_a_c__t_1a66520c0e8b5c4b6446ef009be26133fc" kind="variable"><name>DAC01DATA</name></member>
-    <member refid="struct_x_m_c___d_a_c__t_1abbf42225773e1af747e1d4cf914a4a4b" kind="variable"><name>DACCFG</name></member>
+    <member refid="struct_x_m_c___d_a_c__t_1a0e104609382041010455f3d0d3ec7987" kind="variable"><name>DACCFG</name></member>
     <member refid="struct_x_m_c___d_a_c__t_1a996ac7881d7850aabeb52abf8c29f3c7" kind="variable"><name>DACDATA</name></member>
-    <member refid="struct_x_m_c___d_a_c__t_1a28c0aed80524e52d707238c33b81aa92" kind="variable"><name>DACPAT</name></member>
+    <member refid="struct_x_m_c___d_a_c__t_1a3c8c56772588e030de7f620150d28a44" kind="variable"><name>DACPAT</name></member>
     <member refid="struct_x_m_c___d_a_c__t_1a752c6d7b3b05108aecc3e1b9462ef7ff" kind="variable"><name>high</name></member>
     <member refid="struct_x_m_c___d_a_c__t_1a4b54fa3095fbaabb5caab30ea9a26969" kind="variable"><name>ID</name></member>
     <member refid="struct_x_m_c___d_a_c__t_1a3b980d1d65867d9d2713fc852c8349d1" kind="variable"><name>low</name></member>
@@ -526,7 +526,7 @@
   </compound>
   <compound refid="struct_x_m_c___e_b_u__t" kind="struct"><name>XMC_EBU_t</name>
     <member refid="struct_x_m_c___e_b_u__t_1af4ed6b041d0a802bd9cfb40ab0d2d3df" kind="variable"><name>ADDRSEL</name></member>
-    <member refid="struct_x_m_c___e_b_u__t_1acc3790f582d47faabcc31d3389746ba2" kind="variable"><name>BUS</name></member>
+    <member refid="struct_x_m_c___e_b_u__t_1afe3903adfa4f9afcbc23af7ee997d09d" kind="variable"><name>BUS</name></member>
     <member refid="struct_x_m_c___e_b_u__t_1ac9a0dbf3eaccce574b9c5ae4edfca9f5" kind="variable"><name>CLC</name></member>
     <member refid="struct_x_m_c___e_b_u__t_1a4b54fa3095fbaabb5caab30ea9a26969" kind="variable"><name>ID</name></member>
     <member refid="struct_x_m_c___e_b_u__t_1a81873fa83fb29241bd9861429c1a33dd" kind="variable"><name>MODCON</name></member>
@@ -565,15 +565,15 @@
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a9ce12a63de64ef64ae2d59d128251cae" kind="variable"><name>__pad2__</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a4854608c0e776f0704a4d9a4b98ea57d" kind="variable"><name>__pad3__</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a7b2edc85d90e34c4435951e1e5c59517" kind="variable"><name>__pad4__</name></member>
-    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1aa07fa9ecbb26c87b0d767aade6f0fc18" kind="variable"><name>common</name></member>
+    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a9ec1e81c985c0b524ec3704e30fd1ce2" kind="variable"><name>common</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1af5105c675c5eaa94251e21ad545bc202" kind="variable"><name>enable_rstreq</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a31dedc2c7ce3f3682a9c610fe0802368" kind="variable"><name>latch_input0</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1ac039c6ce864b47c14511ef580823fe88" kind="variable"><name>latch_input1</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a6163461798acb053ba062347095330e0" kind="variable"><name>link</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a64c7c0762a879e3ada17a39e8a3080c9" kind="variable"><name>mdio</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a80a432d4379551529d62aba3b58603fa" kind="variable"><name>phyaddr_offset</name></member>
-    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a07e7e7ea28d084f1eb8667c71ad3879a" kind="variable"><name>port0</name></member>
-    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a07b4608471c2fcf0ea8e7f49f8d5619a" kind="variable"><name>port1</name></member>
+    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1add00f0b72c40e46f28b522f87b734405" kind="variable"><name>port0</name></member>
+    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1aa5d8a145323216adffd8a0057a8e984a" kind="variable"><name>port1</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a0a595268561edc58e347ca8387000bc6" kind="variable"><name>raw</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a2be567cb9a63eebd46b36cfca645f589" kind="variable"><name>rx_clk</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1aab914121f91beccd7f39d6915a2ebdc1" kind="variable"><name>rx_dv</name></member>
@@ -618,11 +618,11 @@
     <member refid="struct_x_m_c___e_r_u__t_1a3e57c2ef1c3ffb36722f000cc1156824" kind="variable"><name>__pad0__</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1ab258afc6b0d91396f4e8d9e57a1cf49b" kind="variable"><name>ED</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a4c3a79fc32dbe4364cc851e8cbf85a91" kind="variable"><name>EXICON</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1a51d334e95f70504731d25fd197a07217" kind="variable"><name>EXICON_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1a2f5a614d93f80e95c1c0173465be3efa" kind="variable"><name>EXICON_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1ae01320249b16d00118b06a015514df3c" kind="variable"><name>EXISEL</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1abd363bd019ed57fbec4c4bc85afa725a" kind="variable"><name>EXISEL_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1a45313d2fa3761077921d2791c3a490d1" kind="variable"><name>EXISEL_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a350d783f21195368d69f295524bc91e3" kind="variable"><name>EXOCON</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1a9155050ecf402c2119b2d68aa9ddb904" kind="variable"><name>EXOCON_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1a5c1a31d26c68628253763cacc9191551" kind="variable"><name>EXOCON_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a138e546f7b2f98abea1ac802a4dccc44" kind="variable"><name>EXS0A</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a5feedfead136e07ba11dccaa0a8aa23a" kind="variable"><name>EXS0B</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a378201da178da5cd8ddc16825a689f48" kind="variable"><name>EXS1A</name></member>
@@ -1151,8 +1151,8 @@
   </compound>
   <compound refid="struct_x_m_c___u_s_b_d___e_p__t" kind="struct"><name>XMC_USBD_EP_t</name>
     <member refid="struct_x_m_c___u_s_b_d___e_p__t_1ac0d31ca829f934cccd89f8054e02773e" kind="variable"><name>address</name></member>
-    <member refid="struct_x_m_c___u_s_b_d___e_p__t_1abf8d570adffcb088884d287a21e25f69" kind="variable"><name>address_st</name></member>
-    <member refid="struct_x_m_c___u_s_b_d___e_p__t_1a204ada188693126e63efec15844d1ccc" kind="variable"><name>address_u</name></member>
+    <member refid="struct_x_m_c___u_s_b_d___e_p__t_1afd00568c74f9cb70bea302fd8c669231" kind="variable"><name>address_st</name></member>
+    <member refid="struct_x_m_c___u_s_b_d___e_p__t_1afcc06854bb564655c3b38138005a9212" kind="variable"><name>address_u</name></member>
     <member refid="struct_x_m_c___u_s_b_d___e_p__t_1a2148ffb99828aeaced6a5655502434ac" kind="variable"><name>direction</name></member>
     <member refid="struct_x_m_c___u_s_b_d___e_p__t_1a2576e682d5f9c67dfdf5fc956ef4631f" kind="variable"><name>inBuffer</name></member>
     <member refid="struct_x_m_c___u_s_b_d___e_p__t_1aaca115c329d074b835b620b7358b6ebe" kind="variable"><name>inBufferSize</name></member>
@@ -2367,12 +2367,6 @@
     <member refid="group___c_c_u4_1gga8d2c64420abee84dccce68e68b942e67aba2ebd26d8e8c60faaadc932a235f55d" kind="enumvalue"><name>XMC_CCU4_SHADOW_TRANSFER_SLICE_3</name></member>
     <member refid="group___c_c_u4_1gga8d2c64420abee84dccce68e68b942e67a9a4e23045766ee28fcdada89fb690d2f" kind="enumvalue"><name>XMC_CCU4_SHADOW_TRANSFER_DITHER_SLICE_3</name></member>
     <member refid="group___c_c_u4_1gga8d2c64420abee84dccce68e68b942e67a7f7c5fe0b3384b219430d815a0f41bab" kind="enumvalue"><name>XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_3</name></member>
-    <member refid="group___c_c_u4_1ga2216adfcbbc93dde340169582ef17ff6" kind="enum"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_t</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6a26b5652444293e1123ca1daa4256779c" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PERIOD_SHADOW</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6aeaf05428ff334a16cfcc652eb2ce6e39" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_COMPARE_SHADOW</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6af5b97b18e485a8c00dfaee23a1e60763" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PASSIVE_LEVEL</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6a1dd75a1607e1060f9cc0cbba49e129a2" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_DITHER_SHADOW</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6a598a5a3e0bb4976dcd6e0b379263dfaf" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_FLOATING_PRESCALER_SHADOW</name></member>
     <member refid="group___c_c_u4_1gab5c05e6fda34ac046c12ec25ef405a3d" kind="enum"><name>XMC_CCU4_SLICE_CAP_REG_SET_t</name></member>
     <member refid="group___c_c_u4_1ggab5c05e6fda34ac046c12ec25ef405a3da10fbc9596fdd42ae042ec67e0c4ded2f" kind="enumvalue"><name>XMC_CCU4_SLICE_CAP_REG_SET_LOW</name></member>
     <member refid="group___c_c_u4_1ggab5c05e6fda34ac046c12ec25ef405a3daca9cb79415d453134c3de65838dd2697" kind="enumvalue"><name>XMC_CCU4_SLICE_CAP_REG_SET_HIGH</name></member>
@@ -2467,10 +2461,6 @@
     <member refid="group___c_c_u4_1gga871bce3beb610d5e16b083c68381a60faa5635168ed9b7ceb25fab5887e97c430" kind="enumvalue"><name>XMC_CCU4_SLICE_PRESCALER_8192</name></member>
     <member refid="group___c_c_u4_1gga871bce3beb610d5e16b083c68381a60fa6987633000fa62b874eecf6882edb3d4" kind="enumvalue"><name>XMC_CCU4_SLICE_PRESCALER_16384</name></member>
     <member refid="group___c_c_u4_1gga871bce3beb610d5e16b083c68381a60fafc45b1530f6f2264995bb7b9703b4af3" kind="enumvalue"><name>XMC_CCU4_SLICE_PRESCALER_32768</name></member>
-    <member refid="group___c_c_u4_1ga6b7d3d96e6ba78dd55ca0850379ebf9d" kind="enum"><name>XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_t</name></member>
-    <member refid="group___c_c_u4_1gga6b7d3d96e6ba78dd55ca0850379ebf9dacb0b5f0078d5039dd05903cd3440332a" kind="enumvalue"><name>XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_IN_PERIOD_MATCH_AND_ONE_MATCH</name></member>
-    <member refid="group___c_c_u4_1gga6b7d3d96e6ba78dd55ca0850379ebf9da3e58f0c4e9d39e1a7270a9acec6215cf" kind="enumvalue"><name>XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_ONLY_IN_PERIOD_MATCH</name></member>
-    <member refid="group___c_c_u4_1gga6b7d3d96e6ba78dd55ca0850379ebf9da1471dea0a4bf1f5043e36068521ed5e1" kind="enumvalue"><name>XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_ONLY_IN_ONE_MATCH</name></member>
     <member refid="group___c_c_u4_1ga9de58e90257a0c33532f376c7c5f959e" kind="enum"><name>XMC_CCU4_SLICE_SR_ID_t</name></member>
     <member refid="group___c_c_u4_1gga9de58e90257a0c33532f376c7c5f959ea606c95b58b5d6d5dbe49d3d5ef1ddcca" kind="enumvalue"><name>XMC_CCU4_SLICE_SR_ID_0</name></member>
     <member refid="group___c_c_u4_1gga9de58e90257a0c33532f376c7c5f959ea8c6eb4a0bd77ca1d2ee974c7ce2c28b1" kind="enumvalue"><name>XMC_CCU4_SLICE_SR_ID_1</name></member>
@@ -2499,12 +2489,6 @@
     <member refid="group___c_c_u4_1gafc3c6b390f18574d954473174a595eb2" kind="enum"><name>XMC_CCU4_SLICE_TRAP_EXIT_MODE_t</name></member>
     <member refid="group___c_c_u4_1ggafc3c6b390f18574d954473174a595eb2ad0e74edf598f2c828a938de5a2461112" kind="enumvalue"><name>XMC_CCU4_SLICE_TRAP_EXIT_MODE_AUTOMATIC</name></member>
     <member refid="group___c_c_u4_1ggafc3c6b390f18574d954473174a595eb2a100606bfa8b7b7c11deef92dceb07da0" kind="enumvalue"><name>XMC_CCU4_SLICE_TRAP_EXIT_MODE_SW</name></member>
-    <member refid="group___c_c_u4_1ga1cf1dcb4c712c711441f1ee42a8577bd" kind="enum"><name>XMC_CCU4_SLICE_WRITE_INTO_t</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bda793268c55ee55c93bc0c50fee9a17960" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_PERIOD_CONFIGURATION</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bdaf27bb047766d40a81e5bcea978070b78" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_COMPARE_CONFIGURATION</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bda3e7e6d8f1bfdd6abf7854152f2b70c90" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_PASSIVE_LEVEL_CONFIGURATION</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bda2027f4df492329f65376f6ffb220dc23" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_DITHER_VALUE_CONFIGURATION</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bda7c8cbc8cb315c1caf2c23a1ca69c2bfc" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_FLOATING_PRESCALER_VALUE_CONFIGURATION</name></member>
     <member refid="group___c_c_u4_1gac0f35f7b62570cbbd9ff102fea356b62" kind="enum"><name>XMC_CCU4_STATUS_t</name></member>
     <member refid="group___c_c_u4_1ggac0f35f7b62570cbbd9ff102fea356b62a2cb66ee3128b8de1632f4c92bf9a87be" kind="enumvalue"><name>XMC_CCU4_STATUS_OK</name></member>
     <member refid="group___c_c_u4_1ggac0f35f7b62570cbbd9ff102fea356b62a15005b0626b30abc2f37d1b3d1047bc3" kind="enumvalue"><name>XMC_CCU4_STATUS_ERROR</name></member>
@@ -2524,6 +2508,7 @@
     <member refid="group___c_c_u4_1ga71ef51e46d57bdd95563fdc0da1f44c3" kind="function"><name>XMC_CCU4_EnableModule</name></member>
     <member refid="group___c_c_u4_1ga636c23537ae9718af9bb3c3f66c7db4b" kind="function"><name>XMC_CCU4_EnableMultipleClocks</name></member>
     <member refid="group___c_c_u4_1gadcfbaa660e4c008e78128b8deb4cc5c1" kind="function"><name>XMC_CCU4_EnableShadowTransfer</name></member>
+    <member refid="group___c_c_u4_1gaa34f096e9b8a10a06aec6498a74b210f" kind="function"><name>XMC_CCU4_GetCapturedValueFromFifo</name></member>
     <member refid="group___c_c_u4_1ga38533fac543669af19de6972cd56a3a9" kind="function"><name>XMC_CCU4_GetSliceStatusBit</name></member>
     <member refid="group___c_c_u4_1ga6ab30100f7e86a8f47095282a123d071" kind="function"><name>XMC_CCU4_Init</name></member>
     <member refid="group___c_c_u4_1ga13b0b2fb23ac55d1fcfa41378e22e395" kind="function"><name>XMC_CCU4_IsPrescalerRunning</name></member>
@@ -2542,16 +2527,12 @@
     <member refid="group___c_c_u4_1ga0b084822487e0ca0a4a950c7d0f36fa7" kind="function"><name>XMC_CCU4_SLICE_ConfigureStatusBitOverrideEvent</name></member>
     <member refid="group___c_c_u4_1gaf312a02f00b3149c2f5cd3faea6f93c2" kind="function"><name>XMC_CCU4_SLICE_CountConfig</name></member>
     <member refid="group___c_c_u4_1gac61d7dc678e8379b4afaa8d763975866" kind="function"><name>XMC_CCU4_SLICE_DirectionConfig</name></member>
-    <member refid="group___c_c_u4_1ga3e4002ef45cbd1504f1dfa03be7f79d6" kind="function"><name>XMC_CCU4_SLICE_DisableAutomaticShadowTransferRequest</name></member>
-    <member refid="group___c_c_u4_1gaf299d2965b919f5828ded78d2d015baa" kind="function"><name>XMC_CCU4_SLICE_DisableCascadedShadowTransfer</name></member>
     <member refid="group___c_c_u4_1ga074938e1d84568cc5d0c14247188ceab" kind="function"><name>XMC_CCU4_SLICE_DisableDithering</name></member>
     <member refid="group___c_c_u4_1ga1d8dd9cc41693043dec0ae759d91fbae" kind="function"><name>XMC_CCU4_SLICE_DisableEvent</name></member>
     <member refid="group___c_c_u4_1gae2c8386269be2f976ab9bb83da99087a" kind="function"><name>XMC_CCU4_SLICE_DisableFloatingPrescaler</name></member>
     <member refid="group___c_c_u4_1ga08273e7c8fa6261de82759637831a989" kind="function"><name>XMC_CCU4_SLICE_DisableMultiChannelMode</name></member>
     <member refid="group___c_c_u4_1ga3152586e4a4d2f25775bb0286653ca8c" kind="function"><name>XMC_CCU4_SLICE_DisableMultipleEvents</name></member>
     <member refid="group___c_c_u4_1ga528b039bddfe9e20f765aaa2f7bdcc0e" kind="function"><name>XMC_CCU4_SLICE_DisableTrap</name></member>
-    <member refid="group___c_c_u4_1gada142961bff1eae9b4182249810b762e" kind="function"><name>XMC_CCU4_SLICE_EnableAutomaticShadowTransferRequest</name></member>
-    <member refid="group___c_c_u4_1gaa8a44e999105f023b688fb8e3cf28c43" kind="function"><name>XMC_CCU4_SLICE_EnableCascadedShadowTransfer</name></member>
     <member refid="group___c_c_u4_1ga726d7c99adf8d7f438f1f08ef2a9de1a" kind="function"><name>XMC_CCU4_SLICE_EnableDithering</name></member>
     <member refid="group___c_c_u4_1ga70968924480cf3d06eb9381856a69b87" kind="function"><name>XMC_CCU4_SLICE_EnableEvent</name></member>
     <member refid="group___c_c_u4_1ga495ca5dfa02beb5a818dd113ebf99ae1" kind="function"><name>XMC_CCU4_SLICE_EnableFloatingPrescaler</name></member>
@@ -2582,7 +2563,6 @@
     <member refid="group___c_c_u4_1ga08c882083ebd4d874a466b61d011e3f7" kind="function"><name>XMC_CCU4_SLICE_SetInterruptNode</name></member>
     <member refid="group___c_c_u4_1ga962a6a7402c99ec80359d3202ae9cd50" kind="function"><name>XMC_CCU4_SLICE_SetPassiveLevel</name></member>
     <member refid="group___c_c_u4_1ga24127bd989b62814c2ba0cc876b99473" kind="function"><name>XMC_CCU4_SLICE_SetPrescaler</name></member>
-    <member refid="group___c_c_u4_1ga8631a666973bd4471bb80d8f08ae99cd" kind="function"><name>XMC_CCU4_SLICE_SetShadowTransferMode</name></member>
     <member refid="group___c_c_u4_1ga7ae1adcaba614fa7d919221da9020a57" kind="function"><name>XMC_CCU4_SLICE_SetTimerCompareMatch</name></member>
     <member refid="group___c_c_u4_1ga35b25352390bfa747b51ba511fe85c57" kind="function"><name>XMC_CCU4_SLICE_SetTimerCountingMode</name></member>
     <member refid="group___c_c_u4_1ga1341abfd52a8165c7e1b5292033797ed" kind="function"><name>XMC_CCU4_SLICE_SetTimerPeriodMatch</name></member>
@@ -2595,8 +2575,6 @@
     <member refid="group___c_c_u4_1ga17330b4b761f443140b1c736c1a09840" kind="function"><name>XMC_CCU4_SLICE_StopConfig</name></member>
     <member refid="group___c_c_u4_1gac41eed8d2857f7c9d23567fa742a705c" kind="function"><name>XMC_CCU4_SLICE_StopTimer</name></member>
     <member refid="group___c_c_u4_1gab2d5615177cfa2f20c5f5655400f4a8e" kind="function"><name>XMC_CCU4_SLICE_TrapConfig</name></member>
-    <member refid="group___c_c_u4_1ga416ddf2d93e243f85ecbf5b087b4672f" kind="function"><name>XMC_CCU4_SLICE_WriteCoherentlyWithPWMCycle</name></member>
-    <member refid="group___c_c_u4_1ga5048bfa6fbbcc4752d137f32c141743c" kind="function"><name>XMC_CCU4_SLICE_WriteImmediateAfterShadowTransfer</name></member>
     <member refid="group___c_c_u4_1gad492e0c49bfa5b89b01d6dd5a43a1e1b" kind="function"><name>XMC_CCU4_StartPrescaler</name></member>
     <member refid="group___c_c_u4_1gae3741bc9dc0cb9f565ade9182d73141f" kind="function"><name>XMC_CCU4_StopPrescaler</name></member>
   </compound>
@@ -2787,7 +2765,6 @@
     <member refid="group___c_c_u8_1gga4593a29b146175cde17da7044c4967b7ab0f7c3bb1134363bbd4c3e29d66dca75" kind="enumvalue"><name>XMC_CCU8_SLICE_STATUS_CHANNEL_1</name></member>
     <member refid="group___c_c_u8_1gga4593a29b146175cde17da7044c4967b7a2fd368871a417e61b5173fb177e9ca59" kind="enumvalue"><name>XMC_CCU8_SLICE_STATUS_CHANNEL_2</name></member>
     <member refid="group___c_c_u8_1gga4593a29b146175cde17da7044c4967b7a3ecf98fb041d7b5083b00dbcbab6278c" kind="enumvalue"><name>XMC_CCU8_SLICE_STATUS_CHANNEL_1_AND_2</name></member>
-    <member refid="group___c_c_u8_1gga4593a29b146175cde17da7044c4967b7aa4f4e62e2bb8ae014e8a7f2d0a5fd196" kind="enumvalue"><name>XMC_CCU8_SLICE_STATUS_CHANNEL_1_OR_2</name></member>
     <member refid="group___c_c_u8_1ga55b21896459210c26fa40fd2d0f3686c" kind="enum"><name>XMC_CCU8_SLICE_TIMER_CLEAR_MODE_t</name></member>
     <member refid="group___c_c_u8_1gga55b21896459210c26fa40fd2d0f3686ca11a31ec6e161dc29959df64e79158b93" kind="enumvalue"><name>XMC_CCU8_SLICE_TIMER_CLEAR_MODE_NEVER</name></member>
     <member refid="group___c_c_u8_1gga55b21896459210c26fa40fd2d0f3686ca54ece1f489d6bece3038aa5ccc854d9e" kind="enumvalue"><name>XMC_CCU8_SLICE_TIMER_CLEAR_MODE_CAP_HIGH</name></member>
@@ -2805,26 +2782,6 @@
     <member refid="group___c_c_u8_1ga017867eb63a170a10fa034a628bbfd3a" kind="enum"><name>XMC_CCU8_SLICE_TRAP_EXIT_MODE_t</name></member>
     <member refid="group___c_c_u8_1gga017867eb63a170a10fa034a628bbfd3aaae4974f149a34a7aba1293edcc83d418" kind="enumvalue"><name>XMC_CCU8_SLICE_TRAP_EXIT_MODE_AUTOMATIC</name></member>
     <member refid="group___c_c_u8_1gga017867eb63a170a10fa034a628bbfd3aac5f69b87d44868e2e5a0831a9ea2c2bc" kind="enumvalue"><name>XMC_CCU8_SLICE_TRAP_EXIT_MODE_SW</name></member>
-    <member refid="group___c_c_u8_1ga8e661f983d5ca777659b143f1e4ae23e" kind="enum"><name>XMC_CCU8_SOURCE_OUT0_t</name></member>
-    <member refid="group___c_c_u8_1gga8e661f983d5ca777659b143f1e4ae23ea0a5449234ffcac05e9e1410e64d57b4e" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT0_ST1</name></member>
-    <member refid="group___c_c_u8_1gga8e661f983d5ca777659b143f1e4ae23ea5c44dbf97ddf6cd89da712f6c2eb6788" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT0_INV_ST1</name></member>
-    <member refid="group___c_c_u8_1gga8e661f983d5ca777659b143f1e4ae23ea084dafcc1d427cb69c937af44d0ff782" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT0_ST2</name></member>
-    <member refid="group___c_c_u8_1gga8e661f983d5ca777659b143f1e4ae23eaf0f87bb32a1478cb88e10ac11a0e3abe" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT0_INV_ST2</name></member>
-    <member refid="group___c_c_u8_1ga4b25b3c7088dd06c3051e5e55d646093" kind="enum"><name>XMC_CCU8_SOURCE_OUT1_t</name></member>
-    <member refid="group___c_c_u8_1gga4b25b3c7088dd06c3051e5e55d646093a657130a13911345fafe60025d88f9210" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT1_ST1</name></member>
-    <member refid="group___c_c_u8_1gga4b25b3c7088dd06c3051e5e55d646093a08943d6b204262421db811ff403287e0" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT1_INV_ST1</name></member>
-    <member refid="group___c_c_u8_1gga4b25b3c7088dd06c3051e5e55d646093a75329f20f9955f3babd1e56dda7fe33c" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT1_ST2</name></member>
-    <member refid="group___c_c_u8_1gga4b25b3c7088dd06c3051e5e55d646093a1e2ea3c3e1bcf73d1f72aee5266d373e" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT1_INV_ST2</name></member>
-    <member refid="group___c_c_u8_1ga76df2f8532427c0e7477520a995e3d39" kind="enum"><name>XMC_CCU8_SOURCE_OUT2_t</name></member>
-    <member refid="group___c_c_u8_1gga76df2f8532427c0e7477520a995e3d39a59a1c471cd137b6c45fefe70c4c690f9" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT2_ST2</name></member>
-    <member refid="group___c_c_u8_1gga76df2f8532427c0e7477520a995e3d39a8e902803df82d6be94d9dc3fe382f390" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT2_INV_ST2</name></member>
-    <member refid="group___c_c_u8_1gga76df2f8532427c0e7477520a995e3d39ab51091f821c232cd0b63a18c95d7baa5" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT2_ST1</name></member>
-    <member refid="group___c_c_u8_1gga76df2f8532427c0e7477520a995e3d39a92133b1e3b3301732d1654d59467f73b" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT2_INV_ST1</name></member>
-    <member refid="group___c_c_u8_1ga51de2f5044c3d5e80c5c36c47718d739" kind="enum"><name>XMC_CCU8_SOURCE_OUT3_t</name></member>
-    <member refid="group___c_c_u8_1gga51de2f5044c3d5e80c5c36c47718d739a6fca8848b3a40c406b94a8f3c0141d70" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT3_ST2</name></member>
-    <member refid="group___c_c_u8_1gga51de2f5044c3d5e80c5c36c47718d739a18f4e589a41675b16ca0d392568a86d8" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT3_INV_ST2</name></member>
-    <member refid="group___c_c_u8_1gga51de2f5044c3d5e80c5c36c47718d739a18e0bed18ddad086ceda2c624e1d380f" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT3_ST1</name></member>
-    <member refid="group___c_c_u8_1gga51de2f5044c3d5e80c5c36c47718d739a855c06a9baf7591242509c535a66cf6d" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT3_INV_ST1</name></member>
     <member refid="group___c_c_u8_1gac96debe178f7c9b53f1f9e30e1694907" kind="enum"><name>XMC_CCU8_STATUS_t</name></member>
     <member refid="group___c_c_u8_1ggac96debe178f7c9b53f1f9e30e1694907a07d3d06cec82871e6a14225ae1d04751" kind="enumvalue"><name>XMC_CCU8_STATUS_OK</name></member>
     <member refid="group___c_c_u8_1ggac96debe178f7c9b53f1f9e30e1694907aaf381567361431720611e4727ced6b45" kind="enumvalue"><name>XMC_CCU8_STATUS_ERROR</name></member>
@@ -2844,6 +2801,7 @@
     <member refid="group___c_c_u8_1gafd5ef24a5ced8a4fde003ed02c982ca7" kind="function"><name>XMC_CCU8_EnableModule</name></member>
     <member refid="group___c_c_u8_1ga28e15744308482a625ce7e36499f44ca" kind="function"><name>XMC_CCU8_EnableMultipleClocks</name></member>
     <member refid="group___c_c_u8_1ga8adef91554fb4e3e9e40b46b975288b1" kind="function"><name>XMC_CCU8_EnableShadowTransfer</name></member>
+    <member refid="group___c_c_u8_1gaae1e534ecc5fdeec140dda4ff7bce11a" kind="function"><name>XMC_CCU8_GetCapturedValueFromFifo</name></member>
     <member refid="group___c_c_u8_1gae9bf8f3217de4fa2247820d8e999c4fc" kind="function"><name>XMC_CCU8_GetSliceStatusBit</name></member>
     <member refid="group___c_c_u8_1gac7743795f24ff3c53ff61f8cd6dad67e" kind="function"><name>XMC_CCU8_Init</name></member>
     <member refid="group___c_c_u8_1gaf63b212815925413418c580ea6dc2dc4" kind="function"><name>XMC_CCU8_IsParityCheckerRunning</name></member>
@@ -2866,7 +2824,6 @@
     <member refid="group___c_c_u8_1ga215d46277617dda2a7487529b3a76a95" kind="function"><name>XMC_CCU8_SLICE_CountConfig</name></member>
     <member refid="group___c_c_u8_1ga3643e1adcb1a1938db859b9aa8784a6e" kind="function"><name>XMC_CCU8_SLICE_DeadTimeInit</name></member>
     <member refid="group___c_c_u8_1ga782e127faae933c4ff018320e2bbd33e" kind="function"><name>XMC_CCU8_SLICE_DirectionConfig</name></member>
-    <member refid="group___c_c_u8_1ga4ed8b68a5ac01166a3a73136e113f753" kind="function"><name>XMC_CCU8_SLICE_DisableAutomaticShadowTransferRequest</name></member>
     <member refid="group___c_c_u8_1ga7ab5c7a23e6ff95cbe1e67a0475e1f37" kind="function"><name>XMC_CCU8_SLICE_DisableCascadedShadowTransfer</name></member>
     <member refid="group___c_c_u8_1ga5d3b2a8213f23b1c4d264a4a2ace5d0b" kind="function"><name>XMC_CCU8_SLICE_DisableDithering</name></member>
     <member refid="group___c_c_u8_1ga90bb6c877391d2a2bca22cc13a815876" kind="function"><name>XMC_CCU8_SLICE_DisableEvent</name></member>
@@ -2875,7 +2832,6 @@
     <member refid="group___c_c_u8_1gacf6e711a80117324ead7bf4dd14d0140" kind="function"><name>XMC_CCU8_SLICE_DisableMultipleEvents</name></member>
     <member refid="group___c_c_u8_1ga84d0ab52d6358735950db8ab509f32d3" kind="function"><name>XMC_CCU8_SLICE_DisableTrap</name></member>
     <member refid="group___c_c_u8_1gadae9172a3c957af27c0f280b296471e5" kind="function"><name>XMC_CCU8_SLICE_EnableAsymmetricCompareMode</name></member>
-    <member refid="group___c_c_u8_1ga1989b4662afd4cc1c2eb0936d267e5ae" kind="function"><name>XMC_CCU8_SLICE_EnableAutomaticShadowTransferRequest</name></member>
     <member refid="group___c_c_u8_1ga8a6d5c547994d20acdb899367e68d1bc" kind="function"><name>XMC_CCU8_SLICE_EnableCascadedShadowTransfer</name></member>
     <member refid="group___c_c_u8_1gad614710c7aa00b5dcc6c5cce20f81da1" kind="function"><name>XMC_CCU8_SLICE_EnableDithering</name></member>
     <member refid="group___c_c_u8_1gab1d19b009ae3bffbac81d7697b316bbc" kind="function"><name>XMC_CCU8_SLICE_EnableEvent</name></member>
@@ -2937,8 +2893,6 @@
     <member refid="group___c_c_u8_1ga84133f9bd1d4efcfc862849fd647d9e1" kind="function"><name>XMC_CCU8_SLICE_StopConfig</name></member>
     <member refid="group___c_c_u8_1gac44fd9a6f90a197da768b4ee9333c160" kind="function"><name>XMC_CCU8_SLICE_StopTimer</name></member>
     <member refid="group___c_c_u8_1ga32af93ee0f1e67da4ca3ce358b467b29" kind="function"><name>XMC_CCU8_SLICE_TrapConfig</name></member>
-    <member refid="group___c_c_u8_1gaf28ab1b167cddbd6f4297774c9156d1b" kind="function"><name>XMC_CCU8_SLICE_WriteCoherentlyWithPWMCycle</name></member>
-    <member refid="group___c_c_u8_1ga57e0594371bc04ac07660456d6006cbb" kind="function"><name>XMC_CCU8_SLICE_WriteImmediateAfterShadowTransfer</name></member>
     <member refid="group___c_c_u8_1ga8bf1dfb8c44faf9a178e2f7a64af6a12" kind="function"><name>XMC_CCU8_StartParityChecker</name></member>
     <member refid="group___c_c_u8_1ga75e9b21283ba468755514f9f1284c1ee" kind="function"><name>XMC_CCU8_StartPrescaler</name></member>
     <member refid="group___c_c_u8_1gaec6b0738f2c0ecc5e5ca40b8b70204d8" kind="function"><name>XMC_CCU8_StopParityChecker</name></member>
@@ -3771,11 +3725,11 @@
     <member refid="group___e_t_h___m_a_c_1ga460e14bb0682b885f5a6229362e43cf3" kind="function"><name>XMC_ETH_MAC_GetEventStatus</name></member>
     <member refid="group___e_t_h___m_a_c_1ga2c4cf235c6a7805c72085d4e997b8324" kind="function"><name>XMC_ETH_MAC_GetPTPStatus</name></member>
     <member refid="group___e_t_h___m_a_c_1ga96e0ce10f2cec680e8dffe9cee6a9c2e" kind="function"><name>XMC_ETH_MAC_GetPTPTime</name></member>
-    <member refid="group___e_t_h___m_a_c_1gae3249a9cd3cf63c5edb206d721221a61" kind="function"><name>XMC_ETH_MAC_GetRxBuffer</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga15298ad6e32aedebff1f4122e4a20b7c" kind="function"><name>XMC_ETH_MAC_GetRxBuffer</name></member>
     <member refid="group___e_t_h___m_a_c_1ga6ea4b201e230e052d13d21f8c4af7941" kind="function"><name>XMC_ETH_MAC_GetRxFrameSize</name></member>
     <member refid="group___e_t_h___m_a_c_1gaee26579fc23646c827a3889bc1a2840c" kind="function"><name>XMC_ETH_MAC_GetRxTimeStamp</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga74a2a222b9cd3a89314fe2e7a236b12d" kind="function"><name>XMC_ETH_MAC_GetTxBuffer</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga6f2f593e431fa9e5cbee316d4216d470" kind="function"><name>XMC_ETH_MAC_GetTxBufferEx</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga44a2dd8919fcd3a696198215fa30faa5" kind="function"><name>XMC_ETH_MAC_GetTxBuffer</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga9eb337b345626c050e93c6cf74ea19a6" kind="function"><name>XMC_ETH_MAC_GetTxBufferEx</name></member>
     <member refid="group___e_t_h___m_a_c_1gab4e58ab6315317cfc82f0fb4bf0c9d27" kind="function"><name>XMC_ETH_MAC_GetTxTimeStamp</name></member>
     <member refid="group___e_t_h___m_a_c_1ga7c1571e10960029ed06dfb0bdab8a0b9" kind="function"><name>XMC_ETH_MAC_Init</name></member>
     <member refid="group___e_t_h___m_a_c_1ga22da6273cc60b12690a8b7cc9ab3fc41" kind="function"><name>XMC_ETH_MAC_InitEx</name></member>
@@ -6064,12 +6018,6 @@
     <member refid="group___c_c_u4_1gga8d2c64420abee84dccce68e68b942e67aba2ebd26d8e8c60faaadc932a235f55d" kind="enumvalue"><name>XMC_CCU4_SHADOW_TRANSFER_SLICE_3</name></member>
     <member refid="group___c_c_u4_1gga8d2c64420abee84dccce68e68b942e67a9a4e23045766ee28fcdada89fb690d2f" kind="enumvalue"><name>XMC_CCU4_SHADOW_TRANSFER_DITHER_SLICE_3</name></member>
     <member refid="group___c_c_u4_1gga8d2c64420abee84dccce68e68b942e67a7f7c5fe0b3384b219430d815a0f41bab" kind="enumvalue"><name>XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_3</name></member>
-    <member refid="group___c_c_u4_1ga2216adfcbbc93dde340169582ef17ff6" kind="enum"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_t</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6a26b5652444293e1123ca1daa4256779c" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PERIOD_SHADOW</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6aeaf05428ff334a16cfcc652eb2ce6e39" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_COMPARE_SHADOW</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6af5b97b18e485a8c00dfaee23a1e60763" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PASSIVE_LEVEL</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6a1dd75a1607e1060f9cc0cbba49e129a2" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_DITHER_SHADOW</name></member>
-    <member refid="group___c_c_u4_1gga2216adfcbbc93dde340169582ef17ff6a598a5a3e0bb4976dcd6e0b379263dfaf" kind="enumvalue"><name>XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_FLOATING_PRESCALER_SHADOW</name></member>
     <member refid="group___c_c_u4_1gab5c05e6fda34ac046c12ec25ef405a3d" kind="enum"><name>XMC_CCU4_SLICE_CAP_REG_SET_t</name></member>
     <member refid="group___c_c_u4_1ggab5c05e6fda34ac046c12ec25ef405a3da10fbc9596fdd42ae042ec67e0c4ded2f" kind="enumvalue"><name>XMC_CCU4_SLICE_CAP_REG_SET_LOW</name></member>
     <member refid="group___c_c_u4_1ggab5c05e6fda34ac046c12ec25ef405a3daca9cb79415d453134c3de65838dd2697" kind="enumvalue"><name>XMC_CCU4_SLICE_CAP_REG_SET_HIGH</name></member>
@@ -6164,10 +6112,6 @@
     <member refid="group___c_c_u4_1gga871bce3beb610d5e16b083c68381a60faa5635168ed9b7ceb25fab5887e97c430" kind="enumvalue"><name>XMC_CCU4_SLICE_PRESCALER_8192</name></member>
     <member refid="group___c_c_u4_1gga871bce3beb610d5e16b083c68381a60fa6987633000fa62b874eecf6882edb3d4" kind="enumvalue"><name>XMC_CCU4_SLICE_PRESCALER_16384</name></member>
     <member refid="group___c_c_u4_1gga871bce3beb610d5e16b083c68381a60fafc45b1530f6f2264995bb7b9703b4af3" kind="enumvalue"><name>XMC_CCU4_SLICE_PRESCALER_32768</name></member>
-    <member refid="group___c_c_u4_1ga6b7d3d96e6ba78dd55ca0850379ebf9d" kind="enum"><name>XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_t</name></member>
-    <member refid="group___c_c_u4_1gga6b7d3d96e6ba78dd55ca0850379ebf9dacb0b5f0078d5039dd05903cd3440332a" kind="enumvalue"><name>XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_IN_PERIOD_MATCH_AND_ONE_MATCH</name></member>
-    <member refid="group___c_c_u4_1gga6b7d3d96e6ba78dd55ca0850379ebf9da3e58f0c4e9d39e1a7270a9acec6215cf" kind="enumvalue"><name>XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_ONLY_IN_PERIOD_MATCH</name></member>
-    <member refid="group___c_c_u4_1gga6b7d3d96e6ba78dd55ca0850379ebf9da1471dea0a4bf1f5043e36068521ed5e1" kind="enumvalue"><name>XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_ONLY_IN_ONE_MATCH</name></member>
     <member refid="group___c_c_u4_1ga9de58e90257a0c33532f376c7c5f959e" kind="enum"><name>XMC_CCU4_SLICE_SR_ID_t</name></member>
     <member refid="group___c_c_u4_1gga9de58e90257a0c33532f376c7c5f959ea606c95b58b5d6d5dbe49d3d5ef1ddcca" kind="enumvalue"><name>XMC_CCU4_SLICE_SR_ID_0</name></member>
     <member refid="group___c_c_u4_1gga9de58e90257a0c33532f376c7c5f959ea8c6eb4a0bd77ca1d2ee974c7ce2c28b1" kind="enumvalue"><name>XMC_CCU4_SLICE_SR_ID_1</name></member>
@@ -6196,12 +6140,6 @@
     <member refid="group___c_c_u4_1gafc3c6b390f18574d954473174a595eb2" kind="enum"><name>XMC_CCU4_SLICE_TRAP_EXIT_MODE_t</name></member>
     <member refid="group___c_c_u4_1ggafc3c6b390f18574d954473174a595eb2ad0e74edf598f2c828a938de5a2461112" kind="enumvalue"><name>XMC_CCU4_SLICE_TRAP_EXIT_MODE_AUTOMATIC</name></member>
     <member refid="group___c_c_u4_1ggafc3c6b390f18574d954473174a595eb2a100606bfa8b7b7c11deef92dceb07da0" kind="enumvalue"><name>XMC_CCU4_SLICE_TRAP_EXIT_MODE_SW</name></member>
-    <member refid="group___c_c_u4_1ga1cf1dcb4c712c711441f1ee42a8577bd" kind="enum"><name>XMC_CCU4_SLICE_WRITE_INTO_t</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bda793268c55ee55c93bc0c50fee9a17960" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_PERIOD_CONFIGURATION</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bdaf27bb047766d40a81e5bcea978070b78" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_COMPARE_CONFIGURATION</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bda3e7e6d8f1bfdd6abf7854152f2b70c90" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_PASSIVE_LEVEL_CONFIGURATION</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bda2027f4df492329f65376f6ffb220dc23" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_DITHER_VALUE_CONFIGURATION</name></member>
-    <member refid="group___c_c_u4_1gga1cf1dcb4c712c711441f1ee42a8577bda7c8cbc8cb315c1caf2c23a1ca69c2bfc" kind="enumvalue"><name>XMC_CCU4_SLICE_WRITE_INTO_FLOATING_PRESCALER_VALUE_CONFIGURATION</name></member>
     <member refid="group___c_c_u4_1gac0f35f7b62570cbbd9ff102fea356b62" kind="enum"><name>XMC_CCU4_STATUS_t</name></member>
     <member refid="group___c_c_u4_1ggac0f35f7b62570cbbd9ff102fea356b62a2cb66ee3128b8de1632f4c92bf9a87be" kind="enumvalue"><name>XMC_CCU4_STATUS_OK</name></member>
     <member refid="group___c_c_u4_1ggac0f35f7b62570cbbd9ff102fea356b62a15005b0626b30abc2f37d1b3d1047bc3" kind="enumvalue"><name>XMC_CCU4_STATUS_ERROR</name></member>
@@ -6221,6 +6159,7 @@
     <member refid="group___c_c_u4_1ga71ef51e46d57bdd95563fdc0da1f44c3" kind="function"><name>XMC_CCU4_EnableModule</name></member>
     <member refid="group___c_c_u4_1ga636c23537ae9718af9bb3c3f66c7db4b" kind="function"><name>XMC_CCU4_EnableMultipleClocks</name></member>
     <member refid="group___c_c_u4_1gadcfbaa660e4c008e78128b8deb4cc5c1" kind="function"><name>XMC_CCU4_EnableShadowTransfer</name></member>
+    <member refid="group___c_c_u4_1gaa34f096e9b8a10a06aec6498a74b210f" kind="function"><name>XMC_CCU4_GetCapturedValueFromFifo</name></member>
     <member refid="group___c_c_u4_1ga38533fac543669af19de6972cd56a3a9" kind="function"><name>XMC_CCU4_GetSliceStatusBit</name></member>
     <member refid="group___c_c_u4_1ga6ab30100f7e86a8f47095282a123d071" kind="function"><name>XMC_CCU4_Init</name></member>
     <member refid="group___c_c_u4_1ga13b0b2fb23ac55d1fcfa41378e22e395" kind="function"><name>XMC_CCU4_IsPrescalerRunning</name></member>
@@ -6239,16 +6178,12 @@
     <member refid="group___c_c_u4_1ga0b084822487e0ca0a4a950c7d0f36fa7" kind="function"><name>XMC_CCU4_SLICE_ConfigureStatusBitOverrideEvent</name></member>
     <member refid="group___c_c_u4_1gaf312a02f00b3149c2f5cd3faea6f93c2" kind="function"><name>XMC_CCU4_SLICE_CountConfig</name></member>
     <member refid="group___c_c_u4_1gac61d7dc678e8379b4afaa8d763975866" kind="function"><name>XMC_CCU4_SLICE_DirectionConfig</name></member>
-    <member refid="group___c_c_u4_1ga3e4002ef45cbd1504f1dfa03be7f79d6" kind="function"><name>XMC_CCU4_SLICE_DisableAutomaticShadowTransferRequest</name></member>
-    <member refid="group___c_c_u4_1gaf299d2965b919f5828ded78d2d015baa" kind="function"><name>XMC_CCU4_SLICE_DisableCascadedShadowTransfer</name></member>
     <member refid="group___c_c_u4_1ga074938e1d84568cc5d0c14247188ceab" kind="function"><name>XMC_CCU4_SLICE_DisableDithering</name></member>
     <member refid="group___c_c_u4_1ga1d8dd9cc41693043dec0ae759d91fbae" kind="function"><name>XMC_CCU4_SLICE_DisableEvent</name></member>
     <member refid="group___c_c_u4_1gae2c8386269be2f976ab9bb83da99087a" kind="function"><name>XMC_CCU4_SLICE_DisableFloatingPrescaler</name></member>
     <member refid="group___c_c_u4_1ga08273e7c8fa6261de82759637831a989" kind="function"><name>XMC_CCU4_SLICE_DisableMultiChannelMode</name></member>
     <member refid="group___c_c_u4_1ga3152586e4a4d2f25775bb0286653ca8c" kind="function"><name>XMC_CCU4_SLICE_DisableMultipleEvents</name></member>
     <member refid="group___c_c_u4_1ga528b039bddfe9e20f765aaa2f7bdcc0e" kind="function"><name>XMC_CCU4_SLICE_DisableTrap</name></member>
-    <member refid="group___c_c_u4_1gada142961bff1eae9b4182249810b762e" kind="function"><name>XMC_CCU4_SLICE_EnableAutomaticShadowTransferRequest</name></member>
-    <member refid="group___c_c_u4_1gaa8a44e999105f023b688fb8e3cf28c43" kind="function"><name>XMC_CCU4_SLICE_EnableCascadedShadowTransfer</name></member>
     <member refid="group___c_c_u4_1ga726d7c99adf8d7f438f1f08ef2a9de1a" kind="function"><name>XMC_CCU4_SLICE_EnableDithering</name></member>
     <member refid="group___c_c_u4_1ga70968924480cf3d06eb9381856a69b87" kind="function"><name>XMC_CCU4_SLICE_EnableEvent</name></member>
     <member refid="group___c_c_u4_1ga495ca5dfa02beb5a818dd113ebf99ae1" kind="function"><name>XMC_CCU4_SLICE_EnableFloatingPrescaler</name></member>
@@ -6279,7 +6214,6 @@
     <member refid="group___c_c_u4_1ga08c882083ebd4d874a466b61d011e3f7" kind="function"><name>XMC_CCU4_SLICE_SetInterruptNode</name></member>
     <member refid="group___c_c_u4_1ga962a6a7402c99ec80359d3202ae9cd50" kind="function"><name>XMC_CCU4_SLICE_SetPassiveLevel</name></member>
     <member refid="group___c_c_u4_1ga24127bd989b62814c2ba0cc876b99473" kind="function"><name>XMC_CCU4_SLICE_SetPrescaler</name></member>
-    <member refid="group___c_c_u4_1ga8631a666973bd4471bb80d8f08ae99cd" kind="function"><name>XMC_CCU4_SLICE_SetShadowTransferMode</name></member>
     <member refid="group___c_c_u4_1ga7ae1adcaba614fa7d919221da9020a57" kind="function"><name>XMC_CCU4_SLICE_SetTimerCompareMatch</name></member>
     <member refid="group___c_c_u4_1ga35b25352390bfa747b51ba511fe85c57" kind="function"><name>XMC_CCU4_SLICE_SetTimerCountingMode</name></member>
     <member refid="group___c_c_u4_1ga1341abfd52a8165c7e1b5292033797ed" kind="function"><name>XMC_CCU4_SLICE_SetTimerPeriodMatch</name></member>
@@ -6292,8 +6226,6 @@
     <member refid="group___c_c_u4_1ga17330b4b761f443140b1c736c1a09840" kind="function"><name>XMC_CCU4_SLICE_StopConfig</name></member>
     <member refid="group___c_c_u4_1gac41eed8d2857f7c9d23567fa742a705c" kind="function"><name>XMC_CCU4_SLICE_StopTimer</name></member>
     <member refid="group___c_c_u4_1gab2d5615177cfa2f20c5f5655400f4a8e" kind="function"><name>XMC_CCU4_SLICE_TrapConfig</name></member>
-    <member refid="group___c_c_u4_1ga416ddf2d93e243f85ecbf5b087b4672f" kind="function"><name>XMC_CCU4_SLICE_WriteCoherentlyWithPWMCycle</name></member>
-    <member refid="group___c_c_u4_1ga5048bfa6fbbcc4752d137f32c141743c" kind="function"><name>XMC_CCU4_SLICE_WriteImmediateAfterShadowTransfer</name></member>
     <member refid="group___c_c_u4_1gad492e0c49bfa5b89b01d6dd5a43a1e1b" kind="function"><name>XMC_CCU4_StartPrescaler</name></member>
     <member refid="group___c_c_u4_1gae3741bc9dc0cb9f565ade9182d73141f" kind="function"><name>XMC_CCU4_StopPrescaler</name></member>
     <member refid="group___c_c_u4_1ga8502598617c5ba53391dbb5e483d4565" kind="define"><name>XMC_CCU4_SLICE_CHECK_INTERRUPT</name></member>
@@ -6483,7 +6415,6 @@
     <member refid="group___c_c_u8_1gga4593a29b146175cde17da7044c4967b7ab0f7c3bb1134363bbd4c3e29d66dca75" kind="enumvalue"><name>XMC_CCU8_SLICE_STATUS_CHANNEL_1</name></member>
     <member refid="group___c_c_u8_1gga4593a29b146175cde17da7044c4967b7a2fd368871a417e61b5173fb177e9ca59" kind="enumvalue"><name>XMC_CCU8_SLICE_STATUS_CHANNEL_2</name></member>
     <member refid="group___c_c_u8_1gga4593a29b146175cde17da7044c4967b7a3ecf98fb041d7b5083b00dbcbab6278c" kind="enumvalue"><name>XMC_CCU8_SLICE_STATUS_CHANNEL_1_AND_2</name></member>
-    <member refid="group___c_c_u8_1gga4593a29b146175cde17da7044c4967b7aa4f4e62e2bb8ae014e8a7f2d0a5fd196" kind="enumvalue"><name>XMC_CCU8_SLICE_STATUS_CHANNEL_1_OR_2</name></member>
     <member refid="group___c_c_u8_1ga55b21896459210c26fa40fd2d0f3686c" kind="enum"><name>XMC_CCU8_SLICE_TIMER_CLEAR_MODE_t</name></member>
     <member refid="group___c_c_u8_1gga55b21896459210c26fa40fd2d0f3686ca11a31ec6e161dc29959df64e79158b93" kind="enumvalue"><name>XMC_CCU8_SLICE_TIMER_CLEAR_MODE_NEVER</name></member>
     <member refid="group___c_c_u8_1gga55b21896459210c26fa40fd2d0f3686ca54ece1f489d6bece3038aa5ccc854d9e" kind="enumvalue"><name>XMC_CCU8_SLICE_TIMER_CLEAR_MODE_CAP_HIGH</name></member>
@@ -6501,26 +6432,6 @@
     <member refid="group___c_c_u8_1ga017867eb63a170a10fa034a628bbfd3a" kind="enum"><name>XMC_CCU8_SLICE_TRAP_EXIT_MODE_t</name></member>
     <member refid="group___c_c_u8_1gga017867eb63a170a10fa034a628bbfd3aaae4974f149a34a7aba1293edcc83d418" kind="enumvalue"><name>XMC_CCU8_SLICE_TRAP_EXIT_MODE_AUTOMATIC</name></member>
     <member refid="group___c_c_u8_1gga017867eb63a170a10fa034a628bbfd3aac5f69b87d44868e2e5a0831a9ea2c2bc" kind="enumvalue"><name>XMC_CCU8_SLICE_TRAP_EXIT_MODE_SW</name></member>
-    <member refid="group___c_c_u8_1ga8e661f983d5ca777659b143f1e4ae23e" kind="enum"><name>XMC_CCU8_SOURCE_OUT0_t</name></member>
-    <member refid="group___c_c_u8_1gga8e661f983d5ca777659b143f1e4ae23ea0a5449234ffcac05e9e1410e64d57b4e" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT0_ST1</name></member>
-    <member refid="group___c_c_u8_1gga8e661f983d5ca777659b143f1e4ae23ea5c44dbf97ddf6cd89da712f6c2eb6788" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT0_INV_ST1</name></member>
-    <member refid="group___c_c_u8_1gga8e661f983d5ca777659b143f1e4ae23ea084dafcc1d427cb69c937af44d0ff782" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT0_ST2</name></member>
-    <member refid="group___c_c_u8_1gga8e661f983d5ca777659b143f1e4ae23eaf0f87bb32a1478cb88e10ac11a0e3abe" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT0_INV_ST2</name></member>
-    <member refid="group___c_c_u8_1ga4b25b3c7088dd06c3051e5e55d646093" kind="enum"><name>XMC_CCU8_SOURCE_OUT1_t</name></member>
-    <member refid="group___c_c_u8_1gga4b25b3c7088dd06c3051e5e55d646093a657130a13911345fafe60025d88f9210" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT1_ST1</name></member>
-    <member refid="group___c_c_u8_1gga4b25b3c7088dd06c3051e5e55d646093a08943d6b204262421db811ff403287e0" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT1_INV_ST1</name></member>
-    <member refid="group___c_c_u8_1gga4b25b3c7088dd06c3051e5e55d646093a75329f20f9955f3babd1e56dda7fe33c" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT1_ST2</name></member>
-    <member refid="group___c_c_u8_1gga4b25b3c7088dd06c3051e5e55d646093a1e2ea3c3e1bcf73d1f72aee5266d373e" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT1_INV_ST2</name></member>
-    <member refid="group___c_c_u8_1ga76df2f8532427c0e7477520a995e3d39" kind="enum"><name>XMC_CCU8_SOURCE_OUT2_t</name></member>
-    <member refid="group___c_c_u8_1gga76df2f8532427c0e7477520a995e3d39a59a1c471cd137b6c45fefe70c4c690f9" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT2_ST2</name></member>
-    <member refid="group___c_c_u8_1gga76df2f8532427c0e7477520a995e3d39a8e902803df82d6be94d9dc3fe382f390" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT2_INV_ST2</name></member>
-    <member refid="group___c_c_u8_1gga76df2f8532427c0e7477520a995e3d39ab51091f821c232cd0b63a18c95d7baa5" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT2_ST1</name></member>
-    <member refid="group___c_c_u8_1gga76df2f8532427c0e7477520a995e3d39a92133b1e3b3301732d1654d59467f73b" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT2_INV_ST1</name></member>
-    <member refid="group___c_c_u8_1ga51de2f5044c3d5e80c5c36c47718d739" kind="enum"><name>XMC_CCU8_SOURCE_OUT3_t</name></member>
-    <member refid="group___c_c_u8_1gga51de2f5044c3d5e80c5c36c47718d739a6fca8848b3a40c406b94a8f3c0141d70" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT3_ST2</name></member>
-    <member refid="group___c_c_u8_1gga51de2f5044c3d5e80c5c36c47718d739a18f4e589a41675b16ca0d392568a86d8" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT3_INV_ST2</name></member>
-    <member refid="group___c_c_u8_1gga51de2f5044c3d5e80c5c36c47718d739a18e0bed18ddad086ceda2c624e1d380f" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT3_ST1</name></member>
-    <member refid="group___c_c_u8_1gga51de2f5044c3d5e80c5c36c47718d739a855c06a9baf7591242509c535a66cf6d" kind="enumvalue"><name>XMC_CCU8_SOURCE_OUT3_INV_ST1</name></member>
     <member refid="group___c_c_u8_1gac96debe178f7c9b53f1f9e30e1694907" kind="enum"><name>XMC_CCU8_STATUS_t</name></member>
     <member refid="group___c_c_u8_1ggac96debe178f7c9b53f1f9e30e1694907a07d3d06cec82871e6a14225ae1d04751" kind="enumvalue"><name>XMC_CCU8_STATUS_OK</name></member>
     <member refid="group___c_c_u8_1ggac96debe178f7c9b53f1f9e30e1694907aaf381567361431720611e4727ced6b45" kind="enumvalue"><name>XMC_CCU8_STATUS_ERROR</name></member>
@@ -6540,6 +6451,7 @@
     <member refid="group___c_c_u8_1gafd5ef24a5ced8a4fde003ed02c982ca7" kind="function"><name>XMC_CCU8_EnableModule</name></member>
     <member refid="group___c_c_u8_1ga28e15744308482a625ce7e36499f44ca" kind="function"><name>XMC_CCU8_EnableMultipleClocks</name></member>
     <member refid="group___c_c_u8_1ga8adef91554fb4e3e9e40b46b975288b1" kind="function"><name>XMC_CCU8_EnableShadowTransfer</name></member>
+    <member refid="group___c_c_u8_1gaae1e534ecc5fdeec140dda4ff7bce11a" kind="function"><name>XMC_CCU8_GetCapturedValueFromFifo</name></member>
     <member refid="group___c_c_u8_1gae9bf8f3217de4fa2247820d8e999c4fc" kind="function"><name>XMC_CCU8_GetSliceStatusBit</name></member>
     <member refid="group___c_c_u8_1gac7743795f24ff3c53ff61f8cd6dad67e" kind="function"><name>XMC_CCU8_Init</name></member>
     <member refid="group___c_c_u8_1gaf63b212815925413418c580ea6dc2dc4" kind="function"><name>XMC_CCU8_IsParityCheckerRunning</name></member>
@@ -6562,7 +6474,6 @@
     <member refid="group___c_c_u8_1ga215d46277617dda2a7487529b3a76a95" kind="function"><name>XMC_CCU8_SLICE_CountConfig</name></member>
     <member refid="group___c_c_u8_1ga3643e1adcb1a1938db859b9aa8784a6e" kind="function"><name>XMC_CCU8_SLICE_DeadTimeInit</name></member>
     <member refid="group___c_c_u8_1ga782e127faae933c4ff018320e2bbd33e" kind="function"><name>XMC_CCU8_SLICE_DirectionConfig</name></member>
-    <member refid="group___c_c_u8_1ga4ed8b68a5ac01166a3a73136e113f753" kind="function"><name>XMC_CCU8_SLICE_DisableAutomaticShadowTransferRequest</name></member>
     <member refid="group___c_c_u8_1ga7ab5c7a23e6ff95cbe1e67a0475e1f37" kind="function"><name>XMC_CCU8_SLICE_DisableCascadedShadowTransfer</name></member>
     <member refid="group___c_c_u8_1ga5d3b2a8213f23b1c4d264a4a2ace5d0b" kind="function"><name>XMC_CCU8_SLICE_DisableDithering</name></member>
     <member refid="group___c_c_u8_1ga90bb6c877391d2a2bca22cc13a815876" kind="function"><name>XMC_CCU8_SLICE_DisableEvent</name></member>
@@ -6571,7 +6482,6 @@
     <member refid="group___c_c_u8_1gacf6e711a80117324ead7bf4dd14d0140" kind="function"><name>XMC_CCU8_SLICE_DisableMultipleEvents</name></member>
     <member refid="group___c_c_u8_1ga84d0ab52d6358735950db8ab509f32d3" kind="function"><name>XMC_CCU8_SLICE_DisableTrap</name></member>
     <member refid="group___c_c_u8_1gadae9172a3c957af27c0f280b296471e5" kind="function"><name>XMC_CCU8_SLICE_EnableAsymmetricCompareMode</name></member>
-    <member refid="group___c_c_u8_1ga1989b4662afd4cc1c2eb0936d267e5ae" kind="function"><name>XMC_CCU8_SLICE_EnableAutomaticShadowTransferRequest</name></member>
     <member refid="group___c_c_u8_1ga8a6d5c547994d20acdb899367e68d1bc" kind="function"><name>XMC_CCU8_SLICE_EnableCascadedShadowTransfer</name></member>
     <member refid="group___c_c_u8_1gad614710c7aa00b5dcc6c5cce20f81da1" kind="function"><name>XMC_CCU8_SLICE_EnableDithering</name></member>
     <member refid="group___c_c_u8_1gab1d19b009ae3bffbac81d7697b316bbc" kind="function"><name>XMC_CCU8_SLICE_EnableEvent</name></member>
@@ -6633,8 +6543,6 @@
     <member refid="group___c_c_u8_1ga84133f9bd1d4efcfc862849fd647d9e1" kind="function"><name>XMC_CCU8_SLICE_StopConfig</name></member>
     <member refid="group___c_c_u8_1gac44fd9a6f90a197da768b4ee9333c160" kind="function"><name>XMC_CCU8_SLICE_StopTimer</name></member>
     <member refid="group___c_c_u8_1ga32af93ee0f1e67da4ca3ce358b467b29" kind="function"><name>XMC_CCU8_SLICE_TrapConfig</name></member>
-    <member refid="group___c_c_u8_1gaf28ab1b167cddbd6f4297774c9156d1b" kind="function"><name>XMC_CCU8_SLICE_WriteCoherentlyWithPWMCycle</name></member>
-    <member refid="group___c_c_u8_1ga57e0594371bc04ac07660456d6006cbb" kind="function"><name>XMC_CCU8_SLICE_WriteImmediateAfterShadowTransfer</name></member>
     <member refid="group___c_c_u8_1ga8bf1dfb8c44faf9a178e2f7a64af6a12" kind="function"><name>XMC_CCU8_StartParityChecker</name></member>
     <member refid="group___c_c_u8_1ga75e9b21283ba468755514f9f1284c1ee" kind="function"><name>XMC_CCU8_StartPrescaler</name></member>
     <member refid="group___c_c_u8_1gaec6b0738f2c0ecc5e5ca40b8b70204d8" kind="function"><name>XMC_CCU8_StopParityChecker</name></member>
@@ -7277,11 +7185,11 @@
     <member refid="group___e_t_h___m_a_c_1ga460e14bb0682b885f5a6229362e43cf3" kind="function"><name>XMC_ETH_MAC_GetEventStatus</name></member>
     <member refid="group___e_t_h___m_a_c_1ga2c4cf235c6a7805c72085d4e997b8324" kind="function"><name>XMC_ETH_MAC_GetPTPStatus</name></member>
     <member refid="group___e_t_h___m_a_c_1ga96e0ce10f2cec680e8dffe9cee6a9c2e" kind="function"><name>XMC_ETH_MAC_GetPTPTime</name></member>
-    <member refid="group___e_t_h___m_a_c_1gae3249a9cd3cf63c5edb206d721221a61" kind="function"><name>XMC_ETH_MAC_GetRxBuffer</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga15298ad6e32aedebff1f4122e4a20b7c" kind="function"><name>XMC_ETH_MAC_GetRxBuffer</name></member>
     <member refid="group___e_t_h___m_a_c_1ga6ea4b201e230e052d13d21f8c4af7941" kind="function"><name>XMC_ETH_MAC_GetRxFrameSize</name></member>
     <member refid="group___e_t_h___m_a_c_1gaee26579fc23646c827a3889bc1a2840c" kind="function"><name>XMC_ETH_MAC_GetRxTimeStamp</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga74a2a222b9cd3a89314fe2e7a236b12d" kind="function"><name>XMC_ETH_MAC_GetTxBuffer</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga6f2f593e431fa9e5cbee316d4216d470" kind="function"><name>XMC_ETH_MAC_GetTxBufferEx</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga44a2dd8919fcd3a696198215fa30faa5" kind="function"><name>XMC_ETH_MAC_GetTxBuffer</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga9eb337b345626c050e93c6cf74ea19a6" kind="function"><name>XMC_ETH_MAC_GetTxBufferEx</name></member>
     <member refid="group___e_t_h___m_a_c_1gab4e58ab6315317cfc82f0fb4bf0c9d27" kind="function"><name>XMC_ETH_MAC_GetTxTimeStamp</name></member>
     <member refid="group___e_t_h___m_a_c_1ga7c1571e10960029ed06dfb0bdab8a0b9" kind="function"><name>XMC_ETH_MAC_Init</name></member>
     <member refid="group___e_t_h___m_a_c_1ga22da6273cc60b12690a8b7cc9ab3fc41" kind="function"><name>XMC_ETH_MAC_InitEx</name></member>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___v_a_d_c" kind="group">
     <compoundname>VADC</compoundname>
     <title>Versatile Analog to Digital Converter (VADC)</title>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="775" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="774" bodyend="784"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="773" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="774" bodyend="783"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga23f503143ad7d53a741328bf71faa03e" prot="public" static="no" strong="no">
         <type></type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="690" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="689" bodyend="693"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="688" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="689" bodyend="692"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga32e761497c835cb7995991380b8b9676" prot="public" static="no" strong="no">
         <type></type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="714" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="713" bodyend="724"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="712" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="713" bodyend="723"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" prot="public" static="no" strong="no">
         <type></type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="560" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="559" bodyend="563"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="558" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="559" bodyend="562"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga203ae2271679fb3e05d185a6bd14b8b2" prot="public" static="no" strong="no">
         <type></type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="516" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="515" bodyend="521"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="514" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="515" bodyend="520"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga91049cf62e24988e2df8554af78e2183" prot="public" static="no" strong="no">
         <type></type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="528" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="527" bodyend="531"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="526" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="527" bodyend="530"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga0da7a93877a25398b4e70482b85acd03" prot="public" static="no" strong="no">
         <type></type>
@@ -355,7 +355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="503" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="502" bodyend="508"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="501" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="502" bodyend="507"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga1b6bf4c15562eef67deac95cb36a48d6" prot="public" static="no" strong="no">
         <type></type>
@@ -421,7 +421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="537" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="536" bodyend="544"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="535" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="536" bodyend="543"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gab0c1eb7f8d8743b6b98ebfe8acd14e28" prot="public" static="no" strong="no">
         <type></type>
@@ -450,7 +450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="550" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="549" bodyend="553"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="548" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="549" bodyend="552"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga9f7e6983d71750230e15684a2dc0cf12" prot="public" static="no" strong="no">
         <type></type>
@@ -498,7 +498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="457" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="456" bodyend="462"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="455" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="456" bodyend="461"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gaff5ca81d747517a6420fea34642c6778" prot="public" static="no" strong="no">
         <type></type>
@@ -535,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="446" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="445" bodyend="451"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="444" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="445" bodyend="450"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga42e972915a3d2ac3b46847a4d5228c64" prot="public" static="no" strong="no">
         <type></type>
@@ -572,7 +572,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="469" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="468" bodyend="473"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="467" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="468" bodyend="472"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gaa16f1136a4a4efddcd67ebd5fc69bc9f" prot="public" static="no" strong="no">
         <type></type>
@@ -713,7 +713,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="409" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="408" bodyend="427"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="407" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="408" bodyend="426"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga4db02e3b835b8cad941ab60ae288f8c8" prot="public" static="no" strong="no">
         <type></type>
@@ -758,7 +758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="435" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="434" bodyend="440"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="433" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="434" bodyend="439"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gaa69659f0a647c58e6a0c434759a5f358" prot="public" static="no" strong="no">
         <type></type>
@@ -788,7 +788,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="570" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="569" bodyend="573"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="568" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="569" bodyend="572"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga66c363caf91b81a17ffd84aa75dd54d2" prot="public" static="no" strong="no">
         <type></type>
@@ -808,7 +808,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Internal reference, upper supply range, e.g. VDD &gt;= 3.0V </para>
+<para>Internal reference, upper supply range, e.g. VDD &gt;= 3.0V <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___v_a_d_c_1gga66c363caf91b81a17ffd84aa75dd54d2acaae84a84135d98b689dbb320380b21a" prot="public">
@@ -817,7 +818,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Internal reference, lower supply range, e.g. VDD &lt; 3.0V </para>
+<para>Internal reference, lower supply range, e.g. VDD &lt; 3.0V <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -827,7 +829,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="732" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="731" bodyend="736"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="730" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="731" bodyend="735"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gaa82e58957a3cdeed35f4fadd92682e7c" prot="public" static="no" strong="no">
         <type></type>
@@ -856,7 +858,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="764" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="763" bodyend="767"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="762" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="763" bodyend="766"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gaeab802d00faa3aad6269c620a15a381b" prot="public" static="no" strong="no">
         <type></type>
@@ -885,7 +887,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="609" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="608" bodyend="613"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="607" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="608" bodyend="612"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" prot="public" static="no" strong="no">
         <type></type>
@@ -930,7 +932,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="678" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="677" bodyend="683"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="676" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="677" bodyend="682"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gadf393a8c811d7ee6601688797e616646" prot="public" static="no" strong="no">
         <type></type>
@@ -959,7 +961,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="600" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="599" bodyend="603"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="598" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="599" bodyend="602"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gaedf62af4b76d15e91f0786165ec34fc2" prot="public" static="no" strong="no">
         <type></type>
@@ -988,7 +990,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="630" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="629" bodyend="633"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="628" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="629" bodyend="632"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gab9942639fc1d53fc2335990884b394ba" prot="public" static="no" strong="no">
         <type></type>
@@ -1033,7 +1035,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="619" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="618" bodyend="624"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="617" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="618" bodyend="623"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga2a37056c647c7622f8102dae982336eb" prot="public" static="no" strong="no">
         <type></type>
@@ -1060,7 +1062,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="700" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="699" bodyend="707"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="698" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="699" bodyend="706"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga14a1cbb73bf2a92a3321aea14488f354" prot="public" static="no" strong="no">
         <type></type>
@@ -1089,7 +1091,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="639" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="638" bodyend="642"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="637" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="638" bodyend="641"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga7226349aef79a52f614eb5e75e3f55d9" prot="public" static="no" strong="no">
         <type></type>
@@ -1134,7 +1136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="579" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="578" bodyend="584"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="577" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="578" bodyend="583"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga9e8bcdf4c424a70b70e93368f1ef0021" prot="public" static="no" strong="no">
         <type></type>
@@ -1179,7 +1181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="667" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="666" bodyend="672"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="665" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="666" bodyend="671"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga4effb949346537c7a515c4f2ff542df5" prot="public" static="no" strong="no">
         <type></type>
@@ -1208,7 +1210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="590" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="589" bodyend="593"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="588" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="589" bodyend="592"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga5db9760a1339267ae158e21ee3047859" prot="public" static="no" strong="no">
         <type></type>
@@ -1237,7 +1239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="648" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="647" bodyend="651"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="646" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="647" bodyend="650"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga2ccdb8c01810bbd767c8e7d4ee5453f9" prot="public" static="no" strong="no">
         <type></type>
@@ -1302,7 +1304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="654" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="653" bodyend="661"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="652" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="653" bodyend="660"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga1bf69f8d48c6280914a3a07c3330fd00" prot="public" static="no" strong="no">
         <type></type>
@@ -1331,7 +1333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="489" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="488" bodyend="494"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="487" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="488" bodyend="493"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gacbab535e1de48116e5461c2ce7ff5077" prot="public" static="no" strong="no">
         <type></type>
@@ -1360,7 +1362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="480" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="479" bodyend="483"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="478" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="479" bodyend="482"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gae43c31aa12cebdad8a95072453ce71b8" prot="public" static="no" strong="no">
         <type></type>
@@ -1390,7 +1392,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="755" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="754" bodyend="758"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="753" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="754" bodyend="757"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gab518b0c522cae78b7434dfa327a540b1" prot="public" static="no" strong="no">
         <type></type>
@@ -1467,7 +1469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="341" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="340" bodyend="350"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="339" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="340" bodyend="349"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga227aaa91c89c64c8402c869469276eb9" prot="public" static="no" strong="no">
         <type></type>
@@ -1504,7 +1506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="357" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="356" bodyend="361"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="355" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="356" bodyend="360"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gabac544a8f57b163dff69b444ed5f1d87" prot="public" static="no" strong="no">
         <type></type>
@@ -1533,7 +1535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="330" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="329" bodyend="333"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="328" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="329" bodyend="332"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1ga21468d2b1e9b6110c35e6816fe3e256a" prot="public" static="no" strong="no">
         <type></type>
@@ -1554,7 +1556,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="792" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="791" bodyend="798"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="790" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="791" bodyend="797"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gaabd0d22cd15f13e6e49809a3b811b241" prot="public" static="no" strong="no">
         <type></type>
@@ -1599,7 +1601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="368" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="367" bodyend="373"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="366" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="367" bodyend="372"/>
       </memberdef>
       <memberdef kind="enum" id="group___v_a_d_c_1gab71bdae1d928ee308430626a761eab97" prot="public" static="no" strong="no">
         <type></type>
@@ -1740,7 +1742,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="382" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="381" bodyend="400"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="380" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="381" bodyend="399"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -1756,7 +1758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="866" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="866" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="865" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="865" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___v_a_d_c_1ga11a8b12d7d98d3a9b81c95f9d5c671c4" prot="public" static="no">
         <type>SHS_Type</type>
@@ -1770,7 +1772,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="324" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="324" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="323" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="323" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___v_a_d_c_1ga8cc559b855e4da85ee2f48bcd98405cb" prot="public" static="no">
         <type>VADC_GLOBAL_TypeDef</type>
@@ -1784,7 +1786,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="315" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="315" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="314" column="29" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="314" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___v_a_d_c_1ga1cab39abba3ecb096d57ab19b5774800" prot="public" static="no">
         <type>VADC_G_TypeDef</type>
@@ -1798,7 +1800,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="319" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="319" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="318" column="24" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="318" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___v_a_d_c_1gadb07d5ea1ef8b662d9550d22944825d4" prot="public" static="no">
         <type>uint16_t</type>
@@ -1812,7 +1814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="314" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="314" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="313" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="313" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -1831,7 +1833,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1381" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1381" bodyend="1388"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1380" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1380" bodyend="1387"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gadf9c9021b0e1d538b9d6e6571a4dc2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1892,7 +1894,7 @@ Call this API to insert a multiple channels into the scan request source. This w
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3544" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3544" bodyend="3551"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3543" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3543" bodyend="3550"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga1fb2f851984db31b10d5ae16be7fe05f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1953,7 +1955,7 @@ Call this API to insert a multiple channels into the scan request source. This w
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3603" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3603" bodyend="3610"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3602" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3602" bodyend="3609"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga04933ff6939f277ded8a4c19c3ef8d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1988,7 +1990,7 @@ An ongoing sequence can be aborted at any time. The scan unit picks the pending 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3492" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3491" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3491" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga67c4d922e3b0a4abbaefde613a2a3c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2049,7 +2051,7 @@ Call this API to insert a new single channel into the background scan request so
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3512" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3512" bodyend="3522"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3511" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3511" bodyend="3521"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga075844a45e021e56d4ee6e17a60dba02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2085,7 +2087,7 @@ This API will clear the request source event that occurred. This will clear a in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3693" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3693" bodyend="3697"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3692" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3692" bodyend="3696"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf73c916feb89e889cf848fdbe6dd20e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2121,7 +2123,7 @@ Typically for a Background request source to generate conversion request, either
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3450" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3450" bodyend="3454"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3449" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3449" bodyend="3453"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa31e5b59f99a6f6a8098425816a5daee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2157,7 +2159,7 @@ Typically for a Background request source to generate conversion request, either
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3798" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3798" bodyend="3803"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3797" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3797" bodyend="3802"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa2a92785dd1bfeda948728c15c7205f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2192,7 +2194,7 @@ Typically for a Background request source to generate conversion request, either
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3756" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3756" bodyend="3761"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3755" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3755" bodyend="3760"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga3242cf2af1c5d920154c06ecf1aaff72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2228,7 +2230,7 @@ Typically for a Background request source to generate conversion request, either
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3427" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3427" bodyend="3431"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3426" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3426" bodyend="3430"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaec3793022a41345bdff9e87e264ac8c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2264,7 +2266,7 @@ Typically for a Background request source to generate conversion request, either
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3777" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3777" bodyend="3782"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3776" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3776" bodyend="3781"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gad94ac8b683df176e39944d0d2aff7501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2301,7 +2303,7 @@ By using this API the trigger will be activated for the scan request source. The
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3734" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3734" bodyend="3739"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3733" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3733" bodyend="3738"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga424f2cfadf7566780a290be6b34a63cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2339,7 +2341,7 @@ This API will read the pending channels register and will return the number of c
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3658" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3657" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3657" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga2c6d9214be3444f9e6fc7944523c6b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2373,7 +2375,7 @@ This API will read the pending channels register and will return the number of c
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3714" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3714" bodyend="3718"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3713" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3713" bodyend="3717"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga2a669e00443f963546fdbe05a1eb0084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2422,7 +2424,7 @@ The BACKGROUND SCAN request source functional block converts channels of all VAD
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3274" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3273" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3273" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gad6e756229d4b42d79c942f594895e880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2483,7 +2485,7 @@ This API will check if the Channel in question is awaiting conversion in the cur
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3630" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3630" bodyend="3640"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3629" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3629" bodyend="3639"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa2480a6ce2dcd7dd7478dc35a5b20774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2544,7 +2546,7 @@ Call this API to insert a new single channel into the background scan request so
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3571" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3571" bodyend="3581"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3570" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3570" bodyend="3580"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gacba7a4847be06bb2e71493eabf9bbb69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2592,7 +2594,7 @@ Passage of the trigger input to the request source can be controlled via a gatin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3379" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3378" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3378" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga1dc24406fa9e95d845a8095728dcbce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2641,7 +2643,7 @@ A Background request source will raise conversion request only if there were eit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3341" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3340" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3340" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaea3cd4f61981bbc16074a4301b2c1fd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2690,7 +2692,7 @@ A Background request source will raise conversion request only if there were eit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3360" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3359" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3359" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga8c8708cf159e5c190926e0873f4055ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2737,7 +2739,7 @@ Passage of the trigger input to the request source can be controlled via a gatin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3397" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3397" bodyend="3407"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3396" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3396" bodyend="3406"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga7f53b56af0d025239dbbcd80af5a5481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2784,7 +2786,7 @@ Passage of the trigger input to the request source can be controlled via a gatin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1925" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1924" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1924" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga599af86b8424e4e378f20dc1952b4cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2819,7 +2821,7 @@ A conversion request can be raised either upon detection of a hardware trigger, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3470" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3470" bodyend="3474"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3469" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3469" bodyend="3473"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga0fdfbc995a8b763c210c044d2d979814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2854,7 +2856,7 @@ This API will set the request source event for background scan. This will trigge
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3674" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3674" bodyend="3678"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3673" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3673" bodyend="3677"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga2b17cb1350c5d568783f96f721348928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2914,7 +2916,7 @@ Selects which group&apos;s scan request source will control the EMUX interface (
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1762" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1761" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1761" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gae6a4d9c2ba0621bef3d077e899754bd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2961,7 +2963,7 @@ Selects which group&apos;s scan request source will control the EMUX interface (
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1885" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1885" bodyend="1892"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1884" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1884" bodyend="1891"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf5ec0ac1eedfeedd49e8f84e0e1147fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3008,7 +3010,7 @@ Sets up the clock configuration of the VADC module using the config structure po
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1546" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1546" bodyend="1552"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1545" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1545" bodyend="1551"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa02b1286238761c5d6c1a42f552463df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3026,7 +3028,6 @@ Sets up the clock configuration of the VADC module using the config structure po
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -3042,7 +3043,7 @@ This API would gate the clock to the VADC module (if applicable). Also this API 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1429" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1428" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1428" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaeada77d79207d448a245c39960cdc048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3077,7 +3078,7 @@ This API would gate the clock to the VADC module (if applicable). Also this API 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1484" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1484" bodyend="1488"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1483" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1483" bodyend="1487"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga91a285da9e41bf4ef81bec9eef95be57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3128,7 +3129,7 @@ This API would gate the clock to the VADC module (if applicable). Also this API 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1668" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1668" bodyend="1673"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1667" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1667" bodyend="1672"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga3fdc0facec70f34cd38d018caca13141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3163,7 +3164,7 @@ With the sleep feature enabled, the module will respond to sleep requests by goi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1523" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1523" bodyend="1527"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1522" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1522" bodyend="1526"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga8413b5d67494882776c5500b765424d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3198,7 +3199,7 @@ With the sleep feature enabled, the module will respond to sleep requests by goi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1640" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1640" bodyend="1644"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1639" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1639" bodyend="1643"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga9751f6e7d01d01dcd69f939cc7acfc48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3216,7 +3217,6 @@ With the sleep feature enabled, the module will respond to sleep requests by goi
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -3232,7 +3232,7 @@ This API would ungate the clock to the VADC module (if applicable). Also this AP
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1413" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1412" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1412" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga70fe4b872487d7243db7622c3f9b5359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3267,7 +3267,7 @@ This API would ungate the clock to the VADC module (if applicable). Also this AP
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1464" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1464" bodyend="1468"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1463" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1463" bodyend="1467"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga10affbd1419c11a15022f6cf6cfc1f64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3316,7 +3316,7 @@ This API would ungate the clock to the VADC module (if applicable). Also this AP
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1692" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1692" bodyend="1697"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1691" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1691" bodyend="1696"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga3693d7ff09be4b5594ca160dafb28064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3351,7 +3351,7 @@ It resets the EDIS bit of CLC register for enabling the sleep mode.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1503" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1503" bodyend="1507"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1502" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1502" bodyend="1506"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga2e6a5c936529f8bf35c81f662e5a57c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___v_a_d_c_1ga42e972915a3d2ac3b46847a4d5228c64" kindref="member">XMC_VADC_FAST_COMPARE_t</ref></type>
@@ -3388,7 +3388,7 @@ It resets the EDIS bit of CLC register for enabling the sleep mode.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1843" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1842" column="25" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1842" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga7ae7ddbf6a4e2bc626ada83bcf72b56a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3425,7 +3425,7 @@ It resets the EDIS bit of CLC register for enabling the sleep mode.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1781" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1781" bodyend="1786"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1780" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1780" bodyend="1785"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga13f09c6935ff21f3c034199fd3bfe825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___v_a_d_c_1gadb07d5ea1ef8b662d9550d22944825d4" kindref="member">XMC_VADC_RESULT_SIZE_t</ref></type>
@@ -3461,7 +3461,7 @@ It resets the EDIS bit of CLC register for enabling the sleep mode.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1803" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1803" bodyend="1808"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1802" column="25" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1802" bodyend="1807"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga3a03902554eb8c9ff9fdfb6f3e76dc2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3509,7 +3509,7 @@ It resets the EDIS bit of CLC register for enabling the sleep mode.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1448" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1447" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1447" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga2e65df86680f0bce4057ea37a495445d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3579,7 +3579,7 @@ Sets up the conversion settings for vadc global resource associated with <emphas
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1575" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1574" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1574" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa30f659438385897376765d156118654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3628,7 +3628,7 @@ Initializes Global Result Register with specified settings configured in the <em
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1597" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1597" bodyend="1603"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1596" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1596" bodyend="1602"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gae55dd1c7a50cabe7d188e56e79319dc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3689,7 +3689,7 @@ Range[0 - 4095]</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1720" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1719" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1719" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gac239d3389baab5175eca043b6ac606b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3737,7 +3737,7 @@ Range[0x0 - 0X0FFF]</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1827" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1826" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1826" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf0cebde428e6c88a8285b68449de8f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3797,7 +3797,7 @@ Range[0 - 4095]</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1739" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1738" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1738" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa9738610187d2b11716c5faa07e214c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3844,7 +3844,7 @@ Range[0 - 4095]</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1908" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1907" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1907" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga5a6f38a564aefe7665c4df7c609aa1e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3893,7 +3893,7 @@ Configures the SHS_LOOP.LPENx bit field.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2266" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2266" bodyend="2276"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2265" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2265" bodyend="2275"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga9d9cbddc95a0d8ed1d8e3b9520bcc0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3942,7 +3942,7 @@ Configures the SHS_LOOP.LPENx bit field.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2242" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2242" bodyend="2251"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2241" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2241" bodyend="2250"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gacbee02fbd290c66b2960df5f6ba18630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3989,7 +3989,7 @@ API would initialize the clock divider configuration, the analog reference selec
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1942" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1941" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1941" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa416263f08801fb2b42aca3ea979d77a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -4024,7 +4024,7 @@ Returns the ANRDY bit field of the SHSCFG register.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2005" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2005" bodyend="2010"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2004" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2004" bodyend="2009"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga3687cc7be37530b4b27d920bf7c817ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4069,7 +4069,7 @@ Returns the ANRDY bit field of the SHSCFG register.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1956" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1956" bodyend="1963"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1955" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1955" bodyend="1962"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gac97ed253a1995c6a76a03653d267e130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4117,7 +4117,7 @@ API would initialize the clock divider configuration. This determines the freque
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2082" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2082" bodyend="2091"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2081" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2081" bodyend="2090"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga877757ed311cfa96c56fd5f18448fac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4188,7 +4188,7 @@ API would set the gain factor for a selected channel.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2108" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2107" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2107" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gace104f134291b019923842a26872d805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4260,7 +4260,7 @@ There are 2 Delta-Sigma loops that can be configured. This API would configure t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2224" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2223" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2223" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga8c267fe37fbdf8654d14f46acf2d3b86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4297,7 +4297,7 @@ There are 2 Delta-Sigma loops that can be configured. This API would configure t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1622" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1621" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="1621" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa4880cd1755d46ad1b0bd775d4e0ac49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4344,7 +4344,7 @@ There are 2 Delta-Sigma loops that can be configured. This API would configure t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1861" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1861" bodyend="1868"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1860" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1860" bodyend="1867"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf2c5118b682ff5c4820400ea362b3cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4394,7 +4394,7 @@ Sometimes, the rate of consumption of results by application software may not ma
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4700" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4699" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4699" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga3058d26882687fd994756615eb7b5b3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4430,7 +4430,7 @@ If the Background request source must have its conversion request considered by 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3316" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3316" bodyend="3320"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3315" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3315" bodyend="3319"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga63f7baff861c509eeb73f7794eff890a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4466,7 +4466,7 @@ If the Background request source must have its conversion request considered by 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3294" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3294" bodyend="3298"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3293" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3293" bodyend="3297"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga76846cba41d6ea170992e6b5ea61d957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4514,7 +4514,7 @@ When a channel event is raised after the conversion of that channel, it has to b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4572" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4572" bodyend="4578"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4571" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4571" bodyend="4577"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga0a71564a0703f2d0e4d3bbb329c76e29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4549,7 +4549,7 @@ The return is merely the channel events which are asserted. A call to this API w
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4550" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4550" bodyend="4554"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4549" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4549" bodyend="4553"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gad554f725ef92cbbdf78d96af43e764b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___v_a_d_c_1ga0da7a93877a25398b4e70482b85acd03" kindref="member">XMC_VADC_CHANNEL_CONV_t</ref></type>
@@ -4597,7 +4597,7 @@ The sampling time and resolution can be taken from any of the 4 possible Input c
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4488" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4488" bodyend="4497"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4487" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4487" bodyend="4496"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gabe045650b5b6d51b47f88bc49843ff47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___v_a_d_c_1ga5db9760a1339267ae158e21ee3047859" kindref="member">XMC_VADC_RESULT_ALIGN_t</ref></type>
@@ -4645,7 +4645,7 @@ The results are aligned either to the left or to the right. A left aligned 10bit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4460" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4460" bodyend="4469"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4459" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4459" bodyend="4468"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gae5c0071a3d6728dad1f4ddcb06f6bed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -4694,7 +4694,7 @@ Range: [0x0 to 0xF]</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4517" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4516" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4516" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga88e0f4deb5ddd8a85c786a6291327fa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4754,7 +4754,7 @@ This API will do the channel related initializations. This includes configuratio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4296" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4295" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4295" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf864b20c64882d1c78712892dbeae965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -4802,7 +4802,7 @@ An application may not necessarily always need to know the exact value of the co
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4379" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4378" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4378" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga0bb0fea79161f556b09b65f3a5a5ce16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4874,7 +4874,7 @@ The channel event can be generated under the following conditions - Always, Neve
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4641" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4640" column="7" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4640" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga8b2d0baaf1e9113c61ef28c7d45e9feb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4935,7 +4935,7 @@ The channel event is connected to a service request line. For an event to result
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4597" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4596" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4596" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga285cba68d20e2b60001fcf3e727d54d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4995,7 +4995,7 @@ It configures the channel to have a particular conversion class properties like 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4438" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4437" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4437" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga02ef37668d4c2692d73b9b028202a923" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5055,7 +5055,7 @@ An internal voltage reference (VARef) or an external voltage reference fed to Ch
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4397" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4396" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4396" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga6db93a7e9cdeb07b7e9ef1d2f34defd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5115,7 +5115,7 @@ There are upto 16 result registers which a channel can choose from to store the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4417" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4416" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4416" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga495788bc643c2c9d51444edddcb0d3cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5163,7 +5163,7 @@ It is merely the channel event which is asserted. For this asserted event to lea
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4535" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4534" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4534" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga2a6ebe138cbedaba37f2333ccfb068a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5226,7 +5226,7 @@ The channel event can be generated under the following conditions - Always, Neve
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4618" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4617" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4617" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga22b85c7c9fc777c05d74f1ae2a7cc9ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5275,7 +5275,7 @@ This API would read the <bold>slave_group</bold> number and determine which EVAL
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2420" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2419" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2419" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf4178ad4431b23112dbc89e8e258bc22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5323,7 +5323,7 @@ When a Result event is raised after the conversion of that associated channel ha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4925" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4925" bodyend="4930"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4924" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4924" bodyend="4929"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga2b5c2e50ccf150e33028b51577c57749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5368,7 +5368,7 @@ When a Result event is raised after the conversion of that associated channel ha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2548" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2547" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2547" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga356e5be65b3abe1ac62e58adfda17529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5416,7 +5416,7 @@ This would just disable the event. It would not alter anything w.r.t the SR line
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4743" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4743" bodyend="4748"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4742" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4742" bodyend="4747"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gadb698bad87dcbc3fdf6ce8d6df1ecbb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5464,7 +5464,7 @@ This would just disable the event. It would not alter anything w.r.t the SR line
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2533" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2532" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2532" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gae1fa1ad973c5ab02b6a6a9ece61e1045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5512,7 +5512,7 @@ Once the results of conversion are available, the result event (which is being e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4720" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4720" bodyend="4726"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4719" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4719" bodyend="4725"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga71ab6e09e78d8cca7fda70210d5d9d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5559,7 +5559,7 @@ Once the results of conversion are available, the result event (which is being e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2643" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2643" bodyend="2662"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2642" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2642" bodyend="2661"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gabb513e8317c33685db6e82c76c81d4ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5593,7 +5593,7 @@ Once the results of conversion are available, the result event (which is being e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2699" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2699" bodyend="2703"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2698" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2698" bodyend="2702"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gab8150d5363128515d90811868cf39b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5628,7 +5628,7 @@ The return is merely the result events which are asserted. A call to this API wo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4903" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4903" bodyend="4907"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4902" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4902" bodyend="4906"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf2c2aa711194c6d8712973744551d76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -5676,7 +5676,7 @@ Range:[0x0, 0x1] </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4351" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4351" bodyend="4358"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4350" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4350" bodyend="4357"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga38c817eb225c4a684c4bbf5495981b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5726,7 +5726,7 @@ The Result register will have information regarding the channel that is requesti
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4769" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4769" bodyend="4774"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4768" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4768" bodyend="4773"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga74c556f6be3e4ad892ad04afedf1f566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___v_a_d_c_1ga42e972915a3d2ac3b46847a4d5228c64" kindref="member">XMC_VADC_FAST_COMPARE_t</ref></type>
@@ -5774,7 +5774,7 @@ This API determines if the input is greater/lower than the preset compare value.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4844" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4843" column="25" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4843" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaee20e2687198c9446da88b963d4a4c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_l_a_s_s__t" kindref="compound">XMC_VADC_GROUP_CLASS_t</ref></type>
@@ -5820,7 +5820,7 @@ This returns the sampling time configuration and resolution configured in the ap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2719" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2719" bodyend="2734"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2718" column="25" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2718" bodyend="2733"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga1b9afae465264f66c1fc05840ce2003a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -5854,7 +5854,7 @@ This returns the sampling time configuration and resolution configured in the ap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2378" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2378" bodyend="2381"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2377" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2377" bodyend="2380"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gad190eca993528847f048cb3791bb1484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___v_a_d_c_1gadb07d5ea1ef8b662d9550d22944825d4" kindref="member">XMC_VADC_RESULT_SIZE_t</ref></type>
@@ -5903,7 +5903,7 @@ This API will only return the result of the conversion and will strip out the ot
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4792" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4792" bodyend="4799"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4791" column="25" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4791" bodyend="4798"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga902952b0e1027e6fecbd5743229f595c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5952,7 +5952,7 @@ The analog converter writes to the head of the FIFO. It is the head of the FIFO 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4989" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4988" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4988" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga233d039edab60b343aa4efef57d79cca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -6001,7 +6001,7 @@ The analog converter writes to the head of the FIFO. It is the head of the FIFO 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4970" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4969" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4969" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf32f0439218c42086d7863d9d8307a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -6038,7 +6038,7 @@ For Synchronized conversion the master&apos;s ready signal configuration must be
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2475" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2475" bodyend="2486"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2474" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2474" bodyend="2485"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga8e04b2a4deb50a629b3e80bcfeafa14d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6087,7 +6087,7 @@ Ignores the readiness of slaves in synchronized conversions.This API would read 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2439" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2438" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2438" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gac147b4cbfd00c81b136425fc8e70215d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6138,7 +6138,7 @@ Ignores the readiness of slaves in synchronized conversions.This API would read 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2300" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2299" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2299" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa7a2bbb2f627f186c23ae8b93ebf34fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6208,7 +6208,7 @@ Ignores the readiness of slaves in synchronized conversions.This API would read 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2322" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2321" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2321" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga8e70ce6dfa38cee7c48004720aac8aeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___v_a_d_c_1ga4effb949346537c7a515c4f2ff542df5" kindref="member">XMC_VADC_GROUP_STATE_t</ref></type>
@@ -6241,7 +6241,7 @@ Ignores the readiness of slaves in synchronized conversions.This API would read 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2563" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2562" column="24" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2562" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga4fb1c3e933690c2e106823950c6fe06d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -6290,7 +6290,7 @@ The analog converter writes to the head of the FIFO. It is the head of the FIFO 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="5008" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="5007" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="5007" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gae1b61fdad9ee903b23e944e787843e46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -6337,7 +6337,7 @@ The analog converter writes to the head of the FIFO. It is the head of the FIFO 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="5025" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="5025" bodyend="5033"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="5024" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="5024" bodyend="5032"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga9bfd983c7c4dc403ed40eabe3920c9db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6374,7 +6374,7 @@ This API will flush the queue buffer. Ongoing conversion of the Queue request so
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4041" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4040" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4040" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga165449401f44c76bafa98f119569ffdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6410,7 +6410,7 @@ This API will clear the request source event that occurred. This will clear a in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4188" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4188" bodyend="4192"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4187" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4187" bodyend="4191"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa8d19efeb6b04913e91406eaccff72ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6446,7 +6446,7 @@ If the QUEUE request source must have its conversion request considered by the a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3864" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3864" bodyend="3868"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3863" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3863" bodyend="3867"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gacdb123380f2ec61225fd8c7ed70c4c8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6481,7 +6481,7 @@ If the QUEUE request source must have its conversion request considered by the a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4268" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4268" bodyend="4273"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4267" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4267" bodyend="4272"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaf3c728f97550bccd474f79befc017365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6517,7 +6517,7 @@ If the QUEUE request source must have its conversion request considered by the a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3843" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3843" bodyend="3847"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3842" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3842" bodyend="3846"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga67769f0c1fba40f3fdd1026936ed50b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6554,7 +6554,7 @@ By using this API the trigger will be activated for the queue request source. Th
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4246" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4246" bodyend="4251"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4245" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4245" bodyend="4250"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gac49297c2076517f3b435504f871ba59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6591,7 +6591,7 @@ This API will flush one entry in the queue buffer. Ongoing conversion of the Que
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4058" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4058" bodyend="4067"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4057" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4057" bodyend="4066"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga8ed5e69a5c33fd5b3acea763bdf957b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -6627,7 +6627,7 @@ When using cancel inject repeat mode the canceled conversion will be placed in t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4153" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4152" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4152" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gab733f165ccdd37704dc50f5ec5801134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -6664,7 +6664,7 @@ This API will return the queue buffer size. This buffer will be consisting of va
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4024" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4023" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4023" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga305e60b302a668a2d2c35b96208cdea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -6702,7 +6702,7 @@ Identifies the channel in the queue lined up for conversion next. API will retur
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4133" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4132" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4132" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaaf5dae90963d3decfcc07d961b2cfdaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -6736,7 +6736,7 @@ Identifies the channel in the queue lined up for conversion next. API will retur
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4208" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4208" bodyend="4213"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4207" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4207" bodyend="4212"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga881c16d2f992825869d02005d91ddc09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6787,7 +6787,7 @@ The QUEUE request source functional block converts channels stored in a queue. T
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3826" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3825" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3825" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga26dff19d499748825e53019d060a675a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6835,7 +6835,7 @@ This API will insert a new channel into the queue buffer. The Queue will start c
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4107" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4107" bodyend="4113"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4106" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4106" bodyend="4112"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga1f715d0acda4b3b07a33bb7b907ddae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -6872,7 +6872,7 @@ If the queue request source must have its conversion request considered by the a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3886" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3886" bodyend="3891"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3885" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3885" bodyend="3890"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga19b2912cd17132e6a10f818023fa0745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6908,7 +6908,7 @@ A queue entry lined up for conversion can be removed and replaced by its success
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4087" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4086" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4086" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga1962d86a697f244d19a4127580efd099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6956,7 +6956,7 @@ Passage of the trigger input to the request source can be controlled via a gatin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3948" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3947" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3947" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga921d0b59c5a88d92bdc7017d7be2765f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7005,7 +7005,7 @@ A queue request source will raise conversion request only if there were either a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3910" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3909" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3909" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gac969fb0698f7ecf7a1a177ee4bcd4654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7054,7 +7054,7 @@ A queue request source will raise conversion request only if there were either a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3930" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3929" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3929" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaaf9874010e5073415ab846b4ef46955e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7101,7 +7101,7 @@ Passage of the trigger input to the request source can be controlled via a gatin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3966" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3966" bodyend="3975"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3965" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3965" bodyend="3974"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gabf8bc9e2f7207523e5fb6d6b360ea663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7148,7 +7148,7 @@ This API will connect a Service Request line(SR) to a queue request source event
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4230" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4229" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4229" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gabf7bf44150a8541ab60d12889f367053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7194,7 +7194,7 @@ If a H/W Trigger is selected while loading the entry, the conversion will occur 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4001" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4001" bodyend="4005"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4000" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4000" bodyend="4004"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga51bc955e0976c66affb8b660261cdf82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7230,7 +7230,7 @@ This API will set the request source event for queue. This will trigger a interr
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4169" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4169" bodyend="4173"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4168" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4168" bodyend="4172"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga1a5f41454d3e42d5505db9e3acf5177f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7292,7 +7292,7 @@ Range: [0x0 to 0xF] </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4667" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4667" bodyend="4674"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4666" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4666" bodyend="4673"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gab72f743031df5ebe062fe8a28275888b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7341,7 +7341,7 @@ Call this API to insert a new single channel into the scan request source. This 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3003" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3003" bodyend="3009"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3002" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3002" bodyend="3008"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga51f598fc7306207185177af62858ac65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7390,7 +7390,7 @@ Call this API to insert a multiple channels into the scan request source. This w
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3030" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3030" bodyend="3034"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3029" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3029" bodyend="3033"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga02dca0332550c23db82bbdd3750d5670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7426,7 +7426,7 @@ This API will clear the request source event that occurred. This will clear a in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3113" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3113" bodyend="3117"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3112" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3112" bodyend="3116"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga4d1f77cf454d509dfaff575717a8693f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7462,7 +7462,7 @@ If the scan request source must have its conversion request considered by the ar
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2794" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2794" bodyend="2798"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2793" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2793" bodyend="2797"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga1aa7cb076e7e2b56f330d0bb14645494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7498,7 +7498,7 @@ Typically for a scan request source to generate conversion request, either a har
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2944" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2944" bodyend="2948"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2943" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2943" bodyend="2947"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa3fdc34d89a6fb9e3875cb30f68488c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7534,7 +7534,7 @@ Typically for a scan request source to generate conversion request, either a har
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3251" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3251" bodyend="3256"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3250" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3250" bodyend="3255"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga7a558bd413ed6540b84d350728d57eec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7569,7 +7569,7 @@ Typically for a scan request source to generate conversion request, either a har
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3192" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3192" bodyend="3197"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3191" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3191" bodyend="3196"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga916530591113892be436af6238ead6ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7605,7 +7605,7 @@ If the scan request source must have its conversion request considered by the ar
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2773" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2773" bodyend="2777"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2772" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2772" bodyend="2776"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga4fa59213861735578dff28c02d961120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7641,7 +7641,7 @@ Typically for a scan request source to generate conversion request, either a har
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2921" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2921" bodyend="2925"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2920" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2920" bodyend="2924"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga65fcf00d15dcacbe46cbc9bcd06bdf8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7677,7 +7677,7 @@ Typically for a scan request source to generate conversion request, either a har
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3230" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3230" bodyend="3235"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3229" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3229" bodyend="3234"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa08eef43607d1b9a39aaab3fae84e7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7714,7 +7714,7 @@ By using this API, the trigger signal will be activated for the scan request sou
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3170" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3170" bodyend="3175"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3169" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3169" bodyend="3174"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga723bda6902bb2b8b0641a0e60b1da61a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -7752,7 +7752,7 @@ This API will read the pending channels register and will return the number of c
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3078" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3077" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3077" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gad08132ae30e2e73e5f71d2fb5b3b1c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -7786,7 +7786,7 @@ This API will read the pending channels register and will return the number of c
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3133" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3133" bodyend="3137"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3132" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3132" bodyend="3136"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga0baf952034feb3eaa81736e9761cf48f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7837,7 +7837,7 @@ The GROUP SCAN request source functional block converts channels sequentially st
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2756" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2755" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2755" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa0cc3b32dac68d975d7ab1b0ecfb81f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -7874,7 +7874,7 @@ If the scan request source must have its conversion request considered by the ar
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2815" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2815" bodyend="2820"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2814" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2814" bodyend="2819"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga4ea5f62893afbb468820cb612f09e3d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -7923,7 +7923,7 @@ This API will check if the Channel in question is awaiting conversion in the cur
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3053" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3053" bodyend="3060"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3052" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3052" bodyend="3059"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga96c47634e7fcc9e50f4212e31a533dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7969,7 +7969,7 @@ This API will check if the Channel in question is awaiting conversion in the cur
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3214" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3213" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3213" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gab637f1591586c7dfb8593fb394104887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8017,7 +8017,7 @@ Passage of the trigger input to the request source can be controlled via a gatin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2876" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2875" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2875" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga4d29e840f790e5c763c1f00bbcf1e131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8066,7 +8066,7 @@ A scan request source will raise conversion request only if there were either a 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2839" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2838" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2838" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gac4a2232fd93259e95bd4cbb45949edfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8114,7 +8114,7 @@ A scan request source will raise conversion request only if there were either a 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2858" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2857" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2857" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga4963004f5c5f5bfd255b51d79d62e143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8149,7 +8149,7 @@ An ongoing sequence can be aborted at any time. The scan unit picks the pending 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2985" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2984" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2984" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga5db8e4e617a0df8234d948ed26d7d9a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8196,7 +8196,7 @@ Passage of the trigger input to the request source can be controlled via a gatin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2893" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2893" bodyend="2902"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2892" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2892" bodyend="2901"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga3c309bf576995893d65adc4cd362a321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8243,7 +8243,7 @@ This API will connect a Service Request line(SR) to a scan request source event.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3154" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3153" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="3153" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga013308f793d25106e935c6f1bdbd95a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8278,7 +8278,7 @@ A conversion request can be raised either upon detection of a hardware trigger, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2964" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2964" bodyend="2968"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2963" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2963" bodyend="2967"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gacf7d930e6e633e535725c13eaf444afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8313,7 +8313,7 @@ This API will set the request source event for scan. This will trigger a interru
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3094" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3094" bodyend="3098"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="3093" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="3093" bodyend="3097"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga5f2cda270ffbbc2dcf6879d66ddb94b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8374,7 +8374,7 @@ This API will set the request source event for scan. This will trigger a interru
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2586" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2585" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2585" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gad05d956c1ed2061bd737ae62d8a7d29b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8433,7 +8433,7 @@ This API will connect a Service Request line(SR) to a boundary event. Hence to g
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2683" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2682" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2682" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa9a9864939239099c1de61555e12d223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8497,7 +8497,7 @@ When an alias channel (Ch-0 or Ch-1) receives a trigger, it converts the aliased
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4326" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4326" bodyend="4336"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4325" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4325" bodyend="4335"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga4e210b7836e3419b3aab27f3ee3d1bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8556,7 +8556,7 @@ When an alias channel (Ch-0 or Ch-1) receives a trigger, it converts the aliased
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2605" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2604" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2604" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gae435b6b66cac1abc05d17fd17d5caca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8603,7 +8603,7 @@ When an alias channel (Ch-0 or Ch-1) receives a trigger, it converts the aliased
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2363" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2362" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2362" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga151403257b63a3307631979702dee524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8664,7 +8664,7 @@ A channel input can be converted and its value stored in its result register. Al
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4824" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4823" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4823" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga701140b8237cba836cbd4f1cd3393330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8725,7 +8725,7 @@ The result event is connected to a service request line. For an event to result 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4949" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4948" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4948" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gaa938b07f4f1d5ece14be6aec0738752c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8773,7 +8773,7 @@ A channel input can be converted and its value stored in its result register. Al
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4865" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4864" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="4864" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gae1406cd26c69119e3a181b38f9d1fd26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8808,7 +8808,7 @@ Conversion of identically numbered channels across groups can be synchronized. F
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2399" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2398" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2398" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gafcb0c959798ebac91498ac34296dec2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8857,7 +8857,7 @@ For Synchronized conversion the master&apos;s ready signal configuration must be
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2502" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2502" bodyend="2514"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2501" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="2501" bodyend="2513"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gac1469b90543473edcd8bfd1253166cc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8921,7 +8921,7 @@ For Synchronized conversion the master&apos;s ready signal configuration must be
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2347" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2346" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2346" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gafbcf0f992b933cd687968d433abddd4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8982,7 +8982,7 @@ For Synchronized conversion all the slaves participating need to configure the r
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2457" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2456" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2456" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1gadd781581d9749d4f79c9d8a2b6570596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -9030,7 +9030,7 @@ The result event must necessarily be connected to a SR line. The SR in turn must
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4883" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4883" bodyend="4888"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="4882" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="4882" bodyend="4887"/>
       </memberdef>
       <memberdef kind="function" id="group___v_a_d_c_1ga1723512610fb75b8092cab99d15997ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -9089,7 +9089,7 @@ VADC provides few SR lines for each group and a few more which is shared across 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2624" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="2623" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" declline="2623" declcolumn="6"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -9103,11 +9103,11 @@ VADC provides few SR lines for each group and a few more which is shared across 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="309" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="309" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="309" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="308" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___v_a_d_c_1gaa1029170a67be37a74b5ea11ae4fbc03" prot="public" static="no">
         <name>XMC_VADC_NUM_PORTS</name>
-        <initializer>(16U) /* Defines the number of hardware ports that can be configured
+        <initializer>                                                    (16U) /* Defines the number of hardware ports that can be configured
                                                     as triggers and gating signals */</initializer>
         <briefdescription>
         </briefdescription>
@@ -9115,7 +9115,7 @@ VADC provides few SR lines for each group and a few more which is shared across 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="305" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="304" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="305" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="304" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___v_a_d_c_1ga0c4a5522340905e2dcffec38d8f50323" prot="public" static="no">
         <name>XMC_VADC_NUM_RESULT_REGISTERS</name>
@@ -9126,20 +9126,18 @@ VADC provides few SR lines for each group and a few more which is shared across 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="307" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="307" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="307" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="306" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Versatile Analog to Digital Converter (VADC) driver for XMC microcontroller family. </para>
     </briefdescription>
     <detaileddescription>
-<para>The XMC microcontroller provides a series of analog input channels connected to a cluster of Analog/Digital Converters using the Successive Approximation Register (SAR) principle to convert analog input values (voltages) to discrete digital values. The XMC1x is based on Sample &amp; Hold converters, where a cluster contains 2 Sample&amp;Hold units which share a common converter.</para>
-<para>Each converter of the ADC cluster can operate independent of the others, controlled by a dedicated set of registers and triggered by a dedicated group request source. The results of each channel can be stored in a dedicated channel-specific result register or in a group-specific result register.<linebreak/>
+<para>The XMC microcontroller provides a series of analog input channels connected to a cluster of Analog/Digital Converters using the Successive Approximation Register (SAR) principle to convert analog input values (voltages) to discrete digital values. The XMC1x is based on Sample &amp; Hold converters, where a cluster contains 2 Sample&amp;Hold units which share a common converter.  Each converter of the ADC cluster can operate independent of the others, controlled by a dedicated set of registers and triggered by a dedicated group request source. The results of each channel can be stored in a dedicated channel-specific result register or in a group-specific result register.<linebreak/>
 </para>
 <para>The Versatile Analog to Digital Converter module (VADC) of the XMC comprises a set of converter blocks that can be operated either independently or via a common request source that emulates a background converter. Each converter block is equipped with a dedicated input multiplexer and dedicated request sources, which together build separate groups.</para>
 <para><image type="html" name="vadc_overview_xmc1x.png"></image>
-</para>
-<para>The VADC LLD is split into GLOBAL and GROUP related APIs.<linebreak/>
+  The VADC LLD is split into GLOBAL and GROUP related APIs.<linebreak/>
  <bold>GLOBAL: </bold><linebreak/>
  <itemizedlist>
 <listitem>

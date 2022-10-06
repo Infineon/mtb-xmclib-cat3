@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__flash_8h" kind="file" language="C++">
     <compoundname>xmc_flash.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <includes refid="xmc1__flash_8h" local="yes">xmc1_flash.h</includes>
     <incdepgraph>
-      <node id="39">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="38">
+      <node id="1">
         <label>xmc_flash.h</label>
         <link refid="xmc__flash_8h"/>
-        <childnode refid="39" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
@@ -32,7 +32,6 @@
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -40,7 +39,7 @@
 </simplesect>
 <simplesect kind="par"><title>Description:</title><para>Clears the previous error status by reseting the ECC and VERR error status bits of NVMSTATUS register.<linebreak/>
 <linebreak/>
-Call this API before starting any flash programming / erase related APIs to ensure all previous errors are cleared.</para>
+Call this API before starting any flash programming / erase related APIs to ensure all previous errors are cleared.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para>None </para>
 </simplesect>
@@ -48,7 +47,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="127" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="127" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" declline="127" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga162346fadd0c8caacda1738259da404e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -85,7 +84,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="183" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="183" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" declline="183" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga2dae70005cbc3265b504a7232cc72b86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -122,7 +121,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="168" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="168" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" declline="168" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga50275a88263d4fdfb85261d352eac1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -140,7 +139,6 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -148,7 +146,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
 </simplesect>
 <simplesect kind="par"><title>Description:</title><para>Informs the status of flash by reading the NVMSTATUS register.<linebreak/>
 <linebreak/>
- It indicates the ECC, VERR(verification error), WRPERR (Write protocol error) errors as well as the current flash state. After calling the flash read/write/erase operation related APIs, call this API to get the verification status. The return value of this API shall be checked against the members of <ref refid="group___f_l_a_s_h_1gaec69607b9daecffb4215faca73d02ebc" kindref="member">XMC_FLASH_STATUS_t</ref> enumeration to get the relevant status.</para>
+ It indicates the ECC, VERR(verification error), WRPERR (Write protocol error) errors as well as the current flash state. After calling the flash read/write/erase operation related APIs, call this API to get the verification status. The return value of this API shall be checked against the members of <ref refid="group___f_l_a_s_h_1gaec69607b9daecffb4215faca73d02ebc" kindref="member">XMC_FLASH_STATUS_t</ref> enumeration to get the relevant status.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para>None </para>
 </simplesect>
@@ -156,7 +154,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="153" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="153" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" declline="153" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga7d687d0d1d5bdc9173d96c7619172cd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -174,7 +172,6 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -194,7 +191,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="199" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" bodystart="199" bodyend="202"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="199" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" bodystart="199" bodyend="202"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -205,8 +202,8 @@ Call this API before starting any flash programming / erase related APIs to ensu
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="57"><highlight class="preprocessor">#ifndef<sp/>XMC_FLASH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_FLASH_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_FLASH_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
@@ -224,20 +221,20 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="101"><highlight class="comment"><sp/>*<sp/>API<sp/>PROTOTYPE</highlight></codeline>
 <codeline lineno="102"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1gab3972a9f18acaa900499351a4843ff38" kindref="member">XMC_FLASH_ClearStatus</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1gab3972a9f18acaa900499351a4843ff38" kindref="member">XMC_FLASH_ClearStatus</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
 <codeline lineno="153"><highlight class="normal">uint32_t<sp/><ref refid="group___f_l_a_s_h_1ga50275a88263d4fdfb85261d352eac1d5" kindref="member">XMC_FLASH_GetStatus</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga2dae70005cbc3265b504a7232cc72b86" kindref="member">XMC_FLASH_EnableEvent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event_msk);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga2dae70005cbc3265b504a7232cc72b86" kindref="member">XMC_FLASH_EnableEvent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event_msk);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga162346fadd0c8caacda1738259da404e" kindref="member">XMC_FLASH_DisableEvent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event_msk);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga162346fadd0c8caacda1738259da404e" kindref="member">XMC_FLASH_DisableEvent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event_msk);</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
 <codeline lineno="199"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___f_l_a_s_h_1ga7d687d0d1d5bdc9173d96c7619172cd8" kindref="member">XMC_FLASH_IsBusy</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="200"><highlight class="normal">{</highlight></codeline>
@@ -248,9 +245,9 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <codeline lineno="205"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h"/>
   </compounddef>
 </doxygen>

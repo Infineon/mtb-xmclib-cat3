@@ -391,7 +391,7 @@ typedef enum XMC_CCU8_SLICE_STATUS
   XMC_CCU8_SLICE_STATUS_CHANNEL_2,             /**< Channel-2 status connected to Slice Status */
   XMC_CCU8_SLICE_STATUS_CHANNEL_1_AND_2, /**< \b Wired \b AND of Channel-1 and Channel-2 status connected to
                                                     Slice status */
-#if ((UC_SERIES == XMC13) || (UC_SERIES == XMC14)) || defined(DOXYGEN)
+#if ((UC_SERIES == XMC13) || (UC_SERIES == XMC14)) || defined(DOXYGEN_XMC1)
   XMC_CCU8_SLICE_STATUS_CHANNEL_1_OR_2         /**< \b Wired \b OR of Channel-1 and Channel-2 status connected to Slice
                                                     status. @note Only available for XMC1300 and XMC1400 series */
 #endif
@@ -628,7 +628,7 @@ typedef enum XMC_CCU8_SHADOW_TRANSFER
 #if (UC_SERIES != XMC45) || defined(DOXYGEN)
 /**
  *  Slice shadow transfer mode options.
- * @note Not available for XMC4500 series
+ * \if XMC4 @note Not available for XMC4500 series \endif
  */
 typedef enum XMC_CCU8_SLICE_SHADOW_TRANSFER_MODE
 {
@@ -639,7 +639,7 @@ typedef enum XMC_CCU8_SLICE_SHADOW_TRANSFER_MODE
 } XMC_CCU8_SLICE_SHADOW_TRANSFER_MODE_t;
 #endif
 
-#if defined(CCU8V3) || defined(DOXYGEN) /* Defined for XMC1400 devices only */
+#if defined(CCU8V3) || defined(DOXYGEN_XMC1) /* Defined for XMC1400 devices only */
 /**
  *  Output sources for OUTy0 signal
  * @note Only available for XMC1400 series
@@ -1724,7 +1724,7 @@ void XMC_CCU8_SLICE_Capture1Config(XMC_CCU8_SLICE_t *const slice, const XMC_CCU8
  * Individual capture registers can still be accessed in this mode.
  *
  * \par<b>Related APIs:</b><br>
- *  XMC_CCU8_GetCapturedValueFromFifo().
+ *  \if XMC4 XMC_CCU8_GetCapturedValueFromFifo()<BR> \endif XMC_CCU8_SLICE_GetCapturedValueFromFifo().
  */
 __STATIC_INLINE bool XMC_CCU8_SLICE_IsExtendedCapReadEnabled(const XMC_CCU8_SLICE_t *const slice)
 {
@@ -1732,7 +1732,7 @@ __STATIC_INLINE bool XMC_CCU8_SLICE_IsExtendedCapReadEnabled(const XMC_CCU8_SLIC
   return ((bool)((slice->TC & (uint32_t) CCU8_CC8_TC_ECM_Msk) == (uint32_t)CCU8_CC8_TC_ECM_Msk));
 }
 
-#if defined(CCU8V1) /* Defined for XMC4800, XMC4700, XMC4500, XMC4400, XMC4200, XMC4100 devices only */
+#if defined(CCU8V1) || defined(DOXYGEN_XMC4) /* Defined for XMC4500, XMC4400, XMC4200, XMC4100 devices only */
 /**
  * @param module Constant pointer to CCU8 module
  * @param slice_number to check whether read value belongs to required slice or not
@@ -1750,9 +1750,12 @@ __STATIC_INLINE bool XMC_CCU8_SLICE_IsExtendedCapReadEnabled(const XMC_CCU8_SLIC
  *
  * \par<b>Related APIs:</b><br>
  *  XMC_CCU8_SLICE_IsExtendedCapReadEnabled().
+ *  @note Only available for XMC4500, XMC4400, XMC4200, XMC4100 series. For other devices use XMC_CCU8_SLICE_GetCapturedValueFromFifo() API.
  */
 int32_t XMC_CCU8_GetCapturedValueFromFifo(const XMC_CCU8_MODULE_t *const module, const uint8_t slice_number);
-#else
+#endif
+
+#if defined(CCU8V2) || defined(CCU8V3) || defined(DOXYGEN) /* Defined for XMC4800, XMC4700, XMC4300, XMC1400, XMC1300 devices only */
 /**
  * @param slice Constant pointer to CC8 Slice
  * @param set The capture register set from which the captured value is to be retrieved
@@ -1769,7 +1772,7 @@ int32_t XMC_CCU8_GetCapturedValueFromFifo(const XMC_CCU8_MODULE_t *const module,
  *
  * \par<b>Related APIs:</b><br>
  *  XMC_CCU8_SLICE_IsExtendedCapReadEnabled().
- * @note Defined for XMC4800, XMC4700, XMC4500, XMC4400, XMC4200, XMC4100 devices only. For other devices use XMC_CCU8_GetCapturedValueFromFifo() API
+ * \if XMC4 @note Only available for XMC4800, XMC4700, XMC4300 series. For other devices use XMC_CCU8_GetCapturedValueFromFifo() API. \endif
  */
 uint32_t XMC_CCU8_SLICE_GetCapturedValueFromFifo(const XMC_CCU8_SLICE_t *const slice,
     const XMC_CCU8_SLICE_CAP_REG_SET_t set);
@@ -3063,7 +3066,7 @@ void XMC_CCU8_SLICE_ConfigureStatusBitOutput(XMC_CCU8_SLICE_t *const slice, cons
  *
  * \par<b>Related APIs:</b><br>
  *  XMC_CCU8_EnableShadowTransfer(), XMC_CCU8_SLICE_DisableCascadedShadowTransfer()<BR>.
- * @note Not available for XMC4500 series
+ * \if XMC4 @note Not available for XMC4500 series \endif
  */
 __STATIC_INLINE void XMC_CCU8_SLICE_EnableCascadedShadowTransfer(XMC_CCU8_SLICE_t *const slice)
 {
@@ -3084,7 +3087,7 @@ __STATIC_INLINE void XMC_CCU8_SLICE_EnableCascadedShadowTransfer(XMC_CCU8_SLICE_
  *
  * \par<b>Related APIs:</b><br>
  *  XMC_CCU8_SLICE_EnableCascadedShadowTransfer()<BR>.
- * @note Not available for XMC4500 series
+ * \if XMC4 @note Not available for XMC4500 series \endif
  */
 __STATIC_INLINE void XMC_CCU8_SLICE_DisableCascadedShadowTransfer(XMC_CCU8_SLICE_t *const slice)
 {
@@ -3110,7 +3113,7 @@ __STATIC_INLINE void XMC_CCU8_SLICE_DisableCascadedShadowTransfer(XMC_CCU8_SLICE
  *
  * \par<b>Related APIs:</b><br>
  * XMC_CCU8_EnableShadowTransfer()<BR>
- * @note Not available for XMC4500 series
+ * \if XMC4 @note Not available for XMC4500 series \endif
  */
 __STATIC_INLINE void XMC_CCU8_SLICE_SetShadowTransferMode(XMC_CCU8_SLICE_t *const slice,
     const XMC_CCU8_SLICE_SHADOW_TRANSFER_MODE_t shadow_transfer_mode)
@@ -3121,7 +3124,7 @@ __STATIC_INLINE void XMC_CCU8_SLICE_SetShadowTransferMode(XMC_CCU8_SLICE_t *cons
 }
 #endif
 
-#if defined(CCU8V3) || defined(DOXYGEN)/* Defined for XMC1400 devices only */
+#if defined(CCU8V3) || defined(DOXYGEN_XMC1)/* Defined for XMC1400 devices only */
 /**
 * @param slice Constant pointer to CC8 Slice
 * @param immediate_write specifies for what fields this mode has to be applied
@@ -3187,6 +3190,7 @@ __STATIC_INLINE void XMC_CCU8_SLICE_WriteCoherentlyWithPWMCycle(XMC_CCU8_SLICE_t
 *
 * By updating the configured shadow register, the shadow transfer request is generated to update all the shadow registers.
 * \par<b>Note:</b><br>
+* Automatic shadow transfer feature does not work when system PCLK is faster than MCLK.
 *
 * \par<b>Related APIs:</b><br>
 *  XMC_CCU8_SLICE_DisableAutomaticShadowTransferRequest().

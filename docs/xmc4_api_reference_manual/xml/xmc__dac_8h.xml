@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__dac_8h" kind="file" language="C++">
     <compoundname>xmc_dac.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <incdepgraph>
-      <node id="30">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="29">
+      <node id="1">
         <label>xmc_dac.h</label>
         <link refid="xmc__dac_8h"/>
-        <childnode refid="30" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___d_a_c___c_h___c_o_n_f_i_g__t" prot="public">XMC_DAC_CH_CONFIG_t</innerclass>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="116" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="116" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="116" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gab813b33cdf9d40f046283a1b4e6feea4" prot="public" static="no">
         <name>XMC_DAC_DACCFG_NEGATE_Msk</name>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="118" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="118" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="118" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga66217cfe3a783cdb0103e0ad86817e5f" prot="public" static="no">
         <name>XMC_DAC_IS_CHANNEL_VALID</name>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="127" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="127" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="127" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga2ea47447513a439b8cb61098456eff23" prot="public" static="no">
         <name>XMC_DAC_IS_DAC_VALID</name>
@@ -62,12 +62,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="126" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="126" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="126" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga999b18a418cf42fc5306d9bdd3460dc7" prot="public" static="no">
         <name>XMC_DAC_IS_MODE_VALID</name>
         <param><defname>MODE</defname></param>
-        <initializer>((MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2cab60cc89d056f1e994f95e5cf0ab3ee3f" kindref="member">XMC_DAC_CH_MODE_IDLE</ref>) ||\
+        <initializer>                                              ((MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2cab60cc89d056f1e994f95e5cf0ab3ee3f" kindref="member">XMC_DAC_CH_MODE_IDLE</ref>) ||\
                                               (MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2caebed4f6d5058ad45ab0a93322898a102" kindref="member">XMC_DAC_CH_MODE_SINGLE</ref>) ||\
                                               (MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2ca9dae61c469e47cd75be8a9e9689d8393" kindref="member">XMC_DAC_CH_MODE_DATA</ref>) ||\
                                               (MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2ca00245fd95505e05d1c3cc6670265fef0" kindref="member">XMC_DAC_CH_MODE_PATTERN</ref>) ||\
@@ -79,12 +79,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="137" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="137" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="137" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gaf4b72f33f37ade76e586364d47542bee" prot="public" static="no">
         <name>XMC_DAC_IS_OUTPUT_SCALE_VALID</name>
         <param><defname>SCALE</defname></param>
-        <initializer>((SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007ae98552d53e632106ecf1ce567b570a47" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_NONE</ref>) ||\
+        <initializer>                                              ((SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007ae98552d53e632106ecf1ce567b570a47" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_NONE</ref>) ||\
                                               (SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007a01ebb295f7321fddbaa3ec0a969bdad6" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_MUL_2</ref>) ||\
                                               (SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007a7e8a6467c766097010ce1c173715dbc8" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_MUL_4</ref>) ||\
                                               (SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007aae6733f0486d9c306e749f222ef32e86" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_MUL_8</ref>) ||\
@@ -105,12 +105,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="143" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="143" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="143" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gada64ad16bfc8f312f56378244d2a1344" prot="public" static="no">
         <name>XMC_DAC_IS_TRIGGER_VALID</name>
         <param><defname>TRIGGER</defname></param>
-        <initializer>((TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaaf3c5c5c663d068867d11158e19e0c6e2" kindref="member">XMC_DAC_CH_TRIGGER_INTERNAL</ref>) ||\
+        <initializer>                                              ((TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaaf3c5c5c663d068867d11158e19e0c6e2" kindref="member">XMC_DAC_CH_TRIGGER_INTERNAL</ref>) ||\
                                               (TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaae8546e01f01037086fe41be6aeb3a07a" kindref="member">XMC_DAC_CH_TRIGGER_EXTERNAL_CCU80_SR1</ref>) ||\
                                               (TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaaa13dab51ee1d83ec23cfbe90deed07cb" kindref="member">XMC_DAC_CH_TRIGGER_EXTERNAL_CCU40_SR1</ref>) ||\
                                               (TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaa333a073d7997ad313e648b396c6fdbea" kindref="member">XMC_DAC_CH_TRIGGER_EXTERNAL_CCU41_SR1</ref>) ||\
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="128" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="128" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="128" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gaca090211fa47a1235a81308382f7241c" prot="public" static="no">
         <name>XMC_DAC_NO_CHANNELS</name>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="119" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="119" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga98fe05010708becbd4f109ccee7088b3" prot="public" static="no">
         <name>XMC_DAC_PATTERN_RECTANGLE</name>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="124" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="124" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="124" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga13c819b94bc1c769a4c879825accd83d" prot="public" static="no">
         <name>XMC_DAC_PATTERN_SINE</name>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="123" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gacb2705c3a364d91468f4a4f47f7d5145" prot="public" static="no">
         <name>XMC_DAC_PATTERN_TRIANGLE</name>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="122" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="122" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="122" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gaed680bf1e0aacea27ca505c00822eef9" prot="public" static="no">
         <name>XMC_DAC_SAMPLES_PER_PERIOD</name>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="120" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="120" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="120" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="219" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="218" bodyend="222"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="218" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="219" bodyend="222"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1gab145218c4b905bdd94c85811b8ec7a2c" prot="public" static="no" strong="no">
         <type></type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="180" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="179" bodyend="188"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="179" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="180" bodyend="188"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1gaf5e272a25affac666157d497783ccb2b" prot="public" static="no" strong="no">
         <type></type>
@@ -313,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="265" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="264" bodyend="268"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="264" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="265" bodyend="268"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1ga9372c99ba8d8daa984786b8f042d4007" prot="public" static="no" strong="no">
         <type></type>
@@ -475,7 +475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="228" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="227" bodyend="259"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="227" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="228" bodyend="259"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1gaf1e4fb1ca9c2bad0de893feee98e6228" prot="public" static="no" strong="no">
         <type></type>
@@ -505,7 +505,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="274" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="273" bodyend="277"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="273" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="274" bodyend="277"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" prot="public" static="no" strong="no">
         <type></type>
@@ -552,7 +552,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Frequency can&apos;t be configured. Frequency is to high. </para>
+<para>Frequency can&apos;t be configured. Frequency is to high. <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -562,7 +563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="168" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="167" bodyend="174"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="167" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="168" bodyend="174"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1ga9176e4c7b167ec22b5673e05ade18eba" prot="public" static="no" strong="no">
         <type></type>
@@ -664,7 +665,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="194" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="193" bodyend="213"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="193" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="194" bodyend="213"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -714,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1147" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1147" bodyend="1153"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1147" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1147" bodyend="1153"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gac8fe5610029750fe602088229eb3337c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -764,7 +765,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="543" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="543" bodyend="549"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="543" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="543" bodyend="549"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga901c74dfd9e06a0bdb4ead0d87bb4f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -814,7 +815,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1281" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1281" bodyend="1287"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1281" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1281" bodyend="1287"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga1b40c57534700d37e8b70c2ea2f2eea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -866,7 +867,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="792" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="792" bodyend="799"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="792" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="792" bodyend="799"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gac2e2a705070f03534b1b91ea873b0aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -917,7 +918,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1126" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1126" bodyend="1132"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1126" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1126" bodyend="1132"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gaf3fe5631a70e40f4d25c473b553ed5af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -967,7 +968,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="519" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="519" bodyend="525"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="519" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="519" bodyend="525"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga8bf98abf89180297539722636ed9d51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1017,7 +1018,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1256" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1256" bodyend="1262"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1256" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1256" bodyend="1262"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga973af2e272600c5eeb163ee83579c738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1069,7 +1070,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="764" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="764" bodyend="771"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="764" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="764" bodyend="771"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga08350c8116ed004dd36f5ba0902df12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga9372c99ba8d8daa984786b8f042d4007" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_t</ref></type>
@@ -1118,7 +1119,7 @@ Scaling factor is determined by reading bit-fields <emphasis>MULDIV</emphasis> a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1229" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1229" bodyend="1235"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1229" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1229" bodyend="1235"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga3cd25ca6afe7a138dcb5bb42c449db0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1168,7 +1169,7 @@ Scaling factor is determined by reading bit-fields <emphasis>MULDIV</emphasis> a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="846" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="846" bodyend="852"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="846" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="846" bodyend="852"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga5dd54e68ac3b4403aa5ba432f545f02e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1218,7 +1219,7 @@ Scaling factor is determined by reading bit-fields <emphasis>MULDIV</emphasis> a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="900" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="900" bodyend="906"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="900" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="900" bodyend="906"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga94d6569836131b45c58c039fd2fa6a04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1275,7 +1276,7 @@ Scaling factor is determined by reading bit-fields <emphasis>MULDIV</emphasis> a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="500" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="500" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="500" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga200437bd896ff475b50a8aa30aea0b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1327,7 +1328,7 @@ false - if FIFO is not empty</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1333" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1333" bodyend="1339"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1333" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1333" bodyend="1339"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga73e8d8035927fad18c69a6adf9451ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1380,7 +1381,7 @@ false - if FIFO is not full</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1307" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1307" bodyend="1313"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1307" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1307" bodyend="1313"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga18bb5866a5a41077e678ff8c7c6de58c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1433,7 +1434,7 @@ false - if FIFO is not full</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="569" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="569" bodyend="575"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="569" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="569" bodyend="575"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gacdcfe6cd44bef3ebd95f96998604fec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -1497,7 +1498,7 @@ false - if FIFO is not full</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="955" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="955" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="955" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga1774217be659f37d640d13d48816762f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1552,7 +1553,7 @@ false - if FIFO is not full</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1023" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1023" bodyend="1031"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1023" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1023" bodyend="1031"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga1e1f75defe221c0db5b4133ca927e574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1595,7 +1596,6 @@ false - if FIFO is not full</para>
 <parametername>offset</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1618,7 +1618,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1177" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1177" bodyend="1184"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1177" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1177" bodyend="1184"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gabc5544309ce97e7edf14b950e72ffa3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1680,7 +1680,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1204" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1204" bodyend="1212"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1204" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1204" bodyend="1212"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gab3c155e1596241e323a06bd449674410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1742,7 +1742,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="743" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="743" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="743" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga592cefaf4c5cc8e2cd83a1fa5472845d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -1805,9 +1805,9 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; DAC samples per period in pattern mode </para>
+<para>&lt; DAC samples per period in pattern mode</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1001" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1001" bodyend="1009"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1001" column="22" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1001" bodyend="1009"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gabdf995111daf8c4495bf1d2ef2ce58e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -1871,7 +1871,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="978" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="978" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="978" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gaf692f5b60cf4c74192b554ec88254aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1933,7 +1933,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="821" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="821" bodyend="827"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="821" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="821" bodyend="827"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gafe44b3910c68e67808aa372a4c6c86ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1995,7 +1995,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="874" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="874" bodyend="881"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="874" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="874" bodyend="881"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga5b0260c72dc3e2772c589ec48ffd2c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2045,7 +2045,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1050" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1050" bodyend="1056"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1050" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1050" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gac96c41befd18976b555d134013f231c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2102,7 +2102,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="922" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="922" bodyend="930"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="922" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="922" bodyend="930"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gae4aae1cc510efc383a66eb5c9d258769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2152,7 +2152,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1075" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1075" bodyend="1081"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1075" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1075" bodyend="1081"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga9620b8278dcabb391d7cf8b2b69f8311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2202,7 +2202,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1101" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1101" bodyend="1107"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1101" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1101" bodyend="1107"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga34d4edcff18efbc8893148120362a589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2276,7 +2276,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="645" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="645" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="645" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga8cdc0d2ae0c0d3e0ad8ed6babcbd4c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2348,7 +2348,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="720" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="720" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="720" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga9c8c3079b34269e1190e067c34a55f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2444,7 +2444,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="697" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="697" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="697" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga1301e3dd09e47e4e81934de759675230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2542,7 +2542,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="672" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="672" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="672" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga6c8a12197978db3edc3216444faee6b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2592,7 +2592,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="625" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="625" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="625" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga8e3093f1aa4f47b0793ea0e992580040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2656,7 +2656,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="601" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="601" bodyend="607"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="601" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="601" bodyend="607"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga67de176f36749cba8a65ad1b9815f0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2694,7 +2694,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="390" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="390" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="390" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gab9668535a4a093bd1a3eb36cbc474a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2732,7 +2732,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="453" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="453" bodyend="458"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="453" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="453" bodyend="458"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gab97383cd03ebb21046c403c5c835f55c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2771,7 +2771,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="373" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="373" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="373" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga4c81d639c99a26cebaeea3b20947a15c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2811,7 +2811,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="430" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="430" bodyend="435"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="430" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="430" bodyend="435"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gafdcd0136ab6dfc0d98d463136765ab69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2851,7 +2851,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="409" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="409" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="409" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga81b11cead3aaabed68b046d40628f89d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2913,7 +2913,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="478" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="478" bodyend="483"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="478" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="478" bodyend="483"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -2924,8 +2924,8 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="63"><highlight class="preprocessor">#ifndef<sp/>XMC_DAC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_DAC_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
@@ -2938,18 +2938,18 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(DAC)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="113"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="114"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC0<sp/>((XMC_DAC_t<sp/>*)DAC_BASE)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="118"><highlight class="preprocessor">#define<sp/>XMC_DAC_DACCFG_NEGATE_Msk<sp/>(0x10000000UL)<sp/></highlight><highlight class="comment">/*&lt;<sp/>DAC<sp/>negation<sp/>enable<sp/>mask<sp/>in<sp/>XMC44<sp/>device<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_NO_CHANNELS<sp/>(2U)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="120"><highlight class="preprocessor">#define<sp/>XMC_DAC_SAMPLES_PER_PERIOD<sp/>(32U)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="122"><highlight class="preprocessor">#define<sp/>XMC_DAC_PATTERN_TRIANGLE<sp/><sp/>{0U,<sp/>4U,<sp/>8U,<sp/>12U,<sp/>16U,<sp/>19U,<sp/>23U,<sp/>27U,<sp/>31U}<sp/></highlight></codeline>
-<codeline lineno="123"><highlight class="preprocessor">#define<sp/>XMC_DAC_PATTERN_SINE<sp/><sp/><sp/><sp/><sp/><sp/>{0U,<sp/>6U,<sp/>12U,<sp/>17U,<sp/>22U,<sp/>26U,<sp/>29U,<sp/>30U,<sp/>31U}<sp/></highlight></codeline>
-<codeline lineno="124"><highlight class="preprocessor">#define<sp/>XMC_DAC_PATTERN_RECTANGLE<sp/>{31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U}<sp/></highlight></codeline>
-<codeline lineno="126"><highlight class="preprocessor">#define<sp/>XMC_DAC_IS_DAC_VALID(PTR)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((PTR)<sp/>==<sp/>XMC_DAC0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC0<sp/>((XMC_DAC_t<sp/>*)DAC_BASE)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_DACCFG_NEGATE_Msk<sp/>(0x10000000UL)<sp/></highlight><highlight class="comment">/*&lt;<sp/>DAC<sp/>negation<sp/>enable<sp/>mask<sp/>in<sp/>XMC44<sp/>device<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_NO_CHANNELS<sp/>(2U)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_SAMPLES_PER_PERIOD<sp/>(32U)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_PATTERN_TRIANGLE<sp/><sp/>{0U,<sp/>4U,<sp/>8U,<sp/>12U,<sp/>16U,<sp/>19U,<sp/>23U,<sp/>27U,<sp/>31U}<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_PATTERN_SINE<sp/><sp/><sp/><sp/><sp/><sp/>{0U,<sp/>6U,<sp/>12U,<sp/>17U,<sp/>22U,<sp/>26U,<sp/>29U,<sp/>30U,<sp/>31U}<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_PATTERN_RECTANGLE<sp/>{31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U,<sp/>31U}<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_IS_DAC_VALID(PTR)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((PTR)<sp/>==<sp/>XMC_DAC0)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_IS_CHANNEL_VALID(CH)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(CH<sp/>&lt;<sp/>XMC_DAC_NO_CHANNELS)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DAC_IS_TRIGGER_VALID(TRIGGER)<sp/><sp/><sp/><sp/>((TRIGGER<sp/>==<sp/>XMC_DAC_CH_TRIGGER_INTERNAL)<sp/>||\</highlight></codeline>
 <codeline lineno="129"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(TRIGGER<sp/>==<sp/>XMC_DAC_CH_TRIGGER_EXTERNAL_CCU80_SR1)<sp/>||\</highlight></codeline>
@@ -2987,7 +2987,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="161"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="162"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_STATUS</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_STATUS</highlight></codeline>
 <codeline lineno="168"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1gga4e37be380b4227fc103ef44c765f2d4da4143bb37824ebceee0c840d12ed980ef" kindref="member">XMC_DAC_CH_STATUS_OK</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1gga4e37be380b4227fc103ef44c765f2d4dab37b65d8effd30615d9e519bf684e647" kindref="member">XMC_DAC_CH_STATUS_ERROR</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1U,<sp/></highlight></codeline>
@@ -2996,7 +2996,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="173"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1gga4e37be380b4227fc103ef44c765f2d4dabceea708468c56846195fb5a6336527b" kindref="member">XMC_DAC_CH_STATUS_ERROR_FREQ2HIGH</ref><sp/>=<sp/>4U<sp/><sp/></highlight></codeline>
 <codeline lineno="174"><highlight class="normal">}<sp/><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_MODE</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_MODE</highlight></codeline>
 <codeline lineno="180"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2cab60cc89d056f1e994f95e5cf0ab3ee3f" kindref="member">XMC_DAC_CH_MODE_IDLE</ref><sp/><sp/><sp/><sp/>=<sp/>0x0U<sp/>&lt;&lt;<sp/>DAC_DAC0CFG0_MODE_Pos,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2caebed4f6d5058ad45ab0a93322898a102" kindref="member">XMC_DAC_CH_MODE_SINGLE</ref><sp/><sp/>=<sp/>0x1U<sp/>&lt;&lt;<sp/>DAC_DAC0CFG0_MODE_Pos,<sp/><sp/><sp/><sp/></highlight></codeline>
@@ -3006,7 +3006,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2cac6e5937740ac5cc3200c5f590e091fbf" kindref="member">XMC_DAC_CH_MODE_RAMP</ref><sp/><sp/><sp/><sp/>=<sp/>0x5U<sp/>&lt;&lt;<sp/>DAC_DAC0CFG0_MODE_Pos<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="188"><highlight class="normal">}<sp/><ref refid="group___d_a_c_1gab145218c4b905bdd94c85811b8ec7a2c" kindref="member">XMC_DAC_CH_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_TRIGGER</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_TRIGGER</highlight></codeline>
 <codeline lineno="194"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaaf3c5c5c663d068867d11158e19e0c6e2" kindref="member">XMC_DAC_CH_TRIGGER_INTERNAL</ref><sp/>=</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>(0x0U<sp/>&lt;&lt;<sp/>DAC_DAC0CFG1_TRIGMOD_Pos),<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -3028,13 +3028,13 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>(0x2U<sp/>&lt;&lt;<sp/>DAC_DAC0CFG1_TRIGMOD_Pos)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="213"><highlight class="normal">}<sp/><ref refid="group___d_a_c_1ga9176e4c7b167ec22b5673e05ade18eba" kindref="member">XMC_DAC_CH_TRIGGER_t</ref>;</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_DATA_TYPE</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_DATA_TYPE</highlight></codeline>
 <codeline lineno="219"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggabed6dedd39e5a4e8b5b88c780de85ea9a515ff00c5ccd8b9565257a0771347583" kindref="member">XMC_DAC_CH_DATA_TYPE_UNSIGNED</ref><sp/>=<sp/>0U,<sp/><sp/></highlight></codeline>
 <codeline lineno="221"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggabed6dedd39e5a4e8b5b88c780de85ea9a3258da7e193fc755383c480a337037ff" kindref="member">XMC_DAC_CH_DATA_TYPE_SIGNED</ref><sp/>=<sp/>1U<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="222"><highlight class="normal">}<sp/><ref refid="group___d_a_c_1gabed6dedd39e5a4e8b5b88c780de85ea9" kindref="member">XMC_DAC_CH_DATA_TYPE_t</ref>;</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_OUTPUT_SCALE</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_OUTPUT_SCALE</highlight></codeline>
 <codeline lineno="228"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007ae98552d53e632106ecf1ce567b570a47" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_NONE</ref><sp/>=</highlight></codeline>
 <codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>0x0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -3068,13 +3068,13 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>0x7U<sp/>&lt;&lt;<sp/>DAC_DAC0CFG1_SCALE_Pos<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="259"><highlight class="normal">}<sp/><ref refid="group___d_a_c_1ga9372c99ba8d8daa984786b8f042d4007" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_t</ref>;</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="264"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_OUTPUT_NEGATION</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_OUTPUT_NEGATION</highlight></codeline>
 <codeline lineno="265"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggaf5e272a25affac666157d497783ccb2ba356969170b9cf3b7f70fd82d9bfe373a" kindref="member">XMC_DAC_CH_OUTPUT_NEGATION_DISABLED</ref><sp/>=<sp/>0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="267"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggaf5e272a25affac666157d497783ccb2ba42549ee202f4c08f9e638656ae320dbb" kindref="member">XMC_DAC_CH_OUTPUT_NEGATION_ENABLED</ref><sp/>=<sp/>1U<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="268"><highlight class="normal">}<sp/><ref refid="group___d_a_c_1gaf5e272a25affac666157d497783ccb2b" kindref="member">XMC_DAC_CH_OUTPUT_NEGATION_t</ref>;</highlight></codeline>
 <codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_PATTERN_SIGN_OUTPUT</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DAC_CH_PATTERN_SIGN_OUTPUT</highlight></codeline>
 <codeline lineno="274"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggaf1e4fb1ca9c2bad0de893feee98e6228a4ae92975858953559259477d7de9274c" kindref="member">XMC_DAC_CH_PATTERN_SIGN_OUTPUT_DISABLED</ref><sp/>=<sp/>0U,<sp/><sp/></highlight></codeline>
 <codeline lineno="276"><highlight class="normal"><sp/><sp/><ref refid="group___d_a_c_1ggaf1e4fb1ca9c2bad0de893feee98e6228a4735536396880c1868745af9944ad12a" kindref="member">XMC_DAC_CH_PATTERN_SIGN_OUTPUT_ENABLED</ref><sp/>=<sp/>1U<sp/><sp/><sp/><sp/></highlight></codeline>
@@ -3082,8 +3082,8 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="278"><highlight class="normal"></highlight></codeline>
 <codeline lineno="279"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="280"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
-<codeline lineno="281"><highlight class="comment"><sp/>*******************************************************************************/</highlight></codeline>
-<codeline lineno="285" refid="struct_x_m_c___d_a_c__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="struct_x_m_c___d_a_c__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="286"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>ID;</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
@@ -3112,7 +3112,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="311"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="317" refid="struct_x_m_c___d_a_c___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DAC_CH_CONFIG</highlight></codeline>
+<codeline lineno="317" refid="struct_x_m_c___d_a_c___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DAC_CH_CONFIG</highlight></codeline>
 <codeline lineno="318"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="319"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="320"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -3151,11 +3151,11 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="353"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="354"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="355"><highlight class="normal"></highlight></codeline>
-<codeline lineno="373"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1gab97383cd03ebb21046c403c5c835f55c" kindref="member">XMC_DAC_Enable</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac);</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1gab97383cd03ebb21046c403c5c835f55c" kindref="member">XMC_DAC_Enable</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac);</highlight></codeline>
 <codeline lineno="374"><highlight class="normal"></highlight></codeline>
-<codeline lineno="390"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1ga67de176f36749cba8a65ad1b9815f0dd" kindref="member">XMC_DAC_Disable</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1ga67de176f36749cba8a65ad1b9815f0dd" kindref="member">XMC_DAC_Disable</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac);</highlight></codeline>
 <codeline lineno="391"><highlight class="normal"></highlight></codeline>
-<codeline lineno="409"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1gafdcd0136ab6dfc0d98d463136765ab69" kindref="member">XMC_DAC_IsEnabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac);</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1gafdcd0136ab6dfc0d98d463136765ab69" kindref="member">XMC_DAC_IsEnabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac);</highlight></codeline>
 <codeline lineno="410"><highlight class="normal"></highlight></codeline>
 <codeline lineno="430"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1ga4c81d639c99a26cebaeea3b20947a15c" kindref="member">XMC_DAC_EnableSimultaneousDataMode</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac)</highlight></codeline>
 <codeline lineno="431"><highlight class="normal">{</highlight></codeline>
@@ -3178,7 +3178,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="482"><highlight class="normal"><sp/><sp/>dac-&gt;DAC01DATA<sp/>=<sp/>(data0<sp/>&lt;&lt;<sp/>DAC_DAC01DATA_DATA0_Pos)<sp/>|<sp/>(data1<sp/>&lt;&lt;<sp/>DAC_DAC01DATA_DATA1_Pos);</highlight></codeline>
 <codeline lineno="483"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="484"><highlight class="normal"></highlight></codeline>
-<codeline lineno="500"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1ga94d6569836131b45c58c039fd2fa6a04" kindref="member">XMC_DAC_CH_Init</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___d_a_c___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_DAC_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1ga94d6569836131b45c58c039fd2fa6a04" kindref="member">XMC_DAC_CH_Init</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___d_a_c___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_DAC_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="501"><highlight class="normal"></highlight></codeline>
 <codeline lineno="519"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1gaf3fe5631a70e40f4d25c473b553ed5af" kindref="member">XMC_DAC_CH_EnableOutput</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
 <codeline lineno="520"><highlight class="normal">{</highlight></codeline>
@@ -3238,7 +3238,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="722"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1ga9176e4c7b167ec22b5673e05ade18eba" kindref="member">XMC_DAC_CH_TRIGGER_t</ref><sp/>trigger,</highlight></codeline>
 <codeline lineno="723"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>frequency);</highlight></codeline>
 <codeline lineno="724"><highlight class="normal"></highlight></codeline>
-<codeline lineno="743"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1gab3c155e1596241e323a06bd449674410" kindref="member">XMC_DAC_CH_SetPattern</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>pattern);</highlight></codeline>
+<codeline lineno="743"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1gab3c155e1596241e323a06bd449674410" kindref="member">XMC_DAC_CH_SetPattern</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>pattern);</highlight></codeline>
 <codeline lineno="744"><highlight class="normal"></highlight></codeline>
 <codeline lineno="764"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_a_c_1ga973af2e272600c5eeb163ee83579c738" kindref="member">XMC_DAC_CH_EnablePatternSignOutput</ref>(<ref refid="struct_x_m_c___d_a_c__t" kindref="compound">XMC_DAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dac,</highlight></codeline>
 <codeline lineno="765"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
@@ -3428,10 +3428,10 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 <codeline lineno="1342"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1343"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1349"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined(DAC)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1349"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined(DAC)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1350"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1351"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_DAC_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h"/>
   </compounddef>
 </doxygen>

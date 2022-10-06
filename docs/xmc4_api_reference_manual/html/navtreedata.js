@@ -1,25 +1,26 @@
 /*
-@ @licstart  The following is the entire license notice for the
-JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
-Copyright (C) 1997-2017 by Dimitri van Heesch
+ The MIT License (MIT)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+ Copyright (C) 1997-2020 by Dimitri van Heesch
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
 
-@licend  The above is the entire license notice
-for the JavaScript code in this file
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var NAVTREE =
 [
@@ -47,26 +48,26 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "deprecated.html",
-"group___c_c_u4.html#ga3392bbfae89deb4a809aab04efde114b",
-"group___c_c_u8.html#ga1d19339c0fa5700138cf2e0a5bc33ae8",
-"group___c_c_u8.html#gga8f35468e76419c88d2e6cf9858c9f427a7cea84c5b9ee8ca24c4848d35b94a90a",
-"group___d_m_a.html#ggab2e7d47bf6d6b766ad6fb8943991b16fa6d049dbb5f665bf90dea1f8f431dfce7",
-"group___e_b_u.html#gga3e4e5893293071b28525d0e25de8b464a7887ff79ff8018340a44e8a586ade131",
-"group___e_t_h___m_a_c.html#ga598b573e38e6f29e55c39b2f4ea122d8",
-"group___f_l_a_s_h.html#ga162346fadd0c8caacda1738259da404e",
-"group___h_r_p_w_m.html#gab1d906442d8114ef2b5019f3933694dd",
-"group___i2_c.html#gacba9683fdb659e012642e66bc96a406d",
-"group___l_e_d_t_s.html#gga464918db87f7b5a30190de397b548fa7adeebe6fa2a1c174a695d645ca1505e7b",
-"group___s_c_u.html#ga315dd2a00d282eddb3056118c86e6da9",
-"group___s_c_u.html#gga4de86b97726dc23fabd8c4e573b1bdb0a3a1a0db9c727530f70df92a2064c656e",
-"group___s_d_m_m_c.html#gga619a568fb97074dcd4db71746f0e783daf4682e3e725021e80d6100132a721a03",
-"group___u_a_r_t.html#gga802a057f335dc7bc1465ae11b19d09afa5e66e98130f3a6f072c57295a1a779f7",
-"group___u_s_i_c.html#ga6987b85c22a6f6e220042e07f255ca7d",
-"group___v_a_d_c.html#ga5db8e4e617a0df8234d948ed26d7d9a3",
-"group___v_a_d_c.html#ggaff5ca81d747517a6420fea34642c6778a1bd4f88d1ae65dd412b2bea7084ac6ea",
-"struct_x_m_c___e_b_u___b_u_s___r_e_a_d___c_o_n_f_i_g__t.html#a379a83c0e94efa6fb2f551760fb463e3",
-"struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t.html#af79763da944564b7a7fb4980c53aba7c",
-"struct_x_m_c___u_s_i_c___c_h__t.html"
+"group___c_c_u4.html#ga35b25352390bfa747b51ba511fe85c57",
+"group___c_c_u8.html#ga3929ebb1b1819bd28bd76846cc1e38a6",
+"group___c_c_u8.html#ggae924b2c958e0868603e7026684024f31a0a8549aed5acf2c6798a8e07efaa8c3c",
+"group___d_s_d.html#ga550cf32d8f26da8b9d26bed22eb1171b",
+"group___e_b_u.html#gga99649773f51c7887823fd8af45782b10a2ff50290d4ab44fa092de561c62fc694",
+"group___e_t_h___m_a_c.html#ga958ce883b8500351b080d3e1e508e0cf",
+"group___f_l_a_s_h.html#gac37d4f679fd2f43ed259c616a6fe08e6",
+"group___h_r_p_w_m.html#gga16f08ec4aff668ebdebfd70a349cbd1fa5681e0efecb186e78b1c4d6ed3913696",
+"group___i2_c.html#ggacba9683fdb659e012642e66bc96a406da60c441b462f4212da785420bb921734d",
+"group___l_e_d_t_s.html#ggaede9b9ad8e3bcf69f5285a8882f5a7daa47a04d706f460c8c41fbd13b1d610d83",
+"group___s_c_u.html#ga6266b7288cd6a209146d83d67f21b573",
+"group___s_c_u.html#gga89194aa42c041fa1e72c1a3da8dbdef8a02279e8dd80ece4259fd481d82b4300d",
+"group___s_p_i.html#ga01a43390cf6218a5f16976f0b6027096",
+"group___u_s_b_d.html#ga8037eaa900c5d1a0ae001af59ccdd265",
+"group___u_s_i_c.html#gabb9d02b8388a03cd28190c976cdb8b78",
+"group___v_a_d_c.html#gaa30f659438385897376765d156118654",
+"struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t.html#a88e3712856b2d25b15ea9fbd41dfdb1e",
+"struct_x_m_c___e_b_u___c_o_n_f_i_g__t.html#a6edd9d8eedb196cdfca5e07f5dc0f1a6",
+"struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t.html#a6b29e4f37f4482274af785ad5ffe96a7",
+"struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t.html#a3e8ebce22211f9d7c03e9fc7843fd8ea"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

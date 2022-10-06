@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_BCCU_GLOBAL_CONFIG_t</compoundname>
     <includes local="no">xmc_bccu.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="402" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="402" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1ab9e1067c87ea0f1e386d7f16aa74b8f2" prot="public" static="no" mutable="no">
         <type>union XMC_BCCU_GLOBAL_CONFIG_t::@6</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="413" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="413" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="396" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="396" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="396" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="396" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="398" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="398" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="398" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="398" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a0f03be015d092eee14ba06e50e408a11" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="409" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="409" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="409" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="409" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a4762e50668b09085d0e8d3c38fc064b3" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="410" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="410" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="410" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="410" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1ac3a291cefc4a99df22f7bfbd45333b43" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="407" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="407" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="407" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="407" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a2c7f4046f8083e8dc42699ea013632fa" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="414" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="414" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="414" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="414" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a2359b8ee23e77348967410020ebacfae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="412" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="412" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="412" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="412" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a9b6c12e739ac483fbe8b57836799c148" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="401" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="401" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="401" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="401" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a5e732088f23e54d42e6c1174fa9e7ae9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="399" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="399" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="399" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="399" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1ac49fde2058f40c7affa31ce40c1150a1" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="397" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="397" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="397" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="397" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a5d8561d1de6e6e520f7d0eb2a8898868" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="395" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="395" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="395" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="395" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -195,7 +195,7 @@
     <detaileddescription>
 <para>Configures a global setting of the BCCU module. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="390" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="389" bodyend="415"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="389" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="390" bodyend="415"/>
     <listofallmembers>
       <member refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_BCCU_GLOBAL_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_BCCU_GLOBAL_CONFIG_t</scope><name>__pad1__</name></member>

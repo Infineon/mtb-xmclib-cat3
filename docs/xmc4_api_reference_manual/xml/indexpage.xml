@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="indexpage" kind="page">
     <compoundname>index</compoundname>
     <title>Introducing XMC Peripheral Library</title>
@@ -75,7 +75,7 @@
 </listitem></itemizedlist>
 </para>
 <para>The following toolchains are supported:<itemizedlist>
-<listitem><para>GNU GCC for ARM 9.3.1 (provided with ModusToolbox 2.3).</para>
+<listitem><para>GNU GCC for ARM 10.3.1. (provided with ModusToolbox 3.0).</para>
 </listitem></itemizedlist>
 </para>
 </sect1>
@@ -114,30 +114,30 @@
  Peripheral functions take a pointer to the peripheral data struct as the first argument.<linebreak/>
  XMC Peripheral Library uses naming conventions to bind the data struct and the functions that operate on i, i.e. XMC_PERI_DoSomething(XMC_PERI_t const *peri, ...);</para>
 <para>Typically a driver contains the following functionality:<orderedlist>
-<listitem><para>Initialization function <programlisting><codeline><highlight class="normal">XMC_PERI_STATUS_t<sp/>XMC_PERI_Init(XMC_PERI_t<sp/>*const<sp/>peri,<sp/>const<sp/>XMC_PERI_CONFIG_t<sp/>const<sp/>*config);</highlight></codeline>
+<listitem><para>Initialization function <programlisting><codeline><highlight class="normal">XMC_PERI_STATUS_t<sp/>XMC_PERI_Init(XMC_PERI_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peri,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>XMC_PERI_CONFIG_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*config);</highlight></codeline>
 </programlisting></para>
-</listitem><listitem><para>Enable/disable peripheral functions <programlisting><codeline><highlight class="normal">void<sp/>XMC_PERI_Enable(XMC_PERI_t<sp/>*const<sp/>peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_Disable(XMC_PERI_t<sp/>*const<sp/>peri);</highlight></codeline>
+</listitem><listitem><para>Enable/disable peripheral functions <programlisting><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_Enable(XMC_PERI_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_Disable(XMC_PERI_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peri);</highlight></codeline>
 </programlisting></para>
-</listitem><listitem><para>Connectivity functions <programlisting><codeline><highlight class="normal">void<sp/>XMC_PERI_SetInputSource(XMC_PERI_t<sp/>*const<sp/>peri,<sp/>...);</highlight></codeline>
+</listitem><listitem><para>Connectivity functions <programlisting><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_SetInputSource(XMC_PERI_t<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peri,<sp/>...);</highlight></codeline>
 </programlisting></para>
-</listitem><listitem><para>Event handling functions <programlisting><codeline><highlight class="normal">void<sp/>XMC_PERI_Enable(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_Disable(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_EnableEvent(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_DisableEvent(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_TriggerEvent(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">uint32_t<sp/>XMC_PERI_GetEventStatus(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_SetInterruptNode(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
+</listitem><listitem><para>Event handling functions <programlisting><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_Enable(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_Disable(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_EnableEvent(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_DisableEvent(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_TriggerEvent(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal">uint32_t<sp/>XMC_PERI_GetEventStatus(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_SetInterruptNode(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
 </programlisting></para>
-</listitem><listitem><para>Control functions <programlisting><codeline><highlight class="normal">void<sp/>XMC_PERI_Start(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_Stop(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_Suspend(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
-<codeline><highlight class="normal">void<sp/>XMC_PERI_Resume(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
+</listitem><listitem><para>Control functions <programlisting><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_Start(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_Stop(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_Suspend(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_Resume(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
 </programlisting></para>
-</listitem><listitem><para>Get/setters functions, run time API to obtain or modify state of peripheral <programlisting><codeline><highlight class="normal">void<sp/>XMC_PERI_SetSomething(XMC_PERI_t<sp/>const<sp/>*peri,<sp/>...);</highlight></codeline>
-<codeline><highlight class="normal">uint32_t<sp/>XMC_PERI_GetSomething(XMC_PERI_t<sp/>const<sp/>*peri);</highlight></codeline>
+</listitem><listitem><para>Get/setters functions, run time API to obtain or modify state of peripheral <programlisting><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_SetSomething(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri,<sp/>...);</highlight></codeline>
+<codeline><highlight class="normal">uint32_t<sp/>XMC_PERI_GetSomething(XMC_PERI_t<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*peri);</highlight></codeline>
 </programlisting></para>
-</listitem><listitem><para>IRQ Handlers are provided which can be used optionally by the user to make easier the coding <programlisting><codeline><highlight class="normal">void<sp/>XMC_PERI_IRQHandler(uint32_t<sp/>sr_num);</highlight></codeline>
+</listitem><listitem><para>IRQ Handlers are provided which can be used optionally by the user to make easier the coding <programlisting><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_PERI_IRQHandler(uint32_t<sp/>sr_num);</highlight></codeline>
 </programlisting></para>
 </listitem></orderedlist>
 </para>
@@ -164,40 +164,40 @@
 </listitem><listitem><para>Manage peripheral.</para>
 </listitem></orderedlist>
 </para>
-<para><programlisting><codeline><highlight class="normal">/*<sp/>Include<sp/>files<sp/>*/</highlight></codeline>
-<codeline><highlight class="normal">#include<sp/>&quot;xmc_gpio.h&quot;</highlight></codeline>
-<codeline><highlight class="normal">#include<sp/>&quot;xmc_i2c.h&quot;</highlight></codeline>
+<para><programlisting><codeline><highlight class="comment">/*<sp/>Include<sp/>files<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_gpio.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_i2c.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline><highlight class="normal">...</highlight></codeline>
-<codeline><highlight class="normal">int<sp/>main(void)</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>main(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
 <codeline><highlight class="normal">{</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>/*<sp/>Peripheral<sp/>configuration<sp/>and<sp/>initialization.<sp/>*/</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_I2C_CH_CONFIG_t<sp/>i2c_cfg;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>i2c_cfg.baudrate<sp/>=<sp/>400000U;</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_I2C_CH_Init(XMC_I2C0_CH0,<sp/>&amp;i2c_cfg);</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/>/*<sp/>Connectivity<sp/>configuration.<sp/>*/</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_I2C_CH_SetInputSource(XMC_I2C0_CH0,<sp/>XMC_I2C_CH_INPUT_SDA,<sp/>USIC1_C0_DX0_P2_14);</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_I2C_CH_SetInputSource(XMC_I2C0_CH0,<sp/>XMC_I2C_CH_INPUT_SCL,<sp/>USIC1_C0_DX1_P5_8);</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/>/*<sp/>Event/interrupt<sp/>configuration.<sp/>*/</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_I2C_CH_EnableEvent(XMC_I2C0_CH0,<sp/>XMC_I2C_CH_EVENT_ARBITRATION_LOST);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Peripheral<sp/>configuration<sp/>and<sp/>initialization.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="struct_x_m_c___i2_c___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_I2C_CH_CONFIG_t</ref><sp/>i2c_cfg;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>i2c_cfg.<ref refid="struct_x_m_c___i2_c___c_h___c_o_n_f_i_g__t_1ac4f06ea26ed6bd7ae83b92d64ac10b78" kindref="member">baudrate</ref><sp/>=<sp/>400000U;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___i2_c_1gafbab6cabacc65e03592b1c5d6cece11d" kindref="member">XMC_I2C_CH_Init</ref>(<ref refid="group___i2_c_1ga71176768512ab2836eb4dc41973c1339" kindref="member">XMC_I2C0_CH0</ref>,<sp/>&amp;i2c_cfg);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Connectivity<sp/>configuration.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___i2_c_1ga358214504f42dac696c4519efa19307b" kindref="member">XMC_I2C_CH_SetInputSource</ref>(<ref refid="group___i2_c_1ga71176768512ab2836eb4dc41973c1339" kindref="member">XMC_I2C0_CH0</ref>,<sp/><ref refid="group___i2_c_1gga76b49d68cc6d179beaf1dfe2998230bdaba2847f3ec9aeb06277abdea4a9a51bc" kindref="member">XMC_I2C_CH_INPUT_SDA</ref>,<sp/>USIC1_C0_DX0_P2_14);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___i2_c_1ga358214504f42dac696c4519efa19307b" kindref="member">XMC_I2C_CH_SetInputSource</ref>(<ref refid="group___i2_c_1ga71176768512ab2836eb4dc41973c1339" kindref="member">XMC_I2C0_CH0</ref>,<sp/><ref refid="group___i2_c_1gga76b49d68cc6d179beaf1dfe2998230bdaabd01419bb4afb47c665b94b4441dca9" kindref="member">XMC_I2C_CH_INPUT_SCL</ref>,<sp/>USIC1_C0_DX1_P5_8);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Event/interrupt<sp/>configuration.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___i2_c_1ga868f80d9e08a0518c38100dda3f77882" kindref="member">XMC_I2C_CH_EnableEvent</ref>(<ref refid="group___i2_c_1ga71176768512ab2836eb4dc41973c1339" kindref="member">XMC_I2C0_CH0</ref>,<sp/><ref refid="group___i2_c_1gga4142054abf4133012810875bc5ac4f48a0ef9afd8b09cb8e99bcc7d342c0a38ee" kindref="member">XMC_I2C_CH_EVENT_ARBITRATION_LOST</ref>);</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/>NVIC_SetPriority(USIC0_0_IRQn,<sp/>NVIC_GetPriorityGrouping(),<sp/>63,<sp/>0);</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/>NVIC_EnableIRQ(USIC0_0_IRQn);</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/>/*<sp/>Start<sp/>operation.<sp/>*/</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_I2C_CH_Start(XMC_I2C0_CH0);</highlight></codeline>
-<codeline></codeline>
-<codeline><highlight class="normal"><sp/><sp/>/*<sp/>IO<sp/>configuration.<sp/>*/</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_GPIO_SetMode(P1_5,<sp/>XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN<sp/>|<sp/>P1_5_AF_U0C0_DOUT0);</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_GPIO_SetMode(P1_1,<sp/>XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN<sp/>|<sp/>P1_1_AF_U0C0_SCLKOUT);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Start<sp/>operation.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___i2_c_1gad3de1b923c1a3c0a2b1ea9a8d9ff1d91" kindref="member">XMC_I2C_CH_Start</ref>(<ref refid="group___i2_c_1ga71176768512ab2836eb4dc41973c1339" kindref="member">XMC_I2C0_CH0</ref>);</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>IO<sp/>configuration.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1ga2d52a863e693424c88d5dd8ecf9f2e46" kindref="member">XMC_GPIO_SetMode</ref>(P1_5,<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>P1_5_AF_U0C0_DOUT0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1ga2d52a863e693424c88d5dd8ecf9f2e46" kindref="member">XMC_GPIO_SetMode</ref>(P1_1,<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>P1_1_AF_U0C0_SCLKOUT);</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/>...</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>/*<sp/>Manage<sp/>peripheral<sp/>*/</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_I2C_CH_MasterStart(XMC_I2C1_CH0,<sp/>IO_EXPANDER_ADDRESS,<sp/>XMC_I2C_CH_CMD_WRITE);</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>while((XMC_I2C_CH_GetStatusFlag(XMC_I2C1_CH0)<sp/>&amp;<sp/>XMC_I2C_CH_STATUS_FLAG_ACK_RECEIVED)<sp/>==<sp/>0U)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>Manage<sp/>peripheral<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___i2_c_1gaebd425a409b805d4571e75f793317070" kindref="member">XMC_I2C_CH_MasterStart</ref>(<ref refid="group___i2_c_1ga9ffc942d7d7d6a1a2653c4406f265a16" kindref="member">XMC_I2C1_CH0</ref>,<sp/>IO_EXPANDER_ADDRESS,<sp/><ref refid="group___i2_c_1ggaf81b9bb81ece318669b08149f1fd7f4baf3c121d840b85087f675d717adf27dc5" kindref="member">XMC_I2C_CH_CMD_WRITE</ref>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">((<ref refid="group___i2_c_1gaddc87a65cf16a2bf717f650a29506cef" kindref="member">XMC_I2C_CH_GetStatusFlag</ref>(<ref refid="group___i2_c_1ga9ffc942d7d7d6a1a2653c4406f265a16" kindref="member">XMC_I2C1_CH0</ref>)<sp/>&amp;<sp/><ref refid="group___i2_c_1ggae922e0696a07a1809a0d8e80248ce497ab08a526647c7f9bd1bcad252e6a195c3" kindref="member">XMC_I2C_CH_STATUS_FLAG_ACK_RECEIVED</ref>)<sp/>==<sp/>0U)</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>/*<sp/>wait<sp/>for<sp/>ACK<sp/>*/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>wait<sp/>for<sp/>ACK<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline><highlight class="normal"><sp/><sp/>XMC_I2C_CH_ClearStatusFlag(XMC_I2C1_CH0,<sp/>XMC_I2C_CH_STATUS_FLAG_ACK_RECEIVED);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><ref refid="group___i2_c_1gab922e97164d14898b92df3d30c10fe83" kindref="member">XMC_I2C_CH_ClearStatusFlag</ref>(<ref refid="group___i2_c_1ga9ffc942d7d7d6a1a2653c4406f265a16" kindref="member">XMC_I2C1_CH0</ref>,<sp/><ref refid="group___i2_c_1ggae922e0696a07a1809a0d8e80248ce497ab08a526647c7f9bd1bcad252e6a195c3" kindref="member">XMC_I2C_CH_STATUS_FLAG_ACK_RECEIVED</ref>);</highlight></codeline>
 <codeline><highlight class="normal"><sp/><sp/>...</highlight></codeline>
 </programlisting> </para>
 <sect2 id="index_1devices">
@@ -271,14 +271,12 @@
 <para>The following diagram shows the most important directories and files provided in the distribution.</para>
 <para><verbatim>* mtb-xmclib-cat3                           - XMClib root directory
 *  +-- CMSIS                                - The Cortex Microcontroller Software Interface Standard abstraction layer
-* │   +-- Core                              - Hardware Abstraction Layer (HAL) for Cortex-M processor registers
 * │   +-- Infineon                          - Includes device header files, system and startup files
 * +-- docs                                  - XMC Peripheral Library documentation generated with Doxygen
 * │   +-- xmc1_api_reference_manual.html    - XMC Peripheral Library documentation with XMC1 specific information
 * │   \-- xmc4_api_reference_manual.html    - XMC Peripheral Library documentation with XMC4 specific information
 * +-- Newlib                                - C standard library implementation intended for use on embedded systems.
-* +-- personalities                         - Configuration files that defines a resource behavior for ModusToolbox Device Configurator
-* +-- udd                                   - Device description files for ModusToolbox Device Configurator
+* +-- device-info                           - Configuration files that defines a resource behavior for ModusToolbox Device Configurator
 * +-- XMCLib
 * │   +-- doc                               - Doxygen configuration files to generate documentation
 * │   +-- inc                               - XMC Peripheral Library API interface files
@@ -324,14 +322,14 @@
 </listitem></itemizedlist>
 </para>
 <para>Compilers used :<itemizedlist>
-<listitem><para>GNU GCC for ARM 9.3.1.</para>
+<listitem><para>GNU GCC for ARM 10.3.1.</para>
 </listitem></itemizedlist>
 </para>
 </sect1>
 <sect1 id="index_1licensing">
 <title>XMC Peripheral Library Licensing</title>
 <para><bold> License Terms and Copyright Information </bold></para>
-<para>Copyright (c) 2015-2021, Infineon Technologies AG All rights reserved.</para>
+<para>Copyright (c) 2015-2022, Infineon Technologies AG All rights reserved.</para>
 <para>Boost Software License - Version 1.0 - August 17th, 2003</para>
 <para>Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the &quot;Software&quot;) to use, reproduce, display, distribute, execute, and transmit the Software, and to prepare derivative works of the Software, and to permit third-parties to whom the Software is furnished to do so, all subject to the following:</para>
 <para>The copyright notices in the Software and this entire statement, including the above license grant, this restriction and the following disclaimer, must be included in all copies of the Software, in whole or in part, and all derivative works of the Software, unless such copies or derivative works are solely in the form of machine-executable object code generated by a source language processor.</para>
@@ -342,5 +340,6 @@
 <para><bold>Warnings</bold> Due to technical requirements, components may contain dangerous substances. For information on the types in question, please contact the nearest Infineon Technologies Office. Infineon Technologies components may be used in life-support devices or systems only with the express written approval of Infineon Technologies, if a failure of such components can reasonably be expected to cause the failure of that life-support device or system or to affect the safety or effectiveness of that device or system. Life support devices or systems are intended to be implanted in the human body or to support and/or maintain and sustain and/or protect human life. If they fail, it is reasonable to assume that the health of the user or other persons may be endangered. </para>
 </sect1>
     </detaileddescription>
+    <location file="main_xmc4.txt"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file xmc4_ofi-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Internal backup clock personality description file for XMC4000 family.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020-2021 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc4_ofi" name="OFI" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc4_scu" />
+    <Resource name="scu\.clock\.osc_fi" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="frequency" paramId="fOFI" />
+    <ExposedMember key="accuracy"  paramId="accuracy" />
+  </ExposedMembers>
+
+  <Parameters>
+    <!-- Internal -->
+    <ParamBool id="debug" name="debug" group="Internal" default="false" visible="false" editable="false" desc="" />
+    <ParamString id="stdbyclkRsc" name="Source Resource" group="Internal"
+      default="scu[0].clock[0].stdbyclk[0]"
+      visible="`${debug}`" editable="false" desc="" />
+    <ParamString id="fOFI" name="Frequency (Hz)" group="Internal"
+      default="24000000" visible="`${debug}`" editable="false" desc="" />
+    <!-- General -->
+    <ParamChoice id="calibration_mode" name="Calibration" group="General"
+      default="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_FACTORY" visible="true" editable="true" desc="Select calibration mode of the internal fast oscillator." >
+      <Entry name="Factory" value="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_FACTORY" visible="true" />
+      <Entry name="Using standby clock" value="XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_AUTOMATIC" visible="true" />
+    </ParamChoice>
+    <ParamRange id="factoryAccuracy" name="Accuracy (&#177;%)" group="General"
+      default="15" min="0" max="100" resolution="0.1" visible="`${calibration_mode eq XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_FACTORY}`" editable="true"
+      desc="Clock accuracy in %, see the device datasheet for details" />
+    <ParamRange id="accuracy" name="Accuracy (&#177;%)" group="Internal"
+      default="`${calibration_mode eq XMC_SCU_CLOCK_FOFI_CALIBRATION_MODE_FACTORY ? factoryAccuracy : 0.5 + getExposedMember(stdbyclkRsc, &quot;accuracy&quot;)}`"
+      min="0" max="100" resolution="0.0001" visible="`${debug}`" editable="false" desc="" />
+    <ParamString id="frequency_info" name="Frequency" group="General"
+      default="`${formatFrequency(fOFI,accuracy)}`" visible="true" editable="false"
+      desc="Internal fast oscillator frequency." />
+  </Parameters>
+
+  <ConfigFirmware>
+    <ConfigDefine name="CLOCK_FOFI_CALIBRATION_MODE" value="`${calibration_mode}`" public="false" include="true" />
+  </ConfigFirmware>
+</Personality>

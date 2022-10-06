@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___i2_c" kind="group">
     <compoundname>I2C</compoundname>
     <title>Inter Integrated Circuit(IIC)</title>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="205" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="204" bodyend="208"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="204" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="205" bodyend="208"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_c_1ga4142054abf4133012810875bc5ac4f48" prot="public" static="no" strong="no">
         <type></type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="214" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="213" bodyend="231"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="213" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="214" bodyend="231"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_c_1ga76b49d68cc6d179beaf1dfe2998230bd" prot="public" static="no" strong="no">
         <type></type>
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="237" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="236" bodyend="247"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="236" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="237" bodyend="247"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_c_1ga797641917b01a783e6e7aac5d25a298f" prot="public" static="no" strong="no">
         <type></type>
@@ -289,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="253" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="252" bodyend="259"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="252" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="253" bodyend="259"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_c_1ga0f5cc56c100494c399620dc165e74ee9" prot="public" static="no" strong="no">
         <type></type>
@@ -346,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="188" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="187" bodyend="199"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="187" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="188" bodyend="199"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_c_1gae922e0696a07a1809a0d8e80248ce497" prot="public" static="no" strong="no">
         <type></type>
@@ -511,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="162" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="161" bodyend="180"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="161" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="162" bodyend="180"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_c_1gacba9683fdb659e012642e66bc96a406d" prot="public" static="no" strong="no">
         <type></type>
@@ -547,7 +547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="152" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="151" bodyend="156"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="151" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="152" bodyend="156"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -597,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="727" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="727" bodyend="730"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="727" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="727" bodyend="730"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga63149dd65f853cc69ed57add87f34627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -679,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="750" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="750" bodyend="756"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="750" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="750" bodyend="756"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga4d7a2f143c3f07c35b39174d6e802be6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -715,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="783" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="783" bodyend="786"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="783" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="783" bodyend="786"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga2c7d23e924935f15cbebc5808e901fb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -756,7 +756,7 @@ Use this function in combination with <ref refid="group___i2_c_1gad2bdd26fa6dce7
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="820" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="820" bodyend="823"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="820" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="820" bodyend="823"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga7d0b7e575a13d2fdd2ead33d96d9e15b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -804,7 +804,7 @@ Use this function in combination with <ref refid="group___i2_c_1gad2bdd26fa6dce7
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="699" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="699" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="699" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga4dd4cbd57cae2b9d61d1b930ad516d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -839,7 +839,7 @@ This clock can be enabled by invoking <ref refid="group___i2_c_1gac55a7d058c2ccd
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="856" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="856" bodyend="859"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="856" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="856" bodyend="859"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gae49923f2679d64f4980518491d844bec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -875,7 +875,7 @@ This clock can be enabled by invoking <ref refid="group___i2_c_1gac55a7d058c2ccd
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="768" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="768" bodyend="771"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="768" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="768" bodyend="771"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gad2bdd26fa6dce7331c7ba723c2536070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -918,7 +918,7 @@ Use this function in combination with <ref refid="group___i2_c_1ga2c7d23e924935f
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="802" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="802" bodyend="805"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="802" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="802" bodyend="805"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga868f80d9e08a0518c38100dda3f77882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -966,7 +966,7 @@ Use this function in combination with <ref refid="group___i2_c_1ga2c7d23e924935f
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="686" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="686" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="686" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gac55a7d058c2ccdb357a1b43a4f3d6de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1001,7 +1001,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="839" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="839" bodyend="842"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="839" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="839" bodyend="842"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga50f0983dca84031814fcbcb52991ee63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1040,7 +1040,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="658" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="658" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="658" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gad1168655888146acb741b9e6aac04c4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1076,7 +1076,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="670" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="670" bodyend="673"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="670" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="670" bodyend="673"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga9131749645c421ff4b8bc80d0c93b691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1119,7 +1119,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="524" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="524" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="524" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gaddc87a65cf16a2bf717f650a29506cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1156,7 +1156,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="711" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="711" bodyend="714"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="711" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="711" bodyend="714"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gafbab6cabacc65e03592b1c5d6cece11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1208,7 +1208,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="319" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="319" bodyend="322"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="319" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="319" bodyend="322"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gaf4863d117a62932fe1f784e45797c62e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1272,7 +1272,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="301" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="301" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="301" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gad5e1a8e56b356c2fc246c8b3b95bfb74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1311,7 +1311,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="628" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="628" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="628" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gae5960060afec908c91cd8e4a78e5eae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1350,7 +1350,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="643" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="643" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="643" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga770a5f71ceb3b447f21a8b129df6486e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1416,7 +1416,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="566" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="566" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="566" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gaebd425a409b805d4571e75f793317070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1482,7 +1482,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="545" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="545" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="545" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga6a48dbbe2be7fce74bd328bae5db5141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1521,7 +1521,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="581" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="581" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="581" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga701835880c9d134de09af56c12ee3383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1572,7 +1572,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="597" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="597" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="597" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga0caf9dbe9035171cc4826ad279a857a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1641,7 +1641,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="438" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="438" bodyend="444"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="438" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="438" bodyend="444"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga0da1b672c78d08d3ffdb83316d1443cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___i2_c_1gacba9683fdb659e012642e66bc96a406d" kindref="member">XMC_I2C_CH_STATUS_t</ref></type>
@@ -1692,7 +1692,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="339" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="339" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="339" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga6d2b199b5c216800a315baca1f5b7bcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___i2_c_1gacba9683fdb659e012642e66bc96a406d" kindref="member">XMC_I2C_CH_STATUS_t</ref></type>
@@ -1755,7 +1755,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="357" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="357" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="357" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga206a30449f5196a40611f3bbe5bf39ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1794,7 +1794,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="880" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="880" bodyend="883"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="880" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="880" bodyend="883"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga358214504f42dac696c4519efa19307b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1855,7 +1855,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="482" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="482" bodyend="486"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="482" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="482" bodyend="486"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gada2c698290a70ed692f067756ececd4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1908,7 +1908,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="412" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="412" bodyend="416"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="412" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="412" bodyend="416"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gaec9df234c44378c3fc10f0423d71aec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1962,7 +1962,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="506" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="506" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="506" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gafdd7192c5a6b3fa481f293fb0a574665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2013,7 +2013,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="613" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="613" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="613" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1gad3de1b923c1a3c0a2b1ea9a8d9ff1d91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2051,7 +2051,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="373" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="373" bodyend="376"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="373" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="373" bodyend="376"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga4eeda18d28c90e527c309726ff5d3cb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___i2_c_1gacba9683fdb659e012642e66bc96a406d" kindref="member">XMC_I2C_CH_STATUS_t</ref></type>
@@ -2090,7 +2090,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="392" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="392" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" declline="392" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_c_1ga72d5d08ec30a105175f9a789ab38c1c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2145,7 +2145,7 @@ When the I2C service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="461" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="461" bodyend="464"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="461" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="461" bodyend="464"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -2159,7 +2159,7 @@ When the I2C service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="128" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="128" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="128" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_c_1gafbbadccd3da1cbecf1aac59dd54035dd" prot="public" static="no">
         <name>XMC_I2C0_CH1</name>
@@ -2171,7 +2171,7 @@ When the I2C service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="129" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="129" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="129" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_c_1ga9ffc942d7d7d6a1a2653c4406f265a16" prot="public" static="no">
         <name>XMC_I2C1_CH0</name>
@@ -2183,7 +2183,7 @@ When the I2C service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="133" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="133" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="133" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_c_1ga8b7a66d60a6dc718f09b5245187b9fec" prot="public" static="no">
         <name>XMC_I2C1_CH1</name>
@@ -2195,7 +2195,7 @@ When the I2C service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="134" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="134" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="134" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_c_1gadbd192d1e612ccd4143ec299966a11f0" prot="public" static="no">
         <name>XMC_I2C2_CH0</name>
@@ -2207,7 +2207,7 @@ When the I2C service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="138" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="138" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="138" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_c_1ga7d470379c765ee393530da6b97372122" prot="public" static="no">
         <name>XMC_I2C2_CH1</name>
@@ -2219,7 +2219,7 @@ When the I2C service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="139" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="139" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="139" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_c_1ga156f3aa37787f3b6b73c58a742e64302" prot="public" static="no">
         <name>XMC_I2C_10BIT_ADDR_GROUP</name>
@@ -2231,7 +2231,7 @@ When the I2C service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="142" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="142" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="142" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

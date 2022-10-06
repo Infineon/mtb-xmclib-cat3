@@ -1,12 +1,12 @@
 /*********************************************************************************************************************
  * @file     startup_XMC1300.S
  * @brief    CMSIS Core Device Startup File for Infineon XMC1300 Device Series
- * @version  V1.20
- * @date     15 Mai 2020
+ * @version  V1.21
+ * @date     18 Nov 2020
  *
  * @cond
  *********************************************************************************************************************
- * Copyright (c) 2012-2020, Infineon Technologies AG
+ * Copyright (c) 2012-2021, Infineon Technologies AG
  * All rights reserved.                        
  *                                             
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -61,6 +61,7 @@
  * V1.14, Sep, 03,2015 JFT:SSW default clocking changed, MCLK=8MHz and PCLK=16MHz avoid problems with BMI tool timeout
  * V1.15, Jan, 05,2016 JFT:Fix .reset section attributes
  * V1.20, Mai, 15,2020 JFT:Added option (ENABLE_OWN_HANDLER) to generate a individual interrupt handlers for unhandled vectors
+ * V1.21, Nov, 18,2021     Added weak cy_toolchain_init
  *
  * @endcond 
  */
@@ -261,6 +262,10 @@ Reset_Handler:
 .L_loop3_done:
 #endif /* __SKIP_BSS_CLEAR */
 
+    /* OS-specific low-level initialization */
+    ldr  r0, =cy_toolchain_init
+    blx  r0
+
 #ifndef __SKIP_LIBC_INIT_ARRAY
     ldr  r0, =__libc_init_array
     blx  r0
@@ -294,6 +299,17 @@ __copy_data:
 
 	.pool
     .size   Reset_Handler,.-Reset_Handler
+
+/* OS-specific low-level initialization */
+    .thumb_func
+    .weak cy_toolchain_init
+    .func cy_toolchain_init, cy_toolchain_init
+    .type cy_toolchain_init, %function
+cy_toolchain_init:
+    bx lr
+    .size cy_toolchain_init, . - cy_toolchain_init
+    .endfunc
+
 /* ======================================================================== */
 /* ========== START OF EXCEPTION HANDLER DEFINITION ======================== */
 

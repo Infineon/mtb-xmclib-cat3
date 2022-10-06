@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___s_c_u" kind="group">
     <compoundname>SCU</compoundname>
     <title>System Control Unit(SCU)</title>
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="394" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="393" bodyend="405"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="393" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="394" bodyend="405"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga353883c8a243d54487bb5cc8edc20a32" prot="public" static="no" strong="no">
         <type></type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="292" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="291" bodyend="295"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="291" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="292" bodyend="295"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gaa23b0a26e39703fa5dd32dc275fb4f12" prot="public" static="no" strong="no">
         <type></type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="282" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="281" bodyend="285"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="281" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="282" bodyend="285"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga48301d5a516ffd248e062d8f98bb8148" prot="public" static="no" strong="no">
         <type></type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="302" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="301" bodyend="306"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="301" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="302" bodyend="306"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gad5bf98e9ea7d145180ad029ea3560d8d" prot="public" static="no" strong="no">
         <type></type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="313" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="312" bodyend="316"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="312" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="313" bodyend="316"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gad4ef17eaabe7b13c5c159ba6b24c6a2c" prot="public" static="no" strong="no">
         <type></type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="271" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="270" bodyend="274"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="270" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="271" bodyend="274"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga6cf5c338f64adfc26ef8c49e826cd752" prot="public" static="no" strong="no">
         <type></type>
@@ -287,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="251" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="250" bodyend="264"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="250" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="251" bodyend="264"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga26cbc15f43439603ed5976e7be9b6212" prot="public" static="no" strong="no">
         <type></type>
@@ -317,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="323" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="322" bodyend="326"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="322" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="323" bodyend="326"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gad54a1c90f3b35f4c49d62ac204678487" prot="public" static="no" strong="no">
         <type></type>
@@ -1494,7 +1494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="414" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="413" bodyend="701"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="413" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="414" bodyend="701"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga29713150fdafc3c88f3c73f621410239" prot="public" static="no" strong="no">
         <type></type>
@@ -1652,7 +1652,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="338" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="337" bodyend="386"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="337" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="338" bodyend="386"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gaae067899a6cfa605f5ebfef2c1f8d393" prot="public" static="no" strong="no">
         <type></type>
@@ -1696,7 +1696,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="718" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="717" bodyend="723"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="717" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="718" bodyend="723"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga985038b59c5bc1d8341db06c6c7cbfdc" prot="public" static="no" strong="no">
         <type></type>
@@ -1732,7 +1732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="708" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="707" bodyend="712"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="707" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="708" bodyend="712"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gae01c08f5d524dadbc6e0c4128b348dc3" prot="public" static="no" strong="no">
         <type></type>
@@ -1816,7 +1816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="209" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="208" bodyend="218"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="208" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="209" bodyend="218"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gaff029b1575acc0712d494932d8ca6d60" prot="public" static="no" strong="no">
         <type></type>
@@ -1853,7 +1853,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="175" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="174" bodyend="181"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="174" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="175" bodyend="181"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga4988413b7da85ed020b8d1a8243e28aa" prot="public" static="no" strong="no">
         <type></type>
@@ -1901,7 +1901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="227" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="226" bodyend="232"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="226" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="227" bodyend="232"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -1917,7 +1917,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="191" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="191" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="191" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="191" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___s_c_u_1ga18e68742408210603bed8d0806ce1573" prot="public" static="no">
         <type>uint32_t</type>
@@ -1931,7 +1931,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="243" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="243" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="243" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="243" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -1961,7 +1961,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1060" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1060" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1060" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae7b20e6cd4212c28515a21ad6305bfa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1992,7 +1992,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1157" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1157" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1157" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga1a3d595fe9b1c99675f569c5e98bbe20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2015,7 +2015,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1447" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1447" bodyend="1450"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1447" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1447" bodyend="1450"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga1593fcaf7e9cfb8a276c564ca69cbe48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2038,7 +2038,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1195" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1195" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1195" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga0bc3a0cbd7a1ce7fe4b45e6b975151b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2061,7 +2061,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1434" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1434" bodyend="1437"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1434" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1434" bodyend="1437"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga39b9bbd58d1bff0fa29e8d467eb109b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2077,7 +2077,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1408" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1408" bodyend="1411"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1408" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1408" bodyend="1411"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga1d273cfcd218e2e9061efe150f8e88d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2134,7 +2134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1185" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1185" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1185" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gadec9aee733bfd18a1f91d19417f6d129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2157,7 +2157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1421" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1421" bodyend="1424"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1421" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1421" bodyend="1424"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaeba2b71df116edb792af109622946d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2173,7 +2173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1394" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1394" bodyend="1397"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1394" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1394" bodyend="1397"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab0af70f90b9a1f24d3a0a4764543d833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2211,7 +2211,7 @@ Clock gating helps in reducing the power consumption. User can selectively gate 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="476" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="476" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="476" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3e78410c4d0c9f9b54aa0965d16c3795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2239,7 +2239,7 @@ The value is stored in a global variable <emphasis><bold>SystemCoreClock</bold>.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="429" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="429" bodyend="432"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="429" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="429" bodyend="432"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4269bd27311f46c895b7ca474236d71c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2267,7 +2267,7 @@ The value is derived using the bitfield <emphasis>PCLKSEL</emphasis> from <empha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1127" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1127" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1127" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga55a1be4f0e96fcda7b2c0feb542af250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2295,7 +2295,7 @@ The value is derived from the CPU frequency. <bold>Range:</bold> Value is of typ
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="443" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="443" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="443" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga08c337e8a728604e7eb54dff78ae2d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2334,7 +2334,7 @@ Peripheral clock and system clock are configured based on the input configuratio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="294" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="294" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="294" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga175db85afdd692784c0558e9693e23aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2350,7 +2350,7 @@ Peripheral clock and system clock are configured based on the input configuratio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1461" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1461" bodyend="1464"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1461" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1461" bodyend="1464"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga52987a0ed17a5ac8644163a1f7b008e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2375,7 +2375,7 @@ Peripheral clock and system clock are configured based on the input configuratio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1206" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1206" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1206" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga804f98badedf0e0ba4ce09f445687a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2413,7 +2413,7 @@ Checks the status of peripheral clock gating using the register CGATSTAT0. It is
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="528" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="528" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="528" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga66a7775d9fe9ee50a3936bd1abf20733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2467,7 +2467,7 @@ The API configures main clock by setting <emphasis>IDIV</emphasis> and <emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="847" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="847" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="847" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga1565840d44662b5655d67726624540ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2500,7 +2500,7 @@ The API configures main clock by setting <emphasis>IDIV</emphasis> and <emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1170" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1170" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1170" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga6103bc92c9cd326903ee4e6b2e1d055d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2541,7 +2541,7 @@ The peripheral clock can be either same as MCLK or twice the frequency of MCLK. 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1144" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1144" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1144" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gafddcd1db57d4ff9eacf15ff37c2ca133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2572,7 +2572,7 @@ The peripheral clock can be either same as MCLK or twice the frequency of MCLK. 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1215" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1215" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1215" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga33901ef9d941e0cd074e1a9adcff26ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2603,7 +2603,7 @@ The peripheral clock can be either same as MCLK or twice the frequency of MCLK. 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1224" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1224" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1224" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4e80d9644d060fdb10194d63d439e5d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2643,7 +2643,7 @@ The API configures main clock by setting <emphasis>IDIV</emphasis> and <emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="827" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="827" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="827" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga702904d10b6e6c6a55db381763fd322f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2670,7 +2670,7 @@ The API configures main clock by setting <emphasis>IDIV</emphasis> and <emphasis
 </simplesect>
 <simplesect kind="par"><title>Description</title><para>Enables the supply of clock to the selected peripheral.<linebreak/>
 <linebreak/>
-By default when the device powers on, the peripheral clock will be gated for the peripherals that support clock gating. The peripheral clock should be enabled before using it for any functionality. fPCLK is the source of clock to various peripherals. Some peripherals support clock gate. Software can request for individual ungating of such peripheral clocks by setting respective bits in the <emphasis>SCU_CGATCLR0</emphasis> register.</para>
+By default when the device powers on, the peripheral clock will be gated for the peripherals that support clock gating. The peripheral clock should be enabled before using it for any functionality. fPCLK is the source of clock to various peripherals. Some peripherals support clock gate. Software can request for individual ungating of such peripheral clocks by setting respective bits in the <emphasis>SCU_CGATCLR0</emphasis> register.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___s_c_u_1ga804f98badedf0e0ba4ce09f445687a37" kindref="member">XMC_SCU_CLOCK_IsPeripheralClockGated()</ref>, <ref refid="group___s_c_u_1gab0af70f90b9a1f24d3a0a4764543d833" kindref="member">XMC_SCU_CLOCK_GatePeripheralClock()</ref> <linebreak/>
 <linebreak/>
@@ -2681,7 +2681,7 @@ By default when the device powers on, the peripheral clock will be gated for the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="504" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="504" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="504" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga161d3851c3f1c11f90526a283a27b16c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2701,7 +2701,7 @@ By default when the device powers on, the peripheral clock will be gated for the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1258" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1258" bodyend="1261"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1258" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1258" bodyend="1261"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3125df313f406750ec52080e3e6f50ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2721,7 +2721,7 @@ By default when the device powers on, the peripheral clock will be gated for the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1246" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1246" bodyend="1249"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1246" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1246" bodyend="1249"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga25b1b16ac491c542ceffa20679c8e9c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2748,9 +2748,9 @@ By default when the device powers on, the peripheral clock will be gated for the
 </programlisting> </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Boot Mode Index (BMI) address holding information about start-up mode and debug configuration of the device. </para>
+<para>&lt; Boot Mode Index (BMI) address holding information about start-up mode and debug configuration of the device.</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1358" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1358" bodyend="1361"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1358" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1358" bodyend="1361"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga494b75a841498374cfee9664e6ce9cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2775,7 +2775,7 @@ Note: There is no hibernate domain in XMC1x devices. This register is retained f
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="547" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="547" bodyend="550"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="547" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="547" bodyend="550"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga71c4f02eb6036f0d3a13af5e10bf56cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2803,7 +2803,7 @@ The API reads temperature measurement result from <emphasis>SCU_ANALOG-&gt;ANATS
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1050" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1050" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1050" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga5a0ad9c467d9549542d0f0275bae6314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2832,7 +2832,7 @@ The API checks for <emphasis>TSE_HIGH</emphasis> bit (TSE Compare High Temperatu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1023" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1023" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1023" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gabd2e577339ff5af48261d18e0e41dc50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2870,7 +2870,7 @@ The events are cleared by writing value 1 to their bit positions in the SRCLR re
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="376" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="376" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="376" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa814678729d6b7f41c558e768ba8ecd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2909,7 +2909,7 @@ The events are disabled by resetting the respective bit fields in the SRMSK regi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="327" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="327" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="327" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab4cfb9545d1e561e1f24aeaa69af821c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2948,7 +2948,7 @@ Note: User should separately enable the NVIC node responsible for handling the S
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="311" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="311" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="311" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4ae03c6bcc3ccade266b46d84f7715e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gaff029b1575acc0712d494932d8ca6d60" kindref="member">XMC_SCU_STATUS_t</ref></type>
@@ -3003,7 +3003,7 @@ If the input event is valid, the handler function will be assigned to a table to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="572" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="572" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="572" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa55b2098ce803174e7dfd680d0c30728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3042,7 +3042,7 @@ Note: User should enable the NVIC node that handles the respective event for int
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="343" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="343" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="343" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae23dfad3e5e11c78791e5d5a777c44a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1ga18e68742408210603bed8d0806ce1573" kindref="member">XMC_SCU_INTERRUPT_EVENT_t</ref></type>
@@ -3070,7 +3070,7 @@ The status is read from the SRRAW register. To check the status of a particular 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="358" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="358" column="27" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="358" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga9ba1ce317ce89edfea107893fbd8a0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3111,7 +3111,7 @@ It checks for the status of events which can generate the interrupt with the sel
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="588" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="588" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="588" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga370ea6fa8641ab74386314bbaa6ffb44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3141,7 +3141,7 @@ It checks for the status of events which can generate the interrupt with the sel
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1072" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1072" bodyend="1075"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1072" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1072" bodyend="1075"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gad9ba5dce219ea8390f4aa9f7bc46aafe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3200,7 +3200,7 @@ List of Protected Register Bit Fields are mentioned below. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="872" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="872" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="872" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga8573534003ebf11fbaa49e331238fb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3229,7 +3229,7 @@ The API checks for <emphasis>TSE_LOW</emphasis> bit (TSE Compare Low Temperature
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1039" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1039" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1039" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4105a1ad04e87b7ca5ec0c88242ed991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3250,7 +3250,7 @@ The API checks for <emphasis>TSE_LOW</emphasis> bit (TSE Compare Low Temperature
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1290" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1290" bodyend="1293"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1290" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1290" bodyend="1293"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gabff55cce9dfcad7e04e6de5f3d352978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3295,7 +3295,7 @@ The API checks for <emphasis>TSE_LOW</emphasis> bit (TSE Compare Low Temperature
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1276" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1276" bodyend="1281"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1276" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1276" bodyend="1281"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga77c6ab2add788e4bd31eb563e0f8f8b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3323,7 +3323,7 @@ The API triggers master reset by setting the <emphasis>MRSTEN</emphasis> bit of 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1087" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1087" bodyend="1090"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1087" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1087" bodyend="1090"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4bf9396e8b46be98f73999575d13bf6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3351,7 +3351,7 @@ Clearing of the reset status information in the <emphasis>SCU_RSTSTAT</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="410" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="410" bodyend="414"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="410" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="410" bodyend="414"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa4dbbfd3a9346cc7eb84bda46d084607" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3395,7 +3395,7 @@ The API configures the reset source specific bit in the <emphasis>RSTCON</emphas
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1111" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1111" bodyend="1114"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1111" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="1111" bodyend="1114"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3f779c81bdc29b44c644017a52aff300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3423,7 +3423,7 @@ The return value is an encoded word, which can indicate multiple reasons for the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="395" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="395" bodyend="398"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="395" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="395" bodyend="398"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaf5e684d3534fefaad8787c241f54c310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3498,7 +3498,7 @@ The return value is an encoded word, which can indicate multiple reasons for the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1337" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1337" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1337" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gac10ca2cd72477476ffe38a4818bcae4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3538,7 +3538,7 @@ Before executing this API, all the required CCU timers should configure external
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="234" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="234" bodyend="237"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="234" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="234" bodyend="237"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga53300d587bbd03bc34c5a4396f5a34b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3578,7 +3578,7 @@ Before executing this API, all the required CCU timers should configure external
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="259" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="259" bodyend="262"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="259" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="259" bodyend="262"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga6804b5ee7f0e08ee13d2863f1a35bdcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3620,7 +3620,7 @@ Before executing this API, all the required CCU timers should configure external
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1237" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1237" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1237" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga0f600fa31f024ec9d8e0c17fc767772f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3682,7 +3682,7 @@ It is recommended to use following steps:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="972" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="972" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="972" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gacda844c46f28753e5698c9edf1da89c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gaff029b1575acc0712d494932d8ca6d60" kindref="member">XMC_SCU_STATUS_t</ref></type>
@@ -3718,7 +3718,7 @@ It is recommended to use following steps:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="949" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="949" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="949" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga9075804b25596f546110b908fbcb7957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gaff029b1575acc0712d494932d8ca6d60" kindref="member">XMC_SCU_STATUS_t</ref></type>
@@ -3754,7 +3754,7 @@ It is recommended to use following steps:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="935" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="935" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="935" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3b00187ccda526f06802152ecf199fa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3797,7 +3797,7 @@ It is recommended to use following steps:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="995" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="995" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="995" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga5851b97d5f0830ba58eecc516a488db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3825,7 +3825,7 @@ Die temperature measurement is stopped by disabling the sensor using <emphasis>T
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1007" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="1007" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="1007" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab79580e5b6decc4f6ecce14be9efe17d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3864,7 +3864,7 @@ Supply voltage monitoring block consist of 2 detectors namely External voltage d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="921" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="921" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="921" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaf60632360634a2f1be0f8af715c03dea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3923,7 +3923,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="900" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="900" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" declline="900" declcolumn="6"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -3937,7 +3937,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="196" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="196" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="196" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga8eda1a0078fb1dc13593680dcc4c1886" prot="public" static="no">
         <name>XMC_SCU_BMI_CANCLK_DCO1</name>
@@ -3949,7 +3949,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="192" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="192" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="192" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="192" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga7cb50fbefee333f0aa9bb1a5d510d6e7" prot="public" static="no">
         <name>XMC_SCU_BMI_CANCLK_OSCHP</name>
@@ -3961,7 +3961,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="193" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="193" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="193" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="193" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga02558dc388806845c40f83ba2f8f87cd" prot="public" static="no">
         <name>XMC_SCU_BMI_DAPDIS_CHANNEL_0</name>
@@ -3973,7 +3973,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="188" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="188" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="188" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="188" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga4863740cd6d84afcfc0d01685f6d3afd" prot="public" static="no">
         <name>XMC_SCU_BMI_DAPDIS_CHANNEL_1</name>
@@ -3985,7 +3985,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="189" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="189" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="189" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gaf08ce8782ed3f2501f91d39847e55086" prot="public" static="no">
         <name>XMC_SCU_BMI_DAPTYP_SPD</name>
@@ -3997,7 +3997,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="186" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="186" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="186" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga8b090323ebddb3615f33e806b23b1d02" prot="public" static="no">
         <name>XMC_SCU_BMI_DAPTYP_SWD</name>
@@ -4009,7 +4009,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="185" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="185" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="185" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="185" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga7f00e1b1262b3eab4b98353a06673c3b" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_ASC_BSL</name>
@@ -4021,7 +4021,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="172" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="172" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="172" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga0d1b90b10b5672ffe1a3b38f7bbc81b8" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_ASC_BSLTO</name>
@@ -4033,7 +4033,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="177" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="177" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="177" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="177" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gaccc3853c66324f7c0f2ff6e5c260d38d" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_CAN_BSL</name>
@@ -4045,7 +4045,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="167" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="167" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="167" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga2218430a09e0824a83c23c626ed1668b" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_CAN_BSLTO</name>
@@ -4057,7 +4057,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="168" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="168" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="168" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga56ed923f3d9fe179cec0b4c187d0d4c6" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_PINDIS</name>
@@ -4069,7 +4069,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="182" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="182" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="182" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="182" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gacf41aeb0d9c158e1ae9bd34906ddab27" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_SBSL</name>
@@ -4081,7 +4081,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="179" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="179" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="179" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="179" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga6ad45fc801302e2ce9583aba0ffe58e0" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_SBSL_CANOPEN</name>
@@ -4093,7 +4093,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="169" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="169" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="169" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga88de483723947ca91ce5d5bfd1b89a51" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_SSC_BSL</name>
@@ -4105,7 +4105,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="176" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="176" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="176" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga442aa39ffc3bcc290964bf9c04a558ef" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_SSC_BSLTO</name>
@@ -4117,7 +4117,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="178" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="178" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="178" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga397fae0a8dfbdfb975010cbb94a8bb42" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_UMD</name>
@@ -4129,7 +4129,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="174" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="174" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="174" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gaf42b9eea5286aec14668d952527be70e" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_UMHAR</name>
@@ -4141,7 +4141,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="175" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="175" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="175" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="175" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga3ab345ab24ec81394d45deeb874f3d5d" prot="public" static="no">
         <name>XMC_SCU_BMI_HWCFG_UPM</name>
@@ -4153,7 +4153,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="173" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="173" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="173" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="173" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga308e4ef91ac83cd186f90da9b9a23daf" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ACMP0</name>
@@ -4165,7 +4165,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="119" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="119" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga4f74e12714dc4a7afc11a826de45a46c" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ACMP1</name>
@@ -4177,7 +4177,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="120" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="120" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="120" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gafa904d78eebc226dddec7a80bbadfb09" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ACMP2</name>
@@ -4189,7 +4189,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="121" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="121" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="121" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gaf8cb2163ea141171ed94de73943ba2b4" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ACMP3</name>
@@ -4203,7 +4203,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="123" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gae86b268dee92492bd26b2560ba438f51" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_DCO1_OUT_SYNC</name>
@@ -4217,7 +4217,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="160" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="160" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="160" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga933407ad8d21c4eaabf846df522d3a22" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_FLASH_COMPLETED</name>
@@ -4229,7 +4229,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="144" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="144" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="144" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga9069357593905c91623a208725b60311" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_FLASH_ERROR</name>
@@ -4241,7 +4241,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="143" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="143" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="143" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gac94bcfa909e35d08abf33f3c7250ba34" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_LOCI</name>
@@ -4253,7 +4253,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="137" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="137" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="137" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gad852bbb36333f51cda1a932b6dc40f6b" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_LOSS_EXT_CLOCK</name>
@@ -4267,7 +4267,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="159" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="159" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="159" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga642c29068f2e6bdd74e887be8546e7a3" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ORC0</name>
@@ -4279,7 +4279,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="128" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="128" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="128" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gaec2d8151a9de33b25883afb34fdd301a" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ORC1</name>
@@ -4291,7 +4291,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="129" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="129" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="129" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gacd248e69d02615043dd0c0d1621f234e" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ORC2</name>
@@ -4303,7 +4303,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="130" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="130" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="130" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gaca42ac1f2af14eeb54dcede45105957f" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ORC3</name>
@@ -4315,7 +4315,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="131" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="131" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="131" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gab8a5050ecb73f339481656e2ae74d2f4" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ORC4</name>
@@ -4327,7 +4327,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="132" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="132" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="132" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga1b28472219d9903bc4eab24c3909481f" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ORC5</name>
@@ -4339,7 +4339,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="133" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="133" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="133" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga5d53254ae3d670df28ddba679a46b008" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ORC6</name>
@@ -4351,7 +4351,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="134" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="134" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="134" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gad73b4f7e40c5a5fa6b14ed3122870739" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_ORC7</name>
@@ -4363,7 +4363,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="135" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="135" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="135" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga866288d67356b65d98698b1a56fbe223" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_PEMCAN</name>
@@ -4375,7 +4375,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="156" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="156" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="156" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga49c39fdf288796b8a9a5ac8d026b8fca" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_PESRAM</name>
@@ -4387,7 +4387,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="138" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="138" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="138" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga76ed3fc3428042a020278b68b29fcef3" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_PEUSIC0</name>
@@ -4399,7 +4399,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="139" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="139" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="139" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga06cec44b1ef45bd7456fa076cfc7fa4f" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_PEUSIC1</name>
@@ -4411,7 +4411,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="141" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="141" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="141" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gab2de9ba5dfa78e350e552cc36529ad22" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTC_ALARM</name>
@@ -4423,7 +4423,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="116" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="116" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="116" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga2b86e6490dd0310069274f042ef47625" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTC_PERIODIC</name>
@@ -4435,7 +4435,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="115" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="115" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="115" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga33dc60f1ff3285386633b53623dca92b" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCATIM0_UPDATED</name>
@@ -4447,7 +4447,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="148" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="148" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="148" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="148" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga19a78d87581dbbf3db6f3f23ee4db98e" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCATIM1_UPDATED</name>
@@ -4459,7 +4459,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="149" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="149" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="149" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="149" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga07039df071591f92674bdd82fc735030" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCCTR_UPDATED</name>
@@ -4471,7 +4471,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="147" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="147" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="147" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="147" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga34acc61e5b01e7f6b4ea1d7a9a9195c9" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCTIM0_UPDATED</name>
@@ -4483,7 +4483,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="150" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="150" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="150" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga7fcaa73f61c18ec8237e076da6c3bc0e" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCTIM1_UPDATED</name>
@@ -4495,7 +4495,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="151" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="151" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="151" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gac8ff14f167b6080d5eb8c0ea9b417502" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_STDBYCLKFAIL</name>
@@ -4507,7 +4507,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="146" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="146" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="146" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="146" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gabed038de303f619ac3bfd3aa6371c4bd" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_TSE_DONE</name>
@@ -4519,7 +4519,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="152" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="152" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="152" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gaef196ed92cf8f7cee093c9307dc047c6" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_TSE_HIGH</name>
@@ -4531,7 +4531,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="153" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="153" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="153" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga0334f0b6343f5e9843663247c7a03292" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_TSE_LOW</name>
@@ -4543,7 +4543,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="154" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="154" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="154" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga0d1ea44665421053f203a6c2b8d65989" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_VCLIP</name>
@@ -4555,7 +4555,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="145" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="145" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="145" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="145" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga492c0bffe4cfdf7320ea164ee8789c7c" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_VDDPI</name>
@@ -4567,7 +4567,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="117" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="117" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="117" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga8e4ab0550fde6e69b1e3612182190875" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_VDROP</name>
@@ -4579,7 +4579,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="126" column="11" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="126" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="126" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga61bedea1698b39bbd1fa3d2cd79a9f33" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_WDT_WARN</name>
@@ -4591,7 +4591,7 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="114" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="114" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" line="114" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_scu.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -4600,24 +4600,18 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
     <detaileddescription>
 <para>System control unit is the SoC power, reset and a clock manager with additional responsibility of providing system stability protection and other auxiliary functions.<linebreak/>
  SCU provides the following features,<orderedlist>
-<listitem><para>Power control</para>
-</listitem><listitem><para>Reset control</para>
+<listitem><para>Power control  -# Reset control</para>
 </listitem><listitem><para>Clock control</para>
 </listitem><listitem><para>Miscellaneous control(boot mode, system interrupts etc.)<linebreak/>
 <linebreak/>
 </para>
 </listitem></orderedlist>
 </para>
-<para>The SCU driver is divided in to clock control logic, reset control logic, system interrupt control logic and miscellaneous control logic.<linebreak/>
+<para>The SCU driver is divided in to clock control logic, reset control logic, system interrupt control logic  and miscellaneous control logic.<linebreak/>
 </para>
 <para>Clock driver features:<orderedlist>
-<listitem><para>Allows clock configuration using the structure <ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_CONFIG_t</ref> and API <ref refid="group___s_c_u_1ga08c337e8a728604e7eb54dff78ae2d9d" kindref="member">XMC_SCU_CLOCK_Init()</ref></para>
-</listitem><listitem><para>Allows selection of peripheral clock frequency, <ref refid="group___s_c_u_1ga6103bc92c9cd326903ee4e6b2e1d055d" kindref="member">XMC_SCU_CLOCK_SetFastPeripheralClockSource()</ref></para>
-</listitem><listitem><para>Provides API to get the peripheral clock frequency, <ref refid="group___s_c_u_1ga4269bd27311f46c895b7ca474236d71c" kindref="member">XMC_SCU_CLOCK_GetFastPeripheralClockFrequency()</ref></para>
-</listitem></orderedlist>
-</para>
-<para>Reset driver features:<orderedlist>
-<listitem><para>Allows to trigger device reset <ref refid="group___s_c_u_1ga77c6ab2add788e4bd31eb563e0f8f8b1" kindref="member">XMC_SCU_RESET_AssertMasterReset()</ref></para>
+<listitem><para>Allows clock configuration using the structure <ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_CONFIG_t</ref> and API <ref refid="group___s_c_u_1ga08c337e8a728604e7eb54dff78ae2d9d" kindref="member">XMC_SCU_CLOCK_Init()</ref>  -# Allows selection of peripheral clock frequency, <ref refid="group___s_c_u_1ga6103bc92c9cd326903ee4e6b2e1d055d" kindref="member">XMC_SCU_CLOCK_SetFastPeripheralClockSource()</ref></para>
+</listitem><listitem><para>Provides API to get the peripheral clock frequency, <ref refid="group___s_c_u_1ga4269bd27311f46c895b7ca474236d71c" kindref="member">XMC_SCU_CLOCK_GetFastPeripheralClockFrequency()</ref>  Reset driver features:  -# Allows to trigger device reset <ref refid="group___s_c_u_1ga77c6ab2add788e4bd31eb563e0f8f8b1" kindref="member">XMC_SCU_RESET_AssertMasterReset()</ref></para>
 </listitem><listitem><para>Allows to configure multiple sources for reset, <ref refid="group___s_c_u_1gaa4dbbfd3a9346cc7eb84bda46d084607" kindref="member">XMC_SCU_RESET_EnableResetRequest()</ref> <linebreak/>
 </para>
 </listitem></orderedlist>
@@ -4629,11 +4623,10 @@ User can change the values of the protected bit fields within 32 MCLK cycles. Af
 </listitem></orderedlist>
 </para>
 <para>Miscellaneous features:<orderedlist>
-<listitem><para>Allows to trigger multiple capture compare unit(CCU) channels to be started together <ref refid="group___s_c_u_1gac10ca2cd72477476ffe38a4818bcae4b" kindref="member">XMC_SCU_SetCcuTriggerHigh()</ref></para>
-</listitem><listitem><para>Enables configuration of die temperature sensor <ref refid="group___s_c_u_1ga3b00187ccda526f06802152ecf199fa4" kindref="member">XMC_SCU_StartTempMeasurement()</ref>, <ref refid="group___s_c_u_1ga0f600fa31f024ec9d8e0c17fc767772f" kindref="member">XMC_SCU_SetRawTempLimits()</ref></para>
+<listitem><para>Allows to trigger multiple capture compare unit(CCU) channels to be started together <ref refid="group___s_c_u_1gac10ca2cd72477476ffe38a4818bcae4b" kindref="member">XMC_SCU_SetCcuTriggerHigh()</ref>  -# Enables configuration of die temperature sensor <ref refid="group___s_c_u_1ga3b00187ccda526f06802152ecf199fa4" kindref="member">XMC_SCU_StartTempMeasurement()</ref>, <ref refid="group___s_c_u_1ga0f600fa31f024ec9d8e0c17fc767772f" kindref="member">XMC_SCU_SetRawTempLimits()</ref></para>
 </listitem><listitem><para>Allows configuring supply monitor unit using the structure <ref refid="struct_x_m_c___s_c_u___s_u_p_p_l_y_m_o_n_i_t_o_r__t" kindref="compound">XMC_SCU_SUPPLYMONITOR_t</ref> and API <ref refid="group___s_c_u_1gab79580e5b6decc4f6ecce14be9efe17d" kindref="member">XMC_SCU_SupplyMonitorInit()</ref></para>
 </listitem><listitem><para>Allows handling of protected bits <ref refid="group___s_c_u_1gad9ba5dce219ea8390f4aa9f7bc46aafe" kindref="member">XMC_SCU_LockProtectedBits()</ref>, <ref refid="group___s_c_u_1gaf60632360634a2f1be0f8af715c03dea" kindref="member">XMC_SCU_UnlockProtectedBits()</ref><linebreak/>
- </para>
+  </para>
 </listitem></orderedlist>
 </para>
     </detaileddescription>

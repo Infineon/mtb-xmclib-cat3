@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_EBU_SDRAM_CONFIG_t</compoundname>
     <includes local="no">xmc_ebu.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="888" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="888" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1afed1e51674fb48745040b8ad07cbd691" prot="public" static="no" mutable="no">
         <type>union XMC_EBU_SDRAM_CONFIG_t::@138</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="921" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="921" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a7371c80f0650ad0e825187e9674cc3f5" prot="public" static="no" mutable="no">
         <type>union XMC_EBU_SDRAM_CONFIG_t::@140</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="977" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="977" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="899" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="899" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="899" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="899" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="905" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="905" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="905" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="905" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="975" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="975" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="975" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="975" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1af4e565ca82d73897629a7dbf737c5462" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="839" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="839" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="839" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="839" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a40fe29a2c5bccc5cfd0e392ac04bbcc8" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="844" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="844" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="844" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="844" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a4d056c9e4519ced599b69c3b1f0fcad2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="834" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="834" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="834" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="834" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a3409310c7a4d0a8091ad28d49e6a4852" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="849" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="849" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="849" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="849" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1aae8c10215b40bfa05e253859f8182642" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="969" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="969" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="969" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="969" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a1efe25dc0b5e60a651e99cb7f352ac79" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -174,7 +174,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="955" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="955" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="955" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="955" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a454cde2e634f6d533904fe35c9fea0b9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -189,7 +189,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="898" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="898" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="898" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="898" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a78cd743c02cb5db5551dfa8d98fc24b9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -204,7 +204,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="904" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="904" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="904" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="904" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a6ab4b3b207606794c3409ced7ca4567f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -219,7 +219,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="886" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="886" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="886" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="886" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a5f17ed98d3a8d59ec6aa180224110c08" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -234,7 +234,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="878" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="878" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="878" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="878" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1ad8499e170147036dfb7298ba352c4899" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -249,7 +249,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="909" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="909" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="909" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="909" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1aa11c9f4cc67b1f89d257ab28cd9a22f0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -264,7 +264,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="974" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="974" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="974" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="974" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1abedf8afc03ffa1d42fe82019641d0dc4" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -279,7 +279,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="919" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="919" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="919" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="919" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1accfdeb761752180bb9e473755827cb62" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -294,7 +294,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="914" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="914" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="914" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="914" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1ae4ad4fdb0be155ef9783237535ab36e9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -309,7 +309,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="959" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="959" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="959" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="959" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a92715b692e7835e6cd5296215adc8f4a" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -324,7 +324,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="870" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="870" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="870" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="870" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a21f6ab94fb555eba343580f21ed5c900" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -339,7 +339,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="866" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="866" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="866" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="866" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a98d36da29f058438e3b0c1f6275ae52e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -354,7 +354,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="936" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="936" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="936" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="936" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a2e58fcd8cb208b2747e2860437da3a01" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -369,7 +369,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="932" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="932" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="932" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="932" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a2e2bc42e7ea4972f0a8e432652f50beb" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -384,7 +384,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="882" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="882" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="882" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="882" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1ae324a28fac6e271db6bd1c558b50f3cb" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -399,7 +399,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="862" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="862" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="862" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="862" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a2ac2607b97cd2ae9e2ee54ca37813adf" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -414,7 +414,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="874" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="874" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="874" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="874" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a7363a4776d2a2b58c0bbd07c96704154" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -429,7 +429,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="858" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="858" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="858" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="858" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a333aadd878f5dfa3080070b1830ffbf7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -444,7 +444,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="948" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="948" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="948" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="948" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1aa8bb194d7daa87ead2c4f7b165ace59b" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -459,7 +459,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="942" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="942" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="942" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="942" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1ab84982ac7e0b1f07961445d8efaafad2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -474,7 +474,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="964" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="964" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="964" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="964" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a4ada8d7b61edbb0403745b63c6c57692" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -489,7 +489,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="853" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="853" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="853" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="853" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a1c9c29d7f8e7f061fe1b649d9bfb082a" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -502,7 +502,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="827" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="827" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="827" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="827" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1acbe7c18e421b751048bd70d61fa08577" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -515,7 +515,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="892" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="892" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="892" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="892" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1aed4a46abac796144f25cb0c926fc788f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -528,7 +528,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="925" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="925" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="925" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="925" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -538,7 +538,7 @@ entry&quot; command to all SDRAM devices when it gives up control of the externa
 </para>
 <para>The structure is a placeholder for setting (and obtaining) the SDRAM configuration, operation mode configuration and the right refresh parameters. The <ref refid="group___e_b_u_1gae530a04a7bc98515bed866feb8dc521a" kindref="member">XMC_EBU_ConfigureSdram()</ref> can be used to populate the structure with the SDRAM operation mode and refresh parameters configuration. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="823" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="822" bodyend="978"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="822" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="823" bodyend="978"/>
     <listofallmembers>
       <member refid="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_EBU_SDRAM_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___e_b_u___s_d_r_a_m___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_EBU_SDRAM_CONFIG_t</scope><name>__pad1__</name></member>

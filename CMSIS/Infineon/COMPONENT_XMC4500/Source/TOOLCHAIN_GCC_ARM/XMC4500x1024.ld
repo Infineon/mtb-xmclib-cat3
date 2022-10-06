@@ -1,6 +1,6 @@
 /**
  * @file XMC4500x1024.ld
- * @date 2017-04-20
+ * @date 2021-08-13
  *
  * @cond
  *********************************************************************************************************************
@@ -9,7 +9,7 @@
  *                    XMC4500-F144x1024
  *                    XMC4500-F100x1024
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2021, Infineon Technologies AG
  * All rights reserved.                        
  *                                             
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -53,13 +53,16 @@
  *
  * 2016-03-08:
  *     - Fix size of BSS and DATA sections to be multiple of 4
- *     - Add assertion to check that region DSRAM_1_system does not overflowed no_init section 
- *     
+ *     - Add assertion to check that region DSRAM_1_system does not overflowed no_init section
+ *
  * 2017-04-07:
  *     - Added new symbols __text_size and eText
  *
  * 2017-04-20:
- *     - Change vtable location to flash area to save ram             
+ *     - Change vtable location to flash area to save ram
+ *
+ * 2021-08-13:
+ *     - Include libnosys in the default link step
  *
  * @endcond 
  *
@@ -67,6 +70,7 @@
 
 OUTPUT_FORMAT("elf32-littlearm")
 OUTPUT_ARCH(arm)
+GROUP(-lgcc -lc -lnosys)
 ENTRY(Reset_Handler)
 
 MEMORY

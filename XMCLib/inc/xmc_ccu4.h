@@ -533,7 +533,7 @@ typedef enum XMC_CCU4_SHADOW_TRANSFER
                                                                           actual register for SLICE-3 */
 } XMC_CCU4_SHADOW_TRANSFER_t;
 
-#if defined(CCU4V3) || defined(DOXYGEN)/* Defined for XMC1400 devices only */
+#if defined(CCU4V3) || defined(DOXYGEN_XMC1)/* Defined for XMC1400 devices only */
 /**
  *  Slice shadow transfer mode options.
  * @note Only available for XMC1400 series
@@ -1221,7 +1221,7 @@ void XMC_CCU4_SLICE_Capture1Config(XMC_CCU4_SLICE_t *const slice, const XMC_CCU4
  * Individual capture registers can still be accessed in this mode.
  *
  * \par<b>Related APIs:</b><br>
- *  XMC_CCU4_GetCapturedValueFromFifo().
+ *  \if XMC4 XMC_CCU4_GetCapturedValueFromFifo()<BR> \endif XMC_CCU4_SLICE_GetCapturedValueFromFifo().
  */
 __STATIC_INLINE bool XMC_CCU4_SLICE_IsExtendedCapReadEnabled(const XMC_CCU4_SLICE_t *const slice)
 {
@@ -1229,7 +1229,7 @@ __STATIC_INLINE bool XMC_CCU4_SLICE_IsExtendedCapReadEnabled(const XMC_CCU4_SLIC
   return ((bool)((slice->TC & (uint32_t) CCU4_CC4_TC_ECM_Msk) == (uint32_t)CCU4_CC4_TC_ECM_Msk));
 }
 
-#if defined(CCU4V1) /* Defined for XMC4500, XMC4400, XMC4200, XMC4100 devices only */
+#if defined(CCU4V1) || defined(DOXYGEN_XMC4) /* Defined for XMC4500, XMC4400, XMC4200, XMC4100 devices only */
 /**
  * @param module Constant pointer to CCU4 module
  * @param slice_number to check whether read value belongs to required slice or not
@@ -1247,10 +1247,12 @@ __STATIC_INLINE bool XMC_CCU4_SLICE_IsExtendedCapReadEnabled(const XMC_CCU4_SLIC
  *
  * \par<b>Related APIs:</b><br>
  *  XMC_CCU4_SLICE_IsExtendedCapReadEnabled().
- *  @note Only available for XMC4500, XMC4400, XMC4200 and XMC4100 series
+ *  @note Only available for XMC4500, XMC4400, XMC4200 and XMC4100 series. For other devices use XMC_CCU4_SLICE_GetCapturedValueFromFifo() API.
  */
 int32_t XMC_CCU4_GetCapturedValueFromFifo(const XMC_CCU4_MODULE_t *const module, const uint8_t slice_number);
-#else
+#endif
+
+#if defined(CCU4V2) || defined(CCU4V3) || defined(DOXYGEN) /* Defined for XMC4800, XMC4700, XMC4300, XMC1400, XMC1300, XMC1200, XMC1100 devices only */
 /**
  * @param slice Constant pointer to CC4 Slice
  * @param set The capture register set from which the captured value is to be retrieved
@@ -1267,7 +1269,7 @@ int32_t XMC_CCU4_GetCapturedValueFromFifo(const XMC_CCU4_MODULE_t *const module,
  *
  * \par<b>Related APIs:</b><br>
  *  XMC_CCU4_SLICE_IsExtendedCapReadEnabled().
- * @note Defined for XMC4800, XMC4700, XMC4500, XMC4400, XMC4200, XMC4100 devices only. For other devices use XMC_CCU4_GetCapturedValueFromFifo() API
+ * \if XMC4 @note Only available for  XMC4800, XMC4700, XMC4300 series. For other devices use XMC_CCU4_GetCapturedValueFromFifo() API. \endif
  */
 uint32_t XMC_CCU4_SLICE_GetCapturedValueFromFifo(const XMC_CCU4_SLICE_t *const slice,
     const XMC_CCU4_SLICE_CAP_REG_SET_t set);
@@ -2261,7 +2263,7 @@ void XMC_CCU4_SLICE_SetInterruptNode(XMC_CCU4_SLICE_t *const slice,
 void XMC_CCU4_SLICE_SetPassiveLevel(XMC_CCU4_SLICE_t *const slice,
                                     const XMC_CCU4_SLICE_OUTPUT_PASSIVE_LEVEL_t level);
 
-#if defined(CCU4V3) || defined(DOXYGEN) /* Defined for XMC1400 devices only */
+#if defined(CCU4V3) || defined(DOXYGEN_XMC1) /* Defined for XMC1400 devices only */
 /**
  * @param slice Constant pointer to CC4 Slice
  *
@@ -2404,6 +2406,7 @@ __STATIC_INLINE void XMC_CCU4_SLICE_WriteImmediateAfterShadowTransfer(XMC_CCU4_S
 *
 * By updating the configured shadow register, the shadow transfer request is generated to update all the shadow registers.
 * \par<b>Note:</b><br>
+* Automatic shadow transfer feature does not work when system PCLK is faster than MCLK.
 *
 * \par<b>Related APIs:</b><br>
 *  XMC_CCU4_SLICE_DisableAutomaticShadowTransferRequest().

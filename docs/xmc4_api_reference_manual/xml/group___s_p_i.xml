@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___s_p_i" kind="group">
     <compoundname>SPI</compoundname>
     <title>Synchronous serial channel for SPI</title>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="325" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="324" bodyend="328"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="324" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="325" bodyend="328"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1gad62a419e5f01dc507f3f731995873fe4" prot="public" static="no" strong="no">
         <type></type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="292" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="291" bodyend="301"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="291" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="292" bodyend="301"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1gaaf40703e598cf0bd196246cc048dda10" prot="public" static="no" strong="no">
         <type></type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="164" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="163" bodyend="167"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="163" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="164" bodyend="167"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga3d2e9e07d36e47a2840855c7761f3d2f" prot="public" static="no" strong="no">
         <type></type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="185" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="184" bodyend="188"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="184" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="185" bodyend="188"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga7cf84a07d3e3970c1b09369fcf3c12db" prot="public" static="no" strong="no">
         <type></type>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="209" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="208" bodyend="221"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="208" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="209" bodyend="221"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga52dd53cd4c107af8f6d72c6c6a011886" prot="public" static="no" strong="no">
         <type></type>
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="256" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="255" bodyend="261"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="255" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="256" bodyend="261"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga5e1e7ef1aea059d58462c59b0fd75f8f" prot="public" static="no" strong="no">
         <type></type>
@@ -354,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="267" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="266" bodyend="274"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="266" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="267" bodyend="274"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga6396e4407b48373dd88ce24c1e229635" prot="public" static="no" strong="no">
         <type></type>
@@ -411,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="334" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="333" bodyend="340"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="333" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="334" bodyend="340"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga9dabbd3f51646f95b0719bf82c69c38f" prot="public" static="no" strong="no">
         <type></type>
@@ -459,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="280" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="279" bodyend="285"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="279" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="280" bodyend="285"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga01a43390cf6218a5f16976f0b6027096" prot="public" static="no" strong="no">
         <type></type>
@@ -489,7 +489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="173" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="172" bodyend="179"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="172" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="173" bodyend="179"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga770391e79549c7df020fdd0f3864a808" prot="public" static="no" strong="no">
         <type></type>
@@ -573,7 +573,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="194" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="193" bodyend="203"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="193" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="194" bodyend="203"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga7c2761994b910b3e09b6373448a90762" prot="public" static="no" strong="no">
         <type></type>
@@ -693,7 +693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="227" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="226" bodyend="250"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="226" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="227" bodyend="250"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" prot="public" static="no" strong="no">
         <type></type>
@@ -729,7 +729,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="155" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="154" bodyend="159"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="154" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="155" bodyend="159"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga4ba31662807d655662ed15c5a44e9832" prot="public" static="no" strong="no">
         <type></type>
@@ -773,7 +773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="314" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="313" bodyend="319"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="313" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="314" bodyend="319"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -823,7 +823,7 @@ e.g: During transmission Transmit buffer event occurs to indicating data word tr
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="716" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="716" bodyend="719"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="716" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="716" bodyend="719"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gac19e7d5bf3ff9b28764463d224b6e581" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -891,7 +891,7 @@ e.g: During transmission Transmit buffer event occurs to indicating data word tr
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1280" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1280" bodyend="1285"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1280" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1280" bodyend="1285"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gadaf15fe97c6fc0b78ac661e923521ee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -952,7 +952,7 @@ The shift clock output(SCLKOUT) signal polarity can be set relative to SCLK, wit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="951" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="951" bodyend="957"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="951" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="951" bodyend="957"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga87d32f246cfd7eca010b38e90810277b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -993,7 +993,7 @@ Use this function in combination with <ref refid="group___s_p_i_1ga9ed5d8b86f55d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1348" bodyend="1351"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1348" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1348" bodyend="1351"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gac0b5cdd04a90124e347ba3ef897dc545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1034,7 +1034,7 @@ Use this function in combination with <ref refid="group___s_p_i_1ga9ed5d8b86f55d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1260" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1260" bodyend="1263"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1260" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1260" bodyend="1263"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaeb24e63f6664b519405dd75ca9d856fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1069,7 +1069,7 @@ Typically this can be disabled, where the transmission control is done by the ha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1070" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1070" bodyend="1073"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1070" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1070" bodyend="1073"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga8f3bb2759c5dc83f4df9674bc7521dfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1116,7 +1116,7 @@ After disabling the events, <ref refid="group___s_p_i_1ga91fef97e4d595f37fbfb60a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="681" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="681" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="681" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga76bad04e2d660078ce675baa6320f1b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1151,7 +1151,7 @@ After disabling the events, <ref refid="group___s_p_i_1ga91fef97e4d595f37fbfb60a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="929" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="929" bodyend="932"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="929" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="929" bodyend="932"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gadf00d5c823846ca5c13f627baa541663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1199,7 +1199,7 @@ Resets the input data polarity. Invoke <ref refid="group___s_p_i_1ga68c629a48d4d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1153" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1153" bodyend="1157"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1153" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1153" bodyend="1157"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaeb85102d1ba6a3387e578819de6ccb9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1234,7 +1234,7 @@ So the last data bit of a data word is directly followed by the first data bit o
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="825" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="825" bodyend="828"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="825" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="825" bodyend="828"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gac7bd8be53e17d3285fd8fc87ec2a50bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1269,7 +1269,7 @@ This clock can be enabled by invoking <ref refid="group___s_p_i_1gaf1bf70c8e262b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="752" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="752" bodyend="755"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="752" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="752" bodyend="755"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga5b2480876aa7c3b1c9646156d015e398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1304,7 +1304,7 @@ This clock can be enabled by invoking <ref refid="group___s_p_i_1gaf1bf70c8e262b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="532" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="532" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="532" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gacb9748ed69822299ecb2a1488a3210e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1335,7 +1335,7 @@ This clock can be enabled by invoking <ref refid="group___s_p_i_1gaf1bf70c8e262b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1310" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1310" bodyend="1314"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1310" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1310" bodyend="1314"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gac0243074b234e51bebab42c98a194a63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1370,7 +1370,7 @@ Typically this can be disabled, where the transmission control is done by the ha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1033" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1033" bodyend="1036"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1033" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1033" bodyend="1036"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga9ed5d8b86f55dd5a64316392b90c661b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1413,7 +1413,7 @@ Use this function in combination with <ref refid="group___s_p_i_1ga87d32f246cfd7
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1330" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1330" bodyend="1333"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1330" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1330" bodyend="1333"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gab1fb0a57f619c0d1872482196399a443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1454,7 +1454,7 @@ Use this function in combination with <ref refid="group___s_p_i_1ga87d32f246cfd7
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1244" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1244" bodyend="1247"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1244" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1244" bodyend="1247"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gae37ff42efc15af1807458ff0a47053ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1490,7 +1490,7 @@ This can be used if the software handles the TBUF data without FIFO. If EOF is s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1053" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1053" bodyend="1056"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1053" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1053" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga91fef97e4d595f37fbfb60a4fd5624e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1537,7 +1537,7 @@ Events can be enabled as needed using <ref refid="group___s_p_i_1ga91fef97e4d595
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="664" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="664" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="664" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga50f619649550b90af1adfecb924ce0df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1573,7 +1573,7 @@ This is typically used during the transmission of multi-data word frames, where 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="909" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="909" bodyend="912"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="909" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="909" bodyend="912"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga68c629a48d4d82c08c1017a9c822deeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1621,7 +1621,7 @@ This is not set in <ref refid="group___s_p_i_1ga8b16f43a349603e746885a6d0d00b312
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1133" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1133" bodyend="1137"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1133" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1133" bodyend="1137"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gad7b042f05c42e05efd3ba52df303f1d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1656,7 +1656,7 @@ The inter word delay starts at the end of last SCLK cycle of data word. During t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="807" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="807" bodyend="810"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="807" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="807" bodyend="810"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaf1bf70c8e262bdf3727e7bc2d21b578b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1691,7 +1691,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="735" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="735" bodyend="738"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="735" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="735" bodyend="738"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga065897e36db1bbcffe141ad992cea9ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1739,7 +1739,7 @@ Each slave is connected with one slave select signal. This is not configured in 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="518" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="518" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="518" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaa1d508df7f014140bc929286ef63a9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1770,7 +1770,7 @@ Each slave is connected with one slave select signal. This is not configured in 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1296" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1296" bodyend="1300"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1296" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1296" bodyend="1300"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gad11bb01cc21d11bf8f7cfa0a1a2b8a46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1805,7 +1805,7 @@ This can be used if the software handles the TBUF data without FIFO. If SOF is s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1016" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1016" bodyend="1019"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1016" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1016" bodyend="1019"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga55ae75a9f812ee0ed92303074e990f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1840,7 +1840,7 @@ Invocation of <ref refid="group___s_p_i_1gae797c93243d5ab6ad7c5b1de311d6a3c" kin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="610" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="610" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="610" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga16747654a19c5dcef00d7f7e61d14f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1875,7 +1875,7 @@ This indicates the status of the all the events, for SPI communication.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="695" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="695" bodyend="698"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="695" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="695" bodyend="698"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga8b16f43a349603e746885a6d0d00b312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1964,7 +1964,7 @@ And if master mode is selected, <itemizedlist>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="428" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="428" bodyend="431"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="428" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="428" bodyend="431"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaf75ad720e31d94b96f1811e47c7e7559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2065,7 +2065,7 @@ And if master mode is selected, <itemizedlist>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="397" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="397" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="397" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gae797c93243d5ab6ad7c5b1de311d6a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2113,7 +2113,7 @@ And if master mode is selected, <itemizedlist>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="591" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="591" bodyend="595"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="591" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="591" bodyend="595"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga4a6b621ddf701529b5256181d40bbdac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2182,7 +2182,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1204" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1204" bodyend="1210"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1204" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1204" bodyend="1210"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga41fd386bd95f41b0274c4fd162b1a539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" kindref="member">XMC_SPI_CH_STATUS_t</ref></type>
@@ -2229,7 +2229,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="483" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="483" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="483" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gab70defd631cb9e9210f779fedce93efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" kindref="member">XMC_SPI_CH_STATUS_t</ref></type>
@@ -2288,7 +2288,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="500" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="500" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="500" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga72ca69c5bc68803067ff496538ff5f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2323,7 +2323,7 @@ This is typically based on the slave settings. Invoke <ref refid="group___s_p_i_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="625" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="625" bodyend="628"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="625" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="625" bodyend="628"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga8f4bbed2c9583c7a454951c83acbe646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2358,7 +2358,7 @@ This is typically based on the slave settings. This is not set during <ref refid
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="643" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="643" bodyend="646"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="643" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="643" bodyend="646"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaedb545863be3b85d6b2ec51503926432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2406,7 +2406,7 @@ Set the number of bits to be serially transmitted in a frame. The frame length s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="996" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="996" bodyend="999"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="996" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="996" bodyend="999"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gab5800f69155c1ecadedf587fd567e2b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2464,7 +2464,7 @@ Selects the input data signal source among DXnA, DXnB.. DXnG for the input stage
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1090" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1090" bodyend="1096"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1090" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1090" bodyend="1096"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga14b1f10c37e326b76cd214f7c006add2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2516,7 +2516,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1178" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1178" bodyend="1182"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1178" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1178" bodyend="1182"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga3902d15aaff83cbce1d0d9b252183ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2566,7 +2566,7 @@ After configuring the inter word delay, this has to be enabled by invoking <ref 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="847" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="847" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="847" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga5ebec7e4e0641a615e9a98ccb11ada78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2613,7 +2613,7 @@ This delay is dependent on the peripheral clock. The maximum possible value supp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="864" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="864" bodyend="871"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="864" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="864" bodyend="871"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga916c987f6fafac74e740c6b626f37a8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2658,7 +2658,7 @@ This delay is dependent on the peripheral clock. The maximum possible value supp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="885" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="885" bodyend="891"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="885" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="885" bodyend="891"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga6c327beee42bdb3d24865f1bc19376d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2704,7 +2704,7 @@ Normally MSLS signal is active low level signal. SO based on the slave inversion
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1111" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1111" bodyend="1116"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1111" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1111" bodyend="1116"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gabef8a168c4d9d5e229fd04ae66a92ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2752,7 +2752,7 @@ By enabling this the direction of the data pin is updated by hardware itself. Be
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="549" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="549" bodyend="553"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="549" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="549" bodyend="553"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga874157094bd9b28c5a5493eee577df72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2800,7 +2800,7 @@ Sets the number of bits to represent a data word. Frame length should be a multi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="973" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="973" bodyend="976"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="973" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="973" bodyend="976"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga4e3869696f61ef196fd2ea66a667bb0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2835,7 +2835,7 @@ It should be executed after <ref refid="group___s_p_i_1ga8b16f43a349603e746885a6
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="446" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="446" bodyend="450"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="446" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="446" bodyend="450"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga7fd532dae41a2b9d754aa3de0f412a8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" kindref="member">XMC_SPI_CH_STATUS_t</ref></type>
@@ -2872,7 +2872,7 @@ After calling XMC_SPI_CH_Stop, channel is IDLE mode. So no communication is supp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="467" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="467" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="467" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga273573d7d388e93ff9018ff87abe9dc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2932,7 +2932,7 @@ In Dual and Quad modes, hardware port control(CCR.HPCEN) mode is enabled. By ena
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="574" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="574" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="574" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga69901d79102b4efda87bc822b0d1e5d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2987,7 +2987,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1227" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1227" bodyend="1230"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1227" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1227" bodyend="1230"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -3001,7 +3001,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="133" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="133" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="133" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1gaea0fc2e67a9745c9dded45de4b218095" prot="public" static="no">
         <name>XMC_SPI0_CH1</name>
@@ -3013,7 +3013,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="134" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="134" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="134" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1ga51b74698dfc8082605bc0d5a7a478c50" prot="public" static="no">
         <name>XMC_SPI1_CH0</name>
@@ -3025,7 +3025,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="138" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="138" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="138" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1gacd8b796500e98b94f045f57198e3d4ae" prot="public" static="no">
         <name>XMC_SPI1_CH1</name>
@@ -3037,7 +3037,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="139" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="139" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="139" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1gad2f1be17c48106b2fde910c65ba36166" prot="public" static="no">
         <name>XMC_SPI2_CH0</name>
@@ -3049,7 +3049,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="143" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="143" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="143" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1ga099781db3446d2d4b85863cb86247053" prot="public" static="no">
         <name>XMC_SPI2_CH1</name>
@@ -3061,7 +3061,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="144" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="144" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="144" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

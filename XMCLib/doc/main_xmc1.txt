@@ -16,7 +16,7 @@
  * - XMC1100 series
  *
  * The following toolchains are supported:
- * - GNU GCC for ARM 9.3.1 (provided with ModusToolbox 2.3).
+ * - GNU GCC for ARM 10.3.1. (provided with ModusToolbox 3.0).
  *
  * @section overview Overview
  * XMC Lib consists of routines and data structures which cover all peripheral functions.
@@ -275,14 +275,12 @@
  * @verbatim
  * mtb-xmclib-cat3                           - XMClib root directory
  *  +-- CMSIS                                - The Cortex Microcontroller Software Interface Standard abstraction layer
- * │   +-- Core                              - Hardware Abstraction Layer (HAL) for Cortex-M processor registers
  * │   +-- Infineon                          - Includes device header files, system and startup files
  * +-- docs                                  - XMC Peripheral Library documentation generated with Doxygen
  * │   +-- xmc1_api_reference_manual.html    - XMC Peripheral Library documentation with XMC1 specific information
  * │   \-- xmc4_api_reference_manual.html    - XMC Peripheral Library documentation with XMC4 specific information
  * +-- Newlib                                - C standard library implementation intended for use on embedded systems.
- * +-- personalities                         - Configuration files that defines a resource behavior for ModusToolbox Device Configurator
- * +-- udd                                   - Device description files for ModusToolbox Device Configurator
+ * +-- device-info                           - Configuration files that defines a resource behavior for ModusToolbox Device Configurator
  * +-- XMCLib
  * │   +-- doc                               - Doxygen configuration files to generate documentation
  * │   +-- inc                               - XMC Peripheral Library API interface files
@@ -328,13 +326,13 @@
  *	- Limited functional test is applied with XMC1404-Q064x0200.
  *
  *  Compilers used :
- *  -  GNU GCC for ARM 9.3.1.
+ *  -  GNU GCC for ARM 10.3.1.
  *
  * @section licensing XMC Peripheral Library Licensing
  *
  * <b> License Terms and Copyright Information </b>
  *
- * Copyright (c) 2015-2021, Infineon Technologies AG
+ * Copyright (c) 2015-2022, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__can_8h" kind="file" language="C++">
     <compoundname>xmc_can.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
@@ -7,24 +7,24 @@
     <includes local="yes">xmc_can_map.h</includes>
     <includes local="no">string.h</includes>
     <incdepgraph>
-      <node id="15">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="16">
-        <label>xmc_can_map.h</label>
-      </node>
-      <node id="17">
-        <label>string.h</label>
-      </node>
-      <node id="14">
+      <node id="1">
         <label>xmc_can.h</label>
         <link refid="xmc__can_8h"/>
-        <childnode refid="15" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="3">
+        <label>xmc_can_map.h</label>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" prot="public">XMC_CAN_FIFO_CONFIG_t</innerclass>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="176" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="176" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="176" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_a_n_1ga3861567f5ca18080a4a3218a54ac27f5" prot="public" static="no">
         <name>CAN_NODE_NIPR_Msk</name>
@@ -55,11 +55,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="174" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="174" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="174" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_a_n_1gaa835dc070e65ec31c19cbe8a993a13d4" prot="public" static="no">
         <name>XMC_CAN_MO_MOAR_STDID_Msk</name>
-        <initializer>((0x000007FFUL) &lt;&lt; XMC_CAN_MO_MOAR_STDID_Pos)</initializer>
+        <initializer>((0x000007FFUL) &lt;&lt; <ref refid="group___c_a_n_1gaa064c66529a2259fdeec10ac612b28f4" kindref="member">XMC_CAN_MO_MOAR_STDID_Pos</ref>)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="172" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="172" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="172" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_a_n_1gaa064c66529a2259fdeec10ac612b28f4" prot="public" static="no">
         <name>XMC_CAN_MO_MOAR_STDID_Pos</name>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="170" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="170" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="170" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="241" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="240" bodyend="245"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="240" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="241" bodyend="245"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" prot="public" static="no" strong="no">
         <type></type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="457" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="456" bodyend="468"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="456" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="457" bodyend="468"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga96241438cdf8b6f817c9ab98567f072a" prot="public" static="no" strong="no">
         <type></type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="261" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="260" bodyend="265"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="260" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="261" bodyend="265"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga97b0064e80ec6d5bfcab78f7a35b49a0" prot="public" static="no" strong="no">
         <type></type>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="251" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="250" bodyend="255"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="250" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="251" bodyend="255"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga4931cde412f7a12b60fefc606a6c9380" prot="public" static="no" strong="no">
         <type></type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="231" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="230" bodyend="234"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="230" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="231" bodyend="234"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga9550c3eb3076c42f27d5d240d19db0db" prot="public" static="no" strong="no">
         <type></type>
@@ -268,7 +268,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Each CAN node can be connected to the internal CAN bus </para>
+<para>Each CAN node can be connected to the internal CAN bus <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___c_a_n_1gga9550c3eb3076c42f27d5d240d19db0dbaa30431674d0a8b754ca912a435ac20b4" prot="public">
@@ -286,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="213" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="212" bodyend="216"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="212" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="213" bodyend="216"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga4a4368056ee3b69f1c38f5fa41687704" prot="public" static="no" strong="no">
         <type></type>
@@ -325,7 +326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="398" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="397" bodyend="402"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="397" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="398" bodyend="402"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga5779e98919b963f0073cb04a129cb581" prot="public" static="no" strong="no">
         <type></type>
@@ -355,7 +356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="389" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="388" bodyend="392"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="388" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="389" bodyend="392"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga117048d5267011245c4ff40047d00c64" prot="public" static="no" strong="no">
         <type></type>
@@ -475,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="290" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="289" bodyend="303"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="289" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="290" bodyend="303"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga71459a95ce4da56054ac63b26450d53f" prot="public" static="no" strong="no">
         <type></type>
@@ -595,7 +596,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="271" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="270" bodyend="284"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="270" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="271" bodyend="284"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gabb506b9cf0ade6f965c2af19458a03e5" prot="public" static="no" strong="no">
         <type></type>
@@ -742,7 +743,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="309" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="308" bodyend="325"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="308" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="309" bodyend="325"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga3fbcea02aab3f82946f94f9a31a23cc6" prot="public" static="no" strong="no">
         <type></type>
@@ -770,7 +771,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="222" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="221" bodyend="225"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="221" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="222" bodyend="225"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga43682a582f983e5e6d8bed1d863c0525" prot="public" static="no" strong="no">
         <type></type>
@@ -854,7 +855,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="350" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="349" bodyend="361"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="349" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="350" bodyend="361"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gae708efa53df4791e665aa6a900eeb6a6" prot="public" static="no" strong="no">
         <type></type>
@@ -892,7 +893,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CAN Frame Count Event </para>
+<para>CAN Frame Count Event <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -902,7 +904,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="367" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="366" bodyend="372"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="366" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="367" bodyend="372"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gacbd6bd74f665b242e800d56b7e1b936d" prot="public" static="no" strong="no">
         <type></type>
@@ -978,7 +980,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="442" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="441" bodyend="451"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="441" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="442" bodyend="451"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga58a294b10b4e0b575f0d378313fc3b05" prot="public" static="no" strong="no">
         <type></type>
@@ -1006,7 +1008,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="423" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="422" bodyend="426"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="422" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="423" bodyend="426"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga588030349d9f7f929bcdfca3b2e1df13" prot="public" static="no" strong="no">
         <type></type>
@@ -1034,7 +1036,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="433" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="432" bodyend="436"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="432" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="433" bodyend="436"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga8df6893c4bb8410cf24639fea906ebea" prot="public" static="no" strong="no">
         <type></type>
@@ -1082,7 +1084,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="378" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="377" bodyend="383"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="377" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="378" bodyend="383"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gae061ae75276ded4637f93c9b7d5e44eb" prot="public" static="no" strong="no">
         <type></type>
@@ -1158,7 +1160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="408" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="407" bodyend="417"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="407" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="408" bodyend="417"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga6efda609ad66be6ae2564b3b4310c362" prot="public" static="no" strong="no">
         <type></type>
@@ -1251,7 +1253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="331" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="330" bodyend="343"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="330" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="331" bodyend="343"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gab71d557389d7e9579179770028146451" prot="public" static="no" strong="no">
         <type></type>
@@ -1326,7 +1328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="197" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="196" bodyend="206"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="196" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="197" bodyend="206"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" prot="public" static="no" strong="no">
         <type></type>
@@ -1378,7 +1380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="185" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="184" bodyend="191"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="184" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="185" bodyend="191"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -1390,11 +1392,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Defines Node Runtime structure.pointer to the Node CAN register </para>
+<para>Defines Node Runtime structure. pointer to the Node CAN register </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="555" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="555" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="555" column="27" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="555" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" prot="public" static="no">
         <type>CAN_GLOBAL_TypeDef</type>
@@ -1408,7 +1410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="520" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="520" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="520" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="520" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -1467,7 +1469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="665" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="665" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="665" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gae15982ed9fe8b5d5d516bbfd97acac29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1503,7 +1505,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="625" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="625" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="625" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaa86fb69d66595df948327ff91e8822d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1539,7 +1541,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="643" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="643" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="643" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga115c3ec73d6cecc0483c71a02524e043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1584,7 +1586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="739" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="739" bodyend="742"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="739" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="739" bodyend="742"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga592a44778b57ac9b8741f04453834611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1620,7 +1622,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2011" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2011" bodyend="2014"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2011" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2011" bodyend="2014"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga1210ed3b3c4628122ea9f8032a174721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1658,7 +1660,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2058" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2058" bodyend="2061"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2058" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2058" bodyend="2061"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga09f2577700dc44e3fc9bfc2e6c0792ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1691,7 +1693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2143" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2143" bodyend="2146"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2143" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2143" bodyend="2146"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6857e2566613c34371f0ae653da77174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1727,7 +1729,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1991" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1991" bodyend="1994"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1991" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1991" bodyend="1994"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga62a26191fd7093d125769b42b656f4a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1765,7 +1767,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2034" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2034" bodyend="2037"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2034" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2034" bodyend="2037"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga2ea05416157d30fd67cadffcf1cb485d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1798,7 +1800,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2123" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2123" bodyend="2126"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2123" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2123" bodyend="2126"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3b77055ea43fb0ebb071fae155feb90b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1831,7 +1833,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2100" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2100" bodyend="2103"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2100" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2100" bodyend="2103"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6300b5ce35687e006890eb0c968a78af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1876,7 +1878,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2079" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2079" bodyend="2083"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2079" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2079" bodyend="2083"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gabec17bceec62048721c0e71c4157b8b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1909,7 +1911,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2258" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2258" bodyend="2262"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2258" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2258" bodyend="2262"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga732a6fda09cb70f66f05ca58f8d8eeab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1954,7 +1956,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2239" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2239" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2239" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf4303398a9172e5447e43adf375b8382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1985,7 +1987,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="805" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="805" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="805" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga342c01ea7ab6cd06a1ed0bb76447bb81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" kindref="member">XMC_CAN_CANCLKSRC_t</ref></type>
@@ -2016,7 +2018,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="783" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="783" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="783" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf19f8e41011ebe7e77b4662cb81e4332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2047,7 +2049,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="817" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="817" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="817" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaee4a5b343f44ffbde1ef26639eb84313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2090,7 +2092,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2302" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2302" bodyend="2305"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2302" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2302" bodyend="2305"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6c3c7f61d0d6e075977ee7473f460df6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2133,7 +2135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2316" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2316" bodyend="2319"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2316" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2316" bodyend="2319"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga1cec2fa8beb70934e400fc96c4ffe50d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2197,7 +2199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="842" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="842" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="842" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaad8c21b97d426234e799f7a1895907f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2260,7 +2262,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="772" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="772" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="772" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga52fe6641459f69df4dba72f8a0c13c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2303,7 +2305,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2288" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2288" bodyend="2291"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2288" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2288" bodyend="2291"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga8248647c78ac9309f75f4811dda4e67c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2336,7 +2338,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="681" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="681" bodyend="684"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="681" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="681" bodyend="684"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga66d6f89bab2fab4393f1fb083dfd6998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2369,7 +2371,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1905" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1905" bodyend="1909"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1905" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1905" bodyend="1909"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga4a137b8f0c2ac3c5b5cd09e2ca60d385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2402,7 +2404,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1925" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1925" bodyend="1929"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1925" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1925" bodyend="1929"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3a06733578e85ec9be83df3ca65c82bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2435,7 +2437,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="861" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="861" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="861" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga5a7a77e7d7d29c17ca87ffbe3245f76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2480,7 +2482,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1778" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1778" bodyend="1782"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1778" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1778" bodyend="1782"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gae3aae4d86c63769fa898ea11e2f0cd87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2525,7 +2527,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1717" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1717" bodyend="1721"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1717" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1717" bodyend="1721"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga776a1a1c02708ff6aece5a2beb32953b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2558,7 +2560,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1758" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1758" bodyend="1761"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1758" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1758" bodyend="1761"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga28a3afd0294c21c2065db2e312a6ebe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2603,7 +2605,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1695" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1695" bodyend="1699"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1695" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1695" bodyend="1699"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga4f01b3116be459e384c3925b44fc2ec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2636,7 +2638,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1738" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1738" bodyend="1741"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1738" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1738" bodyend="1741"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga7850274ffd707c7eedd0f5799ac04948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2669,7 +2671,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1872" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1872" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1872" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga0d5ca295b82bcac10c8fb2a570b446f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -2702,7 +2704,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1820" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1820" bodyend="1823"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1820" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1820" bodyend="1823"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3947c77efb8efc1eab0af01e20418f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2735,7 +2737,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1856" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1856" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1856" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga19119baa3f77d51a0d28c9342efb1d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2778,7 +2780,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2330" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2330" bodyend="2338"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2330" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2330" bodyend="2338"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga70d6a7847ba129346e515c269e4770aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2809,7 +2811,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2348" bodyend="2351"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2348" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2348" bodyend="2351"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga34acd408a7a99294587a5c604e1c9918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2842,7 +2844,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1634" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1634" bodyend="1637"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1634" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1634" bodyend="1637"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga303ca6355a2c8b8858eaa016508b7255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -2875,7 +2877,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1578" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1578" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1578" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaa4af5d86b90db9f02681e7059eadfdda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -2908,7 +2910,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1594" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1594" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1594" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gab88ba4b28db7404e7e3a271c1e585905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2953,7 +2955,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1674" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1674" bodyend="1677"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1674" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1674" bodyend="1677"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaab905544dbd9ba9ede00d5500e9c38f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2998,7 +3000,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1889" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1889" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1889" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga2441a13da1f6ee2235b94c5a6ba522ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3043,7 +3045,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1799" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1799" bodyend="1804"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1799" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1799" bodyend="1804"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gafe77c3e9f8d0fcde86f2ac020f0d5493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3099,9 +3101,9 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Message Object event mask </para>
+<para>&lt; Message Object event mask</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1611" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1611" bodyend="1617"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1611" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1611" bodyend="1617"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga690a85f842a9fddc61c9d2bf0370d308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3136,7 +3138,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1970" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1970" bodyend="1974"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1970" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1970" bodyend="1974"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga54679df9afbdddaf68ffd780ced427d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3181,7 +3183,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1840" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1840" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1840" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3c8e0550bdb85767ee0d984dd50b9b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3216,7 +3218,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1947" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1947" bodyend="1951"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1947" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1947" bodyend="1951"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gabcb79c734a68ae614d901d69ef8e20fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3264,7 +3266,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1654" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1654" bodyend="1657"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1654" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1654" bodyend="1657"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga16dd387e3c8337317efe5246d66c8e91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -3300,7 +3302,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1561" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1561" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1561" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gafb022d0b0f3cbf13b291b695741cd47f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -3338,7 +3340,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1544" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1544" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1544" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga0824727cc57db59df4efe008625af141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3383,7 +3385,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1266" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1266" bodyend="1269"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1266" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1266" bodyend="1269"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3a60a49f75d0f9a4f52286856278a9bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3416,7 +3418,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1385" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1385" bodyend="1388"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1385" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1385" bodyend="1388"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6f266f543962bf5969d438af202d2d48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3449,7 +3451,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1307" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1307" bodyend="1310"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1307" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1307" bodyend="1310"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf5ed3045870e0180b41ee4f19f63d278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3494,7 +3496,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1043" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1043" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1043" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6e59aef13717065359d5ea387e88118b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3529,7 +3531,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1002" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1002" bodyend="1005"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1002" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1002" bodyend="1005"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga924a346597f2770058d12d837b7ec05c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3562,7 +3564,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1366" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1366" bodyend="1370"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1366" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1366" bodyend="1370"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gac26b568458cf0a7b88018bd3ddf5eccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3595,7 +3597,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1287" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1287" bodyend="1290"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1287" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1287" bodyend="1290"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga085ec39999617b4880795dd3f5990873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3640,7 +3642,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1024" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1024" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1024" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga214ceb497a79f17a1a97090131a11247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3675,7 +3677,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="977" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="977" bodyend="980"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="977" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="977" bodyend="980"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gae43a6605f4303deaa9077c9ca1cc29f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3710,7 +3712,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1451" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1451" bodyend="1454"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1451" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1451" bodyend="1454"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gafd589a86e011a98d636e4fce616dbb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3755,7 +3757,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1494" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1494" bodyend="1500"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1494" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1494" bodyend="1500"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga1980308d1958c918cfb16dd43b09ce3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -3788,7 +3790,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1520" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1520" bodyend="1523"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1520" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1520" bodyend="1523"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga52536f202ef63f0205ec8dad7ae36c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -3824,7 +3826,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1181" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1181" bodyend="1184"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1181" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1181" bodyend="1184"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga32d160a9ce4260e34878a09df80f0131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga58a294b10b4e0b575f0d378313fc3b05" kindref="member">XMC_CAN_NODE_LAST_ERROR_DIR_t</ref></type>
@@ -3860,7 +3862,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1060" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1060" bodyend="1063"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1060" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1060" bodyend="1063"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga02d5e3c90dfff44b3259a31dbb900995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga588030349d9f7f929bcdfca3b2e1df13" kindref="member">XMC_CAN_NODE_LAST_ERROR_INC_t</ref></type>
@@ -3896,7 +3898,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1080" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1080" bodyend="1083"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1080" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1080" bodyend="1083"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga5e296f7d900a54bd56b099a8b23f87d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -3929,7 +3931,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1226" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1226" bodyend="1229"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1226" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1226" bodyend="1229"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga340523d61c73d6b17af9e7d201a53c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3962,7 +3964,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1246" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1246" bodyend="1249"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1246" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1246" bodyend="1249"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gab9167c7c6b40606532beacdfcfe7e650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -3997,7 +3999,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1206" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1206" bodyend="1209"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1206" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1206" bodyend="1209"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga237cbd25e96515d2d1207fe93ae6063a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4042,7 +4044,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="904" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="904" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="904" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga590a52441b24c5877d15271f16dd7a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -4090,7 +4092,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="926" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="926" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="926" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gac86e37cc7f4ea0cec6849b08b8ab71b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4123,7 +4125,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1427" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1427" bodyend="1430"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1427" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1427" bodyend="1430"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga403725545e4b32c3dd0e67ba921a6366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4156,7 +4158,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1348" bodyend="1351"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1348" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1348" bodyend="1351"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6e2bd3d9846dcbee149409baf623bbdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4189,7 +4191,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1407" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1407" bodyend="1410"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1407" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1407" bodyend="1410"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3e60df9bc4171abdfa5b7b8e8facae14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4239,7 +4241,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1105" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1105" bodyend="1109"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1105" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1105" bodyend="1109"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga8878e96aee1e89d19eb5895f31e789b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4295,9 +4297,9 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Node event mask </para>
+<para>&lt; Node event mask</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="881" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="881" bodyend="886"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="881" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="881" bodyend="886"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gadb89a6e0630d7ccf0b233caa989599ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4330,7 +4332,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1329" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1329" bodyend="1332"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1329" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1329" bodyend="1332"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga05c55e7c28370cd64b77225c43ca6838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4380,7 +4382,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1158" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1158" bodyend="1162"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1158" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1158" bodyend="1162"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf46cc61decf5ecc62a50f8d960659eab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4427,7 +4429,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="949" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="949" bodyend="954"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="949" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="949" bodyend="954"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga9a5d2ce11b0c3bcf0d8274cf340d84d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4477,7 +4479,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1132" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1132" bodyend="1136"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1132" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1132" bodyend="1136"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga461411e88974c50a6e7b36e73c9fc56e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4546,7 +4548,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="709" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="709" bodyend="717"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="709" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="709" bodyend="717"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf3af812306e78f6c35f4837e3f87d4d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4591,7 +4593,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2182" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2182" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2182" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf1de58dc7fb68ad5865fc0db41bc01a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4624,7 +4626,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2216" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2216" bodyend="2219"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2216" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2216" bodyend="2219"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6bfa6ec4cc9efd44470400548b5a0d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4659,7 +4661,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="794" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="794" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="794" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga53d857e001d98cde8e1e838370a4eef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4704,7 +4706,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2165" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2165" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2165" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gac51fa23741c9f64f35dca049aeb9201b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4749,7 +4751,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2199" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2199" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2199" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga568c53e9d219eabf0defeb9684b6c587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -4780,7 +4782,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2277" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2277" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2277" declcolumn="18"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -4791,8 +4793,8 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="106"><highlight class="preprocessor">#ifndef<sp/>XMC_CAN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_CAN_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_CAN_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
@@ -4807,18 +4809,17 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="168"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="169"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_CAN_MO_MOAR_STDID_Pos<sp/>(18U)<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="172"><highlight class="preprocessor">#define<sp/>XMC_CAN_MO_MOAR_STDID_Msk<sp/>((0x000007FFUL)<sp/>&lt;&lt;<sp/>XMC_CAN_MO_MOAR_STDID_Pos)<sp/></highlight></codeline>
-<codeline lineno="174"><highlight class="preprocessor">#define<sp/>CAN_NODE_NIPR_Msk<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x7UL)<sp/></highlight></codeline>
-<codeline lineno="176"><highlight class="preprocessor">#define<sp/>CAN_MO_MOIPR_Msk<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x7U)<sp/><sp/></highlight></codeline>
-<codeline lineno="178"><highlight class="preprocessor"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_CAN_MO_MOAR_STDID_Pos<sp/>(18U)<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_CAN_MO_MOAR_STDID_Msk<sp/>((0x000007FFUL)<sp/>&lt;&lt;<sp/>XMC_CAN_MO_MOAR_STDID_Pos)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CAN_NODE_NIPR_Msk<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x7UL)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CAN_MO_MOIPR_Msk<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x7U)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="179"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
-<codeline lineno="180"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_STATUS</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_STATUS</highlight></codeline>
 <codeline lineno="185"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga33a809a5460e5265b2fa3a5ddff3f337a94696aa2505cc9dfdfa2afbe3310edb2" kindref="member">XMC_CAN_STATUS_SUCCESS</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga33a809a5460e5265b2fa3a5ddff3f337aac958dcd220626c9d568b816c59e663c" kindref="member">XMC_CAN_STATUS_ERROR</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4827,7 +4828,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="190"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga33a809a5460e5265b2fa3a5ddff3f337aa22fa07338db7142d8f359396ede3e87" kindref="member">XMC_CAN_STATUS_MO_DISABLED</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="191"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_PANCMD</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_PANCMD</highlight></codeline>
 <codeline lineno="197"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggab71d557389d7e9579179770028146451a0ac07206e3eecb78c8a699677f886959" kindref="member">XMC_CAN_PANCMD_INIT_LIST</ref><sp/>=<sp/>1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="199"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggab71d557389d7e9579179770028146451a300c34791f76e74f134a5922dc0b6985" kindref="member">XMC_CAN_PANCMD_STATIC_ALLOCATE</ref><sp/>=<sp/>2U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4838,47 +4839,47 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="205"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggab71d557389d7e9579179770028146451a81e6e9e5b0f9c23050835639b9939294" kindref="member">XMC_CAN_PANCMD_DYNAMIC_INSERT_BEHIND</ref><sp/>=<sp/>7U<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="206"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1gab71d557389d7e9579179770028146451" kindref="member">XMC_CAN_PANCMD_t</ref>;</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_LOOKBACKMODE</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_LOOKBACKMODE</highlight></codeline>
 <codeline lineno="213"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga9550c3eb3076c42f27d5d240d19db0dba22c34251db302b3be55a5bb97ebd2dab" kindref="member">XMC_CAN_LOOKBACKMODE_ENABLED</ref>,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga9550c3eb3076c42f27d5d240d19db0dbaa30431674d0a8b754ca912a435ac20b4" kindref="member">XMC_CAN_LOOKBACKMODE_DISABLED</ref><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="216"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga9550c3eb3076c42f27d5d240d19db0db" kindref="member">XMC_CAN_LOOKBACKMODE_t</ref>;</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_TYPE</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_TYPE</highlight></codeline>
 <codeline lineno="222"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga3fbcea02aab3f82946f94f9a31a23cc6adb96d9144918c070dde84f0e56fc77be" kindref="member">XMC_CAN_MO_TYPE_RECMSGOBJ</ref>,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga3fbcea02aab3f82946f94f9a31a23cc6a9cbbf9631c069f9b398f617d96f5f920" kindref="member">XMC_CAN_MO_TYPE_TRANSMSGOBJ</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="225"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga3fbcea02aab3f82946f94f9a31a23cc6" kindref="member">XMC_CAN_MO_TYPE_t</ref>;</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_FRAME_TYPE</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_FRAME_TYPE</highlight></codeline>
 <codeline lineno="231"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga4931cde412f7a12b60fefc606a6c9380a0c8700174238a98da38474ae5b0be5fd" kindref="member">XMC_CAN_FRAME_TYPE_STANDARD_11BITS</ref>,<sp/></highlight></codeline>
 <codeline lineno="233"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga4931cde412f7a12b60fefc606a6c9380a70a77bae271fd1769d782f8f5cafd999" kindref="member">XMC_CAN_FRAME_TYPE_EXTENDED_29BITS</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="234"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga4931cde412f7a12b60fefc606a6c9380" kindref="member">XMC_CAN_FRAME_TYPE_t</ref>;</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_ARBITRATION_MODE</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_ARBITRATION_MODE</highlight></codeline>
 <codeline lineno="241"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggaf6e73fbe8be3bebeaae1083536ed1843a2f16f10b626bec423fa29b79686936c1" kindref="member">XMC_CAN_ARBITRATION_MODE_ORDER_BASED_PRIO_1</ref><sp/>=<sp/>1U,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="243"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggaf6e73fbe8be3bebeaae1083536ed1843a15039a3d1221fcd179a4ee21f51e7204" kindref="member">XMC_CAN_ARBITRATION_MODE_IDE_DIR_BASED_PRIO_2</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
 <codeline lineno="244"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggaf6e73fbe8be3bebeaae1083536ed1843a254677673b5d5968ab5d602bd30536e4" kindref="member">XMC_CAN_ARBITRATION_MODE_ORDER_BASED_PRIO_3</ref><sp/>=<sp/>3U<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="245"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1gaf6e73fbe8be3bebeaae1083536ed1843" kindref="member">XMC_CAN_ARBITRATION_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gga97b0064e80ec6d5bfcab78f7a35b49a0a647789e36d9da1a73ca8f3b527d0184c" kindref="member">XMC_CAN_FRAME_COUNT_MODE</ref></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gga97b0064e80ec6d5bfcab78f7a35b49a0a647789e36d9da1a73ca8f3b527d0184c" kindref="member">XMC_CAN_FRAME_COUNT_MODE</ref></highlight></codeline>
 <codeline lineno="251"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga97b0064e80ec6d5bfcab78f7a35b49a0a647789e36d9da1a73ca8f3b527d0184c" kindref="member">XMC_CAN_FRAME_COUNT_MODE</ref><sp/>=<sp/>0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="253"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga97b0064e80ec6d5bfcab78f7a35b49a0aac7d15812333ab4cd870315680bbe4f1" kindref="member">XMC_CAN_FRAME_COUNT_MODE_TIME_STAMP</ref><sp/>=<sp/>1U,<sp/><sp/></highlight></codeline>
 <codeline lineno="254"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga97b0064e80ec6d5bfcab78f7a35b49a0af1c283fc1952d44d1aa91317a3a6acbe" kindref="member">XMC_CAN_FRAME_COUNT_MODE_BIT_TIMING</ref><sp/>=<sp/>2U<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="255"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga97b0064e80ec6d5bfcab78f7a35b49a0" kindref="member">XMC_CAN_FRAME_COUNT_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="256"><highlight class="normal"></highlight></codeline>
-<codeline lineno="260"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_DM</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_DM</highlight></codeline>
 <codeline lineno="261"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga96241438cdf8b6f817c9ab98567f072aac0e7fa972f989165c81e3a53b63199d5" kindref="member">XMC_CAN_DM_NORMAL</ref><sp/>=<sp/>1U,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="263"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga96241438cdf8b6f817c9ab98567f072aaf4cc302d3f7b8736fe1db557a6f1e632" kindref="member">XMC_CAN_DM_FRACTIONAL</ref><sp/>=<sp/>2U,<sp/><sp/></highlight></codeline>
 <codeline lineno="264"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga96241438cdf8b6f817c9ab98567f072aa68e24505b0fc77a4cec71029d2f559a5" kindref="member">XMC_CAN_DM_OFF</ref><sp/>=<sp/>3U<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="265"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga96241438cdf8b6f817c9ab98567f072a" kindref="member">XMC_CAN_DM_t</ref>;</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_SET_STATUS</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_SET_STATUS</highlight></codeline>
 <codeline lineno="271"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="272"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga71459a95ce4da56054ac63b26450d53fa303d6f4c2fb5290c4a4e9d8e56eabe0e" kindref="member">XMC_CAN_MO_SET_STATUS_RX_PENDING</ref><sp/>=<sp/>CAN_MO_MOCTR_SETRXPND_Msk,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="273"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga71459a95ce4da56054ac63b26450d53fad4cb2392027d767eed7859614d1f3f1c" kindref="member">XMC_CAN_MO_SET_STATUS_TX_PENDING</ref><sp/>=<sp/>CAN_MO_MOCTR_SETTXPND_Msk,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4894,7 +4895,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="283"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga71459a95ce4da56054ac63b26450d53fa2f2fa2587236ccb1c35873ff54fd767c" kindref="member">XMC_CAN_MO_SET_STATUS_MESSAGE_DIRECTION</ref><sp/>=<sp/>CAN_MO_MOCTR_SETDIR_Msk<sp/></highlight></codeline>
 <codeline lineno="284"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga71459a95ce4da56054ac63b26450d53f" kindref="member">XMC_CAN_MO_SET_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
-<codeline lineno="289"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_RESET_STATUS</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_RESET_STATUS</highlight></codeline>
 <codeline lineno="290"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga117048d5267011245c4ff40047d00c64a1c212d44397a6cd8bbb39f8aed2b9906" kindref="member">XMC_CAN_MO_RESET_STATUS_RX_PENDING</ref><sp/>=<sp/>CAN_MO_MOCTR_RESRXPND_Msk,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="292"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga117048d5267011245c4ff40047d00c64ad133d5e33ad9288c9143a6d447c689af" kindref="member">XMC_CAN_MO_RESET_STATUS_TX_PENDING</ref><sp/>=<sp/>CAN_MO_MOCTR_RESTXPND_Msk,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4910,7 +4911,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="302"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga117048d5267011245c4ff40047d00c64ac4305c92dd18bee6b4dfa410b8c35af4" kindref="member">XMC_CAN_MO_RESET_STATUS_MESSAGE_DIRECTION</ref><sp/>=<sp/>CAN_MO_MOCTR_RESDIR_Msk<sp/></highlight></codeline>
 <codeline lineno="303"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga117048d5267011245c4ff40047d00c64" kindref="member">XMC_CAN_MO_RESET_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_STATUS</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_STATUS</highlight></codeline>
 <codeline lineno="309"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="310"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggabb506b9cf0ade6f965c2af19458a03e5a1b8f9b196459950f54e9327f2b3943fc" kindref="member">XMC_CAN_MO_STATUS_RX_PENDING</ref><sp/>=<sp/>CAN_MO_MOSTAT_RXPND_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="311"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggabb506b9cf0ade6f965c2af19458a03e5a88242e8be7e425ea3d8a3c175f38282e" kindref="member">XMC_CAN_MO_STATUS_TX_PENDING</ref><sp/>=<sp/>CAN_MO_MOSTAT_TXPND_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4929,7 +4930,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="324"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggabb506b9cf0ade6f965c2af19458a03e5aebb8bf978c02107070746df91bb33db5" kindref="member">XMC_CAN_MO_STATUS_POINTER_TO_NEXT_MO</ref><sp/>=<sp/>(int32_t)CAN_MO_MOSTAT_PNEXT_Msk<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="325"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1gabb506b9cf0ade6f965c2af19458a03e5" kindref="member">XMC_CAN_MO_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="326"><highlight class="normal"></highlight></codeline>
-<codeline lineno="330"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_STATUS</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_STATUS</highlight></codeline>
 <codeline lineno="331"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="332"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga6efda609ad66be6ae2564b3b4310c362ac68859ef279c7dec4f14a0ea58d178ae" kindref="member">XMC_CAN_NODE_STATUS_LAST_ERROR_CODE</ref><sp/>=<sp/>CAN_NODE_NSR_LEC_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="333"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga6efda609ad66be6ae2564b3b4310c362aefaab30a4c4568e507a1c21f9f1e11e7" kindref="member">XMC_CAN_NODE_STATUS_TX_OK</ref><sp/>=<sp/>CAN_NODE_NSR_TXOK_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4939,12 +4940,12 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="337"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga6efda609ad66be6ae2564b3b4310c362ac04532594e806f091badea37e256ec3f" kindref="member">XMC_CAN_NODE_STATUS_BUS_OFF</ref><sp/>=<sp/>CAN_NODE_NSR_BOFF_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="338"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga6efda609ad66be6ae2564b3b4310c362a7b64eb27a85e13d2804e5ea0a964f7a4" kindref="member">XMC_CAN_NODE_STATUS_LIST_LENGTH_ERROR</ref><sp/>=<sp/>CAN_NODE_NSR_LLE_Msk,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="339"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga6efda609ad66be6ae2564b3b4310c362a54b1b1f1d2129479436d046d654fcd47" kindref="member">XMC_CAN_NODE_STATUS_LIST_OBJECT_ERROR</ref><sp/>=<sp/>CAN_NODE_NSR_LOE_Msk,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="340"><highlight class="preprocessor">#if<sp/>!defined(MULTICAN_PLUS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(MULTICAN_PLUS)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="341"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga6efda609ad66be6ae2564b3b4310c362ad09ce552548c3886ba6b3f059cd804ea" kindref="member">XMC_CAN_NODE_STATUS_SUSPENDED_ACK</ref><sp/>=<sp/>CAN_NODE_NSR_SUSACK_Msk<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="342"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="343"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga6efda609ad66be6ae2564b3b4310c362" kindref="member">XMC_CAN_NODE_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="349"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_CONTROL</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_CONTROL</highlight></codeline>
 <codeline lineno="350"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga43682a582f983e5e6d8bed1d863c0525aba1126af074ff7159efc7f77a0201826" kindref="member">XMC_CAN_NODE_CONTROL_NODE_INIT</ref><sp/>=<sp/>CAN_NODE_NCR_INIT_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="352"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga43682a582f983e5e6d8bed1d863c0525a6716d1c06b6fd151281d6cb386cfc0fb" kindref="member">XMC_CAN_NODE_CONTROL_TX_INT_ENABLE</ref><sp/>=<sp/>CAN_NODE_NCR_TRIE_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4953,12 +4954,12 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="355"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga43682a582f983e5e6d8bed1d863c0525a7503c88d84b84a6cb31e128741ccdc9f" kindref="member">XMC_CAN_NODE_CONTROL_CAN_DISABLE</ref><sp/>=<sp/>CAN_NODE_NCR_CANDIS_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="356"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga43682a582f983e5e6d8bed1d863c0525adcbafb11f340efecbcc204ad443c9651" kindref="member">XMC_CAN_NODE_CONTROL_CONF_CHANGE_ENABLE</ref><sp/>=<sp/>CAN_NODE_NCR_CCE_Msk,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="357"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga43682a582f983e5e6d8bed1d863c0525a92c2bad37cdb1110a79ec5822c8a18a5" kindref="member">XMC_CAN_NODE_CONTROL_CAN_ANALYZER_NODEDE</ref><sp/>=<sp/>CAN_NODE_NCR_CALM_Msk,<sp/><sp/></highlight></codeline>
-<codeline lineno="358"><highlight class="preprocessor">#if<sp/>!defined(MULTICAN_PLUS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(MULTICAN_PLUS)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="359"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga43682a582f983e5e6d8bed1d863c0525ae99f98152a904df2dd041ee6ee94543e" kindref="member">XMC_CAN_NODE_CONTROL_SUSPENDED_ENABLE</ref><sp/>=<sp/>CAN_NODE_NCR_SUSEN_Msk<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="360"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="361"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga43682a582f983e5e6d8bed1d863c0525" kindref="member">XMC_CAN_NODE_CONTROL_t</ref>;</highlight></codeline>
 <codeline lineno="362"><highlight class="normal"></highlight></codeline>
-<codeline lineno="366"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_EVENT</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_EVENT</highlight></codeline>
 <codeline lineno="367"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="368"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggae708efa53df4791e665aa6a900eeb6a6a2159cba25f718f956a9b11789b6f355e" kindref="member">XMC_CAN_NODE_EVENT_TX_INT</ref><sp/>=<sp/>CAN_NODE_NCR_TRIE_Msk,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="369"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggae708efa53df4791e665aa6a900eeb6a6a28a0b05df7dfc670015e4978f053ff09" kindref="member">XMC_CAN_NODE_EVENT_ALERT</ref><sp/>=<sp/>CAN_NODE_NCR_ALIE_Msk,<sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4966,7 +4967,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="371"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggae708efa53df4791e665aa6a900eeb6a6a9201ef0affec049535dc6aa8fdb6740b" kindref="member">XMC_CAN_NODE_EVENT_CFCIE</ref><sp/>=<sp/>CAN_NODE_NFCR_CFCIE_Msk<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="372"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1gae708efa53df4791e665aa6a900eeb6a6" kindref="member">XMC_CAN_NODE_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="373"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_POINTER_EVENT</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_POINTER_EVENT</highlight></codeline>
 <codeline lineno="378"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="379"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga8df6893c4bb8410cf24639fea906ebeaa6d63393a29fd63308bd2d6b29a870ea0" kindref="member">XMC_CAN_NODE_POINTER_EVENT_ALERT</ref><sp/>=<sp/>CAN_NODE_NIPR_ALINP_Pos,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="380"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga8df6893c4bb8410cf24639fea906ebeaadf0723b000e518abb44fbc23709125e2" kindref="member">XMC_CAN_NODE_POINTER_EVENT_LEC</ref><sp/>=<sp/>CAN_NODE_NIPR_LECINP_Pos,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -4974,20 +4975,20 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="382"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga8df6893c4bb8410cf24639fea906ebeaa8210f7ff39c70d241f29f6aafc533170" kindref="member">XMC_CAN_NODE_POINTER_EVENT_FRAME_COUNTER</ref><sp/>=<sp/>CAN_NODE_NIPR_CFCINP_Pos<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="383"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga8df6893c4bb8410cf24639fea906ebea" kindref="member">XMC_CAN_NODE_POINTER_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="384"><highlight class="normal"></highlight></codeline>
-<codeline lineno="388"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_POINTER_EVENT</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_POINTER_EVENT</highlight></codeline>
 <codeline lineno="389"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="390"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga5779e98919b963f0073cb04a129cb581a6000eb78e912e0f48e909b0faa7f454b" kindref="member">XMC_CAN_MO_POINTER_EVENT_TRANSMIT</ref><sp/>=<sp/>CAN_MO_MOIPR_TXINP_Pos,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="391"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga5779e98919b963f0073cb04a129cb581a36448cdf2a9633974ed7c196d1c1ae12" kindref="member">XMC_CAN_MO_POINTER_EVENT_RECEIVE</ref><sp/>=<sp/>CAN_MO_MOIPR_RXINP_Pos<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="392"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga5779e98919b963f0073cb04a129cb581" kindref="member">XMC_CAN_MO_POINTER_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="393"><highlight class="normal"></highlight></codeline>
-<codeline lineno="397"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_EVENT</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_MO_EVENT</highlight></codeline>
 <codeline lineno="398"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="399"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga4a4368056ee3b69f1c38f5fa41687704a7fd71a6aa1f8cbcb11c8fca26b1da6fe" kindref="member">XMC_CAN_MO_EVENT_TRANSMIT</ref><sp/>=<sp/>CAN_MO_MOFCR_TXIE_Msk,<sp/><sp/></highlight></codeline>
 <codeline lineno="400"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga4a4368056ee3b69f1c38f5fa41687704a22ef9ff08c28497c2a3b2ea4ebfc8908" kindref="member">XMC_CAN_MO_EVENT_RECEIVE</ref><sp/>=<sp/>CAN_MO_MOFCR_RXIE_Msk,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="401"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga4a4368056ee3b69f1c38f5fa41687704a9932d0b3d2bdcb92300f4e77f4d952b8" kindref="member">XMC_CAN_MO_EVENT_OVERFLOW</ref><sp/>=<sp/>CAN_MO_MOFCR_OVIE_Msk,<sp/><sp/></highlight></codeline>
 <codeline lineno="402"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga4a4368056ee3b69f1c38f5fa41687704" kindref="member">XMC_CAN_MO_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="403"><highlight class="normal"></highlight></codeline>
-<codeline lineno="407"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_RECEIVE_INPUT</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_RECEIVE_INPUT</highlight></codeline>
 <codeline lineno="408"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="409"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggae061ae75276ded4637f93c9b7d5e44ebaab62ebed090f4713dac915c70e1c19a1" kindref="member">XMC_CAN_NODE_RECEIVE_INPUT_RXDCA</ref>,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="410"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggae061ae75276ded4637f93c9b7d5e44eba5b49b8672416934d2bd3d5ab3ddb26c9" kindref="member">XMC_CAN_NODE_RECEIVE_INPUT_RXDCB</ref>,<sp/><sp/><sp/></highlight></codeline>
@@ -4999,20 +5000,20 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="416"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggae061ae75276ded4637f93c9b7d5e44eba0d4544e0a8dc3421e2f4da23c3346b83" kindref="member">XMC_CAN_NODE_RECEIVE_INPUT_RXDCH</ref><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="417"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1gae061ae75276ded4637f93c9b7d5e44eb" kindref="member">XMC_CAN_NODE_RECEIVE_INPUT_t</ref>;</highlight></codeline>
 <codeline lineno="418"><highlight class="normal"></highlight></codeline>
-<codeline lineno="422"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_LAST_ERROR_DIR</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_LAST_ERROR_DIR</highlight></codeline>
 <codeline lineno="423"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="424"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga58a294b10b4e0b575f0d378313fc3b05a466fce0833dd131db8d089538553a2cb" kindref="member">XMC_CAN_NODE_LAST_ERROR_DIR_WHILE_NODE_RECEPCION</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="425"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga58a294b10b4e0b575f0d378313fc3b05a6e2cf323e7eb07947d286c6ca61d1fa5" kindref="member">XMC_CAN_NODE_LAST_ERROR_DIR_WHILE_NODE_TRANSMISSION</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="426"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga58a294b10b4e0b575f0d378313fc3b05" kindref="member">XMC_CAN_NODE_LAST_ERROR_DIR_t</ref>;</highlight></codeline>
 <codeline lineno="427"><highlight class="normal"></highlight></codeline>
 <codeline lineno="428"><highlight class="normal"></highlight></codeline>
-<codeline lineno="432"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_LAST_ERROR_INC</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_LAST_ERROR_INC</highlight></codeline>
 <codeline lineno="433"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="434"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga588030349d9f7f929bcdfca3b2e1df13abff5ffb7c38d0839f5b69c0dbd3b8077" kindref="member">XMC_CAN_NODE_LAST_ERROR_INC_1</ref>,<sp/></highlight></codeline>
 <codeline lineno="435"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1gga588030349d9f7f929bcdfca3b2e1df13a2fcd1eb4a760d15a93c22d8aa372458a" kindref="member">XMC_CAN_NODE_LAST_ERROR_INC_8</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="436"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1ga588030349d9f7f929bcdfca3b2e1df13" kindref="member">XMC_CAN_NODE_LAST_ERROR_INC_t</ref>;</highlight></codeline>
 <codeline lineno="437"><highlight class="normal"></highlight></codeline>
-<codeline lineno="441"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_INTERRUPT_TRIGGER</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_INTERRUPT_TRIGGER</highlight></codeline>
 <codeline lineno="442"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="443"><highlight class="normal"><sp/><sp/>XMC_CAN_NODE_INTR_TRIGGER_0<sp/>=<sp/>0x1U,</highlight></codeline>
 <codeline lineno="444"><highlight class="normal"><sp/><sp/>XMC_CAN_NODE_INTR_TRIGGER_1<sp/>=<sp/>0x2U,</highlight></codeline>
@@ -5024,24 +5025,24 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="450"><highlight class="normal"><sp/><sp/>XMC_CAN_NODE_INTR_TRIGGER_7<sp/>=<sp/>0x128U,</highlight></codeline>
 <codeline lineno="451"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1gacbd6bd74f665b242e800d56b7e1b936d" kindref="member">XMC_CAN_NODE_INTERRUPT_TRIGGER_t</ref>;</highlight></codeline>
 <codeline lineno="452"><highlight class="normal"></highlight></codeline>
-<codeline lineno="456"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_CANCLKSRC</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CAN_CANCLKSRC</highlight></codeline>
 <codeline lineno="457"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="458"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(MULTICAN_PLUS)<sp/>||<sp/>defined(DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="459"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(UC_FAMILY<sp/>==<sp/>XMC4)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="460"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggaa70821b48b35c15555d81a4c81fceb80a06bd7df9f9b96e66c870838dce5a4fd4" kindref="member">XMC_CAN_CANCLKSRC_FPERI</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
-<codeline lineno="461"><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="461"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="462"><highlight class="normal"><sp/><sp/>XMC_CAN_CANCLKSRC_MCLK<sp/>=<sp/>0x1U,<sp/></highlight></codeline>
-<codeline lineno="463"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="463"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="464"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggaa70821b48b35c15555d81a4c81fceb80a96f23306c6856ff7ed19d16a0df6e19c" kindref="member">XMC_CAN_CANCLKSRC_FOHP</ref><sp/>=<sp/>0x2U,<sp/></highlight></codeline>
-<codeline lineno="465"><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="466"><highlight class="normal"><sp/><sp/><ref refid="group___c_a_n_1ggaa70821b48b35c15555d81a4c81fceb80a06bd7df9f9b96e66c870838dce5a4fd4" kindref="member">XMC_CAN_CANCLKSRC_FPERI</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
-<codeline lineno="467"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="467"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="468"><highlight class="normal">}<sp/><ref refid="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" kindref="member">XMC_CAN_CANCLKSRC_t</ref>;</highlight></codeline>
 <codeline lineno="469"><highlight class="normal"></highlight></codeline>
 <codeline lineno="470"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="471"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
-<codeline lineno="472"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight></codeline>
-<codeline lineno="476" refid="struct_x_m_c___c_a_n___n_o_d_e___n_o_m_i_n_a_l___b_i_t___t_i_m_e___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_NODE_NOMINAL_BIT_TIME_CONFIG</highlight></codeline>
+<codeline lineno="472"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="476" refid="struct_x_m_c___c_a_n___n_o_d_e___n_o_m_i_n_a_l___b_i_t___t_i_m_e___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_NODE_NOMINAL_BIT_TIME_CONFIG</highlight></codeline>
 <codeline lineno="477"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="478"><highlight class="normal"><sp/><sp/>uint32_t<sp/>can_frequency;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="479"><highlight class="normal"><sp/><sp/>uint32_t<sp/>baudrate;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -5049,14 +5050,14 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="482"><highlight class="normal"><sp/><sp/>uint16_t<sp/>sjw;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="483"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___c_a_n___n_o_d_e___n_o_m_i_n_a_l___b_i_t___t_i_m_e___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_NODE_NOMINAL_BIT_TIME_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="484"><highlight class="normal"></highlight></codeline>
-<codeline lineno="489" refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_FIFO_CONFIG</highlight></codeline>
+<codeline lineno="489" refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_FIFO_CONFIG</highlight></codeline>
 <codeline lineno="490"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="491"><highlight class="normal"><sp/><sp/>uint8_t<sp/>fifo_bottom;<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="492"><highlight class="normal"><sp/><sp/>uint8_t<sp/>fifo_top;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="493"><highlight class="normal"><sp/><sp/>uint8_t<sp/>fifo_base;<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="494"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_FIFO_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="495"><highlight class="normal"></highlight></codeline>
-<codeline lineno="500" refid="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_GATEWAY_CONFIG</highlight></codeline>
+<codeline lineno="500" refid="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_GATEWAY_CONFIG</highlight></codeline>
 <codeline lineno="501"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="502"><highlight class="normal"><sp/><sp/>uint8_t<sp/>gateway_bottom;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="503"><highlight class="normal"><sp/><sp/>uint8_t<sp/>gateway_top;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -5067,7 +5068,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="512"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>gateway_data_copy;<sp/><sp/></highlight></codeline>
 <codeline lineno="515"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_GATEWAY_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="516"><highlight class="normal"></highlight></codeline>
-<codeline lineno="520"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>CAN_GLOBAL_TypeDef<sp/><ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref>;</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>CAN_GLOBAL_TypeDef<sp/><ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref>;</highlight></codeline>
 <codeline lineno="521"><highlight class="normal"></highlight></codeline>
 <codeline lineno="522"><highlight class="normal"></highlight><highlight class="comment">/*Anonymous<sp/>structure/union<sp/>guard<sp/>start*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="523"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__CC_ARM)</highlight><highlight class="normal"></highlight></codeline>
@@ -5077,7 +5078,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="527"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="528"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="529"><highlight class="normal"></highlight></codeline>
-<codeline lineno="535" refid="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_NODE_FRAME_COUNTER</highlight></codeline>
+<codeline lineno="535" refid="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_NODE_FRAME_COUNTER</highlight></codeline>
 <codeline lineno="536"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="537"><highlight class="normal"></highlight></codeline>
 <codeline lineno="538"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
@@ -5094,8 +5095,8 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="549"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
 <codeline lineno="550"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t" kindref="compound">XMC_CAN_NODE_FRAME_COUNTER_t</ref>;</highlight></codeline>
 <codeline lineno="551"><highlight class="normal"></highlight></codeline>
-<codeline lineno="555"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>CAN_NODE_TypeDef<sp/><sp/><ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="560" refid="struct_x_m_c___c_a_n___m_o__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_MO</highlight></codeline>
+<codeline lineno="555"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>CAN_NODE_TypeDef<sp/><sp/><ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="560" refid="struct_x_m_c___c_a_n___m_o__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_CAN_MO</highlight></codeline>
 <codeline lineno="561"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="562"><highlight class="normal"><sp/><sp/>CAN_MO_TypeDef<sp/>*can_mo_ptr;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="563"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
@@ -5142,11 +5143,11 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="607"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="608"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="609"><highlight class="normal"></highlight></codeline>
-<codeline lineno="625"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gae15982ed9fe8b5d5d516bbfd97acac29" kindref="member">XMC_CAN_Disable</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
+<codeline lineno="625"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gae15982ed9fe8b5d5d516bbfd97acac29" kindref="member">XMC_CAN_Disable</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
 <codeline lineno="626"><highlight class="normal"></highlight></codeline>
-<codeline lineno="643"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaa86fb69d66595df948327ff91e8822d6" kindref="member">XMC_CAN_Enable</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
+<codeline lineno="643"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaa86fb69d66595df948327ff91e8822d6" kindref="member">XMC_CAN_Enable</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
 <codeline lineno="644"><highlight class="normal"></highlight></codeline>
-<codeline lineno="665"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga6cb88a392202538165609e216665d7ac" kindref="member">XMC_CAN_AllocateMOtoNodeList</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>node_num,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>mo_num);</highlight></codeline>
+<codeline lineno="665"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga6cb88a392202538165609e216665d7ac" kindref="member">XMC_CAN_AllocateMOtoNodeList</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>node_num,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>mo_num);</highlight></codeline>
 <codeline lineno="666"><highlight class="normal"></highlight></codeline>
 <codeline lineno="681"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga8248647c78ac9309f75f4811dda4e67c" kindref="member">XMC_CAN_IsPanelControlReady</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj)</highlight></codeline>
 <codeline lineno="682"><highlight class="normal">{</highlight></codeline>
@@ -5174,20 +5175,19 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="773"><highlight class="normal"></highlight></codeline>
 <codeline lineno="783"><highlight class="normal"><ref refid="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" kindref="member">XMC_CAN_CANCLKSRC_t</ref><sp/><ref refid="group___c_a_n_1ga342c01ea7ab6cd06a1ed0bb76447bb81" kindref="member">XMC_CAN_GetBaudrateClockSource</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
 <codeline lineno="784"><highlight class="normal"></highlight></codeline>
-<codeline lineno="794"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga6bfa6ec4cc9efd44470400548b5a0d32" kindref="member">XMC_CAN_SetBaudrateClockSource</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" kindref="member">XMC_CAN_CANCLKSRC_t</ref><sp/>source);</highlight></codeline>
+<codeline lineno="794"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga6bfa6ec4cc9efd44470400548b5a0d32" kindref="member">XMC_CAN_SetBaudrateClockSource</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" kindref="member">XMC_CAN_CANCLKSRC_t</ref><sp/>source);</highlight></codeline>
 <codeline lineno="795"><highlight class="normal"></highlight></codeline>
 <codeline lineno="805"><highlight class="normal">uint32_t<sp/><ref refid="group___c_a_n_1gaf4303398a9172e5447e43adf375b8382" kindref="member">XMC_CAN_GetBaudrateClockFrequency</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
 <codeline lineno="806"><highlight class="normal"></highlight></codeline>
 <codeline lineno="817"><highlight class="normal">uint32_t<sp/><ref refid="group___c_a_n_1gaf19f8e41011ebe7e77b4662cb81e4332" kindref="member">XMC_CAN_GetClockFrequency</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
 <codeline lineno="818"><highlight class="normal"></highlight></codeline>
 <codeline lineno="819"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(MULTICAN_PLUS)<sp/>||<sp/>defined(DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="820"><highlight class="normal"></highlight></codeline>
-<codeline lineno="842"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga1cec2fa8beb70934e400fc96c4ffe50d" kindref="member">XMC_CAN_Init</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj,<sp/><ref refid="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" kindref="member">XMC_CAN_CANCLKSRC_t</ref><sp/>clksrc,<sp/>uint32_t<sp/>can_frequency);</highlight></codeline>
+<codeline lineno="842"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga1cec2fa8beb70934e400fc96c4ffe50d" kindref="member">XMC_CAN_Init</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj,<sp/><ref refid="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" kindref="member">XMC_CAN_CANCLKSRC_t</ref><sp/>clksrc,<sp/>uint32_t<sp/>can_frequency);</highlight></codeline>
 <codeline lineno="843"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="844"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga1cec2fa8beb70934e400fc96c4ffe50d" kindref="member">XMC_CAN_Init</ref>(<ref refid="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" kindref="member">XMC_CAN_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj,<sp/>uint32_t<sp/>can_frequency);</highlight></codeline>
 <codeline lineno="845"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="846"><highlight class="normal"></highlight></codeline>
-<codeline lineno="861"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga3a06733578e85ec9be83df3ca65c82bf" kindref="member">XMC_CAN_MO_Config</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo);</highlight></codeline>
+<codeline lineno="861"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga3a06733578e85ec9be83df3ca65c82bf" kindref="member">XMC_CAN_MO_Config</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo);</highlight></codeline>
 <codeline lineno="862"><highlight class="normal"></highlight></codeline>
 <codeline lineno="863"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>NODE<sp/>APIs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="864"><highlight class="normal"></highlight></codeline>
@@ -5199,7 +5199,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="886"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="887"><highlight class="normal"></highlight></codeline>
 <codeline lineno="888"><highlight class="normal"></highlight></codeline>
-<codeline lineno="904"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga237cbd25e96515d2d1207fe93ae6063a" kindref="member">XMC_CAN_NODE_NominalBitTimeConfigure</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node,</highlight></codeline>
+<codeline lineno="904"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga237cbd25e96515d2d1207fe93ae6063a" kindref="member">XMC_CAN_NODE_NominalBitTimeConfigure</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node,</highlight></codeline>
 <codeline lineno="905"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___n_o_d_e___n_o_m_i_n_a_l___b_i_t___t_i_m_e___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_NODE_NOMINAL_BIT_TIME_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_bit_time);</highlight></codeline>
 <codeline lineno="906"><highlight class="normal"></highlight></codeline>
 <codeline lineno="926"><highlight class="normal">int32_t<sp/><ref refid="group___c_a_n_1ga590a52441b24c5877d15271f16dd7a12" kindref="member">XMC_CAN_NODE_NominalBitTimeConfigureEx</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node,</highlight></codeline>
@@ -5225,10 +5225,10 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="1005"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1006"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1007"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1024"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga085ec39999617b4880795dd3f5990873" kindref="member">XMC_CAN_NODE_EnableEvent</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gae708efa53df4791e665aa6a900eeb6a6" kindref="member">XMC_CAN_NODE_EVENT_t</ref><sp/>event);</highlight></codeline>
+<codeline lineno="1024"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga085ec39999617b4880795dd3f5990873" kindref="member">XMC_CAN_NODE_EnableEvent</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gae708efa53df4791e665aa6a900eeb6a6" kindref="member">XMC_CAN_NODE_EVENT_t</ref><sp/>event);</highlight></codeline>
 <codeline lineno="1025"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1026"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1043"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaf5ed3045870e0180b41ee4f19f63d278" kindref="member">XMC_CAN_NODE_DisableEvent</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gae708efa53df4791e665aa6a900eeb6a6" kindref="member">XMC_CAN_NODE_EVENT_t</ref><sp/>event);</highlight></codeline>
+<codeline lineno="1043"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaf5ed3045870e0180b41ee4f19f63d278" kindref="member">XMC_CAN_NODE_DisableEvent</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gae708efa53df4791e665aa6a900eeb6a6" kindref="member">XMC_CAN_NODE_EVENT_t</ref><sp/>event);</highlight></codeline>
 <codeline lineno="1044"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1045"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1060"><highlight class="normal">__STATIC_INLINE<sp/><ref refid="group___c_a_n_1ga58a294b10b4e0b575f0d378313fc3b05" kindref="member">XMC_CAN_NODE_LAST_ERROR_DIR_t</ref><sp/><ref refid="group___c_a_n_1ga32d160a9ce4260e34878a09df80f0131" kindref="member">XMC_CAN_NODE_GetLastErrTransferDir</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>node)</highlight></codeline>
@@ -5339,13 +5339,11 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="1430"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1431"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1432"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(MULTICAN_PLUS)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1433"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1451"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gae43a6605f4303deaa9077c9ca1cc29f7" kindref="member">XMC_CAN_NODE_EnableSuspend</ref>(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node)</highlight></codeline>
 <codeline lineno="1452"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="1453"><highlight class="normal"><sp/><sp/>can_node-&gt;NCR<sp/>|=<sp/>(uint32_t)CAN_NODE_NCR_SUSEN_Msk;</highlight></codeline>
 <codeline lineno="1454"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1455"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1456"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1470"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_CAN_NODE_DisableTransmit(<ref refid="group___c_a_n_1gaa3657c03a38eb66c07f4b8ce1fc83aeb" kindref="member">XMC_CAN_NODE_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_node)</highlight></codeline>
 <codeline lineno="1471"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="1472"><highlight class="normal"><sp/><sp/>can_node-&gt;NCR<sp/>|=<sp/>(uint32_t)CAN_NODE_NCR_TXDIS_Msk;</highlight></codeline>
@@ -5445,13 +5443,13 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="1822"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(((can_mo-&gt;<ref refid="struct_x_m_c___c_a_n___m_o__t_1a93593ca451037e051fd6e76d116d3f4a" kindref="member">can_mo_ptr</ref>-&gt;MOFCR)<sp/>&amp;<sp/>(uint32_t)(CAN_MO_MOFCR_DLC_Msk))<sp/>&gt;&gt;<sp/>CAN_MO_MOFCR_DLC_Pos);</highlight></codeline>
 <codeline lineno="1823"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1824"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1840"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga54679df9afbdddaf68ffd780ced427d7" kindref="member">XMC_CAN_MO_SetIdentifier</ref>(<ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>can_identifier);</highlight></codeline>
+<codeline lineno="1840"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga54679df9afbdddaf68ffd780ced427d7" kindref="member">XMC_CAN_MO_SetIdentifier</ref>(<ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>can_identifier);</highlight></codeline>
 <codeline lineno="1841"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1856"><highlight class="normal">uint32_t<sp/><ref refid="group___c_a_n_1ga3947c77efb8efc1eab0af01e20418f75" kindref="member">XMC_CAN_MO_GetIdentifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo);</highlight></codeline>
 <codeline lineno="1857"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1872"><highlight class="normal">uint32_t<sp/><ref refid="group___c_a_n_1ga7850274ffd707c7eedd0f5799ac04948" kindref="member">XMC_CAN_MO_GetAcceptanceMask</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo);</highlight></codeline>
 <codeline lineno="1873"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1889"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaab905544dbd9ba9ede00d5500e9c38f7" kindref="member">XMC_CAN_MO_SetAcceptanceMask</ref>(<ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>can_id_mask);</highlight></codeline>
+<codeline lineno="1889"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaab905544dbd9ba9ede00d5500e9c38f7" kindref="member">XMC_CAN_MO_SetAcceptanceMask</ref>(<ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>can_id_mask);</highlight></codeline>
 <codeline lineno="1890"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1905"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga66d6f89bab2fab4393f1fb083dfd6998" kindref="member">XMC_CAN_MO_AcceptOnlyMatchingIDE</ref>(<ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo)</highlight></codeline>
 <codeline lineno="1906"><highlight class="normal">{</highlight></codeline>
@@ -5525,13 +5523,13 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="2146"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="2147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2165"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga53d857e001d98cde8e1e838370a4eef3" kindref="member">XMC_CAN_TXFIFO_ConfigMOBaseObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_FIFO_CONFIG_t</ref><sp/>can_fifo);</highlight></codeline>
+<codeline lineno="2165"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga53d857e001d98cde8e1e838370a4eef3" kindref="member">XMC_CAN_TXFIFO_ConfigMOBaseObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_FIFO_CONFIG_t</ref><sp/>can_fifo);</highlight></codeline>
 <codeline lineno="2166"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2182"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaf3af812306e78f6c35f4837e3f87d4d9" kindref="member">XMC_CAN_RXFIFO_ConfigMOBaseObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_FIFO_CONFIG_t</ref><sp/>can_fifo);</highlight></codeline>
+<codeline lineno="2182"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaf3af812306e78f6c35f4837e3f87d4d9" kindref="member">XMC_CAN_RXFIFO_ConfigMOBaseObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_FIFO_CONFIG_t</ref><sp/>can_fifo);</highlight></codeline>
 <codeline lineno="2183"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2199"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gac51fa23741c9f64f35dca049aeb9201b" kindref="member">XMC_CAN_TXFIFO_ConfigMOSlaveObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_FIFO_CONFIG_t</ref><sp/>can_fifo);</highlight></codeline>
+<codeline lineno="2199"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gac51fa23741c9f64f35dca049aeb9201b" kindref="member">XMC_CAN_TXFIFO_ConfigMOSlaveObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_FIFO_CONFIG_t</ref><sp/>can_fifo);</highlight></codeline>
 <codeline lineno="2200"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2201"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2216"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gaf1de58dc7fb68ad5865fc0db41bc01a3" kindref="member">XMC_CAN_RXFIFO_ConfigMOSlaveObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo)</highlight></codeline>
@@ -5540,7 +5538,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="2219"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="2220"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2239"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga732a6fda09cb70f66f05ca58f8d8eeab" kindref="member">XMC_CAN_GATEWAY_InitSourceObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_GATEWAY_CONFIG_t</ref><sp/>can_gateway);</highlight></codeline>
+<codeline lineno="2239"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1ga732a6fda09cb70f66f05ca58f8d8eeab" kindref="member">XMC_CAN_GATEWAY_InitSourceObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_GATEWAY_CONFIG_t</ref><sp/>can_gateway);</highlight></codeline>
 <codeline lineno="2240"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2241"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2258"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_a_n_1gabec17bceec62048721c0e71c4157b8b4" kindref="member">XMC_CAN_GATEWAY_InitDesObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>can_mo)</highlight></codeline>
@@ -5585,13 +5583,13 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 <codeline lineno="2354"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="2355"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2356"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2362"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined(CAN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2362"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined(CAN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2363"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_CAN_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2365"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2366"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2367"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h"/>
   </compounddef>
 </doxygen>

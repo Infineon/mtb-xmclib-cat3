@@ -38,7 +38,7 @@ PROJECT_NAME           = "XMC Peripheral Library for XMC1000 Family"
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = 3.0.0
+PROJECT_NUMBER         = 4.0.0
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -51,7 +51,7 @@ PROJECT_BRIEF          =
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = ./images/IFX_LOGO_4C_medium.bmp
+PROJECT_LOGO           = ./images/logo.png
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
 # into which the generated documentation will be written. If a relative path is
@@ -2081,6 +2081,7 @@ PREDEFINED             = BCCU0 \
                          XMC1 \
                          UC_FAMILY \
                          DOXYGEN \
+                         DOXYGEN_XMC1 \
                          XMC_VADC_GROUP_SRCREG_AVAILABLE \
                          XMC_VADC_GROUP_AVAILABLE \
                          XMC_VADC_GSCAN_AVAILABLE \

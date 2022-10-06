@@ -1,12 +1,12 @@
 /*********************************************************************************************************************
  * @file     startup_XMC4504.S
  * @brief    CMSIS Core Device Startup File for Infineon XMC4504 Device Series
- * @version  V1.30
- * @date     15 Mai 2020
+ * @version  V1.31
+ * @date     18 Nov 2021
  *
  * @cond
  *********************************************************************************************************************
- * Copyright (c) 2011-2020, Infineon Technologies AG
+ * Copyright (c) 2011-2021, Infineon Technologies AG
  * All rights reserved.                        
  *                                             
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -67,6 +67,8 @@
  * V1.21,June ,01,2016 JFT:Rename ENABLE_CPU_CM_001_WORKAROUND to ENABLE_PMU_CM_001_WORKAROUND
  *                         Action required: If using AA/AB step, use ENABLE_PMU_CM_001_WORKAROUND instead of ENABLE_CPU_CM_001_WORKAROUND 
  * V1.30,Mai, 15, 2020 JFT:Added option (ENABLE_OWN_HANDLER) to generate a individual interrupt handlers for unhandled vectors
+ * V1.31,Nov, 18, 2021     Added weak cy_toolchain_init
+ *
  * @endcond 
  */
 
@@ -329,7 +331,11 @@ Reset_Handler:
 	b	.L_loop2
 .L_loop2_done:    
 #endif /* __SKIP_BSS_CLEAR */
-   
+
+    /* OS-specific low-level initialization */
+    ldr  r0, =cy_toolchain_init
+    blx  r0
+
 #ifndef __SKIP_LIBC_INIT_ARRAY
     ldr  r0, =__libc_init_array
     blx  r0
@@ -352,6 +358,16 @@ __zero_table_end__:
     
 	.pool
     .size   Reset_Handler,.-Reset_Handler
+
+/* OS-specific low-level initialization */
+    .thumb_func
+    .weak cy_toolchain_init
+    .func cy_toolchain_init, cy_toolchain_init
+    .type cy_toolchain_init, %function
+cy_toolchain_init:
+    bx lr
+    .size cy_toolchain_init, . - cy_toolchain_init
+    .endfunc
 
 /* ======================================================================== */
 /* ========== START OF EXCEPTION HANDLER DEFINITION ======================== */

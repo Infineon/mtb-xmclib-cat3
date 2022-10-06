@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_VADC_GROUP_CONFIG_t</compoundname>
     <includes local="no">xmc_vadc.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1215" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1214" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a6deeaed37b9ac264f17a00de50d50294" prot="public" static="no" mutable="no">
         <type>union XMC_VADC_GROUP_CONFIG_t::@329</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1228" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1227" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1210" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1210" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1209" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1209" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1212" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1212" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1211" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1211" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1225" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1225" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1224" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1224" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a036485109eb610432834b802fe41091e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1223" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1223" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1222" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1222" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1af488a892a083f03bec1fb340dc7d999d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1221" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1221" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1220" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1220" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1afa1f8d0e8c195a4e11c173e796a0ccfa" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1209" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1209" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1208" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1208" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a526defd6dde917b2a3eb34bb6da90f83" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1211" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1211" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1210" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1210" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a44b6e97897bc3fc1292e5cecea536f68" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_l_a_s_s__t" kindref="compound">XMC_VADC_GROUP_CLASS_t</ref></type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1203" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1203" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1202" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1aaf5ebade60ced173c84a643bd5badd73" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_l_a_s_s__t" kindref="compound">XMC_VADC_GROUP_CLASS_t</ref></type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1204" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1204" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1203" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1203" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1ac8bb4a20f80378f827f717f85f44de7a" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___e_m_u_x_c_f_g__t" kindref="compound">XMC_VADC_GROUP_EMUXCFG_t</ref></type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1202" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1202" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1201" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a40ddc9450de74928ae36b5515cd75796" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1227" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1227" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1226" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1226" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1abfe965baccb63bb7a16c17ee24ce90f7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1214" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1214" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1213" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1213" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -207,27 +207,27 @@
 <para>Group Configuration Data Structures </para>
     </detaileddescription>
     <collaborationgraph>
-      <node id="237">
-        <label>XMC_VADC_GROUP_CONFIG_t</label>
-        <link refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t"/>
-        <childnode refid="238" relation="usage">
-          <edgelabel>class0</edgelabel>
-          <edgelabel>class1</edgelabel>
-        </childnode>
-        <childnode refid="239" relation="usage">
-          <edgelabel>emux_config</edgelabel>
-        </childnode>
-      </node>
-      <node id="238">
+      <node id="3">
         <label>XMC_VADC_GROUP_CLASS_t</label>
         <link refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_l_a_s_s__t"/>
       </node>
-      <node id="239">
+      <node id="1">
+        <label>XMC_VADC_GROUP_CONFIG_t</label>
+        <link refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>emux_config</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>class0</edgelabel>
+          <edgelabel>class1</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
         <label>XMC_VADC_GROUP_EMUXCFG_t</label>
         <link refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___e_m_u_x_c_f_g__t"/>
       </node>
     </collaborationgraph>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1201" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1200" bodyend="1229"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1199" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1200" bodyend="1228"/>
     <listofallmembers>
       <member refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_VADC_GROUP_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___v_a_d_c___g_r_o_u_p___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_VADC_GROUP_CONFIG_t</scope><name>__pad1__</name></member>

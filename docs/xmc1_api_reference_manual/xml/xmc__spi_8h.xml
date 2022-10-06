@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__spi_8h" kind="file" language="C++">
     <compoundname>xmc_spi.h</compoundname>
     <includes refid="xmc__usic_8h" local="yes">xmc_usic.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="133" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="133" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="133" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1gaea0fc2e67a9745c9dded45de4b218095" prot="public" static="no">
         <name>XMC_SPI0_CH1</name>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="134" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="134" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="134" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1ga51b74698dfc8082605bc0d5a7a478c50" prot="public" static="no">
         <name>XMC_SPI1_CH0</name>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="138" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="138" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="138" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1gacd8b796500e98b94f045f57198e3d4ae" prot="public" static="no">
         <name>XMC_SPI1_CH1</name>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="139" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="139" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="139" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1gad2f1be17c48106b2fde910c65ba36166" prot="public" static="no">
         <name>XMC_SPI2_CH0</name>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="143" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="143" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="143" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_p_i_1ga099781db3446d2d4b85863cb86247053" prot="public" static="no">
         <name>XMC_SPI2_CH1</name>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="144" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="144" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="144" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="325" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="324" bodyend="328"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="324" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="325" bodyend="328"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1gad62a419e5f01dc507f3f731995873fe4" prot="public" static="no" strong="no">
         <type></type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="292" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="291" bodyend="301"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="291" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="292" bodyend="301"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1gaaf40703e598cf0bd196246cc048dda10" prot="public" static="no" strong="no">
         <type></type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="164" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="163" bodyend="167"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="163" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="164" bodyend="167"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga3d2e9e07d36e47a2840855c7761f3d2f" prot="public" static="no" strong="no">
         <type></type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="185" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="184" bodyend="188"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="184" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="185" bodyend="188"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga7cf84a07d3e3970c1b09369fcf3c12db" prot="public" static="no" strong="no">
         <type></type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="209" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="208" bodyend="221"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="208" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="209" bodyend="221"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga52dd53cd4c107af8f6d72c6c6a011886" prot="public" static="no" strong="no">
         <type></type>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="256" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="255" bodyend="261"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="255" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="256" bodyend="261"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga5e1e7ef1aea059d58462c59b0fd75f8f" prot="public" static="no" strong="no">
         <type></type>
@@ -428,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="267" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="266" bodyend="274"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="266" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="267" bodyend="274"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga6396e4407b48373dd88ce24c1e229635" prot="public" static="no" strong="no">
         <type></type>
@@ -485,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="334" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="333" bodyend="340"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="333" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="334" bodyend="340"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga9dabbd3f51646f95b0719bf82c69c38f" prot="public" static="no" strong="no">
         <type></type>
@@ -533,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="280" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="279" bodyend="285"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="279" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="280" bodyend="285"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga01a43390cf6218a5f16976f0b6027096" prot="public" static="no" strong="no">
         <type></type>
@@ -563,7 +563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="173" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="172" bodyend="179"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="172" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="173" bodyend="179"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga770391e79549c7df020fdd0f3864a808" prot="public" static="no" strong="no">
         <type></type>
@@ -647,7 +647,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="194" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="193" bodyend="203"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="193" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="194" bodyend="203"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga7c2761994b910b3e09b6373448a90762" prot="public" static="no" strong="no">
         <type></type>
@@ -767,7 +767,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="227" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="226" bodyend="250"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="226" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="227" bodyend="250"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" prot="public" static="no" strong="no">
         <type></type>
@@ -803,7 +803,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="155" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="154" bodyend="159"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="154" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="155" bodyend="159"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_p_i_1ga4ba31662807d655662ed15c5a44e9832" prot="public" static="no" strong="no">
         <type></type>
@@ -847,7 +847,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="314" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="313" bodyend="319"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="313" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="314" bodyend="319"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -897,7 +897,7 @@ e.g: During transmission Transmit buffer event occurs to indicating data word tr
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="716" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="716" bodyend="719"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="716" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="716" bodyend="719"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gac19e7d5bf3ff9b28764463d224b6e581" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -965,7 +965,7 @@ e.g: During transmission Transmit buffer event occurs to indicating data word tr
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1280" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1280" bodyend="1285"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1280" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1280" bodyend="1285"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gadaf15fe97c6fc0b78ac661e923521ee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1026,7 +1026,7 @@ The shift clock output(SCLKOUT) signal polarity can be set relative to SCLK, wit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="951" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="951" bodyend="957"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="951" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="951" bodyend="957"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga87d32f246cfd7eca010b38e90810277b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1067,7 +1067,7 @@ Use this function in combination with <ref refid="group___s_p_i_1ga9ed5d8b86f55d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1348" bodyend="1351"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1348" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1348" bodyend="1351"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gac0b5cdd04a90124e347ba3ef897dc545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1108,7 +1108,7 @@ Use this function in combination with <ref refid="group___s_p_i_1ga9ed5d8b86f55d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1260" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1260" bodyend="1263"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1260" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1260" bodyend="1263"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaeb24e63f6664b519405dd75ca9d856fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1143,7 +1143,7 @@ Typically this can be disabled, where the transmission control is done by the ha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1070" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1070" bodyend="1073"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1070" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1070" bodyend="1073"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga8f3bb2759c5dc83f4df9674bc7521dfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1190,7 +1190,7 @@ After disabling the events, <ref refid="group___s_p_i_1ga91fef97e4d595f37fbfb60a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="681" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="681" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="681" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga76bad04e2d660078ce675baa6320f1b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1225,7 +1225,7 @@ After disabling the events, <ref refid="group___s_p_i_1ga91fef97e4d595f37fbfb60a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="929" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="929" bodyend="932"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="929" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="929" bodyend="932"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gadf00d5c823846ca5c13f627baa541663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1273,7 +1273,7 @@ Resets the input data polarity. Invoke <ref refid="group___s_p_i_1ga68c629a48d4d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1153" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1153" bodyend="1157"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1153" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1153" bodyend="1157"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaeb85102d1ba6a3387e578819de6ccb9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1308,7 +1308,7 @@ So the last data bit of a data word is directly followed by the first data bit o
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="825" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="825" bodyend="828"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="825" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="825" bodyend="828"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gac7bd8be53e17d3285fd8fc87ec2a50bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1343,7 +1343,7 @@ This clock can be enabled by invoking <ref refid="group___s_p_i_1gaf1bf70c8e262b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="752" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="752" bodyend="755"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="752" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="752" bodyend="755"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga5b2480876aa7c3b1c9646156d015e398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1378,7 +1378,7 @@ This clock can be enabled by invoking <ref refid="group___s_p_i_1gaf1bf70c8e262b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="532" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="532" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="532" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gacb9748ed69822299ecb2a1488a3210e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1409,7 +1409,7 @@ This clock can be enabled by invoking <ref refid="group___s_p_i_1gaf1bf70c8e262b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1310" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1310" bodyend="1314"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1310" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1310" bodyend="1314"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gac0243074b234e51bebab42c98a194a63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1444,7 +1444,7 @@ Typically this can be disabled, where the transmission control is done by the ha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1033" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1033" bodyend="1036"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1033" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1033" bodyend="1036"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga9ed5d8b86f55dd5a64316392b90c661b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1487,7 +1487,7 @@ Use this function in combination with <ref refid="group___s_p_i_1ga87d32f246cfd7
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1330" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1330" bodyend="1333"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1330" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1330" bodyend="1333"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gab1fb0a57f619c0d1872482196399a443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1528,7 +1528,7 @@ Use this function in combination with <ref refid="group___s_p_i_1ga87d32f246cfd7
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1244" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1244" bodyend="1247"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1244" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1244" bodyend="1247"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gae37ff42efc15af1807458ff0a47053ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1564,7 +1564,7 @@ This can be used if the software handles the TBUF data without FIFO. If EOF is s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1053" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1053" bodyend="1056"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1053" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1053" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga91fef97e4d595f37fbfb60a4fd5624e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1611,7 +1611,7 @@ Events can be enabled as needed using <ref refid="group___s_p_i_1ga91fef97e4d595
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="664" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="664" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="664" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga50f619649550b90af1adfecb924ce0df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1647,7 +1647,7 @@ This is typically used during the transmission of multi-data word frames, where 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="909" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="909" bodyend="912"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="909" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="909" bodyend="912"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga68c629a48d4d82c08c1017a9c822deeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1695,7 +1695,7 @@ This is not set in <ref refid="group___s_p_i_1ga8b16f43a349603e746885a6d0d00b312
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1133" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1133" bodyend="1137"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1133" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1133" bodyend="1137"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gad7b042f05c42e05efd3ba52df303f1d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1730,7 +1730,7 @@ The inter word delay starts at the end of last SCLK cycle of data word. During t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="807" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="807" bodyend="810"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="807" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="807" bodyend="810"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaf1bf70c8e262bdf3727e7bc2d21b578b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1765,7 +1765,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="735" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="735" bodyend="738"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="735" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="735" bodyend="738"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga065897e36db1bbcffe141ad992cea9ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1813,7 +1813,7 @@ Each slave is connected with one slave select signal. This is not configured in 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="518" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="518" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="518" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaa1d508df7f014140bc929286ef63a9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1844,7 +1844,7 @@ Each slave is connected with one slave select signal. This is not configured in 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1296" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1296" bodyend="1300"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1296" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1296" bodyend="1300"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gad11bb01cc21d11bf8f7cfa0a1a2b8a46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1879,7 +1879,7 @@ This can be used if the software handles the TBUF data without FIFO. If SOF is s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1016" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1016" bodyend="1019"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1016" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1016" bodyend="1019"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga55ae75a9f812ee0ed92303074e990f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1914,7 +1914,7 @@ Invocation of <ref refid="group___s_p_i_1gae797c93243d5ab6ad7c5b1de311d6a3c" kin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="610" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="610" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="610" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga16747654a19c5dcef00d7f7e61d14f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1949,7 +1949,7 @@ This indicates the status of the all the events, for SPI communication.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="695" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="695" bodyend="698"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="695" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="695" bodyend="698"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga8b16f43a349603e746885a6d0d00b312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2038,7 +2038,7 @@ And if master mode is selected, <itemizedlist>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="428" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="428" bodyend="431"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="428" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="428" bodyend="431"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaf75ad720e31d94b96f1811e47c7e7559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2139,7 +2139,7 @@ And if master mode is selected, <itemizedlist>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="397" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="397" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="397" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gae797c93243d5ab6ad7c5b1de311d6a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2187,7 +2187,7 @@ And if master mode is selected, <itemizedlist>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="591" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="591" bodyend="595"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="591" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="591" bodyend="595"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga4a6b621ddf701529b5256181d40bbdac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2256,7 +2256,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1204" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1204" bodyend="1210"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1204" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1204" bodyend="1210"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga41fd386bd95f41b0274c4fd162b1a539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" kindref="member">XMC_SPI_CH_STATUS_t</ref></type>
@@ -2303,7 +2303,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="483" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="483" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="483" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gab70defd631cb9e9210f779fedce93efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" kindref="member">XMC_SPI_CH_STATUS_t</ref></type>
@@ -2362,7 +2362,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="500" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="500" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="500" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga72ca69c5bc68803067ff496538ff5f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2397,7 +2397,7 @@ This is typically based on the slave settings. Invoke <ref refid="group___s_p_i_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="625" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="625" bodyend="628"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="625" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="625" bodyend="628"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga8f4bbed2c9583c7a454951c83acbe646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2432,7 +2432,7 @@ This is typically based on the slave settings. This is not set during <ref refid
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="643" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="643" bodyend="646"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="643" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="643" bodyend="646"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gaedb545863be3b85d6b2ec51503926432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2480,7 +2480,7 @@ Set the number of bits to be serially transmitted in a frame. The frame length s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="996" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="996" bodyend="999"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="996" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="996" bodyend="999"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gab5800f69155c1ecadedf587fd567e2b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2538,7 +2538,7 @@ Selects the input data signal source among DXnA, DXnB.. DXnG for the input stage
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1090" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1090" bodyend="1096"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1090" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1090" bodyend="1096"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga14b1f10c37e326b76cd214f7c006add2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2590,7 +2590,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1178" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1178" bodyend="1182"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1178" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1178" bodyend="1182"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga3902d15aaff83cbce1d0d9b252183ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2640,7 +2640,7 @@ After configuring the inter word delay, this has to be enabled by invoking <ref 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="847" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="847" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="847" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga5ebec7e4e0641a615e9a98ccb11ada78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2687,7 +2687,7 @@ This delay is dependent on the peripheral clock. The maximum possible value supp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="864" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="864" bodyend="871"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="864" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="864" bodyend="871"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga916c987f6fafac74e740c6b626f37a8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2732,7 +2732,7 @@ This delay is dependent on the peripheral clock. The maximum possible value supp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="885" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="885" bodyend="891"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="885" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="885" bodyend="891"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga6c327beee42bdb3d24865f1bc19376d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2778,7 +2778,7 @@ Normally MSLS signal is active low level signal. SO based on the slave inversion
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1111" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1111" bodyend="1116"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1111" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1111" bodyend="1116"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1gabef8a168c4d9d5e229fd04ae66a92ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2826,7 +2826,7 @@ By enabling this the direction of the data pin is updated by hardware itself. Be
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="549" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="549" bodyend="553"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="549" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="549" bodyend="553"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga874157094bd9b28c5a5493eee577df72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2874,7 +2874,7 @@ Sets the number of bits to represent a data word. Frame length should be a multi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="973" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="973" bodyend="976"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="973" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="973" bodyend="976"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga4e3869696f61ef196fd2ea66a667bb0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2909,7 +2909,7 @@ It should be executed after <ref refid="group___s_p_i_1ga8b16f43a349603e746885a6
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="446" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="446" bodyend="450"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="446" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="446" bodyend="450"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga7fd532dae41a2b9d754aa3de0f412a8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" kindref="member">XMC_SPI_CH_STATUS_t</ref></type>
@@ -2946,7 +2946,7 @@ After calling XMC_SPI_CH_Stop, channel is IDLE mode. So no communication is supp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="467" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="467" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="467" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga273573d7d388e93ff9018ff87abe9dc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3006,7 +3006,7 @@ In Dual and Quad modes, hardware port control(CCR.HPCEN) mode is enabled. By ena
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="574" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="574" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" declline="574" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_p_i_1ga69901d79102b4efda87bc822b0d1e5d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3061,7 +3061,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1227" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1227" bodyend="1230"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" line="1227" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h" bodystart="1227" bodyend="1230"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -3072,8 +3072,8 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="95"><highlight class="preprocessor">#ifndef<sp/>XMC_SPI_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_SPI_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
@@ -3082,54 +3082,54 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_usic.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="comment">/***********************************************************************************************************************</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment">/***********************************************************************************************************************</highlight></codeline>
 <codeline lineno="129"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="130"><highlight class="comment"><sp/>**********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI0_CH0<sp/>XMC_USIC0_CH0<sp/></highlight></codeline>
-<codeline lineno="134"><highlight class="preprocessor">#define<sp/>XMC_SPI0_CH1<sp/>XMC_USIC0_CH1<sp/></highlight></codeline>
-<codeline lineno="135"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI0_CH0<sp/>XMC_USIC0_CH0<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI0_CH1<sp/>XMC_USIC0_CH1<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI1_CH0<sp/>XMC_USIC1_CH0<sp/></highlight></codeline>
-<codeline lineno="139"><highlight class="preprocessor">#define<sp/>XMC_SPI1_CH1<sp/>XMC_USIC1_CH1<sp/></highlight></codeline>
-<codeline lineno="140"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI1_CH0<sp/>XMC_USIC1_CH0<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI1_CH1<sp/>XMC_USIC1_CH1<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC2)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI2_CH0<sp/>XMC_USIC2_CH0<sp/></highlight></codeline>
-<codeline lineno="144"><highlight class="preprocessor">#define<sp/>XMC_SPI2_CH1<sp/>XMC_USIC2_CH1<sp/></highlight></codeline>
-<codeline lineno="145"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI2_CH0<sp/>XMC_USIC2_CH0<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_SPI2_CH1<sp/>XMC_USIC2_CH1<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">/***********************************************************************************************************************</highlight></codeline>
 <codeline lineno="148"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="149"><highlight class="comment"><sp/>***********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_STATUS</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_STATUS</highlight></codeline>
 <codeline lineno="155"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga3f497bc1a5457fddd4f5e57f30c3531dad6241ca094413611b4054d3222e58339" kindref="member">XMC_SPI_CH_STATUS_OK</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga3f497bc1a5457fddd4f5e57f30c3531da9d3531bfa6a78a7e74c58be3decf9440" kindref="member">XMC_SPI_CH_STATUS_ERROR</ref>,<sp/></highlight></codeline>
 <codeline lineno="158"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga3f497bc1a5457fddd4f5e57f30c3531dac122b8021103d9d5807eaa51bb63b876" kindref="member">XMC_SPI_CH_STATUS_BUSY</ref><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="159"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" kindref="member">XMC_SPI_CH_STATUS_t</ref>;</highlight></codeline>
-<codeline lineno="163"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_BUS_MODE</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_BUS_MODE</highlight></codeline>
 <codeline lineno="164"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1ggaaf40703e598cf0bd196246cc048dda10a6535e33ac253d974dbdade07b9bdc6d5" kindref="member">XMC_SPI_CH_BUS_MODE_MASTER</ref>,<sp/></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1ggaaf40703e598cf0bd196246cc048dda10a6ded2d0050c88da873e2cfc0167d3e54" kindref="member">XMC_SPI_CH_BUS_MODE_SLAVE</ref><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="167"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1gaaf40703e598cf0bd196246cc048dda10" kindref="member">XMC_SPI_CH_BUS_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_SLAVE_SEL_MSLS_INV</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_SLAVE_SEL_MSLS_INV</highlight></codeline>
 <codeline lineno="173"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga01a43390cf6218a5f16976f0b6027096a2d4df93fa0c9ae9bb7bc2050372d4150" kindref="member">XMC_SPI_CH_SLAVE_SEL_SAME_AS_MSLS</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="176"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga01a43390cf6218a5f16976f0b6027096aa7c8920fcfd744c9236533eba2e87391" kindref="member">XMC_SPI_CH_SLAVE_SEL_INV_TO_MSLS</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_PCR_SSCMode_SELINV_Pos<sp/></highlight></codeline>
 <codeline lineno="179"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga01a43390cf6218a5f16976f0b6027096" kindref="member">XMC_SPI_CH_SLAVE_SEL_MSLS_INV_t</ref>;</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_DATA_POLARITY</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_DATA_POLARITY</highlight></codeline>
 <codeline lineno="185"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga3d2e9e07d36e47a2840855c7761f3d2fa07561a103212e36eb152fad4c6e0bc09" kindref="member">XMC_SPI_CH_DATA_POLARITY_DIRECT</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga3d2e9e07d36e47a2840855c7761f3d2fad4dced7ef4a2819a36fabb92a24a160b" kindref="member">XMC_SPI_CH_DATA_POLARITY_INVERT</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_DX2CR_DPOL_Pos<sp/></highlight></codeline>
 <codeline lineno="188"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga3d2e9e07d36e47a2840855c7761f3d2f" kindref="member">XMC_SPI_CH_DATA_POLARITY_t</ref>;</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_SLAVE_SELECT</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_SLAVE_SELECT</highlight></codeline>
 <codeline lineno="194"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga770391e79549c7df020fdd0f3864a808a00be0d2c599ae2957bd0fed44fb88855" kindref="member">XMC_SPI_CH_SLAVE_SELECT_0</ref><sp/>=<sp/>1UL<sp/>&lt;&lt;<sp/>USIC_CH_PCR_SSCMode_SELO_Pos,<sp/><sp/></highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga770391e79549c7df020fdd0f3864a808a2690a4c89d59b73f382c5139ee3c7536" kindref="member">XMC_SPI_CH_SLAVE_SELECT_1</ref><sp/>=<sp/>2UL<sp/>&lt;&lt;<sp/>USIC_CH_PCR_SSCMode_SELO_Pos,<sp/><sp/></highlight></codeline>
@@ -3141,7 +3141,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="202"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga770391e79549c7df020fdd0f3864a808a13b1ba1e6096ae777c0e0bd6428ba4fa" kindref="member">XMC_SPI_CH_SLAVE_SELECT_7</ref><sp/>=<sp/>128UL<sp/>&lt;&lt;<sp/>USIC_CH_PCR_SSCMode_SELO_Pos<sp/></highlight></codeline>
 <codeline lineno="203"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga770391e79549c7df020fdd0f3864a808" kindref="member">XMC_SPI_CH_SLAVE_SELECT_t</ref>;</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_EVENT</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_EVENT</highlight></codeline>
 <codeline lineno="209"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="210"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga7cf84a07d3e3970c1b09369fcf3c12dba4b9fc48875e84294585b5b62cd5faea3" kindref="member">XMC_SPI_CH_EVENT_RECEIVE_START</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_CCR_RSIEN_Msk,<sp/></highlight></codeline>
 <codeline lineno="211"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga7cf84a07d3e3970c1b09369fcf3c12dba45328c5bfb41c4fa0d7fc47e51640c6d" kindref="member">XMC_SPI_CH_EVENT_DATA_LOST</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_CCR_DLIEN_Msk,<sp/></highlight></codeline>
@@ -3155,7 +3155,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="220"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga7cf84a07d3e3970c1b09369fcf3c12dbab0ccd895a632344bf17ad5003af08965" kindref="member">XMC_SPI_CH_EVENT_DX2TIEN_ACTIVATED</ref><sp/>=<sp/>USIC_CH_PCR_SSCMode_DX2TIEN_Msk<sp/>&gt;&gt;<sp/>13U<sp/><sp/></highlight></codeline>
 <codeline lineno="221"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga7cf84a07d3e3970c1b09369fcf3c12db" kindref="member">XMC_SPI_CH_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_STATUS_FLAG</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_STATUS_FLAG</highlight></codeline>
 <codeline lineno="227"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga7c2761994b910b3e09b6373448a90762a8eca08cb355c692a598c0dae8c8dc9f1" kindref="member">XMC_SPI_CH_STATUS_FLAG_MSLS</ref><sp/>=<sp/>USIC_CH_PSR_SSCMode_MSLS_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="230"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga7c2761994b910b3e09b6373448a90762a2a5bf5f0e3d29181560104b7d1ede1ad" kindref="member">XMC_SPI_CH_STATUS_FLAG_DX2S</ref><sp/>=<sp/>USIC_CH_PSR_SSCMode_DX2S_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -3171,7 +3171,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="248"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga7c2761994b910b3e09b6373448a90762a8cece74a4527cac93aa69b958bb81309" kindref="member">XMC_SPI_CH_STATUS_FLAG_BAUD_RATE_GENERATOR_INDICATION</ref><sp/>=<sp/>USIC_CH_PSR_SSCMode_BRGIF_Msk</highlight></codeline>
 <codeline lineno="250"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga7c2761994b910b3e09b6373448a90762" kindref="member">XMC_SPI_CH_STATUS_FLAG_t</ref>;</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_INPUT_FREQ_SLAVE_SELECT_DELAY</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_INPUT_FREQ_SLAVE_SELECT_DELAY</highlight></codeline>
 <codeline lineno="256"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga52dd53cd4c107af8f6d72c6c6a011886a58b64a73bcb7179ea3154579254725c2" kindref="member">XMC_SPI_CH_INPUT_FREQ_SLAVE_SELECT_DELAY_FPDIV</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="258"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga52dd53cd4c107af8f6d72c6c6a011886aae8eded70ac9defd6fa10321482aecda" kindref="member">XMC_SPI_CH_INPUT_FREQ_SLAVE_SELECT_DELAY_FPPP</ref><sp/><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_PCR_SSCMode_CTQSEL1_Pos,<sp/></highlight></codeline>
@@ -3179,7 +3179,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="260"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga52dd53cd4c107af8f6d72c6c6a011886ad52df965918f9e56f530f872ed792d02" kindref="member">XMC_SPI_CH_INPUT_FREQ_SLAVE_SELECT_DELAY_FMCLK</ref><sp/>=<sp/>0x3UL<sp/>&lt;&lt;<sp/>USIC_CH_PCR_SSCMode_CTQSEL1_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="261"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga52dd53cd4c107af8f6d72c6c6a011886" kindref="member">XMC_SPI_CH_INPUT_FREQ_SLAVE_SELECT_DELAY_t</ref>;</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_INPUT</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_INPUT</highlight></codeline>
 <codeline lineno="267"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="268"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga5e1e7ef1aea059d58462c59b0fd75f8fa3730321c216c06c0ae39693e68786d4c" kindref="member">XMC_SPI_CH_INPUT_DIN0</ref><sp/>=<sp/>0UL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="269"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga5e1e7ef1aea059d58462c59b0fd75f8fa5b0aed31501650341a5710a8db35b40a" kindref="member">XMC_SPI_CH_INPUT_SLAVE_SCLKIN</ref><sp/>=<sp/>1UL,<sp/></highlight></codeline>
@@ -3189,7 +3189,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="273"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga5e1e7ef1aea059d58462c59b0fd75f8fadce039080e9a2e2795af411defb8a17e" kindref="member">XMC_SPI_CH_INPUT_DIN3</ref><sp/>=<sp/>5UL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="274"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga5e1e7ef1aea059d58462c59b0fd75f8f" kindref="member">XMC_SPI_CH_INPUT_t</ref>;</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_MODE</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_MODE</highlight></codeline>
 <codeline lineno="280"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga9dabbd3f51646f95b0719bf82c69c38fa7ed5131d8a7ba77370debe459420e79a" kindref="member">XMC_SPI_CH_MODE_STANDARD</ref><sp/>=<sp/>0UL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="282"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga9dabbd3f51646f95b0719bf82c69c38fa17c7eb1a23dd44233a32bc40e1d91d7b" kindref="member">XMC_SPI_CH_MODE_STANDARD_HALFDUPLEX</ref><sp/>=<sp/>5UL,<sp/></highlight></codeline>
@@ -3198,7 +3198,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="285"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga9dabbd3f51646f95b0719bf82c69c38f" kindref="member">XMC_SPI_CH_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="286"><highlight class="normal"></highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="291"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL</highlight></codeline>
 <codeline lineno="292"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1ggad62a419e5f01dc507f3f731995873fe4a60da59e367df81e02204c193307c7543" kindref="member">XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_0_DELAY_DISABLED</ref><sp/>=<sp/><ref refid="group___u_s_i_c_1ggaabdebf7dc81a008ca887ab0336f9b3dea73b5e738a2fbe968b46ea6aae3466956" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_0_DELAY_DISABLED</ref>,</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1ggad62a419e5f01dc507f3f731995873fe4adba7c97cc13e382c36fb79a927ba779d" kindref="member">XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_DISABLED</ref><sp/>=<sp/><ref refid="group___u_s_i_c_1ggaabdebf7dc81a008ca887ab0336f9b3deaf4a7841504a26dfd70873f1962f5ba89" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_DISABLED</ref>,</highlight></codeline>
@@ -3206,7 +3206,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="300"><highlight class="normal"><sp/><sp/>XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_ENABLED<sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1ggaabdebf7dc81a008ca887ab0336f9b3deac496300b9f7d9f340bed2bf4dfb1b8d6" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_ENABLED</ref></highlight></codeline>
 <codeline lineno="301"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1gad62a419e5f01dc507f3f731995873fe4" kindref="member">XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_t</ref>;</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307"><highlight class="comment">/*<sp/>CPOL=0<sp/>is<sp/>a<sp/>clock<sp/>which<sp/>idles<sp/>at<sp/>0,<sp/>and<sp/>each<sp/>cycle<sp/>consists<sp/>of<sp/>a<sp/>pulse<sp/>of<sp/>1.<sp/>That<sp/>is,<sp/>the<sp/>leading<sp/>edge<sp/>is<sp/>a<sp/>rising<sp/>edge,<sp/>and<sp/>the<sp/>trailing<sp/>edge<sp/>is<sp/>a<sp/>falling<sp/>edge<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CPOL=0<sp/>is<sp/>a<sp/>clock<sp/>which<sp/>idles<sp/>at<sp/>0,<sp/>and<sp/>each<sp/>cycle<sp/>consists<sp/>of<sp/>a<sp/>pulse<sp/>of<sp/>1.<sp/>That<sp/>is,<sp/>the<sp/>leading<sp/>edge<sp/>is<sp/>a<sp/>rising<sp/>edge,<sp/>and<sp/>the<sp/>trailing<sp/>edge<sp/>is<sp/>a<sp/>falling<sp/>edge<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="308"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CPOL=1<sp/>is<sp/>a<sp/>clock<sp/>which<sp/>idles<sp/>at<sp/>1,<sp/>and<sp/>each<sp/>cycle<sp/>consists<sp/>of<sp/>a<sp/>pulse<sp/>of<sp/>0.<sp/>That<sp/>is,<sp/>the<sp/>leading<sp/>edge<sp/>is<sp/>a<sp/>falling<sp/>edge,<sp/>and<sp/>the<sp/>trailing<sp/>edge<sp/>is<sp/>a<sp/>rising<sp/>edge<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CPHA=0,<sp/>the<sp/>&quot;out&quot;<sp/>side<sp/>changes<sp/>the<sp/>data<sp/>on<sp/>the<sp/>trailing<sp/>edge<sp/>of<sp/>the<sp/>preceding<sp/>clock<sp/>cycle,<sp/>while<sp/>the<sp/>&quot;in&quot;<sp/>side<sp/>captures<sp/>the<sp/>data<sp/>on<sp/>(or<sp/>shortly<sp/>after)<sp/>the<sp/>leading<sp/>edge<sp/>of<sp/>the<sp/>clock<sp/>cycle.</highlight></codeline>
 <codeline lineno="310"><highlight class="comment"><sp/><sp/><sp/>The<sp/>out<sp/>side<sp/>holds<sp/>the<sp/>data<sp/>valid<sp/>until<sp/>the<sp/>trailing<sp/>edge<sp/>of<sp/>the<sp/>current<sp/>clock<sp/>cycle.<sp/>For<sp/>the<sp/>first<sp/>cycle,<sp/>the<sp/>first<sp/>bit<sp/>must<sp/>be<sp/>on<sp/>the<sp/>MOSI<sp/>line<sp/>before<sp/>the<sp/>leading<sp/>clock<sp/>edge.*/</highlight><highlight class="normal"></highlight></codeline>
@@ -3220,13 +3220,13 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="318"><highlight class="normal"><sp/><sp/>XMC_SPI_CPOL_1_CPHA_1<sp/>=<sp/>XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_ENABLED</highlight></codeline>
 <codeline lineno="319"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1ga4ba31662807d655662ed15c5a44e9832" kindref="member">XMC_SPI_CLOCK_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="320"><highlight class="normal"></highlight></codeline>
-<codeline lineno="324"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT</highlight></codeline>
 <codeline lineno="325"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="326"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1ggaf703b28cb6fe62eec40258bbb4b2381eae57defba0e28b37387753485a740acf2" kindref="member">XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT_SCLK</ref><sp/>=<sp/><ref refid="group___u_s_i_c_1gga373c90ba61a8cc0013f395840bc9acfda9491b02e6b95460911ccdbfd916dd28f" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT_SCLK</ref>,<sp/><sp/></highlight></codeline>
 <codeline lineno="327"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1ggaf703b28cb6fe62eec40258bbb4b2381eae8aea9225b3233a8cf60f426bb0368f8" kindref="member">XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT_DX1</ref><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga373c90ba61a8cc0013f395840bc9acfdabcd84dcb72da7b117900df0eb5c43660" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT_DX1</ref><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="328"><highlight class="normal">}<sp/><ref refid="group___s_p_i_1gaf703b28cb6fe62eec40258bbb4b2381e" kindref="member">XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT_t</ref>;</highlight></codeline>
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
-<codeline lineno="333"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_INTERRUPT_NODE_POINTER</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_SPI_CH_INTERRUPT_NODE_POINTER</highlight></codeline>
 <codeline lineno="334"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga6396e4407b48373dd88ce24c1e229635adbf85c1c2d8fef17554d399c4d3ffd77" kindref="member">XMC_SPI_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62ac3d37f726e6214704f420586ff8effc3" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT</ref>,<sp/></highlight></codeline>
 <codeline lineno="336"><highlight class="normal"><sp/><sp/><ref refid="group___s_p_i_1gga6396e4407b48373dd88ce24c1e229635acef45b4e93a44535a1e05154d5078b9a" kindref="member">XMC_SPI_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER</ref><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62a2298fc6a0fcee48a76f0aea1eb95e3a6" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER</ref>,<sp/></highlight></codeline>
@@ -3239,7 +3239,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="343"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
 <codeline lineno="344"><highlight class="comment">**********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="349" refid="struct_x_m_c___s_p_i___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_SPI_CH_CONFIG</highlight></codeline>
+<codeline lineno="349" refid="struct_x_m_c___s_p_i___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_SPI_CH_CONFIG</highlight></codeline>
 <codeline lineno="350"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/>uint32_t<sp/>baudrate;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="352"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normal_divider_mode;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -3256,7 +3256,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="364"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="366"><highlight class="normal"></highlight></codeline>
-<codeline lineno="397"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1gaf75ad720e31d94b96f1811e47c7e7559" kindref="member">XMC_SPI_CH_InitEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___s_p_i___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_SPI_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>init_brg);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1gaf75ad720e31d94b96f1811e47c7e7559" kindref="member">XMC_SPI_CH_InitEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___s_p_i___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_SPI_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>init_brg);</highlight></codeline>
 <codeline lineno="398"><highlight class="normal"></highlight></codeline>
 <codeline lineno="428"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga8b16f43a349603e746885a6d0d00b312" kindref="member">XMC_SPI_CH_Init</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___s_p_i___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_SPI_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config)</highlight></codeline>
 <codeline lineno="429"><highlight class="normal">{</highlight></codeline>
@@ -3275,9 +3275,9 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="484"><highlight class="normal"></highlight></codeline>
 <codeline lineno="500"><highlight class="normal"><ref refid="group___s_p_i_1ga3f497bc1a5457fddd4f5e57f30c3531d" kindref="member">XMC_SPI_CH_STATUS_t</ref><sp/><ref refid="group___s_p_i_1gab70defd631cb9e9210f779fedce93efd" kindref="member">XMC_SPI_CH_SetBaudrateEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>rate,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normal_divider_mode);</highlight></codeline>
 <codeline lineno="501"><highlight class="normal"></highlight></codeline>
-<codeline lineno="518"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga065897e36db1bbcffe141ad992cea9ce" kindref="member">XMC_SPI_CH_EnableSlaveSelect</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga770391e79549c7df020fdd0f3864a808" kindref="member">XMC_SPI_CH_SLAVE_SELECT_t</ref><sp/>slave);</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga065897e36db1bbcffe141ad992cea9ce" kindref="member">XMC_SPI_CH_EnableSlaveSelect</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga770391e79549c7df020fdd0f3864a808" kindref="member">XMC_SPI_CH_SLAVE_SELECT_t</ref><sp/>slave);</highlight></codeline>
 <codeline lineno="519"><highlight class="normal"></highlight></codeline>
-<codeline lineno="532"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga5b2480876aa7c3b1c9646156d015e398" kindref="member">XMC_SPI_CH_DisableSlaveSelect</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga5b2480876aa7c3b1c9646156d015e398" kindref="member">XMC_SPI_CH_DisableSlaveSelect</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
 <codeline lineno="533"><highlight class="normal"></highlight></codeline>
 <codeline lineno="549"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1gabef8a168c4d9d5e229fd04ae66a92ed1" kindref="member">XMC_SPI_CH_SetTransmitMode</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga9dabbd3f51646f95b0719bf82c69c38f" kindref="member">XMC_SPI_CH_MODE_t</ref><sp/>mode)</highlight></codeline>
 <codeline lineno="550"><highlight class="normal">{</highlight></codeline>
@@ -3285,7 +3285,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="552"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((uint32_t)<sp/>mode<sp/>&lt;&lt;<sp/>USIC_CH_CCR_HPCEN_Pos)<sp/>&amp;<sp/>(uint32_t)USIC_CH_CCR_HPCEN_Msk);</highlight></codeline>
 <codeline lineno="553"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="554"><highlight class="normal"></highlight></codeline>
-<codeline lineno="574"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga273573d7d388e93ff9018ff87abe9dc0" kindref="member">XMC_SPI_CH_Transmit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga9dabbd3f51646f95b0719bf82c69c38f" kindref="member">XMC_SPI_CH_MODE_t</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="574"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga273573d7d388e93ff9018ff87abe9dc0" kindref="member">XMC_SPI_CH_Transmit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga9dabbd3f51646f95b0719bf82c69c38f" kindref="member">XMC_SPI_CH_MODE_t</ref><sp/>mode);</highlight></codeline>
 <codeline lineno="575"><highlight class="normal"></highlight></codeline>
 <codeline lineno="591"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1gae797c93243d5ab6ad7c5b1de311d6a3c" kindref="member">XMC_SPI_CH_Receive</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga9dabbd3f51646f95b0719bf82c69c38f" kindref="member">XMC_SPI_CH_MODE_t</ref><sp/>mode)</highlight></codeline>
 <codeline lineno="592"><highlight class="normal">{</highlight></codeline>
@@ -3305,9 +3305,9 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="645"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1ac005cdf6a4e1350830161ee7ef88b9a2" kindref="member">SCTR</ref><sp/>|=<sp/>(uint32_t)USIC_CH_SCTR_SDIR_Msk;</highlight></codeline>
 <codeline lineno="646"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="647"><highlight class="normal"></highlight></codeline>
-<codeline lineno="664"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga91fef97e4d595f37fbfb60a4fd5624e4" kindref="member">XMC_SPI_CH_EnableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="664"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga91fef97e4d595f37fbfb60a4fd5624e4" kindref="member">XMC_SPI_CH_EnableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="665"><highlight class="normal"></highlight></codeline>
-<codeline lineno="681"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga8f3bb2759c5dc83f4df9674bc7521dfa" kindref="member">XMC_SPI_CH_DisableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="681"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga8f3bb2759c5dc83f4df9674bc7521dfa" kindref="member">XMC_SPI_CH_DisableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="682"><highlight class="normal"></highlight></codeline>
 <codeline lineno="695"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___s_p_i_1ga16747654a19c5dcef00d7f7e61d14f48" kindref="member">XMC_SPI_CH_GetStatusFlag</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel)</highlight></codeline>
 <codeline lineno="696"><highlight class="normal">{</highlight></codeline>
@@ -3329,7 +3329,6 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="754"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1a57a0d5b0046d995023f6555c94e7af6a" kindref="member">PCR_SSCMode</ref><sp/>&amp;=<sp/>(uint32_t)~USIC_CH_PCR_SSCMode_MCLK_Msk;</highlight></codeline>
 <codeline lineno="755"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="756"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USIC_CH_PCR_SSCMode_SLPHSEL_Msk</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="757"><highlight class="normal"></highlight></codeline>
 <codeline lineno="768"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_SPI_CH_DataLatchedInTrailingEdge(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel)</highlight></codeline>
 <codeline lineno="769"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="770"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1a57a0d5b0046d995023f6555c94e7af6a" kindref="member">PCR_SSCMode</ref><sp/>&amp;=<sp/>(uint32_t)~USIC_CH_PCR_SSCMode_SLPHSEL_Msk;</highlight></codeline>
@@ -3340,7 +3339,6 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="788"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1a57a0d5b0046d995023f6555c94e7af6a" kindref="member">PCR_SSCMode</ref><sp/>|=<sp/>USIC_CH_PCR_SSCMode_SLPHSEL_Msk;</highlight></codeline>
 <codeline lineno="789"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="790"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="791"><highlight class="normal"></highlight></codeline>
 <codeline lineno="807"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1gad7b042f05c42e05efd3ba52df303f1d6" kindref="member">XMC_SPI_CH_EnableInterwordDelay</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel)</highlight></codeline>
 <codeline lineno="808"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="809"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1a57a0d5b0046d995023f6555c94e7af6a" kindref="member">PCR_SSCMode</ref><sp/>|=<sp/>(uint32_t)USIC_CH_PCR_SSCMode_TIWEN_Msk;</highlight></codeline>
@@ -3351,7 +3349,7 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="827"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1a57a0d5b0046d995023f6555c94e7af6a" kindref="member">PCR_SSCMode</ref><sp/>&amp;=<sp/>(uint32_t)~USIC_CH_PCR_SSCMode_TIWEN_Msk;</highlight></codeline>
 <codeline lineno="828"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="829"><highlight class="normal"></highlight></codeline>
-<codeline lineno="847"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga3902d15aaff83cbce1d0d9b252183ef5" kindref="member">XMC_SPI_CH_SetInterwordDelay</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>tinterword_delay_ns);</highlight></codeline>
+<codeline lineno="847"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga3902d15aaff83cbce1d0d9b252183ef5" kindref="member">XMC_SPI_CH_SetInterwordDelay</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>tinterword_delay_ns);</highlight></codeline>
 <codeline lineno="848"><highlight class="normal"></highlight></codeline>
 <codeline lineno="864"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___s_p_i_1ga5ebec7e4e0641a615e9a98ccb11ada78" kindref="member">XMC_SPI_CH_SetInterwordDelaySCLK</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>sclk_period)</highlight></codeline>
 <codeline lineno="865"><highlight class="normal">{</highlight></codeline>
@@ -3508,8 +3506,8 @@ When the SPI service request is triggered, the NVIC interrupt associated with it
 <codeline lineno="1354"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1355"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1356"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1365"><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="1365"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_spi.h"/>
   </compounddef>
 </doxygen>

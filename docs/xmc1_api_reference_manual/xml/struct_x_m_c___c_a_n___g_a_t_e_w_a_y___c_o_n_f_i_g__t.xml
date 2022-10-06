@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_CAN_GATEWAY_CONFIG_t</compoundname>
     <includes local="no">xmc_can.h</includes>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="504" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="504" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="504" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="504" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t_1afb3a4bf33be4ba75c4512f616e848c12" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="502" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="502" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="502" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="502" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t_1ad1654f547ee54be2c153a301f7b8af25" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="512" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="512" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="512" column="8" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="512" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t_1a0752e9d3b804fd7fe116e210167a06e7" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="505" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="505" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="505" column="8" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="505" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t_1a30e2966699975f108bde7c6c47238a72" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="510" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="510" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="510" column="8" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="510" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t_1a88e3712856b2d25b15ea9fbd41dfdb1e" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="507" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="507" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="507" column="8" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="507" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t_1a858646848f96f6fb58f648811cb45fbd" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="503" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="503" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="503" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="503" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -108,7 +108,7 @@
     <detaileddescription>
 <para>Defines CAN Gateway FIFO structure and provides additional options for gateway destination object. Use type <emphasis><ref refid="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t" kindref="compound">XMC_CAN_GATEWAY_CONFIG_t</ref></emphasis> for this structure. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="501" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="500" bodyend="515"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="500" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="501" bodyend="515"/>
     <listofallmembers>
       <member refid="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t_1afb35b14689f60f44435fcc7084598cd5" prot="public" virt="non-virtual"><scope>XMC_CAN_GATEWAY_CONFIG_t</scope><name>gateway_base</name></member>
       <member refid="struct_x_m_c___c_a_n___g_a_t_e_w_a_y___c_o_n_f_i_g__t_1afb3a4bf33be4ba75c4512f616e848c12" prot="public" virt="non-virtual"><scope>XMC_CAN_GATEWAY_CONFIG_t</scope><name>gateway_bottom</name></member>

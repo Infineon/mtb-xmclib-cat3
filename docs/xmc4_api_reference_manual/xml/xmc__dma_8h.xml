@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__dma_8h" kind="file" language="C++">
     <compoundname>xmc_dma.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <includes local="yes">xmc_dma_map.h</includes>
     <incdepgraph>
-      <node id="34">
-        <label>xmc_dma_map.h</label>
-      </node>
-      <node id="33">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="32">
+      <node id="1">
         <label>xmc_dma.h</label>
         <link refid="xmc__dma_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
+      </node>
+      <node id="3">
+        <label>xmc_dma_map.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_g_p_d_m_a___c_h__t" prot="public">GPDMA_CH_t</innerclass>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="103" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="103" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="103" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_m_a_1ga8b69f703937469a4c2cde8c06430c0e9" prot="public" static="no">
         <name>XMC_DMA0_NUM_CHANNELS</name>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="104" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="104" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="104" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_m_a_1gaaf2a547ad7cf42892ee13113195b36dc" prot="public" static="no">
         <name>XMC_DMA1</name>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="108" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="108" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="108" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_m_a_1gab397bd652c0d258abebed3ffa6f335b0" prot="public" static="no">
         <name>XMC_DMA1_NUM_CHANNELS</name>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="109" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="109" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="109" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="171" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="170" bodyend="175"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="170" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="171" bodyend="175"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1gab2e7d47bf6d6b766ad6fb8943991b16f" prot="public" static="no" strong="no">
         <type></type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="151" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="150" bodyend="155"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="150" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="151" bodyend="155"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1ga726c5d8b4d82b8c80c40d728d9b4687b" prot="public" static="no" strong="no">
         <type></type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="205" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="204" bodyend="208"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="204" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="205" bodyend="208"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1gaf060a6658295ad05f021471858e3cf65" prot="public" static="no" strong="no">
         <type></type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="230" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="229" bodyend="236"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="229" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="230" bodyend="236"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1gab756df17d6894a455be9bc6e28dd8362" prot="public" static="no" strong="no">
         <type></type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="215" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="214" bodyend="224"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="214" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="215" bodyend="224"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1ga32b4a50ce0fab8b542e0f217c86ea786" prot="public" static="no" strong="no">
         <type></type>
@@ -404,7 +404,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="181" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="180" bodyend="190"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="180" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="181" bodyend="190"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1ga6b3c8a2ea3ce9b3326e362fa3d5e8701" prot="public" static="no" strong="no">
         <type></type>
@@ -434,7 +434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="196" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="195" bodyend="199"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="195" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="196" bodyend="199"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1gadc425339a107c8a6f8248d027ee69b47" prot="public" static="no" strong="no">
         <type></type>
@@ -470,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="251" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="250" bodyend="255"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="250" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="251" bodyend="255"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1gabe587216a440005a974f626404f0b595" prot="public" static="no" strong="no">
         <type></type>
@@ -498,7 +498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="242" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="241" bodyend="245"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="241" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="242" bodyend="245"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1gaafe7db2c07b2c337f7c85baeeac76699" prot="public" static="no" strong="no">
         <type></type>
@@ -582,7 +582,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="136" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="135" bodyend="145"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="135" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="136" bodyend="145"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1gad6348c4075dfcda149b9423edfb408b7" prot="public" static="no" strong="no">
         <type></type>
@@ -666,7 +666,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="120" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="119" bodyend="130"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="119" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="120" bodyend="130"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_m_a_1ga8c5148218c05958ecd685b76cef4a7c4" prot="public" static="no" strong="no">
         <type></type>
@@ -705,7 +705,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="161" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="160" bodyend="165"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="160" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="161" bodyend="165"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -721,7 +721,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="450" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="450" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="450" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="450" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___d_m_a_1ga44b6c22c009181b175dd7fc09f6214a5" prot="public" static="no">
         <type><ref refid="struct_x_m_c___d_m_a___l_l_i__t" kindref="compound">XMC_DMA_LLI_t</ref> **</type>
@@ -735,7 +735,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="380" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="380" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="380" column="23" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="380" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -783,7 +783,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1243" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1243" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1243" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga3003bd66b286e04adb3cde94e61f6bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -849,7 +849,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="984" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="984" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="984" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gab8ecd554663ac2f57a7aecf962a3a6e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -895,7 +895,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1229" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1229" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1229" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga0185b44a84b166a2a88a9def7c13c3e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -941,7 +941,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="761" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="761" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="761" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga9d4a6c404a00639da7f48d17699a554f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -987,7 +987,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1182" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1182" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1182" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga34a4607079def65ccf4176b5fe061222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1033,7 +1033,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1077" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1077" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1077" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gac6cb234126c0674c470fbf4809caa715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1099,7 +1099,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="958" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="958" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="958" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga76ee31aff66fe3067ee851c1899ceca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1151,7 +1151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1283" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="1283" bodyend="1286"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1283" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="1283" bodyend="1286"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga9e1eb282060df94310df0d484f0478aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1197,7 +1197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1150" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1150" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1150" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga4cd0ec48dde1c2623552c02c8527336f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1243,7 +1243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1043" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1043" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1043" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gafc0bec99c89ffc54ec360e9d9fa5de5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1289,7 +1289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="745" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="745" bodyend="748"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="745" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="745" bodyend="748"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gafb0dd1f444b71d16b6b0fa6349c55f30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1335,7 +1335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1166" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1166" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1166" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gab5c56037411c1f380eb1291bb8ea3bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1405,7 +1405,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1063" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1063" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1063" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gacf1247954481dabc15a74bc4b5fbd1d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1471,7 +1471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="935" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="935" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="935" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gad024d8bbd06f08520939f8f2dea36256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1525,7 +1525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1263" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="1263" bodyend="1266"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1263" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="1263" bodyend="1266"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga93a73656b4544287a382c581ad68fc02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1571,7 +1571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1135" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1135" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1135" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gad80d0b242d8c8c26440ea9730bcf1a25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1641,7 +1641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1030" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1030" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1030" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga29b25f457108ab77605ef266f689c2d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1697,7 +1697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1011" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1011" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1011" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga110d227318ad258a34eea3f3028a0648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1743,7 +1743,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1300" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="1300" bodyend="1304"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1300" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="1300" bodyend="1304"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga5e51b2881816ed6adec123c46bfc5380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_m_a_1gadc425339a107c8a6f8248d027ee69b47" kindref="member">XMC_DMA_CH_STATUS_t</ref></type>
@@ -1815,7 +1815,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="730" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="730" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="730" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga70d41fc2c38744589cc344e8d43506f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1861,7 +1861,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="776" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="776" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="776" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga62f0becc2c9bfc0587d651b49a74d4a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1910,7 +1910,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="910" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="910" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="910" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga29532c774bff76fbabe38dffb0e6902f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1956,7 +1956,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1199" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1199" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1199" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga09bf578676e499baa8c4148cf4f2bc20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2005,7 +2005,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="812" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="812" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="812" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gaa4208f3ba47602da1e234dbc81192c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2063,7 +2063,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="870" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="870" bodyend="873"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="870" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="870" bodyend="873"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gada24d6603d661f3a5a8eff20b4621ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2124,7 +2124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="851" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="851" bodyend="854"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="851" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="851" bodyend="854"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gad62049f00eeba99b81c2093f0722f6d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2182,7 +2182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1215" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1215" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1215" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga1af75deef35d69332d64116ddc3d5baf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2240,7 +2240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="889" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="889" bodyend="892"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="889" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="889" bodyend="892"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gac423ad1fe2fcbc1f2e53f4f30f77d930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2301,7 +2301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="830" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="830" bodyend="833"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="830" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="830" bodyend="833"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga24ca883c0955cc70c2754134f0c7fdd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2350,7 +2350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="794" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="794" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="794" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga8fe6d4fdb2d14662e9782ed62b7616f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2422,7 +2422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1119" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1119" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1119" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga412645a62fb0fefc5a40e9dd37e5b4b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2494,7 +2494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1098" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1098" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1098" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gae8d6e05cb999df4f9619753353e75fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2540,7 +2540,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="699" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="699" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="699" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga5487744727d5c8edaa07f538d401641b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2587,7 +2587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="669" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="669" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="669" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga110b4bb4ac527e62fa90a888fccec3c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2621,7 +2621,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="499" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="499" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="499" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gae34f52feae127b101b963043ef2e5439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2668,7 +2668,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="656" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="656" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="656" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga387bb0f0e386d1698c7de9c3a1f1a555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2702,7 +2702,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="485" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="485" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="485" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga05dde751d131d0a99f92a88229942c50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2763,7 +2763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="642" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="642" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="642" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga28b95c66ee965233dc69f53038fdfdc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2798,7 +2798,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="566" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="566" bodyend="569"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="566" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="566" bodyend="569"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gaaeb0c998371496fba538b5cb2f90c389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2835,7 +2835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="604" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="604" bodyend="607"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="604" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="604" bodyend="607"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga83f40491351c8259381bf742278fe71a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2870,7 +2870,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="619" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="619" bodyend="622"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="619" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="619" bodyend="622"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gaffc5d4205a0fef681e5fd49c9d62c629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2907,7 +2907,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="585" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="585" bodyend="588"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="585" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="585" bodyend="588"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gaf893788bf45792df2c84cb3fdeaf220c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2942,7 +2942,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="551" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="551" bodyend="554"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="551" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="551" bodyend="554"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gadffe9745983b5829949bb34345b30666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2984,7 +2984,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="536" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="536" bodyend="539"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="536" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="536" bodyend="539"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga684f1ef5480aa1bc53c0911d77dbedee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3030,7 +3030,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="685" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="685" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="685" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1gae42662ab2834c6961b5af10b1827a999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3064,7 +3064,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="471" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="471" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="471" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga7f37893fccd2bc67011485b67df44cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3101,7 +3101,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1323" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="1323" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="1323" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_m_a_1ga53f4afcd0969774e61e82d38c48697bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3135,7 +3135,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="514" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="514" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" declline="514" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -3146,8 +3146,8 @@ The function handles the enabled GPDMA events and runs the user callback functio
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="67"><highlight class="preprocessor">#ifndef<sp/>XMC_DMA_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_DMA_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DMA_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
@@ -3161,25 +3161,25 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_dma_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="99"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="100"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(GPDMA0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DMA0<sp/>((XMC_DMA_t<sp/>*)GPDMA0_CH0_BASE)<sp/></highlight></codeline>
-<codeline lineno="104"><highlight class="preprocessor">#define<sp/>XMC_DMA0_NUM_CHANNELS<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DMA0<sp/>((XMC_DMA_t<sp/>*)GPDMA0_CH0_BASE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DMA0_NUM_CHANNELS<sp/>8</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(GPDMA1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DMA1<sp/>((XMC_DMA_t<sp/>*)GPDMA1_CH0_BASE)<sp/></highlight></codeline>
-<codeline lineno="109"><highlight class="preprocessor">#define<sp/>XMC_DMA1_NUM_CHANNELS<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DMA1<sp/>((XMC_DMA_t<sp/>*)GPDMA1_CH0_BASE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DMA1_NUM_CHANNELS<sp/>4</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="113"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="114"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_TRANSFER_TYPE</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_TRANSFER_TYPE</highlight></codeline>
 <codeline lineno="120"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggad6348c4075dfcda149b9423edfb408b7ad443442416beb06b0446a399314f4f75" kindref="member">XMC_DMA_CH_TRANSFER_TYPE_SINGLE_BLOCK</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggad6348c4075dfcda149b9423edfb408b7af218869813bbcbd79211b90737c443e3" kindref="member">XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_CONTIGUOUS_DSTADR_RELOAD</ref>,<sp/></highlight></codeline>
@@ -3192,7 +3192,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggad6348c4075dfcda149b9423edfb408b7a6670ab4efee0567433c0f7fc8a023029" kindref="member">XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_LINKED_DSTADR_LINKED</ref><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="130"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1gad6348c4075dfcda149b9423edfb408b7" kindref="member">XMC_DMA_CH_TRANSFER_TYPE_t</ref>;</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_TRANSFER_FLOW</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_TRANSFER_FLOW</highlight></codeline>
 <codeline lineno="136"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggaafe7db2c07b2c337f7c85baeeac76699a9cf7cf359dd1bcdb88f10dba9e0004dd" kindref="member">XMC_DMA_CH_TRANSFER_FLOW_M2M_DMA</ref><sp/><sp/><sp/><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggaafe7db2c07b2c337f7c85baeeac76699a03aff464ac33b0c21591b78734064f34" kindref="member">XMC_DMA_CH_TRANSFER_FLOW_M2P_DMA</ref><sp/><sp/><sp/><sp/>=<sp/>0x1UL,<sp/></highlight></codeline>
@@ -3204,28 +3204,28 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggaafe7db2c07b2c337f7c85baeeac76699a176d147c6cb7e05d81f075c586add39a" kindref="member">XMC_DMA_CH_TRANSFER_FLOW_P2P_DSTPER</ref><sp/>=<sp/>0x7UL<sp/><sp/></highlight></codeline>
 <codeline lineno="145"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1gaafe7db2c07b2c337f7c85baeeac76699" kindref="member">XMC_DMA_CH_TRANSFER_FLOW_t</ref>;</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_BURST_LENGTH</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_BURST_LENGTH</highlight></codeline>
 <codeline lineno="151"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggab2e7d47bf6d6b766ad6fb8943991b16fa38df5f0b7bd79dd2d1452fa864f35096" kindref="member">XMC_DMA_CH_BURST_LENGTH_1</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggab2e7d47bf6d6b766ad6fb8943991b16fa6d049dbb5f665bf90dea1f8f431dfce7" kindref="member">XMC_DMA_CH_BURST_LENGTH_4</ref><sp/>=<sp/>0x1UL,<sp/></highlight></codeline>
 <codeline lineno="154"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggab2e7d47bf6d6b766ad6fb8943991b16fa482402e735b8afe1a5c5a7d96440b9b1" kindref="member">XMC_DMA_CH_BURST_LENGTH_8</ref><sp/>=<sp/>0x2UL<sp/><sp/></highlight></codeline>
 <codeline lineno="155"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1gab2e7d47bf6d6b766ad6fb8943991b16f" kindref="member">XMC_DMA_CH_BURST_LENGTH_t</ref>;</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_TRANSFER_WIDTH</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_TRANSFER_WIDTH</highlight></codeline>
 <codeline lineno="161"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga8c5148218c05958ecd685b76cef4a7c4a74cdb3a59b6d62e779afc0d6bcf3fa95" kindref="member">XMC_DMA_CH_TRANSFER_WIDTH_8</ref><sp/><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="163"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga8c5148218c05958ecd685b76cef4a7c4a11c8ad6964cb59b7b62b4df284810e65" kindref="member">XMC_DMA_CH_TRANSFER_WIDTH_16</ref><sp/>=<sp/>0x1UL,<sp/></highlight></codeline>
 <codeline lineno="164"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga8c5148218c05958ecd685b76cef4a7c4a73f438731b523de0ac36dbdbb18f84e3" kindref="member">XMC_DMA_CH_TRANSFER_WIDTH_32</ref><sp/>=<sp/>0x2UL<sp/><sp/></highlight></codeline>
 <codeline lineno="165"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1ga8c5148218c05958ecd685b76cef4a7c4" kindref="member">XMC_DMA_CH_TRANSFER_WIDTH_t</ref>;</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_ADDRESS_COUNT_MODE</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_ADDRESS_COUNT_MODE</highlight></codeline>
 <codeline lineno="171"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga0b36edf2049d67bc15b7e76a0e33ad65ae7b136eefb3f64d5727135af8565254e" kindref="member">XMC_DMA_CH_ADDRESS_COUNT_MODE_INCREMENT</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="173"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga0b36edf2049d67bc15b7e76a0e33ad65aee00d6c2834df57542d3257d831e298c" kindref="member">XMC_DMA_CH_ADDRESS_COUNT_MODE_DECREMENT</ref><sp/>=<sp/>0x1UL,<sp/></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga0b36edf2049d67bc15b7e76a0e33ad65aac1bb5e053c0d18454bad5e3d66e1564" kindref="member">XMC_DMA_CH_ADDRESS_COUNT_MODE_NO_CHANGE</ref><sp/>=<sp/>0x2UL<sp/><sp/></highlight></codeline>
 <codeline lineno="175"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1ga0b36edf2049d67bc15b7e76a0e33ad65" kindref="member">XMC_DMA_CH_ADDRESS_COUNT_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_PRIORITY</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_PRIORITY</highlight></codeline>
 <codeline lineno="181"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga32b4a50ce0fab8b542e0f217c86ea786a53271e0bfc789a64957e1a603e432a7f" kindref="member">XMC_DMA_CH_PRIORITY_0</ref><sp/>=<sp/>0x0UL<sp/>&lt;&lt;<sp/>GPDMA0_CH_CFGL_CH_PRIOR_Pos,<sp/></highlight></codeline>
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga32b4a50ce0fab8b542e0f217c86ea786abe48f8c1606e627aa67532e8d0fa41eb" kindref="member">XMC_DMA_CH_PRIORITY_1</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>GPDMA0_CH_CFGL_CH_PRIOR_Pos,<sp/></highlight></codeline>
@@ -3237,19 +3237,19 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga32b4a50ce0fab8b542e0f217c86ea786a43de0533d1e7d91ce38e3f8da9e4cd7b" kindref="member">XMC_DMA_CH_PRIORITY_7</ref><sp/>=<sp/>0x7UL<sp/>&lt;&lt;<sp/>GPDMA0_CH_CFGL_CH_PRIOR_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="190"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1ga32b4a50ce0fab8b542e0f217c86ea786" kindref="member">XMC_DMA_CH_PRIORITY_t</ref>;</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_SRC_HANDSHAKING</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_SRC_HANDSHAKING</highlight></codeline>
 <codeline lineno="196"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga6b3c8a2ea3ce9b3326e362fa3d5e8701ab319c1c955b076d0fb1cdb42f073d7e4" kindref="member">XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE</ref><sp/>=<sp/>0x0UL<sp/>&lt;&lt;<sp/>GPDMA0_CH_CFGL_HS_SEL_SRC_Pos,<sp/></highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga6b3c8a2ea3ce9b3326e362fa3d5e8701ada372e9bfb40089c5208249abb3581b1" kindref="member">XMC_DMA_CH_SRC_HANDSHAKING_SOFTWARE</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>GPDMA0_CH_CFGL_HS_SEL_SRC_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="199"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1ga6b3c8a2ea3ce9b3326e362fa3d5e8701" kindref="member">XMC_DMA_CH_SRC_HANDSHAKING_t</ref>;</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_DST_HANDSHAKING</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_DST_HANDSHAKING</highlight></codeline>
 <codeline lineno="205"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga726c5d8b4d82b8c80c40d728d9b4687bad7eff9ecea3278fa8cc41a00ba455d1b" kindref="member">XMC_DMA_CH_DST_HANDSHAKING_HARDWARE</ref><sp/>=<sp/>0x0UL<sp/>&lt;&lt;<sp/>GPDMA0_CH_CFGL_HS_SEL_DST_Pos,<sp/></highlight></codeline>
 <codeline lineno="207"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1gga726c5d8b4d82b8c80c40d728d9b4687bafa2ae8838345eb06beec7d39bf17797b" kindref="member">XMC_DMA_CH_DST_HANDSHAKING_SOFTWARE</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>GPDMA0_CH_CFGL_HS_SEL_DST_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="208"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1ga726c5d8b4d82b8c80c40d728d9b4687b" kindref="member">XMC_DMA_CH_DST_HANDSHAKING_t</ref>;</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_HARDWARE_HANDSHAKING_IF</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_HARDWARE_HANDSHAKING_IF</highlight></codeline>
 <codeline lineno="215"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggab756df17d6894a455be9bc6e28dd8362afec0992d5488c52a402f32a84a6f5157" kindref="member">XMC_DMA_CH_HARDWARE_HANDSHAKING_IF_0</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="217"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggab756df17d6894a455be9bc6e28dd8362ab683ed0fa1cb010f82b868f88eda74fe" kindref="member">XMC_DMA_CH_HARDWARE_HANDSHAKING_IF_1</ref><sp/>=<sp/>0x1UL,<sp/></highlight></codeline>
@@ -3261,7 +3261,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="223"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggab756df17d6894a455be9bc6e28dd8362abe1d0a978e820e223430f7c56cdf06ec" kindref="member">XMC_DMA_CH_HARDWARE_HANDSHAKING_IF_7</ref><sp/>=<sp/>0x7UL<sp/><sp/></highlight></codeline>
 <codeline lineno="224"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1gab756df17d6894a455be9bc6e28dd8362" kindref="member">XMC_DMA_CH_HARDWARE_HANDSHAKING_IF_t</ref>;</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_EVENT</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_EVENT</highlight></codeline>
 <codeline lineno="230"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggaf060a6658295ad05f021471858e3cf65adf40aa87e9a29b90161ad82d77a60ac0" kindref="member">XMC_DMA_CH_EVENT_TRANSFER_COMPLETE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1UL,<sp/></highlight></codeline>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggaf060a6658295ad05f021471858e3cf65a60a7f134d544d91aa9f0dc7113d21c5a" kindref="member">XMC_DMA_CH_EVENT_BLOCK_TRANSFER_COMPLETE</ref><sp/><sp/>=<sp/>0x2UL,<sp/></highlight></codeline>
@@ -3270,13 +3270,13 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="235"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggaf060a6658295ad05f021471858e3cf65ab1d515480732bf84cb7bf568b293f719" kindref="member">XMC_DMA_CH_EVENT_ERROR</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10UL<sp/></highlight></codeline>
 <codeline lineno="236"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1gaf060a6658295ad05f021471858e3cf65" kindref="member">XMC_DMA_CH_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_TRANSACTION_TYPE</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_TRANSACTION_TYPE</highlight></codeline>
 <codeline lineno="242"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggabe587216a440005a974f626404f0b595a17d321a37948e2087d1c7772d7d9d6a9" kindref="member">XMC_DMA_CH_TRANSACTION_TYPE_SINGLE</ref>,<sp/></highlight></codeline>
 <codeline lineno="244"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggabe587216a440005a974f626404f0b595acd2de614c574d6ac966237533484afe9" kindref="member">XMC_DMA_CH_TRANSACTION_TYPE_BURST</ref><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="245"><highlight class="normal">}<sp/><ref refid="group___d_m_a_1gabe587216a440005a974f626404f0b595" kindref="member">XMC_DMA_CH_TRANSACTION_TYPE_t</ref>;</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_STATUS</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_DMA_CH_STATUS</highlight></codeline>
 <codeline lineno="251"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggadc425339a107c8a6f8248d027ee69b47abbe13983487c134f9c94c85cee145d09" kindref="member">XMC_DMA_CH_STATUS_OK</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="253"><highlight class="normal"><sp/><sp/><ref refid="group___d_m_a_1ggadc425339a107c8a6f8248d027ee69b47ac4d14c32c875621f38b41895936e2a0e" kindref="member">XMC_DMA_CH_STATUS_ERROR</ref>,<sp/></highlight></codeline>
@@ -3287,7 +3287,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="258"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
 <codeline lineno="259"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271" refid="struct_g_p_d_m_a___c_h__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">GPDMA_CH</highlight></codeline>
+<codeline lineno="271" refid="struct_g_p_d_m_a___c_h__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">GPDMA_CH</highlight></codeline>
 <codeline lineno="272"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>SAR;</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED0;</highlight></codeline>
@@ -3313,7 +3313,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="294"><highlight class="normal"><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED8;</highlight></codeline>
 <codeline lineno="295"><highlight class="normal">}<sp/><ref refid="struct_g_p_d_m_a___c_h__t" kindref="compound">GPDMA_CH_t</ref>;</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304" refid="struct_x_m_c___d_m_a__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DMA</highlight></codeline>
+<codeline lineno="304" refid="struct_x_m_c___d_m_a__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DMA</highlight></codeline>
 <codeline lineno="305"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"><sp/><sp/><ref refid="struct_g_p_d_m_a___c_h__t" kindref="compound">GPDMA_CH_t</ref><sp/>CH[8];</highlight></codeline>
 <codeline lineno="307"><highlight class="normal"></highlight></codeline>
@@ -3353,7 +3353,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="341"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="342"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="343"><highlight class="normal"></highlight></codeline>
-<codeline lineno="348" refid="struct_x_m_c___d_m_a___l_l_i__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DMA_LLI</highlight></codeline>
+<codeline lineno="348" refid="struct_x_m_c___d_m_a___l_l_i__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DMA_LLI</highlight></codeline>
 <codeline lineno="349"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="350"><highlight class="normal"><sp/><sp/>uint32_t<sp/>src_addr;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/>uint32_t<sp/>dst_addr;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -3386,7 +3386,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="378"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___d_m_a___l_l_i__t" kindref="compound">XMC_DMA_LLI_t</ref>;</highlight></codeline>
 <codeline lineno="379"><highlight class="normal"></highlight></codeline>
 <codeline lineno="380"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___d_m_a___l_l_i__t" kindref="compound">XMC_DMA_LLI_t</ref><sp/>**<ref refid="group___d_m_a_1ga44b6c22c009181b175dd7fc09f6214a5" kindref="member">XMC_DMA_LIST_t</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="385" refid="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DMA_CH_CONFIG</highlight></codeline>
+<codeline lineno="385" refid="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DMA_CH_CONFIG</highlight></codeline>
 <codeline lineno="386"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="387"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="388"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -3447,7 +3447,7 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="444"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>restore</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="445"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="446"><highlight class="normal"></highlight></codeline>
-<codeline lineno="450"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="group___d_m_a_1ga64c3569965d36b229349d2dbe507fd44" kindref="member">XMC_DMA_CH_EVENT_HANDLER_t</ref>)(<ref refid="group___d_m_a_1gaf060a6658295ad05f021471858e3cf65" kindref="member">XMC_DMA_CH_EVENT_t</ref><sp/>event);</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="group___d_m_a_1ga64c3569965d36b229349d2dbe507fd44" kindref="member">XMC_DMA_CH_EVENT_HANDLER_t</ref>)(<ref refid="group___d_m_a_1gaf060a6658295ad05f021471858e3cf65" kindref="member">XMC_DMA_CH_EVENT_t</ref><sp/>event);</highlight></codeline>
 <codeline lineno="451"><highlight class="normal"></highlight></codeline>
 <codeline lineno="452"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="453"><highlight class="comment"><sp/>*<sp/>API<sp/>PROTOTYPES</highlight></codeline>
@@ -3457,13 +3457,13 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="457"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="458"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="459"><highlight class="normal"></highlight></codeline>
-<codeline lineno="471"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gae42662ab2834c6961b5af10b1827a999" kindref="member">XMC_DMA_Init</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gae42662ab2834c6961b5af10b1827a999" kindref="member">XMC_DMA_Init</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
 <codeline lineno="472"><highlight class="normal"></highlight></codeline>
-<codeline lineno="485"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga387bb0f0e386d1698c7de9c3a1f1a555" kindref="member">XMC_DMA_Enable</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga387bb0f0e386d1698c7de9c3a1f1a555" kindref="member">XMC_DMA_Enable</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
 <codeline lineno="486"><highlight class="normal"></highlight></codeline>
-<codeline lineno="499"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga110b4bb4ac527e62fa90a888fccec3c3" kindref="member">XMC_DMA_Disable</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga110b4bb4ac527e62fa90a888fccec3c3" kindref="member">XMC_DMA_Disable</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
 <codeline lineno="500"><highlight class="normal"></highlight></codeline>
-<codeline lineno="514"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga53f4afcd0969774e61e82d38c48697bb" kindref="member">XMC_DMA_IsEnabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga53f4afcd0969774e61e82d38c48697bb" kindref="member">XMC_DMA_IsEnabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
 <codeline lineno="515"><highlight class="normal"></highlight></codeline>
 <codeline lineno="536"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___d_m_a_1gadffe9745983b5829949bb34345b30666" kindref="member">XMC_DMA_GetEventStatus</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma)</highlight></codeline>
 <codeline lineno="537"><highlight class="normal">{</highlight></codeline>
@@ -3495,15 +3495,15 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="621"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(dma-&gt;STATUSCHEV[8]);</highlight></codeline>
 <codeline lineno="622"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="623"><highlight class="normal"></highlight></codeline>
-<codeline lineno="642"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga05dde751d131d0a99f92a88229942c50" kindref="member">XMC_DMA_EnableRequestLine</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>line,<sp/>uint8_t<sp/>peripheral);</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga05dde751d131d0a99f92a88229942c50" kindref="member">XMC_DMA_EnableRequestLine</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>line,<sp/>uint8_t<sp/>peripheral);</highlight></codeline>
 <codeline lineno="643"><highlight class="normal"></highlight></codeline>
-<codeline lineno="656"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gae34f52feae127b101b963043ef2e5439" kindref="member">XMC_DMA_DisableRequestLine</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>line);</highlight></codeline>
+<codeline lineno="656"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gae34f52feae127b101b963043ef2e5439" kindref="member">XMC_DMA_DisableRequestLine</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>line);</highlight></codeline>
 <codeline lineno="657"><highlight class="normal"></highlight></codeline>
-<codeline lineno="669"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga5487744727d5c8edaa07f538d401641b" kindref="member">XMC_DMA_ClearRequestLine</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>line);</highlight></codeline>
+<codeline lineno="669"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga5487744727d5c8edaa07f538d401641b" kindref="member">XMC_DMA_ClearRequestLine</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>line);</highlight></codeline>
 <codeline lineno="670"><highlight class="normal"></highlight></codeline>
-<codeline lineno="685"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga684f1ef5480aa1bc53c0911d77dbedee" kindref="member">XMC_DMA_GetOverrunStatus</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>line);</highlight></codeline>
+<codeline lineno="685"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga684f1ef5480aa1bc53c0911d77dbedee" kindref="member">XMC_DMA_GetOverrunStatus</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>line);</highlight></codeline>
 <codeline lineno="686"><highlight class="normal"></highlight></codeline>
-<codeline lineno="699"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gae8d6e05cb999df4f9619753353e75fd0" kindref="member">XMC_DMA_ClearOverrunStatus</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>line);</highlight></codeline>
+<codeline lineno="699"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gae8d6e05cb999df4f9619753353e75fd0" kindref="member">XMC_DMA_ClearOverrunStatus</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>line);</highlight></codeline>
 <codeline lineno="700"><highlight class="normal"></highlight></codeline>
 <codeline lineno="730"><highlight class="normal"><ref refid="group___d_m_a_1gadc425339a107c8a6f8248d027ee69b47" kindref="member">XMC_DMA_CH_STATUS_t</ref><sp/><ref refid="group___d_m_a_1ga5e51b2881816ed6adec123c46bfc5380" kindref="member">XMC_DMA_CH_Init</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_DMA_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="731"><highlight class="normal"></highlight></codeline>
@@ -3512,13 +3512,13 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="747"><highlight class="normal"><sp/><sp/>dma-&gt;CHENREG<sp/>=<sp/>(uint32_t)(0x101UL<sp/>&lt;&lt;<sp/>channel);</highlight></codeline>
 <codeline lineno="748"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="749"><highlight class="normal"></highlight></codeline>
-<codeline lineno="761"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga0185b44a84b166a2a88a9def7c13c3e5" kindref="member">XMC_DMA_CH_Disable</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="761"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga0185b44a84b166a2a88a9def7c13c3e5" kindref="member">XMC_DMA_CH_Disable</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="762"><highlight class="normal"></highlight></codeline>
-<codeline lineno="776"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga70d41fc2c38744589cc344e8d43506f9" kindref="member">XMC_DMA_CH_IsEnabled</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="776"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga70d41fc2c38744589cc344e8d43506f9" kindref="member">XMC_DMA_CH_IsEnabled</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="777"><highlight class="normal"></highlight></codeline>
-<codeline lineno="794"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga24ca883c0955cc70c2754134f0c7fdd3" kindref="member">XMC_DMA_CH_Suspend</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="794"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga24ca883c0955cc70c2754134f0c7fdd3" kindref="member">XMC_DMA_CH_Suspend</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="795"><highlight class="normal"></highlight></codeline>
-<codeline lineno="812"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga09bf578676e499baa8c4148cf4f2bc20" kindref="member">XMC_DMA_CH_Resume</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="812"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga09bf578676e499baa8c4148cf4f2bc20" kindref="member">XMC_DMA_CH_Resume</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="813"><highlight class="normal"></highlight></codeline>
 <codeline lineno="830"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gac423ad1fe2fcbc1f2e53f4f30f77d930" kindref="member">XMC_DMA_CH_SetSourceAddress</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/>uint32_t<sp/>addr)</highlight></codeline>
 <codeline lineno="831"><highlight class="normal">{</highlight></codeline>
@@ -3540,43 +3540,43 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="891"><highlight class="normal"><sp/><sp/>dma-&gt;CH[channel].LLP<sp/>=<sp/>(uint32_t)ll_ptr;</highlight></codeline>
 <codeline lineno="892"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="893"><highlight class="normal"></highlight></codeline>
-<codeline lineno="910"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga62f0becc2c9bfc0587d651b49a74d4a9" kindref="member">XMC_DMA_CH_IsSuspended</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="910"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga62f0becc2c9bfc0587d651b49a74d4a9" kindref="member">XMC_DMA_CH_IsSuspended</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="911"><highlight class="normal"></highlight></codeline>
-<codeline lineno="935"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gacf1247954481dabc15a74bc4b5fbd1d9" kindref="member">XMC_DMA_CH_EnableEvent</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="935"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gacf1247954481dabc15a74bc4b5fbd1d9" kindref="member">XMC_DMA_CH_EnableEvent</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="936"><highlight class="normal"></highlight></codeline>
-<codeline lineno="958"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gac6cb234126c0674c470fbf4809caa715" kindref="member">XMC_DMA_CH_DisableEvent</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="958"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gac6cb234126c0674c470fbf4809caa715" kindref="member">XMC_DMA_CH_DisableEvent</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="959"><highlight class="normal"></highlight></codeline>
-<codeline lineno="984"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga3003bd66b286e04adb3cde94e61f6bfd" kindref="member">XMC_DMA_CH_ClearEventStatus</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="984"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga3003bd66b286e04adb3cde94e61f6bfd" kindref="member">XMC_DMA_CH_ClearEventStatus</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="985"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1011"><highlight class="normal">uint32_t<sp/><ref refid="group___d_m_a_1ga29b25f457108ab77605ef266f689c2d9" kindref="member">XMC_DMA_CH_GetEventStatus</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1012"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1030"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gad80d0b242d8c8c26440ea9730bcf1a25" kindref="member">XMC_DMA_CH_EnableSourceGather</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/>uint32_t<sp/>interval,<sp/>uint16_t<sp/>count);</highlight></codeline>
+<codeline lineno="1030"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gad80d0b242d8c8c26440ea9730bcf1a25" kindref="member">XMC_DMA_CH_EnableSourceGather</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/>uint32_t<sp/>interval,<sp/>uint16_t<sp/>count);</highlight></codeline>
 <codeline lineno="1031"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1043"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga4cd0ec48dde1c2623552c02c8527336f" kindref="member">XMC_DMA_CH_DisableSourceGather</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1043"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga4cd0ec48dde1c2623552c02c8527336f" kindref="member">XMC_DMA_CH_DisableSourceGather</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1044"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1063"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gab5c56037411c1f380eb1291bb8ea3bbe" kindref="member">XMC_DMA_CH_EnableDestinationScatter</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/>uint32_t<sp/>interval,<sp/>uint16_t<sp/>count);</highlight></codeline>
+<codeline lineno="1063"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gab5c56037411c1f380eb1291bb8ea3bbe" kindref="member">XMC_DMA_CH_EnableDestinationScatter</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/>uint32_t<sp/>interval,<sp/>uint16_t<sp/>count);</highlight></codeline>
 <codeline lineno="1064"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1077"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga34a4607079def65ccf4176b5fe061222" kindref="member">XMC_DMA_CH_DisableDestinationScatter</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1077"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga34a4607079def65ccf4176b5fe061222" kindref="member">XMC_DMA_CH_DisableDestinationScatter</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1078"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1098"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga412645a62fb0fefc5a40e9dd37e5b4b5" kindref="member">XMC_DMA_CH_TriggerSourceRequest</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gabe587216a440005a974f626404f0b595" kindref="member">XMC_DMA_CH_TRANSACTION_TYPE_t</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>last);</highlight></codeline>
+<codeline lineno="1098"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga412645a62fb0fefc5a40e9dd37e5b4b5" kindref="member">XMC_DMA_CH_TriggerSourceRequest</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gabe587216a440005a974f626404f0b595" kindref="member">XMC_DMA_CH_TRANSACTION_TYPE_t</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>last);</highlight></codeline>
 <codeline lineno="1099"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1119"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga8fe6d4fdb2d14662e9782ed62b7616f9" kindref="member">XMC_DMA_CH_TriggerDestinationRequest</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gabe587216a440005a974f626404f0b595" kindref="member">XMC_DMA_CH_TRANSACTION_TYPE_t</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>last);</highlight></codeline>
+<codeline lineno="1119"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga8fe6d4fdb2d14662e9782ed62b7616f9" kindref="member">XMC_DMA_CH_TriggerDestinationRequest</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gabe587216a440005a974f626404f0b595" kindref="member">XMC_DMA_CH_TRANSACTION_TYPE_t</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>last);</highlight></codeline>
 <codeline lineno="1120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1135"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga93a73656b4544287a382c581ad68fc02" kindref="member">XMC_DMA_CH_EnableSourceAddressReload</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1135"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga93a73656b4544287a382c581ad68fc02" kindref="member">XMC_DMA_CH_EnableSourceAddressReload</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1150"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga9e1eb282060df94310df0d484f0478aa" kindref="member">XMC_DMA_CH_DisableSourceAddressReload</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1150"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga9e1eb282060df94310df0d484f0478aa" kindref="member">XMC_DMA_CH_DisableSourceAddressReload</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1166"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gafb0dd1f444b71d16b6b0fa6349c55f30" kindref="member">XMC_DMA_CH_EnableDestinationAddressReload</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1166"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gafb0dd1f444b71d16b6b0fa6349c55f30" kindref="member">XMC_DMA_CH_EnableDestinationAddressReload</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1182"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga9d4a6c404a00639da7f48d17699a554f" kindref="member">XMC_DMA_CH_DisableDestinationAddressReload</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1182"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga9d4a6c404a00639da7f48d17699a554f" kindref="member">XMC_DMA_CH_DisableDestinationAddressReload</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1199"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga29532c774bff76fbabe38dffb0e6902f" kindref="member">XMC_DMA_CH_RequestLastMultiblockTransfer</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1199"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga29532c774bff76fbabe38dffb0e6902f" kindref="member">XMC_DMA_CH_RequestLastMultiblockTransfer</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1215"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gad62049f00eeba99b81c2093f0722f6d9" kindref="member">XMC_DMA_CH_SetEventHandler</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/><ref refid="group___d_m_a_1ga64c3569965d36b229349d2dbe507fd44" kindref="member">XMC_DMA_CH_EVENT_HANDLER_t</ref><sp/>event_handler);</highlight></codeline>
+<codeline lineno="1215"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gad62049f00eeba99b81c2093f0722f6d9" kindref="member">XMC_DMA_CH_SetEventHandler</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/><ref refid="group___d_m_a_1ga64c3569965d36b229349d2dbe507fd44" kindref="member">XMC_DMA_CH_EVENT_HANDLER_t</ref><sp/>event_handler);</highlight></codeline>
 <codeline lineno="1216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1229"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gab8ecd554663ac2f57a7aecf962a3a6e4" kindref="member">XMC_DMA_CH_ClearSourcePeripheralRequest</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1229"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gab8ecd554663ac2f57a7aecf962a3a6e4" kindref="member">XMC_DMA_CH_ClearSourcePeripheralRequest</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1243"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga2c7fb961b05f06d0ca855c2d60a00f20" kindref="member">XMC_DMA_CH_ClearDestinationPeripheralRequest</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="1243"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga2c7fb961b05f06d0ca855c2d60a00f20" kindref="member">XMC_DMA_CH_ClearDestinationPeripheralRequest</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>channel);</highlight></codeline>
 <codeline lineno="1244"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1263"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1gad024d8bbd06f08520939f8f2dea36256" kindref="member">XMC_DMA_CH_EnableFifoMode</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma,<sp/>uint8_t<sp/>channel)</highlight></codeline>
 <codeline lineno="1264"><highlight class="normal">{</highlight></codeline>
@@ -3594,15 +3594,15 @@ The function handles the enabled GPDMA events and runs the user callback functio
 <codeline lineno="1303"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1304"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1323"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga7f37893fccd2bc67011485b67df44cb2" kindref="member">XMC_DMA_IRQHandler</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
+<codeline lineno="1323"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___d_m_a_1ga7f37893fccd2bc67011485b67df44cb2" kindref="member">XMC_DMA_IRQHandler</ref>(<ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dma);</highlight></codeline>
 <codeline lineno="1324"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1325"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1326"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1327"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1328"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1334"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined<sp/>(GPDMA0)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1334"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined<sp/>(GPDMA0)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1335"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_DMA_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h"/>
   </compounddef>
 </doxygen>

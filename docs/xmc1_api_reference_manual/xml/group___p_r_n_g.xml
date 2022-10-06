@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___p_r_n_g" kind="group">
     <compoundname>PRNG</compoundname>
     <title>Pseudo Random Number Generator (PRNG)</title>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="105" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="104" bodyend="109"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="104" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="105" bodyend="109"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_r_n_g_1ga4b04f26e22d83d38227d712fbc3de8ae" prot="public" static="no" strong="no">
         <type></type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="115" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="114" bodyend="118"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="114" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="115" bodyend="118"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_r_n_g_1ga3c1f8f0302221803f725e24d2a903f8d" prot="public" static="no" strong="no">
         <type></type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="96" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="95" bodyend="99"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="95" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="96" bodyend="99"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="192" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="192" bodyend="195"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="192" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="192" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1ga50c7502d10a31a18d05f69c341f8c383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="211" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="211" bodyend="214"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="211" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="211" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1ga8cd9567c3cc650f52297c67733a80bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="229" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="229" bodyend="232"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="229" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="229" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1gab7468715bc1f4ee24d3de60d4f1a9e0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="269" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="269" bodyend="272"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="269" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="269" bodyend="272"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1ga21fe2808ff30944aff357280cb2d9774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___p_r_n_g_1ga4b04f26e22d83d38227d712fbc3de8ae" kindref="member">XMC_PRNG_INIT_STATUS_t</ref></type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="160" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="160" column="24" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" declline="160" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1gade903f0a506405ea40958c5d99df9b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -283,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="247" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="247" bodyend="250"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="247" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="247" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1ga52fd6a913021d7118f0d9f51dab1cbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -317,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="175" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="175" bodyend="179"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="175" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="175" bodyend="179"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -331,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="86" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="86" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="86" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

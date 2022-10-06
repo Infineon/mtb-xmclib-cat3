@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___s_c_u" kind="group">
     <compoundname>SCU</compoundname>
     <title>System Control Unit(SCU)</title>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="635" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="634" bodyend="648"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="634" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="635" bodyend="648"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga51850699f03c906a5fefcc4f04c6b2c1" prot="public" static="no" strong="no">
         <type></type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="180" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="179" bodyend="205"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="179" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="180" bodyend="205"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga5a00552e019ebfb3f3ded0ac0c52d324" prot="public" static="no" strong="no">
         <type></type>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="721" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="720" bodyend="747"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="720" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="721" bodyend="747"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga26a3f6ccc6fa98818df8efd7e487d7c0" prot="public" static="no" strong="no">
         <type></type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="549" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="548" bodyend="552"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="548" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="549" bodyend="552"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gaaf5142b4b63fc9f6413c9deb3e7740a0" prot="public" static="no" strong="no">
         <type></type>
@@ -354,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="576" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="575" bodyend="587"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="575" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="576" bodyend="587"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga7ba412eed9b7e0f28d60090b5a53768d" prot="public" static="no" strong="no">
         <type></type>
@@ -374,7 +374,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Automatic Oscillator Calibration adjustment of the fOFI clock with fSTDBY clock. </para>
+<para>Automatic Oscillator Calibration adjustment of the fOFI clock with fSTDBY clock. <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -384,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="622" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="621" bodyend="626"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="621" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="622" bodyend="626"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga89194aa42c041fa1e72c1a3da8dbdef8" prot="public" static="no" strong="no">
         <type></type>
@@ -524,7 +525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="678" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="677" bodyend="701"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="677" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="678" bodyend="701"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gaccffa04837e2b0c2132f74f3c502139b" prot="public" static="no" strong="no">
         <type></type>
@@ -554,7 +555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="510" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="509" bodyend="515"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="509" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="510" bodyend="515"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gad0bc6581cbe44ad6b1d649cbffe96875" prot="public" static="no" strong="no">
         <type></type>
@@ -590,7 +591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="657" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="656" bodyend="661"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="656" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="657" bodyend="661"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga91284bbc86bb476327771f3639cbe440" prot="public" static="no" strong="no">
         <type></type>
@@ -620,7 +621,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="523" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="522" bodyend="528"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="522" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="523" bodyend="528"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga2bd90dc2daf0ff48625ab7b297b2cacd" prot="public" static="no" strong="no">
         <type></type>
@@ -686,7 +687,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="407" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="406" bodyend="420"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="406" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="407" bodyend="420"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gaa25fc7c21af145300a57dd93c391816d" prot="public" static="no" strong="no">
         <type></type>
@@ -716,7 +717,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="537" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="536" bodyend="542"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="536" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="537" bodyend="542"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga77f22d4ceb0b920b48b87da63f62d174" prot="public" static="no" strong="no">
         <type></type>
@@ -755,7 +756,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="561" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="560" bodyend="568"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="560" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="561" bodyend="568"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga641e0585e99029c106ad8ef6ae3b92b5" prot="public" static="no" strong="no">
         <type></type>
@@ -785,7 +786,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="762" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="761" bodyend="765"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="761" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="762" bodyend="765"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga11fb0524a44f3c744946c7969a806a5b" prot="public" static="no" strong="no">
         <type></type>
@@ -899,7 +900,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="771" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="770" bodyend="786"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="770" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="771" bodyend="786"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gae174cb4d0d8d67e2f830f06ba7460b57" prot="public" static="no" strong="no">
         <type></type>
@@ -931,7 +932,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="831" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="830" bodyend="836"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="830" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="831" bodyend="836"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga3810fe2c38e7abef292ceaecd5660194" prot="public" static="no" strong="no">
         <type></type>
@@ -961,7 +962,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="822" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="821" bodyend="825"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="821" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="822" bodyend="825"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gabaf5bdae1d6dffc54f13feef86a133c6" prot="public" static="no" strong="no">
         <type></type>
@@ -993,7 +994,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="792" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="791" bodyend="800"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="791" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="792" bodyend="800"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga491ac2d1f6d99b31e2c831a87c5d66ed" prot="public" static="no" strong="no">
         <type></type>
@@ -1043,7 +1044,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="871" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="870" bodyend="878"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="870" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="871" bodyend="878"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga5ffee972b02e57f54d05e14e4b369052" prot="public" static="no" strong="no">
         <type></type>
@@ -1113,7 +1114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="898" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="897" bodyend="909"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="897" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="898" bodyend="909"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga1250a82e3f4b1d8428cb3e3c0b8d3a14" prot="public" static="no" strong="no">
         <type></type>
@@ -1188,7 +1189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="884" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="883" bodyend="892"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="883" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="884" bodyend="892"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga3ba6c043570286f2194b5cbef1ce73a5" prot="public" static="no" strong="no">
         <type></type>
@@ -1281,7 +1282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="806" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="805" bodyend="816"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="805" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="806" bodyend="816"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gad0408131d64c97d53a863b982225e664" prot="public" static="no" strong="no">
         <type></type>
@@ -1311,7 +1312,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="595" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="594" bodyend="600"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="594" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="595" bodyend="600"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gae6ba5b64dd9c71b767434b26687e8154" prot="public" static="no" strong="no">
         <type></type>
@@ -1354,7 +1355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="842" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="841" bodyend="850"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="841" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="842" bodyend="850"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga8290034e7a28d8e2e8ed0086d6f92ab5" prot="public" static="no" strong="no">
         <type></type>
@@ -1384,7 +1385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="608" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="607" bodyend="615"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="607" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="608" bodyend="615"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga5a0bae480e780bdd2dd407dfd1c30816" prot="public" static="no" strong="no">
         <type></type>
@@ -1459,7 +1460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="309" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="308" bodyend="317"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="308" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="309" bodyend="317"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga22ea4f1155833e07a1ec13cd2c4cb4e0" prot="public" static="no" strong="no">
         <type></type>
@@ -1525,7 +1526,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="242" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="241" bodyend="273"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="241" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="242" bodyend="273"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga29713150fdafc3c88f3c73f621410239" prot="public" static="no" strong="no">
         <type></type>
@@ -1744,7 +1745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="430" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="429" bodyend="501"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="429" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="430" bodyend="501"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga8a897b11f9bf2e3cba0a33b127ee972a" prot="public" static="no" strong="no">
         <type></type>
@@ -1963,7 +1964,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="328" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="327" bodyend="399"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="327" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="328" bodyend="399"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga167a7544a2eb6c4e5ce7b2f192015a9d" prot="public" static="no" strong="no">
         <type></type>
@@ -1993,7 +1994,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="753" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="752" bodyend="756"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="752" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="753" bodyend="756"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gad97c10a5c5d47ad0b1aaf0c951b60791" prot="public" static="no" strong="no">
         <type></type>
@@ -2023,7 +2024,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="957" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="956" bodyend="960"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="956" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="957" bodyend="960"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gae01c08f5d524dadbc6e0c4128b348dc3" prot="public" static="no" strong="no">
         <type></type>
@@ -2098,7 +2099,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="282" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="281" bodyend="290"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="281" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="282" bodyend="290"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1gaff029b1575acc0712d494932d8ca6d60" prot="public" static="no" strong="no">
         <type></type>
@@ -2135,7 +2136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="175" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="174" bodyend="181"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="174" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="175" bodyend="181"/>
       </memberdef>
       <memberdef kind="enum" id="group___s_c_u_1ga4de86b97726dc23fabd8c4e573b1bdb0" prot="public" static="no" strong="no">
         <type></type>
@@ -2228,7 +2229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="214" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="213" bodyend="232"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="213" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="214" bodyend="232"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -2244,7 +2245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="191" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="191" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="191" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="191" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___s_c_u_1ga18e68742408210603bed8d0806ce1573" prot="public" static="no">
         <type>uint32_t</type>
@@ -2258,7 +2259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="297" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="297" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="297" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="297" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -2327,7 +2328,7 @@ It is recommended to use following steps:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1074" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1074" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1074" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga0f9078c8d5a83149c40812925f3c218d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2374,7 +2375,7 @@ It is recommended to use following steps to verify whether clock source of the p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1709" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1709" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1709" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gad9465a7485ccf3e4aeb4739d4e2422dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2402,7 +2403,7 @@ The API configures <emphasis>MODE</emphasis> bits of <emphasis>OSCHPCTRL</emphas
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2377" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2377" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2377" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga1a2f3ea99adb6e81f2e7c1f75c5e58da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2428,7 +2429,7 @@ The API configures <emphasis>MODE</emphasis> bits of <emphasis>OSCHPCTRL</emphas
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2412" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2412" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2412" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga19a4bbb5fa7a9f538428ef93a39b5d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2456,7 +2457,7 @@ It is disabled by setting the <emphasis>MODE</emphasis> bits of <emphasis>OSCULC
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2454" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2454" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2454" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga2157d5077110326ba87dd76176acfb32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2484,7 +2485,7 @@ It is disabled by setting the <emphasis>MODE</emphasis> bits of <emphasis>OSCULC
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2497" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2497" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2497" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gacc3a5c5ed7095b25389ebc23705517a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2512,7 +2513,7 @@ System PLL is disabled by setting the <emphasis>PLLPWD</emphasis> and <emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2712" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2712" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2712" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga6ca204f398c5ae671ba9d59b5be2264c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2540,7 +2541,7 @@ USB PLL is disabled by setting the <emphasis>PLLPWD</emphasis> and <emphasis>VCO
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2825" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2825" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2825" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga31001fdc4707eb901996074ee0c6fcff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2587,7 +2588,7 @@ It is recommended to use following steps to verify whether a source clock of per
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1690" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1690" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1690" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gad8179be793c17dda72a87dea440dd118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2615,7 +2616,7 @@ The API configures <emphasis>MODE</emphasis> bits of <emphasis>OSCHPCTRL</emphas
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2365" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2365" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2365" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga65eea3bc9ec9fa31d512619e87d3a023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2641,7 +2642,7 @@ The API configures <emphasis>MODE</emphasis> bits of <emphasis>OSCHPCTRL</emphas
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2401" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2401" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2401" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gad827fd74357895b8387e896501f21579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2669,7 +2670,7 @@ It enables the hibernate domain, configures the ultra low power oscillator uisng
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2441" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2441" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2441" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga11d9a0ca8f8360267d38254be3fe22c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2697,7 +2698,7 @@ It enables the hibernate domain, configures the ultra low power oscillator uisng
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2482" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2482" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2482" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga324e4c4bb68133279a6c8c50fe1a514e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2725,7 +2726,7 @@ System PLL is enabled by clearing the <emphasis>PLLPWD</emphasis> and <emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2699" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2699" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2699" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa89d0737a9026f17d0d55b6db74333f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2753,7 +2754,7 @@ USB PLL is enabled by clearing the <emphasis>PLLPWD</emphasis> and <emphasis>VCO
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2812" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2812" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2812" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab0af70f90b9a1f24d3a0a4764543d833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2791,7 +2792,7 @@ Note: Clock gating shall not be activated unless the module is in reset state. S
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="476" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="476" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="476" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaabc40433a3a0c21f96993cfb6af038ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2821,7 +2822,7 @@ The value is obtained by reading <emphasis>CCUDIV</emphasis> bit of <emphasis>CC
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2108" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2108" bodyend="2111"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2108" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2108" bodyend="2111"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga22725a6c39f19f4089e45509e63f936e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2851,7 +2852,7 @@ fCCU = fSYS &gt;&gt; CCUDIV.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2590" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2590" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2590" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab537dadfc72161a06f4f6dfa85449ae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2881,7 +2882,7 @@ The value is obtained by reading <emphasis>CPUDIV</emphasis> bit of <emphasis>CP
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2142" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2142" bodyend="2145"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2142" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2142" bodyend="2145"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3e78410c4d0c9f9b54aa0965d16c3795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2909,7 +2910,7 @@ The value is stored in a global variable <emphasis><bold>SystemCoreClock</bold>.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="429" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="429" bodyend="432"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="429" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="429" bodyend="432"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga12fce693c9f70eae932924cacedd3d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2938,7 +2939,7 @@ The value is obtained by reading <emphasis>EBUDIV</emphasis> bits of <emphasis>E
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2243" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2243" bodyend="2246"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2243" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2243" bodyend="2246"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga70d21487445c6104d1362b45c3882877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2967,7 +2968,7 @@ fETH = fPLL /(EBUDIV+1) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2635" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2635" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2635" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga720f80a8e2c129e7139c8bfec4afb962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2996,7 +2997,7 @@ The value is obtained by reading <emphasis>ECADIV</emphasis> bits of <emphasis>E
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2346" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2346" bodyend="2349"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2346" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2346" bodyend="2349"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab672be7abcd0ab0f41940b068a09f049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3027,7 +3028,7 @@ if ECAT clock source = USBPLL: fECAT = fUSBPLL/(ECADIV + 1).<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2685" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2685" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2685" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga2786257933663aa4c54f9dc7c97422d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1ga26a3f6ccc6fa98818df8efd7e487d7c0" kindref="member">XMC_SCU_CLOCK_ECATCLKSRC_t</ref></type>
@@ -3057,7 +3058,7 @@ if ECAT clock source = USBPLL: fECAT = fUSBPLL/(ECADIV + 1).<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2039" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2039" bodyend="2042"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2039" column="29" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2039" bodyend="2042"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga83d6d8e1bb269b8cccb8e700bd4a842a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3086,7 +3087,7 @@ fETH = fSYS &gt;&gt; 1; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2618" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2618" bodyend="2621"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2618" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2618" bodyend="2621"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga24e64fe15f9ce0183a1bc5fba7bec579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3115,7 +3116,7 @@ The value is obtained by reading <emphasis>EXTDIV</emphasis> bit of <emphasis>EX
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2313" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2313" bodyend="2316"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2313" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2313" bodyend="2316"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab8274d36f46ebb315665d30985b62611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3147,7 +3148,7 @@ if external clock out source = USBPLL: fEXT = fUSBPLL/(ECKDIV + 1).<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2669" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2669" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2669" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae80c027210bcf8cdafd0fe8aa3274777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gaaf5142b4b63fc9f6413c9deb3e7740a0" kindref="member">XMC_SCU_CLOCK_EXTOUTCLKSRC_t</ref></type>
@@ -3180,7 +3181,7 @@ The value is obtained by reading <emphasis>ECKSEL</emphasis> bits of <emphasis>E
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1964" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1964" bodyend="1967"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1964" column="31" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1964" bodyend="1967"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae04a5de657e1667719fd0f643440365f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3206,7 +3207,7 @@ The value is obtained by reading <emphasis>ECKSEL</emphasis> bits of <emphasis>E
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2423" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2423" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2423" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae0f108ec4b8bc0cbd0bc32968a8e12d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3232,7 +3233,7 @@ The value is obtained by reading <emphasis>ECKSEL</emphasis> bits of <emphasis>E
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2508" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2508" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2508" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae163ddda50d4e04337cc17b3a3aed1f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3263,7 +3264,7 @@ The value is obtained by reading <emphasis>PBDIV</emphasis> bit of <emphasis>PBC
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2177" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2177" bodyend="2180"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2177" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2177" bodyend="2180"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga55a1be4f0e96fcda7b2c0feb542af250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3291,7 +3292,7 @@ The value is derived from the CPU frequency. <bold>Range:</bold> Value is of typ
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="443" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="443" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="443" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga700247f0d54ab409e0542547ce3546f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3319,7 +3320,7 @@ The value is obtained by reading <emphasis>SYSDIV</emphasis> bits of <emphasis>S
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2071" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2071" bodyend="2074"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2071" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2071" bodyend="2074"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga0a9fd5e87ad27c874c88706ba43772c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3349,7 +3350,7 @@ fSYS = fCPU &lt;&lt; CPUDIV. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2572" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2572" bodyend="2575"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2572" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2572" bodyend="2575"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga0e6bbfbc0d075a0e3bab4c4906136fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gaccffa04837e2b0c2132f74f3c502139b" kindref="member">XMC_SCU_CLOCK_SYSCLKSRC_t</ref></type>
@@ -3380,7 +3381,7 @@ Selected source of fSYS is obtained by reading <emphasis>SYSSEL</emphasis> bits 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1759" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1759" bodyend="1762"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1759" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1759" bodyend="1762"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae8c2602ab7184dbeda09e0ca0e690168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3409,7 +3410,7 @@ The API uses <emphasis>N-DIV</emphasis>, <emphasis>P-DIV</emphasis>, <emphasis>K
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2525" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2525" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2525" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga00b75ab108bf4a3b1e153a339b77a62c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1ga91284bbc86bb476327771f3639cbe440" kindref="member">XMC_SCU_CLOCK_SYSPLLCLKSRC_t</ref></type>
@@ -3440,7 +3441,7 @@ The value is obtained by reading <emphasis>VCOBYP</emphasis> bit of <emphasis>PL
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2000" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2000" bodyend="2003"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2000" column="31" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2000" bodyend="2003"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gabcba51c9d61c4f3e8a3e1bc816c5fb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3468,7 +3469,7 @@ The value is obtained by reading <emphasis>VCOBYP</emphasis> bit of <emphasis>PL
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2542" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2542" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2542" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga129a4c1cd0e4963b8a573c25485cd693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3496,7 +3497,7 @@ The value is obtained by reading <emphasis>USBDIV</emphasis> bit of <emphasis>US
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2209" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2209" bodyend="2212"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2209" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2209" bodyend="2212"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gad12a425e40ac269c2b17a06100be6cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3527,7 +3528,7 @@ if USB clock source = PLL: fUSB/fSDMMC = fPLL/(USBDIV + 1).<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2605" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2605" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2605" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga65588bdfa384f0f3deca2553ca2205be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gaa25fc7c21af145300a57dd93c391816d" kindref="member">XMC_SCU_CLOCK_USBCLKSRC_t</ref></type>
@@ -3558,7 +3559,7 @@ The clock source is read from from the <emphasis>USBSEL</emphasis> bits of <emph
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1794" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1794" bodyend="1797"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1794" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1794" bodyend="1797"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga050ac1d63bf86241205c4fdcca3eb988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3589,7 +3590,7 @@ If Prescaler mode: fPLL = fOSC. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2558" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2558" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2558" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga12c044e6458ccab71e1d8c045719d545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3618,7 +3619,7 @@ The value is obtained by reading <emphasis>WDTDIV</emphasis> bits of <emphasis>W
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2279" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2279" bodyend="2282"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2279" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2279" bodyend="2282"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga6266b7288cd6a209146d83d67f21b573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3650,7 +3651,7 @@ if WDT clock source = Standby: fWDT = fSTDBY/(WDTDIV + 1).<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2652" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2652" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2652" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae5ee4bbf7462c9e3d2e3b15d845136da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1ga77f22d4ceb0b920b48b87da63f62d174" kindref="member">XMC_SCU_CLOCK_WDTCLKSRC_t</ref></type>
@@ -3682,7 +3683,7 @@ The value is obtained by reading <emphasis>WDTSEL</emphasis> bits of <emphasis>W
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1835" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1835" bodyend="1838"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1835" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1835" bodyend="1838"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga08c337e8a728604e7eb54dff78ae2d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3721,7 +3722,7 @@ Enables the high precision oscillator(fOHP) input and configures the system and 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="294" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="294" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="294" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga52dd13c0aa61ed09a31f8137d28c4532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3761,7 +3762,7 @@ The status of peripheral source clock is read from the <emphasis>CLKSTATn</empha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1726" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1726" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1726" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gad6d4376e5a799c09aa8f6803eec9a945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3787,7 +3788,7 @@ The status of peripheral source clock is read from the <emphasis>CLKSTATn</empha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2388" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2388" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2388" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gac9d46fd22a9e7122d8a6f5990079b336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3813,7 +3814,7 @@ The status of peripheral source clock is read from the <emphasis>CLKSTATn</empha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2465" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2465" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2465" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga804f98badedf0e0ba4ce09f445687a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3851,7 +3852,7 @@ Checks the status of peripheral clock gating using one of CGATSTAT0, CGATSTAT1 o
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="528" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="528" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="528" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3b65db9f01407d2b3b98d5984ae09e71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3886,7 +3887,7 @@ Checks the status of peripheral clock gating using one of CGATSTAT0, CGATSTAT1 o
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2799" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2799" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2799" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab138fec040dc094a8a6579cfcaad2da8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3921,7 +3922,7 @@ Checks the status of peripheral clock gating using one of CGATSTAT0, CGATSTAT1 o
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2884" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2884" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2884" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga8ae09f0a2575e72f52d961ea5a4622cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3963,7 +3964,7 @@ Based on the calibration mode selected, the internal oscillator calibration will
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2904" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2904" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2904" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga222a00aedb2c6822f78f2794ef237f26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4003,7 +4004,7 @@ Capture compare unit(CCU) can take either fSYS or fSYS/2 as the source of clock.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2093" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2093" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2093" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaf5d0a11b4d5cad0f4516afb8b3976ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4043,7 +4044,7 @@ The value is set to the <emphasis>CPUDIV</emphasis> bit of <emphasis>CPUCLKCR</e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2128" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2128" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2128" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga195b4578bc2ddafae6a3a59c53325a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4095,7 +4096,7 @@ The DEEPSLEEP state of the system corresponds to the DEEPSLEEP state of the CPU.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3571" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3571" bodyend="3574"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3571" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3571" bodyend="3574"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga0d4e4b167bff6189b508f9655693ca84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4134,7 +4135,7 @@ The clock divider is configured to the <emphasis>EBUDIV</emphasis> bits of <emph
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2230" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2230" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2230" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa20f63e6573fd17e9b0c05a004dcd499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4173,7 +4174,7 @@ The value is configured to <emphasis>ECADIV</emphasis> bits of <emphasis>ECATCLK
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2333" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2333" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2333" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa7c721ac3ba6f1d066101176e103d5ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4215,7 +4216,7 @@ The value is configured to <emphasis>ECATSEL</emphasis> bit of <emphasis>ECATCLK
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2021" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2021" bodyend="2025"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2021" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2021" bodyend="2025"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga504e82a0763495f9d487ea0b0d5ebd7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4254,7 +4255,7 @@ The value will be configured to <emphasis>ECKDIV</emphasis> bits of <emphasis>EX
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2300" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2300" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2300" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae0e95e282cd20159627d036941caf0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4297,7 +4298,7 @@ The value will be configured to <emphasis>ECKSEL</emphasis> bits of <emphasis>EX
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1943" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1943" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1943" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga256245971cfb74c5260d5564bb01020a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4338,7 +4339,7 @@ The peripheral clock can be equal to either fCPU or fCPU/2. The value is configu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2163" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2163" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2163" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gad337ef7ef0786c19225a5c1a69b4fe09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4388,7 +4389,7 @@ The SLEEP state of the system corresponds to the SLEEP state of the CPU. The sta
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3612" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3612" bodyend="3615"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3612" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3612" bodyend="3615"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae07a3504f85acd247cd7b9315dcc4083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4426,7 +4427,7 @@ The value is configured as <emphasis>SYSDIV</emphasis> bits of <emphasis>SYSCLKC
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2059" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2059" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2059" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gac6d37853e6609aa646b4dd1517fddd54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4467,7 +4468,7 @@ System clock is selected by setting <emphasis>SYSSEL</emphasis> bits in the <emp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1745" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1745" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1745" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab274b04a774d18a4a7305f43ffb71d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4508,7 +4509,7 @@ The value is configured to <emphasis>VCOBYP</emphasis> bit of <emphasis>PLLCON0<
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1986" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1986" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1986" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga6bfbeee9da8ba9c854c34fc5da9a7d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4546,7 +4547,7 @@ The value is decremented by 1 before setting it to <emphasis>USBDIV</emphasis> b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2196" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2196" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2196" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga5332425bae1da209b9c6cc857f53d51e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4587,7 +4588,7 @@ USB and SDMMC use a common clock source. They can either use fUSB PLL or fPLL as
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1780" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1780" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1780" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga8f338f60cac7809fafd01b0941d1a2c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4626,7 +4627,7 @@ The value is configured to <emphasis>WDTDIV</emphasis> bits of <emphasis>WDTCLKC
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2264" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2264" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2264" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga9061262a31285c0b5c3a13801650a453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4668,7 +4669,7 @@ The selected value is configured to the <emphasis>WDTSEL</emphasis> bits of <emp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1818" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1818" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1818" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga356a667144dc0009582198bad1070d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4786,7 +4787,7 @@ The API implements the following sequence:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2749" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2749" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2749" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gacb5f410baf92504c4fc60bc33e167d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4857,7 +4858,7 @@ The API follows the required sequence for safely configuring the divider values 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2853" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2853" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2853" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga381e223afdcbd3d2766a24958468dc0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4896,7 +4897,7 @@ The PLL output frequency is divided by the <emphasis>kdiv</emphasis> value. This
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2788" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2788" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2788" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga879eeaff71fe00dd7fc148b481ce8379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4935,7 +4936,7 @@ The PLL output frequency is divided by the <emphasis>kdiv</emphasis> value. This
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2773" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2773" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2773" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga11067ab015e6a6632cf9be194a4f8d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4976,7 +4977,7 @@ USB PLL is disabled by placing the USB PLL in power saving mode. The VCO and USB
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2873" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2873" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2873" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga702904d10b6e6c6a55db381763fd322f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5003,7 +5004,7 @@ USB PLL is disabled by placing the USB PLL in power saving mode. The VCO and USB
 </simplesect>
 <simplesect kind="par"><title>Description</title><para>Enables the supply of clock to the selected peripheral.<linebreak/>
 <linebreak/>
-By default when the device powers on, the peripheral clock will be gated for the peripherals that support clock gating. The peripheral clock should be enabled before using it for any functionality. fPERI is the source of clock to various peripherals. Some peripherals support clock gate. Software can request for individual ungating of such peripheral clocks by setting the respective bits in one of <emphasis>SCU_CGATCLR0</emphasis>, <emphasis>SCU_CGATCLR1</emphasis> or <emphasis>SCU_CGATCLR2</emphasis> registers.</para>
+By default when the device powers on, the peripheral clock will be gated for the peripherals that support clock gating. The peripheral clock should be enabled before using it for any functionality. fPERI is the source of clock to various peripherals. Some peripherals support clock gate. Software can request for individual ungating of such peripheral clocks by setting the respective bits in one of <emphasis>SCU_CGATCLR0</emphasis>, <emphasis>SCU_CGATCLR1</emphasis> or <emphasis>SCU_CGATCLR2</emphasis> registers.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___s_c_u_1ga804f98badedf0e0ba4ce09f445687a37" kindref="member">XMC_SCU_CLOCK_IsPeripheralClockGated()</ref>, <ref refid="group___s_c_u_1gab0af70f90b9a1f24d3a0a4764543d833" kindref="member">XMC_SCU_CLOCK_GatePeripheralClock()</ref> <linebreak/>
 <linebreak/>
@@ -5014,7 +5015,7 @@ By default when the device powers on, the peripheral clock will be gated for the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="504" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="504" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="504" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gafbf7bd240140468c6235149828dc3e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5066,7 +5067,7 @@ Out of range comparator is disabled by clearing the enable bit in the GORCEN reg
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1004" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1004" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1004" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga95190e4549898b0f02b653045d5816b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5094,7 +5095,7 @@ Die temperature sensor is disabled by clearing the PWD bit of DTSCON register. <
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1028" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1028" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1028" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga51d593608a5e056fb40c1cc2b340fb2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5146,7 +5147,7 @@ The ADC channel input is compared by Out of Range Comparator (ORC) for overvolta
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="987" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="987" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="987" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3f6a1e71b005175777c6dd9a069e325c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5174,7 +5175,7 @@ Die temperature sensor is enabled by setting the PWD bit of DTSCON register. </p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1016" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1016" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1016" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga2a6d9572718fe6822b42522947fe822b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5203,7 +5204,7 @@ The boot mode is read from the <emphasis>STCON</emphasis> register bit field <em
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1213" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1213" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1213" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga494b75a841498374cfee9664e6ce9cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5228,7 +5229,7 @@ Note: There is no hibernate domain in XMC1x devices. This register is retained f
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="547" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="547" bodyend="550"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="547" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="547" bodyend="550"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga8ac62bd07097bb83cd294a1d6625af36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5258,7 +5259,7 @@ Temperature measurement result is read from <emphasis>RESULT</emphasis> bit fiel
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1114" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1114" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1114" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga7987387b331ea0c7ba5bd582629cdbc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5296,7 +5297,7 @@ Temperature measurement result is read from <emphasis>RESULT</emphasis> bit fiel
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3124" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3124" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3124" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae7cfce71a167d2181ea2a9d7e4473798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5317,7 +5318,7 @@ Temperature measurement result is read from <emphasis>RESULT</emphasis> bit fiel
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3228" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3228" bodyend="3231"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3228" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3228" bodyend="3231"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3c6db429c2b7079ce32ee286c4fba09e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5355,7 +5356,7 @@ Temperature measurement result is read from <emphasis>RESULT</emphasis> bit fiel
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3178" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3178" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3178" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae5c8ea8d8a577e936a3dde5239966337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5390,7 +5391,7 @@ It is recommended to use following steps to verify whether a hibernation domain 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3065" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3065" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3065" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa09c64c2a7a15e6cba8b97de86c87c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5420,7 +5421,7 @@ By default on device power up, the slow internall oscillator is enabled. It can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3526" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3526" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3526" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa2489ef97769bad35feb64b93c1b5050" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5458,7 +5459,7 @@ By default on device power up, the slow internall oscillator is enabled. It can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3160" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3160" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3160" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga2f73953dadc8eaa2fad5e66a2c2e57a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5493,7 +5494,7 @@ It is recommended to use following steps to verify whether a hibernation domain 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3048" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3048" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3048" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gadaa00ec6206d10e3840504ba592f5725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5523,7 +5524,7 @@ By default on device power up, the slow internall oscillator is enabled. It can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3503" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3503" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3503" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3ec3bf0d71bb4ad9c82993c3e1f313f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5551,7 +5552,7 @@ By default on device power up, the slow internall oscillator is enabled. It can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3193" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3193" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3193" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga10f3e5dc9ef1e9eb176b176190eb9e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5589,7 +5590,7 @@ By default on device power up, the slow internall oscillator is enabled. It can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3209" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3209" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3209" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga5001c2e36acfcb57ddf301b23cee2262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -5610,7 +5611,7 @@ By default on device power up, the slow internall oscillator is enabled. It can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3104" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3104" bodyend="3107"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3104" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3104" bodyend="3107"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga7ada4665b0f7c75e569746554041c625" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -5631,7 +5632,7 @@ By default on device power up, the slow internall oscillator is enabled. It can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3092" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3092" bodyend="3095"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3092" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3092" bodyend="3095"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaff7d07fb799f33da6bd55dfec0938f53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gad0408131d64c97d53a863b982225e664" kindref="member">XMC_SCU_HIB_RTCCLKSRC_t</ref></type>
@@ -5661,7 +5662,7 @@ By default on device power up, the slow internall oscillator is enabled. It can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1915" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1915" bodyend="1918"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1915" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1915" bodyend="1918"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga893f5ed38bc3417a1b6482bda5031e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gad0408131d64c97d53a863b982225e664" kindref="member">XMC_SCU_HIB_RTCCLKSRC_t</ref></type>
@@ -5694,7 +5695,7 @@ The value is obtained by reading <emphasis>STDBYSEL</emphasis> bits of <emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1874" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1874" bodyend="1877"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1874" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1874" bodyend="1877"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga725038f7765622ede258de69e21971a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5726,7 +5727,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3083" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3083" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3083" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga5847f968eb7850945a60a121fd4d2cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5747,7 +5748,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3217" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3217" bodyend="3220"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3217" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="3217" bodyend="3220"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab3a7aec158c910324d5fb986a75fd61a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5782,7 +5783,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3463" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3463" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3463" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4c262b639a01080caa9b61196fa2d1eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -5805,7 +5806,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3448" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3448" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3448" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaffcb710feb96baa9eda31de6721d5fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5852,7 +5853,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3417" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3417" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3417" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa0f25dc27039fba0f08fdbc6daabae8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5899,7 +5900,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3437" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3437" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3437" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab273b856c3d288329625125687024ce0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5934,7 +5935,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3347" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3347" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3347" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga5f8a8156ce19f2efb3c58d816febd301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5993,7 +5994,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3379" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3379" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3379" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gac8cef3d27654e2b0818b8379e9b038b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6028,7 +6029,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3362" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3362" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3362" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga641021132dd174f62a7699bb7988eec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6075,7 +6076,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3398" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3398" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3398" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga9e5ac953233f15eaf399d956e7fe6163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6110,7 +6111,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3478" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3478" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3478" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga781006133ffe258774b67cad8156be5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6148,7 +6149,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3297" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3297" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3297" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga57a27b38b451c5da7e9e4877e9ab65c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6198,7 +6199,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3264" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3264" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3264" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab416d2ed128019d53a14bd417e625004" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6248,7 +6249,7 @@ The API can be used before using the peripherals from hibernation domain to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3281" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3281" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3281" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gadca7d1332ed62fda2a1a85550d12f06d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6292,7 +6293,7 @@ The value is configured to <emphasis>RCS</emphasis> bit of <emphasis>HDCR</empha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1900" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1900" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1900" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga18fc457f4295f92889a89bc2fc3b0f3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6330,7 +6331,7 @@ The value is configured to <emphasis>RCS</emphasis> bit of <emphasis>HDCR</empha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3313" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3313" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3313" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga387a75bbd0299d99fd8f818d1ea9886a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6374,7 +6375,7 @@ Clock source is configured by setting the <emphasis>STDBYSEL</emphasis> bits of 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1860" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1860" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1860" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaadf040d1469a36ba894350f9edac2ec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6412,7 +6413,7 @@ Clock source is configured by setting the <emphasis>STDBYSEL</emphasis> bits of 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3247" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3247" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3247" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga1f936e085a93195fe021774ecd4f988b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6450,7 +6451,7 @@ Clock source is configured by setting the <emphasis>STDBYSEL</emphasis> bits of 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3142" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3142" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3142" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gabd2e577339ff5af48261d18e0e41dc50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6488,7 +6489,7 @@ The events are cleared by writing value 1 to their bit positions in the SRCLR re
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="376" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="376" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="376" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa814678729d6b7f41c558e768ba8ecd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6527,7 +6528,7 @@ The events are disabled by resetting the respective bit fields in the SRMSK regi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="327" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="327" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="327" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gada4c1f90be9bb22b2b404d26fd88535c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6566,7 +6567,7 @@ NMI assertion can be individually disabled by clearing corresponding bits in the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1346" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1346" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1346" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab4cfb9545d1e561e1f24aeaa69af821c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6605,7 +6606,7 @@ Note: User should separately enable the NVIC node responsible for handling the S
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="311" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="311" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="311" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga9595d70f3cb1cd35b236afdd058c5895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6644,7 +6645,7 @@ NMI assertion can be individually enabled by setting corresponding bit of an int
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1330" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1330" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1330" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4ae03c6bcc3ccade266b46d84f7715e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gaff029b1575acc0712d494932d8ca6d60" kindref="member">XMC_SCU_STATUS_t</ref></type>
@@ -6699,7 +6700,7 @@ If the input event is valid, the handler function will be assigned to a table to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="572" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="572" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="572" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa55b2098ce803174e7dfd680d0c30728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6738,7 +6739,7 @@ Note: User should enable the NVIC node that handles the respective event for int
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="343" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="343" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="343" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae23dfad3e5e11c78791e5d5a777c44a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1ga18e68742408210603bed8d0806ce1573" kindref="member">XMC_SCU_INTERRUPT_EVENT_t</ref></type>
@@ -6766,7 +6767,7 @@ The status is read from the SRRAW register. To check the status of a particular 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="358" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="358" column="27" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="358" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga9ba1ce317ce89edfea107893fbd8a0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6807,7 +6808,7 @@ It checks for the status of events which can generate the interrupt with the sel
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="588" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="588" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" declline="588" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga09f2786f94680cc125ead431f3c4d9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -6836,7 +6837,7 @@ The status is read from the <emphasis>BUSY</emphasis> bit field of the <emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1127" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1127" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1127" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaedec5f2ce4cc799cad5026d5ec76a1f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -6866,7 +6867,7 @@ The status is obtained by reading the PWD bit of DTSCON register. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1042" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1042" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1042" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gac57499ff739d75ea0f53f51d2fd51505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -6897,7 +6898,7 @@ The status is obtained by reading <emphasis>RDY</emphasis> bit of <emphasis>DTSS
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1141" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1141" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1141" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga0c564412ab3d6a5d43c4fde9035cf07f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6936,7 +6937,7 @@ When a memory parity error is detected using the status bits in <emphasis>PEFLAG
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1514" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1514" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1514" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae85c78b1d38fcd51069d4f2a131d280f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6975,7 +6976,7 @@ Parity error detection can be disabled by clearing the respective bit in the <em
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1549" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1549" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1549" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga763ff133611bd2b42456fa9e8f3e34af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7014,7 +7015,7 @@ Trap assertion can be disabled by clearing the respective bit of the RAM type in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1585" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1585" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1585" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab020813ed43c4a858e3866254546aca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7053,7 +7054,7 @@ Parity error checking can be enabled by setting respective bits in the <emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1533" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1533" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1533" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gafef433d566f700f9106db98439af3f88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7092,7 +7093,7 @@ Parity error detection for different types of on-chip RAM can generate trap. Tra
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1568" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1568" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1568" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga83edc196c488b1c81055d6edf4225a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -7118,7 +7119,7 @@ Parity error detection for different types of on-chip RAM can generate trap. Tra
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1668" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1668" bodyend="1671"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1668" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1668" bodyend="1671"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gabfb74be3c54ea80b2fd25d20e143a299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -7147,7 +7148,7 @@ Parity error status information is obtained from the <emphasis>PEFLAG</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1601" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1601" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1601" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae74c277267d0d539a55c87bbe4a1bc54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7186,7 +7187,7 @@ Parity error status information is obtained from the <emphasis>PEFLAG</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1618" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1618" bodyend="1621"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1618" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1618" bodyend="1621"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga33092936078880aa0f1efa350ab1416a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7223,7 +7224,7 @@ Parity error status information is obtained from the <emphasis>PEFLAG</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1636" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1636" bodyend="1639"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1636" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1636" bodyend="1639"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaf0f583c308bba3a39561e83bf3ec802f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7260,7 +7261,7 @@ Parity error status information is obtained from the <emphasis>PEFLAG</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1653" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1653" bodyend="1656"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1653" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="1653" bodyend="1656"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4105a1ad04e87b7ca5ec0c88242ed991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7279,7 +7280,7 @@ Disable power monitoring control register for brown-out detection. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2968" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2968" bodyend="2971"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2968" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2968" bodyend="2971"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gacf750b3451bbdd00820d54f25100bd75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7307,7 +7308,7 @@ Configures the <emphasis>USBPHYPDQ</emphasis> bit of <emphasis>PWRSET</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3029" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3029" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3029" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gae91191a2fd70dca90ff7fd9912500b25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7354,7 +7355,7 @@ Enable power monitoring control register for brown-out detection. Brown Out Trap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2955" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2955" bodyend="2960"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2955" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2955" bodyend="2960"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4d0a5061d139bb8e136316a2fcc98bab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7382,7 +7383,7 @@ Configures the <emphasis>USBPHYPDQ</emphasis> bit of <emphasis>PWRSET</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3015" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3015" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3015" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga70101836e63982417dea51031e5cbc67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -7403,7 +7404,7 @@ Configures the <emphasis>USBPHYPDQ</emphasis> bit of <emphasis>PWRSET</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2992" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2992" column="7" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="2992" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaf931ceae656bd6dae31cf66a107457b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -7424,7 +7425,7 @@ Configures the <emphasis>USBPHYPDQ</emphasis> bit of <emphasis>PWRSET</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3001" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="3001" column="7" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="3001" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga5c7efb298beadae160cc1b0bbd2e2cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -7445,7 +7446,7 @@ Configures the <emphasis>USBPHYPDQ</emphasis> bit of <emphasis>PWRSET</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2980" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2980" bodyend="2983"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2980" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2980" bodyend="2983"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga012cf8d64e3ab3c1ac31a2a7b3ffc21d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7482,7 +7483,7 @@ Configures the <emphasis>USBPHYPDQ</emphasis> bit of <emphasis>PWRSET</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2936" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2936" bodyend="2941"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2936" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2936" bodyend="2941"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga42e79334669c4bb6d55e9f09d419616a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7531,7 +7532,7 @@ Configures the <emphasis>USBPHYPDQ</emphasis> bit of <emphasis>PWRSET</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2918" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2918" bodyend="2923"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="2918" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="2918" bodyend="2923"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga315dd2a00d282eddb3056118c86e6da9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -7571,7 +7572,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1313" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1313" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1313" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gaa7000d0aa26ac656926b108b49e0f73d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -7610,7 +7611,7 @@ SCU consists of 2 general purpose registers. These registers can be used for sto
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1251" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1251" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1251" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab00fa5e7e6ed73767de6f80b9a849543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7657,7 +7658,7 @@ It is recommended to use following steps to assert a peripheral reset:<linebreak
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1454" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1454" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1454" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga4bf9396e8b46be98f73999575d13bf6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7685,7 +7686,7 @@ Clearing of the reset status information in the <emphasis>SCU_RSTSTAT</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="410" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="410" bodyend="414"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="410" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="410" bodyend="414"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gac88ad38d3473b139dafef29dc3ba5216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7732,7 +7733,7 @@ It is recommended to use following steps to deassert a peripheral reset:<linebre
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1476" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1476" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1476" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3f779c81bdc29b44c644017a52aff300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -7760,7 +7761,7 @@ The return value is an encoded word, which can indicate multiple reasons for the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="395" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="395" bodyend="398"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="395" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="395" bodyend="398"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga09011e9b100f1a164c3b908cc9bdf77f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -7800,7 +7801,7 @@ The API reads the reset status from <emphasis>PRSTATn</emphasis> register. Retur
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1494" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1494" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1494" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga3ebb50291e4fc5722746f2f40fadb6a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7847,7 +7848,7 @@ It is recommended to use following steps to launch requested bootmode:<linebreak
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1235" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1235" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1235" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gac10ca2cd72477476ffe38a4818bcae4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7887,7 +7888,7 @@ Before executing this API, all the required CCU timers should configure external
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="234" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="234" bodyend="237"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="234" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="234" bodyend="237"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga53300d587bbd03bc34c5a4396f5a34b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7927,7 +7928,7 @@ Before executing this API, all the required CCU timers should configure external
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="259" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="259" bodyend="262"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" line="259" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_scu.h" bodystart="259" bodyend="262"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gabac9292e193c9804b5a6856de186737e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___s_c_u_1gaff029b1575acc0712d494932d8ca6d60" kindref="member">XMC_SCU_STATUS_t</ref></type>
@@ -7973,7 +7974,7 @@ It is recommended to use following steps:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1098" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1098" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1098" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga6fef80ad14de7e792696cbd892b1ad26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8012,7 +8013,7 @@ Once a trap event is detected, it will have to be acknowledged and later service
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1396" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1396" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1396" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gacfb00024734804883905d6a423f69a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8051,7 +8052,7 @@ Trap assertion can be individually disabled by setting the respective event bit 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1378" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1378" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1378" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga51a3e55dedfde788f1ba5e3bad7fdb4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8090,7 +8091,7 @@ Trap assertion can be individually enabled by clearing respective bit of the eve
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1362" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1362" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1362" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gada772bc64ad61ae19612224ae7f3855c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -8119,7 +8120,7 @@ The status is read from <emphasis>TRAPRAW</emphasis> register. Status of the spe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1413" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1413" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1413" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1ga706f23b13aabcbcd5ad3ece9cf77a58f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8166,7 +8167,7 @@ It is recommended to use following steps to manually assert a trap event:<linebr
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1433" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1433" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1433" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gad0681ca8911f106c0c9f6fd65db89e1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8217,7 +8218,7 @@ SCU consists of 2 general purpose registers. These registers can be used for sto
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1268" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1268" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1268" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___s_c_u_1gab835560fc4cd24d8f03043d39e52b5ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -8269,7 +8270,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1291" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="1291" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" declline="1291" declcolumn="6"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -8282,7 +8283,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="123" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga83883b17210c8cd127b1cda2ea514164" prot="public" static="no">
         <name>PLL_K2DIV_XTAL_16MHZ</name>
@@ -8293,7 +8294,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="127" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="127" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="127" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gac8b1a976482c9ef6403801dafddaf27e" prot="public" static="no">
         <name>PLL_K2DIV_XTAL_8MHZ</name>
@@ -8304,7 +8305,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="119" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="119" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga342aa8bc54ec1e9a2524dbccadce071b" prot="public" static="no">
         <name>PLL_NDIV_XTAL_12MHZ</name>
@@ -8315,7 +8316,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="122" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="122" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="122" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga93a164f60742179f2852f938252e048c" prot="public" static="no">
         <name>PLL_NDIV_XTAL_16MHZ</name>
@@ -8326,7 +8327,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="126" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="126" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="126" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gaac6dfcd559d1adc605466f511e7d6856" prot="public" static="no">
         <name>PLL_NDIV_XTAL_8MHZ</name>
@@ -8337,7 +8338,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="118" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="118" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="118" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga53e02c788773639aeae2b1f810cb9deb" prot="public" static="no">
         <name>PLL_PDIV_XTAL_12MHZ</name>
@@ -8348,7 +8349,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="121" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="121" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="121" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga28cae7983f5fb3a48f84c8fcf7635ceb" prot="public" static="no">
         <name>PLL_PDIV_XTAL_16MHZ</name>
@@ -8359,7 +8360,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="125" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="125" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="125" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gac7ea63b7b6cdcac0883c6d23f252461a" prot="public" static="no">
         <name>PLL_PDIV_XTAL_8MHZ</name>
@@ -8370,7 +8371,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="117" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="117" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="117" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gab645bf93d140a469fb94f5a50b81043c" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_DLR_OVERRUN</name>
@@ -8382,7 +8383,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="132" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="132" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="132" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga5350d7ebb5bdbec5b511a8bada81e418" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_HDCLR_UPDATED</name>
@@ -8394,7 +8395,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="160" column="18" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="160" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="160" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga7c1ff0412abb2208a9b5186760d86ef8" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_HDCR_UPDATED</name>
@@ -8406,7 +8407,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="162" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="162" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="162" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga95958fca048b8558aca91badd5782e82" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_HDSET_UPDATED</name>
@@ -8418,7 +8419,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="161" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="161" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="161" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga502c7593b8fd66f1d2d566da69d35aa9" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_OSCSICTRL_UPDATED</name>
@@ -8430,7 +8431,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="163" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="163" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="163" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gace9451749d951a975241a3f06a61f53c" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_OSCULCTRL_UPDATED</name>
@@ -8442,7 +8443,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="164" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="164" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="164" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga9ec8f143f2c150b61329cbe4333ddc51" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RMX_UPDATED</name>
@@ -8454,7 +8455,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="170" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="170" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="170" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1gab2de9ba5dfa78e350e552cc36529ad22" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTC_ALARM</name>
@@ -8466,7 +8467,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="131" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="131" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="131" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga2b86e6490dd0310069274f042ef47625" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTC_PERIODIC</name>
@@ -8478,7 +8479,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="130" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="130" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="130" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga33dc60f1ff3285386633b53623dca92b" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCATIM0_UPDATED</name>
@@ -8490,7 +8491,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="166" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="166" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="166" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga19a78d87581dbbf3db6f3f23ee4db98e" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCATIM1_UPDATED</name>
@@ -8502,7 +8503,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="167" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="167" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="167" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga07039df071591f92674bdd82fc735030" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCCTR_UPDATED</name>
@@ -8514,7 +8515,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="165" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="165" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="165" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga34acc61e5b01e7f6b4ea1d7a9a9195c9" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCTIM0_UPDATED</name>
@@ -8526,7 +8527,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="168" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="168" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="168" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga7fcaa73f61c18ec8237e076da6c3bc0e" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_RTCTIM1_UPDATED</name>
@@ -8538,7 +8539,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="169" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="169" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="169" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___s_c_u_1ga61bedea1698b39bbd1fa3d2cd79a9f33" prot="public" static="no">
         <name>XMC_SCU_INTERRUPT_EVENT_WDT_WARN</name>
@@ -8550,7 +8551,7 @@ The retention memory is located in hibernate domain. It is used for the purpose 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="129" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="129" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="129" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -8559,30 +8560,23 @@ The retention memory is located in hibernate domain. It is used for the purpose 
     <detaileddescription>
 <para>System control unit is the SoC power, reset and a clock manager with additional responsibility of providing system stability protection and other auxiliary functions.<linebreak/>
  SCU provides the following features,<orderedlist>
-<listitem><para>Power control</para>
-</listitem><listitem><para>Hibernate control</para>
-</listitem><listitem><para>Reset control</para>
+<listitem><para>Power control  -# Hibernate control  -# Reset control</para>
 </listitem><listitem><para>Clock control</para>
 </listitem><listitem><para>Miscellaneous control(boot mode, system interrupts etc.)<linebreak/>
 <linebreak/>
 </para>
 </listitem></orderedlist>
 </para>
-<para>The SCU driver is divided in to clock control logic, reset control logic, system interrupt control logic , hibernate control logic, trap control logic, parity control logic and miscellaneous control logic.<linebreak/>
+<para>The SCU driver is divided in to clock control logic, reset control logic, system interrupt control logic  , hibernate control logic, trap control logic, parity control logic  and miscellaneous control logic.<linebreak/>
 </para>
 <para>Clock driver features:<orderedlist>
-<listitem><para>Allows clock configuration using the structure <ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_CONFIG_t</ref> and API <ref refid="group___s_c_u_1ga08c337e8a728604e7eb54dff78ae2d9d" kindref="member">XMC_SCU_CLOCK_Init()</ref></para>
-</listitem><listitem><para>Provides structure <ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_SYSPLL_CONFIG_t</ref> for configuring the system PLL</para>
+<listitem><para>Allows clock configuration using the structure <ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_CONFIG_t</ref> and API <ref refid="group___s_c_u_1ga08c337e8a728604e7eb54dff78ae2d9d" kindref="member">XMC_SCU_CLOCK_Init()</ref>  -# Provides structure <ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_SYSPLL_CONFIG_t</ref> for configuring the system PLL</para>
 </listitem><listitem><para>Allows selection of clock source for system PLL, <ref refid="group___s_c_u_1ga00b75ab108bf4a3b1e153a339b77a62c" kindref="member">XMC_SCU_CLOCK_GetSystemPllClockSource()</ref></para>
 </listitem><listitem><para>Provides APIs for configuring different module clock frequencies <ref refid="group___s_c_u_1ga8f338f60cac7809fafd01b0941d1a2c1" kindref="member">XMC_SCU_CLOCK_SetWdtClockDivider()</ref>, <ref refid="group___s_c_u_1ga6bfbeee9da8ba9c854c34fc5da9a7d7d" kindref="member">XMC_SCU_CLOCK_SetUsbClockDivider()</ref></para>
 </listitem><listitem><para>Allows selection of clock source for external output, <ref refid="group___s_c_u_1gae0e95e282cd20159627d036941caf0c7" kindref="member">XMC_SCU_CLOCK_SetExternalOutputClockSource()</ref></para>
 </listitem><listitem><para>Provides APIs for enabling external high power oscillator and ultra low power oscillator, <ref refid="group___s_c_u_1gad8179be793c17dda72a87dea440dd118" kindref="member">XMC_SCU_CLOCK_EnableHighPerformanceOscillator()</ref>, <ref refid="group___s_c_u_1gad827fd74357895b8387e896501f21579" kindref="member">XMC_SCU_CLOCK_EnableLowPowerOscillator()</ref></para>
 </listitem><listitem><para>Provides APIs for getting various clock frequencies <ref refid="group___s_c_u_1ga55a1be4f0e96fcda7b2c0feb542af250" kindref="member">XMC_SCU_CLOCK_GetPeripheralClockFrequency()</ref>, <ref refid="group___s_c_u_1ga3e78410c4d0c9f9b54aa0965d16c3795" kindref="member">XMC_SCU_CLOCK_GetCpuClockFrequency()</ref>, <ref refid="group___s_c_u_1ga0a9fd5e87ad27c874c88706ba43772c2" kindref="member">XMC_SCU_CLOCK_GetSystemClockFrequency()</ref><linebreak/>
-</para>
-</listitem></orderedlist>
-</para>
-<para>Reset driver features:<orderedlist>
-<listitem><para>Allows to handle peripheral reset <ref refid="group___s_c_u_1gab00fa5e7e6ed73767de6f80b9a849543" kindref="member">XMC_SCU_RESET_AssertPeripheralReset()</ref>, <ref refid="group___s_c_u_1gac88ad38d3473b139dafef29dc3ba5216" kindref="member">XMC_SCU_RESET_DeassertPeripheralReset()</ref></para>
+  Reset driver features:  -# Allows to handle peripheral reset <ref refid="group___s_c_u_1gab00fa5e7e6ed73767de6f80b9a849543" kindref="member">XMC_SCU_RESET_AssertPeripheralReset()</ref>, <ref refid="group___s_c_u_1gac88ad38d3473b139dafef29dc3ba5216" kindref="member">XMC_SCU_RESET_DeassertPeripheralReset()</ref></para>
 </listitem><listitem><para>Allows configuration of NMI generation for selected events, <ref refid="group___s_c_u_1ga9595d70f3cb1cd35b236afdd058c5895" kindref="member">XMC_SCU_INTERRUPT_EnableNmiRequest()</ref> <linebreak/>
 </para>
 </listitem></orderedlist>
@@ -8612,15 +8606,11 @@ The retention memory is located in hibernate domain. It is used for the purpose 
 </listitem></orderedlist>
 </para>
 <para>Power driver features:<orderedlist>
-<listitem><para>Allows to power the USB module <ref refid="group___s_c_u_1ga4d0a5061d139bb8e136316a2fcc98bab" kindref="member">XMC_SCU_POWER_EnableUsb()</ref>, <ref refid="group___s_c_u_1gacf750b3451bbdd00820d54f25100bd75" kindref="member">XMC_SCU_POWER_DisableUsb()</ref></para>
-</listitem></orderedlist>
-</para>
-<para>Miscellaneous features:<orderedlist>
-<listitem><para>Allows to trigger multiple capture compare unit(CCU) channels to be started together <ref refid="group___s_c_u_1gac10ca2cd72477476ffe38a4818bcae4b" kindref="member">XMC_SCU_SetCcuTriggerHigh()</ref></para>
-</listitem><listitem><para>Enables configuration of out of range comparator (ORC) <ref refid="group___s_c_u_1ga51d593608a5e056fb40c1cc2b340fb2a" kindref="member">XMC_SCU_EnableOutOfRangeComparator()</ref></para>
+<listitem><para>Allows to power the USB module <ref refid="group___s_c_u_1ga4d0a5061d139bb8e136316a2fcc98bab" kindref="member">XMC_SCU_POWER_EnableUsb()</ref>, <ref refid="group___s_c_u_1gacf750b3451bbdd00820d54f25100bd75" kindref="member">XMC_SCU_POWER_DisableUsb()</ref>  Miscellaneous features:</para>
+</listitem><listitem><para>Allows to trigger multiple capture compare unit(CCU) channels to be started together <ref refid="group___s_c_u_1gac10ca2cd72477476ffe38a4818bcae4b" kindref="member">XMC_SCU_SetCcuTriggerHigh()</ref>  -# Enables configuration of out of range comparator (ORC) <ref refid="group___s_c_u_1ga51d593608a5e056fb40c1cc2b340fb2a" kindref="member">XMC_SCU_EnableOutOfRangeComparator()</ref></para>
 </listitem><listitem><para>Enables configuration of die temperature sensor <ref refid="group___s_c_u_1ga3f6a1e71b005175777c6dd9a069e325c" kindref="member">XMC_SCU_EnableTemperatureSensor()</ref>, <ref refid="group___s_c_u_1gacf86e99e8def2e37a0b484982e61256d" kindref="member">XMC_SCU_CalibrateTemperatureSensor()</ref></para>
 </listitem><listitem><para>Enables configuration of device boot mode <ref refid="group___s_c_u_1ga3ebb50291e4fc5722746f2f40fadb6a8" kindref="member">XMC_SCU_SetBootMode()</ref><linebreak/>
- </para>
+  </para>
 </listitem></orderedlist>
 </para>
     </detaileddescription>

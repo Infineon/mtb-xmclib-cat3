@@ -178,7 +178,7 @@ bool XMC_MATH_GetEventStatus(const XMC_MATH_EVENT_t event)
 #ifndef XMC_MATH_DISABLE_DIV_ABI
 
 /* Forward prototypes.  */
-#if defined ( __GNUC__ )
+#if defined ( __GNUC__ ) && !defined( __ARMCC_VERSION )
 uint32_t __aeabi_uidiv(uint32_t dividend, uint32_t divisor) __attribute__((externally_visible));
 int32_t __aeabi_idiv(int32_t dividend, int32_t divisor) __attribute__((externally_visible));
 uint64_t __aeabi_uidivmod(uint32_t dividend, uint32_t divisor) __attribute__((externally_visible));

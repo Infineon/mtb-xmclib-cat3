@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__uart_8h" kind="file" language="C++">
     <compoundname>xmc_uart.h</compoundname>
     <includes refid="xmc__usic_8h" local="yes">xmc_usic.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="113" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="113" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="113" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_a_r_t_1gaa04c64ad7fa9ae5db3dd9b8b7999ef49" prot="public" static="no">
         <name>XMC_UART0_CH1</name>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="114" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="114" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="114" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_a_r_t_1gad784f4e853952a3d0be9f260a0f1c3c6" prot="public" static="no">
         <name>XMC_UART1_CH0</name>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="118" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="118" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="118" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_a_r_t_1ga8a09c318f27492e33d0d3e341ae0703e" prot="public" static="no">
         <name>XMC_UART1_CH1</name>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="119" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="119" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_a_r_t_1gaeb94319572f1e75648bcf89a98da324a" prot="public" static="no">
         <name>XMC_UART2_CH0</name>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="123" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_a_r_t_1gaa231ac5218c378cfa8801ae63ca8ee79" prot="public" static="no">
         <name>XMC_UART2_CH1</name>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="124" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="124" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="124" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="170" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="169" bodyend="184"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="169" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="170" bodyend="184"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_a_r_t_1ga2deb0d11792f241e1e5c02e6a4063998" prot="public" static="no" strong="no">
         <type></type>
@@ -227,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="190" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="189" bodyend="193"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="189" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="190" bodyend="193"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_a_r_t_1ga7358da2d90633473ae9de4636ddb3a46" prot="public" static="no" strong="no">
         <type></type>
@@ -266,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="199" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="198" bodyend="206"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="198" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="199" bodyend="206"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_a_r_t_1ga29676690a77272438ef1cfc21575ff6d" prot="public" static="no" strong="no">
         <type></type>
@@ -323,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="213" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="212" bodyend="219"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="212" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="213" bodyend="219"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_a_r_t_1ga802a057f335dc7bc1465ae11b19d09af" prot="public" static="no" strong="no">
         <type></type>
@@ -488,7 +488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="146" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="145" bodyend="164"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="145" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="146" bodyend="164"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_a_r_t_1gadd220ce3211af8111e0af876a0619788" prot="public" static="no" strong="no">
         <type></type>
@@ -524,7 +524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="135" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="134" bodyend="139"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="134" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="135" bodyend="139"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -581,7 +581,7 @@ Multiple events can be combined using the bitwise OR operation and configured in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="623" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="623" bodyend="626"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="623" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="623" bodyend="626"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga935afb3b95df6c123883f44a1d63208f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -622,7 +622,7 @@ Use this function in combination with <ref refid="group___u_a_r_t_1gac81a2e2617e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="893" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="893" bodyend="896"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="893" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="893" bodyend="896"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga87743034df2fe747615ce39a6b870a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -677,7 +677,7 @@ Multiple events can be combined using the bitwise OR operation and configured in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="510" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="510" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" declline="510" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gaef225ec3a0bc7db11ddf0b4f260a905c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -732,7 +732,7 @@ Multiple events can be combined using the bitwise OR operation and configured in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="799" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="799" bodyend="802"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="799" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="799" bodyend="802"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gafd566960d84740ec0c0713197839b071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -787,7 +787,7 @@ Resets the input data polarity for the UART input data signal. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="763" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="763" bodyend="766"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="763" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="763" bodyend="766"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga655549975b9c7dce3fb9f28c89b5685f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -842,7 +842,7 @@ Resets the input data polarity for the UART input data signal. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="834" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="834" bodyend="837"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="834" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="834" bodyend="837"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga34495c14c7650599ba2e2ab348333cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -883,7 +883,7 @@ Resets the input data polarity for the UART input data signal. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="704" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="704" bodyend="707"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="704" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="704" bodyend="707"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gac81a2e2617e9c6e9ddd314036185c08f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -926,7 +926,7 @@ Use this function in combination with <ref refid="group___u_a_r_t_1ga935afb3b95d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="875" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="875" bodyend="878"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="875" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="875" bodyend="878"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gaf511dd60e7f23bc40bad0207ff9bd266" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -981,7 +981,7 @@ Multiple events can be combined using the bitwise OR operation and configured in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="491" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="491" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" declline="491" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gaeec73a4f59460bbe97aad10c1d925c73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1036,7 +1036,7 @@ Multiple events can be combined using the bitwise OR operation and configured in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="781" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="781" bodyend="784"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="781" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="781" bodyend="784"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga95acf430dde4497f55838626ec22b808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1091,7 +1091,7 @@ Polarity of the input source can be changed to provide inverted data input. </pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="744" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="744" bodyend="747"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="744" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="744" bodyend="747"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga52aa3807f291f58be66b4d946aec7d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1146,7 +1146,7 @@ Polarity of the input source can be changed to provide inverted data input. </pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="816" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="816" bodyend="819"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="816" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="816" bodyend="819"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga60eafedc1effa37f174e772a313c94fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1187,7 +1187,7 @@ Polarity of the input source can be changed to provide inverted data input. </pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="688" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="688" bodyend="691"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="688" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="688" bodyend="691"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga578c15fc0df2e8ea7a265c92c0a26536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1228,7 +1228,7 @@ Based on the channel configuration, data is either read from the receive FIFO or
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="426" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="426" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" declline="426" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga5578bae41ea73c00dd704924c63f7370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1270,7 +1270,7 @@ Status provided by the API represents the status of multiple events at their bit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="600" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="600" bodyend="603"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="600" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="600" bodyend="603"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga719ad21f9ccaf9585dd0b473b4daef7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1326,7 +1326,7 @@ During the initialization, USIC channel is enabled, baudrate is configured with 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="297" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="297" bodyend="300"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="297" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="297" bodyend="300"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gaca0ca9010bb1284a819b265694b7a5f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1394,7 +1394,7 @@ During the initialization, USIC channel is enabled, baudrate is configured with 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="273" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="273" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" declline="273" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gadd72632ef25d7f44d8518141fde99a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1463,7 +1463,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="555" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="555" bodyend="561"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="555" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="555" bodyend="561"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga0f757d62a86fc8944cf7188137490b62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_a_r_t_1gadd220ce3211af8111e0af876a0619788" kindref="member">XMC_UART_CH_STATUS_t</ref></type>
@@ -1531,7 +1531,7 @@ Derives the values of <emphasis>STEP</emphasis> and PDIV to arrive at the optimu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="361" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="361" column="22" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" declline="361" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga516877b6a939a19eb1c7ec772b6535f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_a_r_t_1gadd220ce3211af8111e0af876a0619788" kindref="member">XMC_UART_CH_STATUS_t</ref></type>
@@ -1611,7 +1611,7 @@ Derives the values of <emphasis>STEP</emphasis> and PDIV to arrive at the optimu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="387" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="387" column="22" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" declline="387" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga9f6eb4a3265729b4b7cf7e3d198130d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1666,7 +1666,7 @@ The frame length is configured by setting the input value to <emphasis>SCTR</emp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="469" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="469" bodyend="472"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="469" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="469" bodyend="472"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gad6c3cf150769886938ceb811557db243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1734,7 +1734,7 @@ The frame length is configured by setting the input value to <emphasis>SCTR</emp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="854" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="854" bodyend="859"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="854" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="854" bodyend="859"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga1f6aded563def78ca10e8638889bd898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1834,7 +1834,7 @@ It is used for configuring the input stage for data reception. Selects the input
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="649" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="649" bodyend="653"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="649" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="649" bodyend="653"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gaa013e09337b1c9c05b41eac29b2518ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1889,7 +1889,7 @@ For all the protocol events enlisted in the enumeration XMC_UART_CH_EVENT_t, one
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="529" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="529" bodyend="534"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="529" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="529" bodyend="534"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga12f39dca3684261d4e35aeb7af9c82a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1945,7 +1945,7 @@ The value is set to PCR_ASCMode register. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="670" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="670" bodyend="674"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="670" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="670" bodyend="674"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1gacabdceef217f1be937dc494ce9140765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2000,7 +2000,7 @@ The sample point is the one sample among number of samples set as oversampling. 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="724" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="724" bodyend="728"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="724" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="724" bodyend="728"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga6b12b3bdebda3d3a6c28d5c79a12735b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2055,7 +2055,7 @@ Word length can range from 1 to 16. It indicates the number of data bits in a da
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="448" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="448" bodyend="451"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="448" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="448" bodyend="451"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga786385b5527c6c6405d7e9e3626e0587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2096,7 +2096,7 @@ CCR register bitfield <emphasis>Mode</emphasis> is set to 2(UART mode). This API
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="316" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="316" bodyend="319"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="316" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="316" bodyend="319"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga083e4d7b2be613994d61ebc9841f7ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_a_r_t_1gadd220ce3211af8111e0af876a0619788" kindref="member">XMC_UART_CH_STATUS_t</ref></type>
@@ -2138,7 +2138,7 @@ CCR register bitfield <emphasis>Mode</emphasis> is reset. This disables the comm
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="336" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="336" column="22" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" declline="336" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga3a9b41f5d74a0dde43d9b19166ffa7c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2194,7 +2194,7 @@ Note: When FIFO is not configured, the API waits for the TBUF to be available. T
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="410" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="410" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" declline="410" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_a_r_t_1ga3a3d22e4821ed95b364793b3a7e711c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2249,7 +2249,7 @@ When the UART service request is triggered, the NVIC interrupt associated with i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="578" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="578" bodyend="581"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" line="578" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h" bodystart="578" bodyend="581"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -2260,8 +2260,8 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="77"><highlight class="preprocessor">#ifndef<sp/>XMC_UART_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_UART_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
@@ -2271,37 +2271,37 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 <codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_usic.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="109"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="110"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART0_CH0<sp/>XMC_USIC0_CH0<sp/></highlight></codeline>
-<codeline lineno="114"><highlight class="preprocessor">#define<sp/>XMC_UART0_CH1<sp/>XMC_USIC0_CH1<sp/></highlight></codeline>
-<codeline lineno="115"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART0_CH0<sp/>XMC_USIC0_CH0<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART0_CH1<sp/>XMC_USIC0_CH1<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART1_CH0<sp/>XMC_USIC1_CH0<sp/></highlight></codeline>
-<codeline lineno="119"><highlight class="preprocessor">#define<sp/>XMC_UART1_CH1<sp/>XMC_USIC1_CH1<sp/></highlight></codeline>
-<codeline lineno="120"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART1_CH0<sp/>XMC_USIC1_CH0<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART1_CH1<sp/>XMC_USIC1_CH1<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC2)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART2_CH0<sp/>XMC_USIC2_CH0<sp/></highlight></codeline>
-<codeline lineno="124"><highlight class="preprocessor">#define<sp/>XMC_UART2_CH1<sp/>XMC_USIC2_CH1<sp/></highlight></codeline>
-<codeline lineno="125"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART2_CH0<sp/>XMC_USIC2_CH0<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UART2_CH1<sp/>XMC_USIC2_CH1<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="128"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="129"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_STATUS</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_STATUS</highlight></codeline>
 <codeline lineno="135"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1ggadd220ce3211af8111e0af876a0619788a1d4d4ea36dc6c0ceb6599efed42f0559" kindref="member">XMC_UART_CH_STATUS_OK</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1ggadd220ce3211af8111e0af876a0619788a146ec14a2e6f316f449c332a863289b0" kindref="member">XMC_UART_CH_STATUS_ERROR</ref>,<sp/><sp/></highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1ggadd220ce3211af8111e0af876a0619788a410817c31e098fd03c04f4d5ecb76ef1" kindref="member">XMC_UART_CH_STATUS_BUSY</ref><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="139"><highlight class="normal">}<sp/><ref refid="group___u_a_r_t_1gadd220ce3211af8111e0af876a0619788" kindref="member">XMC_UART_CH_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_STATUS_FLAG</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_STATUS_FLAG</highlight></codeline>
 <codeline lineno="146"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga802a057f335dc7bc1465ae11b19d09afa8838558f1c949dfdfa117908e21d7058" kindref="member">XMC_UART_CH_STATUS_FLAG_TRANSMISSION_IDLE</ref><sp/>=<sp/>USIC_CH_PSR_ASCMode_TXIDLE_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga802a057f335dc7bc1465ae11b19d09afa02d60fc761d9eee4c4d1c525f2429a5c" kindref="member">XMC_UART_CH_STATUS_FLAG_RECEPTION_IDLE</ref><sp/>=<sp/>USIC_CH_PSR_ASCMode_RXIDLE_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2322,7 +2322,7 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 <codeline lineno="163"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga802a057f335dc7bc1465ae11b19d09afa5e66e98130f3a6f072c57295a1a779f7" kindref="member">XMC_UART_CH_STATUS_FLAG_BAUD_RATE_GENERATOR_INDICATION</ref><sp/>=<sp/>USIC_CH_PSR_ASCMode_BRGIF_Msk<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="164"><highlight class="normal">}<sp/><ref refid="group___u_a_r_t_1ga802a057f335dc7bc1465ae11b19d09af" kindref="member">XMC_UART_CH_STATUS_FLAG_t</ref>;</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CH_UART_EVENT</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_CH_UART_EVENT</highlight></codeline>
 <codeline lineno="170"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga122d0cf7042ea6cb81ccdb50df5f62b6addd2af8f6f565002a1b4ea856b7bbcee" kindref="member">XMC_UART_CH_EVENT_RECEIVE_START</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_CCR_RSIEN_Msk,<sp/><sp/></highlight></codeline>
 <codeline lineno="172"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga122d0cf7042ea6cb81ccdb50df5f62b6a6e76badf4b36a6fa694cd7c4c0d873b9" kindref="member">XMC_UART_CH_EVENT_DATA_LOST</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_CCR_DLIEN_Msk,<sp/><sp/></highlight></codeline>
@@ -2338,24 +2338,24 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga122d0cf7042ea6cb81ccdb50df5f62b6a2ea7a5f9780633b9cb5702c1fc7296d2" kindref="member">XMC_UART_CH_EVENT_FRAME_FINISHED</ref><sp/>=<sp/>USIC_CH_PCR_ASCMode_FFIEN_Msk<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="184"><highlight class="normal">}<sp/><ref refid="group___u_a_r_t_1ga122d0cf7042ea6cb81ccdb50df5f62b6" kindref="member">XMC_UART_CH_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_INPUT_SAMPLING_FREQ</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_INPUT_SAMPLING_FREQ</highlight></codeline>
 <codeline lineno="190"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga2deb0d11792f241e1e5c02e6a4063998a916e6151ac686996fbef2b0c059d0527" kindref="member">XMC_UART_CH_INPUT_SAMPLING_FREQ_FPERIPH</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga4eabf4e044ae33972f726f904e788f8aa140d9db737218ef374f79f19d16f67e5" kindref="member">XMC_USIC_CH_INPUT_SAMPLING_FREQ_FPERIPH</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="192"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga2deb0d11792f241e1e5c02e6a4063998ac1ae8f6ca1096c61ca0619dae0a18b92" kindref="member">XMC_UART_CH_INPUT_SAMPLING_FREQ_FRACTIONAL_DIVIDER</ref><sp/>=<sp/><ref refid="group___u_s_i_c_1gga4eabf4e044ae33972f726f904e788f8aa8ad2708c596461047862f7a3c71c3892" kindref="member">XMC_USIC_CH_INPUT_SAMPLING_FREQ_FRACTIONAL_DIVIDER</ref><sp/></highlight></codeline>
 <codeline lineno="193"><highlight class="normal">}<sp/><ref refid="group___u_a_r_t_1ga2deb0d11792f241e1e5c02e6a4063998" kindref="member">XMC_UART_CH_INPUT_SAMPLING_FREQ_t</ref>;</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_INPUT</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_INPUT</highlight></codeline>
 <codeline lineno="199"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga7358da2d90633473ae9de4636ddb3a46acaf414b76fa9b98df96b90edbf3edc3d" kindref="member">XMC_UART_CH_INPUT_RXD</ref><sp/>=<sp/>0UL<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="201"><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="202"><highlight class="normal"><sp/><sp/>,</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga7358da2d90633473ae9de4636ddb3a46a66212b93204c18de9680a5b45d41e327" kindref="member">XMC_UART_CH_INPUT_RXD1</ref><sp/>=<sp/>3UL,<sp/></highlight></codeline>
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga7358da2d90633473ae9de4636ddb3a46a1dbf3656536ec612da6a63ecd25e67d4" kindref="member">XMC_UART_CH_INPUT_RXD2</ref><sp/>=<sp/>5UL<sp/><sp/></highlight></codeline>
-<codeline lineno="205"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="206"><highlight class="normal">}<sp/><ref refid="group___u_a_r_t_1ga7358da2d90633473ae9de4636ddb3a46" kindref="member">XMC_UART_CH_INPUT_t</ref>;</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_INTERRUPT_NODE_POINTER</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_UART_CH_INTERRUPT_NODE_POINTER</highlight></codeline>
 <codeline lineno="213"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga29676690a77272438ef1cfc21575ff6da0069cc6489d3bf33490bf4cc95e998d4" kindref="member">XMC_UART_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62ac3d37f726e6214704f420586ff8effc3" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT</ref>,<sp/></highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><ref refid="group___u_a_r_t_1gga29676690a77272438ef1cfc21575ff6da59a31b003753d05ac1b5d5067751121e" kindref="member">XMC_UART_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER</ref><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62a2298fc6a0fcee48a76f0aea1eb95e3a6" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER</ref>,<sp/></highlight></codeline>
@@ -2368,7 +2368,7 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 <codeline lineno="222"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
 <codeline lineno="223"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_UART_CH_CONFIG</highlight></codeline>
+<codeline lineno="228" refid="struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_UART_CH_CONFIG</highlight></codeline>
 <codeline lineno="229"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="230"><highlight class="normal"><sp/><sp/>uint32_t<sp/>baudrate;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="231"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normal_divider_mode;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2387,7 +2387,7 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 <codeline lineno="247"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1gaca0ca9010bb1284a819b265694b7a5f0" kindref="member">XMC_UART_CH_InitEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_UART_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>init_brg);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1gaca0ca9010bb1284a819b265694b7a5f0" kindref="member">XMC_UART_CH_InitEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_UART_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>init_brg);</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"></highlight></codeline>
 <codeline lineno="297"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1ga719ad21f9ccaf9585dd0b473b4daef7e" kindref="member">XMC_UART_CH_Init</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_a_r_t___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_UART_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config)</highlight></codeline>
 <codeline lineno="298"><highlight class="normal">{</highlight></codeline>
@@ -2405,7 +2405,7 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 <codeline lineno="362"><highlight class="normal"></highlight></codeline>
 <codeline lineno="387"><highlight class="normal"><ref refid="group___u_a_r_t_1gadd220ce3211af8111e0af876a0619788" kindref="member">XMC_UART_CH_STATUS_t</ref><sp/><ref refid="group___u_a_r_t_1ga516877b6a939a19eb1c7ec772b6535f1" kindref="member">XMC_UART_CH_SetBaudrateEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>rate,<sp/>uint32_t<sp/>oversampling,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normal_divider_mode);</highlight></codeline>
 <codeline lineno="388"><highlight class="normal"></highlight></codeline>
-<codeline lineno="410"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1ga3a9b41f5d74a0dde43d9b19166ffa7c6" kindref="member">XMC_UART_CH_Transmit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>data);</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1ga3a9b41f5d74a0dde43d9b19166ffa7c6" kindref="member">XMC_UART_CH_Transmit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>data);</highlight></codeline>
 <codeline lineno="411"><highlight class="normal"></highlight></codeline>
 <codeline lineno="426"><highlight class="normal">uint16_t<sp/><ref refid="group___u_a_r_t_1ga578c15fc0df2e8ea7a265c92c0a26536" kindref="member">XMC_UART_CH_GetReceivedData</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
 <codeline lineno="427"><highlight class="normal"></highlight></codeline>
@@ -2419,9 +2419,9 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 <codeline lineno="471"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ga23964f6d982b35388f3a7c82f5634e0f" kindref="member">XMC_USIC_CH_SetFrameLength</ref>(channel,<sp/>frame_length);</highlight></codeline>
 <codeline lineno="472"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="473"><highlight class="normal"></highlight></codeline>
-<codeline lineno="491"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1gaf511dd60e7f23bc40bad0207ff9bd266" kindref="member">XMC_UART_CH_EnableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1gaf511dd60e7f23bc40bad0207ff9bd266" kindref="member">XMC_UART_CH_EnableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="492"><highlight class="normal"></highlight></codeline>
-<codeline lineno="510"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1ga87743034df2fe747615ce39a6b870a0c" kindref="member">XMC_UART_CH_DisableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="510"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1ga87743034df2fe747615ce39a6b870a0c" kindref="member">XMC_UART_CH_DisableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="511"><highlight class="normal"></highlight></codeline>
 <codeline lineno="529"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_a_r_t_1gaa013e09337b1c9c05b41eac29b2518ea" kindref="member">XMC_UART_CH_SetInterruptNodePointer</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="530"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>service_request)</highlight></codeline>
@@ -2528,8 +2528,8 @@ When the UART service request is triggered, the NVIC interrupt associated with i
 <codeline lineno="899"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="900"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="901"><highlight class="normal"></highlight></codeline>
-<codeline lineno="907"><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="907"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_uart.h"/>
   </compounddef>
 </doxygen>

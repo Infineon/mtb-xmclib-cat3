@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t" kind="union" language="C++" prot="public">
     <compoundname>XMC_ETH_MAC_PORT_CTRL_t</compoundname>
     <includes local="no">xmc_eth_mac.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="356" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="356" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="352" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="352" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="352" column="5" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="352" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="354" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="354" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="354" column="5" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="354" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1ae90b6c9694a2bb6301212ae766463db5" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="344" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="344" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="344" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="344" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a51487823abad851984dc52a3784ac4b0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="351" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="351" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="351" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="351" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a9309031489739361fcd2c878d6f5ebf3" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="350" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="350" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="350" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="350" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1ab21c8eb700e30c6d30cafa405d469880" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="348" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="348" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="348" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a320e0dbe4408bde8eb2e3dda4704a6e7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="347" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="347" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="347" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="347" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a64c7c0762a879e3ada17a39e8a3080c9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="353" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="353" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="353" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="353" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a6b29e4f37f4482274af785ad5ffe96a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="355" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="355" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="355" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="355" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a0a595268561edc58e347ca8387000bc6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="358" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="358" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="358" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="358" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a293a1a55abd9118cbb42d03e382af6d9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="340" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="340" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="340" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="340" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a566d7eee6f8a71a3b96bc59aa0971f5c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="341" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="341" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="341" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="341" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1ae3826e1526ed6736e3f9ae543aa9375c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="342" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="342" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="342" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="342" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a1526257b7badedbd75ffba3ff799c5e3" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -223,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="343" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="343" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="343" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="343" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1af8dc85700790fb1c7058ea89e5b7a536" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -238,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="349" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="349" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="349" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="349" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -246,7 +246,7 @@
     <detaileddescription>
 <para>ETH MAC port control </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="337" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="336" bodyend="359"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" line="336" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eth_mac.h" bodystart="337" bodyend="359"/>
     <listofallmembers>
       <member refid="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_ETH_MAC_PORT_CTRL_t</scope><name>__pad0__</name></member>
       <member refid="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_ETH_MAC_PORT_CTRL_t</scope><name>__pad1__</name></member>

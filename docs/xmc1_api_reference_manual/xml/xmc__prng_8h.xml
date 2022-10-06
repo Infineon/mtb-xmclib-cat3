@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__prng_8h" kind="file" language="C++">
     <compoundname>xmc_prng.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <incdepgraph>
-      <node id="62">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="61">
+      <node id="1">
         <label>xmc_prng.h</label>
         <link refid="xmc__prng_8h"/>
-        <childnode refid="62" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___p_r_n_g___i_n_i_t__t" prot="public">XMC_PRNG_INIT_t</innerclass>
@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="86" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="86" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="86" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="105" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="104" bodyend="109"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="104" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="105" bodyend="109"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_r_n_g_1ga4b04f26e22d83d38227d712fbc3de8ae" prot="public" static="no" strong="no">
         <type></type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="115" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="114" bodyend="118"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="114" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="115" bodyend="118"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_r_n_g_1ga3c1f8f0302221803f725e24d2a903f8d" prot="public" static="no" strong="no">
         <type></type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="96" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="95" bodyend="99"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="95" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="96" bodyend="99"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="192" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="192" bodyend="195"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="192" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="192" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1ga50c7502d10a31a18d05f69c341f8c383" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="211" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="211" bodyend="214"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="211" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="211" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1ga8cd9567c3cc650f52297c67733a80bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="229" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="229" bodyend="232"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="229" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="229" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1gab7468715bc1f4ee24d3de60d4f1a9e0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -240,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="269" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="269" bodyend="272"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="269" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="269" bodyend="272"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1ga21fe2808ff30944aff357280cb2d9774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___p_r_n_g_1ga4b04f26e22d83d38227d712fbc3de8ae" kindref="member">XMC_PRNG_INIT_STATUS_t</ref></type>
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="160" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="160" column="24" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" declline="160" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1gade903f0a506405ea40958c5d99df9b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -308,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="247" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="247" bodyend="250"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="247" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="247" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="group___p_r_n_g_1ga52fd6a913021d7118f0d9f51dab1cbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -342,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="175" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="175" bodyend="179"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="175" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="175" bodyend="179"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -353,8 +353,8 @@
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="55"><highlight class="preprocessor">#ifndef<sp/>XMC_PRNG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_PRNG_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_PRNG_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
@@ -365,30 +365,30 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(PRNG)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="80"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="81"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="preprocessor">#define<sp/>XMC_PRNG_RDBS_BYTE_READ_MASK<sp/>(0x00FFU)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_PRNG_RDBS_BYTE_READ_MASK<sp/>(0x00FFU)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="89"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="90"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_PRNG_KEY_LOAD_OP_MODE</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_PRNG_KEY_LOAD_OP_MODE</highlight></codeline>
 <codeline lineno="96"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><ref refid="group___p_r_n_g_1gga3c1f8f0302221803f725e24d2a903f8da777d4c1d2b7223949cc2aec5abbedc1b" kindref="member">XMC_PRNG_STRM_MODE</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><ref refid="group___p_r_n_g_1gga3c1f8f0302221803f725e24d2a903f8da486b96fe11584b1889980a707a6df7cb" kindref="member">XMC_PRNG_KLD_MODE</ref><sp/><sp/>=<sp/>1U<sp/><sp/></highlight></codeline>
 <codeline lineno="99"><highlight class="normal">}<sp/><ref refid="group___p_r_n_g_1ga3c1f8f0302221803f725e24d2a903f8d" kindref="member">XMC_PRNG_KEY_LOAD_OP_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_PRNG_DATA_BLOCK_SIZE</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_PRNG_DATA_BLOCK_SIZE</highlight></codeline>
 <codeline lineno="105"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><ref refid="group___p_r_n_g_1gga98fce9930ded366d7fe18f3df49c1553a644bc6ed498cbf7f86ffcd26eea08b54" kindref="member">XMC_PRNG_RDBS_RESET</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><ref refid="group___p_r_n_g_1gga98fce9930ded366d7fe18f3df49c1553a036bfba43c946d2f33c74d1eabb163de" kindref="member">XMC_PRNG_RDBS_BYTE</ref><sp/><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><ref refid="group___p_r_n_g_1gga98fce9930ded366d7fe18f3df49c1553ad930e8d86b61cefb6501ccdaedb4914e" kindref="member">XMC_PRNG_RDBS_WORD</ref><sp/><sp/>=<sp/>2U<sp/><sp/></highlight></codeline>
 <codeline lineno="109"><highlight class="normal">}<sp/><ref refid="group___p_r_n_g_1ga98fce9930ded366d7fe18f3df49c1553" kindref="member">XMC_PRNG_DATA_BLOCK_SIZE_t</ref>;</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_PRNG_INIT_STATUS</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_PRNG_INIT_STATUS</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><ref refid="group___p_r_n_g_1gga4b04f26e22d83d38227d712fbc3de8aeaa3e5b41923572a7647a14c8d138b94c8" kindref="member">XMC_PRNG_NOT_INITIALIZED</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><ref refid="group___p_r_n_g_1gga4b04f26e22d83d38227d712fbc3de8aea536ab22fd603175dcce9fbeb7f6788cc" kindref="member">XMC_PRNG_INITIALIZED</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>1U<sp/><sp/></highlight></codeline>
@@ -398,7 +398,7 @@
 <codeline lineno="121"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
 <codeline lineno="122"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="struct_x_m_c___p_r_n_g___i_n_i_t__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_PRNG_INIT</highlight></codeline>
+<codeline lineno="132" refid="struct_x_m_c___p_r_n_g___i_n_i_t__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_PRNG_INIT</highlight></codeline>
 <codeline lineno="133"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"><sp/><sp/>uint16_t<sp/>key_words[5];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><ref refid="group___p_r_n_g_1ga98fce9930ded366d7fe18f3df49c1553" kindref="member">XMC_PRNG_DATA_BLOCK_SIZE_t</ref><sp/>block_size;<sp/></highlight></codeline>
@@ -451,10 +451,10 @@
 <codeline lineno="275"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="276"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="282"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>#if<sp/>defined<sp/>(PRNG)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>#if<sp/>defined<sp/>(PRNG)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="283"><highlight class="normal"></highlight></codeline>
 <codeline lineno="284"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_PRNG_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h"/>
   </compounddef>
 </doxygen>

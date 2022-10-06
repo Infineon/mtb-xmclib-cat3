@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___g_p_i_o___p_o_r_t__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_GPIO_PORT_t</compoundname>
     <includes local="no">xmc4_gpio.h</includes>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="274" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="274" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="274" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="274" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a63da21d554c311fef9904c93f828ef36" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="264" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="264" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="264" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="264" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1ad48ed6e9d87a94ee8bed86d892ff8c2e" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="261" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="261" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="261" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="261" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a88c96396fe255aecb1ccc63d88e4bc27" prot="public" static="no" mutable="no">
         <type>__O uint32_t</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="258" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="258" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="258" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="258" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a2ab2b086280d99c3849902774755e7ea" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="256" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="256" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="256" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="256" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a7b401f77239b98780f08a10dab3a02c5" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="270" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="270" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="270" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="270" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1aeea02bb960a11a965422a6fed0b076f4" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="267" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="267" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="267" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="267" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a8b69daa24570140d4ff7e3b24399c59f" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="273" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="273" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="273" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="273" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1afa4dc3d56731301faf2021a9ce818a59" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="260" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="260" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="260" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="260" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a39fbdbb7ad559315fa9c23de59936655" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="263" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="263" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="263" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="263" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a07f7fd079e4049c700187210dc53c67b" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="266" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="266" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="266" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="266" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a56ebfb64490f6461d0383a743ee6d8c5" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="269" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="269" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="269" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="269" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a49af9f39c846fab6b41cb6dc156fd25a" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -179,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="272" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="272" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="272" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="272" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -187,7 +187,7 @@
     <detaileddescription>
 <para>Structure points port hardware registers. Use type <ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref> for this structure. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="255" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="254" bodyend="275"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="254" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="255" bodyend="275"/>
     <listofallmembers>
       <member refid="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a9562dc45396d32b99ca9c3e231fae2c4" prot="public" virt="non-virtual"><scope>XMC_GPIO_PORT_t</scope><name>HWSEL</name></member>
       <member refid="struct_x_m_c___g_p_i_o___p_o_r_t__t_1a63da21d554c311fef9904c93f828ef36" prot="public" virt="non-virtual"><scope>XMC_GPIO_PORT_t</scope><name>IN</name></member>

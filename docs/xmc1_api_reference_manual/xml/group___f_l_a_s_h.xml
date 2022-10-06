@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___f_l_a_s_h" kind="group">
     <compoundname>FLASH</compoundname>
     <title>Flash driver (FLASH)</title>
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="132" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="131" bodyend="134"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="127" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="128" bodyend="130"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_l_a_s_h_1gab0c36057e8d3848002e1bad7221badf9" prot="public" static="no" strong="no">
         <type></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="142" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="141" bodyend="146"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="137" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="138" bodyend="142"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_l_a_s_h_1gaec69607b9daecffb4215faca73d02ebc" prot="public" static="no" strong="no">
         <type></type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="113" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="112" bodyend="126"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="108" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="109" bodyend="122"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -157,7 +157,6 @@
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -165,7 +164,7 @@
 </simplesect>
 <simplesect kind="par"><title>Description:</title><para>Clears the previous error status by reseting the ECC and VERR error status bits of NVMSTATUS register.<linebreak/>
 <linebreak/>
-Call this API before starting any flash programming / erase related APIs to ensure all previous errors are cleared.</para>
+Call this API before starting any flash programming / erase related APIs to ensure all previous errors are cleared.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para>None </para>
 </simplesect>
@@ -173,7 +172,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="127" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="127" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" declline="127" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga162346fadd0c8caacda1738259da404e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -210,7 +209,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="183" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="183" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" declline="183" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga2dae70005cbc3265b504a7232cc72b86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -247,7 +246,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="168" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="168" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" declline="168" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gae0073bec84d093e51c76769d076d8df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -265,7 +264,6 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -285,7 +283,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="360" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="360" bodyend="363"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="356" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="356" bodyend="359"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga1d782bca8ed5b31fca6fa58cf6106b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -324,7 +322,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="323" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="319" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="319" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga581a2ddaeddb1b1ea1fe31ec222521d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -381,7 +379,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="220" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="216" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="216" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gaf697ad9d71bc470ac59e0014bac57d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -420,7 +418,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="193" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="189" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="189" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga032a6acea8c8b125cde1da5941f89c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -438,7 +436,6 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -458,7 +455,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="379" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="379" bodyend="382"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="375" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="375" bodyend="378"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gabc93e46f19331fe15be8cd0f2a8fa28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -495,9 +492,9 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
 <para>&lt; Starting address of flash for XMC1 family of microcontrollers</para>
-<para>&lt; Number of bytes in a sector. (16 pages * 256 bytes = 4096 bytes) </para>
+<para>&lt; Number of bytes in a sector. (16 pages * 256 bytes = 4096 bytes)</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="398" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="398" bodyend="401"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="394" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="394" bodyend="397"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga50275a88263d4fdfb85261d352eac1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -515,7 +512,6 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -523,7 +519,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
 </simplesect>
 <simplesect kind="par"><title>Description:</title><para>Informs the status of flash by reading the NVMSTATUS register.<linebreak/>
 <linebreak/>
- It indicates the ECC, VERR(verification error), WRPERR (Write protocol error) errors as well as the current flash state. After calling the flash read/write/erase operation related APIs, call this API to get the verification status. The return value of this API shall be checked against the members of <ref refid="group___f_l_a_s_h_1gaec69607b9daecffb4215faca73d02ebc" kindref="member">XMC_FLASH_STATUS_t</ref> enumeration to get the relevant status.</para>
+ It indicates the ECC, VERR(verification error), WRPERR (Write protocol error) errors as well as the current flash state. After calling the flash read/write/erase operation related APIs, call this API to get the verification status. The return value of this API shall be checked against the members of <ref refid="group___f_l_a_s_h_1gaec69607b9daecffb4215faca73d02ebc" kindref="member">XMC_FLASH_STATUS_t</ref> enumeration to get the relevant status.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para>None </para>
 </simplesect>
@@ -531,7 +527,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="153" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="153" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" declline="153" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga7d687d0d1d5bdc9173d96c7619172cd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -549,7 +545,6 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -569,7 +564,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="199" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" bodystart="199" bodyend="202"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" line="199" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_flash.h" bodystart="199" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga4374da8ed15f78a182dce3b262d4b6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -618,7 +613,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="176" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="172" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="172" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gab5d0302105a5696744a6dcfae19db64f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -665,7 +660,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="343" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="339" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="339" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga90cec357405f2edafa4aa96cc3e1de1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -725,7 +720,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="284" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="280" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="280" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga4dc344064838670ac3b0d7b4c2c9a0fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -761,7 +756,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="302" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="302" bodyend="305"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="298" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="298" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gab71e15fdc8ded3ce14f2f697f6ff3027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -798,7 +793,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="441" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="441" bodyend="445"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="437" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="437" bodyend="441"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1gab05fe59c132f2f7d9e5b8a5896aa4796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -836,7 +831,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="419" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="419" bodyend="423"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="415" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="415" bodyend="419"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga7159be439f872a52db4b20f74477e75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -896,7 +891,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="264" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="260" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="260" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_l_a_s_h_1ga9d23629533ee3a703972649db4372ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -970,14 +965,14 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="243" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="239" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" declline="239" declcolumn="6"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
       <memberdef kind="define" id="group___f_l_a_s_h_1ga0d2b9ed15806748ad4a5ec9f951be20e" prot="public" static="no">
         <name>FLASH_BLOCK_ADDR_MASK</name>
-        <initializer>(15U)    /*   Bitwise AND with block address is done to check the address alignment.
-                                                 Applicable to XMC_FLASH_WriteBlocks() and XMC_FLASH_VerifyBlocks()
+        <initializer>                                                 (15U)    /*   Bitwise AND with block address is done to check the address alignment.
+                                                 Applicable to <ref refid="group___f_l_a_s_h_1ga9d23629533ee3a703972649db4372ebe" kindref="member">XMC_FLASH_WriteBlocks</ref>() and <ref refid="group___f_l_a_s_h_1ga7159be439f872a52db4b20f74477e75d" kindref="member">XMC_FLASH_VerifyBlocks</ref>()
                                                  APIs.*/</initializer>
         <briefdescription>
         </briefdescription>
@@ -985,31 +980,31 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="97" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="95" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="97" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga3f5991339fd9b6486a4840c010c3bdc6" prot="public" static="no">
         <name>FLASH_PAGE_ADDR_MASK</name>
-        <initializer>(255U)   /*   Bitwise AND with page address is done to check the address alignment.
-                                                 Applicable to XMC_FLASH_ErasePages() API.*/</initializer>
+        <initializer>                                                 (255U)   /*   Bitwise AND with page address is done to check the address alignment.
+                                                 Applicable to <ref refid="group___f_l_a_s_h_1ga581a2ddaeddb1b1ea1fe31ec222521d7" kindref="member">XMC_FLASH_ErasePages</ref>() API.*/</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="99" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="98" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="99" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga3199fac224380bc7a638a3125ffacb8e" prot="public" static="no">
         <name>FLASH_SECTOR_ADDR_MASK</name>
-        <initializer>(4095U)  /*   Bitwise AND with sector address is done to check the address alignment.
-                                                 Applicable to XMC_FLASH_EraseSector API.*/</initializer>
+        <initializer>                                                 (4095U)  /*   Bitwise AND with sector address is done to check the address alignment.
+                                                 Applicable to <ref refid="group___f_l_a_s_h_1gaf697ad9d71bc470ac59e0014bac57d43" kindref="member">XMC_FLASH_EraseSector</ref> API.*/</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="101" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="100" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="101" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga04349ce03dfa72d4f921e26fab7bb908" prot="public" static="no">
         <name>XMC_FLASH_BASE</name>
@@ -1021,7 +1016,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="103" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="103" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="103" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga4e9511c59c7236d5adfd24eccb00acf9" prot="public" static="no">
         <name>XMC_FLASH_BLOCKS_PER_PAGE</name>
@@ -1033,7 +1028,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="85" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="85" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="85" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga264df7592f637691b17fda2a74f8e8b9" prot="public" static="no">
         <name>XMC_FLASH_BYTES_PER_BLOCK</name>
@@ -1045,7 +1040,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="89" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="89" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="89" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga00b2a643c63a3ce66dc6fd2fb9ba5508" prot="public" static="no">
         <name>XMC_FLASH_BYTES_PER_PAGE</name>
@@ -1057,7 +1052,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="88" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="88" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="88" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga3c8a7688649dce67701e362968ed8b71" prot="public" static="no">
         <name>XMC_FLASH_BYTES_PER_SECTOR</name>
@@ -1069,7 +1064,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="87" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="87" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="87" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1gae4af65ad5452c6e96162582b28dc012f" prot="public" static="no">
         <name>XMC_FLASH_PAGES_PER_SECTOR</name>
@@ -1081,7 +1076,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="84" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="84" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="84" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1gad3630a52ad62064d7ec32acb9f6e0ada" prot="public" static="no">
         <name>XMC_FLASH_WORDS_PER_BLOCK</name>
@@ -1093,7 +1088,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="93" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="93" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="93" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga8baf803359cd0c484bed4123ea4d8446" prot="public" static="no">
         <name>XMC_FLASH_WORDS_PER_PAGE</name>
@@ -1105,7 +1100,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="92" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="92" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="92" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_l_a_s_h_1ga26910796f9c90bb2c88060381bc45ff6" prot="public" static="no">
         <name>XMC_FLASH_WORDS_PER_SECTOR</name>
@@ -1117,7 +1112,7 @@ Call this API before starting any flash programming / erase related APIs to ensu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="91" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="91" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" line="91" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_flash.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1127,23 +1122,13 @@ Call this API before starting any flash programming / erase related APIs to ensu
 <para>Flash is a non volatile memory module used to store instruction code or constant data. The flash low level driver provides support to the following functionalities of flash memory.<linebreak/>
  <orderedlist>
 <listitem>
-<para>Provides functions to program and verify pages. ( <ref refid="group___f_l_a_s_h_1ga4374da8ed15f78a182dce3b262d4b6fa" kindref="member">XMC_FLASH_ProgramPage()</ref>, XMC_FLASH_ProgramPages() <ref refid="group___f_l_a_s_h_1gab5d0302105a5696744a6dcfae19db64f" kindref="member">XMC_FLASH_ProgramVerifyPage()</ref> )<linebreak/>
- </para>
-</listitem>
-<listitem>
-<para>Provides functions to write and verify blocks. ( <ref refid="group___f_l_a_s_h_1ga9d23629533ee3a703972649db4372ebe" kindref="member">XMC_FLASH_WriteBlocks()</ref>, <ref refid="group___f_l_a_s_h_1ga7159be439f872a52db4b20f74477e75d" kindref="member">XMC_FLASH_VerifyBlocks()</ref> )<linebreak/>
- </para>
-</listitem>
-<listitem>
-<para>Provides functions to read data in terms of word and blocks. ( <ref refid="group___f_l_a_s_h_1ga90cec357405f2edafa4aa96cc3e1de1d" kindref="member">XMC_FLASH_ReadBlocks()</ref>, <ref refid="group___f_l_a_s_h_1ga4dc344064838670ac3b0d7b4c2c9a0fb" kindref="member">XMC_FLASH_ReadWord()</ref> ) <linebreak/>
- </para>
-</listitem>
-<listitem>
-<para>Provides function to erase page. ( <ref refid="group___f_l_a_s_h_1ga1d782bca8ed5b31fca6fa58cf6106b7b" kindref="member">XMC_FLASH_ErasePage()</ref> ) <linebreak/>
- </para>
 </listitem>
 </orderedlist>
-</para>
+88 Provides functions to program and verify pages. ( <ref refid="group___f_l_a_s_h_1ga4374da8ed15f78a182dce3b262d4b6fa" kindref="member">XMC_FLASH_ProgramPage()</ref>, XMC_FLASH_ProgramPages() <ref refid="group___f_l_a_s_h_1gab5d0302105a5696744a6dcfae19db64f" kindref="member">XMC_FLASH_ProgramVerifyPage()</ref> )<linebreak/>
+ Provides functions to write and verify blocks. ( <ref refid="group___f_l_a_s_h_1ga9d23629533ee3a703972649db4372ebe" kindref="member">XMC_FLASH_WriteBlocks()</ref>, <ref refid="group___f_l_a_s_h_1ga7159be439f872a52db4b20f74477e75d" kindref="member">XMC_FLASH_VerifyBlocks()</ref> )<linebreak/>
+ Provides functions to read data in terms of word and blocks. ( <ref refid="group___f_l_a_s_h_1ga90cec357405f2edafa4aa96cc3e1de1d" kindref="member">XMC_FLASH_ReadBlocks()</ref>, <ref refid="group___f_l_a_s_h_1ga4dc344064838670ac3b0d7b4c2c9a0fb" kindref="member">XMC_FLASH_ReadWord()</ref> ) <linebreak/>
+ Provides function to erase page. ( <ref refid="group___f_l_a_s_h_1ga1d782bca8ed5b31fca6fa58cf6106b7b" kindref="member">XMC_FLASH_ErasePage()</ref> ) <linebreak/>
+  </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

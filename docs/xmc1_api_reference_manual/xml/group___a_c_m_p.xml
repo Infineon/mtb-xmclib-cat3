@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___a_c_m_p" kind="group">
     <compoundname>ACMP</compoundname>
     <title>Analog Comparator(ACMP)</title>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="154" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="153" bodyend="159"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="153" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="154" bodyend="159"/>
       </memberdef>
       <memberdef kind="enum" id="group___a_c_m_p_1ga546a6854ef774ad521d9e63d0eb8b2dd" prot="public" static="no" strong="no">
         <type></type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="143" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="142" bodyend="148"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="142" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="143" bodyend="148"/>
       </memberdef>
       <memberdef kind="enum" id="group___a_c_m_p_1gac75800cc508d9b37510b6cc7ab0b1696" prot="public" static="no" strong="no">
         <type></type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="165" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="164" bodyend="169"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="164" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="165" bodyend="169"/>
       </memberdef>
       <memberdef kind="enum" id="group___a_c_m_p_1ga13cf6644d57d78d3778c19cee9076e10" prot="public" static="no" strong="no">
         <type></type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="134" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="133" bodyend="137"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="133" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="134" bodyend="137"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -174,7 +174,7 @@ The low power mode is controlled by ACMP0 module. Low power mode is applicable f
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="409" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="409" bodyend="412"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="409" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="409" bodyend="412"/>
       </memberdef>
       <memberdef kind="function" id="group___a_c_m_p_1ga5f32eab1a89f93c51c62775d26461ab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -228,7 +228,7 @@ Stops the comparator by resetting CMP_EN bit of respective ANACMP <emphasis>inst
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="298" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="298" bodyend="304"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="298" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="298" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="group___a_c_m_p_1gac456ec0a0eb51391059a5e42d8b123b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -263,7 +263,7 @@ ACMP1 input INP is disconnected from the reference divider. This is achieved by 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="338" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="338" bodyend="342"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="338" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="338" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="group___a_c_m_p_1ga71c782676692d67267ae0f80cbb641f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -318,7 +318,7 @@ Starts the comparator by setting CMP_EN bit of respective ANACMP <emphasis>insta
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="271" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="271" bodyend="278"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="271" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="271" bodyend="278"/>
       </memberdef>
       <memberdef kind="function" id="group___a_c_m_p_1gafd4c955902ff6621c3458d7cde8ef3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -353,7 +353,7 @@ ACMP1 input INP is driven by an internal reference voltage by setting DIV_EN bit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="319" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="319" bodyend="323"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="319" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="319" bodyend="323"/>
       </memberdef>
       <memberdef kind="function" id="group___a_c_m_p_1ga2e5c715a935e7d7cb020f52d3c7386e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -419,7 +419,7 @@ ACMP1 input INP is driven by an internal reference voltage by setting DIV_EN bit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="250" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="250" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" declline="250" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___a_c_m_p_1ga890bdf38f4eb75ffe6a9f954eb847abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -506,7 +506,7 @@ Apart from ACMP1 instance, each ACMP instances can be connected to its own port 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="374" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="374" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" declline="374" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___a_c_m_p_1gac3ffd2fa0234684b9fe4745501255c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -541,7 +541,7 @@ The low power mode is controlled by ACMP0 instance. Low power mode is applicable
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="391" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="391" bodyend="394"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="391" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="391" bodyend="394"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -555,7 +555,7 @@ The low power mode is controlled by ACMP0 instance. Low power mode is applicable
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="112" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="112" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="112" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___a_c_m_p_1gaff2a8d04396204031f93ab238af70f38" prot="public" static="no">
         <name>XMC_ACMP_CHECK_INSTANCE</name>
@@ -567,7 +567,7 @@ The low power mode is controlled by ACMP0 instance. Low power mode is applicable
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="124" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="124" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="124" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___a_c_m_p_1ga1ca58b64f969c84835b1e4283e8b45a0" prot="public" static="no">
         <name>XMC_ACMP_CHECK_MODULE_PTR</name>
@@ -579,7 +579,7 @@ The low power mode is controlled by ACMP0 instance. Low power mode is applicable
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="121" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="121" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="121" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___a_c_m_p_1gafb7abf066809c543890fb4f6746a81e8" prot="public" static="no">
         <name>XMC_ACMP_MAX_INSTANCES</name>
@@ -590,7 +590,7 @@ The low power mode is controlled by ACMP0 instance. Low power mode is applicable
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="117" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="117" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="117" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

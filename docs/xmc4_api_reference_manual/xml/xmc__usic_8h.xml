@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__usic_8h" kind="file" language="C++">
     <compoundname>xmc_usic.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
@@ -10,24 +10,24 @@
     <includedby refid="xmc__spi_8h" local="yes">xmc_spi.h</includedby>
     <includedby refid="xmc__uart_8h" local="yes">xmc_uart.h</includedby>
     <incdepgraph>
-      <node id="110">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="112">
-        <label>xmc4_usic_map.h</label>
-      </node>
-      <node id="109">
+      <node id="1">
         <label>xmc_usic.h</label>
         <link refid="xmc__usic_8h"/>
-        <childnode refid="110" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="111" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="112" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="111">
+      <node id="3">
         <label>xmc1_usic_map.h</label>
+      </node>
+      <node id="4">
+        <label>xmc4_usic_map.h</label>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___u_s_i_c___c_h__t" prot="public">XMC_USIC_CH_t</innerclass>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="175" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="175" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="175" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="175" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gac37ea251ee432c469f3ca780f00a0a82" prot="public" static="no">
         <name>USIC_CH_DXCR_CM_Pos</name>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="174" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="174" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="174" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gacd79dd61fa38db0bc2a735c9c2d7e272" prot="public" static="no">
         <name>USIC_CH_DXCR_DFEN_Msk</name>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="172" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="172" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="172" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gafe4d28d8e09425ff5fd0f2c98ea85e1b" prot="public" static="no">
         <name>USIC_CH_DXCR_DPOL_Msk</name>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="171" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="171" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="171" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1ga422029f5a94b9e2960a712fb3cb437d0" prot="public" static="no">
         <name>USIC_CH_DXCR_DSEL_Msk</name>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="167" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="167" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="167" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gad3fe0ed0b13c04904e25ccee9eeb084c" prot="public" static="no">
         <name>USIC_CH_DXCR_DSEL_Pos</name>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="168" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="168" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="168" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gaf00a9eaab71452bf3b16b78aa080cb25" prot="public" static="no">
         <name>USIC_CH_DXCR_DSEN_Msk</name>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="173" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="173" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="173" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="173" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1ga9e60cb55d2c3135d5e1fcd317b0bcdbe" prot="public" static="no">
         <name>USIC_CH_DXCR_INSW_Msk</name>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="176" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="176" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="176" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1ga65a305fbc3474056c2becf2ae00dd2fd" prot="public" static="no">
         <name>USIC_CH_DXCR_INSW_pos</name>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="177" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="177" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="177" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="177" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gaa40b6e977acd2290853cfa788ec56dc5" prot="public" static="no">
         <name>USIC_CH_DXCR_SFSEL_Msk</name>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="170" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="170" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="170" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gad780e0ceed2e148c84ddb0f0e2df2a44" prot="public" static="no">
         <name>USIC_CH_DXCR_SFSEL_Pos</name>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="169" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="169" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="169" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gab5471c5fff228b5b9695356e7d2fc98a" prot="public" static="no">
         <name>XMC_USIC0</name>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="151" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="151" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="151" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1ga28dd6da4b742e7336b12ae6fa8de5e9f" prot="public" static="no">
         <name>XMC_USIC0_CH0</name>
@@ -186,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="152" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="152" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="152" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gab7c9a3765e7d637114fc67951cf20c5b" prot="public" static="no">
         <name>XMC_USIC0_CH1</name>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="153" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="153" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="153" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gabeb00ed8ca0740c0b213c6684d636678" prot="public" static="no">
         <name>XMC_USIC1</name>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="156" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="156" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="156" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gab3012ea0f6b1dddc5b1c05425e15c4a1" prot="public" static="no">
         <name>XMC_USIC1_CH0</name>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="157" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="157" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="157" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="157" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1ga8892cec48c6246ff3e470178e4273f99" prot="public" static="no">
         <name>XMC_USIC1_CH1</name>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="158" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="158" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="158" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1ga13fa3c2b59871d42c4a0918d1de5e1b3" prot="public" static="no">
         <name>XMC_USIC2</name>
@@ -246,7 +246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="162" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="162" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="162" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1gab79d676f4efb3235bd3d8c977b83b1cf" prot="public" static="no">
         <name>XMC_USIC2_CH0</name>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="163" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="163" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="163" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_i_c_1ga6f71692f25917f0dcd77bb77e5518313" prot="public" static="no">
         <name>XMC_USIC2_CH1</name>
@@ -270,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="164" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="164" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="164" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -311,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="450" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="449" bodyend="454"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="449" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="450" bodyend="454"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga4a6a3d9ca8a64d7689f25c8c688cbab9" prot="public" static="no" strong="no">
         <type></type>
@@ -350,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="428" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="427" bodyend="432"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="427" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="428" bodyend="432"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gabe90ddec74269de0d09a2757aff4b93f" prot="public" static="no" strong="no">
         <type></type>
@@ -398,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="438" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="437" bodyend="443"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="437" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="438" bodyend="443"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gae9d3fa2244d754db4311c49fb624115e" prot="public" static="no" strong="no">
         <type></type>
@@ -428,7 +428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="460" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="459" bodyend="463"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="459" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="460" bodyend="463"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga373c90ba61a8cc0013f395840bc9acfd" prot="public" static="no" strong="no">
         <type></type>
@@ -458,7 +458,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="480" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="479" bodyend="483"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="479" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="480" bodyend="483"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gaabdebf7dc81a008ca887ab0336f9b3de" prot="public" static="no" strong="no">
         <type></type>
@@ -506,7 +506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="469" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="468" bodyend="474"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="468" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="469" bodyend="474"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gab277976402d3da779839621f911fe89a" prot="public" static="no" strong="no">
         <type></type>
@@ -536,7 +536,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="311" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="310" bodyend="314"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="310" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="311" bodyend="314"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga9101f93a9a9c4c5a27f1418e3335b012" prot="public" static="no" strong="no">
         <type></type>
@@ -611,7 +611,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="287" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="286" bodyend="295"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="286" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="287" bodyend="295"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gafdd0a07bee93d72936191b7e8555aefe" prot="public" static="no" strong="no">
         <type></type>
@@ -686,7 +686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="358" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="357" bodyend="366"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="357" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="358" bodyend="366"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga4c50ae5a7f12a5496d82d2bc665e1db2" prot="public" static="no" strong="no">
         <type></type>
@@ -734,7 +734,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="250" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="249" bodyend="255"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="249" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="250" bodyend="255"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga4eabf4e044ae33972f726f904e788f8a" prot="public" static="no" strong="no">
         <type></type>
@@ -764,7 +764,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="241" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="240" bodyend="244"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="240" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="241" bodyend="244"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga7b7c285b4dfe6c9132f2f478a59b2ac5" prot="public" static="no" strong="no">
         <type></type>
@@ -824,7 +824,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="228" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="227" bodyend="235"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="227" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="228" bodyend="235"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga074b5b1abff43f98316c7a5b69523e62" prot="public" static="no" strong="no">
         <type></type>
@@ -881,7 +881,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="275" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="274" bodyend="281"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="274" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="275" bodyend="281"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga27d9dafa74ddfc6aa6591e2f712eccfe" prot="public" static="no" strong="no">
         <type></type>
@@ -929,7 +929,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="205" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="204" bodyend="210"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="204" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="205" bodyend="210"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gac052842418ff3dda00900219ebda5de7" prot="public" static="no" strong="no">
         <type></type>
@@ -986,7 +986,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="216" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="215" bodyend="222"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="215" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="216" bodyend="222"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga0a55c03c810078ffc9fa8b512dc57e37" prot="public" static="no" strong="no">
         <type></type>
@@ -1025,7 +1025,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="301" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="300" bodyend="305"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="300" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="301" bodyend="305"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga352121d35153623dc793f3b59c075eb0" prot="public" static="no" strong="no">
         <type></type>
@@ -1055,7 +1055,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="349" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="348" bodyend="352"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="348" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="349" bodyend="352"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga9444afb3de969ce1ad5e7d413a9e0148" prot="public" static="no" strong="no">
         <type></type>
@@ -1085,7 +1085,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="340" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="339" bodyend="343"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="339" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="340" bodyend="343"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga4b8a7556ad13b0d7540a620c3d067689" prot="public" static="no" strong="no">
         <type></type>
@@ -1124,7 +1124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="408" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="407" bodyend="412"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="407" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="408" bodyend="412"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga9f69efc0352072596048eca6e3da29c6" prot="public" static="no" strong="no">
         <type></type>
@@ -1163,7 +1163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="418" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="417" bodyend="422"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="417" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="418" bodyend="422"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga4b1bb4e4041f310e46c635b007ee2c73" prot="public" static="no" strong="no">
         <type></type>
@@ -1193,7 +1193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="399" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="398" bodyend="402"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="398" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="399" bodyend="402"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga991fb058d9f1a8bf4fe6faf8aca78ab0" prot="public" static="no" strong="no">
         <type></type>
@@ -1223,7 +1223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="490" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="489" bodyend="493"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="489" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="490" bodyend="493"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gae2db2ec4c7c43ae1454373789443b793" prot="public" static="no" strong="no">
         <type></type>
@@ -1271,7 +1271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="264" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="263" bodyend="269"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="263" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="264" bodyend="269"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gaf0ce1333656386f14f018b400beb9e39" prot="public" static="no" strong="no">
         <type></type>
@@ -1307,7 +1307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="195" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="194" bodyend="199"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="194" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="195" bodyend="199"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga46769f2474ad4be950bcfc47582f5f87" prot="public" static="no" strong="no">
         <type></type>
@@ -1337,7 +1337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="331" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="330" bodyend="334"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="330" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="331" bodyend="334"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga1139d992c4767497e1ead00f098d7024" prot="public" static="no" strong="no">
         <type></type>
@@ -1367,7 +1367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="320" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="319" bodyend="323"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="319" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="320" bodyend="323"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gac7690c669fbca7c9710ba7294df39a6d" prot="public" static="no" strong="no">
         <type></type>
@@ -1397,7 +1397,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="381" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="380" bodyend="384"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="380" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="381" bodyend="384"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1ga6e964201594d82a691896a52cbfd5620" prot="public" static="no" strong="no">
         <type></type>
@@ -1427,7 +1427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="390" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="389" bodyend="393"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="389" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="390" bodyend="393"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_i_c_1gaed66b290b2c45854fcd04580fb6349a1" prot="public" static="no" strong="no">
         <type></type>
@@ -1457,7 +1457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="372" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="371" bodyend="375"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="371" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="372" bodyend="375"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -1473,7 +1473,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="511" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="511" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="511" column="29" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="511" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -1553,7 +1553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="813" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="813" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="813" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaba9a2e95af4e455dddd73f324577c876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1613,7 +1613,7 @@ Shift clock idle mode output level can be set to logic high or low. Shift clock 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2309" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2309" bodyend="2317"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2309" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2309" bodyend="2317"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga61291bfe08ea6012739d90d7524fa1bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1664,9 +1664,9 @@ Shift clock idle mode output level can be set to logic high or low. Shift clock 
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for INSW bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for INSW bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="879" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="879" bodyend="882"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="879" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="879" bodyend="882"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga1c5aabc85e73a242eea72dd6838ee3e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1717,9 +1717,9 @@ Shift clock idle mode output level can be set to logic high or low. Shift clock 
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for INSW bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for INSW bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="857" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="857" bodyend="860"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="857" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="857" bodyend="860"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaaba8dc6e2fe4c5cf3fd3418d532a9412" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1758,7 +1758,7 @@ USIC channel is disabled by setting the module enable bit(MDEN) to 0 in the regi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="677" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="677" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="677" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga9896966f6e2e6109f8a7ca0de03d0b39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1797,7 +1797,7 @@ USIC channel is disabled by setting the module enable bit(MDEN) to 0 in the regi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="950" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="950" bodyend="953"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="950" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="950" bodyend="953"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga2520619d1b8420b50501c24b2155c02a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1849,7 +1849,7 @@ Multiple events can be combined using the bitwise OR operation and configured in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1268" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1268" bodyend="1271"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1268" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1268" bodyend="1271"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga923439c666ca95a5d7907c920891c111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1888,7 +1888,7 @@ When automatic update of frame length is disabled, frame length has to configure
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1447" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1447" bodyend="1450"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1447" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1447" bodyend="1450"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga1db3c5e7fe198de01001e0ee43dd4fef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1939,9 +1939,9 @@ Input data signal from the selected multiplexer will not be digitally filtered.<
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for DFEN bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for DFEN bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="987" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="987" bodyend="990"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="987" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="987" bodyend="990"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaa018c766c173f43dbdba8c821a90a645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1992,9 +1992,9 @@ Input data signal from the selected multiplexer will not be digitally filtered.<
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for DPOL bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for DPOL bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="917" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="917" bodyend="920"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="917" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="917" bodyend="920"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaad85027beef2c0cf3dd897e889acf939" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2045,9 +2045,9 @@ Input data signal from the selected multiplexer will not be synchronized.</para>
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for DSEN bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for DSEN bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1024" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1024" bodyend="1027"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1024" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1024" bodyend="1027"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga4227196c29ecd683240b968aa54b7758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2086,7 +2086,7 @@ Bit TCSR.TE is permanently set.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1500" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1500" bodyend="1503"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1500" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1500" bodyend="1503"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gae5a5bbfcfa061c76a12505e4183d832d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2125,7 +2125,7 @@ Time measurement is disabled by clearing the timer enable flag in BRG register.<
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2267" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2267" bodyend="2270"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2267" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2267" bodyend="2270"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gabfa8061d06df18f5e6925b33fffea62b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2164,7 +2164,7 @@ When automatic update of word length is disabled, word length has to configured 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1465" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1465" bodyend="1468"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1465" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1465" bodyend="1468"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga0567321036170adb335fef9b36dc3b71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2203,7 +2203,7 @@ USIC channel is enabled by setting the module enable bit in KSCFG register bitfi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="664" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="664" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="664" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga1eaad0f90219fa9bb43bfdf932ea2451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2242,7 +2242,7 @@ USIC channel is enabled by setting the module enable bit in KSCFG register bitfi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="934" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="934" bodyend="937"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="934" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="934" bodyend="937"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga6f9467a0f290d65f7292b45cc29e32b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2294,7 +2294,7 @@ Common channel events related to serial communication can be configured using th
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1247" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1247" bodyend="1250"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1247" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1247" bodyend="1250"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaf1d2b03bb1350dfc628f0bfa9fb6ffb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2333,7 +2333,7 @@ When the automatic update of frame length is enabled, frame length is configured
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1401" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1401" bodyend="1408"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1401" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1401" bodyend="1408"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga6a776750022b67a7d4075fb06eac39dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2384,9 +2384,9 @@ Input data signal from the selected multiplexer will be digitally filtered.</par
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for DFEN bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for DFEN bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="969" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="969" bodyend="972"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="969" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="969" bodyend="972"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gae13b2003ea4d8703a9990d1e90048dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2437,9 +2437,9 @@ Input data signal from the selected multiplexer will be digitally filtered.</par
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for DPOL bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for DPOL bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="898" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="898" bodyend="901"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="898" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="898" bodyend="901"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga1a5edb9ab8796da1f86be687fab65f32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2490,9 +2490,9 @@ Input data signal from the selected multiplexer will be synchronized with fPERIP
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for DSEN bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for DSEN bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1006" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1006" bodyend="1009"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1006" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1006" bodyend="1009"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga7e8a1fa11993aedfd8d9fb1bf6daf36c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2531,7 +2531,7 @@ Enables the transfer trigger unit to set bit TCSR.TE if the trigger signal DX2T 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1483" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1483" bodyend="1486"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1483" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1483" bodyend="1486"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gadb5f590b8867d286b7a9f4e52fd3a6a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2570,7 +2570,7 @@ Time measurement is enabled by setting the timer enable flag in BRG register.</p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2250" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2250" bodyend="2253"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2250" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2250" bodyend="2253"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaed632dac3fdb73bee4a6cf4c6cd507e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2609,7 +2609,7 @@ When the automatic update of word length is enabled, word length is configured b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1425" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1425" bodyend="1432"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1425" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1425" bodyend="1432"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gae9092b12f490047882c1bb9897985c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2651,7 +2651,7 @@ When the automatic update of word length is enabled, word length is configured b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="762" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="762" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="762" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga13d1ba3376be7d2a392f08e5e7237662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2683,7 +2683,7 @@ When the automatic update of word length is enabled, word length is configured b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1183" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1183" bodyend="1186"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1183" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1183" bodyend="1186"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gafde46af634c56095ca8acdb56413f4ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2725,7 +2725,7 @@ When the automatic update of word length is enabled, word length is configured b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="792" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="792" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="792" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga6987b85c22a6f6e220042e07f255ca7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2767,7 +2767,7 @@ It checks the bits RDV0 and RDV1 of the RBUFSR register. Returns the value of RB
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1336" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1336" bodyend="1339"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1336" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1336" bodyend="1339"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gadde84d71507e50a2c49eba8040480abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2809,7 +2809,7 @@ It checks the bits RDV0 and RDV1 of the RBUFSR register. Returns the value of RB
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="777" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="777" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="777" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga091c9637a98727f1dce0d159764aea24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_i_c_1ga1139d992c4767497e1ead00f098d7024" kindref="member">XMC_USIC_CH_TBUF_STATUS_t</ref></type>
@@ -2848,7 +2848,7 @@ Status indicates whether the transmit buffer is free, or busy transmitting data.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1312" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1312" bodyend="1315"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1312" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1312" bodyend="1315"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaddc7f0e10ccfe5d73d28d04f2e1455fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2885,7 +2885,7 @@ Status indicates whether the transmit buffer is free, or busy transmitting data.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1556" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1556" bodyend="1559"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1556" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1556" bodyend="1559"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga92f2d42836e73b8a200c437e69611474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2937,7 +2937,7 @@ USIC channel peripheral does not clear the event flags after they are read. This
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2232" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2232" bodyend="2236"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2232" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2232" bodyend="2236"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga4ba419dd17bdb7e7be5f5ca757910a00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3015,7 +3015,7 @@ Receive FIFO is the subset of a common FIFO sized 64 words. This FIFO is shared 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1968" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1968" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="1968" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaf5f963f40c8ab670bffe6ce88cdf462d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3067,7 +3067,7 @@ By disabling the interrupt events, generation of interrupt is stopped. User can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2057" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2057" bodyend="2060"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2057" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2057" bodyend="2060"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gad4cdb767e1ac3a256b1335a19d2c33ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3121,7 +3121,7 @@ Note: API only enables the events. For interrupt generation, interrupt node must
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2033" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2033" bodyend="2036"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2033" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2033" bodyend="2036"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gab8a59ec35554be7dbf41778888d2b69f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3160,7 +3160,7 @@ Receive FIFO contents will be cleared and the filling level will be reset to 0.<
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2123" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2123" bodyend="2126"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2123" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2123" bodyend="2126"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga661b9482d7cc6b983f178bb6a30a5c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -3200,7 +3200,7 @@ Receive FIFO should be read only if data is availble in the FIFO. This can be ch
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2106" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2106" bodyend="2109"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2106" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2106" bodyend="2109"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga674dcaba8a7a575983ab61b27a580b2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3242,7 +3242,7 @@ Note: Event status flags should be cleared by the user explicitly.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2206" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2206" bodyend="2211"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2206" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2206" bodyend="2211"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gac69592a81e495b0adf515547a0e8037e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3282,7 +3282,7 @@ For every word received, the filling level is incremented. The API gives the val
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2182" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2182" bodyend="2185"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2182" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2182" bodyend="2185"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaa81c3a8fab62930c291910628a08f575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3321,7 +3321,7 @@ When the receive FIFO is empty, received data will be put in receive FIFO. When 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2162" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2162" bodyend="2165"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2162" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2162" bodyend="2165"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga23338f848d35ee56a38af652e4a9db6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3360,7 +3360,7 @@ When the receive FIFO filling level reaches the configured size, FIFO full flag 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2142" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2142" bodyend="2145"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2142" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2142" bodyend="2145"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga0cce6b36f9c5fc6b9487dcee14a04e1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3427,7 +3427,7 @@ Note: NVIC node should be explicitly enabled for the interrupt generation.</para
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2086" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2086" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="2086" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gae9984f496fe787c05b84dc6d1d65ee2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3493,7 +3493,7 @@ The API is not to be called for initializing the receive FIFO. The API shall be 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1992" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1992" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="1992" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga3c05c804d8323d18d02d3bd30e3523ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3545,7 +3545,7 @@ The API is not to be called for initializing the receive FIFO. The API shall be 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2009" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2009" bodyend="2013"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2009" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2009" bodyend="2013"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gac9feec95c73b09889e494ec6d6898f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_i_c_1gaf0ce1333656386f14f018b400beb9e39" kindref="member">XMC_USIC_CH_STATUS_t</ref></type>
@@ -3612,7 +3612,7 @@ Baudrate is configured by considering the peripheral frequency and the desired b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="700" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="700" column="22" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="700" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga9ed19f59954ac846d36f0de9a2a99ba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3721,7 +3721,7 @@ Baudrate is configured by considering the peripheral frequency and the desired b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="741" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="741" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="741" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gadd190656c8ecf2fbbb5375175e4f6115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_i_c_1gaf0ce1333656386f14f018b400beb9e39" kindref="member">XMC_USIC_CH_STATUS_t</ref></type>
@@ -3787,7 +3787,7 @@ Baudrate is configured by considering the peripheral frequency and the desired b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="722" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="722" column="22" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="722" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga2876a325930da4b77ef46ec4e0acda0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3838,7 +3838,7 @@ Baudrate is configured by considering the peripheral frequency and the desired b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1084" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1084" bodyend="1087"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1084" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1084" bodyend="1087"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga920a20a26fbff1aaeb240af921f61ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3890,7 +3890,7 @@ USIC channel can be configured to shift inverted data or direct data based on th
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1380" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1380" bodyend="1384"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1380" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1380" bodyend="1384"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gab97e3b358aaf1e4524420c8fada1bd92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3950,7 +3950,7 @@ USIC channel can be configured to shift inverted data or direct data based on th
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1202" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1202" bodyend="1205"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1202" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1202" bodyend="1205"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga23964f6d982b35388f3a7c82f5634e0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4003,7 +4003,7 @@ Set the number of bits to be serially transmitted in a frame. The frame length s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1224" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1224" bodyend="1228"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1224" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1224" bodyend="1228"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga77ed1338593c1492f35321494aedfa48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4066,9 +4066,9 @@ Set the number of bits to be serially transmitted in a frame. The frame length s
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Common mask for SFSEL bitfield mask in DXnCR register </para>
+<para>&lt; Common mask for SFSEL bitfield mask in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1042" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1042" bodyend="1048"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1042" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1042" bodyend="1048"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga7986fcfe3fd6bf9982e43b1eaabb02c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4165,9 +4165,9 @@ Selects the input data signal source among DXnA, DXnB.. DXnG for the input stage
         </detaileddescription>
         <inbodydescription>
 <para>&lt; Common mask for DSEL bitfield mask in DXnCR register</para>
-<para>&lt; Common mask for DSEL bitfield position in DXnCR register </para>
+<para>&lt; Common mask for DSEL bitfield position in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="838" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="838" bodyend="842"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="838" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="838" bodyend="842"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaeef58e03c1253fce5b8a456f5d8c6da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4231,9 +4231,9 @@ Selects the input data signal source among DXnA, DXnB.. DXnG for the input stage
         </detaileddescription>
         <inbodydescription>
 <para>&lt; Common mask for CM bitfield mask in DXnCR register</para>
-<para>&lt; Common mask for CM bitfield position in DXnCR register </para>
+<para>&lt; Common mask for CM bitfield position in DXnCR register</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1064" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1064" bodyend="1070"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1064" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1064" bodyend="1070"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga52f9fc18049dbc906b127e1f3662b4b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4299,7 +4299,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1292" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1292" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="1292" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaf9deda88e97525978786d4711aa75067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4345,7 +4345,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2282" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2282" bodyend="2286"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2282" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2282" bodyend="2286"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga8c04c213fd44c14b1bed871bb658683c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4397,7 +4397,7 @@ A USIC channel can support multiple serial communication protocols like UART, SP
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2336" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2336" bodyend="2339"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="2336" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="2336" bodyend="2339"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga46806897ccf781fb6289a8e12c11f9bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4449,7 +4449,7 @@ When the USIC channel transmit stage is idle, the output signal level stays at t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1577" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1577" bodyend="1582"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1577" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1577" bodyend="1582"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga32297e60b34c5e69c4837909847add8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4502,7 +4502,7 @@ Sets the number of bits to represent a data word. Frame length should be a multi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1168" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1168" bodyend="1171"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1168" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1168" bodyend="1171"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga3b02352ba5e94e8f79751dea304084e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4554,7 +4554,7 @@ The configuration affects the data shifted on the DOUT0 pin.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1359" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1359" bodyend="1363"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1359" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1359" bodyend="1363"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga2d92409ce4c718ecee4f9498d06346c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4604,7 +4604,7 @@ The configuration affects the data shifted on the DOUT0 pin.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1538" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1538" bodyend="1542"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1538" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1538" bodyend="1542"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gabb9d02b8388a03cd28190c976cdb8b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4657,7 +4657,7 @@ Sets the number of bits to represent a data word. Frame length should be a multi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1147" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1147" bodyend="1151"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1147" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1147" bodyend="1151"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga6fa0313a4dfcade23a7098631edefc50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4709,7 +4709,7 @@ When the USIC service request is triggered, the NVIC interrupt associated with i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1520" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1520" bodyend="1523"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1520" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1520" bodyend="1523"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaf6c7228b9e6c44332c077acf720f12b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4761,7 +4761,7 @@ USIC channel peripheral does not clear the event flags after they are read. This
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1940" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1940" bodyend="1944"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1940" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1940" bodyend="1944"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga7cfe52daa733ba40e9b93fec60b04406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4842,7 +4842,7 @@ Transmit FIFO is a subset of a common FIFO sized 64 words. This FIFO is shared b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1607" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1607" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="1607" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga11e72155477de1a0495e4f85362fad86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4894,7 +4894,7 @@ By disabling the interrupt events, generation of interrupt is stopped. User can 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1697" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1697" bodyend="1700"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1697" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1697" bodyend="1700"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga4688634fee0d7fbdefca290999ca7b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4948,7 +4948,7 @@ Note: API only enables the events. For interrupt generation, interrupt node must
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1675" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1675" bodyend="1678"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1675" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1675" bodyend="1678"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gab075189d6283b3cff45bb4f38d1bd4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4987,7 +4987,7 @@ Transmit FIFO contents will be cleared and the filling level will be reset to 0.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1836" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1836" bodyend="1839"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1836" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1836" bodyend="1839"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gadad2288d7f198fbc582dc4af7d1386c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5029,7 +5029,7 @@ Note: Event status flags should be cleared by the user explicitly.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1916" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1916" bodyend="1920"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1916" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1916" bodyend="1920"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga8724f831f2fc77366ece9f4b91bc095f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5069,7 +5069,7 @@ For every word written to the FIFO, filling level is updated. The API gives the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1894" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1894" bodyend="1897"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1894" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1894" bodyend="1897"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga0cb5c1c2623ce6281ed8683007da127b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5108,7 +5108,7 @@ When the transmit FIFO is empty, data can be written to FIFO. When the last writ
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1875" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1875" bodyend="1878"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1875" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1875" bodyend="1878"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaaee9b8efb56290224bfe1d5ac9b273a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5147,7 +5147,7 @@ When the transmit FIFO filling level reaches the configured size, FIFO full flag
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1855" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1855" bodyend="1858"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1855" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1855" bodyend="1858"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gae96e9afeaefe2585b687e36f6227727f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5199,7 +5199,7 @@ The data provided is placed in the transmit FIFO. The transmit FIFO should be co
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1745" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1745" bodyend="1748"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1745" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1745" bodyend="1748"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gacd104b83180de6dba78ae2b2a3213a8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5263,7 +5263,7 @@ The data provided is placed in the transmit FIFO. The transmit FIFO should be co
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1770" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1770" bodyend="1773"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1770" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1770" bodyend="1773"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga0f14560e863b15c6bd123e534332e9f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5328,7 +5328,7 @@ When frame length control is enabled for dynamic update of frame length, this AP
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1793" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1793" bodyend="1798"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1793" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1793" bodyend="1798"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga9ff4e6996ea2318ceea8294be1d40c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5392,7 +5392,7 @@ When hardware port control is enabled for dynamic update of frame length, this A
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1817" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1817" bodyend="1822"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1817" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1817" bodyend="1822"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga63e10af0afcde1c73c39cd6522ac0614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5459,7 +5459,7 @@ Note: NVIC node should be explicitly enabled for the interrupt generation.</para
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1726" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1726" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="1726" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga6f77f046f48083e3e86735636e86490b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5526,7 +5526,7 @@ The API is not to be called for initializing the transmit FIFO. The API shall be
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1631" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1631" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="1631" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga38937a6f31ca7d8b4ec880910fdf8925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5578,7 +5578,7 @@ The API is not to be called for initializing the transmit FIFO. The API shall be
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1649" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1649" bodyend="1653"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1649" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1649" bodyend="1653"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga90d18508eb69fc4254bd0c3774d16150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5630,7 +5630,7 @@ The data provided is placed in TBUF[0U].</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1104" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1104" bodyend="1107"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1104" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1104" bodyend="1107"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga40eb0199fd41ec5993971dad8a0e2d40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5694,7 +5694,7 @@ When the respective control mode is enabled , this API can be used.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1125" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1125" bodyend="1130"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="1125" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="1125" bodyend="1130"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga5d7f987aa7be2cc8497a0895f2ba3f90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5733,7 +5733,7 @@ Disables the clock for the USIC module by following the clock disabling sequence
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="650" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="650" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="650" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga48113f030b655f6eaa3b9f6b73474785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5772,7 +5772,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="636" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="636" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" declline="636" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1ga175c3f24ef75607b827888bc8b84fff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5793,9 +5793,9 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <para>&lt; USIC1 channel 0 base address</para>
 <para>&lt; USIC1 channel 1 base address</para>
 <para>&lt; USIC2 channel 0 base address</para>
-<para>&lt; USIC2 channel 1 base address </para>
+<para>&lt; USIC2 channel 1 base address</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="606" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="606" bodyend="619"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="606" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="606" bodyend="619"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_i_c_1gaa7e00ca6654c493f25076f002c48dad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5813,9 +5813,9 @@ Enables the clock for the USIC module by following the clock enabling sequence f
         <inbodydescription>
 <para>&lt; USIC0 module base address</para>
 <para>&lt; USIC1 module base address</para>
-<para>&lt; USIC2 module base address </para>
+<para>&lt; USIC2 module base address</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="591" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="591" bodyend="604"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" line="591" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h" bodystart="591" bodyend="604"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -5826,8 +5826,8 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="115"><highlight class="preprocessor">#ifndef<sp/>XMC_USIC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_USIC_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="118"><highlight class="comment"><sp/>*<sp/>HEADER<sp/>FILES</highlight></codeline>
@@ -5835,37 +5835,37 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_common.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="148"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="149"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC0<sp/>((XMC_USIC_t<sp/>*)USIC0_BASE)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="152"><highlight class="preprocessor">#define<sp/>XMC_USIC0_CH0<sp/>((XMC_USIC_CH_t<sp/>*)USIC0_CH0_BASE)<sp/></highlight></codeline>
-<codeline lineno="153"><highlight class="preprocessor">#define<sp/>XMC_USIC0_CH1<sp/>((XMC_USIC_CH_t<sp/>*)USIC0_CH1_BASE)<sp/></highlight></codeline>
-<codeline lineno="155"><highlight class="preprocessor">#if<sp/>defined(USIC1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC1<sp/>((XMC_USIC_t<sp/>*)USIC1_BASE)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="157"><highlight class="preprocessor">#define<sp/>XMC_USIC1_CH0<sp/>((XMC_USIC_CH_t<sp/>*)USIC1_CH0_BASE)<sp/></highlight></codeline>
-<codeline lineno="158"><highlight class="preprocessor">#define<sp/>XMC_USIC1_CH1<sp/>((XMC_USIC_CH_t<sp/>*)USIC1_CH1_BASE)<sp/></highlight></codeline>
-<codeline lineno="159"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC0<sp/>((XMC_USIC_t<sp/>*)USIC0_BASE)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC0_CH0<sp/>((XMC_USIC_CH_t<sp/>*)USIC0_CH0_BASE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC0_CH1<sp/>((XMC_USIC_CH_t<sp/>*)USIC0_CH1_BASE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC1<sp/>((XMC_USIC_t<sp/>*)USIC1_BASE)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC1_CH0<sp/>((XMC_USIC_CH_t<sp/>*)USIC1_CH0_BASE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC1_CH1<sp/>((XMC_USIC_CH_t<sp/>*)USIC1_CH1_BASE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC2)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC2<sp/>((XMC_USIC_t<sp/>*)USIC2_BASE)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="163"><highlight class="preprocessor">#define<sp/>XMC_USIC2_CH0<sp/>((XMC_USIC_CH_t<sp/>*)USIC2_CH0_BASE)<sp/></highlight></codeline>
-<codeline lineno="164"><highlight class="preprocessor">#define<sp/>XMC_USIC2_CH1<sp/>((XMC_USIC_CH_t<sp/>*)USIC2_CH1_BASE)<sp/></highlight></codeline>
-<codeline lineno="165"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC2<sp/>((XMC_USIC_t<sp/>*)USIC2_BASE)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC2_CH0<sp/>((XMC_USIC_CH_t<sp/>*)USIC2_CH0_BASE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USIC2_CH1<sp/>((XMC_USIC_CH_t<sp/>*)USIC2_CH1_BASE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DSEL_Msk<sp/><sp/>USIC_CH_DX0CR_DSEL_Msk<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="168"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DSEL_Pos<sp/><sp/>USIC_CH_DX0CR_DSEL_Pos<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="169"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_SFSEL_Pos<sp/>USIC_CH_DX0CR_SFSEL_Pos<sp/><sp/></highlight></codeline>
-<codeline lineno="170"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_SFSEL_Msk<sp/>USIC_CH_DX0CR_SFSEL_Msk<sp/><sp/></highlight></codeline>
-<codeline lineno="171"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DPOL_Msk<sp/><sp/>USIC_CH_DX0CR_DPOL_Msk<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="172"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DFEN_Msk<sp/><sp/>USIC_CH_DX0CR_DFEN_Msk<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="173"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DSEN_Msk<sp/><sp/>USIC_CH_DX0CR_DSEN_Msk<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="174"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_CM_Pos<sp/><sp/><sp/><sp/>USIC_CH_DX0CR_CM_Pos<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="175"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_CM_Msk<sp/><sp/><sp/><sp/>USIC_CH_DX0CR_CM_Msk<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="176"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_INSW_Msk<sp/><sp/>USIC_CH_DX0CR_INSW_Msk<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="177"><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_INSW_pos<sp/><sp/>USIC_CH_DX0CR_INSW_Pos<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="179"><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DSEL_Msk<sp/><sp/>USIC_CH_DX0CR_DSEL_Msk<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DSEL_Pos<sp/><sp/>USIC_CH_DX0CR_DSEL_Pos<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_SFSEL_Pos<sp/>USIC_CH_DX0CR_SFSEL_Pos<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_SFSEL_Msk<sp/>USIC_CH_DX0CR_SFSEL_Msk<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DPOL_Msk<sp/><sp/>USIC_CH_DX0CR_DPOL_Msk<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DFEN_Msk<sp/><sp/>USIC_CH_DX0CR_DFEN_Msk<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_DSEN_Msk<sp/><sp/>USIC_CH_DX0CR_DSEN_Msk<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_CM_Pos<sp/><sp/><sp/><sp/>USIC_CH_DX0CR_CM_Pos<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_CM_Msk<sp/><sp/><sp/><sp/>USIC_CH_DX0CR_CM_Msk<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_INSW_Msk<sp/><sp/>USIC_CH_DX0CR_INSW_Msk<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USIC_CH_DXCR_INSW_pos<sp/><sp/>USIC_CH_DX0CR_INSW_Pos<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc1_usic_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
@@ -5877,14 +5877,14 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="188"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="189"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_STATUS</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_STATUS</highlight></codeline>
 <codeline lineno="195"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggaf0ce1333656386f14f018b400beb9e39a7f5eeda6309c7b3a3e8f08380ed47e3c" kindref="member">XMC_USIC_CH_STATUS_OK</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="197"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggaf0ce1333656386f14f018b400beb9e39af9cf48d10eb977902d20eeaed491bcf0" kindref="member">XMC_USIC_CH_STATUS_ERROR</ref>,<sp/></highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggaf0ce1333656386f14f018b400beb9e39a512a392025bbc6a006aa9ad088919809" kindref="member">XMC_USIC_CH_STATUS_BUSY</ref><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="199"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gaf0ce1333656386f14f018b400beb9e39" kindref="member">XMC_USIC_CH_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_KERNEL_MODE</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_KERNEL_MODE</highlight></codeline>
 <codeline lineno="205"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga27d9dafa74ddfc6aa6591e2f712eccfea893e918851d8065d780e499435292378" kindref="member">XMC_USIC_CH_KERNEL_MODE_RUN_0</ref><sp/><sp/>=<sp/>0x0UL,<sp/><sp/></highlight></codeline>
 <codeline lineno="207"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga27d9dafa74ddfc6aa6591e2f712eccfea779d6f7025d6d6bcd0dfdd709af0305e" kindref="member">XMC_USIC_CH_KERNEL_MODE_RUN_1</ref><sp/><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_KSCFG_NOMCFG_Pos,<sp/><sp/></highlight></codeline>
@@ -5892,7 +5892,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="209"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga27d9dafa74ddfc6aa6591e2f712eccfeab9105c0d985506f426ef2ff0a36983b6" kindref="member">XMC_USIC_CH_KERNEL_MODE_STOP_1</ref><sp/>=<sp/>0x3UL<sp/>&lt;&lt;<sp/>USIC_CH_KSCFG_NOMCFG_Pos<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="210"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga27d9dafa74ddfc6aa6591e2f712eccfe" kindref="member">XMC_USIC_CH_KERNEL_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_OPERATING_MODE</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_OPERATING_MODE</highlight></codeline>
 <codeline lineno="216"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggac052842418ff3dda00900219ebda5de7a0f42d929665110fb0a00c7adbaf5a763" kindref="member">XMC_USIC_CH_OPERATING_MODE_IDLE</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="218"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggac052842418ff3dda00900219ebda5de7a899e292213839edfb7d88e356cb9d18f" kindref="member">XMC_USIC_CH_OPERATING_MODE_SPI</ref><sp/><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_CCR_MODE_Pos,<sp/></highlight></codeline>
@@ -5901,7 +5901,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="221"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggac052842418ff3dda00900219ebda5de7a4dad9ad4de2fe7406c1685606a651503" kindref="member">XMC_USIC_CH_OPERATING_MODE_I2C</ref><sp/><sp/>=<sp/>0x4UL<sp/>&lt;&lt;<sp/>USIC_CH_CCR_MODE_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="222"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gac052842418ff3dda00900219ebda5de7" kindref="member">XMC_USIC_CH_OPERATING_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_INPUT</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_INPUT</highlight></codeline>
 <codeline lineno="228"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga7b7c285b4dfe6c9132f2f478a59b2ac5a218c2b06596afed7bf9bc41fb6db47ee" kindref="member">XMC_USIC_CH_INPUT_DX0</ref>,<sp/></highlight></codeline>
 <codeline lineno="230"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga7b7c285b4dfe6c9132f2f478a59b2ac5a6925b9516396378ecbe92b01d8d1bcda" kindref="member">XMC_USIC_CH_INPUT_DX1</ref>,<sp/></highlight></codeline>
@@ -5911,13 +5911,13 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="234"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga7b7c285b4dfe6c9132f2f478a59b2ac5ae3ff15e93aa354e43133246bc552effd" kindref="member">XMC_USIC_CH_INPUT_DX5</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="235"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga7b7c285b4dfe6c9132f2f478a59b2ac5" kindref="member">XMC_USIC_CH_INPUT_t</ref>;</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_INPUT_SAMPLING_FREQ</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_INPUT_SAMPLING_FREQ</highlight></codeline>
 <codeline lineno="241"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4eabf4e044ae33972f726f904e788f8aa140d9db737218ef374f79f19d16f67e5" kindref="member">XMC_USIC_CH_INPUT_SAMPLING_FREQ_FPERIPH</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="243"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4eabf4e044ae33972f726f904e788f8aa8ad2708c596461047862f7a3c71c3892" kindref="member">XMC_USIC_CH_INPUT_SAMPLING_FREQ_FRACTIONAL_DIVIDER</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/><ref refid="group___u_s_i_c_1gad780e0ceed2e148c84ddb0f0e2df2a44" kindref="member">USIC_CH_DXCR_SFSEL_Pos</ref><sp/><sp/></highlight></codeline>
 <codeline lineno="244"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga4eabf4e044ae33972f726f904e788f8a" kindref="member">XMC_USIC_CH_INPUT_SAMPLING_FREQ_t</ref>;</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="249"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_INPUT_COMBINATION_MODE</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_INPUT_COMBINATION_MODE</highlight></codeline>
 <codeline lineno="250"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4c50ae5a7f12a5496d82d2bc665e1db2a84a7d20ea5095174ad36f6b0569e5746" kindref="member">XMC_USIC_CH_INPUT_COMBINATION_MODE_TRIGGER_DISABLED</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="252"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4c50ae5a7f12a5496d82d2bc665e1db2a96738f5f29e01869760b3b303ee5ba5c" kindref="member">XMC_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1UL,<sp/></highlight></codeline>
@@ -5925,7 +5925,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="254"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4c50ae5a7f12a5496d82d2bc665e1db2aa48b1f45d1c95a5db012305e02c3e2d2" kindref="member">XMC_USIC_CH_INPUT_COMBINATION_MODE_BOTH_EDGES</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x3UL,<sp/></highlight></codeline>
 <codeline lineno="255"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga4c50ae5a7f12a5496d82d2bc665e1db2" kindref="member">XMC_USIC_CH_INPUT_COMBINATION_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="256"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_START_TRANSMISION_MODE</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_START_TRANSMISION_MODE</highlight></codeline>
 <codeline lineno="264"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="265"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggae2db2ec4c7c43ae1454373789443b793a92234bf742ccdef5a487ab9fc7b7b47e" kindref="member">XMC_USIC_CH_START_TRANSMISION_DISABLED</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
 <codeline lineno="266"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggae2db2ec4c7c43ae1454373789443b793a7464a12e43e762ae3809838ed60b0848" kindref="member">XMC_USIC_CH_START_TRANSMISION_ON_TDV</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_TCSR_TDEN_Pos,<sp/></highlight></codeline>
@@ -5933,7 +5933,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="268"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggae2db2ec4c7c43ae1454373789443b793a21bcda749a5e1eda8108ce39f8b97b7a" kindref="member">XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_1</ref><sp/>=<sp/>0x3UL<sp/>&lt;&lt;<sp/>USIC_CH_TCSR_TDEN_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="269"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gae2db2ec4c7c43ae1454373789443b793" kindref="member">XMC_USIC_CH_START_TRANSMISION_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_INTERRUPT_NODE_POINTER</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_INTERRUPT_NODE_POINTER</highlight></codeline>
 <codeline lineno="275"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="276"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62ac3d37f726e6214704f420586ff8effc3" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_INPR_TSINP_Pos,<sp/></highlight></codeline>
 <codeline lineno="277"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62a2298fc6a0fcee48a76f0aea1eb95e3a6" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_INPR_TBINP_Pos,<sp/></highlight></codeline>
@@ -5942,7 +5942,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="280"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62a3b99d0d6e93882ea791e8952cc993a7b" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_PROTOCOL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_INPR_PINP_Pos<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="281"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga074b5b1abff43f98316c7a5b69523e62" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_t</ref>;</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_EVENT</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_EVENT</highlight></codeline>
 <codeline lineno="287"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga9101f93a9a9c4c5a27f1418e3335b012ab27889da7076d1a9ab4e249b19b71cb1" kindref="member">XMC_USIC_CH_EVENT_RECEIVE_START</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_CCR_RSIEN_Msk,<sp/></highlight></codeline>
 <codeline lineno="289"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga9101f93a9a9c4c5a27f1418e3335b012a948a392bad3aca7de34a4acfd2b5eb7e" kindref="member">XMC_USIC_CH_EVENT_DATA_LOST</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_CCR_DLIEN_Msk,<sp/></highlight></codeline>
@@ -5953,20 +5953,20 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="294"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga9101f93a9a9c4c5a27f1418e3335b012a0bd21a2c8da9ee272006fe1ec7abb2d9" kindref="member">XMC_USIC_CH_EVENT_BAUD_RATE_GENERATOR</ref><sp/>=<sp/>USIC_CH_CCR_BRGIEN_Msk<sp/></highlight></codeline>
 <codeline lineno="295"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga9101f93a9a9c4c5a27f1418e3335b012" kindref="member">XMC_USIC_CH_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="300"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_PARITY_MODE</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_PARITY_MODE</highlight></codeline>
 <codeline lineno="301"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga0a55c03c810078ffc9fa8b512dc57e37a41914c3176bcc9f17327bd7195dd39b6" kindref="member">XMC_USIC_CH_PARITY_MODE_NONE</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0UL,<sp/><sp/></highlight></codeline>
 <codeline lineno="303"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga0a55c03c810078ffc9fa8b512dc57e37a1680b6d1bae664e1479de091cf8c61ea" kindref="member">XMC_USIC_CH_PARITY_MODE_EVEN</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0x2UL<sp/>&lt;&lt;<sp/>USIC_CH_CCR_PM_Pos,<sp/><sp/></highlight></codeline>
 <codeline lineno="304"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga0a55c03c810078ffc9fa8b512dc57e37a59e6188e4d02d8d1ac50e8ade251093e" kindref="member">XMC_USIC_CH_PARITY_MODE_ODD</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x3UL<sp/>&lt;&lt;<sp/>USIC_CH_CCR_PM_Pos<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="305"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga0a55c03c810078ffc9fa8b512dc57e37" kindref="member">XMC_USIC_CH_PARITY_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"></highlight></codeline>
-<codeline lineno="310"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_DATA_OUTPUT_MODE</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_DATA_OUTPUT_MODE</highlight></codeline>
 <codeline lineno="311"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggab277976402d3da779839621f911fe89aa2ee23e3a426e82d5e9142079a16f00bf" kindref="member">XMC_USIC_CH_DATA_OUTPUT_MODE_NORMAL</ref><sp/><sp/><sp/>=<sp/>0x0UL,<sp/><sp/></highlight></codeline>
 <codeline lineno="313"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggab277976402d3da779839621f911fe89aa984f346629f34906201bbde3a6863ede" kindref="member">XMC_USIC_CH_DATA_OUTPUT_MODE_INVERTED</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_SCTR_DOCFG_Pos<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="314"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gab277976402d3da779839621f911fe89a" kindref="member">XMC_USIC_CH_DATA_OUTPUT_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight></codeline>
-<codeline lineno="319"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TBUF_STATUS</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TBUF_STATUS</highlight></codeline>
 <codeline lineno="320"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="321"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga1139d992c4767497e1ead00f098d7024ad797491e36963500982f41247c0edb75" kindref="member">XMC_USIC_CH_TBUF_STATUS_IDLE</ref><sp/>=<sp/>0x0UL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="322"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga1139d992c4767497e1ead00f098d7024ab228b9efcdbf98d83e2e6521883460b5" kindref="member">XMC_USIC_CH_TBUF_STATUS_BUSY</ref><sp/>=<sp/>USIC_CH_TCSR_TDV_Msk<sp/><sp/><sp/></highlight></codeline>
@@ -5974,25 +5974,25 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="324"><highlight class="normal"></highlight></codeline>
 <codeline lineno="325"><highlight class="normal"></highlight></codeline>
 <codeline lineno="326"><highlight class="normal"></highlight></codeline>
-<codeline lineno="330"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TBUF_STATUS_SET</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TBUF_STATUS_SET</highlight></codeline>
 <codeline lineno="331"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="332"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga46769f2474ad4be950bcfc47582f5f87a8d5a660f1632c9201fc8360b5580d2cf" kindref="member">XMC_USIC_CH_TBUF_STATUS_SET_BUSY</ref><sp/><sp/><sp/>=<sp/>0x1UL,<sp/></highlight></codeline>
 <codeline lineno="333"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga46769f2474ad4be950bcfc47582f5f87a2b4f44bf752d0b8913f2fa99cc5c28e6" kindref="member">XMC_USIC_CH_TBUF_STATUS_SET_IDLE</ref><sp/><sp/><sp/>=<sp/>0x2UL<sp/><sp/></highlight></codeline>
 <codeline lineno="334"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga46769f2474ad4be950bcfc47582f5f87" kindref="member">XMC_USIC_CH_TBUF_STATUS_SET_t</ref>;</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"></highlight></codeline>
-<codeline lineno="339"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_RBUF_STATUS</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_RBUF_STATUS</highlight></codeline>
 <codeline lineno="340"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="341"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga9444afb3de969ce1ad5e7d413a9e0148a65f600df2669714e1597f530144a011b" kindref="member">XMC_USIC_CH_RBUF_STATUS_DATA_VALID0</ref><sp/>=<sp/>USIC_CH_RBUFSR_RDV0_Msk,<sp/></highlight></codeline>
 <codeline lineno="342"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga9444afb3de969ce1ad5e7d413a9e0148aa5bc9e75620be0519da1917345a4509e" kindref="member">XMC_USIC_CH_RBUF_STATUS_DATA_VALID1</ref><sp/>=<sp/>USIC_CH_RBUFSR_RDV1_Msk<sp/><sp/></highlight></codeline>
 <codeline lineno="343"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga9444afb3de969ce1ad5e7d413a9e0148" kindref="member">XMC_USIC_CH_RBUF_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="348"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USCI_CH_PASSIVE_DATA_LEVEL</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USCI_CH_PASSIVE_DATA_LEVEL</highlight></codeline>
 <codeline lineno="349"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="350"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga352121d35153623dc793f3b59c075eb0a66effdf4e324ee2d69f90126db5fb21d" kindref="member">XMC_USIC_CH_PASSIVE_DATA_LEVEL0</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga352121d35153623dc793f3b59c075eb0aaf5284d9c00837ad1a2caf6dd72315b5" kindref="member">XMC_USIC_CH_PASSIVE_DATA_LEVEL1</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_SCTR_PDL_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="352"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga352121d35153623dc793f3b59c075eb0" kindref="member">XMC_USIC_CH_PASSIVE_DATA_LEVEL_t</ref>;</highlight></codeline>
 <codeline lineno="353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="357"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_FIFO_SIZE</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_FIFO_SIZE</highlight></codeline>
 <codeline lineno="358"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="359"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggafdd0a07bee93d72936191b7e8555aefea1c189be4c15d2176b740037fa220e4a4" kindref="member">XMC_USIC_CH_FIFO_DISABLED</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0U,<sp/><sp/></highlight></codeline>
 <codeline lineno="360"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggafdd0a07bee93d72936191b7e8555aefeac2b3558621719f1d4e64d55a0febb166" kindref="member">XMC_USIC_CH_FIFO_SIZE_2WORDS</ref><sp/><sp/>=<sp/>0x1U,<sp/><sp/></highlight></codeline>
@@ -6003,52 +6003,52 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="365"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggafdd0a07bee93d72936191b7e8555aefead702883ad36b39b6014e45b31f1655e8" kindref="member">XMC_USIC_CH_FIFO_SIZE_64WORDS</ref><sp/>=<sp/>0x6U<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="366"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gafdd0a07bee93d72936191b7e8555aefe" kindref="member">XMC_USIC_CH_FIFO_SIZE_t</ref>;</highlight></codeline>
 <codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="371"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TXFIFO_INTERRUPT_NODE_POINTER</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TXFIFO_INTERRUPT_NODE_POINTER</highlight></codeline>
 <codeline lineno="372"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="373"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggaed66b290b2c45854fcd04580fb6349a1a5f3f135726f0f39eb99ab43cfdf699cf" kindref="member">XMC_USIC_CH_TXFIFO_INTERRUPT_NODE_POINTER_STANDARD</ref><sp/><sp/>=<sp/>USIC_CH_TBCTR_STBINP_Pos,<sp/><sp/></highlight></codeline>
 <codeline lineno="374"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggaed66b290b2c45854fcd04580fb6349a1aef96e8370ec2178615f3a24a04da19fe" kindref="member">XMC_USIC_CH_TXFIFO_INTERRUPT_NODE_POINTER_ALTERNATE</ref><sp/>=<sp/>USIC_CH_TBCTR_ATBINP_Pos<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="375"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gaed66b290b2c45854fcd04580fb6349a1" kindref="member">XMC_USIC_CH_TXFIFO_INTERRUPT_NODE_POINTER_t</ref>;</highlight></codeline>
 <codeline lineno="376"><highlight class="normal"></highlight></codeline>
-<codeline lineno="380"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TXFIFO_EVENT_CONF</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TXFIFO_EVENT_CONF</highlight></codeline>
 <codeline lineno="381"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="382"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggac7690c669fbca7c9710ba7294df39a6da7c276cdb2192352c70a55dbff71fdb83" kindref="member">XMC_USIC_CH_TXFIFO_EVENT_CONF_STANDARD</ref><sp/><sp/>=<sp/>USIC_CH_TBCTR_STBIEN_Msk,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="383"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggac7690c669fbca7c9710ba7294df39a6da3b3243be368a3fe2293e1a8669755c37" kindref="member">XMC_USIC_CH_TXFIFO_EVENT_CONF_ERROR</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>(int32_t)USIC_CH_TBCTR_TBERIEN_Msk<sp/><sp/></highlight></codeline>
 <codeline lineno="384"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gac7690c669fbca7c9710ba7294df39a6d" kindref="member">XMC_USIC_CH_TXFIFO_EVENT_CONF_t</ref>;</highlight></codeline>
 <codeline lineno="385"><highlight class="normal"></highlight></codeline>
-<codeline lineno="389"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TXFIFO_EVENT</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_TXFIFO_EVENT</highlight></codeline>
 <codeline lineno="390"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="391"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga6e964201594d82a691896a52cbfd5620a1e44a086ab5e16b5832160e1ce085eac" kindref="member">XMC_USIC_CH_TXFIFO_EVENT_STANDARD</ref><sp/>=<sp/>USIC_CH_TRBSR_STBI_Msk,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="392"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga6e964201594d82a691896a52cbfd5620a309215a549219964d0d04ebcc22f6e33" kindref="member">XMC_USIC_CH_TXFIFO_EVENT_ERROR</ref><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_TRBSR_TBERI_Msk<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="393"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga6e964201594d82a691896a52cbfd5620" kindref="member">XMC_USIC_CH_TXFIFO_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="394"><highlight class="normal"></highlight></codeline>
-<codeline lineno="398"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_RXFIFO_INTERRUPT_NODE_POINTER</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_RXFIFO_INTERRUPT_NODE_POINTER</highlight></codeline>
 <codeline lineno="399"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="400"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4b1bb4e4041f310e46c635b007ee2c73a572414a4e5097bd3b8f6ca8b607e7c1e" kindref="member">XMC_USIC_CH_RXFIFO_INTERRUPT_NODE_POINTER_STANDARD</ref><sp/><sp/>=<sp/>USIC_CH_RBCTR_SRBINP_Pos,<sp/></highlight></codeline>
 <codeline lineno="401"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4b1bb4e4041f310e46c635b007ee2c73a393b1acb8b60d2baebbc57ef8b64a718" kindref="member">XMC_USIC_CH_RXFIFO_INTERRUPT_NODE_POINTER_ALTERNATE</ref><sp/>=<sp/>USIC_CH_RBCTR_ARBINP_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="402"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga4b1bb4e4041f310e46c635b007ee2c73" kindref="member">XMC_USIC_CH_RXFIFO_INTERRUPT_NODE_POINTER_t</ref>;</highlight></codeline>
 <codeline lineno="403"><highlight class="normal"></highlight></codeline>
-<codeline lineno="407"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_RXFIFO_EVENT_CONF</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_RXFIFO_EVENT_CONF</highlight></codeline>
 <codeline lineno="408"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="409"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4b8a7556ad13b0d7540a620c3d067689ac9ff6cf12767f7879611f5098732bd99" kindref="member">XMC_USIC_CH_RXFIFO_EVENT_CONF_STANDARD</ref><sp/><sp/>=<sp/>USIC_CH_RBCTR_SRBIEN_Msk,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="410"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4b8a7556ad13b0d7540a620c3d067689ae36c9608a19fddadd13a0dbeb6474709" kindref="member">XMC_USIC_CH_RXFIFO_EVENT_CONF_ERROR</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>(int32_t)USIC_CH_RBCTR_RBERIEN_Msk,<sp/><sp/></highlight></codeline>
 <codeline lineno="411"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4b8a7556ad13b0d7540a620c3d067689a48a5635b9e02bd166fe93bc2fa6304e6" kindref="member">XMC_USIC_CH_RXFIFO_EVENT_CONF_ALTERNATE</ref><sp/>=<sp/>USIC_CH_RBCTR_ARBIEN_Msk<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="412"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga4b8a7556ad13b0d7540a620c3d067689" kindref="member">XMC_USIC_CH_RXFIFO_EVENT_CONF_t</ref>;</highlight></codeline>
 <codeline lineno="413"><highlight class="normal"></highlight></codeline>
-<codeline lineno="417"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_RXFIFO_EVENT</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_RXFIFO_EVENT</highlight></codeline>
 <codeline lineno="418"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="419"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga9f69efc0352072596048eca6e3da29c6a66c92990f46257208c42d175ccc3533c" kindref="member">XMC_USIC_CH_RXFIFO_EVENT_STANDARD</ref><sp/><sp/>=<sp/>USIC_CH_TRBSR_SRBI_Msk,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="420"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga9f69efc0352072596048eca6e3da29c6a3bf2b90bd5dfa7a2fe3827225e9cda40" kindref="member">XMC_USIC_CH_RXFIFO_EVENT_ERROR</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_TRBSR_RBERI_Msk,<sp/><sp/></highlight></codeline>
 <codeline lineno="421"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga9f69efc0352072596048eca6e3da29c6a01cc9c90a0e05d5fa537b76884e20d5c" kindref="member">XMC_USIC_CH_RXFIFO_EVENT_ALTERNATE</ref><sp/>=<sp/>USIC_CH_TRBSR_ARBI_Msk<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="422"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga9f69efc0352072596048eca6e3da29c6" kindref="member">XMC_USIC_CH_RXFIFO_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="423"><highlight class="normal"></highlight></codeline>
-<codeline lineno="427"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_CLOCK_SOURCE</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_CLOCK_SOURCE</highlight></codeline>
 <codeline lineno="428"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="429"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4a6a3d9ca8a64d7689f25c8c688cbab9ac70865c32728b5c7eb4bfc294887997e" kindref="member">XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="430"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4a6a3d9ca8a64d7689f25c8c688cbab9aef37beb1ab4b3e3d12108669137c3361" kindref="member">XMC_USIC_CH_BRG_CLOCK_SOURCE_DX1T</ref><sp/><sp/><sp/><sp/>=<sp/>0x2UL<sp/>&lt;&lt;<sp/>USIC_CH_BRG_CLKSEL_Pos,<sp/><sp/></highlight></codeline>
 <codeline lineno="431"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga4a6a3d9ca8a64d7689f25c8c688cbab9ac7c2b4bc98dc56b3a5055d005e851b13" kindref="member">XMC_USIC_CH_BRG_CLOCK_SOURCE_DX1S</ref><sp/><sp/><sp/><sp/>=<sp/>0x3UL<sp/>&lt;&lt;<sp/>USIC_CH_BRG_CLKSEL_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="432"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga4a6a3d9ca8a64d7689f25c8c688cbab9" kindref="member">XMC_USIC_CH_BRG_CLOCK_SOURCE_t</ref>;</highlight></codeline>
 <codeline lineno="433"><highlight class="normal"></highlight></codeline>
-<codeline lineno="437"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_CTQSEL</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_CTQSEL</highlight></codeline>
 <codeline lineno="438"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="439"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggabe90ddec74269de0d09a2757aff4b93fa6ec33b2e43b134ed8cc7c9ad7ad9591b" kindref="member">XMC_USIC_CH_BRG_CTQSEL_PDIV</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="440"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggabe90ddec74269de0d09a2757aff4b93fa1d0fdfd57e666478224d1794936ce8e4" kindref="member">XMC_USIC_CH_BRG_CTQSEL_PPP</ref><sp/><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_BRG_CTQSEL_Pos,<sp/><sp/></highlight></codeline>
@@ -6057,20 +6057,20 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="443"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gabe90ddec74269de0d09a2757aff4b93f" kindref="member">XMC_USIC_CH_BRG_CTQSEL_t</ref>;</highlight></codeline>
 <codeline lineno="444"><highlight class="normal"></highlight></codeline>
 <codeline lineno="445"><highlight class="normal"></highlight></codeline>
-<codeline lineno="449"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE</highlight></codeline>
 <codeline lineno="450"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="451"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga5917220b11972dd6f2fdeb20e344f99cab6c56797b2cfa846072e77ed260939b9" kindref="member">XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_DISABLED</ref><sp/><sp/><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="452"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga5917220b11972dd6f2fdeb20e344f99ca94521f0e91a523cb28af682c05de59f6" kindref="member">XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_NORMAL</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_FDR_DM_Pos,<sp/></highlight></codeline>
 <codeline lineno="453"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga5917220b11972dd6f2fdeb20e344f99cafb8bb99ad350096545bc4e2a14b8812a" kindref="member">XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_FRACTIONAL</ref><sp/>=<sp/>0x2UL<sp/>&lt;&lt;<sp/>USIC_CH_FDR_DM_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="454"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga5917220b11972dd6f2fdeb20e344f99c" kindref="member">XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="455"><highlight class="normal"></highlight></codeline>
-<codeline lineno="459"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_MASTER_CLOCK_PASSIVE_LEVEL</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_MASTER_CLOCK_PASSIVE_LEVEL</highlight></codeline>
 <codeline lineno="460"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="461"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggae9d3fa2244d754db4311c49fb624115ea0fac1e2e39d4aa98d32a523e76240106" kindref="member">XMC_USIC_CH_BRG_MASTER_CLOCK_PASSIVE_LEVEL_0</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="462"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggae9d3fa2244d754db4311c49fb624115ea387e03692c7d6b05d34825b4ada8422f" kindref="member">XMC_USIC_CH_BRG_MASTER_CLOCK_PASSIVE_LEVEL_1</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_BRG_MCLKCFG_Pos<sp/><sp/></highlight></codeline>
 <codeline lineno="463"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gae9d3fa2244d754db4311c49fb624115e" kindref="member">XMC_USIC_CH_BRG_MASTER_CLOCK_PASSIVE_LEVEL_t</ref>;</highlight></codeline>
 <codeline lineno="464"><highlight class="normal"></highlight></codeline>
-<codeline lineno="468"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL</highlight></codeline>
 <codeline lineno="469"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="470"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggaabdebf7dc81a008ca887ab0336f9b3dea73b5e738a2fbe968b46ea6aae3466956" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_0_DELAY_DISABLED</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="471"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggaabdebf7dc81a008ca887ab0336f9b3deaf4a7841504a26dfd70873f1962f5ba89" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_DISABLED</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_BRG_SCLKCFG_Pos,<sp/></highlight></codeline>
@@ -6078,13 +6078,13 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="473"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1ggaabdebf7dc81a008ca887ab0336f9b3deac496300b9f7d9f340bed2bf4dfb1b8d6" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_ENABLED</ref><sp/><sp/>=<sp/>(int32_t)(0x3UL<sp/>&lt;&lt;<sp/>USIC_CH_BRG_SCLKCFG_Pos)<sp/><sp/></highlight></codeline>
 <codeline lineno="474"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1gaabdebf7dc81a008ca887ab0336f9b3de" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_t</ref>;</highlight></codeline>
 <codeline lineno="475"><highlight class="normal"></highlight></codeline>
-<codeline lineno="479"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT</highlight></codeline>
 <codeline lineno="480"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="481"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga373c90ba61a8cc0013f395840bc9acfda9491b02e6b95460911ccdbfd916dd28f" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT_SCLK</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="482"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga373c90ba61a8cc0013f395840bc9acfdabcd84dcb72da7b117900df0eb5c43660" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT_DX1</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_BRG_SCLKOSEL_Pos<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="483"><highlight class="normal">}<sp/><ref refid="group___u_s_i_c_1ga373c90ba61a8cc0013f395840bc9acfd" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT_t</ref>;</highlight></codeline>
 <codeline lineno="484"><highlight class="normal"></highlight></codeline>
-<codeline lineno="489"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_SHIFT_DIRECTION</highlight></codeline>
+<codeline lineno="489"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USIC_CH_SHIFT_DIRECTION</highlight></codeline>
 <codeline lineno="490"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="491"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga991fb058d9f1a8bf4fe6faf8aca78ab0ac8aa1525a4deb0dfbb20db75ac4a94fc" kindref="member">XMC_USIC_CH_SHIFT_DIRECTION_LSB_FIRST</ref><sp/>=<sp/>0x0UL,<sp/></highlight></codeline>
 <codeline lineno="492"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_i_c_1gga991fb058d9f1a8bf4fe6faf8aca78ab0ab3e66074821991e6d68af458d55dacfe" kindref="member">XMC_USIC_CH_SHIFT_DIRECTION_MSB_FIRST</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_SCTR_SDIR_Pos<sp/></highlight></codeline>
@@ -6103,9 +6103,9 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="505"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="506"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="507"><highlight class="normal"></highlight></codeline>
-<codeline lineno="511"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>USIC_GLOBAL_TypeDef<sp/><ref refid="group___u_s_i_c_1ga953ad8cb6043e854f32ab9a53042aedb" kindref="member">XMC_USIC_t</ref>;</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>USIC_GLOBAL_TypeDef<sp/><ref refid="group___u_s_i_c_1ga953ad8cb6043e854f32ab9a53042aedb" kindref="member">XMC_USIC_t</ref>;</highlight></codeline>
 <codeline lineno="512"><highlight class="normal"></highlight></codeline>
-<codeline lineno="520" refid="struct_x_m_c___u_s_i_c___c_h__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USIC_CH</highlight></codeline>
+<codeline lineno="520" refid="struct_x_m_c___u_s_i_c___c_h__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USIC_CH</highlight></codeline>
 <codeline lineno="521"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="522"><highlight class="normal"><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED0;</highlight></codeline>
 <codeline lineno="523"><highlight class="normal"><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>CCFG;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -6207,16 +6207,16 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="620"><highlight class="normal"></highlight></codeline>
 <codeline lineno="621"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Common<sp/>APIs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="622"><highlight class="normal"></highlight></codeline>
-<codeline lineno="636"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga48113f030b655f6eaa3b9f6b73474785" kindref="member">XMC_USIC_Enable</ref>(<ref refid="group___u_s_i_c_1ga953ad8cb6043e854f32ab9a53042aedb" kindref="member">XMC_USIC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>usic);</highlight></codeline>
-<codeline lineno="650"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga5d7f987aa7be2cc8497a0895f2ba3f90" kindref="member">XMC_USIC_Disable</ref>(<ref refid="group___u_s_i_c_1ga953ad8cb6043e854f32ab9a53042aedb" kindref="member">XMC_USIC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>usic);</highlight></codeline>
-<codeline lineno="664"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga0567321036170adb335fef9b36dc3b71" kindref="member">XMC_USIC_CH_Enable</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
-<codeline lineno="677"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gaaba8dc6e2fe4c5cf3fd3418d532a9412" kindref="member">XMC_USIC_CH_Disable</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
+<codeline lineno="636"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga48113f030b655f6eaa3b9f6b73474785" kindref="member">XMC_USIC_Enable</ref>(<ref refid="group___u_s_i_c_1ga953ad8cb6043e854f32ab9a53042aedb" kindref="member">XMC_USIC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>usic);</highlight></codeline>
+<codeline lineno="650"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga5d7f987aa7be2cc8497a0895f2ba3f90" kindref="member">XMC_USIC_Disable</ref>(<ref refid="group___u_s_i_c_1ga953ad8cb6043e854f32ab9a53042aedb" kindref="member">XMC_USIC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>usic);</highlight></codeline>
+<codeline lineno="664"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga0567321036170adb335fef9b36dc3b71" kindref="member">XMC_USIC_CH_Enable</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
+<codeline lineno="677"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gaaba8dc6e2fe4c5cf3fd3418d532a9412" kindref="member">XMC_USIC_CH_Disable</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
 <codeline lineno="678"><highlight class="normal"></highlight></codeline>
 <codeline lineno="700"><highlight class="normal"><ref refid="group___u_s_i_c_1gaf0ce1333656386f14f018b400beb9e39" kindref="member">XMC_USIC_CH_STATUS_t</ref><sp/><ref refid="group___u_s_i_c_1gac9feec95c73b09889e494ec6d6898f4f" kindref="member">XMC_USIC_CH_SetBaudrate</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>rate,<sp/>uint32_t<sp/>oversampling);</highlight></codeline>
 <codeline lineno="701"><highlight class="normal"></highlight></codeline>
 <codeline lineno="722"><highlight class="normal"><ref refid="group___u_s_i_c_1gaf0ce1333656386f14f018b400beb9e39" kindref="member">XMC_USIC_CH_STATUS_t</ref><sp/><ref refid="group___u_s_i_c_1gadd190656c8ecf2fbbb5375175e4f6115" kindref="member">XMC_USIC_CH_SetBaudrateEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>int32_t<sp/>rate,<sp/>int32_t<sp/>oversampling);</highlight></codeline>
 <codeline lineno="723"><highlight class="normal"></highlight></codeline>
-<codeline lineno="741"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga9ed19f59954ac846d36f0de9a2a99ba1" kindref="member">XMC_USIC_CH_SetBaudrateDivider</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="741"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga9ed19f59954ac846d36f0de9a2a99ba1" kindref="member">XMC_USIC_CH_SetBaudrateDivider</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="742"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group___u_s_i_c_1ga4a6a3d9ca8a64d7689f25c8c688cbab9" kindref="member">XMC_USIC_CH_BRG_CLOCK_SOURCE_t</ref><sp/>clksel,</highlight></codeline>
 <codeline lineno="743"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>pppen,</highlight></codeline>
 <codeline lineno="744"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>pdiv,</highlight></codeline>
@@ -6230,7 +6230,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="778"><highlight class="normal"></highlight></codeline>
 <codeline lineno="792"><highlight class="normal">uint32_t<sp/><ref refid="group___u_s_i_c_1gafde46af634c56095ca8acdb56413f4ed" kindref="member">XMC_USIC_CH_GetMCLKFrequency</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
 <codeline lineno="793"><highlight class="normal"></highlight></codeline>
-<codeline lineno="813"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga00c6419dfc0f8ed4c4eab13ded598144" kindref="member">XMC_USIC_CH_ConfigExternalInputSignalToBRG</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="813"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga00c6419dfc0f8ed4c4eab13ded598144" kindref="member">XMC_USIC_CH_ConfigExternalInputSignalToBRG</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="814"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>pdiv,</highlight></codeline>
 <codeline lineno="815"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>oversampling,</highlight></codeline>
 <codeline lineno="816"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga4c50ae5a7f12a5496d82d2bc665e1db2" kindref="member">XMC_USIC_CH_INPUT_COMBINATION_MODE_t</ref><sp/>combination_mode);</highlight></codeline>
@@ -6357,7 +6357,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="1270"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1a5e1322e27c40bf91d172f9673f205c97" kindref="member">CCR</ref><sp/>&amp;=<sp/>(uint32_t)~event;</highlight></codeline>
 <codeline lineno="1271"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1272"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1292"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga52f9fc18049dbc906b127e1f3662b4b3" kindref="member">XMC_USIC_CH_SetInterruptNodePointer</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="1292"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga52f9fc18049dbc906b127e1f3662b4b3" kindref="member">XMC_USIC_CH_SetInterruptNodePointer</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="1293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga074b5b1abff43f98316c7a5b69523e62" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_t</ref><sp/>interrupt_node,</highlight></codeline>
 <codeline lineno="1294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>service_request);</highlight></codeline>
 <codeline lineno="1295"><highlight class="normal"></highlight></codeline>
@@ -6447,13 +6447,13 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="1581"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1ac005cdf6a4e1350830161ee7ef88b9a2" kindref="member">SCTR</ref><sp/>|=<sp/>(uint32_t)passive_level;</highlight></codeline>
 <codeline lineno="1582"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1583"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1584"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>TX<sp/>FIFO<sp/>APIs<sp/>*/</highlight></codeline>
-<codeline lineno="1607"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga7cfe52daa733ba40e9b93fec60b04406" kindref="member">XMC_USIC_CH_TXFIFO_Configure</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="1584"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>TX<sp/>FIFO<sp/>APIs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1607"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga7cfe52daa733ba40e9b93fec60b04406" kindref="member">XMC_USIC_CH_TXFIFO_Configure</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="1608"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>data_pointer,</highlight></codeline>
 <codeline lineno="1609"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gafdd0a07bee93d72936191b7e8555aefe" kindref="member">XMC_USIC_CH_FIFO_SIZE_t</ref><sp/>size,</highlight></codeline>
 <codeline lineno="1610"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>limit);</highlight></codeline>
 <codeline lineno="1611"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1631"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga6f77f046f48083e3e86735636e86490b" kindref="member">XMC_USIC_CH_TXFIFO_SetSizeTriggerLimit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="1631"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga6f77f046f48083e3e86735636e86490b" kindref="member">XMC_USIC_CH_TXFIFO_SetSizeTriggerLimit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="1632"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gafdd0a07bee93d72936191b7e8555aefe" kindref="member">XMC_USIC_CH_FIFO_SIZE_t</ref><sp/>size,</highlight></codeline>
 <codeline lineno="1633"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>limit);</highlight></codeline>
 <codeline lineno="1634"><highlight class="normal"></highlight></codeline>
@@ -6477,7 +6477,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="1699"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1a296a4090d20090679ec849b77af2ad5b" kindref="member">TBCTR</ref><sp/>&amp;=<sp/>(uint32_t)~event;</highlight></codeline>
 <codeline lineno="1700"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1701"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1726"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga63e10af0afcde1c73c39cd6522ac0614" kindref="member">XMC_USIC_CH_TXFIFO_SetInterruptNodePointer</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="1726"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga63e10af0afcde1c73c39cd6522ac0614" kindref="member">XMC_USIC_CH_TXFIFO_SetInterruptNodePointer</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="1727"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gaed66b290b2c45854fcd04580fb6349a1" kindref="member">XMC_USIC_CH_TXFIFO_INTERRUPT_NODE_POINTER_t</ref><sp/>interrupt_node,</highlight></codeline>
 <codeline lineno="1728"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>service_request);</highlight></codeline>
 <codeline lineno="1729"><highlight class="normal"></highlight></codeline>
@@ -6537,12 +6537,12 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="1943"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1aa4ebd1cc49417ade270040dd5ae90a76" kindref="member">TRBSCR</ref><sp/>=<sp/>event;</highlight></codeline>
 <codeline lineno="1944"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1945"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1968"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga4ba419dd17bdb7e7be5f5ca757910a00" kindref="member">XMC_USIC_CH_RXFIFO_Configure</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="1968"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga4ba419dd17bdb7e7be5f5ca757910a00" kindref="member">XMC_USIC_CH_RXFIFO_Configure</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="1969"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>data_pointer,</highlight></codeline>
 <codeline lineno="1970"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gafdd0a07bee93d72936191b7e8555aefe" kindref="member">XMC_USIC_CH_FIFO_SIZE_t</ref><sp/>size,</highlight></codeline>
 <codeline lineno="1971"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>limit);</highlight></codeline>
 <codeline lineno="1972"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1992"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gae9984f496fe787c05b84dc6d1d65ee2e" kindref="member">XMC_USIC_CH_RXFIFO_SetSizeTriggerLimit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="1992"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gae9984f496fe787c05b84dc6d1d65ee2e" kindref="member">XMC_USIC_CH_RXFIFO_SetSizeTriggerLimit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="1993"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1gafdd0a07bee93d72936191b7e8555aefe" kindref="member">XMC_USIC_CH_FIFO_SIZE_t</ref><sp/>size,</highlight></codeline>
 <codeline lineno="1994"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>limit);</highlight></codeline>
 <codeline lineno="1995"><highlight class="normal"></highlight></codeline>
@@ -6563,7 +6563,7 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="2059"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1a85045a6d4b52fe95abdb1aa23479f348" kindref="member">RBCTR</ref><sp/>&amp;=<sp/>(uint32_t)~event;</highlight></codeline>
 <codeline lineno="2060"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="2061"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2086"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga0cce6b36f9c5fc6b9487dcee14a04e1a" kindref="member">XMC_USIC_CH_RXFIFO_SetInterruptNodePointer</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
+<codeline lineno="2086"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga0cce6b36f9c5fc6b9487dcee14a04e1a" kindref="member">XMC_USIC_CH_RXFIFO_SetInterruptNodePointer</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,</highlight></codeline>
 <codeline lineno="2087"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___u_s_i_c_1ga4b1bb4e4041f310e46c635b007ee2c73" kindref="member">XMC_USIC_CH_RXFIFO_INTERRUPT_NODE_POINTER_t</ref><sp/>interrupt_node,</highlight></codeline>
 <codeline lineno="2088"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>service_request);</highlight></codeline>
 <codeline lineno="2089"><highlight class="normal"></highlight></codeline>
@@ -6638,8 +6638,8 @@ Enables the clock for the USIC module by following the clock enabling sequence f
 <codeline lineno="2341"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="2342"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2343"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2349"><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="2349"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usic.h"/>
   </compounddef>
 </doxygen>

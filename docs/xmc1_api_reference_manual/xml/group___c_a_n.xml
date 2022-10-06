@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___c_a_n" kind="group">
     <compoundname>CAN</compoundname>
     <title>Controller Area Network Controller(CAN)</title>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="241" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="240" bodyend="245"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="240" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="241" bodyend="245"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" prot="public" static="no" strong="no">
         <type></type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="457" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="456" bodyend="468"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="456" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="457" bodyend="468"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga96241438cdf8b6f817c9ab98567f072a" prot="public" static="no" strong="no">
         <type></type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="261" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="260" bodyend="265"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="260" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="261" bodyend="265"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga97b0064e80ec6d5bfcab78f7a35b49a0" prot="public" static="no" strong="no">
         <type></type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="251" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="250" bodyend="255"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="250" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="251" bodyend="255"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga4931cde412f7a12b60fefc606a6c9380" prot="public" static="no" strong="no">
         <type></type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="231" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="230" bodyend="234"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="230" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="231" bodyend="234"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga9550c3eb3076c42f27d5d240d19db0db" prot="public" static="no" strong="no">
         <type></type>
@@ -194,7 +194,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Each CAN node can be connected to the internal CAN bus </para>
+<para>Each CAN node can be connected to the internal CAN bus <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___c_a_n_1gga9550c3eb3076c42f27d5d240d19db0dbaa30431674d0a8b754ca912a435ac20b4" prot="public">
@@ -212,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="213" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="212" bodyend="216"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="212" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="213" bodyend="216"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga4a4368056ee3b69f1c38f5fa41687704" prot="public" static="no" strong="no">
         <type></type>
@@ -251,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="398" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="397" bodyend="402"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="397" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="398" bodyend="402"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga5779e98919b963f0073cb04a129cb581" prot="public" static="no" strong="no">
         <type></type>
@@ -281,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="389" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="388" bodyend="392"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="388" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="389" bodyend="392"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga117048d5267011245c4ff40047d00c64" prot="public" static="no" strong="no">
         <type></type>
@@ -401,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="290" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="289" bodyend="303"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="289" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="290" bodyend="303"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga71459a95ce4da56054ac63b26450d53f" prot="public" static="no" strong="no">
         <type></type>
@@ -521,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="271" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="270" bodyend="284"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="270" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="271" bodyend="284"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gabb506b9cf0ade6f965c2af19458a03e5" prot="public" static="no" strong="no">
         <type></type>
@@ -668,7 +669,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="309" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="308" bodyend="325"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="308" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="309" bodyend="325"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga3fbcea02aab3f82946f94f9a31a23cc6" prot="public" static="no" strong="no">
         <type></type>
@@ -696,7 +697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="222" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="221" bodyend="225"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="221" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="222" bodyend="225"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga43682a582f983e5e6d8bed1d863c0525" prot="public" static="no" strong="no">
         <type></type>
@@ -780,7 +781,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="350" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="349" bodyend="361"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="349" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="350" bodyend="361"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gae708efa53df4791e665aa6a900eeb6a6" prot="public" static="no" strong="no">
         <type></type>
@@ -818,7 +819,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CAN Frame Count Event </para>
+<para>CAN Frame Count Event <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -828,7 +830,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="367" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="366" bodyend="372"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="366" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="367" bodyend="372"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gacbd6bd74f665b242e800d56b7e1b936d" prot="public" static="no" strong="no">
         <type></type>
@@ -904,7 +906,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="442" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="441" bodyend="451"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="441" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="442" bodyend="451"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga58a294b10b4e0b575f0d378313fc3b05" prot="public" static="no" strong="no">
         <type></type>
@@ -932,7 +934,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="423" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="422" bodyend="426"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="422" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="423" bodyend="426"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga588030349d9f7f929bcdfca3b2e1df13" prot="public" static="no" strong="no">
         <type></type>
@@ -960,7 +962,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="433" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="432" bodyend="436"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="432" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="433" bodyend="436"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga8df6893c4bb8410cf24639fea906ebea" prot="public" static="no" strong="no">
         <type></type>
@@ -1008,7 +1010,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="378" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="377" bodyend="383"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="377" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="378" bodyend="383"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gae061ae75276ded4637f93c9b7d5e44eb" prot="public" static="no" strong="no">
         <type></type>
@@ -1084,7 +1086,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="408" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="407" bodyend="417"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="407" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="408" bodyend="417"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga6efda609ad66be6ae2564b3b4310c362" prot="public" static="no" strong="no">
         <type></type>
@@ -1177,7 +1179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="331" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="330" bodyend="343"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="330" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="331" bodyend="343"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1gab71d557389d7e9579179770028146451" prot="public" static="no" strong="no">
         <type></type>
@@ -1252,7 +1254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="197" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="196" bodyend="206"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="196" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="197" bodyend="206"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" prot="public" static="no" strong="no">
         <type></type>
@@ -1304,7 +1306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="185" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="184" bodyend="191"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="184" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="185" bodyend="191"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -1316,11 +1318,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Defines Node Runtime structure.pointer to the Node CAN register </para>
+<para>Defines Node Runtime structure. pointer to the Node CAN register </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="555" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="555" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="555" column="27" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="555" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___c_a_n_1ga4c8ef1a9555bd8e1658e480944dca81e" prot="public" static="no">
         <type>CAN_GLOBAL_TypeDef</type>
@@ -1334,7 +1336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="520" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="520" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="520" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="520" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -1393,7 +1395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="665" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="665" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="665" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gae15982ed9fe8b5d5d516bbfd97acac29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1429,7 +1431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="625" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="625" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="625" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaa86fb69d66595df948327ff91e8822d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1465,7 +1467,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="643" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="643" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="643" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga115c3ec73d6cecc0483c71a02524e043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1510,7 +1512,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="739" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="739" bodyend="742"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="739" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="739" bodyend="742"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga592a44778b57ac9b8741f04453834611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1546,7 +1548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2011" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2011" bodyend="2014"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2011" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2011" bodyend="2014"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga1210ed3b3c4628122ea9f8032a174721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1584,7 +1586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2058" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2058" bodyend="2061"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2058" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2058" bodyend="2061"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga09f2577700dc44e3fc9bfc2e6c0792ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1617,7 +1619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2143" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2143" bodyend="2146"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2143" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2143" bodyend="2146"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6857e2566613c34371f0ae653da77174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1653,7 +1655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1991" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1991" bodyend="1994"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1991" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1991" bodyend="1994"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga62a26191fd7093d125769b42b656f4a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1691,7 +1693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2034" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2034" bodyend="2037"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2034" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2034" bodyend="2037"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga2ea05416157d30fd67cadffcf1cb485d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1724,7 +1726,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2123" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2123" bodyend="2126"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2123" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2123" bodyend="2126"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3b77055ea43fb0ebb071fae155feb90b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1757,7 +1759,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2100" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2100" bodyend="2103"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2100" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2100" bodyend="2103"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6300b5ce35687e006890eb0c968a78af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1802,7 +1804,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2079" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2079" bodyend="2083"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2079" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2079" bodyend="2083"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gabec17bceec62048721c0e71c4157b8b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1835,7 +1837,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2258" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2258" bodyend="2262"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2258" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2258" bodyend="2262"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga732a6fda09cb70f66f05ca58f8d8eeab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1880,7 +1882,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2239" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2239" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2239" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf4303398a9172e5447e43adf375b8382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1911,7 +1913,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="805" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="805" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="805" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga342c01ea7ab6cd06a1ed0bb76447bb81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1gaa70821b48b35c15555d81a4c81fceb80" kindref="member">XMC_CAN_CANCLKSRC_t</ref></type>
@@ -1942,7 +1944,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="783" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="783" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="783" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf19f8e41011ebe7e77b4662cb81e4332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1973,7 +1975,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="817" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="817" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="817" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaee4a5b343f44ffbde1ef26639eb84313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2016,7 +2018,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2302" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2302" bodyend="2305"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2302" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2302" bodyend="2305"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6c3c7f61d0d6e075977ee7473f460df6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2059,7 +2061,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2316" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2316" bodyend="2319"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2316" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2316" bodyend="2319"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga1cec2fa8beb70934e400fc96c4ffe50d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2123,7 +2125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="842" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="842" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="842" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaad8c21b97d426234e799f7a1895907f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2186,7 +2188,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="772" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="772" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="772" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga52fe6641459f69df4dba72f8a0c13c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2229,7 +2231,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2288" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2288" bodyend="2291"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2288" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2288" bodyend="2291"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga8248647c78ac9309f75f4811dda4e67c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2262,7 +2264,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="681" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="681" bodyend="684"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="681" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="681" bodyend="684"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga66d6f89bab2fab4393f1fb083dfd6998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2295,7 +2297,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1905" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1905" bodyend="1909"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1905" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1905" bodyend="1909"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga4a137b8f0c2ac3c5b5cd09e2ca60d385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2328,7 +2330,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1925" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1925" bodyend="1929"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1925" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1925" bodyend="1929"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3a06733578e85ec9be83df3ca65c82bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2361,7 +2363,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="861" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="861" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="861" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga5a7a77e7d7d29c17ca87ffbe3245f76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2406,7 +2408,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1778" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1778" bodyend="1782"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1778" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1778" bodyend="1782"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gae3aae4d86c63769fa898ea11e2f0cd87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2451,7 +2453,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1717" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1717" bodyend="1721"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1717" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1717" bodyend="1721"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga776a1a1c02708ff6aece5a2beb32953b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2484,7 +2486,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1758" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1758" bodyend="1761"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1758" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1758" bodyend="1761"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga28a3afd0294c21c2065db2e312a6ebe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2529,7 +2531,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1695" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1695" bodyend="1699"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1695" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1695" bodyend="1699"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga4f01b3116be459e384c3925b44fc2ec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2562,7 +2564,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1738" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1738" bodyend="1741"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1738" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1738" bodyend="1741"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga7850274ffd707c7eedd0f5799ac04948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2595,7 +2597,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1872" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1872" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1872" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga0d5ca295b82bcac10c8fb2a570b446f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -2628,7 +2630,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1820" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1820" bodyend="1823"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1820" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1820" bodyend="1823"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3947c77efb8efc1eab0af01e20418f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2661,7 +2663,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1856" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1856" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1856" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga19119baa3f77d51a0d28c9342efb1d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2704,7 +2706,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2330" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2330" bodyend="2338"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2330" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2330" bodyend="2338"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga70d6a7847ba129346e515c269e4770aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2735,7 +2737,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2348" bodyend="2351"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2348" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2348" bodyend="2351"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga34acd408a7a99294587a5c604e1c9918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -2768,7 +2770,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1634" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1634" bodyend="1637"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1634" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1634" bodyend="1637"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga303ca6355a2c8b8858eaa016508b7255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -2801,7 +2803,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1578" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1578" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1578" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaa4af5d86b90db9f02681e7059eadfdda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -2834,7 +2836,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1594" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1594" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1594" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gab88ba4b28db7404e7e3a271c1e585905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2879,7 +2881,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1674" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1674" bodyend="1677"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1674" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1674" bodyend="1677"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaab905544dbd9ba9ede00d5500e9c38f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2924,7 +2926,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1889" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1889" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1889" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga2441a13da1f6ee2235b94c5a6ba522ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2969,7 +2971,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1799" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1799" bodyend="1804"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1799" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1799" bodyend="1804"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gafe77c3e9f8d0fcde86f2ac020f0d5493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3025,9 +3027,9 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Message Object event mask </para>
+<para>&lt; Message Object event mask</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1611" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1611" bodyend="1617"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1611" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1611" bodyend="1617"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga690a85f842a9fddc61c9d2bf0370d308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3062,7 +3064,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1970" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1970" bodyend="1974"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1970" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1970" bodyend="1974"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga54679df9afbdddaf68ffd780ced427d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3107,7 +3109,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1840" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1840" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1840" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3c8e0550bdb85767ee0d984dd50b9b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3142,7 +3144,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1947" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1947" bodyend="1951"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1947" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1947" bodyend="1951"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gabcb79c734a68ae614d901d69ef8e20fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3190,7 +3192,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1654" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1654" bodyend="1657"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1654" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1654" bodyend="1657"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga16dd387e3c8337317efe5246d66c8e91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -3226,7 +3228,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1561" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1561" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1561" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gafb022d0b0f3cbf13b291b695741cd47f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -3264,7 +3266,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1544" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1544" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1544" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga0824727cc57db59df4efe008625af141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3309,7 +3311,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1266" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1266" bodyend="1269"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1266" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1266" bodyend="1269"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3a60a49f75d0f9a4f52286856278a9bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3342,7 +3344,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1385" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1385" bodyend="1388"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1385" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1385" bodyend="1388"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6f266f543962bf5969d438af202d2d48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3375,7 +3377,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1307" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1307" bodyend="1310"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1307" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1307" bodyend="1310"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf5ed3045870e0180b41ee4f19f63d278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3420,7 +3422,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1043" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1043" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1043" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6e59aef13717065359d5ea387e88118b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3455,7 +3457,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1002" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1002" bodyend="1005"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1002" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1002" bodyend="1005"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga924a346597f2770058d12d837b7ec05c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3488,7 +3490,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1366" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1366" bodyend="1370"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1366" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1366" bodyend="1370"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gac26b568458cf0a7b88018bd3ddf5eccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3521,7 +3523,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1287" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1287" bodyend="1290"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1287" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1287" bodyend="1290"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga085ec39999617b4880795dd3f5990873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3566,7 +3568,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1024" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1024" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="1024" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga214ceb497a79f17a1a97090131a11247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3601,7 +3603,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="977" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="977" bodyend="980"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="977" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="977" bodyend="980"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gae43a6605f4303deaa9077c9ca1cc29f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3636,7 +3638,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1451" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1451" bodyend="1454"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1451" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1451" bodyend="1454"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gafd589a86e011a98d636e4fce616dbb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3681,7 +3683,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1494" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1494" bodyend="1500"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1494" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1494" bodyend="1500"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga1980308d1958c918cfb16dd43b09ce3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -3714,7 +3716,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1520" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1520" bodyend="1523"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1520" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1520" bodyend="1523"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga52536f202ef63f0205ec8dad7ae36c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -3750,7 +3752,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1181" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1181" bodyend="1184"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1181" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1181" bodyend="1184"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga32d160a9ce4260e34878a09df80f0131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga58a294b10b4e0b575f0d378313fc3b05" kindref="member">XMC_CAN_NODE_LAST_ERROR_DIR_t</ref></type>
@@ -3786,7 +3788,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1060" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1060" bodyend="1063"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1060" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1060" bodyend="1063"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga02d5e3c90dfff44b3259a31dbb900995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga588030349d9f7f929bcdfca3b2e1df13" kindref="member">XMC_CAN_NODE_LAST_ERROR_INC_t</ref></type>
@@ -3822,7 +3824,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1080" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1080" bodyend="1083"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1080" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1080" bodyend="1083"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga5e296f7d900a54bd56b099a8b23f87d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -3855,7 +3857,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1226" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1226" bodyend="1229"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1226" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1226" bodyend="1229"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga340523d61c73d6b17af9e7d201a53c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3888,7 +3890,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1246" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1246" bodyend="1249"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1246" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1246" bodyend="1249"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gab9167c7c6b40606532beacdfcfe7e650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -3923,7 +3925,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1206" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1206" bodyend="1209"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1206" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1206" bodyend="1209"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga237cbd25e96515d2d1207fe93ae6063a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3968,7 +3970,7 @@ Altering CAN module <emphasis>can_frequency</emphasis> shall affects baud rate, 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="904" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="904" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="904" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga590a52441b24c5877d15271f16dd7a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -4016,7 +4018,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="926" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="926" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="926" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gac86e37cc7f4ea0cec6849b08b8ab71b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4049,7 +4051,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1427" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1427" bodyend="1430"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1427" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1427" bodyend="1430"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga403725545e4b32c3dd0e67ba921a6366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4082,7 +4084,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1348" bodyend="1351"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1348" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1348" bodyend="1351"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6e2bd3d9846dcbee149409baf623bbdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4115,7 +4117,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1407" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1407" bodyend="1410"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1407" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1407" bodyend="1410"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga3e60df9bc4171abdfa5b7b8e8facae14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4165,7 +4167,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1105" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1105" bodyend="1109"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1105" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1105" bodyend="1109"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga8878e96aee1e89d19eb5895f31e789b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4221,9 +4223,9 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; Node event mask </para>
+<para>&lt; Node event mask</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="881" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="881" bodyend="886"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="881" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="881" bodyend="886"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gadb89a6e0630d7ccf0b233caa989599ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4256,7 +4258,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1329" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1329" bodyend="1332"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1329" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1329" bodyend="1332"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga05c55e7c28370cd64b77225c43ca6838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4306,7 +4308,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1158" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1158" bodyend="1162"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1158" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1158" bodyend="1162"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf46cc61decf5ecc62a50f8d960659eab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4353,7 +4355,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="949" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="949" bodyend="954"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="949" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="949" bodyend="954"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga9a5d2ce11b0c3bcf0d8274cf340d84d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4403,7 +4405,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1132" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1132" bodyend="1136"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="1132" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="1132" bodyend="1136"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga461411e88974c50a6e7b36e73c9fc56e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4472,7 +4474,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="709" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="709" bodyend="717"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="709" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="709" bodyend="717"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf3af812306e78f6c35f4837e3f87d4d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4517,7 +4519,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2182" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2182" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2182" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gaf1de58dc7fb68ad5865fc0db41bc01a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4550,7 +4552,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2216" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2216" bodyend="2219"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2216" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="2216" bodyend="2219"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga6bfa6ec4cc9efd44470400548b5a0d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4585,7 +4587,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="794" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="794" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="794" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga53d857e001d98cde8e1e838370a4eef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4630,7 +4632,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2165" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2165" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2165" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1gac51fa23741c9f64f35dca049aeb9201b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4675,7 +4677,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2199" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2199" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2199" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_a_n_1ga568c53e9d219eabf0defeb9684b6c587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_a_n_1ga33a809a5460e5265b2fa3a5ddff3f337" kindref="member">XMC_CAN_STATUS_t</ref></type>
@@ -4706,7 +4708,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2277" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="2277" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" declline="2277" declcolumn="18"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -4720,7 +4722,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="176" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="176" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="176" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_a_n_1ga3861567f5ca18080a4a3218a54ac27f5" prot="public" static="no">
         <name>CAN_NODE_NIPR_Msk</name>
@@ -4732,11 +4734,11 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="174" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="174" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="174" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_a_n_1gaa835dc070e65ec31c19cbe8a993a13d4" prot="public" static="no">
         <name>XMC_CAN_MO_MOAR_STDID_Msk</name>
-        <initializer>((0x000007FFUL) &lt;&lt; XMC_CAN_MO_MOAR_STDID_Pos)</initializer>
+        <initializer>((0x000007FFUL) &lt;&lt; <ref refid="group___c_a_n_1gaa064c66529a2259fdeec10ac612b28f4" kindref="member">XMC_CAN_MO_MOAR_STDID_Pos</ref>)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -4744,7 +4746,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="172" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="172" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="172" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_a_n_1gaa064c66529a2259fdeec10ac612b28f4" prot="public" static="no">
         <name>XMC_CAN_MO_MOAR_STDID_Pos</name>
@@ -4756,7 +4758,7 @@ Configures CAN node Baudrate. <emphasis>can_bit_time</emphasis> specifies requir
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="170" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="170" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="170" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

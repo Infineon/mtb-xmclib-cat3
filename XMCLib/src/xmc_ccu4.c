@@ -983,7 +983,7 @@ XMC_CCU4_STATUS_t XMC_CCU4_SLICE_GetLastCapturedTimerValue(const XMC_CCU4_SLICE_
 }
 
 /* Retrieves timer capture value from a FIFO made of capture registers */
-#if defined(CCU4V1) /* Defined for XMC4500, XMC400, XMC4200, XMC4100 devices only */
+#if defined(CCU4V1) /* Defined for XMC4500, XMC4400, XMC4200, XMC4100 devices only */
 int32_t XMC_CCU4_GetCapturedValueFromFifo(const XMC_CCU4_MODULE_t *const module, const uint8_t slice_number)
 {
   int32_t   cap;

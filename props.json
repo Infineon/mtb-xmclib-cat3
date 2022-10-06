@@ -1,0 +1,22 @@
+{
+    "configurator_support": true,
+    "core": {
+        "id": "1dbe63c8-94bd-40c3-a392-bbab471a767e",
+        "name": "mtb-xmclib-cat3"
+    },
+    "opt": {
+        "svd": {
+            "COMPONENT_XMC11XX": "CMSIS/Infineon/SVD/XMC1100.svd",
+            "COMPONENT_XMC12XX": "CMSIS/Infineon/SVD/XMC1200.svd",
+            "COMPONENT_XMC13XX": "CMSIS/Infineon/SVD/XMC1300.svd",
+            "COMPONENT_XMC14XX": "CMSIS/Infineon/SVD/XMC1400.svd",
+            "COMPONENT_XMC41XX": "CMSIS/Infineon/SVD/XMC4100.svd",
+            "COMPONENT_XMC42XX": "CMSIS/Infineon/SVD/XMC4200.svd",
+            "COMPONENT_XMC43XX": "CMSIS/Infineon/SVD/XMC4300.svd",
+            "COMPONENT_XMC44XX": "CMSIS/Infineon/SVD/XMC4400.svd",
+            "COMPONENT_XMC45XX": "CMSIS/Infineon/SVD/XMC4500.svd",
+            "COMPONENT_XMC47XX": "CMSIS/Infineon/SVD/XMC4700.svd",
+            "COMPONENT_XMC48XX": "CMSIS/Infineon/SVD/XMC4800.svd"
+        }
+    }
+}

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__i2s_8h" kind="file" language="C++">
     <compoundname>xmc_i2s.h</compoundname>
     <includes refid="xmc__usic_8h" local="yes">xmc_usic.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="98" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="98" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="98" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_s_1ga7222d2a24ef59d2ab98f270c6d634d22" prot="public" static="no">
         <name>XMC_I2S0_CH1</name>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="99" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="99" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="99" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_s_1ga66e6fc510d71d8e8cd1fb249dd574749" prot="public" static="no">
         <name>XMC_I2S1_CH0</name>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="103" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="103" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="103" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_s_1ga39a744cb1b509dffe39efccde9de1fe8" prot="public" static="no">
         <name>XMC_I2S1_CH1</name>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="104" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="104" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="104" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_s_1ga2052bed13ae87be6b83ee0e2d3697118" prot="public" static="no">
         <name>XMC_I2S2_CH0</name>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="108" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="108" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="108" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___i2_s_1ga1dbf4e63749d2f645a8160712666e618" prot="public" static="no">
         <name>XMC_I2S2_CH1</name>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="109" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="109" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="109" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="151" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="150" bodyend="154"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="150" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="151" bodyend="154"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_s_1ga21a01621957ee4befb0742623b7deaf8" prot="public" static="no" strong="no">
         <type></type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="226" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="225" bodyend="229"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="225" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="226" bodyend="229"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_s_1ga8e7a5c82ca942de7450cfba67907aa22" prot="public" static="no" strong="no">
         <type></type>
@@ -165,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="202" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="201" bodyend="205"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="201" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="202" bodyend="205"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_s_1ga0519dc913371e5e1b2fb93602e8af7eb" prot="public" static="no" strong="no">
         <type></type>
@@ -276,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="172" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="171" bodyend="185"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="171" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="172" bodyend="185"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_s_1gaf92c3536e625729aefc26a87ca915fa1" prot="public" static="no" strong="no">
         <type></type>
@@ -342,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="211" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="210" bodyend="220"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="210" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="211" bodyend="220"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_s_1gaa876770c9147fa5b0ca79b5bbd755ce9" prot="public" static="no" strong="no">
         <type></type>
@@ -399,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="160" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="159" bodyend="166"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="159" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="160" bodyend="166"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_s_1ga86eb677be3865bdf0545767e8818d7ea" prot="public" static="no" strong="no">
         <type></type>
@@ -528,7 +528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="129" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="128" bodyend="145"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="128" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="129" bodyend="145"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_s_1gad79d76187d3de45ba4d8ec7f17989a20" prot="public" static="no" strong="no">
         <type></type>
@@ -564,7 +564,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="119" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="118" bodyend="123"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="118" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="119" bodyend="123"/>
       </memberdef>
       <memberdef kind="enum" id="group___i2_s_1gaf06d8ef70b2f776bd0e3f4a4860b6dd4" prot="public" static="no" strong="no">
         <type></type>
@@ -594,7 +594,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="191" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="190" bodyend="196"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="190" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="191" bodyend="196"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -644,7 +644,7 @@ e.g: During transmission Transmit buffer event occurs to indicating data word tr
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="553" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="553" bodyend="556"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="553" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="553" bodyend="556"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga791fd46fa82e2c4a87eca3ff2e543813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -692,7 +692,7 @@ In Slave mode, the signal is received from the external master. So the DX1(input
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="607" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="607" bodyend="612"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="607" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="607" bodyend="612"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga84e90979653181ee8ca36366322368d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -733,7 +733,7 @@ Use this function in combination with <ref refid="group___i2_s_1gaefff3825c713fe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="875" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="875" bodyend="878"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="875" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="875" bodyend="878"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gac731fe4fbd6e50a8e0b0a8819d30ed56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -774,7 +774,7 @@ Use this function in combination with <ref refid="group___i2_s_1gaefff3825c713fe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="838" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="838" bodyend="841"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="838" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="838" bodyend="841"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga624bd3292e9b6ea3bb41689d41fadb27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -821,7 +821,7 @@ After disabling the events, <ref refid="group___i2_s_1ga3dd5f7a8841af9489527611a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="518" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="518" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="518" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gad442af0346273424ef742ccd3abe40dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -869,7 +869,7 @@ Resets the input data polarity. Invoke <ref refid="group___i2_s_1ga3cfdd666f14a7
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="731" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="731" bodyend="735"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="731" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="731" bodyend="735"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gafca8077849ed95bc45949481d3110659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -904,7 +904,7 @@ This clock can be enabled by invoking <ref refid="group___i2_s_1ga99608c0251e3b1
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="589" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="589" bodyend="592"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="589" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="589" bodyend="592"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gaefff3825c713fe5b9926d2c9f3936430" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -947,7 +947,7 @@ Use this function in combination with <ref refid="group___i2_s_1ga84e90979653181
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="857" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="857" bodyend="860"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="857" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="857" bodyend="860"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga6484a12dcff80b2055d1b986e8cba28d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -988,7 +988,7 @@ Use this function in combination with <ref refid="group___i2_s_1ga84e90979653181
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="822" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="822" bodyend="825"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="822" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="822" bodyend="825"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga3dd5f7a8841af9489527611acdfa1bd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1035,7 +1035,7 @@ Events can be enabled as needed using <ref refid="group___i2_s_1ga3dd5f7a8841af9
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="501" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="501" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="501" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga3cfdd666f14a7897c24a7e79660179b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1083,7 +1083,7 @@ This is not set in <ref refid="group___i2_s_1ga9b4b3f64ebe0ab20c359f6184e923d98"
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="711" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="711" bodyend="715"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="711" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="711" bodyend="715"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga99608c0251e3b153d1f71b49350d5c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1118,7 +1118,7 @@ This clock can be used as a clock reference for external devices. This is not en
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="572" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="572" bodyend="575"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="572" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="572" bodyend="575"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga4302cec4acffcd49bc2178b1b98afcb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1153,7 +1153,7 @@ Invocation of <ref refid="group___i2_s_1ga1c7bd3c147219fce76f9c1c61b21898a" kind
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="447" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="447" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="447" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga8ea6d90429a2ac4de4bbe1db35a7087c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1188,7 +1188,7 @@ This indicates the status of the all the events, for I2S communication.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="532" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="532" bodyend="535"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="532" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="532" bodyend="535"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga9b4b3f64ebe0ab20c359f6184e923d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1245,7 +1245,7 @@ During the initialization, USIC channel is enabled and baudrate is configured. A
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="307" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="307" bodyend="310"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="307" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="307" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gab82202f0981b705a15ab7ed80ddc6b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1314,7 +1314,7 @@ During the initialization, USIC channel is enabled and baudrate is configured. A
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="283" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="283" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="283" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga1c7bd3c147219fce76f9c1c61b21898a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1362,7 +1362,7 @@ During the initialization, USIC channel is enabled and baudrate is configured. A
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="428" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="428" bodyend="432"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="428" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="428" bodyend="432"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gafd9b940110725dee4580f570f54028ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1431,7 +1431,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="782" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="782" bodyend="788"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="782" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="782" bodyend="788"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gaff2473a1c092b6cbb61c9996086c2ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___i2_s_1gad79d76187d3de45ba4d8ec7f17989a20" kindref="member">XMC_I2S_CH_STATUS_t</ref></type>
@@ -1478,7 +1478,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="362" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="362" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="362" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga429db55541512a3a9c61a1f1655a1ee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___i2_s_1gad79d76187d3de45ba4d8ec7f17989a20" kindref="member">XMC_I2S_CH_STATUS_t</ref></type>
@@ -1537,7 +1537,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="379" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="379" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="379" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga365e507fce74d7a9d1f02a00b8db9223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1572,7 +1572,7 @@ This is typically based on the slave settings. Invoke <ref refid="group___i2_s_1
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="462" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="462" bodyend="465"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="462" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="462" bodyend="465"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga33a3c6090697d5df5038b3c1b5ed1c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1607,7 +1607,7 @@ This is typically based on the slave settings. This is not set during <ref refid
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="480" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="480" bodyend="483"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="480" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="480" bodyend="483"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gacf411f00a4585150d33d3259dfc785ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1655,7 +1655,7 @@ Set the number of bits to be serially transmitted in a frame. The frame length s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="648" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="648" bodyend="651"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="648" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="648" bodyend="651"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga32572b75a2b528238622cfa91da6239f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1713,7 +1713,7 @@ Selects the input data signal source among DXnA, DXnB.. DXnG for the input stage
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="668" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="668" bodyend="674"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="668" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="668" bodyend="674"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga8af8cb0639aeede0ab9faead5fa7f55c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1765,7 +1765,7 @@ For an event to generate interrupt, node pointer should be configured with servi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="756" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="756" bodyend="760"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="756" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="756" bodyend="760"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1gabb2198a50935a491a48686d85b53f0bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1810,7 +1810,7 @@ This value has to be always higher than 1U and lower than the data with (SCTR.FL
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="392" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="392" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="392" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga55da8db55309c3afb4d9c6f238aeb240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1858,7 +1858,7 @@ Sets the number of bits to represent a data word. Frame length should be a multi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="628" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="628" bodyend="631"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="628" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="628" bodyend="631"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga398df3f0a83ceee1c0b2891c6f551da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1893,7 +1893,7 @@ It should be executed after <ref refid="group___i2_s_1ga9b4b3f64ebe0ab20c359f618
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="325" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="325" bodyend="329"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="325" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="325" bodyend="329"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga1fab03647f2593b60365e39463fe5cb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___i2_s_1gad79d76187d3de45ba4d8ec7f17989a20" kindref="member">XMC_I2S_CH_STATUS_t</ref></type>
@@ -1930,7 +1930,7 @@ After calling XMC_I2S_CH_Stop, channel is IDLE mode. So no communication is supp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="346" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="346" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="346" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga961ec248ea914b53a1e7595f4a0e8d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1990,7 +1990,7 @@ TCI(Transmit Control Information) allows dynamic control of output channel durin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="411" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="411" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" declline="411" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga4332db9df7ffbb91a633d94a05897ac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2045,7 +2045,7 @@ When the I2S service request is triggered, the NVIC interrupt associated with it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="805" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="805" bodyend="808"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="805" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="805" bodyend="808"/>
       </memberdef>
       <memberdef kind="function" id="group___i2_s_1ga356145e003922d6ef50f7aab6a14afe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2091,7 +2091,7 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="689" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="689" bodyend="694"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="689" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="689" bodyend="694"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -2102,8 +2102,8 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="77"><highlight class="preprocessor">#ifndef<sp/>XMC_I2S_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_I2S_H_</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S_H_</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
@@ -2111,36 +2111,36 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="82"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_usic.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="94"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="95"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S0_CH0<sp/>XMC_USIC0_CH0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="99"><highlight class="preprocessor">#define<sp/>XMC_I2S0_CH1<sp/>XMC_USIC0_CH1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="100"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S0_CH0<sp/>XMC_USIC0_CH0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S0_CH1<sp/>XMC_USIC0_CH1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S1_CH0<sp/>XMC_USIC1_CH0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="104"><highlight class="preprocessor">#define<sp/>XMC_I2S1_CH1<sp/>XMC_USIC1_CH1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="105"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S1_CH0<sp/>XMC_USIC1_CH0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S1_CH1<sp/>XMC_USIC1_CH1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(USIC2)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S2_CH0<sp/>XMC_USIC2_CH0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="109"><highlight class="preprocessor">#define<sp/>XMC_I2S2_CH1<sp/>XMC_USIC2_CH1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="110"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S2_CH0<sp/>XMC_USIC2_CH0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_I2S2_CH1<sp/>XMC_USIC2_CH1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="112"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="113"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_STATUS</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_STATUS</highlight></codeline>
 <codeline lineno="119"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggad79d76187d3de45ba4d8ec7f17989a20aefa3783742bd11437e465de7cf19b9d0" kindref="member">XMC_I2S_CH_STATUS_OK</ref>,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggad79d76187d3de45ba4d8ec7f17989a20a274f43657b1d0d60d6a4a3979025f6f0" kindref="member">XMC_I2S_CH_STATUS_ERROR</ref>,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggad79d76187d3de45ba4d8ec7f17989a20ad630d122134df50be10aaa7aeb01cf80" kindref="member">XMC_I2S_CH_STATUS_BUSY</ref><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="123"><highlight class="normal">}<sp/><ref refid="group___i2_s_1gad79d76187d3de45ba4d8ec7f17989a20" kindref="member">XMC_I2S_CH_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_STATUS_FLAG</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_STATUS_FLAG</highlight></codeline>
 <codeline lineno="129"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga86eb677be3865bdf0545767e8818d7eaa47a2558d7b0bde69cded893a1fe0078e" kindref="member">XMC_I2S_CH_STATUS_FLAG_WORD_ADDRESS</ref><sp/>=<sp/>USIC_CH_PSR_IISMode_WA_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga86eb677be3865bdf0545767e8818d7eaa202a435971e4df1ebd791b861d727758" kindref="member">XMC_I2S_CH_STATUS_FLAG_DX2S</ref><sp/>=<sp/>USIC_CH_PSR_IISMode_DX2S_Msk,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2157,13 +2157,13 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga86eb677be3865bdf0545767e8818d7eaa5892fcb5ffa53ea6361d0ad145be183e" kindref="member">XMC_I2S_CH_STATUS_FLAG_BAUD_RATE_GENERATOR_INDICATION</ref><sp/>=<sp/>USIC_CH_PSR_IISMode_BRGIF_Msk<sp/></highlight></codeline>
 <codeline lineno="145"><highlight class="normal">}<sp/><ref refid="group___i2_s_1ga86eb677be3865bdf0545767e8818d7ea" kindref="member">XMC_I2S_CH_STATUS_FLAG_t</ref>;</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_BRG_SHIFT_CLOCK_OUTPUT</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_BRG_SHIFT_CLOCK_OUTPUT</highlight></codeline>
 <codeline lineno="151"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga6cf990895c6ccc01ceaf11c028ad35ccacd7860ed986e8121655856927aa72deb" kindref="member">XMC_I2S_CH_BRG_SHIFT_CLOCK_OUTPUT_SCLK</ref><sp/>=<sp/><ref refid="group___u_s_i_c_1gga373c90ba61a8cc0013f395840bc9acfda9491b02e6b95460911ccdbfd916dd28f" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT_SCLK</ref>,<sp/></highlight></codeline>
 <codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga6cf990895c6ccc01ceaf11c028ad35cca7a8efe245ea1426c808d9d07b8cb392d" kindref="member">XMC_I2S_CH_BRG_SHIFT_CLOCK_OUTPUT_DX1</ref><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga373c90ba61a8cc0013f395840bc9acfdabcd84dcb72da7b117900df0eb5c43660" kindref="member">XMC_USIC_CH_BRG_SHIFT_CLOCK_OUTPUT_DX1</ref><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="154"><highlight class="normal">}<sp/><ref refid="group___i2_s_1ga6cf990895c6ccc01ceaf11c028ad35cc" kindref="member">XMC_I2S_CH_BRG_SHIFT_CLOCK_OUTPUT_t</ref>;</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_INTERRUPT_NODE_POINTER</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_INTERRUPT_NODE_POINTER</highlight></codeline>
 <codeline lineno="160"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaa876770c9147fa5b0ca79b5bbd755ce9ac00bde3addfb72171f5bd0607fc0426c" kindref="member">XMC_I2S_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT</ref><sp/><sp/><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62ac3d37f726e6214704f420586ff8effc3" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaa876770c9147fa5b0ca79b5bbd755ce9a57e6d7b8a3d66799258e3ded542a872c" kindref="member">XMC_I2S_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER</ref><sp/><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62a2298fc6a0fcee48a76f0aea1eb95e3a6" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2172,7 +2172,7 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="165"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaa876770c9147fa5b0ca79b5bbd755ce9ac8250779e4d8ccf20d17d66421c46660" kindref="member">XMC_I2S_CH_INTERRUPT_NODE_POINTER_PROTOCOL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><ref refid="group___u_s_i_c_1gga074b5b1abff43f98316c7a5b69523e62a3b99d0d6e93882ea791e8952cc993a7b" kindref="member">XMC_USIC_CH_INTERRUPT_NODE_POINTER_PROTOCOL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="166"><highlight class="normal">}<sp/><ref refid="group___i2_s_1gaa876770c9147fa5b0ca79b5bbd755ce9" kindref="member">XMC_I2S_CH_INTERRUPT_NODE_POINTER_t</ref>;</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_EVENT</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_EVENT</highlight></codeline>
 <codeline lineno="172"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga0519dc913371e5e1b2fb93602e8af7eba6f555796d0e490cdb8bb21ca6668e9bf" kindref="member">XMC_I2S_CH_EVENT_RECEIVE_START</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_CCR_RSIEN_Msk,<sp/><sp/></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga0519dc913371e5e1b2fb93602e8af7eba2ec499d4478e0288bc8f36fa122760ff" kindref="member">XMC_I2S_CH_EVENT_DATA_LOST</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>USIC_CH_CCR_DLIEN_Msk,<sp/><sp/></highlight></codeline>
@@ -2187,31 +2187,31 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="184"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga0519dc913371e5e1b2fb93602e8af7ebaeec8987e03c66150a84fc0ca021330d1" kindref="member">XMC_I2S_CH_EVENT_DX2TIEN_ACTIVATED</ref><sp/><sp/><sp/>=<sp/>USIC_CH_PCR_IISMode_DX2TIEN_Msk<sp/>&lt;&lt;<sp/>2U<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="185"><highlight class="normal">}<sp/><ref refid="group___i2_s_1ga0519dc913371e5e1b2fb93602e8af7eb" kindref="member">XMC_I2S_CH_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_WA_POLARITY</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_WA_POLARITY</highlight></codeline>
 <codeline lineno="191"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaf06d8ef70b2f776bd0e3f4a4860b6dd4aad9792a6807914460708783fca529b97" kindref="member">XMC_I2S_CH_WA_POLARITY_DIRECT</ref><sp/>=<sp/>0x0UL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="194"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaf06d8ef70b2f776bd0e3f4a4860b6dd4aee02f33af07c1e12c1feea0b77d4c1eb" kindref="member">XMC_I2S_CH_WA_POLARITY_INVERTED</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>USIC_CH_PCR_IISMode_SELINV_Pos<sp/></highlight></codeline>
 <codeline lineno="196"><highlight class="normal">}<sp/><ref refid="group___i2_s_1gaf06d8ef70b2f776bd0e3f4a4860b6dd4" kindref="member">XMC_I2S_CH_WA_POLARITY_t</ref>;</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_CHANNEL</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_CHANNEL</highlight></codeline>
 <codeline lineno="202"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga8e7a5c82ca942de7450cfba67907aa22a9884bce0586ebf037f9fad4c576b6af9" kindref="member">XMC_I2S_CH_CHANNEL_1_LEFT</ref><sp/>=<sp/>0U,<sp/><sp/></highlight></codeline>
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga8e7a5c82ca942de7450cfba67907aa22a8aa09ec1ebaa2f86cd923b3c5a22967c" kindref="member">XMC_I2S_CH_CHANNEL_2_RIGHT</ref><sp/>=<sp/>1U<sp/><sp/></highlight></codeline>
 <codeline lineno="205"><highlight class="normal">}<sp/><ref refid="group___i2_s_1ga8e7a5c82ca942de7450cfba67907aa22" kindref="member">XMC_I2S_CH_CHANNEL_t</ref>;</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_INPUT</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_INPUT</highlight></codeline>
 <codeline lineno="211"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaf92c3536e625729aefc26a87ca915fa1a1f1c8603d2a16dd28d10fc20e07e0f23" kindref="member">XMC_I2S_CH_INPUT_DIN0</ref><sp/>=<sp/>0UL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaf92c3536e625729aefc26a87ca915fa1aa489eba5dd199e2763f913d9cd182ad0" kindref="member">XMC_I2S_CH_INPUT_SLAVE_SCLKIN</ref><sp/>=<sp/>1UL,<sp/></highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaf92c3536e625729aefc26a87ca915fa1aa2078ff62f39e669f5d7359edc2daa10" kindref="member">XMC_I2S_CH_INPUT_SLAVE_WA</ref><sp/>=<sp/>2UL,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="215"><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="216"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaf92c3536e625729aefc26a87ca915fa1a5185333fb09982c55cb169c274486b63" kindref="member">XMC_I2S_CH_INPUT_DIN1</ref><sp/>=<sp/>3UL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="217"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaf92c3536e625729aefc26a87ca915fa1a42fbab05215695e05b455624d9b18823" kindref="member">XMC_I2S_CH_INPUT_DIN2</ref><sp/>=<sp/>4UL,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="218"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1ggaf92c3536e625729aefc26a87ca915fa1a2f5da0034674287460fcd83cf7512660" kindref="member">XMC_I2S_CH_INPUT_DIN3</ref><sp/>=<sp/>5UL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="219"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="220"><highlight class="normal">}<sp/><ref refid="group___i2_s_1gaf92c3536e625729aefc26a87ca915fa1" kindref="member">XMC_I2S_CH_INPUT_t</ref>;</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_BUS_MODE</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_I2S_CH_BUS_MODE</highlight></codeline>
 <codeline lineno="226"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga21a01621957ee4befb0742623b7deaf8ac94943f0fe50ea5db0ba76b0e7164ac9" kindref="member">XMC_I2S_CH_BUS_MODE_MASTER</ref>,<sp/></highlight></codeline>
 <codeline lineno="228"><highlight class="normal"><sp/><sp/><ref refid="group___i2_s_1gga21a01621957ee4befb0742623b7deaf8a482da8c823c483b895a4c1d35b969372" kindref="member">XMC_I2S_CH_BUS_MODE_SLAVE</ref><sp/><sp/><sp/></highlight></codeline>
@@ -2219,8 +2219,8 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
 <codeline lineno="231"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
 <codeline lineno="232"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
-<codeline lineno="233"><highlight class="comment"><sp/>*******************************************************************************/</highlight></codeline>
-<codeline lineno="237" refid="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_I2S_CH_CONFIG</highlight></codeline>
+<codeline lineno="233"><highlight class="comment"><sp/>*******************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_I2S_CH_CONFIG</highlight></codeline>
 <codeline lineno="238"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"><sp/><sp/>uint32_t<sp/>baudrate;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normal_divider_mode;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2239,7 +2239,7 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="257"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1gab82202f0981b705a15ab7ed80ddc6b09" kindref="member">XMC_I2S_CH_InitEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_I2S_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>init_brg);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1gab82202f0981b705a15ab7ed80ddc6b09" kindref="member">XMC_I2S_CH_InitEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_I2S_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>init_brg);</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"></highlight></codeline>
 <codeline lineno="307"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga9b4b3f64ebe0ab20c359f6184e923d98" kindref="member">XMC_I2S_CH_Init</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_I2S_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config)</highlight></codeline>
 <codeline lineno="308"><highlight class="normal">{</highlight></codeline>
@@ -2258,9 +2258,9 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="363"><highlight class="normal"></highlight></codeline>
 <codeline lineno="379"><highlight class="normal"><ref refid="group___i2_s_1gad79d76187d3de45ba4d8ec7f17989a20" kindref="member">XMC_I2S_CH_STATUS_t</ref><sp/><ref refid="group___i2_s_1ga429db55541512a3a9c61a1f1655a1ee0" kindref="member">XMC_I2S_CH_SetBaudrateEx</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>rate,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normal_divider_mode);</highlight></codeline>
 <codeline lineno="380"><highlight class="normal"></highlight></codeline>
-<codeline lineno="392"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1gabb2198a50935a491a48686d85b53f0bf" kindref="member">XMC_I2S_CH_SetSystemWordLength</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>sclk_cycles_system_word_length);</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1gabb2198a50935a491a48686d85b53f0bf" kindref="member">XMC_I2S_CH_SetSystemWordLength</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>sclk_cycles_system_word_length);</highlight></codeline>
 <codeline lineno="393"><highlight class="normal"></highlight></codeline>
-<codeline lineno="411"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga961ec248ea914b53a1e7595f4a0e8d01" kindref="member">XMC_I2S_CH_Transmit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga8e7a5c82ca942de7450cfba67907aa22" kindref="member">XMC_I2S_CH_CHANNEL_t</ref><sp/>channel_number);</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga961ec248ea914b53a1e7595f4a0e8d01" kindref="member">XMC_I2S_CH_Transmit</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint16_t<sp/>data,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga8e7a5c82ca942de7450cfba67907aa22" kindref="member">XMC_I2S_CH_CHANNEL_t</ref><sp/>channel_number);</highlight></codeline>
 <codeline lineno="412"><highlight class="normal"></highlight></codeline>
 <codeline lineno="428"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga1c7bd3c147219fce76f9c1c61b21898a" kindref="member">XMC_I2S_CH_Receive</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga8e7a5c82ca942de7450cfba67907aa22" kindref="member">XMC_I2S_CH_CHANNEL_t</ref><sp/>channel_number)</highlight></codeline>
 <codeline lineno="429"><highlight class="normal">{</highlight></codeline>
@@ -2280,9 +2280,9 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="482"><highlight class="normal"><sp/><sp/>channel-&gt;<ref refid="struct_x_m_c___u_s_i_c___c_h__t_1ac005cdf6a4e1350830161ee7ef88b9a2" kindref="member">SCTR</ref><sp/>|=<sp/>(uint32_t)USIC_CH_SCTR_SDIR_Msk;</highlight></codeline>
 <codeline lineno="483"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="484"><highlight class="normal"></highlight></codeline>
-<codeline lineno="501"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga3dd5f7a8841af9489527611acdfa1bd4" kindref="member">XMC_I2S_CH_EnableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga3dd5f7a8841af9489527611acdfa1bd4" kindref="member">XMC_I2S_CH_EnableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="502"><highlight class="normal"></highlight></codeline>
-<codeline lineno="518"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga624bd3292e9b6ea3bb41689d41fadb27" kindref="member">XMC_I2S_CH_DisableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___i2_s_1ga624bd3292e9b6ea3bb41689d41fadb27" kindref="member">XMC_I2S_CH_DisableEvent</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="519"><highlight class="normal"></highlight></codeline>
 <codeline lineno="532"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___i2_s_1ga8ea6d90429a2ac4de4bbe1db35a7087c" kindref="member">XMC_I2S_CH_GetStatusFlag</ref>(<ref refid="struct_x_m_c___u_s_i_c___c_h__t" kindref="compound">XMC_USIC_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel)</highlight></codeline>
 <codeline lineno="533"><highlight class="normal">{</highlight></codeline>
@@ -2392,8 +2392,8 @@ Normally WA signal is active low level signal. This is configured in <ref refid=
 <codeline lineno="881"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="882"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="883"><highlight class="normal"></highlight></codeline>
-<codeline lineno="888"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_I2S_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="888"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_I2S_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h"/>
   </compounddef>
 </doxygen>

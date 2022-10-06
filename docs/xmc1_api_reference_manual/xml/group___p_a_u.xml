@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___p_a_u" kind="group">
     <compoundname>PAU</compoundname>
     <title>Peripheral Access Unit (PAU)</title>
@@ -59,7 +59,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>MATH CORDIC Privilege Disable Flag </para>
+<para>MATH CORDIC Privilege Disable Flag <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___p_a_u_1gga02b04cbd81dc39714020749abb0cf194a9974560db824526fc57f915f3e1b368d" prot="public">
@@ -213,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="114" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="113" bodyend="241"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="113" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="114" bodyend="241"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_a_u_1ga1ee3b9e78e198fcb50a3a25258290ed8" prot="public" static="no" strong="no">
         <type></type>
@@ -252,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="104" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="103" bodyend="108"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="103" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="104" bodyend="108"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -290,7 +291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="308" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="308" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" declline="308" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___p_a_u_1ga7abe9d04ce8ba287e1128801b723b457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -326,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="291" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="291" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" declline="291" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___p_a_u_1ga44ef1042f01f1d738766bece457f914e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -350,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="362" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="362" bodyend="365"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="362" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="362" bodyend="365"/>
       </memberdef>
       <memberdef kind="function" id="group___p_a_u_1gadf5baa73b031d6225e3bd777dee91303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -374,7 +375,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="376" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="376" bodyend="379"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="376" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="376" bodyend="379"/>
       </memberdef>
       <memberdef kind="function" id="group___p_a_u_1ga8730363d9dd4777a185f797a25fcefe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -398,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="348" bodyend="351"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="348" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="348" bodyend="351"/>
       </memberdef>
       <memberdef kind="function" id="group___p_a_u_1ga52443d9f517f71027ad92876a8eab449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -434,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="324" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="324" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" declline="324" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___p_a_u_1gabf6db7229473508b4e193ce30b4793c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -468,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="337" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="337" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" declline="337" declcolumn="6"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -482,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="89" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="89" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="89" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___p_a_u_1ga50bd40e331a3b70cd3cc702f42754ea8" prot="public" static="no">
         <name>XMC_PAU_CHECK_MODULE_PTR</name>
@@ -494,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="94" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="94" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" line="94" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_pau.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

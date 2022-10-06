@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc1__gpio_8h" kind="file" language="C++">
     <compoundname>xmc1_gpio.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <includes local="yes">xmc1_gpio_map.h</includes>
     <includedby refid="xmc__gpio_8h" local="yes">xmc_gpio.h</includedby>
     <incdepgraph>
-      <node id="7">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="8">
-        <label>xmc1_gpio_map.h</label>
-      </node>
-      <node id="6">
+      <node id="1">
         <label>xmc1_gpio.h</label>
         <link refid="xmc1__gpio_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
+      </node>
+      <node id="3">
+        <label>xmc1_gpio_map.h</label>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" prot="public">XMC_GPIO_CONFIG_t</innerclass>
@@ -34,12 +34,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="119" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="119" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1ga6ec8cc5069474f50666442ecef3ad294" prot="public" static="no">
         <name>XMC_GPIO_CHECK_INPUT_HYSTERESIS</name>
         <param><defname>hysteresis</defname></param>
-        <initializer>((hysteresis == <ref refid="group___g_p_i_o_1gga335e88e0140aa984a2b11cc267ccd01fa8a510f4229f3953f4215c4cc618e4f5e" kindref="member">XMC_GPIO_INPUT_HYSTERESIS_STANDARD</ref>) || \
+        <initializer>                                                     ((hysteresis == <ref refid="group___g_p_i_o_1gga335e88e0140aa984a2b11cc267ccd01fa8a510f4229f3953f4215c4cc618e4f5e" kindref="member">XMC_GPIO_INPUT_HYSTERESIS_STANDARD</ref>) || \
                                                      (hysteresis == <ref refid="group___g_p_i_o_1gga335e88e0140aa984a2b11cc267ccd01fac887dfd323ce5ac4cc36e36927c16054" kindref="member">XMC_GPIO_INPUT_HYSTERESIS_LARGE</ref>))</initializer>
         <briefdescription>
         </briefdescription>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="121" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="121" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="121" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1gad13bb947b3fa2a1b3dfd9a6e106b0b63" prot="public" static="no">
         <name>XMC_GPIO_CHECK_OUTPUT_PORT</name>
@@ -59,12 +59,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="117" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="117" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="117" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1gab2bdc694c750501c99d097c3ffbdf859" prot="public" static="no">
         <name>XMC_GPIO_CHECK_PORT</name>
         <param><defname>port</defname></param>
-        <initializer>(XMC_GPIO_CHECK_PORT0(port) || \
+        <initializer>                                   (XMC_GPIO_CHECK_PORT0(port) || \
                                    XMC_GPIO_CHECK_PORT1(port) || \
                                    XMC_GPIO_CHECK_PORT2(port) || \
 								   XMC_GPIO_CHECK_PORT3(port) || \
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="111" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="111" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="111" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1ga07f635d7e5c2a8b06c1cb490a5020338" prot="public" static="no">
         <name>XMC_GPIO_CHECK_PORT0</name>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="80" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="80" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="80" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1gaadf7ec6735bb9b3f2df5e99308a93d20" prot="public" static="no">
         <name>XMC_GPIO_CHECK_PORT1</name>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="87" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="87" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="87" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1ga0bb62af04ead2cc48cee553cb95ded10" prot="public" static="no">
         <name>XMC_GPIO_CHECK_PORT2</name>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="94" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="94" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="94" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1ga335c301cb4c38f4df8e36967ba94446e" prot="public" static="no">
         <name>XMC_GPIO_CHECK_PORT3</name>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="101" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="101" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="101" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1ga7fff70041fae98ccaea9ed2e2fd00710" prot="public" static="no">
         <name>XMC_GPIO_CHECK_PORT4</name>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="108" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="108" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="108" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="108" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -167,14 +167,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="184" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="183" bodyend="187"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="183" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="184" bodyend="187"/>
       </memberdef>
       <memberdef kind="enum" id="group___g_p_i_o_1ga9cd340b4c59ef98d0ab5a6ccebbacc4c" prot="public" static="no" strong="no">
         <type></type>
         <name>XMC_GPIO_MODE_t</name>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca202a7bf38adbd68c98e1e23fbcb38447" prot="public">
           <name>XMC_GPIO_MODE_INPUT_TRISTATE</name>
-          <initializer>= 0x0UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x0UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -183,7 +183,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4caf2501f45bb9a53f8976ce2f59487ab2f" prot="public">
           <name>XMC_GPIO_MODE_INPUT_PULL_DOWN</name>
-          <initializer>= 0x1UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x1UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -192,7 +192,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4caa652625c5bddeb2d77ccd51106de249c" prot="public">
           <name>XMC_GPIO_MODE_INPUT_PULL_UP</name>
-          <initializer>= 0x2UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x2UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -201,7 +201,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca33a362b236c2ce5bc78b37512ecc87ab" prot="public">
           <name>XMC_GPIO_MODE_INPUT_SAMPLING</name>
-          <initializer>= 0x3UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x3UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -210,7 +210,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca2a48d4d745fbbead0b6816f5039eee70" prot="public">
           <name>XMC_GPIO_MODE_INPUT_INVERTED_TRISTATE</name>
-          <initializer>= 0x4UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x4UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -219,7 +219,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4caa5c0965743ad880f39b52eb66cb91653" prot="public">
           <name>XMC_GPIO_MODE_INPUT_INVERTED_PULL_DOWN</name>
-          <initializer>= 0x5UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x5UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -228,7 +228,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca3af9e167713371a4671a9f264d3420c2" prot="public">
           <name>XMC_GPIO_MODE_INPUT_INVERTED_PULL_UP</name>
-          <initializer>= 0x6UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x6UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -237,7 +237,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca1648511819185a728d0f21d48d5806c4" prot="public">
           <name>XMC_GPIO_MODE_INPUT_INVERTED_SAMPLING</name>
-          <initializer>= 0x7UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x7UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -264,7 +264,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca552a13bac524e3e022e2d0be2a88719e" prot="public">
           <name>XMC_GPIO_MODE_OUTPUT_ALT1</name>
-          <initializer>= 0x1UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x1UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -272,7 +272,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca86994d38a8c82129121b26258cc593b9" prot="public">
           <name>XMC_GPIO_MODE_OUTPUT_ALT2</name>
-          <initializer>= 0x2UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x2UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -280,7 +280,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca914775a797dbcf7249086392e47d50e9" prot="public">
           <name>XMC_GPIO_MODE_OUTPUT_ALT3</name>
-          <initializer>= 0x3UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x3UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -288,7 +288,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca6564e516c242d195ddf7c7f5a2c98dfd" prot="public">
           <name>XMC_GPIO_MODE_OUTPUT_ALT4</name>
-          <initializer>= 0x4UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x4UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -296,7 +296,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca4083154981a9aa3e42915ebae6aaff63" prot="public">
           <name>XMC_GPIO_MODE_OUTPUT_ALT5</name>
-          <initializer>= 0x5UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x5UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -304,7 +304,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca8fff2d46619f6096004c85abb0d20368" prot="public">
           <name>XMC_GPIO_MODE_OUTPUT_ALT6</name>
-          <initializer>= 0x6UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x6UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -312,7 +312,7 @@
         </enumvalue>
         <enumvalue id="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca66ad8165cd747fad2bcc73a47ff69cc8" prot="public">
           <name>XMC_GPIO_MODE_OUTPUT_ALT7</name>
-          <initializer>= 0x7UL &lt;&lt; PORT_IOCR_PC_Pos</initializer>
+          <initializer>= 0x7UL &lt;&lt;  PORT0_IOCR0_PC0_Pos</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="132" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="131" bodyend="176"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="131" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="132" bodyend="176"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -470,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="232" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="232" bodyend="267"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="232" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" bodystart="232" bodyend="267"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1ga1955e464f4516c08a1fbb2b8b55ca3ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -530,7 +530,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="291" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" line="291" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h" declline="291" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -541,8 +541,8 @@
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="54"><highlight class="preprocessor">#ifndef<sp/>XMC1_GPIO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC1_GPIO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC1_GPIO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
@@ -555,7 +555,7 @@
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc1_gpio_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
 <codeline lineno="73"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="74"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
@@ -609,8 +609,8 @@
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
 <codeline lineno="125"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
-<codeline lineno="126"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight></codeline>
-<codeline lineno="131"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_GPIO_MODE</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_GPIO_MODE</highlight></codeline>
 <codeline lineno="132"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca202a7bf38adbd68c98e1e23fbcb38447" kindref="member">XMC_GPIO_MODE_INPUT_TRISTATE</ref><sp/>=<sp/>0x0UL<sp/>&lt;&lt;<sp/>PORT_IOCR_PC_Pos,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="134"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4caf2501f45bb9a53f8976ce2f59487ab2f" kindref="member">XMC_GPIO_MODE_INPUT_PULL_DOWN</ref><sp/>=<sp/>0x1UL<sp/>&lt;&lt;<sp/>PORT_IOCR_PC_Pos,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -640,10 +640,10 @@
 <codeline lineno="158"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4cacd62d187c25a2eba8801be78867c1da4" kindref="member">XMC_GPIO_MODE_OUTPUT_PUSH_PULL_ALT5</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca1dd500ffd237ac6384155de83510d3c5" kindref="member">XMC_GPIO_MODE_OUTPUT_PUSH_PULL</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT5,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca3666bc96353ef9412ff35edcb8118ebe" kindref="member">XMC_GPIO_MODE_OUTPUT_PUSH_PULL_ALT6</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca1dd500ffd237ac6384155de83510d3c5" kindref="member">XMC_GPIO_MODE_OUTPUT_PUSH_PULL</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT6,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca94863366713c9656e41b3556f240e3ae" kindref="member">XMC_GPIO_MODE_OUTPUT_PUSH_PULL_ALT7</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca1dd500ffd237ac6384155de83510d3c5" kindref="member">XMC_GPIO_MODE_OUTPUT_PUSH_PULL</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT7,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="161"><highlight class="preprocessor">#if<sp/>(UC_SERIES<sp/>==<sp/>XMC14)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(UC_SERIES<sp/>==<sp/>XMC14)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/>XMC_GPIO_MODE_OUTPUT_PUSH_PULL_ALT8<sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca1dd500ffd237ac6384155de83510d3c5" kindref="member">XMC_GPIO_MODE_OUTPUT_PUSH_PULL</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT8,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="163"><highlight class="normal"><sp/><sp/>XMC_GPIO_MODE_OUTPUT_PUSH_PULL_ALT9<sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca1dd500ffd237ac6384155de83510d3c5" kindref="member">XMC_GPIO_MODE_OUTPUT_PUSH_PULL</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT9,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="164"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="165"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4cab00cfffb5ef139109774ea8fe3881e6c" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN_ALT1</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT1,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca9e8096b2bbfe7744623207836e6f24c7" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN_ALT2</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT2,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca388939e0904e5fa188f994abb088eb6a" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN_ALT3</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT3,<sp/><sp/><sp/></highlight></codeline>
@@ -651,13 +651,13 @@
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca0b79f34e23b6ad82812c1bd712a16ed0" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN_ALT5</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT5,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4cabfb5d1c4c8288d8eb2e35d7afc188d45" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN_ALT6</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT6,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca8da5072c03b0f8929bc3505d8f2a9a9c" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN_ALT7</ref><sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT7,<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="172"><highlight class="preprocessor">#if<sp/>(UC_SERIES<sp/>==<sp/>XMC14)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(UC_SERIES<sp/>==<sp/>XMC14)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="173"><highlight class="normal"><sp/><sp/>XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN_ALT8<sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT8,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"><sp/><sp/>XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN_ALT9<sp/>=<sp/><ref refid="group___g_p_i_o_1gga9cd340b4c59ef98d0ab5a6ccebbacc4ca5da4dbfec1769060c67fd5879d9a19c9" kindref="member">XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN</ref><sp/>|<sp/>XMC_GPIO_MODE_OUTPUT_ALT9<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="175"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="176"><highlight class="normal">}<sp/><ref refid="group___g_p_i_o_1ga9cd340b4c59ef98d0ab5a6ccebbacc4c" kindref="member">XMC_GPIO_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_GPIO_INPUT_HYSTERESIS</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_GPIO_INPUT_HYSTERESIS</highlight></codeline>
 <codeline lineno="184"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga335e88e0140aa984a2b11cc267ccd01fa8a510f4229f3953f4215c4cc618e4f5e" kindref="member">XMC_GPIO_INPUT_HYSTERESIS_STANDARD</ref><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1gga335e88e0140aa984a2b11cc267ccd01fac887dfd323ce5ac4cc36e36927c16054" kindref="member">XMC_GPIO_INPUT_HYSTERESIS_LARGE</ref><sp/><sp/><sp/><sp/>=<sp/>0x4U<sp/><sp/></highlight></codeline>
@@ -666,8 +666,8 @@
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
 <codeline lineno="191"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
-<codeline lineno="192"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight></codeline>
-<codeline lineno="196" refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_GPIO_PORT</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_GPIO_PORT</highlight></codeline>
 <codeline lineno="197"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>OUT;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="200"><highlight class="normal"><sp/><sp/>__O<sp/><sp/>uint32_t<sp/><sp/>OMR;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -684,7 +684,7 @@
 <codeline lineno="216"><highlight class="normal"><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>HWSEL;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="217"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref>;</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222" refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_GPIO_CONFIG</highlight></codeline>
+<codeline lineno="222" refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_GPIO_CONFIG</highlight></codeline>
 <codeline lineno="223"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1ga9cd340b4c59ef98d0ab5a6ccebbacc4c" kindref="member">XMC_GPIO_MODE_t</ref><sp/>mode;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1ga335e88e0140aa984a2b11cc267ccd01f" kindref="member">XMC_GPIO_INPUT_HYSTERESIS_t</ref><sp/>input_hysteresis;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -732,15 +732,15 @@
 <codeline lineno="267"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="268"><highlight class="normal"></highlight></codeline>
 <codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="291"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga1955e464f4516c08a1fbb2b8b55ca3ac" kindref="member">XMC_GPIO_SetInputHysteresis</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga1955e464f4516c08a1fbb2b8b55ca3ac" kindref="member">XMC_GPIO_SetInputHysteresis</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin,</highlight></codeline>
 <codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga335e88e0140aa984a2b11cc267ccd01f" kindref="member">XMC_GPIO_INPUT_HYSTERESIS_t</ref><sp/>hysteresis);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="300"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>UC_FAMILY<sp/>==<sp/>XMC1<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>UC_FAMILY<sp/>==<sp/>XMC1<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="301"><highlight class="normal"></highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC1_GPIO_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="303"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc1_gpio.h"/>
   </compounddef>
 </doxygen>

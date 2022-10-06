@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___d_a_c" kind="group">
     <compoundname>DAC</compoundname>
     <title>Digital to Analog Converter (DAC)</title>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="219" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="218" bodyend="222"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="218" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="219" bodyend="222"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1gab145218c4b905bdd94c85811b8ec7a2c" prot="public" static="no" strong="no">
         <type></type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="180" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="179" bodyend="188"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="179" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="180" bodyend="188"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1gaf5e272a25affac666157d497783ccb2b" prot="public" static="no" strong="no">
         <type></type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="265" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="264" bodyend="268"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="264" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="265" bodyend="268"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1ga9372c99ba8d8daa984786b8f042d4007" prot="public" static="no" strong="no">
         <type></type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="228" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="227" bodyend="259"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="227" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="228" bodyend="259"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1gaf1e4fb1ca9c2bad0de893feee98e6228" prot="public" static="no" strong="no">
         <type></type>
@@ -322,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="274" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="273" bodyend="277"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="273" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="274" bodyend="277"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" prot="public" static="no" strong="no">
         <type></type>
@@ -369,7 +369,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Frequency can&apos;t be configured. Frequency is to high. </para>
+<para>Frequency can&apos;t be configured. Frequency is to high. <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -379,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="168" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="167" bodyend="174"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="167" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="168" bodyend="174"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_a_c_1ga9176e4c7b167ec22b5673e05ade18eba" prot="public" static="no" strong="no">
         <type></type>
@@ -481,7 +482,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="194" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="193" bodyend="213"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="193" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="194" bodyend="213"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -531,7 +532,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1147" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1147" bodyend="1153"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1147" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1147" bodyend="1153"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gac8fe5610029750fe602088229eb3337c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -581,7 +582,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="543" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="543" bodyend="549"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="543" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="543" bodyend="549"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga901c74dfd9e06a0bdb4ead0d87bb4f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -631,7 +632,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1281" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1281" bodyend="1287"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1281" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1281" bodyend="1287"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga1b40c57534700d37e8b70c2ea2f2eea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -683,7 +684,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="792" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="792" bodyend="799"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="792" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="792" bodyend="799"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gac2e2a705070f03534b1b91ea873b0aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -734,7 +735,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1126" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1126" bodyend="1132"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1126" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1126" bodyend="1132"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gaf3fe5631a70e40f4d25c473b553ed5af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -784,7 +785,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="519" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="519" bodyend="525"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="519" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="519" bodyend="525"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga8bf98abf89180297539722636ed9d51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -834,7 +835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1256" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1256" bodyend="1262"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1256" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1256" bodyend="1262"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga973af2e272600c5eeb163ee83579c738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -886,7 +887,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="764" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="764" bodyend="771"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="764" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="764" bodyend="771"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga08350c8116ed004dd36f5ba0902df12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga9372c99ba8d8daa984786b8f042d4007" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_t</ref></type>
@@ -935,7 +936,7 @@ Scaling factor is determined by reading bit-fields <emphasis>MULDIV</emphasis> a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1229" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1229" bodyend="1235"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1229" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1229" bodyend="1235"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga3cd25ca6afe7a138dcb5bb42c449db0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -985,7 +986,7 @@ Scaling factor is determined by reading bit-fields <emphasis>MULDIV</emphasis> a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="846" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="846" bodyend="852"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="846" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="846" bodyend="852"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga5dd54e68ac3b4403aa5ba432f545f02e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1035,7 +1036,7 @@ Scaling factor is determined by reading bit-fields <emphasis>MULDIV</emphasis> a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="900" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="900" bodyend="906"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="900" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="900" bodyend="906"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga94d6569836131b45c58c039fd2fa6a04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1092,7 +1093,7 @@ Scaling factor is determined by reading bit-fields <emphasis>MULDIV</emphasis> a
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="500" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="500" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="500" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga200437bd896ff475b50a8aa30aea0b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1144,7 +1145,7 @@ false - if FIFO is not empty</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1333" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1333" bodyend="1339"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1333" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1333" bodyend="1339"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga73e8d8035927fad18c69a6adf9451ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1197,7 +1198,7 @@ false - if FIFO is not full</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1307" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1307" bodyend="1313"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1307" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1307" bodyend="1313"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga18bb5866a5a41077e678ff8c7c6de58c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1250,7 +1251,7 @@ false - if FIFO is not full</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="569" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="569" bodyend="575"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="569" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="569" bodyend="575"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gacdcfe6cd44bef3ebd95f96998604fec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -1314,7 +1315,7 @@ false - if FIFO is not full</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="955" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="955" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="955" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga1774217be659f37d640d13d48816762f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1369,7 +1370,7 @@ false - if FIFO is not full</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1023" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1023" bodyend="1031"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1023" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1023" bodyend="1031"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga1e1f75defe221c0db5b4133ca927e574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1412,7 +1413,6 @@ false - if FIFO is not full</para>
 <parametername>offset</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1435,7 +1435,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1177" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1177" bodyend="1184"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1177" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1177" bodyend="1184"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gabc5544309ce97e7edf14b950e72ffa3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1497,7 +1497,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1204" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1204" bodyend="1212"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1204" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1204" bodyend="1212"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gab3c155e1596241e323a06bd449674410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1559,7 +1559,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="743" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="743" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="743" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga592cefaf4c5cc8e2cd83a1fa5472845d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -1622,9 +1622,9 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
 </para>
         </detaileddescription>
         <inbodydescription>
-<para>&lt; DAC samples per period in pattern mode </para>
+<para>&lt; DAC samples per period in pattern mode</para>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1001" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1001" bodyend="1009"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1001" column="22" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1001" bodyend="1009"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gabdf995111daf8c4495bf1d2ef2ce58e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -1688,7 +1688,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="978" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="978" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="978" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gaf692f5b60cf4c74192b554ec88254aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1750,7 +1750,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="821" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="821" bodyend="827"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="821" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="821" bodyend="827"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gafe44b3910c68e67808aa372a4c6c86ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1812,7 +1812,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="874" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="874" bodyend="881"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="874" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="874" bodyend="881"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga5b0260c72dc3e2772c589ec48ffd2c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1862,7 +1862,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1050" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1050" bodyend="1056"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1050" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1050" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gac96c41befd18976b555d134013f231c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1919,7 +1919,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="922" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="922" bodyend="930"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="922" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="922" bodyend="930"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gae4aae1cc510efc383a66eb5c9d258769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1969,7 +1969,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1075" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1075" bodyend="1081"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1075" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1075" bodyend="1081"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga9620b8278dcabb391d7cf8b2b69f8311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2019,7 +2019,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1101" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1101" bodyend="1107"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="1101" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="1101" bodyend="1107"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga34d4edcff18efbc8893148120362a589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2093,7 +2093,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="645" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="645" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="645" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga8cdc0d2ae0c0d3e0ad8ed6babcbd4c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2165,7 +2165,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="720" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="720" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="720" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga9c8c3079b34269e1190e067c34a55f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2261,7 +2261,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="697" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="697" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="697" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga1301e3dd09e47e4e81934de759675230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2359,7 +2359,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="672" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="672" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="672" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga6c8a12197978db3edc3216444faee6b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_a_c_1ga4e37be380b4227fc103ef44c765f2d4d" kindref="member">XMC_DAC_CH_STATUS_t</ref></type>
@@ -2409,7 +2409,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="625" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="625" column="21" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="625" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga8e3093f1aa4f47b0793ea0e992580040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2473,7 +2473,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="601" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="601" bodyend="607"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="601" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="601" bodyend="607"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga67de176f36749cba8a65ad1b9815f0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2511,7 +2511,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="390" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="390" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="390" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gab9668535a4a093bd1a3eb36cbc474a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2549,7 +2549,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="453" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="453" bodyend="458"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="453" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="453" bodyend="458"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gab97383cd03ebb21046c403c5c835f55c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2588,7 +2588,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="373" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="373" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="373" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga4c81d639c99a26cebaeea3b20947a15c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2628,7 +2628,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="430" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="430" bodyend="435"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="430" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="430" bodyend="435"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1gafdcd0136ab6dfc0d98d463136765ab69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2668,7 +2668,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="409" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="409" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" declline="409" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_a_c_1ga81b11cead3aaabed68b046d40628f89d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2730,7 +2730,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="478" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="478" bodyend="483"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="478" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="478" bodyend="483"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -2744,7 +2744,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="116" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="116" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="116" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gab813b33cdf9d40f046283a1b4e6feea4" prot="public" static="no">
         <name>XMC_DAC_DACCFG_NEGATE_Msk</name>
@@ -2755,7 +2755,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="118" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="118" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="118" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga66217cfe3a783cdb0103e0ad86817e5f" prot="public" static="no">
         <name>XMC_DAC_IS_CHANNEL_VALID</name>
@@ -2767,7 +2767,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="127" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="127" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="127" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga2ea47447513a439b8cb61098456eff23" prot="public" static="no">
         <name>XMC_DAC_IS_DAC_VALID</name>
@@ -2779,12 +2779,12 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="126" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="126" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="126" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga999b18a418cf42fc5306d9bdd3460dc7" prot="public" static="no">
         <name>XMC_DAC_IS_MODE_VALID</name>
         <param><defname>MODE</defname></param>
-        <initializer>((MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2cab60cc89d056f1e994f95e5cf0ab3ee3f" kindref="member">XMC_DAC_CH_MODE_IDLE</ref>) ||\
+        <initializer>                                              ((MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2cab60cc89d056f1e994f95e5cf0ab3ee3f" kindref="member">XMC_DAC_CH_MODE_IDLE</ref>) ||\
                                               (MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2caebed4f6d5058ad45ab0a93322898a102" kindref="member">XMC_DAC_CH_MODE_SINGLE</ref>) ||\
                                               (MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2ca9dae61c469e47cd75be8a9e9689d8393" kindref="member">XMC_DAC_CH_MODE_DATA</ref>) ||\
                                               (MODE == <ref refid="group___d_a_c_1ggab145218c4b905bdd94c85811b8ec7a2ca00245fd95505e05d1c3cc6670265fef0" kindref="member">XMC_DAC_CH_MODE_PATTERN</ref>) ||\
@@ -2796,12 +2796,12 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="137" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="137" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="137" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gaf4b72f33f37ade76e586364d47542bee" prot="public" static="no">
         <name>XMC_DAC_IS_OUTPUT_SCALE_VALID</name>
         <param><defname>SCALE</defname></param>
-        <initializer>((SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007ae98552d53e632106ecf1ce567b570a47" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_NONE</ref>) ||\
+        <initializer>                                              ((SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007ae98552d53e632106ecf1ce567b570a47" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_NONE</ref>) ||\
                                               (SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007a01ebb295f7321fddbaa3ec0a969bdad6" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_MUL_2</ref>) ||\
                                               (SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007a7e8a6467c766097010ce1c173715dbc8" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_MUL_4</ref>) ||\
                                               (SCALE == <ref refid="group___d_a_c_1gga9372c99ba8d8daa984786b8f042d4007aae6733f0486d9c306e749f222ef32e86" kindref="member">XMC_DAC_CH_OUTPUT_SCALE_MUL_8</ref>) ||\
@@ -2822,12 +2822,12 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="143" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="143" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="143" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gada64ad16bfc8f312f56378244d2a1344" prot="public" static="no">
         <name>XMC_DAC_IS_TRIGGER_VALID</name>
         <param><defname>TRIGGER</defname></param>
-        <initializer>((TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaaf3c5c5c663d068867d11158e19e0c6e2" kindref="member">XMC_DAC_CH_TRIGGER_INTERNAL</ref>) ||\
+        <initializer>                                              ((TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaaf3c5c5c663d068867d11158e19e0c6e2" kindref="member">XMC_DAC_CH_TRIGGER_INTERNAL</ref>) ||\
                                               (TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaae8546e01f01037086fe41be6aeb3a07a" kindref="member">XMC_DAC_CH_TRIGGER_EXTERNAL_CCU80_SR1</ref>) ||\
                                               (TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaaa13dab51ee1d83ec23cfbe90deed07cb" kindref="member">XMC_DAC_CH_TRIGGER_EXTERNAL_CCU40_SR1</ref>) ||\
                                               (TRIGGER == <ref refid="group___d_a_c_1gga9176e4c7b167ec22b5673e05ade18ebaa333a073d7997ad313e648b396c6fdbea" kindref="member">XMC_DAC_CH_TRIGGER_EXTERNAL_CCU41_SR1</ref>) ||\
@@ -2842,7 +2842,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="128" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="128" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="128" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gaca090211fa47a1235a81308382f7241c" prot="public" static="no">
         <name>XMC_DAC_NO_CHANNELS</name>
@@ -2854,7 +2854,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="119" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="119" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga98fe05010708becbd4f109ccee7088b3" prot="public" static="no">
         <name>XMC_DAC_PATTERN_RECTANGLE</name>
@@ -2866,7 +2866,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="124" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="124" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="124" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1ga13c819b94bc1c769a4c879825accd83d" prot="public" static="no">
         <name>XMC_DAC_PATTERN_SINE</name>
@@ -2878,7 +2878,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="123" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gacb2705c3a364d91468f4a4f47f7d5145" prot="public" static="no">
         <name>XMC_DAC_PATTERN_TRIANGLE</name>
@@ -2890,7 +2890,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="122" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="122" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="122" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_a_c_1gaed680bf1e0aacea27ca505c00822eef9" prot="public" static="no">
         <name>XMC_DAC_SAMPLES_PER_PERIOD</name>
@@ -2902,7 +2902,7 @@ interpreted as : -128 to 127 (twos complement) in signed mode and 0 to 255 in un
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="120" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="120" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" line="120" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dac.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

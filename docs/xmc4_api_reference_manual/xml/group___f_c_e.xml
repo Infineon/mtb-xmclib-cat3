@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group___f_c_e" kind="group">
     <compoundname>FCE</compoundname>
     <title>Flexible CRC Engine(FCE)</title>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="150" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="149" bodyend="154"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="149" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="150" bodyend="154"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_c_e_1ga2bac6d5765db73d1d45e4ae26b44a133" prot="public" static="no" strong="no">
         <type></type>
@@ -55,7 +55,7 @@
           </briefdescription>
           <detaileddescription>
 <para>Enables CRC Mismatch interrupt <linebreak/>
- </para>
+</para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___f_c_e_1gga2bac6d5765db73d1d45e4ae26b44a133ab5ca82e77fc3733d342ca451aeda8c96" prot="public">
@@ -65,7 +65,7 @@
           </briefdescription>
           <detaileddescription>
 <para>Enables Configuration error interrupt <linebreak/>
- </para>
+</para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___f_c_e_1gga2bac6d5765db73d1d45e4ae26b44a133a9e048ba40ebffaecc16a107b534bfca7" prot="public">
@@ -75,7 +75,7 @@
           </briefdescription>
           <detaileddescription>
 <para>Enables Length error interrupt <linebreak/>
- </para>
+</para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___f_c_e_1gga2bac6d5765db73d1d45e4ae26b44a133a4f6654974301b9f416c7a3152f940cd7" prot="public">
@@ -85,7 +85,7 @@
           </briefdescription>
           <detaileddescription>
 <para>Enables Bus error interrupt <linebreak/>
- </para>
+</para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="130" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="129" bodyend="135"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="129" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="130" bodyend="135"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_c_e_1ga87c160453f1680dbc2c511faf86305af" prot="public" static="no" strong="no">
         <type></type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="141" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="140" bodyend="144"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="140" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="141" bodyend="144"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_c_e_1gac1640d166dc06bd70e37c3f10feb29b0" prot="public" static="no" strong="no">
         <type></type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="171" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="170" bodyend="175"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="170" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="171" bodyend="175"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_c_e_1gaa201918317831fdfdf8e8d841b98bf1d" prot="public" static="no" strong="no">
         <type></type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="181" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="180" bodyend="185"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="180" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="181" bodyend="185"/>
       </memberdef>
       <memberdef kind="enum" id="group___f_c_e_1ga255d187d760614e2eb51d8be58f89ac0" prot="public" static="no" strong="no">
         <type></type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="160" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="159" bodyend="165"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="159" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="160" bodyend="165"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="194" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="194" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="194" column="24" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="194" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="603" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="603" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="603" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga9ad0488c7a8eeb6a3d69a712e0f579fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___f_c_e_1gaa201918317831fdfdf8e8d841b98bf1d" kindref="member">XMC_FCE_STATUS_t</ref></type>
@@ -411,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="622" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="622" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="622" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga4f5f5dbaa42bc07f50568421d65c0b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___f_c_e_1gaa201918317831fdfdf8e8d841b98bf1d" kindref="member">XMC_FCE_STATUS_t</ref></type>
@@ -483,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="645" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="645" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="645" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1gab1c29941ffc8307c86fe292e0281c554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___f_c_e_1gaa201918317831fdfdf8e8d841b98bf1d" kindref="member">XMC_FCE_STATUS_t</ref></type>
@@ -555,7 +555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="664" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="664" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="664" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1gae9a0f7a14d2888951f8683bfb14e3926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___f_c_e_1gaa201918317831fdfdf8e8d841b98bf1d" kindref="member">XMC_FCE_STATUS_t</ref></type>
@@ -627,7 +627,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="579" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="579" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="579" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1gaaf51fa0f0908f85d7a7600ff8647db01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -673,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="434" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="434" bodyend="437"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="434" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="434" bodyend="437"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga56a95b1e8021a7f51a75bcf09cb139c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -708,7 +708,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="326" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="326" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="326" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1gafcc9d746d18eedb4308f8e23752bd21d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -758,7 +758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="516" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="516" bodyend="519"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="516" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="516" bodyend="519"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga322643ab4a1d580a72241711a156057f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -804,7 +804,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="400" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="400" bodyend="403"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="400" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="400" bodyend="403"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga548e5d8f435f91abf8436bea8bb7a5e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -852,7 +852,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="476" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="476" bodyend="479"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="476" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="476" bodyend="479"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga556a01f459a9fab6d30bb1df8eb664b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -885,7 +885,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="338" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="338" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="338" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1gad4f5492ceed9b2941b6ab0c41eed9a6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -935,7 +935,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="496" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="496" bodyend="499"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="496" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="496" bodyend="499"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga723d650743af1a525b40a9716327df95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -981,7 +981,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="384" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="384" bodyend="387"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="384" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="384" bodyend="387"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga4b935bce31e83a3ae63a694331ba2fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1029,7 +1029,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="455" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="455" bodyend="458"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="455" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="455" bodyend="458"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga33e6179662ae0971e68aef973a74b05c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1062,7 +1062,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="306" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="306" bodyend="309"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="306" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="306" bodyend="309"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga10e664d8268d58b4fb9eb1efdbdae969" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1106,7 +1106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="677" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="677" bodyend="680"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="677" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="677" bodyend="680"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga1fe595bbc0751b2b68468681832f443d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1152,7 +1152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="417" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="417" bodyend="420"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="417" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="417" bodyend="420"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga13573f1af0cd2763870914eb82bb792e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___f_c_e_1gaa201918317831fdfdf8e8d841b98bf1d" kindref="member">XMC_FCE_STATUS_t</ref></type>
@@ -1188,7 +1188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="355" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="355" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="355" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga2bda1fdc55b9ed600683884123d44478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1233,7 +1233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="368" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="368" bodyend="371"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="368" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="368" bodyend="371"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga1fe0d3174cf6fcc907442e429b699e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1293,7 +1293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="709" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="709" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="709" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga58e3933830d20733f76ca9296041994f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1353,7 +1353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="727" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="727" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="727" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga25252b703e5a74735a204a83ecd27f4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1386,7 +1386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="289" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="289" bodyend="292"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="289" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="289" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1gaa1cce83f757a114f8abcfcf8a89807cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1419,7 +1419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="259" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="259" bodyend="262"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="259" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="259" bodyend="262"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga18b50e156648da2f8e8dd0e6fe33e359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1452,7 +1452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="274" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="274" bodyend="277"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="274" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="274" bodyend="277"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga364416214c6a2c02dce02f78b8fb708c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1496,7 +1496,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="691" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="691" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" declline="691" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1ga3442156a013c7a23277e14cbf8f3b2c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1542,7 +1542,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="536" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="536" bodyend="540"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="536" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="536" bodyend="540"/>
       </memberdef>
       <memberdef kind="function" id="group___f_c_e_1gab694200a03236b2da346c6ffb4919ea1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1589,7 +1589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="555" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="555" bodyend="559"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="555" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="555" bodyend="559"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -1604,7 +1604,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="112" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="112" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="112" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1gae80e07a7aa16ae99cd675b8cc8d77b23" prot="public" static="no">
         <name>XMC_FCE_CRC32_0</name>
@@ -1617,7 +1617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="110" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="110" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="110" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1ga1d6eebed52e153c32cbe0ea0aa707bb5" prot="public" static="no">
         <name>XMC_FCE_CRC32_1</name>
@@ -1630,7 +1630,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="111" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="111" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="111" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1ga6fb39fa5f426ce8a794f573fcc765e10" prot="public" static="no">
         <name>XMC_FCE_CRC8</name>
@@ -1643,7 +1643,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="113" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="113" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="113" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1ga2d5bf647b58b26bf4b5a105f8581be07" prot="public" static="no">
         <name>XMC_FCE_INVSEL_RESET</name>
@@ -1655,7 +1655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="120" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="120" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="120" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1gaff6959c1e05562872196c1975ee64b1f" prot="public" static="no">
         <name>XMC_FCE_INVSEL_SET</name>
@@ -1667,7 +1667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="119" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="119" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1ga7aa4f66cea43e9a2dd3cc9f9c3c770b5" prot="public" static="no">
         <name>XMC_FCE_REFIN_RESET</name>
@@ -1679,7 +1679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="116" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="116" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="116" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1gafc995b86db4a1a45bbedaf73cac1ef8a" prot="public" static="no">
         <name>XMC_FCE_REFIN_SET</name>
@@ -1691,7 +1691,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="115" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="115" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="115" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1ga725cf1694b82279fccab75c73b4e8bee" prot="public" static="no">
         <name>XMC_FCE_REFOUT_RESET</name>
@@ -1703,7 +1703,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="118" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="118" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="118" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___f_c_e_1gaef5de33112144b2dce0a1dd95e7f092a" prot="public" static="no">
         <name>XMC_FCE_REFOUT_SET</name>
@@ -1715,7 +1715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="117" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="117" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="117" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

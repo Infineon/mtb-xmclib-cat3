@@ -1,6 +1,6 @@
 /**
  * @file XMC1100x0016.ld
- * @date 2017-04-20
+ * @date 2021-08-13
  *
  * @cond
  *********************************************************************************************************************
@@ -11,7 +11,7 @@
  *                    XMC1100-Q024F0016
  *                    XMC1100-Q040F0016
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2021, Infineon Technologies AG
  * All rights reserved.                        
  *                                             
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -54,23 +54,27 @@
  *     - Compatibility with GCC 4.9 2015q2
  *
  * 2016-03-15:
- *     - Add assertion to check that region SRAM_combined does not overflowed no_init section 
- *             
+ *     - Add assertion to check that region SRAM_combined does not overflowed no_init section
+ *
  * 2016-10-28:
  *     - Fix linker not complaining if sum of data + text sections is bigger that physical FLASH size
- *         
+ *
  * 2017-04-07:
  *     - Added new symbols __text_size and eText
- *             
+ *
  * 2017-04-20:
- *     - Change vtable location to flash area to save ram             
- *      
+ *     - Change vtable location to flash area to save ram
+ *
+ * 2021-08-13:
+ *     - Include libnosys in the default link step
+ *
  * @endcond 
  *
  */
 
 OUTPUT_FORMAT("elf32-littlearm")
 OUTPUT_ARCH(arm)
+GROUP(-lgcc -lc -lnosys)
 ENTRY(Reset_Handler)
 
 MEMORY

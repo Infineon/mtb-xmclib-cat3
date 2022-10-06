@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__gpio_8h" kind="file" language="C++">
     <compoundname>xmc_gpio.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <includes refid="xmc1__gpio_8h" local="yes">xmc1_gpio.h</includes>
     <incdepgraph>
-      <node id="42">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="41">
+      <node id="1">
         <label>xmc_gpio.h</label>
         <link refid="xmc__gpio_8h"/>
-        <childnode refid="42" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="define">
@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="99" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="99" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="99" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1ga669e3b046e7ee4d93631b0befa10ca24" prot="public" static="no">
         <name>PORT_IOCR_PC_Pos</name>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="98" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="98" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="98" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1ga22bdd3c6eb0d689b8807fdd9440c74ae" prot="public" static="no">
         <name>PORT_IOCR_PC_Size</name>
@@ -47,12 +47,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="101" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="101" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="101" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1gab47a25c59fc1f4a049cdf650da1a3f8a" prot="public" static="no">
         <name>XMC_GPIO_CHECK_HWCTRL</name>
         <param><defname>hwctrl</defname></param>
-        <initializer>((hwctrl == <ref refid="group___g_p_i_o_1ggaf85dc33336968687ecddaee8e7e8f6eba3208a9c87eb07229a05a4c9fac116316" kindref="member">XMC_GPIO_HWCTRL_DISABLED</ref>) || \
+        <initializer>                                       ((hwctrl == <ref refid="group___g_p_i_o_1ggaf85dc33336968687ecddaee8e7e8f6eba3208a9c87eb07229a05a4c9fac116316" kindref="member">XMC_GPIO_HWCTRL_DISABLED</ref>) || \
                                        (hwctrl == <ref refid="group___g_p_i_o_1ggaf85dc33336968687ecddaee8e7e8f6eba334857542b61d28cf718f9209f907c3e" kindref="member">XMC_GPIO_HWCTRL_PERIPHERAL1</ref>) || \
                                        (hwctrl == <ref refid="group___g_p_i_o_1ggaf85dc33336968687ecddaee8e7e8f6eba87350dd2a252b6113d23b84187b84d50" kindref="member">XMC_GPIO_HWCTRL_PERIPHERAL2</ref>))</initializer>
         <briefdescription>
@@ -61,12 +61,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="107" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="107" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="107" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___g_p_i_o_1gac5ca4560fae138b25b4ee4e09762d3d2" prot="public" static="no">
         <name>XMC_GPIO_CHECK_OUTPUT_LEVEL</name>
         <param><defname>level</defname></param>
-        <initializer>((level == <ref refid="group___g_p_i_o_1ggae796714115da2c77c076003e8ad2053fa0b47a549e84c8546805265a5aac61830" kindref="member">XMC_GPIO_OUTPUT_LEVEL_LOW</ref>) || \
+        <initializer>                                            ((level == <ref refid="group___g_p_i_o_1ggae796714115da2c77c076003e8ad2053fa0b47a549e84c8546805265a5aac61830" kindref="member">XMC_GPIO_OUTPUT_LEVEL_LOW</ref>) || \
                                             (level == <ref refid="group___g_p_i_o_1ggae796714115da2c77c076003e8ad2053fafcc6153b96e6dcd46e5fd5efd72e3b3e" kindref="member">XMC_GPIO_OUTPUT_LEVEL_HIGH</ref>))</initializer>
         <briefdescription>
         </briefdescription>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="104" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="104" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="104" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="129" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="128" bodyend="133"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="128" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="129" bodyend="133"/>
       </memberdef>
       <memberdef kind="enum" id="group___g_p_i_o_1gae796714115da2c77c076003e8ad2053f" prot="public" static="no" strong="no">
         <type></type>
@@ -135,7 +135,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Set bit </para>
+<para>Set bit <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -145,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="120" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="119" bodyend="123"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="119" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="120" bodyend="123"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -192,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="459" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="459" bodyend="464"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="459" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="459" bodyend="464"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1gae5ea48c27cd7c4d0503defafd137af94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -239,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="391" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="391" bodyend="396"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="391" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="391" bodyend="396"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1gab0944440c16de2b1ae3fd4f328b77cc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -284,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="436" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="436" bodyend="441"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="436" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="436" bodyend="441"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1gae1948ff74f8934cc1f8adbf1be58ec0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -330,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="362" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="362" bodyend="367"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="362" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="362" bodyend="367"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1gaeaa8eff8bbe2c83be674169ce3ac29fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -377,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="334" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="334" bodyend="339"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="334" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="334" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1ga05749322fa717f789b178838955b8c5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -426,7 +427,7 @@
 </parameterlist>
 <simplesect kind="return"><para>None</para>
 </simplesect>
-<simplesect kind="par"><title>Description:</title><para>Initializes input / output mode settings like, pull up / pull down devices,hysteresis, push pull /open drain. Also configures alternate function outputs and clears hardware port control for a selected <emphasis>port</emphasis> <emphasis>and</emphasis> <emphasis>pin</emphasis>. <emphasis>config</emphasis> provides selected I/O settings. It configures hardware registers Pn_IOCR,Pn_OUT, Pn_OMR,Pn_PDISC and Pn_PHCR.</para>
+<simplesect kind="par"><title>Description:</title><para>Initializes input / output mode settings like, pull up / pull down devices,hysteresis, push pull /open drain. Also configures alternate function outputs and clears hardware port control for a selected <emphasis>port</emphasis> <emphasis>and</emphasis> <emphasis>pin</emphasis>. <emphasis>config</emphasis> provides selected I/O settings. It configures hardware registers Pn_IOCR,Pn_OUT, Pn_OMR,Pn_PDISC and Pn_PHCR.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para>None</para>
 </simplesect>
@@ -436,7 +437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="186" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="186" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" declline="186" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1ga90b8519a240ddb93289d8960c6c276b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -495,7 +496,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="419" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="419" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" declline="419" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1ga2d52a863e693424c88d5dd8ecf9f2e46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -552,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="206" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="206" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" declline="206" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1ga01459125b23da366e2024fe0a1bd2fcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -600,7 +601,7 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="257" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="257" bodyend="262"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="257" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="257" bodyend="262"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1ga852f4a9186180e6b1b2479409d6137c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -659,7 +660,7 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="230" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="230" bodyend="236"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="230" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="230" bodyend="236"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1gad2e15116d55939bd7dda8e6d435af306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -708,7 +709,7 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="283" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="283" bodyend="288"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="283" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="283" bodyend="288"/>
       </memberdef>
       <memberdef kind="function" id="group___g_p_i_o_1ga155edaad7a177ff1779c0e59b3df6e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -755,7 +756,7 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="309" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="309" bodyend="314"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" line="309" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h" bodystart="309" bodyend="314"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -766,8 +767,8 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="55"><highlight class="preprocessor">#ifndef<sp/>XMC_GPIO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_GPIO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_GPIO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
@@ -777,7 +778,7 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
 <codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_common.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
 <codeline lineno="95"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="96"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
@@ -799,13 +800,13 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
 <codeline lineno="113"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_GPIO_OUTPUT_LEVEL</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_GPIO_OUTPUT_LEVEL</highlight></codeline>
 <codeline lineno="120"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1ggae796714115da2c77c076003e8ad2053fa0b47a549e84c8546805265a5aac61830" kindref="member">XMC_GPIO_OUTPUT_LEVEL_LOW</ref><sp/><sp/>=<sp/>0x10000U,<sp/></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1ggae796714115da2c77c076003e8ad2053fafcc6153b96e6dcd46e5fd5efd72e3b3e" kindref="member">XMC_GPIO_OUTPUT_LEVEL_HIGH</ref><sp/>=<sp/>0x1U,<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="123"><highlight class="normal">}<sp/><ref refid="group___g_p_i_o_1gae796714115da2c77c076003e8ad2053f" kindref="member">XMC_GPIO_OUTPUT_LEVEL_t</ref>;</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_GPIO_HWCTRL</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_GPIO_HWCTRL</highlight></codeline>
 <codeline lineno="129"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1ggaf85dc33336968687ecddaee8e7e8f6eba3208a9c87eb07229a05a4c9fac116316" kindref="member">XMC_GPIO_HWCTRL_DISABLED</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><ref refid="group___g_p_i_o_1ggaf85dc33336968687ecddaee8e7e8f6eba334857542b61d28cf718f9209f907c3e" kindref="member">XMC_GPIO_HWCTRL_PERIPHERAL1</ref><sp/><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
@@ -833,9 +834,9 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
 <codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga05749322fa717f789b178838955b8c5b" kindref="member">XMC_GPIO_Init</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" kindref="compound">XMC_GPIO_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga05749322fa717f789b178838955b8c5b" kindref="member">XMC_GPIO_Init</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" kindref="compound">XMC_GPIO_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga2d52a863e693424c88d5dd8ecf9f2e46" kindref="member">XMC_GPIO_SetMode</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga9cd340b4c59ef98d0ab5a6ccebbacc4c" kindref="member">XMC_GPIO_MODE_t</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga2d52a863e693424c88d5dd8ecf9f2e46" kindref="member">XMC_GPIO_SetMode</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga9cd340b4c59ef98d0ab5a6ccebbacc4c" kindref="member">XMC_GPIO_MODE_t</ref><sp/>mode);</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
 <codeline lineno="230"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga852f4a9186180e6b1b2479409d6137c3" kindref="member">XMC_GPIO_SetOutputLevel</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1gae796714115da2c77c076003e8ad2053f" kindref="member">XMC_GPIO_OUTPUT_LEVEL_t</ref><sp/>level)</highlight></codeline>
@@ -891,7 +892,7 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
 <codeline lineno="396"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="397"><highlight class="normal"></highlight></codeline>
 <codeline lineno="398"><highlight class="normal"></highlight></codeline>
-<codeline lineno="419"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga90b8519a240ddb93289d8960c6c276b1" kindref="member">XMC_GPIO_SetHardwareControl</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1gaf85dc33336968687ecddaee8e7e8f6eb" kindref="member">XMC_GPIO_HWCTRL_t</ref><sp/>hwctrl);</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1ga90b8519a240ddb93289d8960c6c276b1" kindref="member">XMC_GPIO_SetHardwareControl</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1gaf85dc33336968687ecddaee8e7e8f6eb" kindref="member">XMC_GPIO_HWCTRL_t</ref><sp/>hwctrl);</highlight></codeline>
 <codeline lineno="420"><highlight class="normal"></highlight></codeline>
 <codeline lineno="421"><highlight class="normal"></highlight></codeline>
 <codeline lineno="436"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___g_p_i_o_1gab0944440c16de2b1ae3fd4f328b77cc6" kindref="member">XMC_GPIO_EnableDigitalInput</ref>(<ref refid="struct_x_m_c___g_p_i_o___p_o_r_t__t" kindref="compound">XMC_GPIO_PORT_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>port,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>pin)</highlight></codeline>
@@ -913,9 +914,9 @@ Register Pn_OMR is virtual and does not contain any flip-flop. A read action del
 <codeline lineno="467"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="468"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="469"><highlight class="normal"></highlight></codeline>
-<codeline lineno="474"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_GPIO_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="474"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_GPIO_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="475"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_gpio.h"/>
   </compounddef>
 </doxygen>

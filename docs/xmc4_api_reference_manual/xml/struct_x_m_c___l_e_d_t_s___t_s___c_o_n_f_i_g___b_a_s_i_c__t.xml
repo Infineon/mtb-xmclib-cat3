@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_LEDTS_TS_CONFIG_BASIC_t</compoundname>
     <includes local="no">xmc_ledts.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="573" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="573" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="552" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="552" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="552" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="552" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="560" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="560" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="560" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="560" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1a7b1d262848a3edc7349c6a6ea9bf1bbf" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="557" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="557" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="557" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="557" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1ac01ebf7c0690a60b95103972b38d7448" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="561" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="561" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="561" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="561" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1ac375c0d797e07b40c7b972f3134deee2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="565" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="565" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="565" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="565" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1a23372f31fd2f929735982d51122e9a3c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="572" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="572" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="572" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="572" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1a2c63bf4a4d5c59bae76d09107351b3b3" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -116,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="553" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="553" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="553" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="553" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1a3439cdca77b8ebed3f5381265501bd60" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="569" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="569" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="569" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="569" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -139,7 +139,7 @@
     <detaileddescription>
 <para>Data structure for basic Touch-Sense function initialization. Use type <ref refid="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t" kindref="compound">XMC_LEDTS_TS_CONFIG_BASIC_t</ref> for this structure. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="547" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="546" bodyend="574"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" line="546" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ledts.h" bodystart="547" bodyend="574"/>
     <listofallmembers>
       <member refid="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_LEDTS_TS_CONFIG_BASIC_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___l_e_d_t_s___t_s___c_o_n_f_i_g___b_a_s_i_c__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_LEDTS_TS_CONFIG_BASIC_t</scope><name>__pad1__</name></member>

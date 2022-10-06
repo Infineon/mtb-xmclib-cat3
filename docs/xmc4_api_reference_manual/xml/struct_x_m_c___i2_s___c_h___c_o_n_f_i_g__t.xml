@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_I2S_CH_CONFIG_t</compoundname>
     <includes local="no">xmc_i2s.h</includes>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="239" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="239" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="239" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="239" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t_1a2c2990cf73c767157446d6dbf5080994" prot="public" static="no" mutable="no">
         <type><ref refid="group___i2_s_1ga21a01621957ee4befb0742623b7deaf8" kindref="member">XMC_I2S_CH_BUS_MODE_t</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="249" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="249" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="249" column="24" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="249" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t_1a6ad5ab806aecadd6cc55918f18742678" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -46,7 +46,7 @@ Value configured as USIC channel word length. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="241" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="241" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="241" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="241" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t_1a7cd3402eab1468f6f0f1173e41d78780" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -60,7 +60,7 @@ Value configured as USIC channel word length. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="247" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="247" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="247" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="247" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t_1a717fcb304647e963182027a1aab38256" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -76,7 +76,7 @@ Configured as USIC channel frame length. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="244" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="244" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="244" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="244" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t_1a6f7bf88acfbc472b56107dd8c3d02e46" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -90,7 +90,7 @@ Configured as USIC channel frame length. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="240" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="240" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="240" column="8" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="240" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t_1ae5fafffd716b7b95349d3ae0d6c9a905" prot="public" static="no" mutable="no">
         <type><ref refid="group___i2_s_1gaf06d8ef70b2f776bd0e3f4a4860b6dd4" kindref="member">XMC_I2S_CH_WA_POLARITY_t</ref></type>
@@ -104,7 +104,7 @@ Configured as USIC channel frame length. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="248" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="248" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="248" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="248" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -112,7 +112,7 @@ Configured as USIC channel frame length. <linebreak/>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="238" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="237" bodyend="250"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" line="237" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2s.h" bodystart="238" bodyend="250"/>
     <listofallmembers>
       <member refid="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t_1ac4f06ea26ed6bd7ae83b92d64ac10b78" prot="public" virt="non-virtual"><scope>XMC_I2S_CH_CONFIG_t</scope><name>baudrate</name></member>
       <member refid="struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t_1a2c2990cf73c767157446d6dbf5080994" prot="public" virt="non-virtual"><scope>XMC_I2S_CH_CONFIG_t</scope><name>bus_mode</name></member>

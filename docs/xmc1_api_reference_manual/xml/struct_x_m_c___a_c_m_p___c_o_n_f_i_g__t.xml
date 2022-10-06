@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_ACMP_CONFIG_t</compoundname>
     <includes local="no">xmc_acmp.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="213" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="213" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="203" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="203" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="203" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="203" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="206" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="206" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="206" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="206" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="210" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="210" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="210" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="210" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1acb9275a93321833838555581d14ce1f4" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="212" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="212" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="212" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="212" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a950755b04f231cbf2a4454ff2b1718ae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="204" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="204" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="204" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="204" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a73b2ee931ebdf7de31212be70ba607e9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="208" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="208" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="208" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="208" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a516cec45d30e10094aa0f1e0fa348051" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="207" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="207" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="207" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="207" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -123,7 +123,7 @@
     <detaileddescription>
 <para>Structure for initializing the ACMP module. It configures the ANACMP register of the respective input. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="198" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="197" bodyend="214"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" line="197" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_acmp.h" bodystart="198" bodyend="214"/>
     <listofallmembers>
       <member refid="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_ACMP_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_ACMP_CONFIG_t</scope><name>__pad1__</name></member>

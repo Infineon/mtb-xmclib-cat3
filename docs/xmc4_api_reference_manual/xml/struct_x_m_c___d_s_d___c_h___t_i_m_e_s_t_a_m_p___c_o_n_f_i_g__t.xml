@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_DSD_CH_TIMESTAMP_CONFIG_t</compoundname>
     <includes local="no">xmc_dsd.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="496" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="496" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="490" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="490" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="490" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="490" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="493" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="493" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="493" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="493" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t_1ac2c739abd7b7ff733dec0c388322850e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="495" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="495" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="495" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="495" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t_1a6384651f4a6552da03d2458a2db91dce" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="491" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="491" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="491" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="491" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t_1a142018736ea30d27e6d10463091c7ce4" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="492" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="492" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="492" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="492" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -94,7 +94,7 @@
     <detaileddescription>
 <para>DSD timestamp saves result, filter counter register and integrator count register. Note: Trigger source for timestamp and integrator trigger are shared. DSD Filter is mandatory to use this block. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="485" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="484" bodyend="497"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="484" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="485" bodyend="497"/>
     <listofallmembers>
       <member refid="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_DSD_CH_TIMESTAMP_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_DSD_CH_TIMESTAMP_CONFIG_t</scope><name>__pad1__</name></member>

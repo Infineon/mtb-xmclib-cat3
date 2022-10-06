@@ -1,22 +1,20 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__bccu_8h" kind="file" language="C++">
     <compoundname>xmc_bccu.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <incdepgraph>
-      <node id="19">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="18">
+      <node id="1">
         <label>xmc_bccu.h</label>
         <link refid="xmc__bccu_8h"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___b_c_c_u___c_h___c_o_n_f_i_g__t" prot="public">XMC_BCCU_CH_CONFIG_t</innerclass>
-    <innerclass refid="struct_x_m_c___b_c_c_u___c_h___c_o_n_f_i_g__t" prot="public">XMC_BCCU_CH_CONFIG_t</innerclass>
-    <innerclass refid="struct_x_m_c___b_c_c_u___d_i_m___c_o_n_f_i_g__t" prot="public">XMC_BCCU_DIM_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___b_c_c_u___d_i_m___c_o_n_f_i_g__t" prot="public">XMC_BCCU_DIM_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t" prot="public">XMC_BCCU_GLOBAL_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___b_c_c_u___t_r_i_g___c_o_n_f_i_g__t" prot="public">XMC_BCCU_TRIG_CONFIG_t</innerclass>
@@ -49,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="165" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="164" bodyend="168"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="164" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="165" bodyend="168"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga2404afa3e2a080fc11e1e753125059e1" prot="public" static="no" strong="no">
         <type></type>
@@ -79,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="284" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="283" bodyend="287"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="283" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="284" bodyend="287"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga3f2345153dd1057f35114529be9405ca" prot="public" static="no" strong="no">
         <type></type>
@@ -109,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="275" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="274" bodyend="278"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="274" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="275" bodyend="278"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga83137645f722626a8ff773258ef93322" prot="public" static="no" strong="no">
         <type></type>
@@ -157,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="343" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="342" bodyend="348"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="342" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="343" bodyend="348"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gab733e6670e9fd4307f807bec8544a88a" prot="public" static="no" strong="no">
         <type></type>
@@ -187,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="257" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="256" bodyend="260"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="256" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="257" bodyend="260"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gafe44ac530b84899a6dc382c8d2b5647a" prot="public" static="no" strong="no">
         <type></type>
@@ -198,7 +196,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Disable: No control over a BCCU module output </para>
+<para>Disable: No control over a BCCU module output <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___b_c_c_u_1ggafe44ac530b84899a6dc382c8d2b5647aadf9de462c3c241aa08625f8e011e7e64" prot="public">
@@ -207,7 +206,8 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Enable: External gating signal which controls BCCU module output </para>
+<para>Enable: External gating signal which controls BCCU module output <linebreak/>
+ </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="266" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="265" bodyend="269"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="265" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="266" bodyend="269"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gab0309f0d9c32be488e0676a6a6b6aef2" prot="public" static="no" strong="no">
         <type></type>
@@ -247,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="325" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="324" bodyend="328"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="324" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="325" bodyend="328"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga777b62a2625e35e50a040a446118adee" prot="public" static="no" strong="no">
         <type></type>
@@ -403,7 +403,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="302" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="301" bodyend="319"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="301" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="302" bodyend="319"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gaddcd53b51d103adfe02faa92f1daa2d6" prot="public" static="no" strong="no">
         <type></type>
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="293" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="292" bodyend="296"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="292" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="293" bodyend="296"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gac8ad49285dc1a0e80cc66f35d3a16268" prot="public" static="no" strong="no">
         <type></type>
@@ -463,7 +463,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="334" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="333" bodyend="337"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="333" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="334" bodyend="337"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga33d0f5b21f26601560c08b6abbb50830" prot="public" static="no" strong="no">
         <type></type>
@@ -493,7 +493,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="354" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="353" bodyend="358"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="353" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="354" bodyend="358"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga6dc5b8e7093132a1760ace4fd0ffc39e" prot="public" static="no" strong="no">
         <type></type>
@@ -560,7 +560,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="226" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="225" bodyend="233"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="225" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="226" bodyend="233"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga2426f61c437f4728d48f1a693271c85a" prot="public" static="no" strong="no">
         <type></type>
@@ -618,7 +618,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="213" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="212" bodyend="219"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="212" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="213" bodyend="219"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gac8a4482bd43b7873be56b88d39d3766e" prot="public" static="no" strong="no">
         <type></type>
@@ -648,7 +648,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="156" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="155" bodyend="159"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="155" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="156" bodyend="159"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gaad3b238ff7823a58885d3971e527b09e" prot="public" static="no" strong="no">
         <type></type>
@@ -687,7 +687,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="193" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="192" bodyend="197"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="192" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="193" bodyend="197"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gabb987e9535a1d26ad7a50633efce3194" prot="public" static="no" strong="no">
         <type></type>
@@ -717,7 +717,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="248" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="247" bodyend="251"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="247" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="248" bodyend="251"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga96d15c0297c1a9df12f0f725d5e58c77" prot="public" static="no" strong="no">
         <type></type>
@@ -747,7 +747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="239" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="238" bodyend="242"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="238" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="239" bodyend="242"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1gae58ac97f14fe7e63f79ecd54f5bf369f" prot="public" static="no" strong="no">
         <type></type>
@@ -777,7 +777,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="203" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="202" bodyend="206"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="202" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="203" bodyend="206"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga6f6fb567878a0d4ba8918f35fc95f195" prot="public" static="no" strong="no">
         <type></type>
@@ -816,7 +816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="183" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="182" bodyend="187"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="182" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="183" bodyend="187"/>
       </memberdef>
       <memberdef kind="enum" id="group___b_c_c_u_1ga84257e9d3bdd4274a489fe19660bebb6" prot="public" static="no" strong="no">
         <type></type>
@@ -846,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="174" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="173" bodyend="177"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="173" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="174" bodyend="177"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -862,7 +862,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="371" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="371" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="371" column="22" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="371" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" prot="public" static="no">
         <type>BCCU_DE_Type</type>
@@ -876,7 +876,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="376" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="376" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="376" column="22" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="376" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" prot="public" static="no">
         <type>BCCU_Type</type>
@@ -890,7 +890,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="366" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="366" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="366" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="366" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -943,7 +943,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1852" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1852" bodyend="1855"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1852" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1852" bodyend="1855"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga2338bbf1a4de964dadd43f234342e3ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -994,7 +994,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1399" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1399" bodyend="1402"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1399" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1399" bodyend="1402"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga0f56f107c5986bb25a503942b8d11ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1058,7 +1058,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1363" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1363" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1363" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga2e6b1ed0ece153f1c552198166dd0045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1096,7 +1096,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1691" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1691" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1691" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga4c66672f7e1fd5d654a37f73af76fe41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1134,7 +1134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1762" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1762" bodyend="1765"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1762" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1762" bodyend="1765"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga5fc1fe2e95152e92f6d57c7a79ec758e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1172,7 +1172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1724" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1724" bodyend="1727"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1724" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1724" bodyend="1727"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga3d0f767ff1151483e184386f0c8f196a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1210,7 +1210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1614" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1614" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1614" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga922c54e13ab8dea656e64801c72fe709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1248,7 +1248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1677" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1677" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1677" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaac6dbc398dee84ff9b064254f21a069c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1287,7 +1287,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1743" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1743" bodyend="1746"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1743" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1743" bodyend="1746"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga9d960d5d7b6fb995c8301ec46603387a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1325,7 +1325,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1706" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1706" bodyend="1709"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1706" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1706" bodyend="1709"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaab574de484817d9b5fbbdd1632639d0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1400,7 +1400,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1501" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1501" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1501" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gae5f82d9135ff911bc1a5c4c8d9855e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1450,7 +1450,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1344" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1344" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1344" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga065b767a8cd39e0ad65cff1233feade9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1488,7 +1488,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1479" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1479" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1479" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaab1aca451b2b7f30966bb8646bcf10c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1526,7 +1526,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1580" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1580" bodyend="1583"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1580" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1580" bodyend="1583"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga73823f9e11b2f7df15cc48aa0e17f91c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1565,7 +1565,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1597" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1597" bodyend="1600"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1597" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1597" bodyend="1600"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gad55a523c8828856561aa8f222daea411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1603,7 +1603,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1563" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1563" bodyend="1566"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1563" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1563" bodyend="1566"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gad72d4e06242866872c6f67dc7781647b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1653,7 +1653,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1663" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1663" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1663" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga103c3313997811baa21cbf014f928ec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1698,7 +1698,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1433" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1433" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1433" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gabe0095f772f64e7971531b8ae9aae714" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1748,7 +1748,7 @@ according to Watchdog threshold<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1533" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1533" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1533" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga53114a4b822100289bc34966b39b7de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1799,7 +1799,7 @@ Note: Shall only be called if channel disabled.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1631" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1631" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1631" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga7b568a197ffae91f7e07a629cc6cfe6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1849,7 +1849,7 @@ Note: Shall only be called if channel disabled.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1550" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1550" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1550" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gabe7fc726f6f53b1f9ff899309eef54af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1900,7 +1900,7 @@ Note: Shall only be called if channel disabled.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1648" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1648" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1648" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaeb64949f941388343c3c390af7864a1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1950,7 +1950,7 @@ Note: Shall only be called if channel disabled.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1516" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1516" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1516" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga34ee140a6cb6fa5a68e3e43667986d2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2000,7 +2000,7 @@ Note: Shall only be called if channel disabled.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1466" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1466" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1466" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga0ad672cbfe9cf575bd75e0636cb0e840" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2052,7 +2052,7 @@ Note: Shall only be called if channel disabled.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1214" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1214" bodyend="1217"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1214" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1214" bodyend="1217"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga63d464bb9aa153b0f84115e474d5f189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2107,7 +2107,7 @@ Note: Shall only be called if channel disabled.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1097" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1097" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1097" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga5f0898066f0ec1b579c479ebb77cefbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2163,7 +2163,7 @@ Note: Shall only be called if channel disabled.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1015" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1015" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1015" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga8a9de436ff4933ba86981a3aa4c2a941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2215,7 +2215,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="973" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="973" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="973" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaabdda89d26463e3e0e54328958046403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2271,7 +2271,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="894" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="894" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="894" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga78fe6243b06c74fa044de5b2fbebd22d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2326,7 +2326,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1055" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1055" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1055" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga8c770f7787b017234fe82ce496880f1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2381,7 +2381,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="956" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="956" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="956" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga0096574da48f47daa25c0b95a29281e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2437,7 +2437,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="874" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="874" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="874" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga1741af1b4dc359ebc10b6b11166ff475" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2492,7 +2492,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1035" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1035" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1035" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga4d9ab7609a4aa04a1249e73f8ce32f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2548,7 +2548,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="936" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="936" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="936" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gad42a863aa0c1949ba02fc445f91bd908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2617,7 +2617,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="916" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="916" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="916" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaded6c1d7bbb11158220d5a9bc80de812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2672,7 +2672,7 @@ trigger by 1/4, or 1/2 bclk cycles<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1076" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1076" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1076" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga25034ff433425713a4fcd10878f6b1fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2729,7 +2729,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="994" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="994" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="994" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gae835becf44edc6c890ab32203973f4a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2797,7 +2797,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="578" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="578" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="578" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaf11d55e4654e8488b78c36fec162a8a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2849,7 +2849,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="684" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="684" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="684" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga48b9e4e09755adb19aa2dc87622fa0b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2913,7 +2913,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1955" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1955" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1955" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga69ab4ce3094fdfc518678e64c2e697b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___b_c_c_u_1ga33d0f5b21f26601560c08b6abbb50830" kindref="member">XMC_BCCU_DIM_CURVE_t</ref></type>
@@ -2951,7 +2951,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1968" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1968" bodyend="1971"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1968" column="23" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1968" bodyend="1971"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaf0d3b51eb768ec3eb1769129525439a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3001,7 +3001,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1781" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1781" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1781" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga6aa40650ebfb26c3fbd8dd1ea80b1c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3039,7 +3039,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1935" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1935" bodyend="1938"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1935" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1935" bodyend="1938"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga90e0a43d851e78d28969df7426eecdff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3077,7 +3077,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1903" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1903" bodyend="1906"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1903" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1903" bodyend="1906"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaf466afd620c2d19dcca402cc61d0fb3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3128,7 +3128,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1922" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1922" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1922" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaf1711d66dca639f8f4c8e49022795118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3179,7 +3179,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1890" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1890" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1890" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gafb2c45344866fb669873eaecf26c6d97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3230,7 +3230,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1247" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1247" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1247" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga667a34d52ce64485172b684e17329783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3280,7 +3280,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1326" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1326" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1326" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga51283f974230a757e398a35d7cfddc7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3331,7 +3331,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1814" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1814" bodyend="1817"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1814" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1814" bodyend="1817"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaac778a48015a5d3a02d624c6b584a0f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3384,7 +3384,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1152" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1152" bodyend="1155"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1152" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1152" bodyend="1155"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga008904247eaa737d11cb25e688e4adfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3434,7 +3434,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1294" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1294" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1294" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gabe5f08dc01c0f80b996818124767b880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3485,7 +3485,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1232" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1232" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1232" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga671237a4eb111e25a6acfd9500fc8c94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3548,7 +3548,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1311" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1311" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1311" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga6c3fb3f3688e4d1270698767cc300dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3599,7 +3599,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1796" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1796" bodyend="1799"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1796" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1796" bodyend="1799"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga0ea0c1c414d08d47171c198dbd007fa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3652,7 +3652,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1131" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1131" bodyend="1134"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1131" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1131" bodyend="1134"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaf17000a01b5ecc10e10f27ab8ecce371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3702,7 +3702,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1279" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1279" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1279" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga13f2afc7da58112bc576f6621b1ed712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3753,7 +3753,7 @@ for multiple channels at a same time using <emphasis>mask</emphasis> by writing 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1417" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1417" bodyend="1420"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1417" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1417" bodyend="1420"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga53231494cbe26b379889df26b9ccfeb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3804,7 +3804,7 @@ And also configures a trigger mode, trigger delay, maximum 0&apos;s allowed at m
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="557" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="557" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="557" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga18fbdd2d8d0c90ddff7eb138d37878d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3855,7 +3855,7 @@ And also configures a trigger mode, trigger delay, maximum 0&apos;s allowed at m
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1870" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1870" bodyend="1873"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1870" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1870" bodyend="1873"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gadf7a5da47072ab33a3e95ff2671866cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3893,7 +3893,7 @@ And also configures a trigger mode, trigger delay, maximum 0&apos;s allowed at m
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1984" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1984" bodyend="1987"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1984" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1984" bodyend="1987"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gab51e869cba6c4a66d613818c775c67e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3944,7 +3944,7 @@ And also configures a trigger mode, trigger delay, maximum 0&apos;s allowed at m
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1447" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1447" bodyend="1450"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1447" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1447" bodyend="1450"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga5b5fd4a60c133e6b32643e81e8cbcdf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -3985,7 +3985,7 @@ And also configures a trigger mode, trigger delay, maximum 0&apos;s allowed at m
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="851" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="851" bodyend="854"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="851" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="851" bodyend="854"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga2d85a280970121ba3a72e12df20c22bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4024,7 +4024,7 @@ And also configures a trigger mode, trigger delay, maximum 0&apos;s allowed at m
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="817" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="817" bodyend="820"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="817" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="817" bodyend="820"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga385866c74294069c50ba5c4b4858d9af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4063,7 +4063,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1169" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1169" bodyend="1172"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1169" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1169" bodyend="1172"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga8366d4b04d68a660201eba4561d27966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4101,7 +4101,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="785" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="785" bodyend="788"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="785" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="785" bodyend="788"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga191c08fee2cf43886b7f169437172e2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4140,7 +4140,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="753" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="753" bodyend="756"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="753" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="753" bodyend="756"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaaf42f976ec91135e1d101eaf9bcc5511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4182,7 +4182,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="594" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="594" bodyend="597"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="594" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="594" bodyend="597"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga8c97827813c5e9ff480b01dc94c93548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4223,7 +4223,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="720" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="720" bodyend="723"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="720" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="720" bodyend="723"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga4df64fe685065e22dea95aa942a9fe6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4265,7 +4265,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="701" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="701" bodyend="704"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="701" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="701" bodyend="704"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga97f1f8256cfcf53e12cdd770ea1e94cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4306,7 +4306,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="665" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="665" bodyend="668"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="665" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="665" bodyend="668"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga2a44455f20432fb8431ad1cb9c2d6066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4347,7 +4347,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="630" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="630" bodyend="633"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="630" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="630" bodyend="633"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga1fd8e960efcfd1399c906343f7f38d39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4399,7 +4399,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="835" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="835" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="835" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gaa0915598e1674815ad8a7e3b06a6f83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4449,7 +4449,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="614" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="614" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="614" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga1ccdfb48cd227d7b7c11f472ad09d1ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4499,7 +4499,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="803" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="803" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="803" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga9978cc5e2c8c9040944053049b8abd76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4551,7 +4551,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1191" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1191" bodyend="1194"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1191" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1191" bodyend="1194"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gabe4ec2b759dafb314e76b5d5ae5f33d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4601,7 +4601,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="771" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="771" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="771" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gac3a7567ce61d1e7823db673f415694cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4651,7 +4651,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="739" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="739" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="739" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga640bf8cfa5331aff74750bc6ae753e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4702,7 +4702,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1113" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1113" column="7" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1113" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1gab8da6c91b0cab96c0ee4d801a5f1ce9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4766,7 +4766,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1264" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1264" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="1264" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga211248203da6150a93e59404710319d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4817,7 +4817,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="649" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="649" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" declline="649" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga4e652a3ec43eeea34684b44cbf0ca571" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4868,7 +4868,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1833" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1833" bodyend="1836"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1833" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1833" bodyend="1836"/>
       </memberdef>
       <memberdef kind="function" id="group___b_c_c_u_1ga587d08e555da0635693bb929cc576243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4919,7 +4919,7 @@ EVFR. <linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1380" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1380" bodyend="1383"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" line="1380" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h" bodystart="1380" bodyend="1383"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -4930,8 +4930,8 @@ EVFR. <linebreak/>
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="68"><highlight class="preprocessor">#ifndef<sp/>XMC_BCCU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_BCCU_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_BCCU_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
@@ -4940,7 +4940,7 @@ EVFR. <linebreak/>
 <codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_common.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="preprocessor">#if<sp/>defined<sp/>(BCCU0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(BCCU0)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="146"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
@@ -4948,46 +4948,46 @@ EVFR. <linebreak/>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="150"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
-<codeline lineno="151"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight></codeline>
-<codeline lineno="155"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_STATUS</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_STATUS</highlight></codeline>
 <codeline lineno="156"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggac8a4482bd43b7873be56b88d39d3766ea43827086ca119cdd91515cb7c24909dd" kindref="member">XMC_BCCU_STATUS_SUCCESS</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="158"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggac8a4482bd43b7873be56b88d39d3766ea721f26708e633a68eb37e5b25a8a5de6" kindref="member">XMC_BCCU_STATUS_ERROR</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="159"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gac8a4482bd43b7873be56b88d39d3766e" kindref="member">XMC_BCCU_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_BCLK_MODE</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_BCLK_MODE</highlight></codeline>
 <codeline lineno="165"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggaf940a779ec7b7ea19cb4a0ba10aeb8fdaf07f1cf12fe4333d787ec788dccf344b" kindref="member">XMC_BCCU_BCLK_MODE_NORMAL</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggaf940a779ec7b7ea19cb4a0ba10aeb8fdab7cef74590d4342740ce74d2f51b043f" kindref="member">XMC_BCCU_BCLK_MODE_FAST</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="168"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gaf940a779ec7b7ea19cb4a0ba10aeb8fd" kindref="member">XMC_BCCU_BCLK_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRIGMODE</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRIGMODE</highlight></codeline>
 <codeline lineno="174"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga84257e9d3bdd4274a489fe19660bebb6a37fd30dd3d0bd21a63cc82db28d673b3" kindref="member">XMC_BCCU_TRIGMODE0</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="176"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga84257e9d3bdd4274a489fe19660bebb6a8d98975389cf85c6477f10ff865e95e6" kindref="member">XMC_BCCU_TRIGMODE1</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="177"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga84257e9d3bdd4274a489fe19660bebb6" kindref="member">XMC_BCCU_TRIGMODE_t</ref>;</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRIGDELAY</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRIGDELAY</highlight></codeline>
 <codeline lineno="183"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga6f6fb567878a0d4ba8918f35fc95f195ad38c8487dc8387d37347486808ba2f2a" kindref="member">XMC_BCCU_TRIGDELAY_NO_DELAY</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga6f6fb567878a0d4ba8918f35fc95f195af6a75940aa85e02b45092295a031c07a" kindref="member">XMC_BCCU_TRIGDELAY_QUARTER_BIT</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga6f6fb567878a0d4ba8918f35fc95f195a1c62ae1abfb987aaca4ab8a6712f6d6a" kindref="member">XMC_BCCU_TRIGDELAY_HALF_BIT</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
 <codeline lineno="187"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga6f6fb567878a0d4ba8918f35fc95f195" kindref="member">XMC_BCCU_TRIGDELAY_t</ref>;</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_SUSPEND_MODE</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_SUSPEND_MODE</highlight></codeline>
 <codeline lineno="193"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggaad3b238ff7823a58885d3971e527b09ea1bd07065818733052c5c737c5ce88cad" kindref="member">XMC_BCCU_SUSPEND_MODE_IGNORE</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggaad3b238ff7823a58885d3971e527b09ea702c56bad6c739815fda3373ca244773" kindref="member">XMC_BCCU_SUSPEND_MODE_FREEZE</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggaad3b238ff7823a58885d3971e527b09ead5e59ce071688f25b7e9f83add311b1e" kindref="member">XMC_BCCU_SUSPEND_MODE_SAFE_FREEZE</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
 <codeline lineno="197"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gaad3b238ff7823a58885d3971e527b09e" kindref="member">XMC_BCCU_SUSPEND_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRAPEDGE</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRAPEDGE</highlight></codeline>
 <codeline lineno="203"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggae58ac97f14fe7e63f79ecd54f5bf369facd519faeb3f07fa13773ddd91127fe41" kindref="member">XMC_BCCU_TRAPEDGE_RISING</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="205"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggae58ac97f14fe7e63f79ecd54f5bf369fa5d0f33b814babbbd7e7ddb32a681ed96" kindref="member">XMC_BCCU_TRAPEDGE_FALLING</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="206"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gae58ac97f14fe7e63f79ecd54f5bf369f" kindref="member">XMC_BCCU_TRAPEDGE_t</ref>;</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_EVENT</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_EVENT</highlight></codeline>
 <codeline lineno="213"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga2426f61c437f4728d48f1a693271c85aa50f5a2da3aa5f78aac6f31446f63e35d" kindref="member">XMC_BCCU_EVENT_TRIGGER0</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga2426f61c437f4728d48f1a693271c85aa3467b5fcea90050d15d0a9b838a576c6" kindref="member">XMC_BCCU_EVENT_TRIGGER1</ref><sp/>=<sp/>0x2U,<sp/></highlight></codeline>
@@ -4996,7 +4996,7 @@ EVFR. <linebreak/>
 <codeline lineno="218"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga2426f61c437f4728d48f1a693271c85aa22f59ed3ce32c6fc9c3a3cdf8026e111" kindref="member">XMC_BCCU_EVENT_TRAP</ref><sp/>=<sp/>0x10U,<sp/></highlight></codeline>
 <codeline lineno="219"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga2426f61c437f4728d48f1a693271c85a" kindref="member">XMC_BCCU_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_EVENT_STATUS</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_EVENT_STATUS</highlight></codeline>
 <codeline lineno="226"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga6dc5b8e7093132a1760ace4fd0ffc39ea5707c5b5c7b85d1ac9068b33ce99b96f" kindref="member">XMC_BCCU_EVENT_STATUS_TRIGGER0</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
 <codeline lineno="228"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga6dc5b8e7093132a1760ace4fd0ffc39eaff0f89153eba77954a71a7aa522b6bce" kindref="member">XMC_BCCU_EVENT_STATUS_TRIGGER1</ref><sp/>=<sp/>0x2U,<sp/></highlight></codeline>
@@ -5006,49 +5006,49 @@ EVFR. <linebreak/>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga6dc5b8e7093132a1760ace4fd0ffc39eaade696bab9c066bd484f431cdf201fd6" kindref="member">XMC_BCCU_EVENT_STATUS_TRAP_STATE</ref><sp/>=<sp/>0x40U,<sp/></highlight></codeline>
 <codeline lineno="233"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga6dc5b8e7093132a1760ace4fd0ffc39e" kindref="member">XMC_BCCU_EVENT_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRAP_STATUS</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRAP_STATUS</highlight></codeline>
 <codeline lineno="239"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="240"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga96d15c0297c1a9df12f0f725d5e58c77a58e8239fb749c1159b8ec5e2eb764b06" kindref="member">XMC_BCCU_TRAP_STATUS_DEACTIVE</ref><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga96d15c0297c1a9df12f0f725d5e58c77a624702a40e972a7c6ee00148ef9d8e9b" kindref="member">XMC_BCCU_TRAP_STATUS_ACTIVE</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
 <codeline lineno="242"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga96d15c0297c1a9df12f0f725d5e58c77" kindref="member">XMC_BCCU_TRAP_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRAP_LEVEL</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_TRAP_LEVEL</highlight></codeline>
 <codeline lineno="248"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="249"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggabb987e9535a1d26ad7a50633efce3194ab64c19a52a5fdb763c4e26d60e639c94" kindref="member">XMC_BCCU_TRAP_LEVEL_LOW</ref><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
 <codeline lineno="250"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggabb987e9535a1d26ad7a50633efce3194ad8762f7320e6bf6c33aa2a1311ad291a" kindref="member">XMC_BCCU_TRAP_LEVEL_HIGH</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
 <codeline lineno="251"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gabb987e9535a1d26ad7a50633efce3194" kindref="member">XMC_BCCU_TRAP_LEVEL_t</ref>;</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_FLICKER_WD</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_FLICKER_WD</highlight></codeline>
 <codeline lineno="257"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggab733e6670e9fd4307f807bec8544a88aabcc0fc786fffb3eb2ec6944ca2c6aa11" kindref="member">XMC_BCCU_CH_FLICKER_WD_DS</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="259"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggab733e6670e9fd4307f807bec8544a88aa389cbf4aadd12f2d7badf06ca019d6bf" kindref="member">XMC_BCCU_CH_FLICKER_WD_EN</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="260"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gab733e6670e9fd4307f807bec8544a88a" kindref="member">XMC_BCCU_CH_FLICKER_WD_t</ref>;</highlight></codeline>
 <codeline lineno="261"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_GATING_FUNC</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_GATING_FUNC</highlight></codeline>
 <codeline lineno="266"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggafe44ac530b84899a6dc382c8d2b5647aacdd1b8c962424be92813ac610dcd22c6" kindref="member">XMC_BCCU_CH_GATING_FUNC_DISABLE</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="268"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggafe44ac530b84899a6dc382c8d2b5647aadf9de462c3c241aa08625f8e011e7e64" kindref="member">XMC_BCCU_CH_GATING_FUNC_ENABLE</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="269"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gafe44ac530b84899a6dc382c8d2b5647a" kindref="member">XMC_BCCU_CH_GATING_FUNC_t</ref>;</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_DIMMING_ENGINE_BYPASS</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_DIMMING_ENGINE_BYPASS</highlight></codeline>
 <codeline lineno="275"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="276"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga3f2345153dd1057f35114529be9405caafd23c98f21b86a3e501b5e582994eb15" kindref="member">XMC_BCCU_CH_DIMMING_ENGINE_BYPASS_DISABLE</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="277"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga3f2345153dd1057f35114529be9405caaac27616e49ce6640d4a1090a063668fd" kindref="member">XMC_BCCU_CH_DIMMING_ENGINE_BYPASS_ENABLE</ref><sp/>=<sp/>1U,<sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="278"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga3f2345153dd1057f35114529be9405ca" kindref="member">XMC_BCCU_CH_DIMMING_ENGINE_BYPASS_t</ref>;</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_ACTIVE_LEVEL</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_ACTIVE_LEVEL</highlight></codeline>
 <codeline lineno="284"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga2404afa3e2a080fc11e1e753125059e1a5ae24e9b95f4c0fc8f120786eaeb8268" kindref="member">XMC_BCCU_CH_ACTIVE_LEVEL_HIGH</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="286"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga2404afa3e2a080fc11e1e753125059e1aea6febea33b3a91c5edde7137b8ae636" kindref="member">XMC_BCCU_CH_ACTIVE_LEVEL_LOW</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="287"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga2404afa3e2a080fc11e1e753125059e1" kindref="member">XMC_BCCU_CH_ACTIVE_LEVEL_t</ref>;</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_TRIG_EDGE</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_TRIG_EDGE</highlight></codeline>
 <codeline lineno="293"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggaddcd53b51d103adfe02faa92f1daa2d6a09f10e30deefbb664c5cf6dfece45983" kindref="member">XMC_BCCU_CH_TRIG_EDGE_PASS_TO_ACT</ref><sp/>=<sp/>0U,<sp/><sp/></highlight></codeline>
 <codeline lineno="295"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggaddcd53b51d103adfe02faa92f1daa2d6ac3cd35d6989db427662ea3d200444f59" kindref="member">XMC_BCCU_CH_TRIG_EDGE_ACT_TO_PASS</ref><sp/>=<sp/>1U,<sp/><sp/></highlight></codeline>
 <codeline lineno="296"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gaddcd53b51d103adfe02faa92f1daa2d6" kindref="member">XMC_BCCU_CH_TRIG_EDGE_t</ref>;</highlight></codeline>
 <codeline lineno="297"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_TRAP_IN</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_TRAP_IN</highlight></codeline>
 <codeline lineno="302"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="303"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga777b62a2625e35e50a040a446118adeea5227bfdc968e8eb5adc95af4c486d0f3" kindref="member">XMC_BCCU_CH_TRAP_INA</ref><sp/>=<sp/>0x0U,<sp/><sp/></highlight></codeline>
 <codeline lineno="304"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga777b62a2625e35e50a040a446118adeea0e4e5010d24a08e443207cdd188ec074" kindref="member">XMC_BCCU_CH_TRAP_INB</ref><sp/>=<sp/>0x1U,<sp/><sp/></highlight></codeline>
@@ -5068,19 +5068,19 @@ EVFR. <linebreak/>
 <codeline lineno="318"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga777b62a2625e35e50a040a446118adeeade90a75d4c17b1a3a47d96985af6cf64" kindref="member">XMC_BCCU_CH_TRAP_INP</ref><sp/>=<sp/>0xFU,<sp/></highlight></codeline>
 <codeline lineno="319"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga777b62a2625e35e50a040a446118adee" kindref="member">XMC_BCCU_CH_TRAP_IN_t</ref>;</highlight></codeline>
 <codeline lineno="320"><highlight class="normal"></highlight></codeline>
-<codeline lineno="324"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_TRAP_EDGE</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_TRAP_EDGE</highlight></codeline>
 <codeline lineno="325"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="326"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggab0309f0d9c32be488e0676a6a6b6aef2a6ee6018fe16daa1e1c743f5306d6c8f9" kindref="member">XMC_BCCU_CH_TRAP_EDGE_RISING</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="327"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggab0309f0d9c32be488e0676a6a6b6aef2a6012c477654d196fe7935d7e862aecf5" kindref="member">XMC_BCCU_CH_TRAP_EDGE_FALLING</ref><sp/>=<sp/>1U<sp/><sp/></highlight></codeline>
 <codeline lineno="328"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gab0309f0d9c32be488e0676a6a6b6aef2" kindref="member">XMC_BCCU_CH_TRAP_EDGE_t</ref>;</highlight></codeline>
 <codeline lineno="329"><highlight class="normal"></highlight></codeline>
-<codeline lineno="333"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_TRIGOUT</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_TRIGOUT</highlight></codeline>
 <codeline lineno="334"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggac8ad49285dc1a0e80cc66f35d3a16268abbf23ef34d9099b119605558042476ec" kindref="member">XMC_BCCU_CH_TRIGOUT0</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="336"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ggac8ad49285dc1a0e80cc66f35d3a16268a3729ff7484fde70599bf8aa0d5eddfaa" kindref="member">XMC_BCCU_CH_TRIGOUT1</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
 <codeline lineno="337"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1gac8ad49285dc1a0e80cc66f35d3a16268" kindref="member">XMC_BCCU_CH_TRIGOUT_t</ref>;</highlight></codeline>
 <codeline lineno="338"><highlight class="normal"></highlight></codeline>
-<codeline lineno="342"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_DIMMING_SOURCE</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_CH_DIMMING_SOURCE</highlight></codeline>
 <codeline lineno="343"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga83137645f722626a8ff773258ef93322aca5264f1587319b735904b8c25a04121" kindref="member">XMC_BCCU_CH_DIMMING_SOURCE_GLOBAL</ref><sp/>=<sp/>7U,<sp/></highlight></codeline>
 <codeline lineno="345"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga83137645f722626a8ff773258ef93322aa3dd112ba2aac90c26cf6762d3f1c56a" kindref="member">XMC_BCCU_CH_DIMMING_SOURCE_DE0</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
@@ -5088,7 +5088,7 @@ EVFR. <linebreak/>
 <codeline lineno="347"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga83137645f722626a8ff773258ef93322abbb8f098e3c1e215cd0e462dd8f7a13f" kindref="member">XMC_BCCU_CH_DIMMING_SOURCE_DE2</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
 <codeline lineno="348"><highlight class="normal">}<sp/><ref refid="group___b_c_c_u_1ga83137645f722626a8ff773258ef93322" kindref="member">XMC_BCCU_CH_DIMMING_SOURCE_t</ref>;</highlight></codeline>
 <codeline lineno="349"><highlight class="normal"></highlight></codeline>
-<codeline lineno="353"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_DIM_CURVE</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_BCCU_DIM_CURVE</highlight></codeline>
 <codeline lineno="354"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="355"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga33d0f5b21f26601560c08b6abbb50830a911abe46fa98aaf3c7f0a074204e4d0f" kindref="member">XMC_BCCU_DIM_CURVE_COARSE</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="357"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1gga33d0f5b21f26601560c08b6abbb50830af7fb771bb4d72897519ac978338dffbc" kindref="member">XMC_BCCU_DIM_CURVE_FINE</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
@@ -5096,12 +5096,12 @@ EVFR. <linebreak/>
 <codeline lineno="359"><highlight class="normal"></highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="361"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
-<codeline lineno="362"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight></codeline>
-<codeline lineno="366"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>BCCU_Type<sp/><ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref>;</highlight></codeline>
+<codeline lineno="362"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>BCCU_Type<sp/><ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref>;</highlight></codeline>
 <codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="371"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>BCCU_CH_Type<sp/><ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref>;</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>BCCU_CH_Type<sp/><ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref>;</highlight></codeline>
 <codeline lineno="372"><highlight class="normal"></highlight></codeline>
-<codeline lineno="376"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>BCCU_DE_Type<sp/><ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref>;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>BCCU_DE_Type<sp/><ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref>;</highlight></codeline>
 <codeline lineno="377"><highlight class="normal"></highlight></codeline>
 <codeline lineno="378"><highlight class="normal"></highlight><highlight class="comment">/*Anonymous<sp/>structure/union<sp/>guard<sp/>start*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="379"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__CC_ARM)</highlight><highlight class="normal"></highlight></codeline>
@@ -5111,7 +5111,7 @@ EVFR. <linebreak/>
 <codeline lineno="383"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="384"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="385"><highlight class="normal"></highlight></codeline>
-<codeline lineno="389" refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_BCCU_GLOBAL_CONFIG</highlight></codeline>
+<codeline lineno="389" refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_BCCU_GLOBAL_CONFIG</highlight></codeline>
 <codeline lineno="390"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="391"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="392"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -5140,7 +5140,7 @@ EVFR. <linebreak/>
 <codeline lineno="415"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_GLOBAL_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
 <codeline lineno="417"><highlight class="normal"></highlight></codeline>
-<codeline lineno="421" refid="struct_x_m_c___b_c_c_u___t_r_i_g___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_BCCU_TRIG_CONFIG</highlight></codeline>
+<codeline lineno="421" refid="struct_x_m_c___b_c_c_u___t_r_i_g___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_BCCU_TRIG_CONFIG</highlight></codeline>
 <codeline lineno="422"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="423"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ga84257e9d3bdd4274a489fe19660bebb6" kindref="member">XMC_BCCU_TRIGMODE_t</ref><sp/><sp/>mode;<sp/></highlight></codeline>
 <codeline lineno="424"><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ga6f6fb567878a0d4ba8918f35fc95f195" kindref="member">XMC_BCCU_TRIGDELAY_t</ref><sp/>delay;<sp/></highlight></codeline>
@@ -5148,7 +5148,7 @@ EVFR. <linebreak/>
 <codeline lineno="427"><highlight class="normal"><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mask_trig_lines;<sp/></highlight></codeline>
 <codeline lineno="428"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___b_c_c_u___t_r_i_g___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_TRIG_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="429"><highlight class="normal"></highlight></codeline>
-<codeline lineno="433"><highlight class="preprocessor">#ifdef<sp/>DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="433"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="434" refid="struct_x_m_c___b_c_c_u___c_h___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_BCCU_CH_CONFIG</highlight></codeline>
 <codeline lineno="435"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="436"><highlight class="normal"><sp/><sp/>uint32_t<sp/>pack_thresh:<sp/>3;<sp/></highlight></codeline>
@@ -5205,7 +5205,7 @@ EVFR. <linebreak/>
 <codeline lineno="494"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
 <codeline lineno="495"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___b_c_c_u___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_CH_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="496"><highlight class="normal"></highlight></codeline>
-<codeline lineno="500"><highlight class="preprocessor">#ifdef<sp/>DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="500"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="501" refid="struct_x_m_c___b_c_c_u___d_i_m___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_BCCU_DIM_CONFIG</highlight></codeline>
 <codeline lineno="502"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="503"><highlight class="normal"><sp/><sp/>uint32_t<sp/>dim_div:<sp/>10;<sp/></highlight></codeline>
@@ -5242,30 +5242,30 @@ EVFR. <linebreak/>
 <codeline lineno="538"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="539"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="540"><highlight class="normal"></highlight></codeline>
-<codeline lineno="557"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga53231494cbe26b379889df26b9ccfeb3" kindref="member">XMC_BCCU_GlobalInit</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_GLOBAL_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="557"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga53231494cbe26b379889df26b9ccfeb3" kindref="member">XMC_BCCU_GlobalInit</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_GLOBAL_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="558"><highlight class="normal"></highlight></codeline>
-<codeline lineno="578"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gae835becf44edc6c890ab32203973f4a0" kindref="member">XMC_BCCU_ConfigGlobalTrigger</ref>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1ga84257e9d3bdd4274a489fe19660bebb6" kindref="member">XMC_BCCU_TRIGMODE_t</ref><sp/>mode,<sp/><ref refid="group___b_c_c_u_1ga6f6fb567878a0d4ba8918f35fc95f195" kindref="member">XMC_BCCU_TRIGDELAY_t</ref><sp/>delay);</highlight></codeline>
+<codeline lineno="578"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gae835becf44edc6c890ab32203973f4a0" kindref="member">XMC_BCCU_ConfigGlobalTrigger</ref>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1ga84257e9d3bdd4274a489fe19660bebb6" kindref="member">XMC_BCCU_TRIGMODE_t</ref><sp/>mode,<sp/><ref refid="group___b_c_c_u_1ga6f6fb567878a0d4ba8918f35fc95f195" kindref="member">XMC_BCCU_TRIGDELAY_t</ref><sp/>delay);</highlight></codeline>
 <codeline lineno="579"><highlight class="normal"></highlight></codeline>
 <codeline lineno="594"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1gaaf42f976ec91135e1d101eaf9bcc5511" kindref="member">XMC_BCCU_ReadGlobalTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu)</highlight></codeline>
 <codeline lineno="595"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="596"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)(bccu-&gt;GLOBCON<sp/>&amp;<sp/>BCCU_GLOBCON_TM_Msk);</highlight></codeline>
 <codeline lineno="597"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="598"><highlight class="normal"></highlight></codeline>
-<codeline lineno="614"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaa0915598e1674815ad8a7e3b06a6f83b" kindref="member">XMC_BCCU_SelectTrapInput</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1ga777b62a2625e35e50a040a446118adee" kindref="member">XMC_BCCU_CH_TRAP_IN_t</ref><sp/>input);</highlight></codeline>
+<codeline lineno="614"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaa0915598e1674815ad8a7e3b06a6f83b" kindref="member">XMC_BCCU_SelectTrapInput</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1ga777b62a2625e35e50a040a446118adee" kindref="member">XMC_BCCU_CH_TRAP_IN_t</ref><sp/>input);</highlight></codeline>
 <codeline lineno="615"><highlight class="normal"></highlight></codeline>
 <codeline lineno="630"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga2a44455f20432fb8431ad1cb9c2d6066" kindref="member">XMC_BCCU_ReadTrapInput</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu)</highlight></codeline>
 <codeline lineno="631"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="632"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)((<sp/>(bccu-&gt;GLOBCON)<sp/>&amp;<sp/>BCCU_GLOBCON_TRAPIS_Msk)<sp/>&gt;&gt;<sp/>BCCU_GLOBCON_TRAPIS_Pos);</highlight></codeline>
 <codeline lineno="633"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="634"><highlight class="normal"></highlight></codeline>
-<codeline lineno="649"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga211248203da6150a93e59404710319d3" kindref="member">XMC_BCCU_SetTrapEdge</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1gab0309f0d9c32be488e0676a6a6b6aef2" kindref="member">XMC_BCCU_CH_TRAP_EDGE_t</ref><sp/>edge);</highlight></codeline>
+<codeline lineno="649"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga211248203da6150a93e59404710319d3" kindref="member">XMC_BCCU_SetTrapEdge</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1gab0309f0d9c32be488e0676a6a6b6aef2" kindref="member">XMC_BCCU_CH_TRAP_EDGE_t</ref><sp/>edge);</highlight></codeline>
 <codeline lineno="650"><highlight class="normal"></highlight></codeline>
 <codeline lineno="665"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga97f1f8256cfcf53e12cdd770ea1e94cd" kindref="member">XMC_BCCU_ReadTrapEdge</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu)</highlight></codeline>
 <codeline lineno="666"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="667"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)((<sp/>(bccu-&gt;GLOBCON)<sp/>&amp;<sp/>BCCU_GLOBCON_TRAPED_Msk)<sp/>&gt;&gt;<sp/>BCCU_GLOBCON_TRAPED_Pos);</highlight></codeline>
 <codeline lineno="668"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="669"><highlight class="normal"></highlight></codeline>
-<codeline lineno="684"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf11d55e4654e8488b78c36fec162a8a3" kindref="member">XMC_BCCU_ConfigSuspendMode</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1gaad3b238ff7823a58885d3971e527b09e" kindref="member">XMC_BCCU_SUSPEND_MODE_t</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="684"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf11d55e4654e8488b78c36fec162a8a3" kindref="member">XMC_BCCU_ConfigSuspendMode</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1gaad3b238ff7823a58885d3971e527b09e" kindref="member">XMC_BCCU_SUSPEND_MODE_t</ref><sp/>mode);</highlight></codeline>
 <codeline lineno="685"><highlight class="normal"></highlight></codeline>
 <codeline lineno="701"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga4df64fe685065e22dea95aa942a9fe6a" kindref="member">XMC_BCCU_ReadSuspendMode</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu)</highlight></codeline>
 <codeline lineno="702"><highlight class="normal">{</highlight></codeline>
@@ -5277,59 +5277,59 @@ EVFR. <linebreak/>
 <codeline lineno="722"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)((<sp/>(bccu-&gt;GLOBCON)<sp/>&amp;<sp/>BCCU_GLOBCON_LTRS_Msk)<sp/>&gt;&gt;<sp/>BCCU_GLOBCON_LTRS_Pos);</highlight></codeline>
 <codeline lineno="723"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="724"><highlight class="normal"></highlight></codeline>
-<codeline lineno="739"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gac3a7567ce61d1e7823db673f415694cb" kindref="member">XMC_BCCU_SetFlickerWDThreshold</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>threshold_no);</highlight></codeline>
+<codeline lineno="739"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gac3a7567ce61d1e7823db673f415694cb" kindref="member">XMC_BCCU_SetFlickerWDThreshold</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>threshold_no);</highlight></codeline>
 <codeline lineno="740"><highlight class="normal"></highlight></codeline>
 <codeline lineno="753"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga191c08fee2cf43886b7f169437172e2e" kindref="member">XMC_BCCU_ReadFlickerWDThreshold</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu)</highlight></codeline>
 <codeline lineno="754"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="755"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)((<sp/>(bccu-&gt;GLOBCON)<sp/>&amp;<sp/>BCCU_GLOBCON_WDMBN_Msk)<sp/>&gt;&gt;<sp/>BCCU_GLOBCON_WDMBN_Pos);</highlight></codeline>
 <codeline lineno="756"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="757"><highlight class="normal"></highlight></codeline>
-<codeline lineno="771"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gabe4ec2b759dafb314e76b5d5ae5f33d6" kindref="member">XMC_BCCU_SetFastClockPrescaler</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>div);</highlight></codeline>
+<codeline lineno="771"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gabe4ec2b759dafb314e76b5d5ae5f33d6" kindref="member">XMC_BCCU_SetFastClockPrescaler</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>div);</highlight></codeline>
 <codeline lineno="772"><highlight class="normal"></highlight></codeline>
 <codeline lineno="785"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga8366d4b04d68a660201eba4561d27966" kindref="member">XMC_BCCU_ReadFastClock</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu)</highlight></codeline>
 <codeline lineno="786"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="787"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)(((bccu-&gt;GLOBCLK)<sp/>&amp;<sp/>BCCU_GLOBCLK_FCLK_PS_Msk)<sp/>&gt;&gt;<sp/>BCCU_GLOBCLK_FCLK_PS_Pos);</highlight></codeline>
 <codeline lineno="788"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="789"><highlight class="normal"></highlight></codeline>
-<codeline lineno="803"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga1ccdfb48cd227d7b7c11f472ad09d1ce" kindref="member">XMC_BCCU_SetDimClockPrescaler</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>div);</highlight></codeline>
+<codeline lineno="803"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga1ccdfb48cd227d7b7c11f472ad09d1ce" kindref="member">XMC_BCCU_SetDimClockPrescaler</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>div);</highlight></codeline>
 <codeline lineno="804"><highlight class="normal"></highlight></codeline>
 <codeline lineno="817"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga2d85a280970121ba3a72e12df20c22bc" kindref="member">XMC_BCCU_ReadDimClock</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu)</highlight></codeline>
 <codeline lineno="818"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="819"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)(((bccu-&gt;GLOBCLK)<sp/>&amp;<sp/>BCCU_GLOBCLK_DCLK_PS_Msk)<sp/>&gt;&gt;<sp/>BCCU_GLOBCLK_DCLK_PS_Pos);</highlight></codeline>
 <codeline lineno="820"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="821"><highlight class="normal"></highlight></codeline>
-<codeline lineno="835"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga1fd8e960efcfd1399c906343f7f38d39" kindref="member">XMC_BCCU_SelectBitClock</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1gaf940a779ec7b7ea19cb4a0ba10aeb8fd" kindref="member">XMC_BCCU_BCLK_MODE_t</ref><sp/>div);</highlight></codeline>
+<codeline lineno="835"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga1fd8e960efcfd1399c906343f7f38d39" kindref="member">XMC_BCCU_SelectBitClock</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="group___b_c_c_u_1gaf940a779ec7b7ea19cb4a0ba10aeb8fd" kindref="member">XMC_BCCU_BCLK_MODE_t</ref><sp/>div);</highlight></codeline>
 <codeline lineno="836"><highlight class="normal"></highlight></codeline>
 <codeline lineno="851"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga5b5fd4a60c133e6b32643e81e8cbcdf6" kindref="member">XMC_BCCU_ReadBitClock</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu)</highlight></codeline>
 <codeline lineno="852"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="853"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)(((bccu-&gt;GLOBCLK)<sp/>&amp;<sp/>BCCU_GLOBCLK_BCS_Msk)<sp/>&gt;&gt;<sp/>BCCU_GLOBCLK_BCS_Pos);</highlight></codeline>
 <codeline lineno="854"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="855"><highlight class="normal"></highlight></codeline>
-<codeline lineno="874"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga0096574da48f47daa25c0b95a29281e3" kindref="member">XMC_BCCU_ConcurrentEnableChannels</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="874"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga0096574da48f47daa25c0b95a29281e3" kindref="member">XMC_BCCU_ConcurrentEnableChannels</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="875"><highlight class="normal"></highlight></codeline>
-<codeline lineno="894"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaabdda89d26463e3e0e54328958046403" kindref="member">XMC_BCCU_ConcurrentDisableChannels</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="894"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaabdda89d26463e3e0e54328958046403" kindref="member">XMC_BCCU_ConcurrentDisableChannels</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="895"><highlight class="normal"></highlight></codeline>
-<codeline lineno="916"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gad42a863aa0c1949ba02fc445f91bd908" kindref="member">XMC_BCCU_ConcurrentSetOutputPassiveLevel</ref>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_mask,<sp/><ref refid="group___b_c_c_u_1ga2404afa3e2a080fc11e1e753125059e1" kindref="member">XMC_BCCU_CH_ACTIVE_LEVEL_t</ref><sp/>level);</highlight></codeline>
+<codeline lineno="916"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gad42a863aa0c1949ba02fc445f91bd908" kindref="member">XMC_BCCU_ConcurrentSetOutputPassiveLevel</ref>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_mask,<sp/><ref refid="group___b_c_c_u_1ga2404afa3e2a080fc11e1e753125059e1" kindref="member">XMC_BCCU_CH_ACTIVE_LEVEL_t</ref><sp/>level);</highlight></codeline>
 <codeline lineno="917"><highlight class="normal"></highlight></codeline>
-<codeline lineno="936"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga4d9ab7609a4aa04a1249e73f8ce32f7b" kindref="member">XMC_BCCU_ConcurrentEnableTrap</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="936"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga4d9ab7609a4aa04a1249e73f8ce32f7b" kindref="member">XMC_BCCU_ConcurrentEnableTrap</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="937"><highlight class="normal"></highlight></codeline>
-<codeline lineno="956"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga8c770f7787b017234fe82ce496880f1b" kindref="member">XMC_BCCU_ConcurrentDisableTrap</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="956"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga8c770f7787b017234fe82ce496880f1b" kindref="member">XMC_BCCU_ConcurrentDisableTrap</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="957"><highlight class="normal"></highlight></codeline>
-<codeline lineno="973"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga8a9de436ff4933ba86981a3aa4c2a941" kindref="member">XMC_BCCU_ConcurrentConfigTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="struct_x_m_c___b_c_c_u___t_r_i_g___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_TRIG_CONFIG_t</ref><sp/>*trig);</highlight></codeline>
+<codeline lineno="973"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga8a9de436ff4933ba86981a3aa4c2a941" kindref="member">XMC_BCCU_ConcurrentConfigTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/><ref refid="struct_x_m_c___b_c_c_u___t_r_i_g___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_TRIG_CONFIG_t</ref><sp/>*trig);</highlight></codeline>
 <codeline lineno="974"><highlight class="normal"></highlight></codeline>
-<codeline lineno="994"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga25034ff433425713a4fcd10878f6b1fe" kindref="member">XMC_BCCU_ConcurrentStartLinearWalk</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="994"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga25034ff433425713a4fcd10878f6b1fe" kindref="member">XMC_BCCU_ConcurrentStartLinearWalk</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="995"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1015"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga5f0898066f0ec1b579c479ebb77cefbc" kindref="member">XMC_BCCU_ConcurrentAbortLinearWalk</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="1015"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga5f0898066f0ec1b579c479ebb77cefbc" kindref="member">XMC_BCCU_ConcurrentAbortLinearWalk</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="1016"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1035"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga1741af1b4dc359ebc10b6b11166ff475" kindref="member">XMC_BCCU_ConcurrentEnableDimmingEngine</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="1035"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga1741af1b4dc359ebc10b6b11166ff475" kindref="member">XMC_BCCU_ConcurrentEnableDimmingEngine</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="1036"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1055"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga78fe6243b06c74fa044de5b2fbebd22d" kindref="member">XMC_BCCU_ConcurrentDisableDimmingEngine</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="1055"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga78fe6243b06c74fa044de5b2fbebd22d" kindref="member">XMC_BCCU_ConcurrentDisableDimmingEngine</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="1056"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1076"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaded6c1d7bbb11158220d5a9bc80de812" kindref="member">XMC_BCCU_ConcurrentStartDimming</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="1076"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaded6c1d7bbb11158220d5a9bc80de812" kindref="member">XMC_BCCU_ConcurrentStartDimming</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="1077"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1097"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga63d464bb9aa153b0f84115e474d5f189" kindref="member">XMC_BCCU_ConcurrentAbortDimming</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
+<codeline lineno="1097"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga63d464bb9aa153b0f84115e474d5f189" kindref="member">XMC_BCCU_ConcurrentAbortDimming</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>mask);</highlight></codeline>
 <codeline lineno="1098"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1113"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ga640bf8cfa5331aff74750bc6ae753e10" kindref="member">XMC_BCCU_SetGlobalDimmingLevel</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>level);</highlight></codeline>
+<codeline lineno="1113"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><ref refid="group___b_c_c_u_1ga640bf8cfa5331aff74750bc6ae753e10" kindref="member">XMC_BCCU_SetGlobalDimmingLevel</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>level);</highlight></codeline>
 <codeline lineno="1114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1131"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga0ea0c1c414d08d47171c198dbd007fa4" kindref="member">XMC_BCCU_EnableInterrupt</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>event)</highlight></codeline>
 <codeline lineno="1132"><highlight class="normal">{</highlight></codeline>
@@ -5356,23 +5356,23 @@ EVFR. <linebreak/>
 <codeline lineno="1216"><highlight class="normal"><sp/><sp/>bccu-&gt;EVFCR<sp/>=<sp/>flag_type;</highlight></codeline>
 <codeline lineno="1217"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1232"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gabe5f08dc01c0f80b996818124767b880" kindref="member">XMC_BCCU_EnableChannel</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
+<codeline lineno="1232"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gabe5f08dc01c0f80b996818124767b880" kindref="member">XMC_BCCU_EnableChannel</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
 <codeline lineno="1233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1247"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gafb2c45344866fb669873eaecf26c6d97" kindref="member">XMC_BCCU_DisableChannel</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
+<codeline lineno="1247"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gafb2c45344866fb669873eaecf26c6d97" kindref="member">XMC_BCCU_DisableChannel</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
 <codeline lineno="1248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1264"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gab8da6c91b0cab96c0ee4d801a5f1ce9b" kindref="member">XMC_BCCU_SetOutputPassiveLevel</ref>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no,<sp/><ref refid="group___b_c_c_u_1ga2404afa3e2a080fc11e1e753125059e1" kindref="member">XMC_BCCU_CH_ACTIVE_LEVEL_t</ref><sp/>level);</highlight></codeline>
+<codeline lineno="1264"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gab8da6c91b0cab96c0ee4d801a5f1ce9b" kindref="member">XMC_BCCU_SetOutputPassiveLevel</ref>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no,<sp/><ref refid="group___b_c_c_u_1ga2404afa3e2a080fc11e1e753125059e1" kindref="member">XMC_BCCU_CH_ACTIVE_LEVEL_t</ref><sp/>level);</highlight></codeline>
 <codeline lineno="1265"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1279"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf17000a01b5ecc10e10f27ab8ecce371" kindref="member">XMC_BCCU_EnableTrap</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
+<codeline lineno="1279"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf17000a01b5ecc10e10f27ab8ecce371" kindref="member">XMC_BCCU_EnableTrap</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
 <codeline lineno="1280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1294"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga008904247eaa737d11cb25e688e4adfa" kindref="member">XMC_BCCU_DisableTrap</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
+<codeline lineno="1294"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga008904247eaa737d11cb25e688e4adfa" kindref="member">XMC_BCCU_DisableTrap</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
 <codeline lineno="1295"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1311"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga671237a4eb111e25a6acfd9500fc8c94" kindref="member">XMC_BCCU_EnableChannelTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no,<sp/><ref refid="group___b_c_c_u_1gac8ad49285dc1a0e80cc66f35d3a16268" kindref="member">XMC_BCCU_CH_TRIGOUT_t</ref><sp/>trig_line);</highlight></codeline>
+<codeline lineno="1311"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga671237a4eb111e25a6acfd9500fc8c94" kindref="member">XMC_BCCU_EnableChannelTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no,<sp/><ref refid="group___b_c_c_u_1gac8ad49285dc1a0e80cc66f35d3a16268" kindref="member">XMC_BCCU_CH_TRIGOUT_t</ref><sp/>trig_line);</highlight></codeline>
 <codeline lineno="1312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1326"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga667a34d52ce64485172b684e17329783" kindref="member">XMC_BCCU_DisableChannelTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
+<codeline lineno="1326"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga667a34d52ce64485172b684e17329783" kindref="member">XMC_BCCU_DisableChannelTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no);</highlight></codeline>
 <codeline lineno="1327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1344"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gae5f82d9135ff911bc1a5c4c8d9855e31" kindref="member">XMC_BCCU_CH_Init</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___b_c_c_u___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="1344"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gae5f82d9135ff911bc1a5c4c8d9855e31" kindref="member">XMC_BCCU_CH_Init</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___b_c_c_u___c_h___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_CH_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="1345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1363"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga0f56f107c5986bb25a503942b8d11ff9" kindref="member">XMC_BCCU_CH_ConfigTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/><ref refid="group___b_c_c_u_1gaddcd53b51d103adfe02faa92f1daa2d6" kindref="member">XMC_BCCU_CH_TRIG_EDGE_t</ref><sp/>edge,<sp/>uint32_t<sp/>force_trig_en);</highlight></codeline>
+<codeline lineno="1363"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga0f56f107c5986bb25a503942b8d11ff9" kindref="member">XMC_BCCU_CH_ConfigTrigger</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/><ref refid="group___b_c_c_u_1gaddcd53b51d103adfe02faa92f1daa2d6" kindref="member">XMC_BCCU_CH_TRIG_EDGE_t</ref><sp/>edge,<sp/>uint32_t<sp/>force_trig_en);</highlight></codeline>
 <codeline lineno="1364"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1380"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga587d08e555da0635693bb929cc576243" kindref="member">XMC_BCCU_StartLinearWalk</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no)</highlight></codeline>
 <codeline lineno="1381"><highlight class="normal">{</highlight></codeline>
@@ -5389,24 +5389,24 @@ EVFR. <linebreak/>
 <codeline lineno="1419"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)((bccu-&gt;LTCHOL<sp/>&amp;<sp/>(BCCU_LTCHOL_LTOL0_Msk<sp/>&lt;&lt;<sp/>chan_no))<sp/>&gt;&gt;<sp/>chan_no);</highlight></codeline>
 <codeline lineno="1420"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1421"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1433"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga103c3313997811baa21cbf014f928ec5" kindref="member">XMC_BCCU_CH_SetLinearWalkPrescaler</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>clk_div);</highlight></codeline>
+<codeline lineno="1433"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga103c3313997811baa21cbf014f928ec5" kindref="member">XMC_BCCU_CH_SetLinearWalkPrescaler</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>clk_div);</highlight></codeline>
 <codeline lineno="1434"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1447"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1gab51e869cba6c4a66d613818c775c67e3" kindref="member">XMC_BCCU_IsLinearWalkComplete</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>chan_no)</highlight></codeline>
 <codeline lineno="1448"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="1449"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)((bccu-&gt;CHSTRCON<sp/>&amp;<sp/>(BCCU_CHSTRCON_CH0S_Msk<sp/>&lt;&lt;<sp/>chan_no))<sp/>&gt;&gt;<sp/>chan_no);</highlight></codeline>
 <codeline lineno="1450"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1451"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1466"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga34ee140a6cb6fa5a68e3e43667986d2a" kindref="member">XMC_BCCU_CH_SetTargetIntensity</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>ch_int);</highlight></codeline>
+<codeline lineno="1466"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga34ee140a6cb6fa5a68e3e43667986d2a" kindref="member">XMC_BCCU_CH_SetTargetIntensity</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>ch_int);</highlight></codeline>
 <codeline lineno="1467"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1479"><highlight class="normal">uint32_t<sp/><ref refid="group___b_c_c_u_1ga065b767a8cd39e0ad65cff1233feade9" kindref="member">XMC_BCCU_CH_ReadIntensity</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
 <codeline lineno="1480"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1501"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaab574de484817d9b5fbbdd1632639d0c" kindref="member">XMC_BCCU_CH_EnablePacker</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>thresh,<sp/>uint32_t<sp/>off_comp,<sp/>uint32_t<sp/>on_comp);</highlight></codeline>
+<codeline lineno="1501"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaab574de484817d9b5fbbdd1632639d0c" kindref="member">XMC_BCCU_CH_EnablePacker</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>thresh,<sp/>uint32_t<sp/>off_comp,<sp/>uint32_t<sp/>on_comp);</highlight></codeline>
 <codeline lineno="1502"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1516"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaeb64949f941388343c3c390af7864a1b" kindref="member">XMC_BCCU_CH_SetPackerThreshold</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>val);</highlight></codeline>
+<codeline lineno="1516"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaeb64949f941388343c3c390af7864a1b" kindref="member">XMC_BCCU_CH_SetPackerThreshold</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>val);</highlight></codeline>
 <codeline lineno="1517"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1533"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gabe0095f772f64e7971531b8ae9aae714" kindref="member">XMC_BCCU_CH_SetPackerOffCompare</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>level);</highlight></codeline>
+<codeline lineno="1533"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gabe0095f772f64e7971531b8ae9aae714" kindref="member">XMC_BCCU_CH_SetPackerOffCompare</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>level);</highlight></codeline>
 <codeline lineno="1534"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1550"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga7b568a197ffae91f7e07a629cc6cfe6b" kindref="member">XMC_BCCU_CH_SetPackerOnCompare</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>level);</highlight></codeline>
+<codeline lineno="1550"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga7b568a197ffae91f7e07a629cc6cfe6b" kindref="member">XMC_BCCU_CH_SetPackerOnCompare</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>level);</highlight></codeline>
 <codeline lineno="1551"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1563"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1gad55a523c8828856561aa8f222daea411" kindref="member">XMC_BCCU_CH_ReadPackerThreshold</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel)</highlight></codeline>
 <codeline lineno="1564"><highlight class="normal">{</highlight></codeline>
@@ -5423,17 +5423,17 @@ EVFR. <linebreak/>
 <codeline lineno="1599"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)(((channel-&gt;PKCMP)<sp/>&amp;<sp/>BCCU_CH_PKCMP_ONCMP_Msk)<sp/>&gt;&gt;<sp/>BCCU_CH_PKCMP_ONCMP_Pos);</highlight></codeline>
 <codeline lineno="1600"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1601"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1614"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga3d0f767ff1151483e184386f0c8f196a" kindref="member">XMC_BCCU_CH_DisablePacker</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
+<codeline lineno="1614"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga3d0f767ff1151483e184386f0c8f196a" kindref="member">XMC_BCCU_CH_DisablePacker</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
 <codeline lineno="1615"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1631"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga53114a4b822100289bc34966b39b7de0" kindref="member">XMC_BCCU_CH_SetPackerOffCounter</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>cnt_val);</highlight></codeline>
+<codeline lineno="1631"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga53114a4b822100289bc34966b39b7de0" kindref="member">XMC_BCCU_CH_SetPackerOffCounter</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>cnt_val);</highlight></codeline>
 <codeline lineno="1632"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1648"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gabe7fc726f6f53b1f9ff899309eef54af" kindref="member">XMC_BCCU_CH_SetPackerOnCounter</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>cnt_val);</highlight></codeline>
+<codeline lineno="1648"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gabe7fc726f6f53b1f9ff899309eef54af" kindref="member">XMC_BCCU_CH_SetPackerOnCounter</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/>uint32_t<sp/>cnt_val);</highlight></codeline>
 <codeline lineno="1649"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1663"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gad72d4e06242866872c6f67dc7781647b" kindref="member">XMC_BCCU_CH_SelectDimEngine</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/><ref refid="group___b_c_c_u_1ga83137645f722626a8ff773258ef93322" kindref="member">XMC_BCCU_CH_DIMMING_SOURCE_t</ref><sp/>sel);</highlight></codeline>
+<codeline lineno="1663"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gad72d4e06242866872c6f67dc7781647b" kindref="member">XMC_BCCU_CH_SelectDimEngine</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel,<sp/><ref refid="group___b_c_c_u_1ga83137645f722626a8ff773258ef93322" kindref="member">XMC_BCCU_CH_DIMMING_SOURCE_t</ref><sp/>sel);</highlight></codeline>
 <codeline lineno="1664"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1677"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga922c54e13ab8dea656e64801c72fe709" kindref="member">XMC_BCCU_CH_EnableDimmingBypass</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
+<codeline lineno="1677"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga922c54e13ab8dea656e64801c72fe709" kindref="member">XMC_BCCU_CH_EnableDimmingBypass</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
 <codeline lineno="1678"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1691"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga2e6b1ed0ece153f1c552198166dd0045" kindref="member">XMC_BCCU_CH_DisableDimmingBypass</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
+<codeline lineno="1691"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga2e6b1ed0ece153f1c552198166dd0045" kindref="member">XMC_BCCU_CH_DisableDimmingBypass</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel);</highlight></codeline>
 <codeline lineno="1692"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1706"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga9d960d5d7b6fb995c8301ec46603387a" kindref="member">XMC_BCCU_CH_EnableGating</ref><sp/>(<ref refid="group___b_c_c_u_1ga140a4beb296674b78777ce9f6df98b6a" kindref="member">XMC_BCCU_CH_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>channel)</highlight></codeline>
 <codeline lineno="1707"><highlight class="normal">{</highlight></codeline>
@@ -5455,7 +5455,7 @@ EVFR. <linebreak/>
 <codeline lineno="1764"><highlight class="normal"><sp/><sp/>channel-&gt;CHCONFIG<sp/>&amp;=<sp/>~(uint32_t)(BCCU_CH_CHCONFIG_WEN_Msk);</highlight></codeline>
 <codeline lineno="1765"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1766"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1781"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf0d3b51eb768ec3eb1769129525439a4" kindref="member">XMC_BCCU_DIM_Init</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___b_c_c_u___d_i_m___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_DIM_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="1781"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf0d3b51eb768ec3eb1769129525439a4" kindref="member">XMC_BCCU_DIM_Init</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___b_c_c_u___d_i_m___c_o_n_f_i_g__t" kindref="compound">XMC_BCCU_DIM_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="1782"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1796"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga6c3fb3f3688e4d1270698767cc300dba" kindref="member">XMC_BCCU_EnableDimmingEngine</ref><sp/>(<ref refid="group___b_c_c_u_1gabc4a3250d37d6f0ddf5d464848edb5de" kindref="member">XMC_BCCU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>bccu,<sp/>uint32_t<sp/>dim_no)</highlight></codeline>
 <codeline lineno="1797"><highlight class="normal">{</highlight></codeline>
@@ -5482,21 +5482,21 @@ EVFR. <linebreak/>
 <codeline lineno="1872"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)((bccu-&gt;DESTRCON<sp/>&amp;<sp/>(BCCU_DESTRCON_DE0S_Msk<sp/>&lt;&lt;<sp/>dim_no))<sp/>&gt;&gt;<sp/>dim_no);</highlight></codeline>
 <codeline lineno="1873"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1874"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1890"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf1711d66dca639f8f4c8e49022795118" kindref="member">XMC_BCCU_DIM_SetTargetDimmingLevel</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine,<sp/>uint32_t<sp/>level);</highlight></codeline>
+<codeline lineno="1890"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf1711d66dca639f8f4c8e49022795118" kindref="member">XMC_BCCU_DIM_SetTargetDimmingLevel</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine,<sp/>uint32_t<sp/>level);</highlight></codeline>
 <codeline lineno="1891"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1903"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga90e0a43d851e78d28969df7426eecdff" kindref="member">XMC_BCCU_DIM_ReadDimmingLevel</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine)</highlight></codeline>
 <codeline lineno="1904"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="1905"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)(dim_engine-&gt;DL<sp/>&amp;<sp/>BCCU_DE_DL_DLEV_Msk);</highlight></codeline>
 <codeline lineno="1906"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1907"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1922"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf466afd620c2d19dcca402cc61d0fb3d" kindref="member">XMC_BCCU_DIM_SetDimDivider</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine,<sp/>uint32_t<sp/>div);</highlight></codeline>
+<codeline lineno="1922"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1gaf466afd620c2d19dcca402cc61d0fb3d" kindref="member">XMC_BCCU_DIM_SetDimDivider</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine,<sp/>uint32_t<sp/>div);</highlight></codeline>
 <codeline lineno="1923"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1935"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___b_c_c_u_1ga6aa40650ebfb26c3fbd8dd1ea80b1c96" kindref="member">XMC_BCCU_DIM_ReadDimDivider</ref>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine)</highlight></codeline>
 <codeline lineno="1936"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="1937"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)(dim_engine-&gt;DTT<sp/>&amp;<sp/>BCCU_DE_DTT_DIMDIV_Msk);</highlight></codeline>
 <codeline lineno="1938"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1939"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1955"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga48b9e4e09755adb19aa2dc87622fa0b3" kindref="member">XMC_BCCU_DIM_ConfigDimCurve</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine,<sp/>uint32_t<sp/>dither_en,<sp/><ref refid="group___b_c_c_u_1ga33d0f5b21f26601560c08b6abbb50830" kindref="member">XMC_BCCU_DIM_CURVE_t</ref><sp/>sel);</highlight></codeline>
+<codeline lineno="1955"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___b_c_c_u_1ga48b9e4e09755adb19aa2dc87622fa0b3" kindref="member">XMC_BCCU_DIM_ConfigDimCurve</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine,<sp/>uint32_t<sp/>dither_en,<sp/><ref refid="group___b_c_c_u_1ga33d0f5b21f26601560c08b6abbb50830" kindref="member">XMC_BCCU_DIM_CURVE_t</ref><sp/>sel);</highlight></codeline>
 <codeline lineno="1956"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1968"><highlight class="normal">__STATIC_INLINE<sp/><ref refid="group___b_c_c_u_1ga33d0f5b21f26601560c08b6abbb50830" kindref="member">XMC_BCCU_DIM_CURVE_t</ref><sp/><ref refid="group___b_c_c_u_1ga69ab4ce3094fdfc518678e64c2e697b1" kindref="member">XMC_BCCU_DIM_GetDimCurve</ref><sp/>(<ref refid="group___b_c_c_u_1gaf957d765708758ee2b0b0326e169023b" kindref="member">XMC_BCCU_DIM_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dim_engine)</highlight></codeline>
 <codeline lineno="1969"><highlight class="normal">{</highlight></codeline>
@@ -5508,7 +5508,7 @@ EVFR. <linebreak/>
 <codeline lineno="1986"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)((dim_engine-&gt;DTT<sp/>&amp;<sp/>BCCU_DE_DTT_DTEN_Msk)<sp/>&gt;&gt;<sp/>BCCU_DE_DTT_DTEN_Pos);</highlight></codeline>
 <codeline lineno="1987"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1988"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1994"><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1994"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1995"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1996"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1997"><highlight class="normal"></highlight></codeline>
@@ -5516,6 +5516,6 @@ EVFR. <linebreak/>
 <codeline lineno="1999"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2000"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_BCCU_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_bccu.h"/>
   </compounddef>
 </doxygen>

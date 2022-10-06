@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_USBH0_DEVICE_t</compoundname>
       <sectiondef kind="public-attrib">
@@ -11,11 +11,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Global register interface </para>
+<para>Global register interface <linebreak/>
+ </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="345" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="345" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="345" column="23" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="345" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t_1a84b93ce766da6f5361ed94f436b13af6" prot="public" static="no" mutable="no">
         <type>USB0_CH_TypeDef *</type>
@@ -25,11 +26,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Host channel interface </para>
+<para>Host channel interface <linebreak/>
+ </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="346" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="346" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="346" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="346" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t_1ac28675e9f599e4310cf860d8cd396cea" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -43,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="349" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="349" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="349" column="8" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="349" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t_1af070a6a462133187c878e36109c5c136" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -57,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="351" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="351" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="351" column="8" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="351" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t_1aaf52685d6bf25e4f04b1f837d77ef6ac" prot="public" static="no" mutable="no">
         <type><ref refid="group___u_s_b_h_1ga55297f05d0b9bfba88ef5a531fb2f3ca" kindref="member">XMC_USBH_POWER_STATE_t</ref></type>
@@ -71,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="350" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="350" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="350" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="350" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t_1a0c2444afbd873be671ea6f2ea2d9f190" prot="public" static="no" mutable="no">
         <type><ref refid="group___u_s_b_h_1ga7a9ae457e33df433c049068ad678bf1d" kindref="member">XMC_USBH_SignalPipeEvent_t</ref></type>
@@ -85,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="348" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="348" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="348" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="348" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t_1a6e9a60d849dcfb97d32248437f5b393f" prot="public" static="no" mutable="no">
         <type><ref refid="group___u_s_b_h_1ga11f0f54fab82857b429a9a47f7cb7381" kindref="member">XMC_USBH_SignalPortEvent_t</ref></type>
@@ -99,14 +101,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="347" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="347" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="347" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="347" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="344" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="343" bodyend="352"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" line="343" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbh.h" bodystart="344" bodyend="352"/>
     <listofallmembers>
       <member refid="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t_1a99d419919059539c30d03d384d94e9ac" prot="public" virt="non-virtual"><scope>XMC_USBH0_DEVICE_t</scope><name>global_register</name></member>
       <member refid="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t_1a84b93ce766da6f5361ed94f436b13af6" prot="public" virt="non-virtual"><scope>XMC_USBH0_DEVICE_t</scope><name>host_channel_registers</name></member>

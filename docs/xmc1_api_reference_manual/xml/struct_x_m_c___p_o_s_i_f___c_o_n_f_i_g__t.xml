@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_POSIF_CONFIG_t</compoundname>
     <includes local="no">xmc_posif.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="380" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="380" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="371" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="371" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="371" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="371" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="375" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="375" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="375" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="375" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="377" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="377" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="377" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="377" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a2719b8cbe8dc1a5064a418269c72e528" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="376" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="376" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="376" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="376" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1ad42172221b4e4252ffe294e08c433384" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="372" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="372" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="372" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="372" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a64ceff8d404649c81159566611a1d871" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="373" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="373" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="373" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="373" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1ab457196ad0bef14fef35d05a51f80b32" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="374" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="374" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="374" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="374" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a6b29e4f37f4482274af785ad5ffe96a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="370" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="370" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="370" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="370" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a9a8cf89b7913f0ce03d13f64d8e3f673" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="379" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="379" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="379" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="379" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -153,7 +153,7 @@
     <detaileddescription>
 <para>Defines POSIF module initialization data structure. Use type <ref refid="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_CONFIG_t</ref> for this data structure. It is used to initialize POSIF module using <emphasis>PCONF</emphasis> register. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="365" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="364" bodyend="381"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="364" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="365" bodyend="381"/>
     <listofallmembers>
       <member refid="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_POSIF_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_POSIF_CONFIG_t</scope><name>__pad1__</name></member>

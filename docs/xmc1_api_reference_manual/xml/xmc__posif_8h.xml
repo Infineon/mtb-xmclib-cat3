@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__posif_8h" kind="file" language="C++">
     <compoundname>xmc_posif.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
     <includes refid="xmc__scu_8h" local="yes">xmc_scu.h</includes>
     <includes local="yes">xmc_posif_map.h</includes>
     <incdepgraph>
-      <node id="58">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="59">
-        <label>xmc_posif_map.h</label>
-      </node>
-      <node id="57">
+      <node id="1">
         <label>xmc_posif.h</label>
         <link refid="xmc__posif_8h"/>
-        <childnode refid="58" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
+      </node>
+      <node id="3">
+        <label>xmc_posif_map.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t" prot="public">XMC_POSIF_CONFIG_t</innerclass>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="125" column="10" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="125" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="125" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="187" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="186" bodyend="196"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="186" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="187" bodyend="196"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1gafab3ca2f74089eefc898245dd1b41aee" prot="public" static="no" strong="no">
         <type></type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="264" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="263" bodyend="267"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="263" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="264" bodyend="267"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1ga24b949250df8357e78f4fbfcc0517574" prot="public" static="no" strong="no">
         <type></type>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="175" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="174" bodyend="178"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="174" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="175" bodyend="178"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1ga82e681363bd293e7190e2542d5d28974" prot="public" static="no" strong="no">
         <type></type>
@@ -250,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="160" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="159" bodyend="169"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="159" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="160" bodyend="169"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1gae28e01e5a0d72d7066361aa424a3cd91" prot="public" static="no" strong="no">
         <type></type>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="204" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="203" bodyend="214"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="203" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="204" bodyend="214"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1ga6599bce3683031aac9f154c47776b4f9" prot="public" static="no" strong="no">
         <type></type>
@@ -388,7 +388,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="145" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="144" bodyend="150"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="144" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="145" bodyend="150"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1gac618e628284af3b28c89eb9c09402757" prot="public" static="no" strong="no">
         <type></type>
@@ -417,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="243" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="242" bodyend="246"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="242" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="243" bodyend="246"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1ga157c3e8c0476b8fcf6474ec5bd903091" prot="public" static="no" strong="no">
         <type></type>
@@ -454,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="253" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="252" bodyend="257"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="252" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="253" bodyend="257"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1ga69cbdac80d1da6a266a58eebd5deec6a" prot="public" static="no" strong="no">
         <type></type>
@@ -483,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="233" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="232" bodyend="236"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="232" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="233" bodyend="236"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1ga820b4259541019151685f25c6adf92a6" prot="public" static="no" strong="no">
         <type></type>
@@ -512,7 +512,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="222" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="221" bodyend="225"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="221" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="222" bodyend="225"/>
       </memberdef>
       <memberdef kind="enum" id="group___p_o_s_i_f_1gac32d7e3b6084cd4eedda80839fb967e8" prot="public" static="no" strong="no">
         <type></type>
@@ -541,7 +541,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="135" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="134" bodyend="138"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="134" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="135" bodyend="138"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -557,7 +557,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="285" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="285" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="285" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="285" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -599,7 +599,6 @@
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -615,7 +614,7 @@ Acknowledges an IRQ event by configuring 1 to <emphasis>RPFLG</emphasis> registe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="996" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="996" bodyend="999"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="996" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="996" bodyend="999"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga9d646eb531a8c2c131a41e8aade65fbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -643,7 +642,6 @@ Acknowledges an IRQ event by configuring 1 to <emphasis>RPFLG</emphasis> registe
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -659,7 +657,7 @@ If running on other than XMC45 device then in addition it will gate the peripher
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="427" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="427" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" declline="427" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga3fea81c719ef59667d0e538d2e3306be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -700,7 +698,6 @@ If running on other than XMC45 device then in addition it will gate the peripher
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -716,7 +713,7 @@ Disables an IRQ generation capable <emphasis>event</emphasis> by configuring 0 t
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="962" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="962" bodyend="965"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="962" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="962" bodyend="965"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gabca21164a5b988003bb5b700ae51fd02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -744,7 +741,6 @@ Disables an IRQ generation capable <emphasis>event</emphasis> by configuring 0 t
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -762,7 +758,7 @@ Configures <emphasis>PRCLR0</emphasis> register&apos;s <emphasis>POSIF0RS</empha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="413" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="413" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" declline="413" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gaaba72942f2b0e32777ded8d502109231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -802,7 +798,6 @@ Configures <emphasis>PRCLR0</emphasis> register&apos;s <emphasis>POSIF0RS</empha
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -818,7 +813,7 @@ Enables an IRQ generation capable <emphasis>event</emphasis> by configuring 1 to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="944" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="944" bodyend="947"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="944" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="944" bodyend="947"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga9e51f7a14b723e1d174d61903e31b0d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -874,7 +869,7 @@ Determines if IRQ event is asserted by retrieving data from <emphasis>PFLG</emph
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="1013" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="1013" bodyend="1016"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="1013" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="1013" bodyend="1016"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga8a83d184367379f4bcba2907b747fab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -920,7 +915,7 @@ Retrieves the current hall sensor pattern from <emphasis>HALP</emphasis> registe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="634" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="634" bodyend="637"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="634" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="634" bodyend="637"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga62c408b349e2f9d9a849dfafde1e0a52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -966,7 +961,7 @@ Retrieves the expected hall sensor pattern from <emphasis>HALP</emphasis> regist
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="654" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="654" bodyend="657"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="654" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="654" bodyend="657"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga0580b2e5c7384e350f27e2ce6cfd5e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1012,7 +1007,7 @@ Retrieves the last sampled hall sensor pattern from <emphasis>PDBG</emphasis> re
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="614" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="614" bodyend="617"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="614" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="614" bodyend="617"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gab5b17abbb7be807820b0e461aee90316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___p_o_s_i_f_1gac32d7e3b6084cd4eedda80839fb967e8" kindref="member">XMC_POSIF_STATUS_t</ref></type>
@@ -1070,7 +1065,7 @@ Configures <emphasis>PCONF</emphasis> register with which POSIF input trigger to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="462" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="462" column="20" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" declline="462" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gaa169510e9851ed8e08dcb0c5a16bf73f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1110,7 +1105,6 @@ Configures <emphasis>PCONF</emphasis> register with which POSIF input trigger to
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1128,7 +1122,7 @@ Configures the Current hall sensor pattern on <emphasis>HALPS</emphasis> shadow 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="677" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="677" bodyend="681"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="677" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="677" bodyend="681"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gaae07138cb9aaf5060f1320454fb0048c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1168,7 +1162,6 @@ Configures the Current hall sensor pattern on <emphasis>HALPS</emphasis> shadow 
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1186,7 +1179,7 @@ Applications can set at any point in time program the hall sensor expected patte
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="701" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="701" bodyend="705"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="701" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="701" bodyend="705"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga179b8bfe9f625637ca876ac81f2f709c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1226,7 +1219,6 @@ Applications can set at any point in time program the hall sensor expected patte
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1244,7 +1236,7 @@ Configures <emphasis>HALPS</emphasis> register with the Current and Expected hal
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="725" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="725" bodyend="728"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="725" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="725" bodyend="728"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gab76773ff47ea38c55f7791e8088f2dd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1272,7 +1264,6 @@ Configures <emphasis>HALPS</emphasis> register with the Current and Expected hal
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1290,7 +1281,7 @@ Configures <emphasis>MCMS</emphasis> register&apos;s <emphasis>STHR</emphasis> b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="747" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="747" bodyend="750"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="747" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="747" bodyend="750"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga96f90c0115bcc24f0230a6cdfb41e876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1330,7 +1321,6 @@ Configures <emphasis>MCMS</emphasis> register&apos;s <emphasis>STHR</emphasis> b
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1346,7 +1336,7 @@ Configures POSIF global registers.This is the first API which application must i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="443" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="443" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" declline="443" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga72cbe17a89d8c19da40f8455ef501c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1390,7 +1380,7 @@ Retrieves the status from <emphasis>PRUN</emphasis> register&apos;s <emphasis>SR
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="594" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="594" bodyend="597"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="594" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="594" bodyend="597"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gadf26511d0c3635258b526189bd69129b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1418,7 +1408,6 @@ Retrieves the status from <emphasis>PRUN</emphasis> register&apos;s <emphasis>SR
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1436,7 +1425,7 @@ Enabling update of multi-channel pattern happens under two conditions. A hardwar
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="848" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="848" bodyend="851"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="848" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="848" bodyend="851"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gacadec87d69599848bdb3c9c64f3e3fc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1480,7 +1469,7 @@ Retrieves the Multi-Channel Pattern from <emphasis>MCM</emphasis> register&apos;
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="787" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="787" bodyend="790"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="787" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="787" bodyend="790"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga32143cfdd99b2887cb1a23bc82d26d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1525,7 +1514,7 @@ It can be used when MCM is enabled.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="806" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="806" bodyend="809"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="806" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="806" bodyend="809"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gab1dd19ec5244e17df1135649adc42f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___p_o_s_i_f_1gac32d7e3b6084cd4eedda80839fb967e8" kindref="member">XMC_POSIF_STATUS_t</ref></type>
@@ -1583,7 +1572,7 @@ Configures <emphasis>PCONF</emphasis> register with multi channel mode using <re
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="499" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="499" column="20" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" declline="499" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga6fac0260f2e87935b17496fa49249f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1623,7 +1612,6 @@ Configures <emphasis>PCONF</emphasis> register with multi channel mode using <re
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1641,7 +1629,7 @@ This 16b multi-channel pattern which controls the 16 outputs of all slices of a 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="770" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="770" bodyend="773"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="770" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="770" bodyend="773"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga16386a78c7a3461f8eb1ee1c305c5359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1669,7 +1657,6 @@ This 16b multi-channel pattern which controls the 16 outputs of all slices of a 
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1687,7 +1674,7 @@ The transfer of multi-channel pattern shadow registers content to the actual pat
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="827" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="827" bodyend="830"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="827" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="827" bodyend="830"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gae7e5b7046b7421bcc2f00197c585ef88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1728,7 +1715,7 @@ Retrieves current index signal value of the quadrature decoder from <emphasis>PD
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="927" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="927" bodyend="930"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="927" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="927" bodyend="930"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga60b2c2b1658746ec5f98e8a04eca32d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1774,7 +1761,7 @@ Retrieves current state of the quadrature decoder from <emphasis>PDBG</emphasis>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="887" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="887" bodyend="890"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="887" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="887" bodyend="890"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga04f9fb976e304266122d683b66dc4134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___p_o_s_i_f_1gac618e628284af3b28c89eb9c09402757" kindref="member">XMC_POSIF_QD_DIR_t</ref></type>
@@ -1815,7 +1802,7 @@ Retrieves direction from <emphasis>QDC</emphasis> register&apos;s <emphasis>DVAL
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="866" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="866" bodyend="869"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="866" column="21" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="866" bodyend="869"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga8e86b8f572f48582cb6460df1a05f065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -1861,7 +1848,7 @@ Retrieves previous state of the quadrature decoder from <emphasis>PDBG</emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="908" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="908" bodyend="911"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="908" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="908" bodyend="911"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga9f62fc42da425bdde66a80d8b91cbb7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___p_o_s_i_f_1gac32d7e3b6084cd4eedda80839fb967e8" kindref="member">XMC_POSIF_STATUS_t</ref></type>
@@ -1919,7 +1906,7 @@ Configures <emphasis>PCONF</emphasis> register with quadrature mode using <ref r
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="480" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="480" column="20" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" declline="480" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gadef0d9284b73f37e918d2d91b012a3c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1983,7 +1970,6 @@ Configures <emphasis>PCONF</emphasis> register with quadrature mode using <ref r
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2001,7 +1987,7 @@ Configures <emphasis>PCONF</emphasis> register&apos;s INSEL0,INSEL1,INSEL2 bit f
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="542" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="542" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" declline="542" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga66d0aad06c04b7194ebaab41a215479d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2041,7 +2027,6 @@ Configures <emphasis>PCONF</emphasis> register&apos;s INSEL0,INSEL1,INSEL2 bit f
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2057,7 +2042,7 @@ Configures <emphasis>PCONF</emphasis> register&apos;s INSEL0,INSEL1,INSEL2 bit f
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="979" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="979" bodyend="982"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="979" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="979" bodyend="982"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga78be0ab9757a871f0265de3933efa8a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2109,7 +2094,6 @@ Configures <emphasis>PCONF</emphasis> register&apos;s INSEL0,INSEL1,INSEL2 bit f
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2120,7 +2104,7 @@ Binds an IRQ event to a service request line by configuring <emphasis>PFLGE</emp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="1028" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="1028" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" declline="1028" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga049ad08ad799a4fbcc36a672ae82a42b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2160,7 +2144,6 @@ Binds an IRQ event to a service request line by configuring <emphasis>PFLGE</emp
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2178,7 +2161,7 @@ Configures <emphasis>PCONF</emphasis> register&apos;s a\ FSEL bitfield with <emp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="517" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="517" bodyend="521"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="517" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="517" bodyend="521"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1ga6c9e910c0b761228ff094906cac6cd89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2206,7 +2189,6 @@ Configures <emphasis>PCONF</emphasis> register&apos;s a\ FSEL bitfield with <emp
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2224,7 +2206,7 @@ Starts POSIF state machine for <emphasis>peripheral.Configures</emphasis> <empha
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="561" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="561" bodyend="564"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="561" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="561" bodyend="564"/>
       </memberdef>
       <memberdef kind="function" id="group___p_o_s_i_f_1gaac3933935f9aa846f25a3d1fc97fdee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2252,7 +2234,6 @@ Starts POSIF state machine for <emphasis>peripheral.Configures</emphasis> <empha
 <parametername>None</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -2268,7 +2249,7 @@ Stop POSIF functional state machine and clears current internal status of the <e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="578" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="578" bodyend="581"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="578" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="578" bodyend="581"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -2279,8 +2260,8 @@ Stop POSIF functional state machine and clears current internal status of the <e
 </para>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="70"><highlight class="preprocessor">#ifndef<sp/>XMC_POSIF_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_POSIF_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_POSIF_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
@@ -2293,7 +2274,7 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_posif_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="120"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="121"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>((UC_SERIES<sp/>==<sp/>XMC45)<sp/>||<sp/>(UC_SERIES<sp/>==<sp/>XMC44)<sp/>||<sp/>(UC_SERIES<sp/>==<sp/>XMC47)<sp/>||<sp/>(UC_SERIES<sp/>==<sp/>XMC48)<sp/>||<sp/>(UC_SERIES<sp/>==<sp/>XMC14))</highlight><highlight class="normal"></highlight></codeline>
@@ -2304,14 +2285,14 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
 <codeline lineno="129"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
-<codeline lineno="130"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight></codeline>
-<codeline lineno="134"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_STATUS</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_STATUS</highlight></codeline>
 <codeline lineno="135"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggac32d7e3b6084cd4eedda80839fb967e8ad1ce9a38bd7d50c26e3d837463ec346c" kindref="member">XMC_POSIF_STATUS_OK</ref><sp/>=<sp/>0U,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggac32d7e3b6084cd4eedda80839fb967e8a6cfd0f0fa6b85decac1ada2538a6c908" kindref="member">XMC_POSIF_STATUS_ERROR</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="138"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1gac32d7e3b6084cd4eedda80839fb967e8" kindref="member">XMC_POSIF_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_MODE</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_MODE</highlight></codeline>
 <codeline lineno="145"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga6599bce3683031aac9f154c47776b4f9a37fa07a8cb02f07cd05010722726b607" kindref="member">XMC_POSIF_MODE_HALL_SENSOR</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga6599bce3683031aac9f154c47776b4f9a14e2f27658009e34d4a75356586008eb" kindref="member">XMC_POSIF_MODE_QD</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2319,7 +2300,7 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga6599bce3683031aac9f154c47776b4f9a38e8e3afd68f4369320975866a8e7941" kindref="member">XMC_POSIF_MODE_MCM_QD</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="150"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1ga6599bce3683031aac9f154c47776b4f9" kindref="member">XMC_POSIF_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_INPUT_PORT</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_INPUT_PORT</highlight></codeline>
 <codeline lineno="160"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga82e681363bd293e7190e2542d5d28974a378c17e2840c012e6de7520ca77e6302" kindref="member">XMC_POSIF_INPUT_PORT_A</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga82e681363bd293e7190e2542d5d28974a99e6e69011d5ae7de1237f8dda289585" kindref="member">XMC_POSIF_INPUT_PORT_B</ref>,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2331,13 +2312,13 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga82e681363bd293e7190e2542d5d28974a6eb241e7c149edf38ce0aed37e3846b3" kindref="member">XMC_POSIF_INPUT_PORT_H</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="169"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1ga82e681363bd293e7190e2542d5d28974" kindref="member">XMC_POSIF_INPUT_PORT_t</ref>;</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_INPUT_ACTIVE_LEVEL</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_INPUT_ACTIVE_LEVEL</highlight></codeline>
 <codeline lineno="175"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga24b949250df8357e78f4fbfcc0517574a9f9fbc5b09ed07777d5ac0d9be40a63e" kindref="member">XMC_POSIF_INPUT_ACTIVE_LEVEL_HIGH</ref><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="177"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga24b949250df8357e78f4fbfcc0517574a64b611525e96c88611d6f17e9d910d09" kindref="member">XMC_POSIF_INPUT_ACTIVE_LEVEL_LOW</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="178"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1ga24b949250df8357e78f4fbfcc0517574" kindref="member">XMC_POSIF_INPUT_ACTIVE_LEVEL_t</ref>;</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_FILTER</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_FILTER</highlight></codeline>
 <codeline lineno="187"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggafa5c70ea2a0e7b945f5f5e9e434432faafe0123eba980b86b152be2580205b1de" kindref="member">XMC_POSIF_FILTER_DISABLED</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggafa5c70ea2a0e7b945f5f5e9e434432faa6e4fa5485d663105fbae44651ac95b01" kindref="member">XMC_POSIF_FILTER_1_CLOCK_CYCLE</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2349,7 +2330,7 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggafa5c70ea2a0e7b945f5f5e9e434432faa5f05e10af9fe79ab4f3c5cbfe48e1e3a" kindref="member">XMC_POSIF_FILTER_64_CLOCK_CYCLE</ref><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="196"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1gafa5c70ea2a0e7b945f5f5e9e434432fa" kindref="member">XMC_POSIF_FILTER_t</ref>;</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_IRQ_EVENT</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_IRQ_EVENT</highlight></codeline>
 <codeline lineno="204"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggae28e01e5a0d72d7066361aa424a3cd91a3d036aa958d389465b7faff4b36b869a" kindref="member">XMC_POSIF_IRQ_EVENT_CHE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="206"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggae28e01e5a0d72d7066361aa424a3cd91ae9b12aa8206b610d03bf53ffd3e47ec1" kindref="member">XMC_POSIF_IRQ_EVENT_WHE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1U,<sp/></highlight></codeline>
@@ -2362,32 +2343,32 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggae28e01e5a0d72d7066361aa424a3cd91ac06ea8dd7e7799e718f15aade3b5a348" kindref="member">XMC_POSIF_IRQ_EVENT_PCLK</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>12U<sp/><sp/></highlight></codeline>
 <codeline lineno="214"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1gae28e01e5a0d72d7066361aa424a3cd91" kindref="member">XMC_POSIF_IRQ_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_SR_ID</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_SR_ID</highlight></codeline>
 <codeline lineno="222"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga820b4259541019151685f25c6adf92a6af7695b0e3e72c649106979c6a7e7225b" kindref="member">XMC_POSIF_SR_ID_0</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga820b4259541019151685f25c6adf92a6a7d0d4e0e8400f54c19a63e2a3aa348da" kindref="member">XMC_POSIF_SR_ID_1</ref><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="225"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1ga820b4259541019151685f25c6adf92a6" kindref="member">XMC_POSIF_SR_ID_t</ref>;</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_QD_MODE</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_QD_MODE</highlight></codeline>
 <codeline lineno="233"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga69cbdac80d1da6a266a58eebd5deec6aae3009825ad366f042cacb96f41bff7ad" kindref="member">XMC_POSIF_QD_MODE_QUADRATURE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="235"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga69cbdac80d1da6a266a58eebd5deec6aad77e51fed33e05ad6d351e1e3010e3cb" kindref="member">XMC_POSIF_QD_MODE_DIRECTION_COUNT</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="236"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1ga69cbdac80d1da6a266a58eebd5deec6a" kindref="member">XMC_POSIF_QD_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="242"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_QD_DIR</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_QD_DIR</highlight></codeline>
 <codeline lineno="243"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggac618e628284af3b28c89eb9c09402757a0a28836133863486735bbf75dd63608c" kindref="member">XMC_POSIF_QD_DIR_COUNTERCLOCKWISE</ref><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="245"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggac618e628284af3b28c89eb9c09402757a128d9b0e6a79eb3d00b7ddf8656e2357" kindref="member">XMC_POSIF_QD_DIR_CLOCKWISE</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="246"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1gac618e628284af3b28c89eb9c09402757" kindref="member">XMC_POSIF_QD_DIR_t</ref>;</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_QD_INDEX_GENERATION</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_QD_INDEX_GENERATION</highlight></codeline>
 <codeline lineno="253"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga157c3e8c0476b8fcf6474ec5bd903091a0da1ed86e8bf90845c3ce75819c28834" kindref="member">XMC_POSIF_QD_INDEX_GENERATION_NEVER</ref><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="255"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga157c3e8c0476b8fcf6474ec5bd903091a11a4ca8dfe7ffa68263e32681117a93a" kindref="member">XMC_POSIF_QD_INDEX_GENERATION_ONCE</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="256"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1gga157c3e8c0476b8fcf6474ec5bd903091a9641b3e373f866bae79a623e0aa84247" kindref="member">XMC_POSIF_QD_INDEX_GENERATION_ALWAYS</ref><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="257"><highlight class="normal">}<sp/><ref refid="group___p_o_s_i_f_1ga157c3e8c0476b8fcf6474ec5bd903091" kindref="member">XMC_POSIF_QD_INDEX_GENERATION_t</ref>;</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_HSC_TRIGGER_EDGE</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_POSIF_HSC_TRIGGER_EDGE</highlight></codeline>
 <codeline lineno="264"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="265"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggafab3ca2f74089eefc898245dd1b41aeea85402928d2002e2d4e6ec23b4948522c" kindref="member">XMC_POSIF_HSC_TRIGGER_EDGE_RISING</ref><sp/><sp/>=<sp/>0U,<sp/></highlight></codeline>
 <codeline lineno="266"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ggafab3ca2f74089eefc898245dd1b41aeea61578695d36d3c9187137d7b90df3d6e" kindref="member">XMC_POSIF_HSC_TRIGGER_EDGE_FALLING</ref><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2405,9 +2386,9 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="278"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="279"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="285"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>POSIF_GLOBAL_TypeDef<sp/><ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref>;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>POSIF_GLOBAL_TypeDef<sp/><ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref>;</highlight></codeline>
 <codeline lineno="286"><highlight class="normal"></highlight></codeline>
-<codeline lineno="292" refid="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_POSIF_QD_CONFIG</highlight></codeline>
+<codeline lineno="292" refid="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_POSIF_QD_CONFIG</highlight></codeline>
 <codeline lineno="293"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"><sp/><sp/><ref refid="group___p_o_s_i_f_1ga69cbdac80d1da6a266a58eebd5deec6a" kindref="member">XMC_POSIF_QD_MODE_t</ref><sp/>mode;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="295"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
@@ -2425,7 +2406,7 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="307"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
 <codeline lineno="308"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_QD_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight></codeline>
-<codeline lineno="315" refid="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_POSIF_HSC_CONFIG</highlight></codeline>
+<codeline lineno="315" refid="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_POSIF_HSC_CONFIG</highlight></codeline>
 <codeline lineno="316"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="318"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -2446,7 +2427,7 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="333"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
 <codeline lineno="334"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_HSC_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="335"><highlight class="normal"></highlight></codeline>
-<codeline lineno="341" refid="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_POSIF_MCM_CONFIG</highlight></codeline>
+<codeline lineno="341" refid="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_POSIF_MCM_CONFIG</highlight></codeline>
 <codeline lineno="342"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="343"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="344"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -2464,7 +2445,7 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="356"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
 <codeline lineno="357"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_MCM_CONFIG_t</ref>;</highlight></codeline>
 <codeline lineno="358"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364" refid="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_POSIF_CONFIG</highlight></codeline>
+<codeline lineno="364" refid="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_POSIF_CONFIG</highlight></codeline>
 <codeline lineno="365"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="366"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="367"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
@@ -2497,11 +2478,11 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="394"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="395"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="396"><highlight class="normal"></highlight></codeline>
-<codeline lineno="413"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1gabca21164a5b988003bb5b700ae51fd02" kindref="member">XMC_POSIF_Enable</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral);</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1gabca21164a5b988003bb5b700ae51fd02" kindref="member">XMC_POSIF_Enable</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral);</highlight></codeline>
 <codeline lineno="414"><highlight class="normal"></highlight></codeline>
-<codeline lineno="427"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga9d646eb531a8c2c131a41e8aade65fbc" kindref="member">XMC_POSIF_Disable</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral);</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga9d646eb531a8c2c131a41e8aade65fbc" kindref="member">XMC_POSIF_Disable</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral);</highlight></codeline>
 <codeline lineno="428"><highlight class="normal"></highlight></codeline>
-<codeline lineno="443"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga96f90c0115bcc24f0230a6cdfb41e876" kindref="member">XMC_POSIF_Init</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga96f90c0115bcc24f0230a6cdfb41e876" kindref="member">XMC_POSIF_Init</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___p_o_s_i_f___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="444"><highlight class="normal"></highlight></codeline>
 <codeline lineno="462"><highlight class="normal"><ref refid="group___p_o_s_i_f_1gac32d7e3b6084cd4eedda80839fb967e8" kindref="member">XMC_POSIF_STATUS_t</ref><sp/><ref refid="group___p_o_s_i_f_1gab5b17abbb7be807820b0e461aee90316" kindref="member">XMC_POSIF_HSC_Init</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_HSC_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
 <codeline lineno="463"><highlight class="normal"></highlight></codeline>
@@ -2515,7 +2496,7 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((uint32_t)mode<sp/>&lt;&lt;<sp/>POSIF_PCONF_FSEL_Pos)<sp/>&amp;<sp/>(uint32_t)POSIF_PCONF_FSEL_Msk));</highlight></codeline>
 <codeline lineno="521"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="522"><highlight class="normal"></highlight></codeline>
-<codeline lineno="542"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1gadef0d9284b73f37e918d2d91b012a3c4" kindref="member">XMC_POSIF_SelectInputSource</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga82e681363bd293e7190e2542d5d28974" kindref="member">XMC_POSIF_INPUT_PORT_t</ref><sp/>input0,</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1gadef0d9284b73f37e918d2d91b012a3c4" kindref="member">XMC_POSIF_SelectInputSource</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga82e681363bd293e7190e2542d5d28974" kindref="member">XMC_POSIF_INPUT_PORT_t</ref><sp/>input0,</highlight></codeline>
 <codeline lineno="543"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga82e681363bd293e7190e2542d5d28974" kindref="member">XMC_POSIF_INPUT_PORT_t</ref><sp/>input1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga82e681363bd293e7190e2542d5d28974" kindref="member">XMC_POSIF_INPUT_PORT_t</ref><sp/>input2);</highlight></codeline>
 <codeline lineno="544"><highlight class="normal"></highlight></codeline>
 <codeline lineno="545"><highlight class="normal"></highlight></codeline>
@@ -2641,16 +2622,16 @@ Stop POSIF functional state machine and clears current internal status of the <e
 <codeline lineno="1015"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((uint8_t)((peripheral-&gt;PFLG<sp/>&gt;&gt;<sp/>(uint8_t)event)<sp/>&amp;<sp/>1U));</highlight></codeline>
 <codeline lineno="1016"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1017"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1028"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga78be0ab9757a871f0265de3933efa8a9" kindref="member">XMC_POSIF_SetInterruptNode</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1gae28e01e5a0d72d7066361aa424a3cd91" kindref="member">XMC_POSIF_IRQ_EVENT_t</ref><sp/>event,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga820b4259541019151685f25c6adf92a6" kindref="member">XMC_POSIF_SR_ID_t</ref><sp/>sr);</highlight></codeline>
+<codeline lineno="1028"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga78be0ab9757a871f0265de3933efa8a9" kindref="member">XMC_POSIF_SetInterruptNode</ref>(<ref refid="group___p_o_s_i_f_1ga3af5891077413eced5cf11a71fccca19" kindref="member">XMC_POSIF_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>peripheral,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1gae28e01e5a0d72d7066361aa424a3cd91" kindref="member">XMC_POSIF_IRQ_EVENT_t</ref><sp/>event,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___p_o_s_i_f_1ga820b4259541019151685f25c6adf92a6" kindref="member">XMC_POSIF_SR_ID_t</ref><sp/>sr);</highlight></codeline>
 <codeline lineno="1029"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1030"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1031"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="1032"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1033"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1038"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>#if<sp/>defined(POSIF0)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1038"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>#if<sp/>defined(POSIF0)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1039"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1040"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_POSIF_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h"/>
   </compounddef>
 </doxygen>

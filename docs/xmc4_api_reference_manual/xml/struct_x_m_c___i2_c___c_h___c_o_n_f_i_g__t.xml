@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_x_m_c___i2_c___c_h___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_I2C_CH_CONFIG_t</compoundname>
     <includes local="no">xmc_i2c.h</includes>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="271" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="271" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="271" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="271" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___i2_c___c_h___c_o_n_f_i_g__t_1ac4f06ea26ed6bd7ae83b92d64ac10b78" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="269" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="269" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="269" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="269" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___i2_c___c_h___c_o_n_f_i_g__t_1a6f7bf88acfbc472b56107dd8c3d02e46" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="270" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="270" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="270" column="8" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="270" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -52,7 +52,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="268" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="267" bodyend="274"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" line="267" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_i2c.h" bodystart="268" bodyend="274"/>
     <listofallmembers>
       <member refid="struct_x_m_c___i2_c___c_h___c_o_n_f_i_g__t_1a643d30df67a67c5915fde941c934f9f8" prot="public" virt="non-virtual"><scope>XMC_I2C_CH_CONFIG_t</scope><name>address</name></member>
       <member refid="struct_x_m_c___i2_c___c_h___c_o_n_f_i_g__t_1ac4f06ea26ed6bd7ae83b92d64ac10b78" prot="public" virt="non-virtual"><scope>XMC_I2C_CH_CONFIG_t</scope><name>baudrate</name></member>

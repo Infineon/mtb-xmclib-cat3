@@ -63,13 +63,6 @@ var group___c_c_u4 =
       [ "XMC_CCU4_SHADOW_TRANSFER_DITHER_SLICE_3", "group___c_c_u4.html#gga8d2c64420abee84dccce68e68b942e67a9a4e23045766ee28fcdada89fb690d2f", null ],
       [ "XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_3", "group___c_c_u4.html#gga8d2c64420abee84dccce68e68b942e67a7f7c5fe0b3384b219430d815a0f41bab", null ]
     ] ],
-    [ "XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_t", "group___c_c_u4.html#ga2216adfcbbc93dde340169582ef17ff6", [
-      [ "XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PERIOD_SHADOW", "group___c_c_u4.html#gga2216adfcbbc93dde340169582ef17ff6a26b5652444293e1123ca1daa4256779c", null ],
-      [ "XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_COMPARE_SHADOW", "group___c_c_u4.html#gga2216adfcbbc93dde340169582ef17ff6aeaf05428ff334a16cfcc652eb2ce6e39", null ],
-      [ "XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PASSIVE_LEVEL", "group___c_c_u4.html#gga2216adfcbbc93dde340169582ef17ff6af5b97b18e485a8c00dfaee23a1e60763", null ],
-      [ "XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_DITHER_SHADOW", "group___c_c_u4.html#gga2216adfcbbc93dde340169582ef17ff6a1dd75a1607e1060f9cc0cbba49e129a2", null ],
-      [ "XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_FLOATING_PRESCALER_SHADOW", "group___c_c_u4.html#gga2216adfcbbc93dde340169582ef17ff6a598a5a3e0bb4976dcd6e0b379263dfaf", null ]
-    ] ],
     [ "XMC_CCU4_SLICE_CAP_REG_SET_t", "group___c_c_u4.html#gab5c05e6fda34ac046c12ec25ef405a3d", [
       [ "XMC_CCU4_SLICE_CAP_REG_SET_LOW", "group___c_c_u4.html#ggab5c05e6fda34ac046c12ec25ef405a3da10fbc9596fdd42ae042ec67e0c4ded2f", null ],
       [ "XMC_CCU4_SLICE_CAP_REG_SET_HIGH", "group___c_c_u4.html#ggab5c05e6fda34ac046c12ec25ef405a3daca9cb79415d453134c3de65838dd2697", null ]
@@ -180,11 +173,6 @@ var group___c_c_u4 =
       [ "XMC_CCU4_SLICE_PRESCALER_16384", "group___c_c_u4.html#gga871bce3beb610d5e16b083c68381a60fa6987633000fa62b874eecf6882edb3d4", null ],
       [ "XMC_CCU4_SLICE_PRESCALER_32768", "group___c_c_u4.html#gga871bce3beb610d5e16b083c68381a60fafc45b1530f6f2264995bb7b9703b4af3", null ]
     ] ],
-    [ "XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_t", "group___c_c_u4.html#ga6b7d3d96e6ba78dd55ca0850379ebf9d", [
-      [ "XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_IN_PERIOD_MATCH_AND_ONE_MATCH", "group___c_c_u4.html#gga6b7d3d96e6ba78dd55ca0850379ebf9dacb0b5f0078d5039dd05903cd3440332a", null ],
-      [ "XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_ONLY_IN_PERIOD_MATCH", "group___c_c_u4.html#gga6b7d3d96e6ba78dd55ca0850379ebf9da3e58f0c4e9d39e1a7270a9acec6215cf", null ],
-      [ "XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_ONLY_IN_ONE_MATCH", "group___c_c_u4.html#gga6b7d3d96e6ba78dd55ca0850379ebf9da1471dea0a4bf1f5043e36068521ed5e1", null ]
-    ] ],
     [ "XMC_CCU4_SLICE_SR_ID_t", "group___c_c_u4.html#ga9de58e90257a0c33532f376c7c5f959e", [
       [ "XMC_CCU4_SLICE_SR_ID_0", "group___c_c_u4.html#gga9de58e90257a0c33532f376c7c5f959ea606c95b58b5d6d5dbe49d3d5ef1ddcca", null ],
       [ "XMC_CCU4_SLICE_SR_ID_1", "group___c_c_u4.html#gga9de58e90257a0c33532f376c7c5f959ea8c6eb4a0bd77ca1d2ee974c7ce2c28b1", null ],
@@ -221,13 +209,6 @@ var group___c_c_u4 =
       [ "XMC_CCU4_SLICE_TRAP_EXIT_MODE_AUTOMATIC", "group___c_c_u4.html#ggafc3c6b390f18574d954473174a595eb2ad0e74edf598f2c828a938de5a2461112", null ],
       [ "XMC_CCU4_SLICE_TRAP_EXIT_MODE_SW", "group___c_c_u4.html#ggafc3c6b390f18574d954473174a595eb2a100606bfa8b7b7c11deef92dceb07da0", null ]
     ] ],
-    [ "XMC_CCU4_SLICE_WRITE_INTO_t", "group___c_c_u4.html#ga1cf1dcb4c712c711441f1ee42a8577bd", [
-      [ "XMC_CCU4_SLICE_WRITE_INTO_PERIOD_CONFIGURATION", "group___c_c_u4.html#gga1cf1dcb4c712c711441f1ee42a8577bda793268c55ee55c93bc0c50fee9a17960", null ],
-      [ "XMC_CCU4_SLICE_WRITE_INTO_COMPARE_CONFIGURATION", "group___c_c_u4.html#gga1cf1dcb4c712c711441f1ee42a8577bdaf27bb047766d40a81e5bcea978070b78", null ],
-      [ "XMC_CCU4_SLICE_WRITE_INTO_PASSIVE_LEVEL_CONFIGURATION", "group___c_c_u4.html#gga1cf1dcb4c712c711441f1ee42a8577bda3e7e6d8f1bfdd6abf7854152f2b70c90", null ],
-      [ "XMC_CCU4_SLICE_WRITE_INTO_DITHER_VALUE_CONFIGURATION", "group___c_c_u4.html#gga1cf1dcb4c712c711441f1ee42a8577bda2027f4df492329f65376f6ffb220dc23", null ],
-      [ "XMC_CCU4_SLICE_WRITE_INTO_FLOATING_PRESCALER_VALUE_CONFIGURATION", "group___c_c_u4.html#gga1cf1dcb4c712c711441f1ee42a8577bda7c8cbc8cb315c1caf2c23a1ca69c2bfc", null ]
-    ] ],
     [ "XMC_CCU4_STATUS_t", "group___c_c_u4.html#gac0f35f7b62570cbbd9ff102fea356b62", [
       [ "XMC_CCU4_STATUS_OK", "group___c_c_u4.html#ggac0f35f7b62570cbbd9ff102fea356b62a2cb66ee3128b8de1632f4c92bf9a87be", null ],
       [ "XMC_CCU4_STATUS_ERROR", "group___c_c_u4.html#ggac0f35f7b62570cbbd9ff102fea356b62a15005b0626b30abc2f37d1b3d1047bc3", null ],
@@ -246,6 +227,7 @@ var group___c_c_u4 =
     [ "XMC_CCU4_EnableModule", "group___c_c_u4.html#ga71ef51e46d57bdd95563fdc0da1f44c3", null ],
     [ "XMC_CCU4_EnableMultipleClocks", "group___c_c_u4.html#ga636c23537ae9718af9bb3c3f66c7db4b", null ],
     [ "XMC_CCU4_EnableShadowTransfer", "group___c_c_u4.html#gadcfbaa660e4c008e78128b8deb4cc5c1", null ],
+    [ "XMC_CCU4_GetCapturedValueFromFifo", "group___c_c_u4.html#gaa34f096e9b8a10a06aec6498a74b210f", null ],
     [ "XMC_CCU4_GetSliceStatusBit", "group___c_c_u4.html#ga38533fac543669af19de6972cd56a3a9", null ],
     [ "XMC_CCU4_Init", "group___c_c_u4.html#ga6ab30100f7e86a8f47095282a123d071", null ],
     [ "XMC_CCU4_IsPrescalerRunning", "group___c_c_u4.html#ga13b0b2fb23ac55d1fcfa41378e22e395", null ],
@@ -262,16 +244,12 @@ var group___c_c_u4 =
     [ "XMC_CCU4_SLICE_ConfigureStatusBitOverrideEvent", "group___c_c_u4.html#ga0b084822487e0ca0a4a950c7d0f36fa7", null ],
     [ "XMC_CCU4_SLICE_CountConfig", "group___c_c_u4.html#gaf312a02f00b3149c2f5cd3faea6f93c2", null ],
     [ "XMC_CCU4_SLICE_DirectionConfig", "group___c_c_u4.html#gac61d7dc678e8379b4afaa8d763975866", null ],
-    [ "XMC_CCU4_SLICE_DisableAutomaticShadowTransferRequest", "group___c_c_u4.html#ga3e4002ef45cbd1504f1dfa03be7f79d6", null ],
-    [ "XMC_CCU4_SLICE_DisableCascadedShadowTransfer", "group___c_c_u4.html#gaf299d2965b919f5828ded78d2d015baa", null ],
     [ "XMC_CCU4_SLICE_DisableDithering", "group___c_c_u4.html#ga074938e1d84568cc5d0c14247188ceab", null ],
     [ "XMC_CCU4_SLICE_DisableEvent", "group___c_c_u4.html#ga1d8dd9cc41693043dec0ae759d91fbae", null ],
     [ "XMC_CCU4_SLICE_DisableFloatingPrescaler", "group___c_c_u4.html#gae2c8386269be2f976ab9bb83da99087a", null ],
     [ "XMC_CCU4_SLICE_DisableMultiChannelMode", "group___c_c_u4.html#ga08273e7c8fa6261de82759637831a989", null ],
     [ "XMC_CCU4_SLICE_DisableMultipleEvents", "group___c_c_u4.html#ga3152586e4a4d2f25775bb0286653ca8c", null ],
     [ "XMC_CCU4_SLICE_DisableTrap", "group___c_c_u4.html#ga528b039bddfe9e20f765aaa2f7bdcc0e", null ],
-    [ "XMC_CCU4_SLICE_EnableAutomaticShadowTransferRequest", "group___c_c_u4.html#gada142961bff1eae9b4182249810b762e", null ],
-    [ "XMC_CCU4_SLICE_EnableCascadedShadowTransfer", "group___c_c_u4.html#gaa8a44e999105f023b688fb8e3cf28c43", null ],
     [ "XMC_CCU4_SLICE_EnableDithering", "group___c_c_u4.html#ga726d7c99adf8d7f438f1f08ef2a9de1a", null ],
     [ "XMC_CCU4_SLICE_EnableEvent", "group___c_c_u4.html#ga70968924480cf3d06eb9381856a69b87", null ],
     [ "XMC_CCU4_SLICE_EnableFloatingPrescaler", "group___c_c_u4.html#ga495ca5dfa02beb5a818dd113ebf99ae1", null ],
@@ -302,7 +280,6 @@ var group___c_c_u4 =
     [ "XMC_CCU4_SLICE_SetInterruptNode", "group___c_c_u4.html#ga08c882083ebd4d874a466b61d011e3f7", null ],
     [ "XMC_CCU4_SLICE_SetPassiveLevel", "group___c_c_u4.html#ga962a6a7402c99ec80359d3202ae9cd50", null ],
     [ "XMC_CCU4_SLICE_SetPrescaler", "group___c_c_u4.html#ga24127bd989b62814c2ba0cc876b99473", null ],
-    [ "XMC_CCU4_SLICE_SetShadowTransferMode", "group___c_c_u4.html#ga8631a666973bd4471bb80d8f08ae99cd", null ],
     [ "XMC_CCU4_SLICE_SetTimerCompareMatch", "group___c_c_u4.html#ga7ae1adcaba614fa7d919221da9020a57", null ],
     [ "XMC_CCU4_SLICE_SetTimerCountingMode", "group___c_c_u4.html#ga35b25352390bfa747b51ba511fe85c57", null ],
     [ "XMC_CCU4_SLICE_SetTimerPeriodMatch", "group___c_c_u4.html#ga1341abfd52a8165c7e1b5292033797ed", null ],
@@ -315,8 +292,6 @@ var group___c_c_u4 =
     [ "XMC_CCU4_SLICE_StopConfig", "group___c_c_u4.html#ga17330b4b761f443140b1c736c1a09840", null ],
     [ "XMC_CCU4_SLICE_StopTimer", "group___c_c_u4.html#gac41eed8d2857f7c9d23567fa742a705c", null ],
     [ "XMC_CCU4_SLICE_TrapConfig", "group___c_c_u4.html#gab2d5615177cfa2f20c5f5655400f4a8e", null ],
-    [ "XMC_CCU4_SLICE_WriteCoherentlyWithPWMCycle", "group___c_c_u4.html#ga416ddf2d93e243f85ecbf5b087b4672f", null ],
-    [ "XMC_CCU4_SLICE_WriteImmediateAfterShadowTransfer", "group___c_c_u4.html#ga5048bfa6fbbcc4752d137f32c141743c", null ],
     [ "XMC_CCU4_StartPrescaler", "group___c_c_u4.html#gad492e0c49bfa5b89b01d6dd5a43a1e1b", null ],
     [ "XMC_CCU4_StopPrescaler", "group___c_c_u4.html#gae3741bc9dc0cb9f565ade9182d73141f", null ]
 ];

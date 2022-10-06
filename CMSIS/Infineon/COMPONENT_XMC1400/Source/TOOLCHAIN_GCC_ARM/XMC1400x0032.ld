@@ -1,6 +1,6 @@
 /**
  * @file XMC1400x0032.ld
- * @date 2017-04-20
+ * @date 2021-08-13
  *
  * @cond
  *********************************************************************************************************************
@@ -9,7 +9,7 @@
  *                    XMC1402-Q048X0032
  *                    XMC1402-T038X0032
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2021, Infineon Technologies AG
  * All rights reserved.                        
  *                                             
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -47,13 +47,13 @@
  * 2015-07-07:
  *     - Product splitting
  *     - Copyright notice update
- *      
+ *
  * 2015-11-24:
  *     - Compatibility with GCC 4.9 2015q2
- *     
+ *
  * 2016-03-15:
  *     - Fixed FLASH size
- *     - Add assertion to check that region SRAM_combined does not overflowed no_init section 
+ *     - Add assertion to check that region SRAM_combined does not overflowed no_init section
  *
  * 2016-06-07:
  *     - Add XMC1402-T038X0032
@@ -66,7 +66,10 @@
  *     - Added new symbols __text_size and eText
  *
  * 2017-04-20:
- *     - Change vtable location to flash area to save ram             
+ *     - Change vtable location to flash area to save ram
+ *
+ * 2021-08-13:
+ *     - Include libnosys in the default link step
  *
  * @endcond 
  *
@@ -74,6 +77,7 @@
 
 OUTPUT_FORMAT("elf32-littlearm")
 OUTPUT_ARCH(arm)
+GROUP(-lgcc -lc -lnosys)
 ENTRY(Reset_Handler)
 
 MEMORY

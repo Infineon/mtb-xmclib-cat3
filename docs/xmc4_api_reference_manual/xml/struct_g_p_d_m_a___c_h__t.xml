@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="struct_g_p_d_m_a___c_h__t" kind="struct" language="C++" prot="public">
     <compoundname>GPDMA_CH_t</compoundname>
     <includes local="no">xmc_dma.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="290" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="290" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="290" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="290" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a0e55cb376162e10e8045506285c1a637" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="289" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="289" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="289" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="289" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a3b591f496344d051af836292fb894e1f" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="280" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="280" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="280" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="280" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a5eb705278a6eec8288c984e546b3d182" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="279" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="279" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="279" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="279" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a5c5e4c91ad6bcfad9dae85c6c206234d" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="275" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="275" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="275" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="275" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a30adfe22093e54ed42eeb618ec55dfcc" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="293" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="293" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="293" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="293" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a490138be98e11dc58ee53d44384741ca" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="283" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="283" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="283" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="283" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1ac4495267e413f9eb2687fc982dc4660b" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="287" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="287" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="287" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="287" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1abc8ed2697e246a39b08b4daaaec6ad50" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="277" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="277" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="277" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="277" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1ad06839c5382047f4f9f2c74cc61db942" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="274" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="274" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="274" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="274" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a39fbdbb7ad559315fa9c23de59936655" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="276" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="276" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="276" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="276" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a13d8c36a296a876371d8e463cfce0bc5" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="278" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="278" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="278" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="278" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a0dccf23b0301eb78ab61f90a3e6ae594" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="282" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="282" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="282" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a353185c8c874db4674e61264fc2d04d1" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="284" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="284" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="284" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="284" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1aa83bddd1f180bafbb96085399f847cd7" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="286" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="286" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="286" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="286" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1ad49050cf8e131430dc281ee4585823df" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="288" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="288" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="288" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="288" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a7df5936126b77ccdb96f68b3f6e52e34" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -223,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="292" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="292" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="292" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="292" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a8f95ffb34e6309c5b738e2d843a034b1" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="294" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="294" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="294" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="294" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a03a428b9768794844191fe61a3e27f87" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="273" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="273" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="273" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="273" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a6d23dfec76efeacc3d6b751b50bf0380" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="291" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="291" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="291" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="291" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a1436bc1c924bfe9b2604737845e9a980" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="281" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="281" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="281" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="281" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_g_p_d_m_a___c_h__t_1a7d9da9223a9c993b84c786a5352f8a93" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -288,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="285" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="285" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="285" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="285" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -298,7 +298,7 @@
 </para>
 <para>The structure represents a collection of all hardware registers used to configure the DMA channel. It is contained within the <ref refid="struct_x_m_c___d_m_a__t" kindref="compound">XMC_DMA_t</ref> structure. It&apos;s registers can be used to configure DMA transfer details like source address, destination address, block size, incrementation modes and the like. </para>
     </detaileddescription>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="272" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="271" bodyend="295"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="271" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="272" bodyend="295"/>
     <listofallmembers>
       <member refid="struct_g_p_d_m_a___c_h__t_1a5874f9297ff9db9663cfed357fe02113" prot="public" virt="non-virtual"><scope>GPDMA_CH_t</scope><name>CFGH</name></member>
       <member refid="struct_g_p_d_m_a___c_h__t_1a0e55cb376162e10e8045506285c1a637" prot="public" virt="non-virtual"><scope>GPDMA_CH_t</scope><name>CFGL</name></member>

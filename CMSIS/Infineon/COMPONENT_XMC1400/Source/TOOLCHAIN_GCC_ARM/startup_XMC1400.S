@@ -1,12 +1,12 @@
 /*********************************************************************************************************************
  * @file     startup_XMC1400.S
  * @brief    CMSIS Core Device Startup File for Infineon XMC1400 Device Series
- * @version  V1.3
+ * @version  V1.4
  * @date     15 Mai 2020
  *
  * @cond
  *********************************************************************************************************************
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2021, Infineon Technologies AG
  * All rights reserved.                        
  *                                             
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -44,6 +44,7 @@
  * V1.1, Jan, 05, 2016 JFT:Fix .reset section attributes
  * V1.2, Sep, 15, 2017 JFT:Added option to select wait time before ASC BSL channel selection (WAIT_ASCBSL_ENTRY_SSW)
  * V1.3, Mai, 15, 2020 JFT:Added option (ENABLE_OWN_HANDLER) to generate a individual interrupt handlers for unhandled vectors
+ * V1.4, Nov, 18, 2021     Added weak cy_toolchain_init
  *
  * @endcond 
  */
@@ -253,6 +254,10 @@ Reset_Handler:
 .L_loop3_done:
 #endif /* __SKIP_BSS_CLEAR */
 
+    /* OS-specific low-level initialization */
+    ldr  r0, =cy_toolchain_init
+    blx  r0
+
 #ifndef __SKIP_LIBC_INIT_ARRAY
     ldr  r0, =__libc_init_array
     blx  r0
@@ -286,6 +291,17 @@ __copy_data:
 
 	.pool
     .size   Reset_Handler,.-Reset_Handler
+
+/* OS-specific low-level initialization */
+    .thumb_func
+    .weak cy_toolchain_init
+    .func cy_toolchain_init, cy_toolchain_init
+    .type cy_toolchain_init, %function
+cy_toolchain_init:
+    bx lr
+    .size cy_toolchain_init, . - cy_toolchain_init
+    .endfunc
+
 /* ======================================================================== */
 /* ========== START OF EXCEPTION HANDLER DEFINITION ======================== */
 

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__usbd_8h" kind="file" language="C++">
     <compoundname>xmc_usbd.h</compoundname>
     <includes local="yes">xmc_common.h</includes>
@@ -8,29 +8,29 @@
     <includes local="yes">xmc_usbd_regs.h</includes>
     <includes refid="xmc__scu_8h" local="yes">xmc_scu.h</includes>
     <incdepgraph>
-      <node id="101">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="102">
-        <label>stdlib.h</label>
-      </node>
-      <node id="104">
-        <label>xmc_usbd_regs.h</label>
-      </node>
-      <node id="100">
+      <node id="1">
         <label>xmc_usbd.h</label>
         <link refid="xmc__usbd_8h"/>
-        <childnode refid="101" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="102" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="103" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="104" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="103">
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
         <label>string.h</label>
+      </node>
+      <node id="2">
+        <label>xmc_common.h</label>
+      </node>
+      <node id="5">
+        <label>xmc_usbd_regs.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___u_s_b_d___c_a_p_a_b_i_l_i_t_i_e_s__t" prot="public">XMC_USBD_CAPABILITIES_t</innerclass>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="150" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="151" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="150" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gab1c802f6c9e96e1f7da3f74322c208e8" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_DIRECTION_MASK</name>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="158" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="159" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="158" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga8037eaa900c5d1a0ae001af59ccdd265" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MAX_PACKET_SIZE_MASK</name>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="160" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="161" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="160" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gaf869a105c53ddcc082193e3ed82b64be" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MFRAME_TR_1</name>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="163" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="164" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="163" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga6aa86156278ee05d77b7142eea6cc2ba" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MFRAME_TR_2</name>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="164" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="165" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="164" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga3c3043344a55263976241b51dfc4c1b2" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MFRAME_TR_3</name>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="165" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="166" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="165" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga8e5b147e6fc2ccbade2a696bed557f8b" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_MFRAME_TR_MASK</name>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="162" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="163" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="162" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga525dd0b1bf8605bfea203b042ca6b108" prot="public" static="no">
         <name>XMC_USBD_ENDPOINT_NUMBER_MASK</name>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="156" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="157" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="156" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gaa8294afe75e1f11450912fe0e48262c1" prot="public" static="no">
         <name>XMC_USBD_EP0_BUFFER_SIZE</name>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="170" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="171" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="170" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gab22693a7bbe49153576b4d481fa2e7a4" prot="public" static="no">
         <name>XMC_USBD_EP1_BUFFER_SIZE</name>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="172" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="173" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="172" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga70e21366d5218f367a0b495be2dc2271" prot="public" static="no">
         <name>XMC_USBD_EP2_BUFFER_SIZE</name>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="174" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="175" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="174" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga854897d10ad0fecb33d8fc7457d3e4f0" prot="public" static="no">
         <name>XMC_USBD_EP3_BUFFER_SIZE</name>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="176" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="177" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="176" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="176" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga4e641cf5160e84fd640adcf1d936c418" prot="public" static="no">
         <name>XMC_USBD_EP4_BUFFER_SIZE</name>
@@ -184,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="178" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="179" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="178" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga3cae8973e1405591c7cdb7a5ba6e4c95" prot="public" static="no">
         <name>XMC_USBD_EP5_BUFFER_SIZE</name>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="180" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="181" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="180" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="180" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga94a8c1a01615d8972ce85b5f59e195ae" prot="public" static="no">
         <name>XMC_USBD_EP6_BUFFER_SIZE</name>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="182" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="183" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="182" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="182" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga45f97d1784301af706011ec194b7051e" prot="public" static="no">
         <name>XMC_USBD_EP_DIR_MASK</name>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="148" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="149" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="148" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="148" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga57c582d9481a38d6d13ff06c9f4556a0" prot="public" static="no">
         <name>XMC_USBD_EP_NUM_MASK</name>
@@ -230,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="146" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="147" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="146" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="146" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gafa5e2795ac35096a761782612ca72e56" prot="public" static="no">
         <name>XMC_USBD_MAX_FIFO_SIZE</name>
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="125" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="125" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="125" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gaa793a8df254ec8724b62d3cb4d9e80db" prot="public" static="no">
         <name>XMC_USBD_MAX_PACKET_SIZE</name>
@@ -255,18 +255,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="130" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="129" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="130" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga9e73ae182ec9da08fe53912e3aaa2ee7" prot="public" static="no">
         <name>XMC_USBD_MAX_TRANSFER_SIZE</name>
-        <initializer>(((uint32_t)((uint32_t)1U &lt;&lt; (uint32_t)10U) - 1U) * (uint32_t)XMC_USBD_MAX_PACKET_SIZE)</initializer>
+        <initializer>(((uint32_t)((uint32_t)1U &lt;&lt; (uint32_t)10U) - 1U) * (uint32_t)<ref refid="group___u_s_b_d_1gaa793a8df254ec8724b62d3cb4d9e80db" kindref="member">XMC_USBD_MAX_PACKET_SIZE</ref>)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="138" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="139" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="138" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga31089a0a781ac70ae6f1445847ab2683" prot="public" static="no">
         <name>XMC_USBD_MAX_TRANSFER_SIZE_EP0</name>
@@ -278,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="140" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="141" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="140" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga4d76d3b99600addc55f489000ff9d23d" prot="public" static="no">
         <name>XMC_USBD_NUM_EPS</name>
@@ -290,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="127" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="127" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="127" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="127" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga4af1761f07df3a8bb43b6ee8070f92e9" prot="public" static="no">
         <name>XMC_USBD_NUM_TX_FIFOS</name>
@@ -302,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="123" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga658b3523c9a1a6bfd7a40ea57b1aa7a2" prot="public" static="no">
         <name>XMC_USBD_SETUP_COUNT</name>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="142" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="143" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="142" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga4d351b5fc9b8b32dac88369e7d7a4e25" prot="public" static="no">
         <name>XMC_USBD_SETUP_SIZE</name>
@@ -326,7 +326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="144" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="145" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="144" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1gacdb39ab4197b13b6363b14181f081e3f" prot="public" static="no">
         <name>XMC_USBD_SPEED_FULL</name>
@@ -338,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="168" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="169" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="168" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga68bf895d08b62dad20fe2453efb8ac27" prot="public" static="no">
         <name>XMC_USBD_TX_FIFO_OFFSET</name>
@@ -349,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="154" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="155" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="154" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___u_s_b_d_1ga6ff731c13cc452ed592b698703694c1c" prot="public" static="no">
         <name>XMC_USBD_TX_FIFO_REG_OFFSET</name>
@@ -360,7 +360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="152" column="9" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="153" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="152" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -410,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="208" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="207" bodyend="213"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="206" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="207" bodyend="212"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1ga6af185b470e216aeb9f5a8f57934c523" prot="public" static="no" strong="no">
         <type></type>
@@ -446,7 +446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="292" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="291" bodyend="296"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="290" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="291" bodyend="295"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gae9d04ab6e275df9194533711f3f2fffe" prot="public" static="no" strong="no">
         <type></type>
@@ -494,7 +494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="267" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="266" bodyend="272"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="265" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="266" bodyend="271"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gae670af5d633ceb13ed361390c49c2128" prot="public" static="no" strong="no">
         <type></type>
@@ -542,7 +542,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="279" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="278" bodyend="284"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="277" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="278" bodyend="283"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" prot="public" static="no" strong="no">
         <type></type>
@@ -674,7 +674,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="244" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="243" bodyend="260"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="242" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="243" bodyend="259"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gaef2c56426dd4ecb5da943eab0cf08e13" prot="public" static="no" strong="no">
         <type></type>
@@ -731,7 +731,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="195" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="194" bodyend="201"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="193" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="194" bodyend="200"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gaa7e7d0502c559923da7e324160c527a7" prot="public" static="no" strong="no">
         <type></type>
@@ -806,7 +806,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="313" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="312" bodyend="321"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="311" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="312" bodyend="320"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1ga1983ea285c683f63ee535552d9d2ec1e" prot="public" static="no" strong="no">
         <type></type>
@@ -834,7 +834,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="221" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="220" bodyend="224"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="219" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="220" bodyend="223"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" prot="public" static="no" strong="no">
         <type></type>
@@ -873,7 +873,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="232" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="231" bodyend="236"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="230" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="231" bodyend="235"/>
       </memberdef>
       <memberdef kind="enum" id="group___u_s_b_d_1gac1a7468fe227f852bd4835ae2723d7db" prot="public" static="no" strong="no">
         <type></type>
@@ -901,7 +901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="303" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="302" bodyend="306"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="301" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="302" bodyend="305"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -913,11 +913,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>USB device/endpoint event function pointersPointer to USB device event call back. Uses type <ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref> as the argument of callback. </para>
+<para>USB device/endpoint event function pointers Pointer to USB device event call back. Uses type <ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref> as the argument of callback. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="326" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="326" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="325" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="325" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___u_s_b_d_1ga52dd28acc7e2e09a7d3a48c136f1ecdb" prot="public" static="no">
         <type>void(*</type>
@@ -931,7 +931,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="328" column="1" bodyfile="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="328" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="327" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="327" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -947,7 +947,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="497" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="496" column="32" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="496" declcolumn="32"/>
       </memberdef>
       <memberdef kind="variable" id="group___u_s_b_d_1ga407e973323123c34ea9c9c04b6899992" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t" kindref="compound">XMC_USBD_DEVICE_t</ref></type>
@@ -961,7 +961,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="504" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="503" column="26" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="503" declcolumn="26"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -1002,7 +1002,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="561" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="560" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="560" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gaf5f99dc34a65ebd0dd4d5686632702e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1054,7 +1054,7 @@ It clears the event by programming DIEPINT register.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="583" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="582" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="582" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gadaef35f7f883268c95e15e8849bf3530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1104,7 +1104,7 @@ It clears the event by programming DIEPINT register.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="605" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="604" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="604" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga5a46af80a2ac68076e8d82d0b7967613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1122,7 +1122,6 @@ It clears the event by programming DIEPINT register.<linebreak/>
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1142,7 +1141,7 @@ It resets the soft disconnect bit, which activates the speed pull up at d+ line 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="718" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="717" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="717" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga7b341bdd4b66740230bda3f94d49052e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1160,7 +1159,6 @@ It resets the soft disconnect bit, which activates the speed pull up at d+ line 
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1180,7 +1178,7 @@ the speed pull up at d+ line of USB.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="736" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="735" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="735" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga42cdb3dc1b05ec18cf8687ea88c7c175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_x_m_c___u_s_b_d___s_t_a_t_e__t" kindref="compound">XMC_USBD_STATE_t</ref></type>
@@ -1219,7 +1217,7 @@ the speed pull up at d+ line of USB.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="753" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="752" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="752" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga0cb810be749bfd8e8c733a6e17bd5388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1274,7 +1272,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="779" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="778" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="778" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga1c28d84f9afe864fb9dc0e253137ae54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1292,7 +1290,6 @@ in the USB device event call back handler, user has to set the address using thi
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1308,7 +1305,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="543" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="542" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="542" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga755920b85d839979d699894e98c13b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1326,7 +1323,6 @@ in the USB device event call back handler, user has to set the address using thi
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1345,7 +1341,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="529" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="528" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="528" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gaaec2e039f617fdbaa50acb34061c5056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1383,7 +1379,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="641" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="640" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="640" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga215e0c7a10299d26c9f91c6ad06866f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1421,7 +1417,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="623" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="622" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="622" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga685e20ab2777c403ae1e3463d47f2d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1456,7 +1452,7 @@ in the USB device event call back handler, user has to set the address using thi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="933" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="932" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="932" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga1ec7cf807c281084ab7022c23617bdcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1524,7 +1520,7 @@ required for the device.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="806" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="805" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="805" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gafd364e0fd03285bde32bc6359e6bc218" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1587,7 +1583,7 @@ required for the device.<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="894" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="893" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="893" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga18f4cb810289187a885e6f04659bc335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1639,7 +1635,7 @@ The registers DOEPDMA,DOEPTSIZ and DOEPCTL are programmed to start a new read re
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="871" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="870" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="870" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga6b54b58df01ada8156d8449129778f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1690,7 +1686,7 @@ By programming stall bit in the doepctl and diepctl, it sets or clears the stall
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="848" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="847" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="847" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga7903550b9130e811d39b55936174cc36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1727,7 +1723,7 @@ Waits until the endpoint has finished operation and disables it. All (eventualll
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="825" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="824" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="824" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga27d8052980544dc78f56462fc7c157ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1789,7 +1785,7 @@ DIEPDMA,DIEPTSIZ and DIEPCTL registers are programmed to start the IN transfer.<
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="917" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="916" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="916" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga26113550391be8fc0e2678fe0e6e85ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_x_m_c___u_s_b_d___c_a_p_a_b_i_l_i_t_i_e_s__t" kindref="compound">XMC_USBD_CAPABILITIES_t</ref></type>
@@ -1807,7 +1803,6 @@ DIEPDMA,DIEPTSIZ and DIEPCTL registers are programmed to start the IN transfer.<
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1820,7 +1815,7 @@ It can be called after initializing the USB device to get the information on the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="656" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="655" column="25" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="655" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gace9648d66a9f092562ca5da8754f5ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -1838,7 +1833,6 @@ It can be called after initializing the USB device to get the information on the
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1851,7 +1845,7 @@ It can be called after initializing the USB device to get the information on the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="945" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="944" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="944" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gaad24c323055e8e5014835159867878c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1889,7 +1883,7 @@ It can be called after initializing the USB device to get the information on the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="681" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="680" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="680" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga275780df6f1b3acf50c4c51151d228b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1924,7 +1918,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="985" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="984" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="984" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1gac958c928fc573f39b30126ac2e2828d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1942,7 +1936,6 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1958,7 +1951,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="960" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="959" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="959" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___u_s_b_d_1ga21f8d8e728cce37ff9d4898acb2e62cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref></type>
@@ -1976,7 +1969,6 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
 <parametername>None.</parametername>
 </parameternamelist>
 <parameterdescription>
-<para></para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1995,7 +1987,7 @@ For example: <ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="698" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="697" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" declline="697" declcolumn="19"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -2010,8 +2002,8 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <para>The copyright notices in the Software and this entire statement, including the above license grant, this restriction and the following disclaimer, must be included in all copies of the Software, in whole or in part, and all derivative works of the Software, unless such copies or derivative works are solely in the form of machine-executable object code generated by a source language processor.</para>
 <para>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</para>
 <para>To improve the quality of the software, users are encouraged to share modifications, enhancements or bug fixes with Infineon Technologies AG at <ulink url="mailto:XMCSupport@infineon.com">XMCSupport@infineon.com</ulink>.</para>
-<para><heading level="2">Change History </heading>
-</para>
+<sect2 id="xmc__usbd_8h_1autotoc_md0">
+<title>Change History</title>
 <para>2015-02-16:<itemizedlist>
 <listitem><para>Initial Version.<linebreak/>
  2015-03-18:</para>
@@ -2030,10 +2022,11 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
  </para>
 </listitem></itemizedlist>
 </para>
+</sect2>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"></codeline>
-<codeline lineno="58"><highlight class="preprocessor">#ifndef<sp/>XMC_USBD_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_USBD_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
@@ -2049,38 +2042,38 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_scu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
 <codeline lineno="120"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="121"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_NUM_TX_FIFOS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(7U)<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="125"><highlight class="preprocessor">#define<sp/>XMC_USBD_MAX_FIFO_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(2048U)<sp/><sp/></highlight></codeline>
-<codeline lineno="127"><highlight class="preprocessor">#define<sp/>XMC_USBD_NUM_EPS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(7U)<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="129"><highlight class="preprocessor">#define<sp/>XMC_USBD_MAX_PACKET_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="138"><highlight class="preprocessor">#define<sp/>XMC_USBD_MAX_TRANSFER_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((uint32_t)((uint32_t)1U<sp/>&lt;&lt;<sp/>(uint32_t)10U)<sp/>-<sp/>1U)<sp/>*<sp/>(uint32_t)XMC_USBD_MAX_PACKET_SIZE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_NUM_TX_FIFOS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(7U)<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_MAX_FIFO_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(2048U)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_NUM_EPS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(7U)<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_MAX_PACKET_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_MAX_TRANSFER_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((uint32_t)((uint32_t)1U<sp/>&lt;&lt;<sp/>(uint32_t)10U)<sp/>-<sp/>1U)<sp/>*<sp/>(uint32_t)XMC_USBD_MAX_PACKET_SIZE)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_MAX_TRANSFER_SIZE_EP0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="142"><highlight class="preprocessor">#define<sp/>XMC_USBD_SETUP_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(3U)<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="144"><highlight class="preprocessor">#define<sp/>XMC_USBD_SETUP_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(8U)<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="146"><highlight class="preprocessor">#define<sp/>XMC_USBD_EP_NUM_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0FU)<sp/><sp/></highlight></codeline>
-<codeline lineno="148"><highlight class="preprocessor">#define<sp/>XMC_USBD_EP_DIR_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x80U)<sp/><sp/></highlight></codeline>
-<codeline lineno="150"><highlight class="preprocessor">#define<sp/>XMC_USBD_DCFG_DEVSPD_FS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x3U)<sp/><sp/><sp/></highlight><highlight class="comment">/*USB<sp/>Full<sp/>Speed<sp/>device<sp/>flag<sp/>in<sp/>DCFG<sp/>register<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_MAX_TRANSFER_SIZE_EP0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_SETUP_COUNT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(3U)<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_SETUP_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(8U)<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_EP_NUM_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0FU)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_EP_DIR_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x80U)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_DCFG_DEVSPD_FS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x3U)<sp/><sp/><sp/></highlight><highlight class="comment">/*USB<sp/>Full<sp/>Speed<sp/>device<sp/>flag<sp/>in<sp/>DCFG<sp/>register<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_TX_FIFO_REG_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x1000U)</highlight><highlight class="comment">/*<sp/>First<sp/>endpoint<sp/>fifo<sp/>register<sp/>offset<sp/>from<sp/>base<sp/>address<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_TX_FIFO_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x1000U)</highlight><highlight class="comment">/*<sp/>Offset<sp/>for<sp/>each<sp/>fifo<sp/>register<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_NUMBER_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0FU)<sp/><sp/></highlight></codeline>
-<codeline lineno="158"><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_DIRECTION_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x80U)<sp/><sp/></highlight></codeline>
-<codeline lineno="160"><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_MAX_PACKET_SIZE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x07FFU)</highlight></codeline>
-<codeline lineno="162"><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_MFRAME_TR_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x1800U)</highlight><highlight class="comment">/*<sp/>USB<sp/>Endpoint<sp/>micro<sp/>frame<sp/>TR<sp/>mask<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_NUMBER_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0FU)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_DIRECTION_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x80U)<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_MAX_PACKET_SIZE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x07FFU)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_MFRAME_TR_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x1800U)</highlight><highlight class="comment">/*<sp/>USB<sp/>Endpoint<sp/>micro<sp/>frame<sp/>TR<sp/>mask<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_MFRAME_TR_1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0000U)</highlight><highlight class="comment">/*<sp/>Selects<sp/>USB<sp/>Endpoint<sp/>micro<sp/>frame<sp/>TR1<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_MFRAME_TR_2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0800U)</highlight><highlight class="comment">/*<sp/>Selects<sp/>USB<sp/>Endpoint<sp/>micro<sp/>frame<sp/>TR2<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_ENDPOINT_MFRAME_TR_3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x1000U)</highlight><highlight class="comment">/*<sp/>Selects<sp/>USB<sp/>Endpoint<sp/>micro<sp/>frame<sp/>TR3<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_SPEED_FULL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1U)<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="170"><highlight class="preprocessor">#define<sp/>XMC_USBD_EP0_BUFFER_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Endpoint<sp/>0<sp/>buffer<sp/>size<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_SPEED_FULL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1U)<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_EP0_BUFFER_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Endpoint<sp/>0<sp/>buffer<sp/>size<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_USBD_EP1_BUFFER_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(64U)<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Endpoint<sp/>1<sp/>buffer<sp/>size<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
@@ -2099,7 +2092,7 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="186"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
 <codeline lineno="187"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_GRXSTS_PKTSTS</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_GRXSTS_PKTSTS</highlight></codeline>
 <codeline lineno="194"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaef2c56426dd4ecb5da943eab0cf08e13a4c34882f1c5ddeccc4aecac4b98a4c49" kindref="member">XMC_USBD_GRXSTS_PKTSTS_GOUTNAK</ref><sp/><sp/><sp/>=<sp/>0x1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaef2c56426dd4ecb5da943eab0cf08e13a6da8520458120cfaba76159c5ba6c9a8" kindref="member">XMC_USBD_GRXSTS_PKTSTS_OUTDATA</ref><sp/><sp/><sp/>=<sp/>0x2U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2108,7 +2101,7 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="199"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaef2c56426dd4ecb5da943eab0cf08e13aee092e930d84748b127f17446c345148" kindref="member">XMC_USBD_GRXSTS_PKTSTS_SETUP</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>0x6U<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="200"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1gaef2c56426dd4ecb5da943eab0cf08e13" kindref="member">XMC_USBD_GRXSTS_PKTSTS_t</ref>;</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_ENDPOINT_TYPE</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_ENDPOINT_TYPE</highlight></codeline>
 <codeline lineno="207"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggae7245a0620a6bb5fe8249380d14b284cad6e387496d0f904a066bc4ac7ffdf2ca" kindref="member">XMC_USBD_ENDPOINT_TYPE_CONTROL</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="209"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggae7245a0620a6bb5fe8249380d14b284caea00e8371dfd7203b9557d5490e8b547" kindref="member">XMC_USBD_ENDPOINT_TYPE_ISOCHRONOUS</ref><sp/><sp/><sp/><sp/>=<sp/>0x01U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2117,14 +2110,14 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="212"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1gae7245a0620a6bb5fe8249380d14b284c" kindref="member">XMC_USBD_ENDPOINT_TYPE_t</ref>;</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_SET_ADDRESS_STAGE</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_SET_ADDRESS_STAGE</highlight></codeline>
 <codeline lineno="220"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1gga1983ea285c683f63ee535552d9d2ec1eae46c347e00fbbf9c315ad9e0d5a8279a" kindref="member">XMC_USBD_SET_ADDRESS_STAGE_SETUP</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="222"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1gga1983ea285c683f63ee535552d9d2ec1ea95fb7ee8ca9ec0dd6820da21c1be0417" kindref="member">XMC_USBD_SET_ADDRESS_STAGE_STATUS</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="223"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1ga1983ea285c683f63ee535552d9d2ec1e" kindref="member">XMC_USBD_SET_ADDRESS_STAGE_t</ref>;</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_STATUS</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_STATUS</highlight></codeline>
 <codeline lineno="231"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1gga2ed7a439225ce1a0b56349cf914b8cdaa252bc4cec27a140368769ae0ea6a349b" kindref="member">XMC_USBD_STATUS_OK</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="233"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1gga2ed7a439225ce1a0b56349cf914b8cdaa1ddef3a7f4b624a87abb31dae5407c20" kindref="member">XMC_USBD_STATUS_BUSY</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>2U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2132,7 +2125,7 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="235"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1ga2ed7a439225ce1a0b56349cf914b8cda" kindref="member">XMC_USBD_STATUS_t</ref>;</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="242"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_EVENT</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_EVENT</highlight></codeline>
 <codeline lineno="243"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaab5d22fa8b9bbf4d4295ee761ca1150ca26083e0907c204498dc256d2d7672f50" kindref="member">XMC_USBD_EVENT_POWER_ON</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="245"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaab5d22fa8b9bbf4d4295ee761ca1150ca75f695425041a9808d76726a75fc0c98" kindref="member">XMC_USBD_EVENT_POWER_OFF</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2151,7 +2144,7 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="258"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaab5d22fa8b9bbf4d4295ee761ca1150ca152b5d852cbe94b08f872803a714a656" kindref="member">XMC_USBD_EVENT_INEP</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="259"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_EVENT_IN_EP</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_EVENT_IN_EP</highlight></codeline>
 <codeline lineno="266"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggae9d04ab6e275df9194533711f3f2fffea5282d2ec5170a450542055174d7b1c8f" kindref="member">XMC_USBD_EVENT_IN_EP_TX_COMPLET</ref><sp/>=<sp/>1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="268"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggae9d04ab6e275df9194533711f3f2fffeacf660faba3964908927d8e692dfcd033" kindref="member">XMC_USBD_EVENT_IN_EP_DISABLED</ref><sp/>=<sp/>2U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2159,7 +2152,7 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="270"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggae9d04ab6e275df9194533711f3f2fffeae68c6f0d3558ba6468de8cbd2815e9e6" kindref="member">XMC_USBD_EVENT_IN_EP_TIMEOUT</ref><sp/>=<sp/>8U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="271"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1gae9d04ab6e275df9194533711f3f2fffe" kindref="member">XMC_USBD_EVENT_IN_EP_t</ref>;</highlight></codeline>
 <codeline lineno="272"><highlight class="normal"></highlight></codeline>
-<codeline lineno="277"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_EVENT_OUT_EP</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_EVENT_OUT_EP</highlight></codeline>
 <codeline lineno="278"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggae670af5d633ceb13ed361390c49c2128aab42b2cc55b7c7544ce82c26af313256" kindref="member">XMC_USBD_EVENT_OUT_EP_TX_COMPLET</ref><sp/>=<sp/>1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="280"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggae670af5d633ceb13ed361390c49c2128a5d88091a27a6c7335750ebc2a9dd999e" kindref="member">XMC_USBD_EVENT_OUT_EP_DISABLED</ref><sp/>=<sp/>2U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2168,20 +2161,20 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="283"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1gae670af5d633ceb13ed361390c49c2128" kindref="member">XMC_USBD_EVENT_OUT_EP_t</ref>;</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"></highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_EP_EVENT</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_EP_EVENT</highlight></codeline>
 <codeline lineno="291"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1gga6af185b470e216aeb9f5a8f57934c523aad2323067f37cd025ea812c7e2782f1a" kindref="member">XMC_USBD_EP_EVENT_SETUP</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="293"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1gga6af185b470e216aeb9f5a8f57934c523ad98f0520946b50cd67e99015b9d84d35" kindref="member">XMC_USBD_EP_EVENT_OUT</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="294"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1gga6af185b470e216aeb9f5a8f57934c523a1a238282052f9a66736f62e27279ff88" kindref="member">XMC_USBD_EP_EVENT_IN</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="295"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1ga6af185b470e216aeb9f5a8f57934c523" kindref="member">XMC_USBD_EP_EVENT_t</ref>;</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_TRANSFER_MODE</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_TRANSFER_MODE</highlight></codeline>
 <codeline lineno="302"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="303"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggac1a7468fe227f852bd4835ae2723d7dba6a790ad5624ce6bf47062c87ce9e50d6" kindref="member">XMC_USBD_USE_DMA</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="304"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggac1a7468fe227f852bd4835ae2723d7dba6b2871991c75c20b1f4a2cd778ae63d6" kindref="member">XMC_USBD_USE_FIFO</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="305"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1gac1a7468fe227f852bd4835ae2723d7db" kindref="member">XMC_USBD_TRANSFER_MODE_t</ref>;</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"></highlight></codeline>
-<codeline lineno="311"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_MAX_NUM_EPS</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_USBD_MAX_NUM_EPS</highlight></codeline>
 <codeline lineno="312"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="313"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaa7e7d0502c559923da7e324160c527a7a6bb26eec5cd8f27a8789cf5f6cdfa7e6" kindref="member">XMC_USBD_MAX_NUM_EPS_1</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="314"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaa7e7d0502c559923da7e324160c527a7a9a54cc0b5435be2c1694bb59dd5a6042" kindref="member">XMC_USBD_MAX_NUM_EPS_2</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2192,14 +2185,14 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="319"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ggaa7e7d0502c559923da7e324160c527a7a28dffb25c224b6507f9248cd4cbd1fbb" kindref="member">XMC_USBD_MAX_NUM_EPS_7</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7U<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="320"><highlight class="normal">}<sp/><ref refid="group___u_s_b_d_1gaa7e7d0502c559923da7e324160c527a7" kindref="member">XMC_USBD_MAX_NUM_EPS_t</ref>;</highlight></codeline>
 <codeline lineno="321"><highlight class="normal"></highlight></codeline>
-<codeline lineno="325"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="group___u_s_b_d_1ga4d1be41d2cd37f5c9367b75a91a517d6" kindref="member">XMC_USBD_SignalDeviceEvent_t</ref>)<sp/><sp/><sp/>(<ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref><sp/>event);</highlight></codeline>
-<codeline lineno="327"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="group___u_s_b_d_1ga52dd28acc7e2e09a7d3a48c136f1ecdb" kindref="member">XMC_USBD_SignalEndpointEvent_t</ref>)<sp/>(uint8_t<sp/>ep_addr,<sp/><ref refid="group___u_s_b_d_1ga6af185b470e216aeb9f5a8f57934c523" kindref="member">XMC_USBD_EP_EVENT_t</ref><sp/>ep_event);</highlight></codeline>
-<codeline lineno="330"><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="group___u_s_b_d_1ga4d1be41d2cd37f5c9367b75a91a517d6" kindref="member">XMC_USBD_SignalDeviceEvent_t</ref>)<sp/><sp/><sp/>(<ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref><sp/>event);</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="group___u_s_b_d_1ga52dd28acc7e2e09a7d3a48c136f1ecdb" kindref="member">XMC_USBD_SignalEndpointEvent_t</ref>)<sp/>(uint8_t<sp/>ep_addr,<sp/><ref refid="group___u_s_b_d_1ga6af185b470e216aeb9f5a8f57934c523" kindref="member">XMC_USBD_EP_EVENT_t</ref><sp/>ep_event);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
 <codeline lineno="331"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
 <codeline lineno="332"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="337"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_CAPABILITIES</highlight></codeline>
-<codeline lineno="338" refid="struct_x_m_c___u_s_b_d___c_a_p_a_b_i_l_i_t_i_e_s__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="337" refid="struct_x_m_c___u_s_b_d___c_a_p_a_b_i_l_i_t_i_e_s__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_CAPABILITIES</highlight></codeline>
+<codeline lineno="338"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="339"><highlight class="normal"><sp/><sp/>uint32_t<sp/>event_power_on<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="340"><highlight class="normal"><sp/><sp/>uint32_t<sp/>event_power_off<sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="341"><highlight class="normal"><sp/><sp/>uint32_t<sp/>event_connect<sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2212,16 +2205,16 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="348"><highlight class="normal"><sp/><sp/>uint32_t<sp/>reserved<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>23;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="349"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___u_s_b_d___c_a_p_a_b_i_l_i_t_i_e_s__t" kindref="compound">XMC_USBD_CAPABILITIES_t</ref>;</highlight></codeline>
 <codeline lineno="350"><highlight class="normal"></highlight></codeline>
-<codeline lineno="354"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_STATE</highlight></codeline>
-<codeline lineno="355" refid="struct_x_m_c___u_s_b_d___s_t_a_t_e__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="354" refid="struct_x_m_c___u_s_b_d___s_t_a_t_e__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_STATE</highlight></codeline>
+<codeline lineno="355"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="356"><highlight class="normal"><sp/><sp/>uint32_t<sp/>powered<sp/><sp/><sp/><sp/><sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="357"><highlight class="normal"><sp/><sp/>uint32_t<sp/>connected<sp/><sp/><sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="358"><highlight class="normal"><sp/><sp/>uint32_t<sp/>active<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="359"><highlight class="normal"><sp/><sp/>uint32_t<sp/>speed<sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="360"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___u_s_b_d___s_t_a_t_e__t" kindref="compound">XMC_USBD_STATE_t</ref>;</highlight></codeline>
 <codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="368"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="369" refid="struct_x_m_c___u_s_b_d___e_p__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="368" refid="struct_x_m_c___u_s_b_d___e_p__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="370"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="371"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
 <codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>address<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>8;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2253,8 +2246,8 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="398"><highlight class="normal"><sp/><sp/>uint32_t<sp/>xferTotal;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="399"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___u_s_b_d___e_p__t" kindref="compound">XMC_USBD_EP_t</ref>;</highlight></codeline>
 <codeline lineno="400"><highlight class="normal"></highlight></codeline>
-<codeline lineno="408"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_DEVICE</highlight></codeline>
-<codeline lineno="409" refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="408" refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_DEVICE</highlight></codeline>
+<codeline lineno="409"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="410"><highlight class="normal"><sp/><sp/><ref refid="struct_x_m_c___u_s_b_d___e_p__t" kindref="compound">XMC_USBD_EP_t</ref><sp/>ep[8];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="411"><highlight class="normal"><sp/><sp/>dwc_otg_core_global_regs_t<sp/>*global_register;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="412"><highlight class="normal"><sp/><sp/>dwc_otg_device_global_regs_t<sp/>*device_register;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2270,8 +2263,8 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="422"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t" kindref="compound">XMC_USBD_DEVICE_t</ref>;</highlight></codeline>
 <codeline lineno="423"><highlight class="normal"></highlight></codeline>
 <codeline lineno="424"><highlight class="normal"></highlight></codeline>
-<codeline lineno="428"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_OBJ</highlight></codeline>
-<codeline lineno="429" refid="struct_x_m_c___u_s_b_d__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="428" refid="struct_x_m_c___u_s_b_d__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_OBJ</highlight></codeline>
+<codeline lineno="429"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="430"><highlight class="normal"><sp/><sp/>USB0_GLOBAL_TypeDef<sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>usbd;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="431"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ga4d1be41d2cd37f5c9367b75a91a517d6" kindref="member">XMC_USBD_SignalDeviceEvent_t</ref><sp/><sp/>cb_xmc_device_event;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="432"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1ga52dd28acc7e2e09a7d3a48c136f1ecdb" kindref="member">XMC_USBD_SignalEndpointEvent_t</ref><sp/>cb_endpoint_event;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2279,8 +2272,8 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="434"><highlight class="normal"><sp/><sp/><ref refid="group___u_s_b_d_1gac1a7468fe227f852bd4835ae2723d7db" kindref="member">XMC_USBD_TRANSFER_MODE_t</ref><sp/>usbd_transfer_mode;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="435"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_t</ref>;</highlight></codeline>
 <codeline lineno="436"><highlight class="normal"></highlight></codeline>
-<codeline lineno="440"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_DRIVER</highlight></codeline>
-<codeline lineno="441" refid="struct_x_m_c___u_s_b_d___d_r_i_v_e_r__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="440" refid="struct_x_m_c___u_s_b_d___d_r_i_v_e_r__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_USBD_DRIVER</highlight></codeline>
+<codeline lineno="441"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="442"><highlight class="normal"></highlight></codeline>
 <codeline lineno="443"><highlight class="normal"></highlight></codeline>
 <codeline lineno="444"><highlight class="normal"><sp/><sp/><ref refid="struct_x_m_c___u_s_b_d___c_a_p_a_b_i_l_i_t_i_e_s__t" kindref="compound">XMC_USBD_CAPABILITIES_t</ref><sp/>(*GetCapabilities)<sp/><sp/><sp/><sp/>(void);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -2301,10 +2294,10 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="489"><highlight class="normal"><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*IsEnumDone)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="490"><highlight class="normal">}<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_s_b_d___d_r_i_v_e_r__t" kindref="compound">XMC_USBD_DRIVER_t</ref>;</highlight></codeline>
 <codeline lineno="491"><highlight class="normal"></highlight></codeline>
-<codeline lineno="496"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_s_b_d___d_r_i_v_e_r__t" kindref="compound">XMC_USBD_DRIVER_t</ref><sp/><ref refid="group___u_s_b_d_1ga24b0d090ba036e032aba146ca34fc035" kindref="member">Driver_USBD0</ref>;</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_s_b_d___d_r_i_v_e_r__t" kindref="compound">XMC_USBD_DRIVER_t</ref><sp/><ref refid="group___u_s_b_d_1ga24b0d090ba036e032aba146ca34fc035" kindref="member">Driver_USBD0</ref>;</highlight></codeline>
 <codeline lineno="497"><highlight class="normal"></highlight></codeline>
 <codeline lineno="498"><highlight class="normal"></highlight></codeline>
-<codeline lineno="503"><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t" kindref="compound">XMC_USBD_DEVICE_t</ref><sp/><ref refid="group___u_s_b_d_1ga407e973323123c34ea9c9c04b6899992" kindref="member">xmc_device</ref>;</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t" kindref="compound">XMC_USBD_DEVICE_t</ref><sp/><ref refid="group___u_s_b_d_1ga407e973323123c34ea9c9c04b6899992" kindref="member">xmc_device</ref>;</highlight></codeline>
 <codeline lineno="504"><highlight class="normal"></highlight></codeline>
 <codeline lineno="505"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
 <codeline lineno="506"><highlight class="comment"><sp/>*<sp/>API<sp/>PROTOTYPES</highlight></codeline>
@@ -2314,21 +2307,21 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="510"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="511"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="512"><highlight class="normal"></highlight></codeline>
-<codeline lineno="528"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga755920b85d839979d699894e98c13b69" kindref="member">XMC_USBD_Enable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga755920b85d839979d699894e98c13b69" kindref="member">XMC_USBD_Enable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="529"><highlight class="normal"></highlight></codeline>
-<codeline lineno="542"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga1c28d84f9afe864fb9dc0e253137ae54" kindref="member">XMC_USBD_Disable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga1c28d84f9afe864fb9dc0e253137ae54" kindref="member">XMC_USBD_Disable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="543"><highlight class="normal"></highlight></codeline>
-<codeline lineno="560"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga0f50121054da395d3685c6ad9ecb0a56" kindref="member">XMC_USBD_ClearEvent</ref>(<ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref><sp/>event);</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga0f50121054da395d3685c6ad9ecb0a56" kindref="member">XMC_USBD_ClearEvent</ref>(<ref refid="group___u_s_b_d_1gaab5d22fa8b9bbf4d4295ee761ca1150c" kindref="member">XMC_USBD_EVENT_t</ref><sp/>event);</highlight></codeline>
 <codeline lineno="561"><highlight class="normal"></highlight></codeline>
 <codeline lineno="562"><highlight class="normal"></highlight></codeline>
-<codeline lineno="582"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1gaf5f99dc34a65ebd0dd4d5686632702e7" kindref="member">XMC_USBD_ClearEventINEP</ref>(uint32_t<sp/>event,<sp/>uint8_t<sp/>ep_num);</highlight></codeline>
+<codeline lineno="582"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1gaf5f99dc34a65ebd0dd4d5686632702e7" kindref="member">XMC_USBD_ClearEventINEP</ref>(uint32_t<sp/>event,<sp/>uint8_t<sp/>ep_num);</highlight></codeline>
 <codeline lineno="583"><highlight class="normal"></highlight></codeline>
 <codeline lineno="584"><highlight class="normal"></highlight></codeline>
-<codeline lineno="604"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1gadaef35f7f883268c95e15e8849bf3530" kindref="member">XMC_USBD_ClearEventOUTEP</ref>(uint32_t<sp/>event,<sp/>uint8_t<sp/>ep_num);</highlight></codeline>
+<codeline lineno="604"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1gadaef35f7f883268c95e15e8849bf3530" kindref="member">XMC_USBD_ClearEventOUTEP</ref>(uint32_t<sp/>event,<sp/>uint8_t<sp/>ep_num);</highlight></codeline>
 <codeline lineno="605"><highlight class="normal"></highlight></codeline>
-<codeline lineno="622"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga215e0c7a10299d26c9f91c6ad06866f6" kindref="member">XMC_USBD_EnableEventOUTEP</ref>(uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="622"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga215e0c7a10299d26c9f91c6ad06866f6" kindref="member">XMC_USBD_EnableEventOUTEP</ref>(uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="623"><highlight class="normal"></highlight></codeline>
-<codeline lineno="640"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1gaaec2e039f617fdbaa50acb34061c5056" kindref="member">XMC_USBD_EnableEventINEP</ref>(uint32_t<sp/>event);</highlight></codeline>
+<codeline lineno="640"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1gaaec2e039f617fdbaa50acb34061c5056" kindref="member">XMC_USBD_EnableEventINEP</ref>(uint32_t<sp/>event);</highlight></codeline>
 <codeline lineno="641"><highlight class="normal"></highlight></codeline>
 <codeline lineno="655"><highlight class="normal"><ref refid="struct_x_m_c___u_s_b_d___c_a_p_a_b_i_l_i_t_i_e_s__t" kindref="compound">XMC_USBD_CAPABILITIES_t</ref><sp/><ref refid="group___u_s_b_d_1ga26113550391be8fc0e2678fe0e6e85ff" kindref="member">XMC_USBD_GetCapabilities</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="656"><highlight class="normal"></highlight></codeline>
@@ -2371,16 +2364,16 @@ XMClib v2.2.0 - XMC Peripheral Driver Library</para>
 <codeline lineno="959"><highlight class="normal">uint32_t<sp/><ref refid="group___u_s_b_d_1gac958c928fc573f39b30126ac2e2828d7" kindref="member">XMC_USBD_IsEnumDone</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="960"><highlight class="normal"></highlight></codeline>
 <codeline lineno="961"><highlight class="normal"></highlight></codeline>
-<codeline lineno="984"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga275780df6f1b3acf50c4c51151d228b8" kindref="member">XMC_USBD_IRQHandler</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
+<codeline lineno="984"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___u_s_b_d_1ga275780df6f1b3acf50c4c51151d228b8" kindref="member">XMC_USBD_IRQHandler</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___u_s_b_d__t" kindref="compound">XMC_USBD_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>obj);</highlight></codeline>
 <codeline lineno="985"><highlight class="normal"></highlight></codeline>
 <codeline lineno="986"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="987"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="988"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="989"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1001"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined(USB0)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1001"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>defined(USB0)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1002"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1003"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_USBD_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="/var/tmp/gitlab-runner1/builds/xyH-6YS9/0/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h"/>
   </compounddef>
 </doxygen>
