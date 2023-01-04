@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file emusb-os-timer-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* emUSB OS 1ms timer personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+<Personality id="xmc_emusb-os-timer" name="emUSB OS Timer" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_ccu4" />
+    <Resource name="ccu4\.ch"/>
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="baseAddress"  paramId="baseAddress" />
+    <ExposedMember key="irqHandler"  paramId="irqHandler" />
+    <ExposedMember key="irqNumber"  paramId="irqNumber" />
+    <ExposedMember key="period"  paramId="period" />
+    <ExposedMember key="isSR0Used" paramId="isSR0Used" />
+    <ExposedMember key="isSR1Used" paramId="isSR1Used" />
+    <ExposedMember key="isSR2Used" paramId="isSR2Used" />
+    <ExposedMember key="isSR3Used" paramId="isSR3Used" />
+    <ExposedMember key="sr" paramId="sr" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- Internal -->
+    <ParamBool id="debug" name="debug" group="Internal" default="false" visible="false" editable="false" desc="" />
+    <ParamString id="instName" name="instName" group="Internal" default="`${INST_NAME}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamString id="module_num" name="Module Number" group="Internal" default="`${getInstNumber(&quot;ccu4&quot;)}`" visible="false" editable="false" desc="CCU4 parent module index." />
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;ch&quot;)}`" visible="false" editable="false" desc="CCU4 channel slice index." />
+    <ParamString id="baseAddress" name="baseAddress" group="Internal" default="CCU4`${module_num}`_CC4`${channel_num}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamString id="module_resource" name="Module Resource" group="Internal" default="ccu4[`${module_num}`]" visible="false" editable="false" desc="CCU4 parent module resource path." />
+    <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(module_resource)}`" visible="false" editable="false" desc="True when the CCU4 module resource is not enabled." />
+    <ParamRange id="clock_freq" name="Clock Frequency" group="Internal" default="`${module_error ? 0.0 : getExposedMember(module_resource, &quot;frequency&quot;)}`" min="1" max="1000000000" resolution="1" visible="false" editable="false" desc="" />
+    <ParamString id="ip_version" name="IP Block Version" group="Internal" default="`${getVersion()}`" visible="false" editable="false" desc="" />
+    <ParamBool id="ip_ver1" name="IP Block Version 1" desc="True for XMC4100, XMC4200, XMC4400, XMC4500 series" group="Internal" default="`${ip_version == 1}`" visible="false" editable="false" />
+    <ParamBool id="ip_ver2" name="IP Block Version 2" desc="True for XMC1100, XMC1200, XMC1300, XMC4300, XMC4700, XMC4800 series" group="Internal" default="`${ip_version == 2}`" visible="false" editable="false" />
+    <ParamBool id="ip_ver3" name="IP Block Version 3" desc="True for XMC1400 series" group="Internal" default="`${ip_version == 3}`" visible="false" editable="false" />
+    <ParamString id="clock_resource" name="Clock Resource" group="Internal" default="scu[0].clock[0].ccuclk[0]" visible="false" editable="false" desc="Resource clock for CCU4" />
+    <ParamBool id="clock_enabled" name="Clock Enabled" group="Internal" default="`${isBlockUsed(clock_resource)}`" visible="false" editable="false" desc="True when the resource clock for CCU4 is enabled" />
+    <ParamBool id="clock_source_not_mclk" name="Clock Source is not MCLK" group="Internal" default="`${ip_ver3 &amp;&amp; clock_enabled ? (getExposedMember(clock_resource, &quot;sourceClockDisplayName&quot;) ne &quot;MCLK&quot;) : false}`" desc="True when PCLK source is not MCLK" visible="false" editable="false" />
+    <ParamString id="globalBaseAddr" name="globalBaseAddr" group="Internal" default="`${module_error ? NULL : getExposedMember(module_resource, &quot;baseAddr&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+
+    <!-- Documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="`${&quot;https://infineon.github.io/emusb-device/html/index.html&quot;}`" linkText="&quot;Open emUSB-Device Documentation&quot;" visible="true" desc="Open emUSB-Device Documentation" />
+    
+    <!-- General Settings -->
+    <ParamRange id="prescaler_initial_value" name="prescaler_initial_value" group="General" default="`${(clock_freq &lt; 48000000) ? 1 : (clock_freq &lt; 96000000) ? 2 : 4}`" min="1" max="32768" resolution="1" visible="`${debug}`" editable="false" desc="Prescaler value used to divide the clock." />
+    <ParamRange id="tick_resolution" name="Tick Resolution (ns)" group="General"
+      default="`${(clock_freq eq 0.0) ? 0.0 : (prescaler_initial_value * 1.0E9 / clock_freq)}`" min="0" max="3276800000000.0" resolution="0.000001"
+      visible="`${debug}`" editable="false" desc="Actual slice frequency after division using prescaler." />
+    <ParamRange id="tick_resolution_int" name="Tick Resolution (ns)" group="Internal"
+      default="`${tick_resolution}`" min="0" max="3276800000000.0" resolution="1"
+      visible="false" editable="false" desc="Tick Resolution (ns), rounded to the integer value." />
+    <ParamBool id="enable_multichannel_control" name="Multi-Channel Control" group="General" default="false" visible="`${debug}`" editable="false" desc="Enabling the multi-channel mode allows the control of multiple timer slices synchronously." />
+    
+    <ParamChoice id="sr" name="Service Request" group="General" default="3" visible="true" editable="true" desc="Selects the service request to trigger the emUSB timer interrupt.">
+      <Entry name="Service Request 0" value="0" visible="true"/>
+      <Entry name="Service Request 1" value="1" visible="true"/>
+      <Entry name="Service Request 2" value="2" visible="true"/>
+      <Entry name="Service Request 3" value="3" visible="true"/>
+    </ParamChoice>
+
+    <!-- Compare Mode Settings -->
+    <ParamRange id="timer_period_value" name="Timer Period Value" group="Compare Mode" default="`${1000000 / tick_resolution}`" min="0" max="65535" resolution="1" visible="`${debug}`" editable="false" desc="Select value of the timer period." />   
+    <ParamRange id="period" name="Period (ns)" group="Compare Mode" default="`${tick_resolution * timer_period_value}`" min="0" max="1000000000" resolution="0.1" visible="`${debug}`" editable="false" desc="The timer period in nanoseconds" />
+
+    <!-- Timer Events -->  
+    <ParamString id="irqHandler" name="irqHandler" group="Internal" default="CCU4`${module_num}`_`${sr}`_IRQHandler" visible="`${debug}`" editable="false" desc="" />
+    <ParamString id="irqNumber" name="irqNumber" group="Internal" default="CCU4`${module_num}`_`${sr}`_IRQn" visible="`${debug}`" editable="false" desc="" />
+    <Repeat count="4">
+      <ParamBool id="isSR$idxUsed" name="isSR0Used" group="Internal" default="`${sr eq $idx}`" visible="`${debug}`" editable="false" desc="" />
+    </Repeat>
+
+    <!-- Connections -->
+    <Repeat count="3">
+      <ParamSignal port="in$idx[0]" name="Event $idx Input Signal" group="Connections" visible="`${debug}`" desc="CCU4 slice event $idx input signal" canBeEmpty="true" />
+    </Repeat>
+
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="Capture/Compare Unit 4 module instance `${module_num}` is not enabled" condition="`${module_error}`" >
+      <FixIt action="ENABLE_BLOCK" target="`${module_resource}`" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="cycfg_routing.h" include="`${hasConnection(&quot;in0&quot;, 0) || hasConnection(&quot;in1&quot;, 0) || hasConnection(&quot;in2&quot;, 0)}`" />
+    <ConfigInclude value="xmc_ccu4.h" include="true" />
+    <ConfigDefine name="emUSB_OS_Timer_NUM" value="`${channel_num}`U" public="true" include="true" />
+    <ConfigDefine name="emUSB_OS_Timer_HW" value="`${baseAddress}`" public="true" include="true" />
+    <ConfigDefine name="emUSB_OS_Timer_INTERRUPT_HANDLER" value="`${irqHandler}`" public="true" include="true" />
+    <ConfigDefine name="emUSB_OS_Timer_IRQN" value="`${irqNumber}`" public="true" include="true" />
+    <ConfigDefine name="emUSB_OS_Timer_EVENT" value="XMC_CCU4_SLICE_IRQ_ID_PERIOD_MATCH" public="true" include="true" />
+    <ConfigStruct name="emUSB_OS_Timer_compare_config" type="XMC_CCU4_SLICE_COMPARE_CONFIG_t" const="true" public="true" include="true">
+      <Member name="timer_mode" value="XMC_CCU4_SLICE_TIMER_COUNT_MODE_EA" />
+      <Member name="monoshot" value="XMC_CCU4_SLICE_TIMER_REPEAT_MODE_REPEAT" />
+      <Member name="shadow_xfer_clear" value="false" />
+      <Member name="dither_timer_period" value="false" />
+      <Member name="dither_duty_cycle" value="false" />
+      <Member name="prescaler_mode" value="XMC_CCU4_SLICE_PRESCALER_MODE_NORMAL" />
+      <Member name="mcm_enable" value="`${enable_multichannel_control}`" />
+      <Member name="prescaler_initval" value="XMC_CCU4_SLICE_PRESCALER_`${prescaler_initial_value}`" />
+      <Member name="float_limit" value="XMC_CCU4_SLICE_PRESCALER_32768" />
+      <Member name="dither_limit" value="0U" />
+      <Member name="passive_level" value="XMC_CCU4_SLICE_OUTPUT_PASSIVE_LEVEL_LOW" />
+      <Member name="timer_concatenation" value="false" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_CCU4_SLICE_CompareInit(emUSB_OS_Timer_HW, &amp;emUSB_OS_Timer_compare_config);" include="true" />
+    <ConfigInstruction value="XMC_CCU4_SLICE_SetTimerPeriodMatch(emUSB_OS_Timer_HW, `${timer_period_value}`U);" include="true" />
+    <ConfigInstruction value="XMC_CCU4_SLICE_`${&quot;Disable&quot;}`CascadedShadowTransfer(emUSB_OS_Timer_HW);" include="`${ip_ver3}`" />
+    <ConfigInstruction value="XMC_CCU4_EnableShadowTransfer(`${globalBaseAddr}`,&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SHADOW_TRANSFER_SLICE_`${channel_num}` |&#xA;&#x9;&#x9;XMC_CCU4_SHADOW_TRANSFER_DITHER_SLICE_`${channel_num}` |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_`${channel_num}` );" include="true" />
+    <ConfigInstruction value="XMC_CCU4_SLICE_SetInterruptNode(emUSB_OS_Timer_HW, XMC_CCU4_SLICE_IRQ_ID_PERIOD_MATCH, XMC_CCU4_SLICE_SR_ID_0);" include="true" />
+    <ConfigInstruction value="XMC_CCU4_SLICE_EnableEvent(emUSB_OS_Timer_HW, XMC_CCU4_SLICE_IRQ_ID_PERIOD_MATCH);" include="true" />
+    <ConfigInstruction value="XMC_CCU4_EnableClock(`${globalBaseAddr}`, emUSB_OS_Timer_NUM);" include="true" />
+    <ConfigInstruction value="XMC_CCU4_SLICE_SetTimerValue(emUSB_OS_Timer_HW, 0U);" include="true" />
+  </ConfigFirmware>
+</Personality>

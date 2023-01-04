@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="158" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="163" column="3"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="146" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="146" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="151" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="148" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="148" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="153" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="150" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="150" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="155" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a4854608c0e776f0704a4d9a4b98ea57d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="154" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="154" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="159" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a3282745b032a6bfb98021a72893c022e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="147" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="147" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="152" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a520b4ae1c029f1505fdb195b09fd68aa" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="149" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="149" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="154" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a4517f0b60aa2d2e5147db99d20adb28f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="151" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="151" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="156" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="156" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1aeac84de094486b36a34f500f5b16f3c1" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="156" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="156" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="161" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a880a5d11ae52f7279e36a31270eb8f9f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -145,7 +145,7 @@ Range: [0H to FFFFFFFFH] </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="139" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="139" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="144" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1aff074f1259e6fd21380c7bd67bde38ff" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -160,7 +160,7 @@ Range: [0H to FFFFFFFFH] </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="135" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="135" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="140" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -168,7 +168,7 @@ Range: [0H to FFFFFFFFH] </para>
     <detaileddescription>
 <para>Structure for initializing watchdog timer. Use type <ref refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t" kindref="compound">XMC_WDT_CONFIG_t</ref> for this structure. </para>
     </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="133" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="134" bodyend="159"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" line="138" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_wdt.h" bodystart="139" bodyend="164"/>
     <listofallmembers>
       <member refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_WDT_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_WDT_CONFIG_t</scope><name>__pad1__</name></member>

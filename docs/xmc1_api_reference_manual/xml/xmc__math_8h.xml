@@ -2,19 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__math_8h" kind="file" language="C++">
     <compoundname>xmc_math.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes refid="xmc__scu_8h" local="yes">xmc_scu.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_math.h</label>
-        <link refid="xmc__math_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
       <sectiondef kind="define">
       <memberdef kind="define" id="group___m_a_t_h_1ga6efb5ad91b85e204f034ea83cf015420" prot="public" static="no">
         <name>XMC_MATH_Q0_11</name>

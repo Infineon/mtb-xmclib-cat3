@@ -38,7 +38,7 @@
   <Parameters>
     <!-- Internal -->
     <ParamString id="fDCO2" name="Frequency (Hz)" group="Internal"
-      default="32768" visible="false" editable="false" desc="" />
+      default="32750" visible="false" editable="false" desc="" />
 
     <!-- General -->
     <ParamRange id="accuracy" name="Accuracy (&#177;%)" group="General"

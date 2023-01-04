@@ -2,19 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__gpio_8h" kind="file" language="C++">
     <compoundname>xmc_gpio.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes refid="xmc1__gpio_8h" local="yes">xmc1_gpio.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_gpio.h</label>
-        <link refid="xmc__gpio_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
       <sectiondef kind="define">
       <memberdef kind="define" id="group___g_p_i_o_1ga5fe17c3dc6387b1ccfbc4c5c667c58a1" prot="public" static="no">
         <name>PORT_IOCR_PC_Msk</name>

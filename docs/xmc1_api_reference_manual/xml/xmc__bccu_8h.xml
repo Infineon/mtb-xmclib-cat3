@@ -2,18 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__bccu_8h" kind="file" language="C++">
     <compoundname>xmc_bccu.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_bccu.h</label>
-        <link refid="xmc__bccu_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <innerclass refid="struct_x_m_c___b_c_c_u___c_h___c_o_n_f_i_g__t" prot="public">XMC_BCCU_CH_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___b_c_c_u___d_i_m___c_o_n_f_i_g__t" prot="public">XMC_BCCU_DIM_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___b_c_c_u___g_l_o_b_a_l___c_o_n_f_i_g__t" prot="public">XMC_BCCU_GLOBAL_CONFIG_t</innerclass>

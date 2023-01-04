@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="815" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="815" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="820" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="820" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t_1ad71e746b25fd3661ab4838a80912b804" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="816" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="816" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="821" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="821" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t_1aa216d612f167ae6c0714e10f6d3fc713" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1gadfaa9ad3d5d14d786ac920e411b1a4ce" kindref="member">XMC_HRPWM_CSG_SWSM_t</ref></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="814" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="814" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="819" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="819" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -52,7 +52,7 @@
     <detaileddescription>
 <para>CSG Unit - DAC configuration </para>
     </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="812" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="813" bodyend="817"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="817" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="818" bodyend="822"/>
     <listofallmembers>
       <member refid="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t_1afe19a89adfbc633b28fb2513eb70cb99" prot="public" virt="non-virtual"><scope>XMC_HRPWM_CSG_DAC_t</scope><name>dac_dsv1</name></member>
       <member refid="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t_1ad71e746b25fd3661ab4838a80912b804" prot="public" virt="non-virtual"><scope>XMC_HRPWM_CSG_DAC_t</scope><name>dac_dsv2</name></member>

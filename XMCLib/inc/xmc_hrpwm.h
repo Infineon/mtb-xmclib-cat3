@@ -61,6 +61,9 @@
  * 2019-12-02:
  *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
+ * 2022-12-15:
+ *     - Documentation updates
+ *
  * @endcond
  *
  */
@@ -128,6 +131,8 @@ extern "C" {
  * <LI>Dead time insertion on complementary signals<br>
  * <LI>Passive level selection on outputs.<br>
  *</OL>
+ *
+ * Also, the HRPWM block can be configured from the ModusToolbox&trade; Device Configurator: \ref section_personality_hrpwm
  * @{
  */
 /***********************************************************************************************************************

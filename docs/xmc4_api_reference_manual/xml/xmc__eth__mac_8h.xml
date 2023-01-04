@@ -2,20 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__eth__mac_8h" kind="file" language="C++">
     <compoundname>xmc_eth_mac.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes refid="xmc__eth__mac__map_8h" local="yes">xmc_eth_mac_map.h</includes>
     <includedby refid="xmc__eth__phy_8h" local="yes">xmc_eth_phy.h</includedby>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_eth_mac.h</label>
-        <link refid="xmc__eth__mac_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
     <innerclass refid="struct_x_m_c___e_t_h___m_a_c___d_m_a___d_e_s_c__t" prot="public">XMC_ETH_MAC_DMA_DESC_t</innerclass>
     <innerclass refid="union_x_m_c___e_t_h___m_a_c___p_o_r_t___c_t_r_l__t" prot="public">XMC_ETH_MAC_PORT_CTRL_t</innerclass>
     <innerclass refid="struct_x_m_c___e_t_h___m_a_c__t" prot="public">XMC_ETH_MAC_t</innerclass>

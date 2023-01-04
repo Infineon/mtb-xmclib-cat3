@@ -2,18 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__dac_8h" kind="file" language="C++">
     <compoundname>xmc_dac.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_dac.h</label>
-        <link refid="xmc__dac_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <innerclass refid="struct_x_m_c___d_a_c___c_h___c_o_n_f_i_g__t" prot="public">XMC_DAC_CH_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___d_a_c__t" prot="public">XMC_DAC_t</innerclass>
       <sectiondef kind="define">

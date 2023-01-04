@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="944" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="944" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="949" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="949" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a11fa42f2fb14a29c2c52c6cf4d2686e3" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="940" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="940" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="945" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="945" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1ab8f0425906a8dc65344a06085c4537f5" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="942" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="942" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="947" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="947" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a013af3965f9090ce5241045162c9c2f7" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="949" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="949" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="954" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="954" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a579a5e1af4ce90fb62e9bb5daf68c7a9" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="948" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="948" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="953" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="953" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1ac49e13a16215198ae00f59dac16355ac" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="950" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="950" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="955" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="955" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1ae983ba9c72025119f3c3c7c5c9ad1a7c" prot="public" static="no" mutable="no">
         <type><ref refid="group___s_c_u_1ga8290034e7a28d8e2e8ed0086d6f92ab5" kindref="member">XMC_SCU_HIB_STDBYCLKSRC_t</ref></type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="945" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="945" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="950" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="950" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a6956c72347040184cd805a4ff27ea686" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="947" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="947" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="952" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="952" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1ac57094a026c31683326d5d60b9a70db4" prot="public" static="no" mutable="no">
         <type><ref refid="group___s_c_u_1gaccffa04837e2b0c2132f74f3c502139b" kindref="member">XMC_SCU_CLOCK_SYSCLKSRC_t</ref></type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="946" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="946" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="951" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="951" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1afa66c374c23ebdeb4a29dcf5a4130d14" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_SYSPLL_CONFIG_t</ref></type>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="939" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="939" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="944" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="944" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -163,7 +163,7 @@
         <link refid="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t"/>
       </node>
     </collaborationgraph>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="937" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="938" bodyend="951"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="942" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="943" bodyend="956"/>
     <listofallmembers>
       <member refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a18ce527740f63f1b382e16e4ba97742a" prot="public" virt="non-virtual"><scope>XMC_SCU_CLOCK_CONFIG_t</scope><name>calibration_mode</name></member>
       <member refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a11fa42f2fb14a29c2c52c6cf4d2686e3" prot="public" virt="non-virtual"><scope>XMC_SCU_CLOCK_CONFIG_t</scope><name>enable_oschp</name></member>

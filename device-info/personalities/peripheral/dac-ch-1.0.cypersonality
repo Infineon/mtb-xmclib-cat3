@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file dac-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* DAC CH personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_dac-ch" name="DAC CH" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_dac" />
+    <Resource name="dac\.ch" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;ch&quot;)}`" visible="false" editable="false" desc="DAC channel module index." />
+    <ParamString id="device_series_4500_visible" name="Is Device Series not 4500" group="Internal" default="`${lookupExpression(&quot;XMC_SERIES&quot;) ne &quot;4500&quot;}`" visible="false" editable="false" desc="False if XMC Series evaluates to 4500." />
+    <ParamString id="dac_peri_clock" name="DAC Peripheral Clock" group="Internal" default="`${getExposedMember(&quot;scu[0].clock[0].periclk[0]&quot;, &quot;frequency&quot;)}`" visible="false" editable="false" desc="DAC Peripheral Clock value." />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___d_a_c.html" linkText="Open DAC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+
+    <!-- Calculation -->
+    <ParamString id="desired_frequency_max_calc" name="Desired Frequency Max" group="Calculation" default="`${floor(dac_peri_clock/16/32)}`" visible="false" editable="false" desc="Maximum desired frequency for pattern generation, calculated by dividing clock by 16(min divider) and 32(pattern steps)." />
+    <ParamString id="desired_frequency_min_calc" name="Desired Frequency Min" group="Calculation" default="`${ceil(dac_peri_clock/1048575/32)+1}`" visible="false" editable="false" desc="Minimal desired frequency for pattern generation, calculated by dividing clock by 1048575(max divider) and 32(pattern steps)." />
+    <!-- Calculation END -->
+
+    <!-- Waveform -->
+    <ParamChoice id="waveform_selection" name="Waveform Selection" group="Waveform" default="XMC_DAC_CH_MODE_PATTERN" visible="true" editable="true" desc="Pattern selection for Waveform generation.">
+      <Entry name="Pattern Generator" value="XMC_DAC_CH_MODE_PATTERN" visible="true" />
+      <Entry name="Single Value" value="XMC_DAC_CH_MODE_SINGLE" visible="true" />
+      <Entry name="Ramp Mode" value="XMC_DAC_CH_MODE_RAMP" visible="true" />
+      <Entry name="Noise Mode" value="XMC_DAC_CH_MODE_NOISE" visible="true" />
+    </ParamChoice>
+    <ParamImage id="waveform_selection_image" name="" group="Waveform" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_mode.png" visible="true" desc="" inSummary="true" />
+    <ParamBool id="waweform_pattern_visible_bool" name="Waveform Pattern Bool" group="Waveform" default="`${waveform_selection eq XMC_DAC_CH_MODE_PATTERN}`" visible="false" editable="false" desc="" />
+    <ParamBool id="single_value_visible_bool" name="Single Value Bool" group="Waveform" default="`${waveform_selection eq XMC_DAC_CH_MODE_SINGLE}`" visible="false" editable="false" desc="" />
+    <ParamBool id="noise_visible_bool" name="Noise Bool" group="Waveform" default="`${waveform_selection eq XMC_DAC_CH_MODE_NOISE}`" visible="false" editable="false" desc="" />
+    <ParamBool id="ramp_visible_bool" name="Ramp Bool" group="Waveform" default="`${waveform_selection eq XMC_DAC_CH_MODE_RAMP}`" visible="false" editable="false" desc="" />
+    <!-- Waveform END -->
+
+    <!-- Pattern -->
+    <ParamChoice id="pattern_selection" name="Pattern Selection" group="Pattern" default="Sine" visible="`${waweform_pattern_visible_bool}`" editable="true" desc="Selet pre-defined patterns for Waveform generation.">
+      <Entry name="Sine" value="Sine" visible="true" />
+      <Entry name="Rectangle" value="Rectangle" visible="true" />
+      <Entry name="Triangle" value="Triangle" visible="true" />
+      <Entry name="Custom" value="Custom" visible="true" />
+    </ParamChoice>
+    <ParamBool id="custom_pattern_visible_bool" name="Custom Pattern Bool" group="Pattern" default="`${(pattern_selection eq Custom) &amp;&amp; (waweform_pattern_visible_bool)}`" visible="false" editable="false" desc="" />
+
+    <ParamImage id="pattern_sine_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_sine.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Sine}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_rectangle_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_rectangle.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Rectangle}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_triangle_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_triangle.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Triangle}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_custom_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_custom.png" visible="`${waweform_pattern_visible_bool &amp;&amp; custom_pattern_visible_bool}`" desc="" inSummary="true" />
+    <ParamChoice id="amplitude_selection" name="Amplitude [V]" group="Pattern" default="1.1" visible="`${waweform_pattern_visible_bool}`" editable="`${waweform_pattern_visible_bool}`" desc="Set Peak amplitude in Volts.">
+      <Entry name="0.004" value="0.004" visible="true" />
+      <Entry name="0.009" value="0.009" visible="true" />
+      <Entry name="0.017" value="0.017" visible="true" />
+      <Entry name="0.034" value="0.034" visible="true" />
+      <Entry name="0.069" value="0.069" visible="true" />
+      <Entry name="0.138" value="0.138" visible="true" />
+      <Entry name="0.275" value="0.275" visible="true" />
+      <Entry name="0.55" value="0.55" visible="true" />
+      <Entry name="1.1" value="1.1" visible="true" />
+      <Entry name="2.2" value="2.2" visible="true" />
+    </ParamChoice>
+    <ParamString id="amplitude_selection_index" name="amplitude_selection_index" group="Pattern" default="`${amplitude_selection == 0.004 ? 0 : amplitude_selection == 0.009 ? 1 : amplitude_selection == 0.017 ? 2 : amplitude_selection == 0.034 ? 3 : amplitude_selection == 0.069 ? 4 : amplitude_selection == 0.138 ? 5 : amplitude_selection == 0.275 ? 6 : amplitude_selection == 0.55 ? 7 : amplitude_selection == 1.1 ? 8 : amplitude_selection == 2.2 ? 9 : 0}`" visible="false" editable="false" desc="" />
+
+    <ParamChoice id="clock_selection_pattern" name="Clock Selection" group="Pattern" default="0" visible="`${waweform_pattern_visible_bool}`" editable="true" desc="Input trigger selection for DAC conversion.">
+      <Entry name="Internal Clock" value="0" visible="true" />
+      <Entry name="External Trigger" value="1" visible="true" />
+    </ParamChoice>
+    <ParamRange id="desired_frequency_range" name="Desired Frequency [Hz]" group="Pattern" default="2000" min="`${desired_frequency_min_calc}`" max="`${desired_frequency_max_calc}`" resolution="1" visible="`${waweform_pattern_visible_bool &amp;&amp; clock_selection_pattern == 0}`" editable="true" desc="Desired frequency for Pattern generation.&lt;br&gt; Min and Max values are dependant upon the DAC clock." />
+
+    <ParamString id="dac_clock_divider_calc" name="Clock Divider" group="Pattern" default="`${floor(dac_peri_clock/desired_frequency_range/32.0)}`" visible="false" editable="false" desc="Calculated divider." />
+    <ParamString id="dac_clock_divider_minmax_calc" name="Clock divider MIN/MAX" group="Pattern" default="`${(dac_clock_divider_calc &gt; 1048575) ? 1048575 : ((dac_clock_divider_calc &lt; 16) ? 16 : dac_clock_divider_calc)}`" visible="false" editable="false" desc="Trim divider to MIN -128 and MAX 127." />
+    <ParamRange id="actual_frequency_range" name="Actual Frequency [Hz]" group="Pattern" default="`${dac_peri_clock/dac_clock_divider_minmax_calc/32}`" min="0" max="6000000" resolution="1" visible="`${waweform_pattern_visible_bool &amp;&amp; clock_selection_pattern == 0}`" editable="false" desc="Configured frequency for Pattern generation. Actual frequency will be recalculated based upon configured clock divider." />
+
+    <ParamRange id="desired_offset_range" name="Desired Offset [V]" group="Pattern" default="1.4" min="`${(amplitude_selection*(-128.0/62.0))+1.4}`" max="`${(amplitude_selection*(127.0/62.0))+1.4}`" resolution="0.001" visible="`${waweform_pattern_visible_bool}`" editable="true" desc="If amplitude substracted from offset leads to negative voltage register will roll-over and generate positive voltage." />
+
+    <ParamString id="actual_offset_reg_value" name="Offset Reg Value" group="Pattern" default="`${ceil(((desired_offset_range-1.4)/amplitude_selection)*62.0)}`" visible="false" editable="false" desc="Calculated offset reg value." />
+    <ParamString id="actual_offset_reg_minmax_value" name="Offset reg value MIN/MAX" group="Pattern" default="`${(actual_offset_reg_value &gt; 127) ? 127 : ((actual_offset_reg_value &lt; -128) ? -128 : actual_offset_reg_value)}`" visible="false" editable="false" desc="Calculated offset reg value." />
+    <ParamRange id="actual_offset_range" name="Actual Offset [V]" group="Pattern" default="`${((actual_offset_reg_value * amplitude_selection)/62.0)+1.4}`" min="`${(amplitude_selection*(-128.0/62.0))+1.4}`" max="`${(amplitude_selection*(127.0/62.0))+1.4}`" resolution="0.001" visible="`${waweform_pattern_visible_bool}`" editable="false" desc="Add offset to the signal. Only positive voltages can be generated. If offset minus amplitude leads to negative voltage then register will rollover and generate positive voltage." />
+
+    <ParamRange id="resolution_range" name="Resolution [mV/step]" group="Pattern" default="`${(amplitude_selection*1000.0)/(62+1)}`" min="0.063" max="34.921" resolution="0.001" visible="`${waweform_pattern_visible_bool}`" editable="false" desc="DAC resolution in mV/steps. In pattern mode, steps are fixed to 32." />
+
+    <ParamString id="dac_frequency_pattern" name="Struct dac_frequency_pattern" group="Config structure" default="`${(clock_selection_pattern == 0 ? actual_frequency_range : 0) .&quot;U&quot;}`" visible="false" editable="false" desc="" />
+    <!-- Pattern END -->
+
+    <!-- Pattern Expert -->
+    <ParamBool id="enable_sign_output_check" name="Enable Sign Output" group="Pattern Expert" default="false" visible="`${waweform_pattern_visible_bool}`" editable="true" desc="Enables sign information of the generated pattern." />
+    <ParamImage id="pattern_sign_output_image" name="" group="Pattern Expert" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_sign_output.png" visible="`${waweform_pattern_visible_bool}`" desc="" inSummary="true" />
+    <ParamChoice id="start_mode_selection" name="Start Mode" group="Pattern Expert" default="0" visible="`${waweform_pattern_visible_bool &amp;&amp; device_series_4500_visible}`" editable="true" desc="Start mode(Positive/Negative halfwave) configuration. Start with negative halfwave is available only on XMC44 device.">
+      <Entry name="Start with Positive Half" value="0" visible="true" />
+      <Entry name="Start with Negative Half" value="1" visible="true" />
+    </ParamChoice>
+    <ParamImage id="pattern_start_mode_output_image" name="" group="Pattern Expert" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_start_mode.png" visible="`${waweform_pattern_visible_bool &amp;&amp; device_series_4500_visible}`" desc="" inSummary="true" />
+    <!-- Pattern Expert END -->
+
+    <!-- Custom Pattern -->
+    <ParamImage id="pattern_custom" name="" group="Custom Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_custom_configuration.png" visible="`${custom_pattern_visible_bool}`" desc="" inSummary="true" />
+    <Repeat count="9">
+      <ParamRange id="pattern_$idx_range" name="Pattern $idx" group="Custom Pattern" default="0" min="0" max="31" resolution="1" visible="`${custom_pattern_visible_bool}`" editable="true" desc="Pattern $idx for Custom Pattern generation." />
+    </Repeat>
+    <!-- Custom Pattern END -->
+
+    <!-- Code Pattern -->
+    <ParamString id="dac_channel_pattern_output_scale" name="Struct dac_channel_pattern_output_scale" group="Config structure" default="`${waweform_pattern_visible_bool == true ? (amplitude_selection_index + 4) : 0}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_channel_pattern_output_offset" name="Struct dac_channel_pattern_output_offset" group="Config structure" default="`${start_mode_selection==0 ? actual_offset_reg_minmax_value : -actual_offset_reg_minmax_value}`" visible="false" editable="false" desc="" />
+    <!-- Code Pattern -->
+
+    <!-- Single Value -->
+    <ParamChoice id="sign_selection" name="Signed Value" group="Single Value" default="0" visible="`${single_value_visible_bool}`" editable="true" desc="Selects Signed/Unsigned DAC data type.">
+      <Entry name="Signed Value" value="0" visible="true" />
+      <Entry name="Unsigned Value" value="1" visible="true" />
+    </ParamChoice>
+    <ParamRange id="startup_voltage_range" name="Startup Voltage [V]" group="Single Value" default="`${sign_selection == 0 ? 1.4 : 0.30}`" min="0.3" max="2.5" resolution="0.1" visible="`${single_value_visible_bool}`" editable="false" desc="Single Value Mode startup voltage." />
+    <ParamImage id="singleval_signselection_image" name="" group="Single Value" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_single_value_sign_selection.png" visible="`${single_value_visible_bool}`" desc="" inSummary="true" />
+    <!-- Single Value END -->
+
+    <!-- Single Value Expert -->
+    <ParamBool id="sync_with_clock_check" name="Synchronize with Clock" group="Single Value Expert" default="false" visible="`${single_value_visible_bool}`" editable="true" desc="If enabled then Data mode will be configured else Single value mode." />
+    <ParamBool id="event_settings_visible_bool" name="Event Settings Bool" group="Single Value Expert" default="`${(single_value_visible_bool) &amp;&amp; (sync_with_clock_check == 1)}`" visible="false" editable="false" desc="" />
+
+    <ParamChoice id="clock_selection_single_selection" name="Clock Selection" group="Single Value Expert" default="0" visible="`${single_value_visible_bool &amp;&amp; event_settings_visible_bool}`" editable="true" desc="Select Internal clock/External trigger for synchronisation.">
+      <Entry name="Internal Clock" value="0" visible="true" />
+      <Entry name="External Trigger" value="1" visible="true" />
+    </ParamChoice>
+    <ParamRange id="desired_frequency_expert_range" name="Desired Frequency [Hz]" group="Single Value Expert" default="2000" min="`${floor(dac_peri_clock/1048575)}`" max="`${floor(dac_peri_clock/16)}`" resolution="1" visible="`${single_value_visible_bool  &amp;&amp; event_settings_visible_bool &amp;&amp; (clock_selection_single_selection == 0)}`" editable="true" desc="Desired DAC frequency for synchronization." />
+
+    <ParamString id="actual_frequency_expert_calc_string" name="Actual Frequency Calc" group="Single Value Expert" default="`${dac_peri_clock/desired_frequency_expert_range}`" visible="false" editable="false" desc="Calculated actual clock value" />
+    <ParamString id="actual_frequency_expert_calc_minmax_string" name="Actual Frequency Calc MIN/MAX" group="Single Value Expert" default="`${actual_frequency_expert_calc_string &gt; 1048575 ? 1048575 : (actual_frequency_expert_calc_string &lt; 16 ? 16 : actual_frequency_expert_calc_string)}`" visible="false" editable="false" desc="Calculated actual clock value MIN/MAX." />
+    <ParamString id="actual_frequency_expert_string" name="Actual Frequency [Hz]" group="Single Value Expert" default="`${dac_peri_clock/actual_frequency_expert_calc_minmax_string}`" visible="`${single_value_visible_bool  &amp;&amp; event_settings_visible_bool &amp;&amp; (clock_selection_single_selection == 0)}`" editable="false" desc="Configured DAC frequency for synchronization." />
+
+    <ParamBool id="add_offset_check" name="Add Offset" group="Single Value Expert" default="false" visible="`${single_value_visible_bool}`" editable="true" desc="Add an offset before scaling operation." />
+    <ParamRange id="desired_offset_expert_range" name="Desired Offset Value [mV]" group="Single Value Expert" default="0.0" min="`${sign_selection == 0 ? -68.8 : 0}`" max="`${sign_selection == 0 ? 68.3 : 136.99}`" resolution="0.1" visible="`${single_value_visible_bool &amp;&amp; add_offset_check}`" editable="true" desc="Add an offset before scaling operation." />
+    <!-- For code -->
+    <ParamString id="singleval_offset_expert_string" name="Set Offset" group="Single Value Expert" default="`${sign_selection == 0 ? cast(int64, (((desired_offset_expert_range/1000.0) * 2048.0)/1.1)) : cast(int64, (((desired_offset_expert_range/1000.0) * 4095.0)/2.2))}`" visible="false" editable="false" desc="" />
+
+    <ParamRange id="actual_offset_expert_string" name="Actual Offset Value [mV]" group="Single Value Expert" default="`${sign_selection == 0 ? (((singleval_offset_expert_string*1.1)/2048.0)*1000.0) : (((singleval_offset_expert_string*2.2)/4095.0)*1000.0)}`" min="-68.8" max="136.99" resolution="0.001" visible="`${single_value_visible_bool  &amp;&amp; add_offset_check}`" editable="false" desc="Configured offset before scaling operation." />
+
+    <ParamBool id="shiftbits_single_value_expert_check" name="Shifted Bits: [+/- bits] (Pos = Left, Neg = Right)" group="Single Value Expert" default="false" visible="`${single_value_visible_bool}`" editable="true" desc="Enable Scaling operation." />
+    <ParamRange id="shift_value_in_bits_expert_range" name="Shift Value in Bits" group="Single Value Expert" default="0" min="-7" max="7" resolution="1" visible="`${single_value_visible_bool &amp;&amp; shiftbits_single_value_expert_check}`" editable="true" desc="Shift the value to left or right by X Bits. If negative then downscaling else upscaling will be configured." />
+
+    <ParamString id="module_resource" name="Module Resource" group="Internal" default="dac[0]" visible="false" editable="false" desc="" />
+    <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(module_resource)}`" visible="false" editable="false" desc="" />
+
+    <ParamBool id="dac_coupled_check" name="Use DAC Coupled Register" group="Single Value Expert" default="`${module_error ? false : getExposedMember(module_resource, &quot;coupled_channels&quot;)}`" visible="`${single_value_visible_bool}`" editable="false" desc="Enable DAC coupled mode to enable simultaneous data mode. If selected then it will update two DAC channel data in DATA01 register simultaneously. *This option can be controlled only from global DAC." />
+    <ParamBool id="invert_output_check" name="Invert Output" group="Single Value Expert" default="false" visible="`${single_value_visible_bool &amp;&amp; device_series_4500_visible}`" editable="true" desc="DAC data value is converted to its two&apos;s complement value." />
+
+    <ParamString id="dac_frequency_single_value" name="Struct dac_frequency_SingleValue" group="Config structure" default="`${(sync_with_clock_check == true ? (clock_selection_single_selection == 0 ? desired_frequency_expert_range : 0) : 0) .&quot;U&quot; }`" visible="false" editable="false" desc="" />
+    <!-- Single Value Expert END -->
+
+    <!-- Code Single Value -->
+    <ParamString id="dac_channel_single_data_output_scale" name="Struct dac_channel_single_data_output_scale" group="Config structure" default="`${single_value_visible_bool == true ? (shiftbits_single_value_expert_check == true ? (7 + shift_value_in_bits_expert_range) : 7) : 0}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_channel_single_data_output_offset" name="Struct dac_channel_single_data_output_offset" group="Config structure" default="`${add_offset_check == true ? (singleval_offset_expert_string &lt; 0 ? ((singleval_offset_expert_string+256) &amp; 0x0FF) : (singleval_offset_expert_string &amp; 0x0FF)) : 0}`" visible="false" editable="false" desc="" />
+    <!-- Code Single Value END -->
+
+    <!-- Event Settings -->
+    <ParamBool id="enable_service_request_check" name="Enable Service Request" group="Event Settings" default="false" visible="`${event_settings_visible_bool}`" editable="true" desc="Enable service request event in SingleValue mode." />
+    <!-- Event Settings END -->
+
+    <!-- Ramp -->
+    <ParamRange id="desired_start_value_ramp_range" name="Desired Start Value [V]" group="Ramp" default="0.3" min="0.3" max="2.5" resolution="0.01" visible="`${ramp_visible_bool}`" editable="true" desc="Ramp counter starts at this voltage." />
+    <ParamRange id="desired_stop_value_ramp_range" name="Desired Stop Value [V]" group="Ramp" default="2.2" min="0.3" max="2.5" resolution="0.01" visible="`${ramp_visible_bool}`" editable="true" desc="Ramp counter restarts at this voltage." />
+
+    <ParamBool id="use_external_clock_ramp_check" name="Use External Clock" group="Ramp" default="false" visible="`${ramp_visible_bool}`" editable="true" desc="Configure DAC for external trigger.&#13;&#10;If selected then connect signal to external trigger (CCU, UART, PORT)." />
+
+    <ParamRange id="external_trigger_frequency_ramp_range" name="External Trigger Frequency [Hz]" group="Ramp" default="20000" min="1" max="5000000" resolution="1" visible="`${ramp_visible_bool &amp;&amp; use_external_clock_ramp_check == true}`" editable="true" desc="External trigger frequency for Ramp generation." />
+    <ParamRange id="desired_frequency_ramp_range" name="Desired Ramp Frequency [Hz]:" group="Ramp" default="2000" min="1" max="5000000" resolution="1" visible="`${ramp_visible_bool &amp;&amp; use_external_clock_ramp_check == false}`" editable="true" desc="Desired frequency for Ramp generation." />
+
+    <ParamString id="callSolver_external_ramp" name="" group="Ramp" default="`${runTcl(&quot;dac_solver-1.0.tcl&quot;, desired_start_value_ramp_range, desired_stop_value_ramp_range, dac_peri_clock, use_external_clock_ramp_check, external_trigger_frequency_ramp_range)}`" visible="false" editable="false" desc="" />
+    <ParamString id="callSolver_internal_ramp" name="" group="Ramp" default="`${runTcl(&quot;dac_solver-1.0.tcl&quot;, desired_start_value_ramp_range, desired_stop_value_ramp_range, dac_peri_clock, use_external_clock_ramp_check, desired_frequency_ramp_range)}`" visible="false" editable="false" desc="" />
+
+    <ParamBool id="callsolver_resp" name="Call Solver resp" group="Ramp" default="`${use_external_clock_ramp_check == true ? callSolver_external_ramp : callSolver_internal_ramp}`" visible="false" editable="false" desc="" />
+
+    <ParamBool id="callsolver_resp_err" name="Call Solver Error Check" group="Ramp" default="`${getTclVar(&quot;config_not_posible&quot;, callsolver_resp)}`" visible="false" editable="false" desc="Used to check for errors in configuration." />
+    <ParamRange id="actual_start_value_ramp_range_value" name="Actual Start Value Integer" group="Ramp" min="0.3" max="2.5" resolution="0.1" default="`${getTclVar(&quot;temp_CalcStartRamp&quot;, callsolver_resp)}`" visible="false" editable="false" desc="Configured Ramp Start value voltage holder." />
+    <ParamString id="actual_start_value_ramp_range" name="Actual Start Value [V]" group="Ramp" default="`${callsolver_resp_err ? &quot;Error - Fix DRC&quot; : actual_start_value_ramp_range_value}`" visible="`${ramp_visible_bool}`" editable="false" desc="Configured Ramp Start value voltage." />
+    <ParamRange id="actual_stop_value_ramp_range_value" name="Actual Stop Value Integer" group="Ramp" min="0.3" max="2.5" resolution="0.1" default="`${getTclVar(&quot;temp_CalcStopRamp&quot;, callsolver_resp)}`" visible="false" editable="false" desc="Configured Ramp Stop value voltage holder." />
+    <ParamString id="actual_stop_value_ramp_range" name="Actual Stop Value [V]" group="Ramp" default="`${callsolver_resp_err ? &quot;Error - Fix DRC&quot; : actual_stop_value_ramp_range_value}`" visible="`${ramp_visible_bool}`" editable="false" desc="Configured Ramp Stop value voltage." />
+    <ParamString id="actual_trigger_frequency_ramp_range" name="Actual Ramp Frequency [Hz]" group="Ramp" default="`${getTclVar(&quot;temp_CalcFreqHz&quot;, callsolver_resp)}`" visible="`${ramp_visible_bool}`" editable="false" desc="Configured frequency for Ramp generation." />
+    <ParamRange id="resolution_ramp_range_value" name="Resolution Integer" group="Ramp" min="0" max="12345" resolution="0.001" default="`${getTclVar(&quot;resolution_ramp&quot;, callsolver_resp)}`" visible="false" editable="false" desc="DAC Resolution depends upon the number of steps which are dependant upon the configured ramp start and stop values." />
+    <ParamString id="resolution_ramp_range" name="Resolution [mV/step]" group="Ramp" default="`${callsolver_resp_err ? &quot;Error - Fix DRC&quot; : resolution_ramp_range_value}`" visible="`${ramp_visible_bool}`" editable="false" desc="DAC Resolution depends upon the number of steps which are dependant upon the configured ramp start and stop values." />
+
+    <ParamImage id="negative_ramp_image" name="" group="Ramp" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_ramp_negative.png" visible="`${ramp_visible_bool &amp;&amp; device_series_4500_visible}`" desc="" inSummary="true" />
+    <ParamImage id="positive_ramp_image" name="" group="Ramp" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_ramp_positive.png" visible="`${ramp_visible_bool}`" desc="" inSummary="true" />
+
+    <ParamString id="dac_frequency_ramp" name="Struct dac_frequency_ramp" group="Config structure" default="`${(use_external_clock_ramp_check == true ? 0 : actual_trigger_frequency_ramp_range) .&quot;U&quot; }`" visible="false" editable="false" desc="" />
+    <!-- Ramp END -->
+
+    <!-- Noise -->
+    <ParamChoice id="amplitude_noise_selection" name="Amplitude [V]" group="Noise" default="6" visible="`${noise_visible_bool}`" editable="true" desc="Set Peak amplitude in Volts.">
+      <Entry name="0.017" value="0" visible="true" />
+      <Entry name="0.034" value="1" visible="true" />
+      <Entry name="0.069" value="2" visible="true" />
+      <Entry name="0.138" value="3" visible="true" />
+      <Entry name="0.275" value="4" visible="true" />
+      <Entry name="0.55" value="5" visible="true" />
+      <Entry name="1.1" value="6" visible="true" />
+      <Entry name="2.2" value="7" visible="true" />
+    </ParamChoice>
+
+    <ParamString id="amplitude_noise_selection_index" name="amplitude_noise_selection_index" group="Noise" default="`${amplitude_noise_selection}`" visible="false" editable="false" desc="" />
+
+    <ParamBool id="use_external_clock_noise_check" name="Use External Clock" group="Noise" default="false" visible="`${noise_visible_bool}`" editable="true" desc="Configure DAC for external trigger.&#13;&#10;If selected then connect signal to external trigger (CCU, UART, PORT)." />
+    <ParamRange id="desired_period_noise_range" name="Desired Period [us]" group="Noise" default="500" min="`${(1000000.0/floor(dac_peri_clock/16.0))}`" max="`${(1000000.0/ceil(dac_peri_clock/1048575.0))}`" resolution="0.01" visible="`${noise_visible_bool &amp;&amp; (use_external_clock_noise_check == false)}`" editable="true" desc="Desired Period for Noise generation." />
+    <ParamString id="desired_frequency_noise_calc" name="Desired Frequency" group="Noise" default="`${1000000.0/desired_period_noise_range}`" visible="false" editable="false" desc="Convert period to frequency." />
+    <ParamString id="desired_frequenci_divider_noise_calc" name="Desired Frequency Divider" group="Noise" default="`${ceil(dac_peri_clock/desired_frequency_noise_calc)}`" visible="false" editable="false" desc="Convert period to frequency." />
+    <ParamString id="desired_frequenci_divider_noise_minmax_calc" name="Desired Frequency Divider MIN/MAX" group="Noise" default="`${desired_frequenci_divider_noise_calc &gt; 1048575 ? 1048575 : (desired_frequenci_divider_noise_calc &lt; 16 ? 16 : desired_frequenci_divider_noise_calc)}`" visible="false" editable="false" desc="Convert period to frequency." />
+    <ParamRange id="actual_period_noise_string" name="Actual Period [us]" group="Noise" default="`${1000000.0/(dac_peri_clock/desired_frequenci_divider_noise_minmax_calc)}`" min="`${(1000000.0/floor(dac_peri_clock/16.0))}`" max="`${(1000000.0/ceil(dac_peri_clock/1048575.0))}`" resolution="0.01" visible="`${noise_visible_bool&amp;&amp; (use_external_clock_noise_check == false)}`" editable="false" desc="Configured frequency for Noise generation." />
+
+    <ParamBool id="use_average_offset_noise_check" name="Use Average Offset 1.4V" group="Noise" default="false" visible="`${noise_visible_bool}`" editable="true" desc="Generated Noise will be around 1.4V +/- amplitude/2." />
+    <ParamImage id="noise_half_amp_image" name="" group="Noise" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_noise_half_amp.png" visible="`${noise_visible_bool}`" desc="" inSummary="true" />
+    <ParamImage id="noise_conf_image" name="" group="Noise" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_noise_configuration.png" visible="`${noise_visible_bool}`" desc="" inSummary="true" />
+
+    <ParamString id="dac_frequency_noise" name="Struct dac_frequency_Noise" group="Config structure" default="`${(use_external_clock_noise_check == true ? 0 : floor(1000000/actual_period_noise_string)) .&quot;U&quot; }`" visible="false" editable="false" desc="" />
+    <!-- Noise END -->
+
+    <!-- Connections -->
+    <ParamSignal port="out[0]" name="DAC Output" group="Connections" visible="true" desc="Analog output of channel `${channel_num}`." canBeEmpty="true" />
+    <ParamSignal port="sr[0]" name="Service Request" group="Connections" visible="`${hasVisibleOption(&quot;sr[0]&quot;)}`" desc="Service request line of channel `${channel_num}`." canBeEmpty="true" />
+    <ParamSignal port="sign[0]" name="Sign Output" group="Connections" visible="`${hasVisibleOption(&quot;sign[0]&quot;)}`" desc="Generated by the pattern generator of the two DAC channel and represents the actual sign information of the processed signal waveform converted by the DAC." canBeEmpty="true" />
+    <ParamBool id="use_external_clock_check_param" name="Use External clock" group="Connections" default="`${waweform_pattern_visible_bool == true ? (clock_selection_pattern == 1) : (event_settings_visible_bool == true ? (clock_selection_single_selection == 1) : (ramp_visible_bool == true ? use_external_clock_ramp_check : (noise_visible_bool == true ? (use_external_clock_noise_check) : false)))}`" visible="false" editable="false" desc="Supporting parameter used for evaluation." />
+    <ParamSignal port="trigger_inp[0]" name="Trigger Input" group="Connections" visible="`${use_external_clock_check_param &amp;&amp; hasVisibleOption(&quot;trigger_inp[0]&quot;)}`" desc="DAC Channel `${channel_num}` trigger input." canBeEmpty="`${!use_external_clock_check_param || !hasVisibleOption(&quot;trigger_inp[0]&quot;)}`" />
+    <!-- Connections END -->
+
+    <!-- Config structure -->
+    <ParamString id="dac_config_ptr" name="Struct dac_config_ptr" group="Config structure Generated" default="&amp;`${INST_NAME}`_config" visible="false" editable="false" desc="" />
+
+    <ParamString id="dac_mode" name="Struct dac_mode" group="Config structure Generated" default="`${waveform_selection eq XMC_DAC_CH_MODE_SINGLE ? (sync_with_clock_check == true ? &quot;XMC_DAC_CH_MODE_DATA&quot; : waveform_selection) : waveform_selection}`" visible="false" editable="false" desc="" />
+
+    <ParamString id="data_type" name="Struct data_type" group="Config structure Generated" default="`${dac_mode eq XMC_DAC_CH_MODE_PATTERN ? &quot;XMC_DAC_CH_DATA_TYPE_SIGNED&quot; : dac_mode eq XMC_DAC_CH_MODE_SINGLE ? (sign_selection == 0 ? &quot;XMC_DAC_CH_DATA_TYPE_SIGNED&quot; : &quot;XMC_DAC_CH_DATA_TYPE_UNSIGNED&quot;) : dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot; ? (sign_selection == 0 ? &quot;XMC_DAC_CH_DATA_TYPE_SIGNED&quot; : &quot;XMC_DAC_CH_DATA_TYPE_UNSIGNED&quot;) : dac_mode eq XMC_DAC_CH_MODE_RAMP ? &quot;XMC_DAC_CH_DATA_TYPE_UNSIGNED&quot; : dac_mode eq XMC_DAC_CH_MODE_NOISE ? (use_average_offset_noise_check == true ? &quot;XMC_DAC_CH_DATA_TYPE_SIGNED&quot; : &quot;XMC_DAC_CH_DATA_TYPE_UNSIGNED&quot;) : &quot;XMC_DAC_CH_DATA_TYPE_UNSIGNED&quot;}`" visible="false" editable="false" desc="" />
+    <ParamString id="output_negation" name="Struct output_negation" group="Config structure Generated" default="`${dac_mode eq XMC_DAC_CH_MODE_PATTERN ? (start_mode_selection == 0 ? &quot;XMC_DAC_CH_OUTPUT_NEGATION_DISABLED&quot; : &quot;XMC_DAC_CH_OUTPUT_NEGATION_ENABLED&quot; ) : (dac_mode eq XMC_DAC_CH_MODE_SINGLE || dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot;) ? (invert_output_check == false ? &quot;XMC_DAC_CH_OUTPUT_NEGATION_DISABLED&quot; : &quot;XMC_DAC_CH_OUTPUT_NEGATION_ENABLED&quot;) : dac_mode eq XMC_DAC_CH_MODE_RAMP ? (getTclVar(&quot;negate&quot;, callsolver_resp) == true ? &quot;XMC_DAC_CH_OUTPUT_NEGATION_ENABLED&quot; : &quot;XMC_DAC_CH_OUTPUT_NEGATION_DISABLED&quot;) : (dac_mode eq XMC_DAC_CH_MODE_NOISE ? (&quot;XMC_DAC_CH_OUTPUT_NEGATION_DISABLED&quot;) : &quot;XMC_DAC_CH_OUTPUT_NEGATION_DISABLED&quot;)}`" visible="false" editable="false" desc="" />
+
+    <!-- For output_scale define -->
+    <ParamString id="output_scale_index_ramp" name="Struct output_scale_index_ramp" group="Config structure" default="`${ramp_visible_bool == true ? (getTclVar(&quot;dac_shift&quot;, callsolver_resp)== 0 ? (7 - getTclVar(&quot;bit_shift_count&quot;, callsolver_resp)) : (7 + getTclVar(&quot;bit_shift_count&quot;, callsolver_resp))) : 0}`" visible="false" editable="false" desc="" />
+    <ParamString id="output_scale_index_noise" name="Struct output_scale_index_noise" group="Config structure" default="`${noise_visible_bool == true ? amplitude_noise_selection_index : 0}`" visible="false" editable="false" desc="" />
+    <ParamString id="output_scale_mode_index" name="Struct output_scale_mode_index" group="Config structure" default="`${dac_mode eq XMC_DAC_CH_MODE_PATTERN ? dac_channel_pattern_output_scale : (dac_mode eq XMC_DAC_CH_MODE_SINGLE || dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot;) ? dac_channel_single_data_output_scale : dac_mode eq XMC_DAC_CH_MODE_RAMP ? output_scale_index_ramp : dac_mode eq XMC_DAC_CH_MODE_NOISE ? output_scale_index_noise : 0}`" visible="false" editable="false" desc="" />
+    <ParamString id="output_scale" name="Struct output_scale" group="Config structure Generated" default="`${output_scale_mode_index == 0 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_DIV_128&quot; : output_scale_mode_index == 1 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_DIV_64&quot; : output_scale_mode_index == 2 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_DIV_32&quot; : output_scale_mode_index == 3 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_DIV_16&quot; : output_scale_mode_index == 4 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_DIV_8&quot; : output_scale_mode_index == 5 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_DIV_4&quot; : output_scale_mode_index == 6 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_DIV_2&quot; : output_scale_mode_index == 7 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_NONE&quot; : output_scale_mode_index == 8 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_MUL_2&quot; : output_scale_mode_index == 9 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_MUL_4&quot; : output_scale_mode_index == 10 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_MUL_8&quot; : output_scale_mode_index == 11 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_MUL_16&quot; : output_scale_mode_index == 12 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_MUL_32&quot; : output_scale_mode_index == 13 ? &quot;XMC_DAC_CH_OUTPUT_SCALE_MUL_64&quot; : &quot;XMC_DAC_CH_OUTPUT_SCALE_MUL_128&quot;}`" visible="false" editable="false" desc="" />
+
+    <ParamString id="output_offset" name="Struct output_offset" group="Config structure Generated" default="`${dac_mode eq XMC_DAC_CH_MODE_PATTERN ? dac_channel_pattern_output_offset : (dac_mode eq XMC_DAC_CH_MODE_SINGLE || dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot;) ? dac_channel_single_data_output_offset : 0}`" visible="false" editable="false" desc="" />
+
+    <ParamString id="dac_input_trigger" name="Struct dac_input_trigger" group="Config structure Generated" default="`${use_external_clock_check_param == true ? (&quot;DAC_CH&quot;.channel_num . &quot;_TRIGGER&quot;) : ((single_value_visible_bool == true &amp;&amp; sync_with_clock_check == false) ? &quot;XMC_DAC_CH_TRIGGER_SOFTWARE&quot; : &quot;XMC_DAC_CH_TRIGGER_INTERNAL&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_sign_output" name="Struct dac_sign_output" group="Config structure Generated" default="`${waweform_pattern_visible_bool == true ? (enable_sign_output_check == true ? &quot;XMC_DAC_CH_PATTERN_SIGN_OUTPUT_ENABLED&quot; : &quot;XMC_DAC_CH_PATTERN_SIGN_OUTPUT_DISABLED&quot;) : &quot;XMC_DAC_CH_PATTERN_SIGN_OUTPUT_DISABLED&quot;}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_frequency" name="Struct dac_frequency" group="Config structure Generated" default="`${waveform_selection eq XMC_DAC_CH_MODE_PATTERN ? dac_frequency_pattern : (waveform_selection eq XMC_DAC_CH_MODE_SINGLE ? dac_frequency_single_value : (waveform_selection eq XMC_DAC_CH_MODE_RAMP ? dac_frequency_ramp : (waveform_selection eq XMC_DAC_CH_MODE_NOISE ? dac_frequency_noise : 0)))}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_ramp_start" name="Struct dac_ramp_start" group="Config structure Generated" default="`${(waveform_selection eq XMC_DAC_CH_MODE_RAMP ? (getTclVar(&quot;start_ramp&quot;, callsolver_resp)) : 0)}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_ramp_stop" name="Struct dac_ramp_stop" group="Config structure Generated" default="`${(waveform_selection eq XMC_DAC_CH_MODE_RAMP ? (getTclVar(&quot;stop_ramp&quot;, callsolver_resp)) : 0)}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_service_request" name="Struct dac_service_request" group="Config structure Generated" default="`${(enable_service_request_check == true &amp;&amp; event_settings_visible_bool == true) ? &quot;1U&quot; : &quot;0U&quot;}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_coupled" name="Struct dac_coupled" group="Config structure Generated" default="`${(dac_coupled_check == true &amp;&amp; single_value_visible_bool == true) ? &quot;1U&quot; : &quot;0U&quot;}`" visible="false" editable="false" desc="" />
+    <ParamString id="dac_pat_table_ptr" name="Struct dac_pat_table_ptr" group="Config structure Generated" default="`${waweform_pattern_visible_bool == false ? &quot;NULL&quot; : (pattern_selection eq Sine ? (&quot;&amp;DAC_&quot; . channel_num . &quot;_pattern_Sine[0]&quot;) : (pattern_selection eq Rectangle ? (&quot;&amp;DAC_&quot; . channel_num . &quot;_pattern_Rectangle[0]&quot;) : (pattern_selection eq Triangle ? (&quot;&amp;DAC_&quot; . channel_num . &quot;_pattern_Triangle[0]&quot;) : (pattern_selection eq Custom ? (&quot;&amp;DAC_&quot; . channel_num . &quot;_pattern_Custom[0]&quot;) : (0)))))}`" visible="false" editable="false" desc="" />
+    <!-- Config structure END -->
+
+    <!-- Advanced -->
+    <ParamBool id="dac_start_after_init" name="Start After Initialization" group="Advanced" default="false" visible="true" editable="true" desc="Enable/Disable Start After Initialization. If disabled then after configuration the mode will be configured to Idle mode. User has to explicitly call DAC_Enable( ) API to start waveform generation." />
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+    <ParamBool id="inFlashPattern" name="Store Pattern in Flash" group="Advanced" default="true" visible="`${waweform_pattern_visible_bool}`" editable="true" desc="Controls whether the pattern is stored in flash (const, true) or SRAM (not const, false)." />
+    <!-- Advanced END -->
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="Current configuration is not possible. Change &quot;Desired Start Value [V]&quot;, &quot;Desired Stop Value [V]&quot; or &quot;Desired Ramp Frequency [Hz]&quot; parameters." condition="`${ramp_visible_bool &amp;&amp; callsolver_resp_err}`"></DRC>
+    <DRC type="ERROR" text="DAC in coupled mode. Single value mode must be used." condition="`${dac_coupled_check == true &amp;&amp; single_value_visible_bool == false}`">
+      <FixIt action="SET_PARAM" target="waveform_selection" value="XMC_DAC_CH_MODE_SINGLE" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="DAC global is not enabled." condition="`${!isBlockUsed(&quot;dac[0]&quot;)}`">
+      <FixIt action="ENABLE_BLOCK" target="dac[0]" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="cycfg_routing.h" include="`${use_external_clock_check_param}`" />
+
+    <ConfigDefine name="`${INST_NAME}`_HW" value="XMC_DAC0" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${channel_num}`U" public="true" include="true" />
+
+    <ConfigDefine name="`${INST_NAME}`_INTERRUPT_HANDLER" value="DAC0_`${channel_num}`_IRQHandler" public="true" include="`${dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot; &amp;&amp; dac_service_request eq &quot;1U&quot;}`" />
+    <ConfigDefine name="`${INST_NAME}`_IRQN" value="DAC0_`${channel_num}`_IRQn" public="true" include="`${dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot; &amp;&amp; dac_service_request eq &quot;1U&quot;}`" />
+
+    <ConfigStruct name="DAC_`${channel_num}`_pattern_Sine" type="uint8_t" const="`${inFlashPattern}`" public="true" include="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Sine}`" isArray="true">
+      <Member name="`${0}`" value="0U" include="true" />
+      <Member name="`${1}`" value="6U" include="true" />
+      <Member name="`${2}`" value="12U" include="true" />
+      <Member name="`${3}`" value="17U" include="true" />
+      <Member name="`${4}`" value="22U" include="true" />
+      <Member name="`${5}`" value="26U" include="true" />
+      <Member name="`${6}`" value="29U" include="true" />
+      <Member name="`${7}`" value="30U" include="true" />
+      <Member name="`${8}`" value="31U" include="true" />
+    </ConfigStruct>
+
+    <ConfigStruct name="DAC_`${channel_num}`_pattern_Rectangle" type="uint8_t" const="`${inFlashPattern}`" public="true" include="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Rectangle}`" isArray="true">
+      <Member name="`${##}`" value="31U" include="true" count="9" />
+    </ConfigStruct>
+
+    <ConfigStruct name="DAC_`${channel_num}`_pattern_Triangle" type="uint8_t" const="`${inFlashPattern}`" public="true" include="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Triangle}`" isArray="true">
+      <Member name="`${0}`" value="0U" include="true" />
+      <Member name="`${1}`" value="4U" include="true" />
+      <Member name="`${2}`" value="8U" include="true" />
+      <Member name="`${3}`" value="12U" include="true" />
+      <Member name="`${4}`" value="16U" include="true" />
+      <Member name="`${5}`" value="19U" include="true" />
+      <Member name="`${6}`" value="23U" include="true" />
+      <Member name="`${7}`" value="27U" include="true" />
+      <Member name="`${8}`" value="31U" include="true" />
+    </ConfigStruct>
+
+    <ConfigStruct name="DAC_`${channel_num}`_pattern_Custom" type="uint8_t" const="`${inFlashPattern}`" public="true" include="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Custom}`" isArray="true">
+      <Member name="`${##}`" value="`${pattern_##_range}`" include="true" count="9" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_DAC_CH_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="data_type" value="`${&quot;(uint8_t)&quot; . data_type}`" include="true" />
+      <Member name="output_negation" value="`${&quot;(uint8_t)&quot; . output_negation}`" />
+      <Member name="output_scale" value="`${&quot;(uint8_t)&quot; . output_scale}`" />
+      <Member name="output_offset" value="`${output_offset . &quot;U&quot;}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_DAC_CH_Init(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${dac_config_ptr}`);" include="true" />
+    <ConfigInstruction value="XMC_DAC_CH_StartPatternMode(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${dac_pat_table_ptr}`, `${dac_sign_output}`, `${dac_input_trigger}`, `${dac_frequency}`);" include="`${dac_mode eq XMC_DAC_CH_MODE_PATTERN}`" />
+
+    <ConfigInstruction value="XMC_DAC_CH_StartSingleValueMode(`${INST_NAME}`_HW, `${INST_NAME}`_NUM);" include="`${dac_mode eq XMC_DAC_CH_MODE_SINGLE}`" />
+    <ConfigInstruction value="XMC_DAC_CH_Write(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, 0U);" include="`${dac_mode eq XMC_DAC_CH_MODE_SINGLE}`" />
+
+    <ConfigInstruction value="XMC_DAC_CH_StartDataMode(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${dac_input_trigger}`, `${dac_frequency}`);" include="`${dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot;}`" />
+    <ConfigInstruction value="XMC_DAC_CH_EnableEvent(`${INST_NAME}`_HW, `${INST_NAME}`_NUM);" include="`${dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot; &amp;&amp; dac_service_request eq &quot;1U&quot;}`" />
+    <ConfigInstruction value="XMC_DAC_CH_Write(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, 0U);" include="`${dac_mode eq &quot;XMC_DAC_CH_MODE_DATA&quot;}`" />
+
+    <ConfigInstruction value="XMC_DAC_CH_StartRampMode(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${dac_ramp_start}`, `${dac_ramp_stop}`, `${dac_input_trigger}`, `${dac_frequency}`);" include="`${dac_mode eq XMC_DAC_CH_MODE_RAMP}`" />
+    <ConfigInstruction value="XMC_DAC_CH_SetOutputScale(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, (XMC_DAC_CH_OUTPUT_SCALE_t)`${INST_NAME}`_config.output_scale);" include="`${dac_mode eq XMC_DAC_CH_MODE_RAMP}`" />
+
+    <ConfigInstruction value="XMC_DAC_CH_StartNoiseMode(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${dac_input_trigger}`, `${dac_frequency}`);" include="`${dac_mode eq XMC_DAC_CH_MODE_NOISE}`" />
+
+    <ConfigInstruction value="XMC_DAC_CH_SetMode(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, XMC_DAC_CH_MODE_IDLE);" include="`${!dac_start_after_init}`" />
+    <ConfigInstruction value="XMC_DAC_EnableSimultaneousDataMode(`${INST_NAME}`_HW);" include="`${dac_coupled eq &quot;1U&quot;}`" />
+  </ConfigFirmware>
+</Personality>

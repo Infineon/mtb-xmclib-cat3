@@ -87,6 +87,12 @@
  * 2019-07-29:
  *     - Added XMC_CCU4_GetSliceStatusBit()
  *
+ * 2022-03-09:
+ *     - Documentation updates
+ *
+ * 2022-12-15:
+ *     - Documentation updates
+ *
  * @endcond
  */
 
@@ -160,6 +166,8 @@
  *
  * \par Interrupt configuration:
  * This section of the LLD provides the function to configure the interrupt node to each event (XMC_CCU4_SLICE_SetInterruptNode())
+ *
+ * Also, the CCU4 block can be configured from the ModusToolbox&trade; Device Configurator: \ref section_personality_ccu4
  * @{
  */
 

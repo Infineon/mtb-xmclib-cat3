@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file fce-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* FCE personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_fce" name="FCE" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_fce" />
+    <Resource name="fce" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___f_c_e.html" linkText="Open FCE Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+    <ParamBool id="fce_crc8_used" name="Is FCE CRC 8 Used?" group="Internal" default="`${isBlockUsed(&quot;fce[0].crc8[0]&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="fce_crc16_used" name="Is FCE CRC 16 Used?" group="Internal" default="`${isBlockUsed(&quot;fce[0].crc16[0]&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="fce_crc32_0_used" name="Is FCE CRC 32 Used?" group="Internal" default="`${isBlockUsed(&quot;fce[0].crc32_0[0]&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="fce_crc32_1_used" name="Is FCE CRC 32 Used?" group="Internal" default="`${isBlockUsed(&quot;fce[0].crc32_1[0]&quot;)}`" visible="false" editable="false" desc="" />
+  </Parameters>
+  <DRCs />
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_fce.h" include="true" />
+
+    <ConfigDefine name="`${INST_NAME}`_INTERRUPT_HANDLER" value="FCE0_0_IRQHandler" public="true" include="`${fce_crc8_used || fce_crc16_used || fce_crc32_0_used || fce_crc32_1_used}`" />
+    <ConfigDefine name="`${INST_NAME}`_IRQN" value="FCE0_0_IRQn" public="true" include="`${fce_crc8_used || fce_crc16_used || fce_crc32_0_used || fce_crc32_1_used}`" />
+
+    <ConfigInstruction value="XMC_FCE_Enable();" include="true" />
+  </ConfigFirmware>
+</Personality>

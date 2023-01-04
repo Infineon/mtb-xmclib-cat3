@@ -50,6 +50,10 @@
  *
  * 2015-08-06:
  *     - Bug fix in XMC_WDT_SetDebugMode() API, Wrong register is being configured.<br>
+ *
+ * 2022-12-15:
+ *     - Documentation updates
+ *
  * @endcond
  */
 
@@ -82,6 +86,7 @@
  * -# Suspend the watchdog timer during Debug HALT mode. (XMC_WDT_SetDebugMode())
  * -# Configure service indication pulse width.(XMC_WDT_SetServicePulseWidth())
  *
+ * Also, the WDT block can be configured from the ModusToolbox&trade; Device Configurator: \ref section_personality_wdt
  * @{
  */
 

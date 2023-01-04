@@ -2,7 +2,7 @@
 <doxyfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="doxyfile.xsd" version="1.9.2" xml:lang="en-US">
   <option  id='DOXYFILE_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='PROJECT_NAME' default='no' type='string'><value><![CDATA["XMC Peripheral Library for XMC4000 Family"]]></value></option>
-  <option  id='PROJECT_NUMBER' default='no' type='string'><value><![CDATA[4.0.0]]></value></option>
+  <option  id='PROJECT_NUMBER' default='no' type='string'><value><![CDATA[3.1.0]]></value></option>
   <option  id='PROJECT_BRIEF' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='PROJECT_LOGO' default='no' type='string'><value><![CDATA[./images/logo.png]]></value></option>
   <option  id='OUTPUT_DIRECTORY' default='no' type='string'><value><![CDATA[../../docs/xmc4_api_reference_manual]]></value></option>
@@ -109,6 +109,7 @@
     <value><![CDATA[../inc/xmc_can.h]]></value>
     <value><![CDATA[../inc/xmc_ccu4.h]]></value>
     <value><![CDATA[../inc/xmc_ccu8.h]]></value>
+    <value><![CDATA[../inc/xmc_common.h]]></value>
     <value><![CDATA[../inc/xmc_dac.h]]></value>
     <value><![CDATA[../inc/xmc_dma.h]]></value>
     <value><![CDATA[../inc/xmc_dsd.h]]></value>
@@ -116,6 +117,7 @@
     <value><![CDATA[../inc/xmc_eru.h]]></value>
     <value><![CDATA[../inc/xmc_ecat.h]]></value>
     <value><![CDATA[../inc/xmc_eth_mac.h]]></value>
+    <value><![CDATA[../inc/xmc_eth_mac_map.h]]></value>
     <value><![CDATA[../inc/xmc_eth_phy.h]]></value>
     <value><![CDATA[../inc/xmc_flash.h]]></value>
     <value><![CDATA[../inc/xmc_fce.h]]></value>
@@ -139,8 +141,8 @@
     <value><![CDATA[../inc/xmc4_scu.h]]></value>
     <value><![CDATA[../inc/xmc4_flash.h]]></value>
     <value><![CDATA[../inc/xmc4_gpio.h]]></value>
+    <value><![CDATA[configuration.txt]]></value>
     <value><![CDATA[main_xmc4.txt]]></value>
-    <value><![CDATA[../inc/xmc_eth_mac_map.h]]></value>
   </option>
   <option  id='INPUT_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='FILE_PATTERNS' default='no' type='stringlist'>
@@ -153,7 +155,8 @@
   </option>
   <option  id='EXCLUDE_SYMBOLS' default='yes' type='stringlist'>
   </option>
-  <option  id='EXAMPLE_PATH' default='yes' type='stringlist'>
+  <option  id='EXAMPLE_PATH' default='no' type='stringlist'>
+    <value><![CDATA[../../test/personalities]]></value>
   </option>
   <option  id='EXAMPLE_PATTERNS' default='no' type='stringlist'>
   </option>

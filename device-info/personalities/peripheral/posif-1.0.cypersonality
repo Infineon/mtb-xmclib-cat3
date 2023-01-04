@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file posif-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Position Interface personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_posif" name="POSIF" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_posif" />
+    <Resource name="posif\.mux" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <!-- Internal -->
+    <ParamBool id="is_debug_mode" name="Is Debug Mode on" group="Internal" default="false" visible="false" editable="true" desc="" />
+    <ParamString id="module_num" name="Module Number" group="Internal" default="`${getInstNumber(&quot;posif&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamBool id="xmc1" name="Is series XMC1?" group="Internal" default="`${lookupExpression(&quot;XMC1&quot;, 0)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamBool id="xmc4" name="Is series XMC4" group="Internal" default="`${lookupExpression(&quot;XMC4&quot;, 0)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="POSIF_clock_block" name="Clock Block needed for POSIF" group="Internal" default="scu[0].clock[0].ccuclk[0]" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamBool id="is_POSIF_clock_enabled" name="Is POSIF Clock Enabled" group="Internal" default="`${isBlockUsed(POSIF_clock_block)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamBool id="is_XMC4" name="Is Family 4?" group="Internal" default="`${lookupExpression(&quot;XMC4&quot;, 0)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="api_doc" name="API Help" group="Documentation"
+      default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___p_o_s_i_f.html"
+      linkText="Open POSIF Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation"
+      default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_posif"
+      linkText="Open POSIF Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+
+    <ParamChoice id="POSIF_mode" name="Mode Selector" group="General Settings" default="XMC_POSIF_MODE_QD" visible="true" editable="true" desc="Defines position decoder mode selection.">
+      <Entry name="Hall Sensor Mode" value="XMC_POSIF_MODE_HALL_SENSOR" visible="true" />
+      <Entry name="Quadrature Decoder Mode" value="XMC_POSIF_MODE_QD" visible="true" />
+      <Entry name="Standalone Multichannel Mode" value="XMC_POSIF_MODE_MCM" visible="false" />
+      <Entry name="Quadrature Decoder with Standalone Multi-Channel Mode" value="XMC_POSIF_MODE_MCM_QD" visible="false" />
+    </ParamChoice>
+    <ParamChoice id="low_pass_filter" name="Low Pass Filter" group="General Settings" default="XMC_POSIF_FILTER_DISABLED" visible="true" editable="true" desc="Low pass filtering on three input controls the cut frequency.">
+      <Entry name="Disable" value="XMC_POSIF_FILTER_DISABLED" visible="true" />
+      <Entry name="1 Clock Cycle" value="XMC_POSIF_FILTER_1_CLOCK_CYCLE" visible="true" />
+      <Entry name="2 Clock Cycles" value="XMC_POSIF_FILTER_2_CLOCK_CYCLE" visible="true" />
+      <Entry name="4 Clock Cycles" value="XMC_POSIF_FILTER_4_CLOCK_CYCLE" visible="true" />
+      <Entry name="8 Clock Cycles" value="XMC_POSIF_FILTER_8_CLOCK_CYCLE" visible="true" />
+      <Entry name="16 Clock Cycles" value="XMC_POSIF_FILTER_16_CLOCK_CYCLE" visible="true" />
+      <Entry name="32 Clock Cycles" value="XMC_POSIF_FILTER_32_CLOCK_CYCLE" visible="true" />
+      <Entry name="64 Clock Cycles" value="XMC_POSIF_FILTER_64_CLOCK_CYCLE" visible="true" />
+    </ParamChoice>
+    <ParamBool id="use_default_profile" name="Suggest a Profile"
+               desc="When checked, block scheme of POSIF profile, as well as instructions how to configure it will be displayed. Take note, that this does not actually configure CCU4 slices that the Profile uses, it only set some POSIF elements."
+               group="General Settings" default="false" visible="true" editable="true" />
+    <ParamBool id="is_default_hall_profile_used" name="Is Default Hall Sensor Profile being Used?" desc="" group="General Settings"
+               default="`${use_default_profile &amp;&amp; (POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR)}`" visible="`${is_debug_mode}`" editable="false" />
+    <ParamBool id="is_default_qd_profile_used" name="Is Default Quadrature Decoder Profile being Used?" desc="" group="General Settings"
+               default="`${use_default_profile &amp;&amp; (POSIF_mode eq XMC_POSIF_MODE_QD)}`" visible="`${is_debug_mode}`" editable="false" />
+
+    <!-- Quadrature Decoder Settings -->
+    <ParamChoice id="QD_mode" name="Quadrature Decoder Mode Selector" group="Quadrature Decoder Settings" default="XMC_POSIF_QD_MODE_QUADRATURE" visible="`${((POSIF_mode eq XMC_POSIF_MODE_QD) &amp;&amp; !is_default_qd_profile_used) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)}`" editable="true" desc="Defines quadrature decoder mode selection.">
+      <Entry name="Standard Quadrature Mode" value="XMC_POSIF_QD_MODE_QUADRATURE" visible="true" />
+      <Entry name="Direction Count Mode" value="XMC_POSIF_QD_MODE_DIRECTION_COUNT" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="phase_a_level_selector" name="Phase A Level Selector" group="Quadrature Decoder Settings" default="XMC_POSIF_INPUT_ACTIVE_LEVEL_HIGH" visible="`${(POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)}`" editable="true" desc="Defines Phase A Level.">
+      <Entry name="Active Low" value="XMC_POSIF_INPUT_ACTIVE_LEVEL_LOW" visible="true" />
+      <Entry name="Active High" value="XMC_POSIF_INPUT_ACTIVE_LEVEL_HIGH" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="phase_b_level_selector" name="Phase B Level Selector" group="Quadrature Decoder Settings" default="XMC_POSIF_INPUT_ACTIVE_LEVEL_HIGH" visible="`${(POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)}`" editable="true" desc="Defines Phase B Level.">
+      <Entry name="Active Low" value="XMC_POSIF_INPUT_ACTIVE_LEVEL_LOW" visible="true" />
+      <Entry name="Active High" value="XMC_POSIF_INPUT_ACTIVE_LEVEL_HIGH" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="clockwise_direction_def" name="Clockwise Direction Definition" group="Quadrature Decoder Settings" default="0" visible="`${(POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)}`" editable="true" desc="Defines the clockwise direction for phase signal">
+      <Entry name="Phase A Is Leading" value="0" visible="true" />
+      <Entry name="Phase B Is Leading" value="1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="index_pin_enable" name="Enable Index" desc="Uses the index signal for motor revolution control" group="Quadrature Decoder Settings" default="`${((QD_mode eq XMC_POSIF_QD_MODE_DIRECTION_COUNT) &amp;&amp; !is_default_qd_profile_used) ? false : false}`" visible="`${((POSIF_mode eq XMC_POSIF_MODE_QD) &amp;&amp; !is_default_qd_profile_used) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)}`" editable="`${(QD_mode eq XMC_POSIF_QD_MODE_QUADRATURE) || is_default_qd_profile_used}`" />
+    <ParamChoice id="index_marker_generation" name="Index Marker Generation" group="Quadrature Decoder Settings" default="`${index_pin_enable ? XMC_POSIF_QD_INDEX_GENERATION_ONCE : XMC_POSIF_QD_INDEX_GENERATION_NEVER}`" visible="`${((POSIF_mode eq XMC_POSIF_MODE_QD) &amp;&amp; !is_default_qd_profile_used) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)}`" editable="`${index_pin_enable}`" desc="Index signal generation on POSIFx.OUT3">
+      <Entry name="Never Generate the Index Marker Signal" value="XMC_POSIF_QD_INDEX_GENERATION_NEVER" visible="`${!index_pin_enable}`" />
+      <Entry name="Generates only on First Index Signal" value="XMC_POSIF_QD_INDEX_GENERATION_ONCE" visible="true" />
+      <Entry name="Generates on every Index Signal" value="XMC_POSIF_QD_INDEX_GENERATION_ALWAYS" visible="true" />
+    </ParamChoice>
+    <ParamImage id="leading_phase_a" name="" group="Quadrature Decoder Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/posif_phase_a_lead.png"
+                visible="`${(clockwise_direction_def eq 0) &amp;&amp; ((POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)) &amp;&amp; ((QD_mode eq XMC_POSIF_QD_MODE_QUADRATURE) || is_default_qd_profile_used)}`" desc="" inSummary="true" />
+    <ParamImage id="leading_phase_b" name="" group="Quadrature Decoder Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/posif_phase_b_lead.png"
+                visible="`${(clockwise_direction_def eq 1) &amp;&amp; ((POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD))  &amp;&amp; ((QD_mode eq XMC_POSIF_QD_MODE_QUADRATURE) || is_default_qd_profile_used)}`" desc="" inSummary="true" />
+
+    <!-- Hall mode Settings -->
+    <ParamBool id="disable_idle_signal" name="Disable Idle Signal Generation" group="Hall Mode Settings" default="false" visible="`${(POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR) &amp;&amp; !is_default_hall_profile_used}`" editable="true" desc="Defines if the idle signal is disabled upon the wrong hall event." />
+    <ParamChoice id="HSD_trigger_edge_selector" name="Hall Pattern Sample Delay Trigger Edge Selector" group="Hall Mode Settings" default="XMC_POSIF_HSC_TRIGGER_EDGE_RISING" visible="`${POSIF_mode ne XMC_POSIF_MODE_QD}`" editable="true" desc="Defines which edge of the selected Hall pattern Sample Delay input signal is used to trigger a sample of the Hall inputs.">
+      <Entry name="Falling Edge" value="XMC_POSIF_HSC_TRIGGER_EDGE_FALLING" visible="true" />
+      <Entry name="Rising Edge" value="XMC_POSIF_HSC_TRIGGER_EDGE_RISING" visible="true" />
+    </ParamChoice>
+    <ParamBool id="external_WHE_enable" name="Enable External Wrong Hall Event" group="Hall Mode Settings" default="false" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used}`" editable="true" desc="Defines if External Wrong Hall Event emulation is enabled." />
+    <ParamChoice id="external_WHE_active_level" name="External Wrong Hall Event Active Level" group="Hall Mode Settings" default="XMC_POSIF_INPUT_ACTIVE_LEVEL_HIGH" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; (external_WHE_enable &amp;&amp; !is_default_hall_profile_used)}`" editable="true" desc="Defines External Wrong Hall Event Level.">
+      <Entry name="Active Low" value="XMC_POSIF_INPUT_ACTIVE_LEVEL_LOW" visible="true" />
+      <Entry name="Active High" value="XMC_POSIF_INPUT_ACTIVE_LEVEL_HIGH" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="num_of_hall_sensors" name="Number of Hall Sensors" group="Hall Mode Settings" default="3" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" editable="true" desc="This allows a user to configure the position control method.&#13;&#10;3 hall or 2 hall control.&#13;&#10;Hall Sensors separated by 120 degrees are used to determine position and speed.&#13;&#10;If 2 hall is selected then hall input 3 (MSB) is considered as not connected.">
+      <Entry name="2 Hall" value="2" visible="true" />
+      <Entry name="3 Hall" value="3" visible="true" />
+    </ParamChoice>
+    <ParamString id="min_pattern_value" name="Minimal Hall Pattern Value" group="Hall Mode Settings" default="`${num_of_hall_sensors eq 3 ? 1 : 0}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="max_pattern_value" name="Maximum Hall Pattern Value" group="Hall Mode Settings" default="`${num_of_hall_sensors eq 3 ? 6 : 3}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamRange id="hall_pattern_1" name="Hall Pattern `${num_of_hall_sensors == 2 ? 0 : 1}`" group="Hall Mode Settings" default="1" min="`${min_pattern_value}`" max="`${max_pattern_value}`" resolution="1" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" editable="true" desc="First hall sensor sequence for clockwise direction." />
+    <ParamRange id="hall_pattern_2" name="Hall Pattern `${num_of_hall_sensors == 2 ? 1 : 2}`" group="Hall Mode Settings" default="3" min="`${min_pattern_value}`" max="`${max_pattern_value}`" resolution="1" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" editable="true" desc="Second hall sensor sequence for clockwise direction." />
+    <ParamRange id="hall_pattern_3" name="Hall Pattern `${num_of_hall_sensors == 2 ? 2 : 3}`" group="Hall Mode Settings" default="2" min="`${min_pattern_value}`" max="`${max_pattern_value}`" resolution="1" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" editable="true" desc="Third hall sensor sequence for clockwise direction." />
+    <ParamRange id="hall_pattern_4" name="Hall Pattern `${num_of_hall_sensors == 2 ? 3 : 4}`" group="Hall Mode Settings" default="`${num_of_hall_sensors eq 3 ? 6 : 0}`" min="`${min_pattern_value}`" max="`${max_pattern_value}`" resolution="1" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" editable="true" desc="Fourth hall sensor sequence for clockwise direction." />
+    <ParamRange id="hall_pattern_5" name="Hall Pattern 5" group="Hall Mode Settings" default="4" min="1" max="6" resolution="1" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR &amp;&amp; num_of_hall_sensors eq 3}`" editable="true" desc="Fifth hall sensor sequence for clockwise direction." />
+    <ParamRange id="hall_pattern_6" name="Hall Pattern 6" group="Hall Mode Settings" default="5" min="1" max="6" resolution="1" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR &amp;&amp; num_of_hall_sensors eq 3}`" editable="true" desc="Sixth hall sensor sequence for clockwise direction." />
+
+    <!-- Hall pattern validity check -->
+    <ParamString id="change_1" name="First Change" group="Hall Mode Settings" default="`${hall_pattern_1 - ((num_of_hall_sensors == 2) ? hall_pattern_4 : hall_pattern_6)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_1_first" name="Change By 11" group="Hall Mode Settings" default="`${abs(change_1) % 4 == 1 ? change_1 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_2_first" name="Change By 21" group="Hall Mode Settings" default="`${abs(change_1) % 4 == 2 ? change_1 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_4_first" name="Change By 41" group="Hall Mode Settings" default="`${abs(change_1) % 4 == 0 ? change_1 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+
+    <ParamString id="change_2" name="Second Change" group="Hall Mode Settings" default="`${hall_pattern_2 - hall_pattern_1}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_1_second" name="Change By 12" group="Hall Mode Settings" default="`${abs(change_2) % 4 == 1 ? change_2 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_2_second" name="Change By 22" group="Hall Mode Settings" default="`${abs(change_2) % 4 == 2 ? change_2 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_4_second" name="Change By 42" group="Hall Mode Settings" default="`${abs(change_2) % 4 == 0 ? change_2 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+
+    <ParamString id="change_3" name="Third Change" group="Hall Mode Settings" default="`${hall_pattern_3 - hall_pattern_2}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_1_third" name="Change By 13" group="Hall Mode Settings" default="`${abs(change_3) % 4 == 1 ? change_3 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_2_third" name="Change By 23" group="Hall Mode Settings" default="`${abs(change_3) % 4 == 2 ? change_3 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_4_third" name="Change By 43" group="Hall Mode Settings" default="`${abs(change_3) % 4 == 0 ? change_3 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+
+    <ParamString id="change_4" name="Fourth Change" group="Hall Mode Settings" default="`${hall_pattern_4 - hall_pattern_3}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_1_fourth" name="Change By 14" group="Hall Mode Settings" default="`${abs(change_4) % 4 == 1 ? change_4 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_2_fourth" name="Change By 24" group="Hall Mode Settings" default="`${abs(change_4) % 4 == 2 ? change_4 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_4_fourth" name="Change By 44" group="Hall Mode Settings" default="`${abs(change_4) % 4 == 0 ? change_4 : 0}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+
+    <ParamString id="change_5" name="Fifth Change" group="Hall Mode Settings" default="`${(num_of_hall_sensors == 2) ? 0 : (hall_pattern_5 - hall_pattern_4)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_1_fifth" name="Change By 15" group="Hall Mode Settings" default="`${(num_of_hall_sensors == 2) ? 0 : (abs(change_5) % 4 == 1 ? change_5 : 0)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_2_fifth" name="Change By 25" group="Hall Mode Settings" default="`${(num_of_hall_sensors == 2) ? 0 : (abs(change_5) % 4 == 2 ? change_5 : 0)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_4_fifth" name="Change By 45" group="Hall Mode Settings" default="`${(num_of_hall_sensors == 2) ? 0 : (abs(change_5) % 4 == 0 ? change_5 : 0)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+
+    <ParamString id="change_6" name="Sixth Change" group="Hall Mode Settings" default="`${(num_of_hall_sensors == 2) ? 0 : (hall_pattern_6 - hall_pattern_5)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_1_sixth" name="Change By 16" group="Hall Mode Settings" default="`${(num_of_hall_sensors == 2) ? 0 : (abs(change_6) % 4 == 1 ? change_6 : 0)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_2_sixth" name="Change By 26" group="Hall Mode Settings" default="`${(num_of_hall_sensors == 2) ? 0 : (abs(change_6) % 4 == 2 ? change_6 : 0)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="change_by_4_sixth" name="Change By 46" group="Hall Mode Settings" default="`${(num_of_hall_sensors == 2) ? 0 : (abs(change_6) % 4 == 0 ? change_6 : 0)}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+
+    <ParamString id="number_of_changes_by_1" name="Number Of Changes By 1" group="Hall Mode Settings"
+                 default="`${(change_by_1_first != 0 ? 1 : 0) + (change_by_1_second != 0 ? 1 : 0) + (change_by_1_third != 0 ? 1 : 0) +
+                             (change_by_1_fourth != 0 ? 1 : 0) + (change_by_1_fifth != 0 ? 1 : 0) + (change_by_1_sixth != 0 ? 1 : 0)}`"
+                 visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="number_of_changes_by_2" name="Number Of Changes By 2" group="Hall Mode Settings"
+                 default="`${(change_by_2_first != 0 ? 1 : 0) + (change_by_2_second != 0 ? 1 : 0) + (change_by_2_third != 0 ? 1 : 0) +
+                             (change_by_2_fourth != 0 ? 1 : 0) + (change_by_2_fifth != 0 ? 1 : 0) + (change_by_2_sixth != 0 ? 1 : 0)}`"
+                 visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="number_of_changes_by_4" name="Number Of Changes By 4" group="Hall Mode Settings"
+                 default="`${(change_by_4_first != 0 ? 1 : 0) + (change_by_4_second != 0 ? 1 : 0) + (change_by_4_third != 0 ? 1 : 0) +
+                             (change_by_4_fourth != 0 ? 1 : 0) + (change_by_4_fifth != 0 ? 1 : 0) + (change_by_4_sixth != 0 ? 1 : 0)}`"
+                 visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="total_change_by_1" name="Total Change by 1" group="Hall Mode Settings" default="`${change_by_1_first + change_by_1_second + change_by_1_third + change_by_1_fourth + change_by_1_fifth + change_by_1_sixth}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="total_change_by_2" name="Total Change by 2" group="Hall Mode Settings" default="`${change_by_2_first + change_by_2_second + change_by_2_third + change_by_2_fourth + change_by_2_fifth + change_by_2_sixth}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="total_change_by_4" name="Total Change by 4" group="Hall Mode Settings" default="`${change_by_4_first + change_by_4_second + change_by_4_third + change_by_4_fourth + change_by_4_fifth + change_by_4_sixth}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamString id="total_change" name="Total change" group="Hall Mode Settings" default="`${change_1 + change_2 + change_3 + change_4 + change_5 + change_6}`" visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+    <ParamBool id="is_pattern_valid" name="Is Pattern Valid ?" group="Hall Mode Settings"
+                 default="`${(number_of_changes_by_1 == 2) &amp;&amp; (number_of_changes_by_2 == 2) &amp;&amp; ((num_of_hall_sensors == 2) ? true : (number_of_changes_by_4 == 2)) &amp;&amp;
+                             (total_change_by_1 == 0) &amp;&amp; (total_change_by_2 == 0) &amp;&amp; (total_change_by_4 == 0) &amp;&amp;
+                             (total_change == 0)}`"
+                 visible="`${is_debug_mode &amp;&amp; !hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" editable="false" desc="" />
+
+    <!-- General Settings -->
+    <ParamString id="input0_name" name="Mode Dependent input0 Name:" group="General Settings"
+                 default="`${POSIF_mode eq XMC_POSIF_MODE_QD ? (((QD_mode eq XMC_POSIF_QD_MODE_QUADRATURE) || is_default_qd_profile_used) ? &quot;Phase A Input&quot; : &quot;Clock&quot;) : &quot;Hall Input 1&quot;}`"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="input1_name" name="Mode Dependent input1 Name:" group="General Settings"
+                 default="`${POSIF_mode eq XMC_POSIF_MODE_QD ? (((QD_mode eq XMC_POSIF_QD_MODE_QUADRATURE) || is_default_qd_profile_used) ? &quot;Phase B Input&quot; : &quot;Direction&quot;) : &quot;Hall Input 2&quot;}`"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="input2_name" name="Mode Dependent input2 Name:" group="General Settings"
+                 default="`${POSIF_mode eq XMC_POSIF_MODE_QD ? &quot;Index/Marker Input&quot; : &quot;Hall Input 3&quot;}`"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamBool id="are_three_inputs_used" name="Are All 3 POSIF Inputs Used?" group="Internal"
+               default="`${(((POSIF_mode eq XMC_POSIF_MODE_QD) &amp;&amp; !is_default_qd_profile_used) &amp;&amp; index_pin_enable) || (POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR &amp;&amp;num_of_hall_sensors eq 3)}`"
+               visible="`${is_debug_mode}`" editable="false" desc="" />
+
+    <!-- MCM Settings -->
+    <ParamBool id="MC_pattern_sw_update" name="Multi-Channel Pattern Update by Software" group="Multi-Channel Mode Settings" default="false" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used}`" editable="true" desc="Defines if multi-channel pattern should be updated by software." />
+    <ParamChoice id="MC_pattern_trigger_edge" name="Multi-Channel Pattern Update Trigger Edge Selector" group="Multi-Channel Mode Settings" default="XMC_POSIF_HSC_TRIGGER_EDGE_RISING" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used &amp;&amp; !MC_pattern_sw_update }`" editable="true" desc="Which edge of the selected Multi-Channel Pattern Update Set input signal is used to set a Multi-Channel Pattern Update.">
+      <Entry name="Falling Edge" value="XMC_POSIF_HSC_TRIGGER_EDGE_FALLING" visible="true" />
+      <Entry name="Rising Edge" value="XMC_POSIF_HSC_TRIGGER_EDGE_RISING" visible="true" />
+    </ParamChoice>
+
+    <!-- Event Settings -->
+    <ParamBool id="correct_hall_event" name="Correct Hall Event" group="Event Settings" default="false" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" editable="true" desc="Correct hall event is generated when sampled hall pattern matches with the expected hall pattern." />
+    <ParamBool id="is_correct_hall_event_sr_valid" name="Is Correct Hall Event Service Request Choice Valid?" group="Event Settings" default="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR &amp;&amp; correct_hall_event}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="correct_hall_event_SR_line" name="Correct Hall Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_correct_hall_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Correct Hall Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="wrong_hall_event" name="Wrong Hall Event" group="Event Settings" default="false" visible="`${POSIF_mode ne XMC_POSIF_MODE_QD}`" editable="true" desc="Wrong Hall Event is generated when sampled hall pattern does not match with the expected hall pattern. &#13;&#10;It indicates that there is an error in the motor control." />
+    <ParamBool id="is_wrong_hall_event_sr_valid" name="Is Wrong Hall Event Service Request Choice Valid?" group="Event Settings" default="`${POSIF_mode ne XMC_POSIF_MODE_QD &amp;&amp; wrong_hall_event}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="wrong_hall_event_SR_line" name="Wrong Hall Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_wrong_hall_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Wrong Hall Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="hall_input_update_event" name="Hall Input Update Event" group="Event Settings" default="false" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" editable="true" desc="Correct hall event is generated when sampled hall pattern matches with the expected hall pattern." />
+    <ParamBool id="is_hall_input_update_event_sr_valid" name="Is Hall Input Update Event Service Request Choice Valid?" group="Event Settings" default="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR &amp;&amp; hall_input_update_event}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="hall_input_update_event_SR_line" name="Hall Input Update Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_hall_input_update_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Hall Input Update Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="MC_pattern_shadow_transfer_event" name="MC Pattern Shadow Transfer Event" group="Event Settings" default="false" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used}`" editable="true" desc="Wrong Hall Event is generated when sampled hall pattern does not match with the expected hall pattern. &#13;&#10;It indicates that there is an error in the motor control." />
+    <ParamBool id="is_MC_pattern_shadow_transfer_event_sr_valid" name="Is MC Pattern Shadow Transfer Event Service Request Choice Valid?" group="Event Settings" default="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used &amp;&amp; MC_pattern_shadow_transfer_event}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="MC_pattern_shadow_transfer_event_SR_line" name="MC Pattern Shadow Transfer Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_MC_pattern_shadow_transfer_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a MC Pattern Shadow Transfer Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="index_event" name="Index Event" group="Event Settings" default="false" visible="`${POSIF_mode eq XMC_POSIF_MODE_QD}`" editable="`${index_pin_enable &amp;&amp; !is_default_qd_profile_used}`" desc="The occurrence of index pulse is defined as index event&lt;br&gt;" />
+    <ParamBool id="is_index_event_event_sr_valid" name="Is Index Event Service Request Choice Valid?" group="Event Settings" default="`${POSIF_mode eq XMC_POSIF_MODE_QD &amp;&amp; (index_event &amp;&amp; !is_default_qd_profile_used)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="index_event_SR_line" name="Index Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_index_event_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Index Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="phase_error_event" name="Phase Error Event" group="Event Settings" default="false" visible="`${POSIF_mode eq XMC_POSIF_MODE_QD}`" editable="true" desc="Phase error signal can be generated when a wrong phase pair is detected." />
+    <ParamBool id="is_phase_error_event_event_sr_valid" name="Is Phase Error Event Service Request Choice Valid?" group="Event Settings" default="`${POSIF_mode eq XMC_POSIF_MODE_QD &amp;&amp; phase_error_event}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="phase_error_event_SR_line" name="Phase Error Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_phase_error_event_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Phase Error Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="quadrature_clock_event" name="QClock Event" group="Event Settings" default="false" visible="`${POSIF_mode eq XMC_POSIF_MODE_QD}`" editable="true" desc="Qclock event is detected on assertion of qclk pulse" />
+    <ParamBool id="is_quadrature_clock_event_event_sr_valid" name="Is QClock Event Service Request Choice Valid?" group="Event Settings" default="`${POSIF_mode eq XMC_POSIF_MODE_QD &amp;&amp; quadrature_clock_event}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="quadrature_clock_event_SR_line" name="QClock Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_quadrature_clock_event_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a QClock Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="direction_change_event" name="Direction Change Event" group="Event Settings" default="false" visible="`${POSIF_mode eq XMC_POSIF_MODE_QD}`" editable="true" desc="This event is detected when the direction of motor is changed" />
+    <ParamBool id="is_direction_change_event_event_sr_valid" name="Is Direction Change Event Service Request Choice Valid?" group="Event Settings" default="`${POSIF_mode eq XMC_POSIF_MODE_QD &amp;&amp; direction_change_event}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="direction_change_event_SR_line" name="Direction Change Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_direction_change_event_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Direction Change Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="period_clock_event" name="PClock Event" group="Event Settings" default="false" visible="`${POSIF_mode eq XMC_POSIF_MODE_QD}`" editable="true" desc="Pclock event is detected on assertion of pclk pulse" />
+    <ParamBool id="is_period_clock_event_event_sr_valid" name="Is PClock Event Service Request Choice Valid?" group="Event Settings" default="`${POSIF_mode eq XMC_POSIF_MODE_QD &amp;&amp; period_clock_event}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="period_clock_event_SR_line" name="Pclock Event Service Request" group="Event Settings" default="XMC_POSIF_SR_ID_0" visible="`${is_period_clock_event_event_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Pclock Event occurrence.">
+      <Entry name="Service Request 0" value="XMC_POSIF_SR_ID_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_POSIF_SR_ID_1" visible="true" />
+    </ParamChoice>
+    <Repeat count="2">
+      <ParamRange id="number_of_sr$idx" name="Number of Events Router to Service Request Line $idx" group="Event Settings"
+                  default="`${(is_correct_hall_event_sr_valid ? cast(int64, correct_hall_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0) +
+                              (is_wrong_hall_event_sr_valid ? cast(int64, wrong_hall_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0) +
+                              (is_hall_input_update_event_sr_valid ? cast(int64, hall_input_update_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0) +
+                              (is_MC_pattern_shadow_transfer_event_sr_valid ? cast(int64, MC_pattern_shadow_transfer_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0) +
+                              (is_index_event_event_sr_valid ? cast(int64, index_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0) +
+                              (is_phase_error_event_event_sr_valid ? cast(int64, phase_error_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0) +
+                              (is_quadrature_clock_event_event_sr_valid ? cast(int64, quadrature_clock_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0) +
+                              (is_direction_change_event_event_sr_valid ? cast(int64, direction_change_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0) +
+                              (is_period_clock_event_event_sr_valid ? cast(int64, period_clock_event_SR_line eq XMC_POSIF_SR_ID_$idx) : 0)}`"
+                  min="0" max="5" resolution="1" visible="`${is_debug_mode}`" editable="false" desc="" />
+    </Repeat>
+
+    <ParamBool id="in_flash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+
+    <!-- Connections -->
+    <!-- Connection clk is not used -->
+    <ParamSignal port="clk[0]" name="clk" group="Connections" visible="false" desc="" canBeEmpty="true" />
+
+    <ParamSignal port="insel0[0]" name="`${input0_name}` [insel0]" group="Connections" visible="`${POSIF_mode ne XMC_POSIF_MODE_MCM}`" desc="" canBeEmpty="`${POSIF_mode eq XMC_POSIF_MODE_MCM}`" />
+    <ParamSignal port="insel1[0]" name="`${input1_name}` [insel1]" group="Connections" visible="`${POSIF_mode ne XMC_POSIF_MODE_MCM}`" desc="" canBeEmpty="`${POSIF_mode eq XMC_POSIF_MODE_MCM}`" />
+    <ParamSignal port="insel2[0]" name="`${input2_name}` [insel2]" group="Connections" visible="`${(POSIF_mode ne XMC_POSIF_MODE_MCM) &amp;&amp; are_three_inputs_used}`" desc="" canBeEmpty="`${(POSIF_mode eq XMC_POSIF_MODE_MCM) || !are_three_inputs_used}`" />
+
+    <ParamImage id="hall_profile_example" name="Hall Sensor Mode POSIF Profile Example" group="Connections" default="`${cy_libs_path()}`/device-info/personalities/peripheral/posif_hall_structure.png"
+                visible="`${is_default_hall_profile_used &amp;&amp; (POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR)}`"
+                desc="Example hall POSIF profile is targeted to find position and speed of the motor using 2 or 3 hall sensors. This profile uses POSIF module
+                      and two CCU4 slices.&lt;br&gt;&lt;br&gt;
+                      &lt;i&gt;CCU4 Slice Consumption:&lt;/i&gt;
+                      &lt;ol type=&quot;1&quot;&gt;
+                        &lt;li&gt;Delay Counter - Slice is set to be in compare single shot mode which is used to control
+                                  the delays between the edge detection of the Hall Inputs and the actual sampling.
+                          &lt;ul&gt;
+                            &lt;li&gt;Status Signal of the Delay Counter CCU4 slice should be connected to the &quot;Hall POSIF&quot;
+                                      POSIF Hall Pattern Sample Delay [dsel] Signal.
+                            &lt;/li&gt;
+                          &lt;/ul&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;Interval Counter - Slice is set to be in capture mode which is used to measure time between the Correct Hall Events
+                                  for motor speed calculation.
+                        &lt;/li&gt;
+                      &lt;/ol&gt;
+                      Detailed description of other POSIF profiles can be found in section `${!is_XMC4 ? &quot;24.2.7.1 Hall Sensor Mode usage
+                      in the reference manual for XMC1400&quot; : &quot;25.2.7.1 Hall Sensor Mode usage in the reference manual for XMC4700&quot;}`"
+                inSummary="true" />
+    <ParamSignal port="dsel[0]" name="Hall Pattern Sample Delay [dsel]" group="Connections" visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`"
+                 desc="The signal used to trigger the sample of the Hall inputs is selected via the PCONF.DSEL field,
+                 and this trigger can be active at the rising or falling edge (PCONF.SPES). When the sampling trigger is sensed,
+                 the Hall inputs are sampled and compared against the Current Pattern, HALP.HCP and the Expected Hall Pattern,
+                 HALP.HEP (to evaluate if the input pattern match the HEP or HCP values)."
+                 canBeEmpty="`${POSIF_mode ne XMC_POSIF_MODE_HALL_SENSOR}`" />
+    <ParamString id="dsel_block" name="dsel block name" group="Connections" default="`${getBlockFromSignal(&quot;dsel[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="dsel_value" name="dsel value" group="Connections" default="`${getParamValue(&quot;dsel[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamSignal port="msets[0]" name="Multi-Channel Pattern Update Set [msets]" group="Connections" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; (!MC_pattern_sw_update) &amp;&amp; !is_default_hall_profile_used}`"
+                 desc="The delay for the update of the Multi-Channel pattern can be controlled directly by a CCU4 slice. The trigger that indicates
+                 that the delay is finished, can be mapped to one of the input signals POSIFx.MSET[H...A] (PCONF.MSETS selects the input signal used
+                 for this purpose). One can also select the active edge for the trigger via PCONF.MSES. The PCONF.MCUE field selects the source that
+                 enables an update of the Multi-Channel pattern. When set to 1B, the Multi-Channel pattern can only be updated after the SW has
+                 written a 1B into the MCMS.MNPS field."
+                 canBeEmpty="true">
+      <Constraint type="DENY" targetLocation=".*" valid="`${is_default_hall_profile_used}`" />
+    </ParamSignal>
+    <ParamString id="msets_block" name="msets block name" group="Connections" default="`${getBlockFromSignal(&quot;msets[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="msets_value" name="msets value" group="Connections" default="`${getParamValue(&quot;msets[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamSignal port="msyns[0]" name="Multi-Channel Pattern Update Synchronization [msyns]" group="Connections" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used}`"
+                 desc="After the update delay, the Multi-Channel pattern still needs to be synchronized with the PWM signal. For this, the user
+                 selects a signal from the POSIFx.MSYNC[D...A] inputs via PCONF.MSYNS field. When a falling edge is detected in this signal, then
+                 the new multi pattern is applied at the POSIFx.MOUT[15:0] outputs, with the MCM.MCMP[15] linked to the POSIFx.MOUT[15] and MCM.MCMP[0]
+                 to POSIFx.MOUT[0]."
+                 canBeEmpty="true" />
+    <ParamString id="msyns_block" name="msyns block name" group="Connections" default="`${getBlockFromSignal(&quot;msyns[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="msyns_value" name="msyns value" group="Connections" default="`${getParamValue(&quot;msyns[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <!-- POSIFx.EWHE[D...A] ports, do not have a description in the reference manual -->
+    <ParamSignal port="ewis[0]" name="Wrong Hall Event Emulation [ewis]" group="Connections" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; (external_WHE_enable &amp;&amp; !is_default_hall_profile_used)}`" desc="" canBeEmpty="`${!((POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; (external_WHE_enable &amp;&amp; !is_default_hall_profile_used))}`" />
+
+    <ParamString id="out0_name" name="Name Of out0 Port" group="Connections" default="`${POSIF_mode eq XMC_POSIF_MODE_QD ? &quot;Quadrature Clock Output&quot; : &quot;Hall Inputs Edge Detection Trigger&quot;}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out0_hall_profile_description" name="Description for out0 Port for Hall Profile" group="Connections"
+                 default="&lt;br&gt;&lt;br&gt;
+                          To achieve POSIF profile from the picture &quot;Hall Sensor Mode POSIF Profile Example&quot;:
+                          &lt;ol type=&quot;1&quot;&gt;
+                            &lt;li&gt;`${out0_name}` should be connected to &quot;Delay Counter&quot;
+                                      CCU4 slice Event 0 Input Signal.
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Start Function&lt;/i&gt; for Delay Counter CCU4 slice should be set to &lt;i&gt;Triggered by Event 0&lt;/i&gt; &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Start Function Mode&lt;/i&gt; for Delay Counter CCU4 slice should be set to &lt;i&gt;Clear and Start Timer&lt;/i&gt; &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 0 Edge Selection&lt;/i&gt; should be set to &lt;i&gt;Signal Active on Rising Edge&lt;/i&gt;
+                                      for the Delay Counter CCU4 slice
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 0 Level Selection&lt;/i&gt; for the Delay Counter CCU4 slice
+                                      should be set to &lt;i&gt;Active on High Level&lt;/i&gt;&lt;
+                            &lt;/li&gt;
+                          &lt;/ol&gt;"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out0_qd_profile_description" name="Description for out0 Port for QD Profile" group="Connections"
+                 default="&lt;br&gt;&lt;br&gt;
+                          To achieve POSIF profile from the picture &quot;Quadrature Decoder POSIF Profile Example&quot;:
+                          &lt;ol type=&quot;1&quot;&gt;
+                            &lt;li&gt;Quadrature Clock Output should be connected to &quot;Position Counter&quot; CCU4 slice Event 0 Input Signal.&lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Count Function&lt;/i&gt; of the Position Counter CCU4 slice should be set to &lt;i&gt;Triggered by Event 0&lt;/i&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 0 Edge Selection&lt;/i&gt; of the Position Counter CCU4 slice should be set to
+                                      &lt;i&gt;Signal Active on Rising Edge&lt;/i&gt;&lt;
+                           &lt;/li&gt;
+                           &lt;li&gt;&lt;i&gt;Event 0 Level Selection&lt;/i&gt; of the Position Counter CCU4 slice should be set to &lt;i&gt;Active on High Level&lt;/i&gt;&lt;/li&gt;
+                          &lt;/ol&gt;"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamMux id="out0_mux" name="out0 Connection" group="Connections">
+      <Common port="out0[0]" />
+      <Arm name="`${out0_name}` [out0]"
+           desc="The Hall inputs are directly connected to an edge detection circuitry and with any modification in any of these three inputs,
+           a signal is generated on the POSIFx.OUT0 port. This port can be connected to one CCU4 slice that is controlling the
+           delay between the edge detection and the next step on the Hall sensor mode, the sampling of the Hall Inputs.
+           `${is_default_hall_profile_used ? out0_hall_profile_description : &quot;&quot;}`"
+           visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" canBeEmpty="`${POSIF_mode ne XMC_POSIF_MODE_HALL_SENSOR}`" multiSelect="true" group="Connections">
+      </Arm>
+      <Arm name="`${out0_name}` [out0]"
+           desc="The quadrature clock is connected to pin POSIFx.OUT0 and is used for position measurement.
+           This clock is decoded from every edge of the phase signals and therefore there are 4 clock pulses per phase period.
+           `${is_default_qd_profile_used ? out0_qd_profile_description : &quot;&quot;}`"
+          visible="`${hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" canBeEmpty="true" multiSelect="true" group="Connections">
+        <!-- Constraint system has a bug, that manifests when explicit connection is specified like in the line below, parameter fixing does not work in this case -->
+        <!-- <Constraint type="REQUIRE" targetLocation="ccu4\[0\]\.ch\[0\]\.in0\[0\].*" valid="`${is_default_qd_profile_used}`">
+          <Parameter id="timer_initial_value" severity="DEFAULT" reason="POSIF said so">
+            <Fixed value="350" />
+          </Parameter>
+        </Constraint> -->
+      </Arm>
+    </ParamMux>
+    <ParamString id="out0_mux_arm_signal" name="out0 Mux Arm Signal" group="Connections" default="`${getMuxArmSignal(&quot;out0_mux&quot;, 0)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out0_mux_arm_block" name="out0 block name" group="Connections" default="`${getBlockFromSignal(&quot;out0_mux_arm_signal&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out0_mux_arm_block_to_regex" name="out0 block name to regex" group="Connections" default="`${escapeRegexMetaChars(out0_mux_arm_block)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out1_name" name="Name Of out1 Port" group="Connections" default="`${POSIF_mode eq XMC_POSIF_MODE_QD ? &quot;Direction Output&quot; : &quot;Correct Hall Event Output&quot;}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out1_hall_profile_description" name="Description for out0 Port for Hall Profile" group="Connections"
+                 default="&lt;br&gt;&lt;br&gt;
+                          To achieve POSIF profile from the picture &quot;Hall Sensor Mode POSIF Profile Example&quot;:
+                          &lt;ol type=&quot;1&quot;&gt;
+                            &lt;li&gt;`${out1_name}` should be connected to &quot;Interval Counter&quot;
+                                      CCU4 slice Event 0 Input Signal.
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Capture 0 Function&lt;/i&gt; for Interval Counter CCU4 slice should be set to &lt;i&gt;Triggered by Event 0&lt;/i&gt; &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 0 Edge Selection&lt;/i&gt; should be set to &lt;i&gt;Signal Active on Rising Edge&lt;/i&gt;
+                                      for the Interval Counter CCU4 slice
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 0 Level Selection&lt;/i&gt; for the Interval Counter CCU4 slice
+                                      should be set to &lt;i&gt;Active on High Level&lt;/i&gt;&lt;
+                            &lt;/li&gt;
+                          &lt;/ol&gt;"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out1_qd_profile_description" name="Description for out0 Port for QD Profile" group="Connections"
+                 default="&lt;br&gt;&lt;br&gt;
+                          To achieve POSIF profile from the picture &quot;Quadrature Decoder POSIF Profile Example&quot;:
+                          &lt;ol type=&quot;1&quot;&gt;
+                            &lt;li&gt;Direction Output should be connected to &quot;Position Counter&quot; and &quot;Revolution Counter&quot;
+                                      CCU4 slices Event 1 Input Signal, at the same time.
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Count Direction Control Function&lt;/i&gt; for both the Position Counter and Revolution Counter
+                                      CCU4 slices should be set to &lt;i&gt;Triggered by Event 1&lt;/i&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 1 Edge Selection&lt;/i&gt; should be set to &lt;i&gt;Signal Active on Rising Edge&lt;/i&gt;
+                                      for the Position Counter CCU4 slice and &lt;i&gt;Signal Active on Falling Edge&lt;/i&gt; for the Revolution Counter CCU4 slice&lt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 1 Level Selection&lt;/i&gt; for both the Position Counter and Revolution Counter CCU4 slices
+                                      should be set to &lt;i&gt;Active on Low Level&lt;/i&gt;&lt;
+                            &lt;/li&gt;
+                          &lt;/ol&gt;"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamMux id="out1_mux" name="out1 Connection" group="Connections">
+      <Common port="out1[0]" />
+      <Arm name="`${out1_name}` [out1]"
+           desc="When the sampled value matches the Expected Hall Pattern, a pulse is generated in the POSIFx.OUT1 port, to indicate
+           a correct hall event. At the same time the next values programmed into the shadow registers are loaded. The HALP.HCP[LSB] is linked to the
+           Hall input 1, and the HALP.HCP[MSB] is linked to the Hall input 3 (the same is applicable for the HALP.HEP register).
+           `${is_default_hall_profile_used ? out1_hall_profile_description : &quot;&quot;}`"
+           visible="`${(POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR)}`" canBeEmpty="true" multiSelect="true" group="Connections" />
+      <Arm name="`${out1_name}` [out1]"
+           desc="The direction of the motor rotation is connected to the POSIFx.OUT1 pin and is asserted HIGH
+           when the motor is rotating clockwise and LOW when it is turning in the counterclockwise direction.
+           `${is_default_qd_profile_used ? out1_qd_profile_description : &quot;&quot;}`"
+           visible="`${hasMatch(POSIF_mode, &quot;.*_QD$&quot;)}`" canBeEmpty="true" multiSelect="true" group="Connections">
+      </Arm>
+    </ParamMux>
+    <ParamString id="out2_name" name="Name Of out2 Port" group="Connections" default="`${POSIF_mode eq XMC_POSIF_MODE_QD ? &quot;Period Clock Output&quot; : &quot;Idle(Wrong Hall Event)&quot;}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out2_qd_profile_description" name="Description for out0 Port for QD Profile" group="Connections"
+                 default="&lt;br&gt;&lt;br&gt;
+                          To achieve POSIF profile from the picture &quot;Quadrature Decoder POSIF Profile Example&quot;:
+                          &lt;ol type=&quot;1&quot;&gt;
+                            &lt;li&gt;Period Clock Output should be connected to &quot;Time Between Ticks&quot; CCU4 slice Event 0 Input Signal.&lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Capture 0 Function&lt;/i&gt; of the Time Between Ticks CCU4 slice should be set to
+                                      &lt;i&gt;Triggered by Event 0&lt;/i&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 0 Edge Selection&lt;/i&gt; of the Time Between Ticks CCU4 slice should be set to
+                                      &lt;i&gt;Signal Active on Rising Edge&lt;/i&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 0 Level Selection&lt;/i&gt; of the Time Between Ticks CCU4 slice should be set to
+                                      &lt;i&gt;Active on High Level&lt;/i&gt;
+                            &lt;/li&gt;
+                          &lt;/ol&gt;"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamMux id="out2_mux" name="out2 Connection" group="Connections">
+      <Common port="out2[0]" />
+      <Arm name="`${out2_name}` [out2]"
+           desc="A wrong hall event can generate an IDLE signal that is connected to the POSIFx.OUT2 and can be used to clear the run bit
+           of the Hall Sensor Control unit. The IDLE signal can also be connected to the PWM unit to perform a forced stop operation.
+           The wrong hall event/idle function can also be controlled via a pin."
+           visible="`${(POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR) &amp;&amp; !(disable_idle_signal || is_default_hall_profile_used)}`" canBeEmpty="true" multiSelect="true" group="Connections" />
+      <Arm name="`${out2_name}` [out2]"
+           desc="The period clock is used for velocity measurements and is immune to possible glitches on the phase signals
+           that can be present at very slow rotation speeds. These glitches are not normal line noise, but are due
+           to the slow movement of the engine.`${is_default_qd_profile_used ? out2_qd_profile_description : &quot;&quot;}`"
+           visible="`${hasMatch(POSIF_mode, &quot;.*_QD$&quot;) &amp;&amp; ((QD_mode eq XMC_POSIF_QD_MODE_QUADRATURE) || is_default_qd_profile_used)}`" canBeEmpty="true" multiSelect="true" group="Connections" />
+    </ParamMux>
+    <ParamString id="out3_name" name="Name Of out3 Port" group="Connections" default="`${POSIF_mode eq XMC_POSIF_MODE_QD ? &quot;Clear/Capture Output&quot; : &quot;Stop&quot;}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out3_hall_profile_description" name="Description for out0 Port for Hall Profile" group="Connections"
+                 default="&lt;br&gt;&lt;br&gt;
+                          To achieve POSIF profile from the picture &quot;Hall Sensor Mode POSIF Profile Example&quot;:
+                          &lt;ol type=&quot;1&quot;&gt;
+                            &lt;li&gt;`${out3_name}` should be connected to &quot;Delay Counter&quot; and &quot;Interval Counter&quot;
+                                      CCU4 slices Event 1 Input Signal, at the same time.
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Stop Function&lt;/i&gt; for both the Delay Counter and Interval Counter
+                                      CCU4 slices should be set to &lt;i&gt;Triggered by Event 1&lt;/i&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Stop Function Mode&lt;/i&gt; for both the Delay Counter and Interval Counter
+                                      CCU4 slices should be set to &lt;i&gt;Stop Timer&lt;/i&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 1 Edge Selection&lt;/i&gt; should be set to &lt;i&gt;Signal Active on Rising Edge&lt;/i&gt;
+                                      for the both Delay Counter and Interval Counter CCU4 slice
+                            &lt;/li&gt;
+                            &lt;li&gt;&lt;i&gt;Event 1 Level Selection&lt;/i&gt; for both the Delay Counter and Interval Counter CCU4 slices
+                                      should be set to &lt;i&gt;Active on High Level&lt;/i&gt;&lt;
+                            &lt;/li&gt;
+                          &lt;/ol&gt;"
+                 visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamMux id="out3_mux" name="out3 Connection" group="Connections">
+      <Common port="out3[0]" />
+      <Arm name="`${out3_name}` [out3]"
+           desc="When the sampled value matches the Current Hall Pattern, a line glitch deemed to have occurred and no action is taken.
+                When the sampled value does not match any of the values (the current and the expected pattern), a major error is deemed
+                to have occurred and the Wrong Hall Event signal is generated. Every time that a sampled pattern leads to a wrong hall event
+                or when it matches the current pattern a stop signal is generated throughout the POSIFx.OUT3 pin.
+                `${is_default_hall_profile_used ? out3_hall_profile_description : &quot;&quot;}`"
+           visible="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" canBeEmpty="true" multiSelect="true" group="Connections" />
+      <Arm name="`${out3_name}` [out3]"
+           desc="The activity of the other output, POSIFx.OUT3, can be programmed via the QDC.ICM field.&lt;br&gt;Depending on the value set
+           in the QDC.ICM, this signal can be generated:
+           &lt;ul&gt;
+              &lt;li&gt;in every index signal occurrence&lt;/li&gt;
+              &lt;li&gt;only on the first index signal occurrence&lt;/li&gt;
+              &lt;li&gt;disabled - this outputs is never asserted&lt;/li&gt;
+           &lt;/ul&gt;&lt;br&gt;
+           This is useful for applications that need to reset the counters on every index event or only at the first one."
+           visible="`${hasMatch(POSIF_mode, &quot;.*_QD$&quot;) &amp;&amp; are_three_inputs_used}`" canBeEmpty="true" multiSelect="true" group="Connections" />
+    </ParamMux>
+    <ParamString id="out4_name" name="Name Of out4 Port" group="Connections" default="`${POSIF_mode eq XMC_POSIF_MODE_QD ? &quot;Index Output&quot; : &quot;Multi-Channel Pattern Update Done&quot;}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <!-- POSIFx.OUT4 port, in hall mode does not have a description in the reference manual -->
+    <ParamMux id="out4_mux" name="out4 Connection" group="Connections">
+      <Common port="out4[0]" />
+      <Arm name="`${out4_name}` [out4]"
+           desc=""
+           visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used}`" canBeEmpty="true" multiSelect="true" group="Connections" />
+      <Arm name="`${out4_name}` [out4]"
+          desc="`${out4_name}`, POSIFx.OUT4, is asserted every time that an index signal is detected (and the motor shaft rotation is the same),
+          and therefore it can be used in a revolution counter. With this, the SW can monitor not only the position of the shaft but also
+          the total number of revolutions that have occurred."
+          visible="`${hasMatch(POSIF_mode, &quot;.*_QD$&quot;) &amp;&amp; are_three_inputs_used}`" canBeEmpty="true" multiSelect="true" group="Connections" />
+    </ParamMux>
+    <ParamString id="out5_qd_profile_description" name="Description for out0 Port for QD Profile" group="Connections"
+                default="&lt;br&gt;&lt;br&gt;
+                         To achieve POSIF profile from the picture &quot;Quadrature Decoder POSIF Profile Example&quot;:
+                         &lt;ol type=&quot;1&quot;&gt;
+                           &lt;li&gt;${out4_name}` should be connected to &quot;Time Stamp Trigger&quot; CCU4 slice Event 0 Input Signal.&lt;/li&gt;
+                           &lt;li&gt;&lt;i&gt;Start Function&lt;/i&gt; of the Time Stamp Trigger CCU4 slice should be set to
+                                     &lt;i&gt;Triggered by Event 0&lt;/i&gt;
+                           &lt;/li&gt;
+                           &lt;li&gt;&lt;i&gt;Start Function Mode&lt;/i&gt; of the ;Time Stamp Trigger CCU4 slice should be set to
+                                     &lt;i&gt;Clear and Start timer&lt;/i&gt;
+                           &lt;/li&gt;
+                           &lt;li&gt;&lt;i&gt;Event 0 Edge Selection&lt;/i&gt; of the Time Stamp Trigger CCU4 slice should be set to
+                                     &lt;i&gt;Signal Active on Rising Edge&lt;/i&gt;
+                           &lt;/li&gt;
+                           &lt;li&gt;&lt;i&gt;Event 0 Level Selection&lt;/i&gt; of the Time Stamp Trigger CCU4 slice should be set to
+                                     &lt;i&gt;Active on High Level&lt;/i&gt;
+                           &lt;/li&gt;
+                         &lt;/ol&gt;"
+                visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamSignal port="out5[0]" name="Sync Start Output [out5]" group="Connections" visible="`${(POSIF_mode ne XMC_POSIF_MODE_MCM) &amp;&amp; !is_default_hall_profile_used}`"
+                 desc="The POSIF module has a synchronous start output, POSIFx.OUT5, that can be used together with the CAPCOM for a complete
+                 synchronous start of both modules. The synchronous start is linked with the run bit of the POSIF module, which means that every
+                 time that the run bit is set, a pulse is generated throughout the POSIFx.OUT5 pin. By using the synchronous start output,
+                 the SW does not perform two independent accesses to start the POSIF and the CCU4/CCU8 and therefore is guaranteed that both
+                 modules start their operation at the exact same time.`${is_default_qd_profile_used ? out5_qd_profile_description : &quot;&quot;}`"
+                 canBeEmpty="true" />
+    <ParamSignal port="out6[0]" name="Multi-Channel Pattern Update Sync Trigger [out6]" group="Connections" visible="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used}`"
+                 desc="The POSIFxOUT6 pin is connected to the MCMF.MSS register field. This register field is enabling the Multi-Channel pattern update
+                 (that is done upon receiving the sync signal, PIFMSYNC) and can be used in conjunction with a CAPCOM module to perform a synchronous update
+                 of the Multi-Channel pattern and the compare values used inside of the CAPCOM."
+                 canBeEmpty="true" multiSelect="true" />
+    <ParamString id="out6_block" name="out6 block name" group="Connections" default="`${getBlockFromSignal(&quot;out6[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="out6_value" name="out6 value" group="Connections" default="`${getParamValue(&quot;out6[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <Repeat count="16">
+    <ParamSignal port="mout[$idx]" name="Multi-Channel Pattern $idx [mout[$idx]]" group="Connections"
+                 visible="`${!is_default_hall_profile_used &amp;&amp;((POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; (hasConnection(&quot;msets&quot;, 0) || hasConnection(&quot;msyns&quot;, 0)))}`"
+                 desc="When a falling edge is detected in signal &lt;i&gt;Multi-Channel Pattern Update Sync Trigger&lt;/i&gt;, then the new multi pattern
+                 is applied at the POSIFx.MOUT[15:0] outputs, with the MCM.MCMP[15] linked to the POSIFx.MOUT[15] and MCM.MCMP[0] to POSIFx.MOUT[0]."
+                 canBeEmpty="true" multiSelect="false" />
+    </Repeat>
+    <!-- sr0 is never used -->
+    <ParamSignal port="sr0[0]" name="sr0" group="Connections" visible="false" desc="" canBeEmpty="true" />
+    <ParamSignal port="sr1[0]" name="Service Request 1" group="Connections"
+                 visible="`${number_of_sr1}`"
+                 desc="" canBeEmpty="true" />
+  </Parameters>
+  <DRCs >
+    <DRC type="ERROR" text="Hall pattern is not valid." condition="`${!is_pattern_valid}`" />
+    <DRC type="ERROR" text="POSIF clock is not enabled." condition="`${!is_POSIF_clock_enabled}`">
+      <FixIt action="ENABLE_BLOCK" target="`${POSIF_clock_block}`" value="" valid="true" />
+    </DRC>
+  </DRCs >
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_posif.h" include="true" />
+    <ConfigInclude value="cycfg_routing.h" include="true" />
+
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${module_num}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_HW" value="POSIF`${module_num}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_INTERRUPT_HANDLER" value="POSIF`${module_num}`_$idx_IRQHandler" public="true" include="`${number_of_sr$idx &amp;&amp; !hasBlock(&quot;scu[0].intcr[0]&quot;)}`" repeatCount="2" />
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_IRQN" value="POSIF`${module_num}`_$idx_IRQn" public="true" include="`${number_of_sr$idx &amp;&amp; !hasBlock(&quot;scu[0].intcr[0]&quot;)}`" repeatCount="2" />
+
+    <!-- POSIF -->
+    <!-- Defines -->
+    <ConfigDefine name="HALL_POSIF_HALPS(EP, CP)" value="(((uint32_t)EP &lt;&lt;  3) | (uint32_t)CP)" public="false" include="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" />
+    <!-- Structures-->
+    <ConfigStruct name="`${INST_NAME}`_Hall_Pattern" type="uint32_t" const="`${in_flash}`" public="true" include="`${(POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR) &amp;&amp; (num_of_hall_sensors == 3)}`" isArray="true">
+      <Member name="`${getParamValue(&quot;hall_pattern_&quot; . (## - (## &gt; 7 ? 8 : 0))) + (## &gt; 7 ? 8 : 0)}`"
+              value="HALL_POSIF_HALPS(`${getParamValue(&quot;hall_pattern_&quot; . ((((## == 6)) ? 1 : ((## &lt; 8) ? (## + 1) : ((## == 9) ? 14 : (## - 1)))) - (## &gt; 7 ? 8 : 0)))}`, `${getParamValue(&quot;hall_pattern_&quot; . (## - (## &gt; 7 ? 8 : 0)))}`)"
+              include="`${!((## == 0) || (## == 7) || (## == 8) || (## == 15))}`" count="16" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_Hall_Pattern" type="uint32_t" const="`${in_flash}`" public="true" include="`${(POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR) &amp;&amp; (num_of_hall_sensors == 2)}`" isArray="true">
+      <Member name="`${getParamValue(&quot;hall_pattern_&quot; . ((## + 1) - (## &gt; 7 ? 8 : 0))) + (## &gt; 7 ? 8 : 0)}`"
+              value="HALL_POSIF_HALPS(`${getParamValue(&quot;hall_pattern_&quot; . (((## &lt; 8) ? ((## == 3) ? 1 : (## + 2)) : ((## == 8) ? 12 : ##)) - (## &gt; 7 ? 8 : 0)))}`, `${getParamValue(&quot;hall_pattern_&quot; . ((## + 1) - (## &gt; 7 ? 8 : 0)))}`)"
+              include="`${((## &gt;= 0) &amp;&amp; (## &lt;= 3)) || ((## &gt;= 8) &amp;&amp; (## &lt;= 11))}`" count="16" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_POSIF_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="mode" value="`${POSIF_mode}`" />
+      <Member name="input0" value="POSIF`${module_num}`_PCONF_INSEL0" />
+      <Member name="input1" value="POSIF`${module_num}`_PCONF_INSEL1" />
+      <Member name="input2" value="POSIF`${module_num}`_PCONF_INSEL2" include="`${are_three_inputs_used}`" />
+      <Member name="filter" value="`${low_pass_filter}`" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_QD_InitHandle" type="XMC_POSIF_QD_CONFIG_t" const="`${in_flash}`" public="true" include="`${(POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)}`">
+      <Member name="mode" value="`${is_default_qd_profile_used ? &quot;XMC_POSIF_QD_MODE_QUADRATURE&quot; : QD_mode}`" />
+      <Member name="phase_a" value="`${phase_a_level_selector}`" />
+      <Member name="phase_b" value="`${phase_b_level_selector}`" />
+      <Member name="phase_leader" value="`${clockwise_direction_def}`U" />
+      <Member name="index" value="`${is_default_qd_profile_used ? &quot;XMC_POSIF_QD_INDEX_GENERATION_NEVER&quot; : index_marker_generation}`" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_HSC_InitHandle" type="XMC_POSIF_HSC_CONFIG_t" const="`${in_flash}`" public="true" include="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`">
+      <Member name="disable_idle_signal" value="`${is_default_hall_profile_used ? 1 : cast(int64 ,disable_idle_signal)}`U" />
+      <Member name="sampling_trigger" value="POSIF`${module_num}`_PCONF_DSEL" />
+      <Member name="sampling_trigger_edge" value="`${HSD_trigger_edge_selector}`" />
+      <Member name="external_error_port" value="POSIF`${module_num}`_PCONF_EWIS" include="`${external_WHE_enable &amp;&amp; !is_default_hall_profile_used}`" />
+      <Member name="external_error_enable" value="`${is_default_hall_profile_used ? 0 : cast(int64,external_WHE_enable)}`U" />
+      <Member name="external_error_level" value="`${external_WHE_active_level}`" include="`${external_WHE_enable &amp;&amp; !is_default_hall_profile_used}`" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_MCM_InitHandle" type="XMC_POSIF_MCM_CONFIG_t" const="`${in_flash}`" public="true" include="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used &amp;&amp; (MC_pattern_sw_update || hasConnection(&quot;msets&quot;, 0) || hasConnection(&quot;msyns&quot;, 0))}`">
+      <Member name="pattern_sw_update" value="`${cast(int64 ,MC_pattern_sw_update)}`U" />
+      <Member name="pattern_update_trigger" value="POSIF`${module_num}`_PCONF_MSETS" include="`${!MC_pattern_sw_update &amp;&amp; hasConnection(&quot;msets&quot;, 0)}`" />
+      <Member name="pattern_trigger_edge" value="`${MC_pattern_trigger_edge}`" include="`${!MC_pattern_sw_update &amp;&amp; hasConnection(&quot;msets&quot;, 0)}`"  />
+      <Member name="pwm_sync" value="POSIF`${module_num}`_PCONF_MSYNS" include="`${hasConnection(&quot;msyns&quot;, 0)}`" />
+    </ConfigStruct>
+
+    <!--Global POSIF init-->
+    <ConfigInstruction value="XMC_POSIF_Enable(`${INST_NAME}`_HW);" include="true" />
+    <ConfigInstruction value="XMC_POSIF_SetMode(`${INST_NAME}`_HW, `${POSIF_mode}`);" include="true" />
+
+    <!--POSIF init generation-->
+    <ConfigInstruction value="XMC_POSIF_Init(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_config);" include="true" />
+    <ConfigInstruction value="XMC_POSIF_QD_Init(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_QD_InitHandle);" include="`${(POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)}`" />
+    <ConfigInstruction value="XMC_POSIF_HSC_Init(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_HSC_InitHandle);" include="`${POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR}`" />
+    <ConfigInstruction value="XMC_POSIF_MCM_Init(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_MCM_InitHandle);" include="`${(POSIF_mode ne XMC_POSIF_MODE_QD) &amp;&amp; !is_default_hall_profile_used &amp;&amp; (MC_pattern_sw_update || hasConnection(&quot;msets&quot;, 0) || hasConnection(&quot;msyns&quot;, 0))}`" />
+
+    <!--Set POSIF interrupt nodes-->
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_CHE, `${correct_hall_event_SR_line}`);" include="`${is_correct_hall_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_WHE, `${wrong_hall_event_SR_line}`);" include="`${is_wrong_hall_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_HALL_INPUT, `${hall_input_update_event_SR_line}`);" include="`${is_hall_input_update_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_MCP_SHADOW_TRANSFER, `${MC_pattern_shadow_transfer_event_SR_line}`);" include="`${is_MC_pattern_shadow_transfer_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_INDX, `${index_event_SR_line}`);" include="`${is_index_event_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_ERR, `${phase_error_event_SR_line}`);" include="`${is_phase_error_event_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_CNT, `${quadrature_clock_event_SR_line}`);" include="`${is_quadrature_clock_event_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_DIR, `${direction_change_event_SR_line}`);" include="`${is_direction_change_event_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_SetInterruptNode(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_PCLK, `${period_clock_event_SR_line}`);" include="`${is_period_clock_event_event_sr_valid}`" />
+
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_CHE);" include="`${is_correct_hall_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_WHE);" include="`${is_wrong_hall_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_HALL_INPUT);" include="`${is_hall_input_update_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_MCP_SHADOW_TRANSFER);" include="`${is_MC_pattern_shadow_transfer_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_INDX);" include="`${is_index_event_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_ERR);" include="`${is_phase_error_event_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_CNT);" include="`${is_quadrature_clock_event_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_DIR);" include="`${is_direction_change_event_event_sr_valid}`" />
+    <ConfigInstruction value="XMC_POSIF_EnableEvent(`${INST_NAME}`_HW, XMC_POSIF_IRQ_EVENT_PCLK);" include="`${is_period_clock_event_event_sr_valid}`" />
+  </ConfigFirmware>
+</Personality>

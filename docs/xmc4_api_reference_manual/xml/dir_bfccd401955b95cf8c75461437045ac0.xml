@@ -9,6 +9,7 @@
     <innerfile refid="xmc__can_8h">xmc_can.h</innerfile>
     <innerfile refid="xmc__ccu4_8h">xmc_ccu4.h</innerfile>
     <innerfile refid="xmc__ccu8_8h">xmc_ccu8.h</innerfile>
+    <innerfile refid="xmc__common_8h">xmc_common.h</innerfile>
     <innerfile refid="xmc__dac_8h">xmc_dac.h</innerfile>
     <innerfile refid="xmc__dma_8h">xmc_dma.h</innerfile>
     <innerfile refid="xmc__dsd_8h">xmc_dsd.h</innerfile>

@@ -2,18 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__pau_8h" kind="file" language="C++">
     <compoundname>xmc_pau.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_pau.h</label>
-        <link refid="xmc__pau_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <innerclass refid="struct_x_m_c___p_a_u__t" prot="public">XMC_PAU_t</innerclass>
       <sectiondef kind="define">
       <memberdef kind="define" id="group___p_a_u_1ga36591736444bb39705e087ab5ebd1066" prot="public" static="no">

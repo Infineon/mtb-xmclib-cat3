@@ -59,6 +59,9 @@
  * 2019-12-16:
  *     - Fix including xmc_common.h and xmc_scu.h following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
+ * 2022-11-23:
+ *     - Documentation updates
+ *
  * @endcond
  *
  */
@@ -103,6 +106,8 @@
  * -# Configuration structure XMC_DSD_CH_INTEGRATOR_CONFIG_t and initialization function XMC_DSD_CH_Integrator_Init() to configure integrator
  * -# Configuration structure XMC_DSD_CH_TIMESTAMP_CONFIG_t and initialization function XMC_DSD_CH_Timestamp_Init() to configure timestamp
  * -# Configuration structure XMC_DSD_CH_RECTIFY_CONFIG_t and initialization function XMC_DSD_CH_Rectify_Init() to configure rectifier
+ *
+ * Also, the DSD block can be configured from the ModusToolbox&trade; Device Configurator: \ref section_personality_dsd
  */
 
 /*********************************************************************************************************************

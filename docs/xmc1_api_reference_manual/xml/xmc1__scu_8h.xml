@@ -2,19 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc1__scu_8h" kind="file" language="C++">
     <compoundname>xmc1_scu.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includedby refid="xmc__scu_8h" local="yes">xmc_scu.h</includedby>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc1_scu.h</label>
-        <link refid="xmc1__scu_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
     <innerclass refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t" prot="public">XMC_SCU_CLOCK_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___s_c_u___s_u_p_p_l_y_m_o_n_i_t_o_r__t" prot="public">XMC_SCU_SUPPLYMONITOR_t</innerclass>
       <sectiondef kind="define">

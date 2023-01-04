@@ -104,6 +104,9 @@
  * 2019-07-29:
  *     - Added XMC_CCU8_GetSliceStatusBit()
  *
+ * 2022-03-09:
+ *     - Documentation updates
+ *
  * @endcond
  */
 

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file hrpwm-hrc-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* HRPWM HRC personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_hrpwm-hrc" name="HRPWM-HRC" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_hrpwm" />
+    <Resource name="hrpwm\.hrc" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <!-- Internal -->
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;hrc&quot;)}`" visible="false" editable="false" desc="HRPWM HRC channel slice index." />
+    <ParamString id="module_resource" name="Module Resource" group="Internal" default="hrpwm[0]" visible="false" editable="false" desc="HRPWM parent module resource path." />
+    <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(module_resource)}`" visible="false" editable="false" desc="True when the HRPWM module resource is not enabled." />
+
+    <ParamString id="ccu8_module_resource" name="Module Resource" group="Internal" default="ccu8[0]" visible="false" editable="false" desc="CCU8 parent module resource path." />
+    <ParamBool id="ccu8_module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(ccu8_module_resource)}`" visible="false" editable="false" desc="True when the CCU8 module resource is not enabled." />
+
+    <ParamString id="clock_resource" name="CCU Clock Resource" group="Internal" default="scu[0].clock[0].ccuclk[0]" visible="false" editable="false" desc="" />
+    <ParamBool id="clock_error" name="Clock Error" group="Internal" default="`${!isBlockUsed(clock_resource)}`" visible="false" editable="false" desc="" />
+    <ParamString id="clock_value" name="CCU8 Clock Frequency" group="Clock Settings" default="`${clock_error ? 0.0 : getExposedMember(clock_resource, &quot;frequency&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamRange id="clock_mhz" name="Clock Frequency MHz" group="Dead Time" default="`${clock_value/1000000}`" min="0" max="500" resolution="1" visible="false" editable="false" desc="" />
+
+    <ParamString id="ccu80_module_resource" name="Module Resource" group="Internal" default="ccu8[0].ch[`${channel_num}`]" visible="false" editable="false" desc="CCU8 parent module resource path." />
+    <ParamBool id="ccu80_module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(ccu80_module_resource)}`" visible="false" editable="false" desc="True when the CCU8 module Slice 0 resource is not enabled." />
+    <ParamString id="ccu80_check_operation_mode" name="CCU8 Operation Mode" group="Internal" default="`${ccu80_module_error ? 0.0 : getExposedMember(ccu80_module_resource, &quot;ccu8_check_operation_mode&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="ccu80_counting_mode" name="CCU8 Counting Mode" group="Internal" default="`${ccu80_module_error ? 0.0 : getExposedMember(ccu80_module_resource, &quot;ccu8_counting_mode&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="ccu80_pwm_asymmetric" name="CCU8 PWM Asymmetric" group="Internal" default="`${ccu80_module_error ? 0.0 : getExposedMember(ccu80_module_resource, &quot;ccu8_pwm_asymmetric&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="ccu80_single_shot_mode" name="CCU8 Single Shot Mode" group="Internal" default="`${ccu80_module_error ? 0.0 : getExposedMember(ccu80_module_resource, &quot;ccu8_single_shot_mode&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="ccu80_init_start" name="CCU8 Start during Initialization" group="Internal" default="`${ccu80_module_error ? 0.0 : getExposedMember(ccu80_module_resource, &quot;ccu8_init_start&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="ccu80_timer_period_value" name="CCU8 Timer Period Value" group="Internal" default="`${ccu80_module_error ? 0.0 : (getExposedMember(ccu80_module_resource, &quot;ccu8_timer_period_value&quot;) + 1)}`" visible="false" editable="false" desc="" />
+    <Repeat count="2">
+      <ParamString id="ccu80_timer_compare_value$idx" name="CCU8 Timer compare Value `${$idx+1}`" group="Internal" default="`${ccu80_module_error ? 0.0 : getExposedMember(ccu80_module_resource, &quot;ccu8_timer_compare_value$idx&quot;)}`" visible="false" editable="false" desc="" />
+    </Repeat>
+    <ParamString id="ccu80_prescaler_initial_value" name="Prescaler Initial Value" group="Internal" default="`${ccu80_module_error ? 0.0 : getExposedMember(ccu80_module_resource, &quot;ccu8_prescaler_initial_value&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="time_initial_value" name="Time Initial Value" group="Internal" default="`${1000000.0/(clock_value/(ccu80_prescaler_initial_value*ccu80_prescaler_initial_value))}`" visible="false" editable="false" desc="" />
+    <ParamString id="hrpwm_module_resource" name="Module Resource" group="Internal" default="hrpwm[0]" visible="false" editable="false" desc="HRPWM parent module resource path." />
+    <ParamBool id="hrpwm_module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(hrpwm_module_resource)}`" visible="false" editable="false" desc="True when the HRPWM module resource is not enabled." />
+    <ParamString id="hrpwm_module_global" name="HRPWM Module Base Address" group="Internal" default="`${hrpwm_module_error ? &quot;NULL&quot; : getExposedMember(hrpwm_module_resource, &quot;hrpwm_module_base_address&quot;)}`" visible="false" editable="false" desc="" />
+
+    <!-- Peripheral Documentation -->
+    <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___h_r_p_w_m.html" linkText="Open HRPWM Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_hrpwm" linkText="Open HRPWM Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+
+    <!-- General Settings -->
+    <ParamBool id="advanced_settings" name="Advanced Settings" group="General Settings" default="false" visible="true" editable="true" desc="Enable advanced settings." />
+
+    <!-- CCU8 PWM Settings -->
+    <ParamChoice id="ccu8_counting_mode" name="Counting Mode" group="CCU8 Settings" default="`${ccu80_counting_mode}`" visible="`${ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Selects between Edge and Center aligned modes. Note: The parameter is configured in the CCU8 personality.">
+      <Entry name="Edge Aligned" value="XMC_CCU8_SLICE_TIMER_COUNT_MODE_EA" visible="true" />
+      <Entry name="Center Aligned" value="XMC_CCU8_SLICE_TIMER_COUNT_MODE_CA" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="ccu8_pwm_asymmetric" name="Compare Mode" group="CCU8 Settings" default="`${ccu80_pwm_asymmetric}`" visible="`${ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Choose whether the PWM should be a function of the 2 compare channels rather than period value. Note: The parameter is configured in the CCU8 personality.">
+      <Entry name="Asymmetric" value="true" visible="true" />
+      <Entry name="Symmetric" value="false" visible="true" />
+    </ParamChoice>
+    <ParamBool id="ccu8_single_shot_mode" name="Single-Shot Mode" group="CCU8 Settings" default="`${ccu80_single_shot_mode}`" visible="`${ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Time operates in the single shot mode. Note: The parameter is configured in the CCU8 personality." />
+    <ParamBool id="ccu8_init_start" name="Start During Initialization" group="CCU8 Settings" default="`${ccu80_init_start}`" visible="`${ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Start the timer after initialization. Note: The parameter is configured in the CCU8 personality." />
+
+    <!-- CCU8 Timer Settings -->
+    <ParamString id="ccu8_frequency" name="Frequency (Hz)" group="CCU8 Settings" default="`${(clock_value / 2)/(ccu80_timer_period_value ? ((ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_EA) ? ccu80_timer_period_value : (ccu80_timer_period_value * 2))  : clock_value)}`" visible="`${ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Set the desired PWM frequency to decide the period. Note: The parameter is configured in the CCU8 personality." />
+    <ParamString id="ccu8_timer_period_value" name="Period Register" group="CCU8 Settings" default="`${toHex(ccu80_timer_period_value * ((ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_EA) ? 2 : 1))}`" visible="`${ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Select value of the timer period. Note: The parameter is configured in the CCU8 personality." />
+    <Repeat count="2">
+      <ParamString id="ccu8_timer_compare_value$idx" name="CCU8 Compare `${$idx+1}`" group="CCU8 Settings" default="`${toHex(ccu80_timer_compare_value$idx)}`" visible="`${ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Select value for the timer comparison `${$idx+1}`. Note: The parameter is configured in the CCU8 personality." />
+    </Repeat>
+
+    <!-- Source Selection -->
+    <ParamChoice id="source_connected" name="Source Connected" group="Source Selection" default="XMC_HRPWM_HRC_SOURCE_0" visible="`${advanced_settings}`" editable="true" desc="Source connected to high resolution channel.">
+      <Entry name="High Resolution Source 0" value="XMC_HRPWM_HRC_SOURCE_0" visible="true" />
+      <Entry name="High Resolution Source 1" value="XMC_HRPWM_HRC_SOURCE_1" visible="true" />
+    </ParamChoice>
+
+    <!-- Compare Settings -->
+    <ParamRange id="hrpwm_compare_1" name="HRPWM Compare 1" group="Compare Settings" default="0" min="0" max="82" resolution="1" visible="true" editable="true" desc="Set the HRC compare 1 register value." />
+    <ParamRange id="hrpwm_compare_2" name="HRPWM Compare 2" group="Compare Settings" default="0" min="0" max="82" resolution="1" visible="true" editable="true" desc="Set the HRC compare 2 register value." />
+
+    <!-- CCU8 Timer Settings -->
+    <ParamString id="ccu8_actual_duty_cycle1_tmp" name="" group="Internal" default="`${((ccu8_timer_period_value - ccu80_timer_compare_value0)*time_initial_value) + ((hrpwm_compare_2 - hrpwm_compare_1) * 150.0)/1000000}`" visible="false" editable="false" desc="" />
+    <ParamString id="actual_duty_cycle_1" name="" group="Internal" default="`${(ccu8_actual_duty_cycle1_tmp/(ccu8_timer_period_value * time_initial_value)) * 100.0}`" visible="false" editable="false" desc="" />
+    <ParamRange id="ccu8_actual_duty_cycle1" name="Actual Duty Cycle (%)" group="CCU8 Settings" default="`${(actual_duty_cycle_1 > 0) ? ((actual_duty_cycle_1 > 100) ? 100.00 : actual_duty_cycle_1) : 0.00}`" min="0" max="100" resolution="0.01" visible="`${(ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_EA) &amp;&amp; (!ccu8_pwm_asymmetric) &amp;&amp; ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Actual PWM duty cycle in percent. Note: The parameter is configured in the CCU8 personality." />
+    <ParamImage id="ccu8_pwm_scheme_1" name="PWM Scheme" group="CCU8 Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_hrc_pwm_sch_img1.png" visible="`${(ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_EA) &amp;&amp; (!ccu8_pwm_asymmetric) &amp;&amp; ccu80_check_operation_mode}`" desc="Note: the PWM scheme provided in the picture is valid only for default UI configuration. Inversions might happen depending on user selections." />
+    <ParamString id="ccu8_actual_duty_cycle2_tmp" name="" group="Internal" default="`${((ccu80_timer_compare_value1 - ccu80_timer_compare_value0)*time_initial_value) + ((hrpwm_compare_2 - hrpwm_compare_1) * 150.0)/1000000}`" visible="false" editable="false" desc="" />
+    <ParamString id="actual_duty_cycle_2" name="" group="Internal" default="`${(ccu8_actual_duty_cycle2_tmp/(ccu8_timer_period_value * time_initial_value)) * 100.0}`" visible="false" editable="false" desc="" />
+    <ParamRange id="ccu8_actual_duty_cycle2" name="Actual Duty Cycle (%)" group="CCU8 Settings" default="`${(actual_duty_cycle_2 > 0) ? ((actual_duty_cycle_2 > 100) ? 100.00 : actual_duty_cycle_2) : 0.00}`" min="0" max="100" resolution="0.01" visible="`${(ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_EA) &amp;&amp; ccu8_pwm_asymmetric &amp;&amp; ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Actual PWM duty cycle in percent. Note: The parameter is configured in the CCU8 personality." />
+    <ParamImage id="ccu8_pwm_scheme_2" name="PWM Scheme" group="CCU8 Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_hrc_pwm_sch_img2.png" visible="`${(ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_EA) &amp;&amp; ccu8_pwm_asymmetric &amp;&amp; ccu80_check_operation_mode}`" desc="Note: the PWM scheme provided in the picture is valid only for default UI configuration. Inversions might happen depending on user selections." />
+    <ParamString id="ccu8_actual_duty_cycle3_tmp" name="" group="Internal" default="`${((2 *ccu8_timer_period_value * time_initial_value) - (2 * ccu80_timer_compare_value0 * time_initial_value)) + ((hrpwm_compare_2 - hrpwm_compare_1) * 150.0)/1000000}`" visible="false" editable="false" desc="" />
+    <ParamString id="actual_duty_cycle_3" name="" group="Internal" default="`${(ccu8_actual_duty_cycle3_tmp/(2 * ccu8_timer_period_value * time_initial_value)) * 100.0}`" visible="false" editable="false" desc="" />
+    <ParamRange id="ccu8_actual_duty_cycle3" name="Actual Duty Cycle (%)" group="CCU8 Settings" default="`${(actual_duty_cycle_3 > 0) ? ((actual_duty_cycle_3 > 100) ? 100.00 : actual_duty_cycle_3) : 0.00}`" min="0" max="100" resolution="0.01" visible="`${(ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_CA) &amp;&amp; (!ccu8_pwm_asymmetric) &amp;&amp; ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Actual PWM duty cycle in percent. Note: The parameter is configured in the CCU8 personality." />
+    <ParamImage id="ccu8_pwm_scheme_3" name="PWM Scheme" group="CCU8 Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_hrc_pwm_sch_img3.png" visible="`${(ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_CA) &amp;&amp; (!ccu8_pwm_asymmetric) &amp;&amp; ccu80_check_operation_mode}`" desc="Note: the PWM scheme provided in the picture is valid only for default UI configuration. Inversions might happen depending on user selections." />
+    <ParamString id="ccu8_actual_duty_cycle4_tmp" name="" group="Internal" default="`${((2 *ccu8_timer_period_value * time_initial_value) - ((ccu80_timer_compare_value0 + ccu80_timer_compare_value1) * time_initial_value)) + ((hrpwm_compare_2 - hrpwm_compare_1) * 150.0)/1000000}`" visible="false" editable="false" desc="" />
+    <ParamString id="actual_duty_cycle_4" name="" group="Internal" default="`${(ccu8_actual_duty_cycle4_tmp/(2 * ccu8_timer_period_value * time_initial_value)) * 100.0}`" visible="false" editable="false" desc="" />
+    <ParamRange id="ccu8_actual_duty_cycle4" name="Actual Duty Cycle (%)" group="CCU8 Settings" default="`${(actual_duty_cycle_4 > 0) ? ((actual_duty_cycle_4 > 100) ? 100.00 : actual_duty_cycle_4) : 0.00}`" min="0" max="100" resolution="0.01" visible="`${(ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_CA) &amp;&amp; ccu8_pwm_asymmetric &amp;&amp; ccu80_check_operation_mode}`" editable="false" desc="CCU8 Settings: Actual PWM duty cycle in percent. Note: The parameter is configured in the CCU8 personality." />
+    <ParamImage id="ccu8_pwm_scheme_4" name="PWM Scheme" group="CCU8 Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_hrc_pwm_sch_img4.png" visible="`${(ccu8_counting_mode eq XMC_CCU8_SLICE_TIMER_COUNT_MODE_CA) &amp;&amp; ccu8_pwm_asymmetric &amp;&amp; ccu80_check_operation_mode}`" desc="Note: the PWM scheme provided in the picture is valid only for default UI configuration. Inversions might happen depending on user selections." />
+
+    <!-- High Resolution Path -->
+    <ParamBool id="enable_high_res_path" name="High Resolution Path" group="High Resolution Path" default="false" visible="true" editable="true" desc="Enable high resolution path." />
+    <ParamChoice id="hrp_set_0" name="Set0" group="High Resolution Path" default="XMC_HRPWM_HRC_SRC_EDGE_SEL_RISING" visible="true" editable="true" desc="Select the edge for settings the HRPWM high.">
+      <Entry name="Inactive" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_DISABLED" visible="true" />
+      <Entry name="Rising" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_RISING" visible="true" />
+      <Entry name="Falling" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_FALLING" visible="true" />
+      <Entry name="Both" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_BOTH" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="hrp_clear_0" name="Clear0" group="High Resolution Path" default="XMC_HRPWM_HRC_SRC_EDGE_SEL_FALLING" visible="true" editable="true" desc="Select the edge for settings the HRPWM low.">
+      <Entry name="Inactive" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_DISABLED" visible="true" />
+      <Entry name="Rising" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_RISING" visible="true" />
+      <Entry name="Falling" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_FALLING" visible="true" />
+      <Entry name="Both" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_BOTH" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="high_res_mode_0" name="Mode Config0" group="High Resolution Path" default="XMC_HRPWM_HRC_HR_EDGE_SEL_BOTH" visible="`${advanced_settings}`" editable="true" desc="High resolution 0 mode configuration.">
+      <Entry name="Rising" value="XMC_HRPWM_HRC_HR_EDGE_SEL_RISING" visible="true" />
+      <Entry name="Falling" value="XMC_HRPWM_HRC_HR_EDGE_SEL_FALLING" visible="true" />
+      <Entry name="Both" value="XMC_HRPWM_HRC_HR_EDGE_SEL_BOTH" visible="true" />
+      <Entry name="None" value="XMC_HRPWM_HRC_HR_EDGE_SEL_NONE" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="set_config_0" name="Input For Set Config0" group="High Resolution Path" default="XMC_HRPWM_HRC_SRC_INPUT_CCU" visible="true" editable="true" desc="Selection of input for set configuration.">
+      <Entry name="CCU Timer Signal" value="XMC_HRPWM_HRC_SRC_INPUT_CCU" visible="true" />
+      <Entry name="CSG Output Signal" value="XMC_HRPWM_HRC_SRC_INPUT_CSG" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="clear_config_0" name="Input For Clear Config0" group="High Resolution Path" default="XMC_HRPWM_HRC_SRC_INPUT_CCU" visible="true" editable="true" desc="Selection of input for clear configuration.">
+      <Entry name="CCU Timer Signal" value="XMC_HRPWM_HRC_SRC_INPUT_CCU" visible="true" />
+      <Entry name="CSG Output Signal" value="XMC_HRPWM_HRC_SRC_INPUT_CSG" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="cmp_set_0" name="Comparator For Set Config0" group="High Resolution Path" default="XMC_HRPWM_HRC_CMP_SEL_CSG0" visible="`${advanced_settings}`" editable="true" desc="Selection of comparator for set configuration.">
+      <Entry name="CSG0" value="XMC_HRPWM_HRC_CMP_SEL_CSG0" visible="true" />
+      <Entry name="CSG1" value="XMC_HRPWM_HRC_CMP_SEL_CSG1" visible="true" />
+      <Entry name="CSG2" value="XMC_HRPWM_HRC_CMP_SEL_CSG2" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="cmp_clear_0" name="Comparator For Clear Config0" group="High Resolution Path" default="XMC_HRPWM_HRC_CMP_SEL_CSG0" visible="`${advanced_settings}`" editable="true" desc="Selection of comparator for clear configuration.">
+      <Entry name="CSG0" value="XMC_HRPWM_HRC_CMP_SEL_CSG0" visible="true" />
+      <Entry name="CSG1" value="XMC_HRPWM_HRC_CMP_SEL_CSG1" visible="true" />
+      <Entry name="CSG2" value="XMC_HRPWM_HRC_CMP_SEL_CSG2" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="timer_sel_0" name="Selection Of Timer0" group="High Resolution Path" default="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC0" visible="`${advanced_settings}`" editable="true" desc="Selection of timer.">
+      <Entry name="CCU8 Slice 0" value="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC0" visible="true" />
+      <Entry name="CCU8 Slice 1" value="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC1" visible="true" />
+      <Entry name="CCU8 Slice 2" value="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC2" visible="true" />
+      <Entry name="CCU8 Slice 3" value="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC3" visible="true" />
+    </ParamChoice>
+
+    <!-- Low Resolution Path -->
+    <ParamBool id="enable_low_res_path" name="Low Resolution Path" group="Low Resolution Path" default="false" visible="true" editable="true" desc="Enable high resolution path." />
+    <ParamChoice id="hrp_set_1" name="Set1" group="Low Resolution Path" default="XMC_HRPWM_HRC_SRC_EDGE_SEL_DISABLED" visible="true" editable="true" desc="Select the edge for settings the HRPWM high.">
+      <Entry name="Inactive" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_DISABLED" visible="true" />
+      <Entry name="Rising" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_RISING" visible="true" />
+      <Entry name="Falling" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_FALLING" visible="true" />
+      <Entry name="Both" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_BOTH" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="hrp_clear_1" name="Clear1" group="Low Resolution Path" default="XMC_HRPWM_HRC_SRC_EDGE_SEL_DISABLED" visible="true" editable="true" desc="Select the edge for settings the HRPWM low.">
+      <Entry name="Inactive" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_DISABLED" visible="true" />
+      <Entry name="Rising" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_RISING" visible="true" />
+      <Entry name="Falling" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_FALLING" visible="true" />
+      <Entry name="Both" value="XMC_HRPWM_HRC_SRC_EDGE_SEL_BOTH" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="high_res_mode_1" name="Mode Config1" group="Low Resolution Path" default="XMC_HRPWM_HRC_HR_EDGE_SEL_BOTH" visible="`${advanced_settings}`" editable="true" desc="High resolution 1 mode configuration.">
+      <Entry name="Rising" value="XMC_HRPWM_HRC_HR_EDGE_SEL_RISING" visible="true" />
+      <Entry name="Falling" value="XMC_HRPWM_HRC_HR_EDGE_SEL_FALLING" visible="true" />
+      <Entry name="Both" value="XMC_HRPWM_HRC_HR_EDGE_SEL_BOTH" visible="true" />
+      <Entry name="None" value="XMC_HRPWM_HRC_HR_EDGE_SEL_NONE" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="set_config_1" name="Input For Set Config1" group="Low Resolution Path" default="XMC_HRPWM_HRC_SRC_INPUT_CCU" visible="true" editable="true" desc="Selection of input for set configuration.">
+      <Entry name="CCU Timer Signal" value="XMC_HRPWM_HRC_SRC_INPUT_CCU" visible="true" />
+      <Entry name="CSG Output Signal" value="XMC_HRPWM_HRC_SRC_INPUT_CSG" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="clear_config_1" name="Input For Clear Config1" group="Low Resolution Path" default="XMC_HRPWM_HRC_SRC_INPUT_CCU" visible="true" editable="true" desc="Selection of input for clear configuration.">
+      <Entry name="CCU Timer Signal" value="XMC_HRPWM_HRC_SRC_INPUT_CCU" visible="true" />
+      <Entry name="CSG Output Signal" value="XMC_HRPWM_HRC_SRC_INPUT_CSG" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="cmp_set_1" name="Comparator For Set Config1" group="Low Resolution Path" default="XMC_HRPWM_HRC_CMP_SEL_CSG0" visible="`${advanced_settings}`" editable="true" desc="Selection of comparator for set configuration.">
+      <Entry name="CSG0" value="XMC_HRPWM_HRC_CMP_SEL_CSG0" visible="true" />
+      <Entry name="CSG1" value="XMC_HRPWM_HRC_CMP_SEL_CSG1" visible="true" />
+      <Entry name="CSG2" value="XMC_HRPWM_HRC_CMP_SEL_CSG2" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="cmp_clear_1" name="Comparator For Clear Config1" group="Low Resolution Path" default="XMC_HRPWM_HRC_CMP_SEL_CSG0" visible="`${advanced_settings}`" editable="true" desc="Selection of comparator for clear configuration.">
+      <Entry name="CSG0" value="XMC_HRPWM_HRC_CMP_SEL_CSG0" visible="true" />
+      <Entry name="CSG1" value="XMC_HRPWM_HRC_CMP_SEL_CSG1" visible="true" />
+      <Entry name="CSG2" value="XMC_HRPWM_HRC_CMP_SEL_CSG2" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="timer_sel_1" name="Selection Of Timer1" group="Low Resolution Path" default="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC0" visible="`${advanced_settings}`" editable="true" desc="Selection of timer.">
+      <Entry name="CCU8 Slice 0" value="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC0" visible="true" />
+      <Entry name="CCU8 Slice 1" value="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC1" visible="true" />
+      <Entry name="CCU8 Slice 2" value="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC2" visible="true" />
+      <Entry name="CCU8 Slice 3" value="XMC_HRPWM_HRC_TIMER_SEL_CCU_CC3" visible="true" />
+    </ParamChoice>
+
+    <!-- Dead Time -->
+    <ParamBool id="enable_dead_time" name="Dead Time" group="Dead Time" default="false" visible="true" editable="true" desc="Enable the dead time." />
+    <ParamRange id="rising_time" name="Rising Time" group="Dead Time" default="0" min="0" max="546133.33" resolution="0.01" visible="true" editable="`${enable_dead_time}`" desc="Rising dead time." />
+    <ParamRange id="dt_hrpwm_rise" name="DT HRPWM Rise" group="Dead Time" default="`${enable_dead_time ? ceil(rising_time*clock_mhz/1000) : 0}`" min="0" max="65536" resolution="1" visible="false" editable="false" desc="" />
+    <ParamRange id="falling_time" name="Falling Time" group="Dead Time" default="0" min="0" max="546133.33" resolution="0.01" visible="true" editable="`${enable_dead_time}`" desc="Falling dead time." />
+    <ParamRange id="dt_hrpwm_fall" name="DT HRPWM Fall" group="Dead Time" default="`${enable_dead_time ? ceil(falling_time*clock_mhz/1000) : 0}`" min="0" max="65536" resolution="1" visible="false" editable="false" desc="" />
+    <ParamChoice id="dt_trigger_sel" name="DT Trigger" group="Dead Time" default="XMC_HRPWM_HRC_DT_TR_SEL_TIMER" visible="`${advanced_settings}`" editable="true" desc="Selection of trigger for dead time shadow transfer.">
+      <Entry name="CCU8 Timer" value="XMC_HRPWM_HRC_DT_TR_SEL_TIMER" visible="true" />
+      <Entry name="Dead Time Timer Overflow" value="XMC_HRPWM_HRC_DT_TR_SEL_OVERFLOW" visible="true" />
+    </ParamChoice>
+
+    <!-- Shadow Transfer -->
+    <ParamBool id="hrc_shadow_xfer_linktoCCU8" name="CR1 And CR2" group="Shadow Transfer" default="true" visible="`${advanced_settings}`" editable="true" desc="Shadow transfer for CR1 and CR2 linked to shadow transfer trigger of CCU8 slice." />
+    <ParamBool id="dt_shadow_xfer_linktoCCU8" name="DCR And DCF" group="Shadow Transfer" default="true" visible="`${advanced_settings}`" editable="true" desc="Shadow transfer for DCR and DCF linked to shadow transfer trigger of CCU8 slice." />
+
+    <!-- Direct Output HROUT0 -->
+    <ParamBool id="dir_enable_trap" name="Trap Signal" group="Direct Output HROUT0" default="false" visible="true" editable="true" desc="Enable and configure the Trap signal in the corresponding CCU8 slice." />
+    <ParamChoice id="passive_level_hrout0" name="Passive Level" group="Direct Output HROUT0" default="0" visible="true" editable="true" desc="Set the passiv level of HRC OUT.">
+      <Entry name="Low" value="0" visible="true" />
+      <Entry name="High" value="1" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="connected_to_hrout0" name="Connected To" group="Direct Output HROUT0" default="XMC_HRPWM_FUNC_STATUS_DISABLE" visible="true" editable="true" desc="Enables inversion of HROUT0 output pin.">
+      <Entry name="Q" value="XMC_HRPWM_FUNC_STATUS_DISABLE" visible="true" />
+      <Entry name="Qn" value="XMC_HRPWM_FUNC_STATUS_ENABLE" visible="true" />
+    </ParamChoice>
+
+    <!-- Inverted Output HROUT1 -->
+    <ParamBool id="inv_enable_trap" name="Trap Signal" group="Inverted Output HROUT1" default="false" visible="true" editable="true" desc="Enable and configure the Trap signal in the corresponding CCU8 slice." />
+    <ParamChoice id="passive_level_hrout1" name="Passive Level" group="Inverted Output HROUT1" default="0" visible="true" editable="true" desc="Set the passiv level of HRC OUT.">
+      <Entry name="Low" value="0" visible="true" />
+      <Entry name="High" value="1" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="connected_to_hrout1" name="Connected To" group="Inverted Output HROUT1" default="XMC_HRPWM_FUNC_STATUS_DISABLE" visible="true" editable="true" desc="Enables inversion of HROUT1 output pin.">
+      <Entry name="Q" value="XMC_HRPWM_FUNC_STATUS_ENABLE" visible="true" />
+      <Entry name="Qn" value="XMC_HRPWM_FUNC_STATUS_DISABLE" visible="true" />
+    </ParamChoice>
+
+    <!-- Connections -->
+    <ParamImage id="hrout_image" name="PWM Signals Scheme" group="Connections" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_hrc_pin_settings.png" visible="true" desc="Block on the signal path is used to configure the ACTIVE and PASSIVE levels for the two output PWM signals." />
+    <ParamSignal port="hrout0[0]" name="High Resolution Output 0" group="Connections" visible="`${hasVisibleOption(&quot;hrout0[0]&quot;)}`" desc="High resolution PWM output 0." canBeEmpty="true" />
+    <ParamSignal port="hrout1[0]" name="High Resolution Output 1" group="Connections" visible="`${hasVisibleOption(&quot;hrout1[0]&quot;)}`" desc="High resolution PWM output 1." canBeEmpty="true" />
+    <ParamSignal port="qout[0]" name="High Resolution Latch Output" group="Connections" visible="`${hasVisibleOption(&quot;qout[0]&quot;)}`" desc="High resolution PWM latch output (without dead time)." canBeEmpty="true" />
+
+    <!-- Advanced -->
+    <ParamBool id="in_flash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="HRPWM module instance is not enabled." condition="`${module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${module_resource}`" value="" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="CCU8 module Slice `${channel_num}` instance is not enabled." condition="`${ccu80_module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${ccu80_module_resource}`" value="" valid="true" />
+    </DRC>
+    <DRC type="INFO" text="CCU8 0 Slice `${channel_num}` is not configured Capture Mode for the Timer Slice." condition="`${!ccu80_check_operation_mode}`" />
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_hrpwm.h" include="true" />
+
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${channel_num}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_HW" value="HRPWM0_HRC`${channel_num}`" public="true" include="true" />
+
+    <ConfigStruct name="`${INST_NAME}`_channel_config" type="XMC_HRPWM_HRC_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="dt_enable" value="`${enable_dead_time ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="hr_out0_trap_enable" value="`${dir_enable_trap ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="hr_out1_trap_enable" value="`${inv_enable_trap ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="hrc_shadow_xfer_linktoCCU8" value="`${hrc_shadow_xfer_linktoCCU8 ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="dt_shadow_xfer_linktoCCU8" value="`${dt_shadow_xfer_linktoCCU8 ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="hr_out0_inv_enable" value="`${connected_to_hrout0}`" />
+      <Member name="hr_out1_inv_enable" value="`${connected_to_hrout1}`" />
+      <Member name="dt_trigger_sel" value="`${dt_trigger_sel}`" />
+      <Member name="hr_out0_passive_level_out" value="`${passive_level_hrout0}`U" />
+      <Member name="hr_out1_passive_level_out" value="`${passive_level_hrout1}`U" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_src_config0" type="XMC_HRPWM_HRC_SRC_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="high_res_mode" value="`${high_res_mode_0}`" />
+      <Member name="set_config" value="`${set_config_0}`" />
+      <Member name="clear_config" value="`${clear_config_0}`" />
+      <Member name="cmp_set" value="`${cmp_set_0}`" />
+      <Member name="cmp_clear" value="`${cmp_clear_0}`" />
+      <Member name="timer_sel" value="`${timer_sel_0}`" />
+      <Member name="set_edge_config" value="`${hrp_set_0}`" />
+      <Member name="clear_edge_config" value="`${hrp_clear_0}`" />
+      <Member name="src_trap_enable" value="`${dir_enable_trap ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_src_config1" type="XMC_HRPWM_HRC_SRC_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="high_res_mode" value="`${high_res_mode_1}`" />
+      <Member name="set_config" value="`${set_config_1}`" />
+      <Member name="clear_config" value="`${clear_config_1}`" />
+      <Member name="cmp_set" value="`${cmp_set_1}`" />
+      <Member name="cmp_clear" value="`${cmp_clear_1}`" />
+      <Member name="timer_sel" value="`${timer_sel_1}`" />
+      <Member name="set_edge_config" value="`${hrp_set_1}`" />
+      <Member name="clear_edge_config" value="`${hrp_clear_1}`" />
+      <Member name="src_trap_enable" value="`${inv_enable_trap ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_HRPWM_HRC_Init(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_channel_config);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_HRC_ConfigSourceSelect0(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_src_config0);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_HRC_ConfigSourceSelect1(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_src_config1);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_HRC_Set_HR_Source(`${INST_NAME}`_HW, `${source_connected}`);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_HRC_SetCompare1(`${INST_NAME}`_HW, `${hrpwm_compare_1}`U);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_HRC_SetCompare2(`${INST_NAME}`_HW, `${hrpwm_compare_2}`U);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_HRC_SetDeadTimeRising(`${INST_NAME}`_HW, `${dt_hrpwm_rise > 65535 ? 65535 : dt_hrpwm_rise}`U);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_HRC_SetDeadTimeFalling(`${INST_NAME}`_HW, `${dt_hrpwm_fall > 65535 ? 65535 : dt_hrpwm_fall}`U);" include="true" />
+
+    <ConfigInstruction value="XMC_HRPWM_EnableHighResolutionPath(`${hrpwm_module_global}`, (uint32_t)XMC_HRPWM_HR_PATH_HRC`${channel_num}`);" include="`${enable_high_res_path}`" />
+    <ConfigInstruction value="XMC_HRPWM_EnableLowResolutionPath(`${hrpwm_module_global}`, (uint32_t)XMC_HRPWM_LR_PATH_HRC`${channel_num}`);" include="`${enable_low_res_path}`" />
+  </ConfigFirmware>
+
+
+</Personality>

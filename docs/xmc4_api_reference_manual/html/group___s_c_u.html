@@ -498,6 +498,12 @@ Functions</h2></td></tr>
 <tr class="separator:ga33092936078880aa0f1efa350ab1416a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf0f583c308bba3a39561e83bf3ec802f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_u.html#gaf0f583c308bba3a39561e83bf3ec802f">XMC_SCU_PARITY_SetParityWriteValue</a> (uint8_t write_value)</td></tr>
 <tr class="separator:gaf0f583c308bba3a39561e83bf3ec802f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb98b3968bc14664a6d9417ff33905fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_u.html#gaeb98b3968bc14664a6d9417ff33905fa">XMC_SCU_PCU_DisableUsbPullUp</a> (void)</td></tr>
+<tr class="separator:gaeb98b3968bc14664a6d9417ff33905fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab887f799bc8243ab7335c4978c7f6c5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_u.html#gab887f799bc8243ab7335c4978c7f6c5d">XMC_SCU_PCU_EnableUsbPullUp</a> (void)</td></tr>
+<tr class="separator:gab887f799bc8243ab7335c4978c7f6c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4b8fb709d4866b8d9cb58678fee4ffc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_u.html#gad4b8fb709d4866b8d9cb58678fee4ffc">XMC_SCU_PCU_IsEnabledUsbPullUp</a> (void)</td></tr>
+<tr class="separator:gad4b8fb709d4866b8d9cb58678fee4ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4105a1ad04e87b7ca5ec0c88242ed991"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_u.html#ga4105a1ad04e87b7ca5ec0c88242ed991">XMC_SCU_POWER_DisableMonitor</a> (void)</td></tr>
 <tr class="separator:ga4105a1ad04e87b7ca5ec0c88242ed991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacf750b3451bbdd00820d54f25100bd75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___s_c_u.html#gacf750b3451bbdd00820d54f25100bd75">XMC_SCU_POWER_DisableUsb</a> (void)</td></tr>
@@ -3503,10 +3509,10 @@ The value is set to the <em>CPUDIV</em> bit of <em>CPUCLKCR</em> register. </dd>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Put system in DEEPSLEEP state</span></div>
 <div class="line">__WFI();</div>
-<div class="ttc" id="agroup___s_c_u_html_ga195b4578bc2ddafae6a3a59c53325a0c"><div class="ttname"><a href="group___s_c_u.html#ga195b4578bc2ddafae6a3a59c53325a0c">XMC_SCU_CLOCK_SetDeepSleepConfig</a></div><div class="ttdeci">void XMC_SCU_CLOCK_SetDeepSleepConfig(int32_t config)</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:3571</div></div>
-<div class="ttc" id="agroup___s_c_u_html_gga5a00552e019ebfb3f3ded0ac0c52d324a2106d720a1214d1fee5e77e25a92a135"><div class="ttname"><a href="group___s_c_u.html#gga5a00552e019ebfb3f3ded0ac0c52d324a2106d720a1214d1fee5e77e25a92a135">XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_PLL_POWERDOWN</a></div><div class="ttdeci">@ XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_PLL_POWERDOWN</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:725</div></div>
-<div class="ttc" id="agroup___s_c_u_html_gga5a00552e019ebfb3f3ded0ac0c52d324add2138f379b3d29101c722aaa92f0507"><div class="ttname"><a href="group___s_c_u.html#gga5a00552e019ebfb3f3ded0ac0c52d324add2138f379b3d29101c722aaa92f0507">XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_FLASH_POWERDOWN</a></div><div class="ttdeci">@ XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_FLASH_POWERDOWN</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:724</div></div>
-<div class="ttc" id="agroup___s_c_u_html_gga89194aa42c041fa1e72c1a3da8dbdef8a6c72ebd7125eaa96a643ca27d175173d"><div class="ttname"><a href="group___s_c_u.html#gga89194aa42c041fa1e72c1a3da8dbdef8a6c72ebd7125eaa96a643ca27d175173d">XMC_SCU_CLOCK_SLEEP_MODE_CONFIG_SYSCLK_FOFI</a></div><div class="ttdeci">@ XMC_SCU_CLOCK_SLEEP_MODE_CONFIG_SYSCLK_FOFI</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:679</div></div>
+<div class="ttc" id="agroup___s_c_u_html_ga195b4578bc2ddafae6a3a59c53325a0c"><div class="ttname"><a href="group___s_c_u.html#ga195b4578bc2ddafae6a3a59c53325a0c">XMC_SCU_CLOCK_SetDeepSleepConfig</a></div><div class="ttdeci">void XMC_SCU_CLOCK_SetDeepSleepConfig(int32_t config)</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:3614</div></div>
+<div class="ttc" id="agroup___s_c_u_html_gga5a00552e019ebfb3f3ded0ac0c52d324a2106d720a1214d1fee5e77e25a92a135"><div class="ttname"><a href="group___s_c_u.html#gga5a00552e019ebfb3f3ded0ac0c52d324a2106d720a1214d1fee5e77e25a92a135">XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_PLL_POWERDOWN</a></div><div class="ttdeci">@ XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_PLL_POWERDOWN</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:730</div></div>
+<div class="ttc" id="agroup___s_c_u_html_gga5a00552e019ebfb3f3ded0ac0c52d324add2138f379b3d29101c722aaa92f0507"><div class="ttname"><a href="group___s_c_u.html#gga5a00552e019ebfb3f3ded0ac0c52d324add2138f379b3d29101c722aaa92f0507">XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_FLASH_POWERDOWN</a></div><div class="ttdeci">@ XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_FLASH_POWERDOWN</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:729</div></div>
+<div class="ttc" id="agroup___s_c_u_html_gga89194aa42c041fa1e72c1a3da8dbdef8a6c72ebd7125eaa96a643ca27d175173d"><div class="ttname"><a href="group___s_c_u.html#gga89194aa42c041fa1e72c1a3da8dbdef8a6c72ebd7125eaa96a643ca27d175173d">XMC_SCU_CLOCK_SLEEP_MODE_CONFIG_SYSCLK_FOFI</a></div><div class="ttdeci">@ XMC_SCU_CLOCK_SLEEP_MODE_CONFIG_SYSCLK_FOFI</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:684</div></div>
 </div><!-- fragment --><dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___s_c_u.html#ga08c337e8a728604e7eb54dff78ae2d9d">XMC_SCU_CLOCK_Init()</a> <br  />
 <br  />
 <br  />
@@ -3757,7 +3763,7 @@ The peripheral clock can be equal to either fCPU or fCPU/2. The value is configu
 <div class="line"> </div>
 <div class="line"><span class="comment">// Put system in SLEEP state</span></div>
 <div class="line">__WFI();</div>
-<div class="ttc" id="agroup___s_c_u_html_gad337ef7ef0786c19225a5c1a69b4fe09"><div class="ttname"><a href="group___s_c_u.html#gad337ef7ef0786c19225a5c1a69b4fe09">XMC_SCU_CLOCK_SetSleepConfig</a></div><div class="ttdeci">void XMC_SCU_CLOCK_SetSleepConfig(int32_t config)</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:3612</div></div>
+<div class="ttc" id="agroup___s_c_u_html_gad337ef7ef0786c19225a5c1a69b4fe09"><div class="ttname"><a href="group___s_c_u.html#gad337ef7ef0786c19225a5c1a69b4fe09">XMC_SCU_CLOCK_SetSleepConfig</a></div><div class="ttdeci">void XMC_SCU_CLOCK_SetSleepConfig(int32_t config)</div><div class="ttdef"><b>Definition:</b> xmc4_scu.h:3655</div></div>
 </div><!-- fragment --><dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___s_c_u.html#ga08c337e8a728604e7eb54dff78ae2d9d">XMC_SCU_CLOCK_Init()</a> <br  />
 <br  />
 <br  />
@@ -6244,6 +6250,82 @@ Parity error status information is obtained from the <em>PEFLAG</em> register. I
 <dl class="section return"><dt>Returns</dt><dd>None</dd></dl>
 <dl class="section user"><dt>Description</dt><dd>For each byte of a memory module the parity bits corresponding to the next write access are selected here.</dd></dl>
 <dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___s_c_u.html#gae74c277267d0d539a55c87bbe4a1bc54">XMC_SCU_PARITY_OverrideParityBitLogic()</a> <br  />
+<br  />
+<br  />
+</dd></dl>
+
+</div>
+</div>
+<a id="gaeb98b3968bc14664a6d9417ff33905fa" name="gaeb98b3968bc14664a6d9417ff33905fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb98b3968bc14664a6d9417ff33905fa">&#9670;&nbsp;</a></span>XMC_SCU_PCU_DisableUsbPullUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void XMC_SCU_PCU_DisableUsbPullUp </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>None</dd></dl>
+<dl class="section user"><dt>Description</dt><dd>Disables the USB weak pull-up.<br  />
+<br  />
+Sets the <em>USBPUWQ</em> bit of <em>PWRCLR</em> register to '1'. This disables USB weak pull-up.</dd></dl>
+<dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___s_c_u.html#gad4b8fb709d4866b8d9cb58678fee4ffc">XMC_SCU_PCU_IsEnabledUsbPullUp()</a>, <a class="el" href="group___s_c_u.html#gab887f799bc8243ab7335c4978c7f6c5d">XMC_SCU_PCU_EnableUsbPullUp()</a> <br  />
+<br  />
+<br  />
+</dd></dl>
+
+</div>
+</div>
+<a id="gab887f799bc8243ab7335c4978c7f6c5d" name="gab887f799bc8243ab7335c4978c7f6c5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab887f799bc8243ab7335c4978c7f6c5d">&#9670;&nbsp;</a></span>XMC_SCU_PCU_EnableUsbPullUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void XMC_SCU_PCU_EnableUsbPullUp </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>None</dd></dl>
+<dl class="section user"><dt>Description</dt><dd>Enables the USB weak pull-up.<br  />
+<br  />
+Sets the <em>USBPUWQ</em> bit of <em>PWRSET</em> register to '1'. This enables USB weak pull-up.</dd></dl>
+<dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___s_c_u.html#gad4b8fb709d4866b8d9cb58678fee4ffc">XMC_SCU_PCU_IsEnabledUsbPullUp()</a>, <a class="el" href="group___s_c_u.html#gaeb98b3968bc14664a6d9417ff33905fa">XMC_SCU_PCU_DisableUsbPullUp()</a> <br  />
+<br  />
+<br  />
+</dd></dl>
+
+</div>
+</div>
+<a id="gad4b8fb709d4866b8d9cb58678fee4ffc" name="gad4b8fb709d4866b8d9cb58678fee4ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad4b8fb709d4866b8d9cb58678fee4ffc">&#9670;&nbsp;</a></span>XMC_SCU_PCU_IsEnabledUsbPullUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool XMC_SCU_PCU_IsEnabledUsbPullUp </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Status of pull-up activation</dd></dl>
+<dl class="section user"><dt>Description</dt><dd>Сhecks status of weak pull-up activation for USB-Device. Returns 'true' if pull-up enabled.</dd></dl>
+<dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___s_c_u.html#gab887f799bc8243ab7335c4978c7f6c5d">XMC_SCU_PCU_EnableUsbPullUp()</a>, <a class="el" href="group___s_c_u.html#gaeb98b3968bc14664a6d9417ff33905fa">XMC_SCU_PCU_DisableUsbPullUp()</a> <br  />
 <br  />
 <br  />
 </dd></dl>

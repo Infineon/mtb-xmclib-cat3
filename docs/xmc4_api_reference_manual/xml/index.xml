@@ -1512,6 +1512,8 @@
     <member refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a880a5d11ae52f7279e36a31270eb8f9f" kind="variable"><name>window_lower_bound</name></member>
     <member refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1aff074f1259e6fd21380c7bd67bde38ff" kind="variable"><name>window_upper_bound</name></member>
   </compound>
+  <compound refid="configuration_8txt" kind="file"><name>configuration.txt</name>
+  </compound>
   <compound refid="main__xmc4_8txt" kind="file"><name>main_xmc4.txt</name>
   </compound>
   <compound refid="xmc4__flash_8h" kind="file"><name>xmc4_flash.h</name>
@@ -2081,6 +2083,9 @@
     <member refid="group___s_c_u_1gae74c277267d0d539a55c87bbe4a1bc54" kind="function"><name>XMC_SCU_PARITY_OverrideParityBitLogic</name></member>
     <member refid="group___s_c_u_1ga33092936078880aa0f1efa350ab1416a" kind="function"><name>XMC_SCU_PARITY_SelectMemoryTest</name></member>
     <member refid="group___s_c_u_1gaf0f583c308bba3a39561e83bf3ec802f" kind="function"><name>XMC_SCU_PARITY_SetParityWriteValue</name></member>
+    <member refid="group___s_c_u_1gaeb98b3968bc14664a6d9417ff33905fa" kind="function"><name>XMC_SCU_PCU_DisableUsbPullUp</name></member>
+    <member refid="group___s_c_u_1gab887f799bc8243ab7335c4978c7f6c5d" kind="function"><name>XMC_SCU_PCU_EnableUsbPullUp</name></member>
+    <member refid="group___s_c_u_1gad4b8fb709d4866b8d9cb58678fee4ffc" kind="function"><name>XMC_SCU_PCU_IsEnabledUsbPullUp</name></member>
     <member refid="group___s_c_u_1ga4105a1ad04e87b7ca5ec0c88242ed991" kind="function"><name>XMC_SCU_POWER_DisableMonitor</name></member>
     <member refid="group___s_c_u_1gacf750b3451bbdd00820d54f25100bd75" kind="function"><name>XMC_SCU_POWER_DisableUsb</name></member>
     <member refid="group___s_c_u_1gae91191a2fd70dca90ff7fd9912500b25" kind="function"><name>XMC_SCU_POWER_EnableMonitor</name></member>
@@ -2897,6 +2902,25 @@
     <member refid="group___c_c_u8_1ga75e9b21283ba468755514f9f1284c1ee" kind="function"><name>XMC_CCU8_StartPrescaler</name></member>
     <member refid="group___c_c_u8_1gaec6b0738f2c0ecc5e5ca40b8b70204d8" kind="function"><name>XMC_CCU8_StopParityChecker</name></member>
     <member refid="group___c_c_u8_1ga43db67928e7efb36c6a29aba8c525ead" kind="function"><name>XMC_CCU8_StopPrescaler</name></member>
+  </compound>
+  <compound refid="xmc__common_8h" kind="file"><name>xmc_common.h</name>
+    <member refid="group___c_o_m_m_o_n_1gab7155203d7199c7a752478960b2a5280" kind="define"><name>XMC_ASSERT</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga6d01dd58e9748e537c15f5f187bbaa90" kind="define"><name>XMC_DEBUG</name></member>
+    <member refid="group___c_o_m_m_o_n_1gac6d99ca361d4c42402d4fff4c1095384" kind="define"><name>XMC_DIV_ROUND</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga9db04aa5f100ccaf9b1f12c7d621739b" kind="define"><name>XMC_DIV_ROUNDUP</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga2a9d6e44ae0353ef2426f35c154c45b9" kind="define"><name>XMC_LIB_MAJOR_VERSION</name></member>
+    <member refid="group___c_o_m_m_o_n_1gae74ace78c5137b972b3f760cd5e09343" kind="define"><name>XMC_LIB_MINOR_VERSION</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga83d51c05ca48b74331f3dd393ceafd03" kind="define"><name>XMC_LIB_PATCH_VERSION</name></member>
+    <member refid="group___c_o_m_m_o_n_1gaf5e319e51fba35a9c2bf924dc2033776" kind="define"><name>XMC_LIB_VERSION</name></member>
+    <member refid="group___c_o_m_m_o_n_1gad2b629bce679930ce0315950fbb2de4f" kind="define"><name>XMC_STRUCT_INIT</name></member>
+    <member refid="group___c_o_m_m_o_n_1gaf50650e73583944093685f4dbd0693e4" kind="define"><name>XMC_UNUSED_ARG</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga64d434fc320c9489a1e2b1c9df8b6523" kind="define"><name>XMC_VERSION_NUMBER</name></member>
+    <member refid="group___c_o_m_m_o_n_1gaea382e16ad0ee471de23008a9d7dbbea" kind="function"><name>XMC_AssertHandler</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga343bdc93bf3c5946e9944ce0b85464f8" kind="function"><name>XMC_Delay</name></member>
+    <member refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kind="function"><name>XMC_DelayCycles</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga87fd14add15725f8cf055e258a2a821a" kind="function"><name>XMC_DelayUs</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kind="function"><name>XMC_EnterCriticalSection</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga6dfa72c89386d9c65584d2d526f76112" kind="function"><name>XMC_ExitCriticalSection</name></member>
   </compound>
   <compound refid="xmc__dac_8h" kind="file"><name>xmc_dac.h</name>
     <member refid="group___d_a_c_1gafc2efa750fdd4aedbaa5be736a28400e" kind="define"><name>XMC_DAC0</name></member>
@@ -6550,6 +6574,25 @@
     <member refid="group___c_c_u8_1ga359e91b4e7a02724b0d1d9e4f4b736d1" kind="define"><name>XMC_CCU8_SLICE_CHECK_COMP_CHANNEL</name></member>
     <member refid="group___c_c_u8_1gaea1bd20f2ea8f7e715995a2da60e15f0" kind="define"><name>XMC_CCU8_SLICE_CHECK_INTERRUPT</name></member>
   </compound>
+  <compound refid="group___c_o_m_m_o_n" kind="group"><name>COMMON</name>
+    <member refid="group___c_o_m_m_o_n_1gaea382e16ad0ee471de23008a9d7dbbea" kind="function"><name>XMC_AssertHandler</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga343bdc93bf3c5946e9944ce0b85464f8" kind="function"><name>XMC_Delay</name></member>
+    <member refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kind="function"><name>XMC_DelayCycles</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga87fd14add15725f8cf055e258a2a821a" kind="function"><name>XMC_DelayUs</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kind="function"><name>XMC_EnterCriticalSection</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga6dfa72c89386d9c65584d2d526f76112" kind="function"><name>XMC_ExitCriticalSection</name></member>
+    <member refid="group___c_o_m_m_o_n_1gab7155203d7199c7a752478960b2a5280" kind="define"><name>XMC_ASSERT</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga6d01dd58e9748e537c15f5f187bbaa90" kind="define"><name>XMC_DEBUG</name></member>
+    <member refid="group___c_o_m_m_o_n_1gac6d99ca361d4c42402d4fff4c1095384" kind="define"><name>XMC_DIV_ROUND</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga9db04aa5f100ccaf9b1f12c7d621739b" kind="define"><name>XMC_DIV_ROUNDUP</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga2a9d6e44ae0353ef2426f35c154c45b9" kind="define"><name>XMC_LIB_MAJOR_VERSION</name></member>
+    <member refid="group___c_o_m_m_o_n_1gae74ace78c5137b972b3f760cd5e09343" kind="define"><name>XMC_LIB_MINOR_VERSION</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga83d51c05ca48b74331f3dd393ceafd03" kind="define"><name>XMC_LIB_PATCH_VERSION</name></member>
+    <member refid="group___c_o_m_m_o_n_1gaf5e319e51fba35a9c2bf924dc2033776" kind="define"><name>XMC_LIB_VERSION</name></member>
+    <member refid="group___c_o_m_m_o_n_1gad2b629bce679930ce0315950fbb2de4f" kind="define"><name>XMC_STRUCT_INIT</name></member>
+    <member refid="group___c_o_m_m_o_n_1gaf50650e73583944093685f4dbd0693e4" kind="define"><name>XMC_UNUSED_ARG</name></member>
+    <member refid="group___c_o_m_m_o_n_1ga64d434fc320c9489a1e2b1c9df8b6523" kind="define"><name>XMC_VERSION_NUMBER</name></member>
+  </compound>
   <compound refid="group___c_a_n" kind="group"><name>CAN</name>
     <member refid="group___c_a_n_1gaf6e73fbe8be3bebeaae1083536ed1843" kind="enum"><name>XMC_CAN_ARBITRATION_MODE_t</name></member>
     <member refid="group___c_a_n_1ggaf6e73fbe8be3bebeaae1083536ed1843a2f16f10b626bec423fa29b79686936c1" kind="enumvalue"><name>XMC_CAN_ARBITRATION_MODE_ORDER_BASED_PRIO_1</name></member>
@@ -9466,6 +9509,9 @@
     <member refid="group___s_c_u_1gae74c277267d0d539a55c87bbe4a1bc54" kind="function"><name>XMC_SCU_PARITY_OverrideParityBitLogic</name></member>
     <member refid="group___s_c_u_1ga33092936078880aa0f1efa350ab1416a" kind="function"><name>XMC_SCU_PARITY_SelectMemoryTest</name></member>
     <member refid="group___s_c_u_1gaf0f583c308bba3a39561e83bf3ec802f" kind="function"><name>XMC_SCU_PARITY_SetParityWriteValue</name></member>
+    <member refid="group___s_c_u_1gaeb98b3968bc14664a6d9417ff33905fa" kind="function"><name>XMC_SCU_PCU_DisableUsbPullUp</name></member>
+    <member refid="group___s_c_u_1gab887f799bc8243ab7335c4978c7f6c5d" kind="function"><name>XMC_SCU_PCU_EnableUsbPullUp</name></member>
+    <member refid="group___s_c_u_1gad4b8fb709d4866b8d9cb58678fee4ffc" kind="function"><name>XMC_SCU_PCU_IsEnabledUsbPullUp</name></member>
     <member refid="group___s_c_u_1ga4105a1ad04e87b7ca5ec0c88242ed991" kind="function"><name>XMC_SCU_POWER_DisableMonitor</name></member>
     <member refid="group___s_c_u_1gacf750b3451bbdd00820d54f25100bd75" kind="function"><name>XMC_SCU_POWER_DisableUsb</name></member>
     <member refid="group___s_c_u_1gae91191a2fd70dca90ff7fd9912500b25" kind="function"><name>XMC_SCU_POWER_EnableMonitor</name></member>
@@ -10401,6 +10447,8 @@
     <member refid="group___w_d_t_1gad01935f7e01dcc6697efe642d64e0053" kind="function"><name>XMC_WDT_Start</name></member>
     <member refid="group___w_d_t_1gaabc4465fb821a3e6e778503fc2f59bfe" kind="function"><name>XMC_WDT_Stop</name></member>
     <member refid="group___w_d_t_1gac75de77c354d42eb0ce1a6113e73fd21" kind="define"><name>XMC_WDT_MAGIC_WORD</name></member>
+  </compound>
+  <compound refid="page_personalities_reference" kind="page"><name>page_personalities_reference</name>
   </compound>
   <compound refid="deprecated" kind="page"><name>deprecated</name>
   </compound>

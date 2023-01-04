@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file wdt-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* WDT personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_wdt" name="WDT" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_wdt" />
+    <Resource name="wdt" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <!--Internal-->
+    <ParamBool id="xmc1" name="xmc1" group="Internal" default="`${lookupExpression(&quot;XMC1&quot;, 0)}`" visible="false" editable="false" desc="Check if XMC1 is selcted." />
+
+    <ParamString id="resource_wdt_clock_selector" name="WDT Clock selector" group="Internal" default="`${(xmc1 == 1) ? &quot;dco2&quot; : &quot;wdtclk&quot;}`" visible="false" editable="false" desc="DCO2 clock value." />
+    <ParamString id="resource_wdt_clock" name="WDT Clock group" group="Internal" default="scu[0].clock[0].`${resource_wdt_clock_selector}`[0]" visible="false" editable="false" desc="DCO2 clock value." />
+    <ParamString id="resource_periclk" name="Peripheral Clock group" group="Internal" default="scu[0].clock[0].periclk[0]" visible="false" editable="false" desc="Peripheral clock value." />
+
+    <ParamString id="clock_resource" name="Clock Resource" group="Internal" default="`${resource_wdt_clock}`" visible="false" editable="false" desc="WDT Clock resource check." />
+    <ParamBool id="clock_error" name="Clock Error" group="Internal" default="`${!isBlockUsed(clock_resource)}`" visible="false" editable="false" desc="True when the WDT module clock resource is not enabled." />
+
+    <ParamRange id="clock_source_value" name="WDT Clock Value" group="Internal" default="`${(clock_error || !getExposedMember(resource_wdt_clock, &quot;frequency&quot;)) ? 0 : (cast(float,getExposedMember(resource_wdt_clock, &quot;frequency&quot;))/1000)}`" min="0" max="`${getExposedMember(resource_periclk, &quot;frequency&quot;)}`" resolution="0.000000000000001" visible="false" editable="false" desc="Actual WDT clock value. Used in further calculations." />
+    <ParamRange id="clock_source_divided" name="Divided WDT Clock Value" group="Internal" default="`${(clock_error || !getExposedMember(resource_wdt_clock, &quot;frequency&quot;)) ? 0 : (1/cast(float,clock_source_value))}`" min="0" max="1" resolution="0.000000000000001" visible="false" editable="false" desc="1 divided by actual clock value. Used in further calculations." />
+    <ParamRange id="clock_source_multiplier" name="WDT Clock Multiplier Value" group="Internal" default="`${0xFFFFFFFF}`" min="0" max="`${0xFFFFFFFF}`" resolution="1" visible="false" editable="false" desc="Clock multiplier. Used in further calculations." />
+
+    <!-- Documentation -->
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___w_d_t.html" linkText="Open WDT Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Driver Documentation" />
+    <ParamDoc id="cfgDoc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_wdt" linkText="Open WDT Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+
+    <!-- General Settings -->
+    <ParamRange id="desired_ms_wlb" name="Desired [ms]" group="Window Lower Bound" default="0" min="0" max="`${cast(float, clock_source_divided)*cast(int64,clock_source_multiplier)}`" resolution="0.01" visible="true" editable="true" desc="Set the minimal time before watchdog can be serviced." />
+    <ParamRange id="desired_ms_wub" name="Desired [ms]" group="Window Upper Bound" default="`${(clock_error || !getExposedMember(resource_wdt_clock, &quot;frequency&quot;)) ? 0 : 30000}`" min="`${cast(float,desired_ms_wlb)}`" max="`${cast(float, clock_source_divided)*cast(int64,clock_source_multiplier)}`" resolution="0.01" visible="true" editable="true" desc="Set the time to service the watchdog, exceeding the value triggers a reset(wdt_rst signal)." />
+
+    <ParamRange id="width_sip" name="Width" group="Service Indication Pulse" default="1" min="1" max="256" resolution="1" visible="true" editable="true" desc="Configure the number of samples for each symbol." />
+
+    <ParamRange id="actual_ms_wlb" name="Actual [ms]" group="Window Lower Bound" default="`${(clock_error || !getExposedMember(resource_wdt_clock, &quot;frequency&quot;)) ? 0 : ceil(cast(float,desired_ms_wlb)/cast(float,clock_source_divided))*cast(float,clock_source_divided)}`" min="0" max="`${cast(float, clock_source_divided)*cast(int64,clock_source_multiplier)}`" resolution="0.01" visible="true" editable="false" desc="Dither compare register value." />
+    <ParamRange id="actual_ms_wub" name="Actual [ms]" group="Window Upper Bound" default="`${(clock_error || !getExposedMember(resource_wdt_clock, &quot;frequency&quot;)) ? 0 : ceil(cast(float,desired_ms_wub)/cast(float,clock_source_divided))*cast(float,clock_source_divided)}`" min="0" max="`${cast(float, clock_source_divided)*cast(int64,clock_source_multiplier)}`" resolution="0.01" visible="true" editable="false" desc="Dither compare register value." />
+
+    <!-- Interrupt Settings -->
+    <ParamBool id="enable_pwa" name="Enable" group="Pre-Warning Alarm" default="false" visible="true" editable="true" desc="Enable event to detect overflow of the watchdog timer." />
+    <ParamChoice id="event_request_pwa" name="Event Request" group="Pre-Warning Alarm" default="0" visible="`${enable_pwa}`" editable="`${!xmc1}`" desc="Select the criteria that will trigger the event.">
+      <Entry name="Via Interrupt" value="0" visible="true" />
+      <Entry name="Via NMI" value="1" visible="`${!xmc1}`" />
+    </ParamChoice>
+    <ParamString id="event_handler_pwa" name="Event Handler" group="Pre-Warning Alarm" default="`${INST_NAME}`_EventHandler" visible="`${!event_request_pwa &amp;&amp; enable_pwa}`" editable="true" desc="User defined interrupt service routine." />
+    <ParamBool id="is_event_handler_name_valid" name="Is Event Handler Name Valid?" group="Internal" default="`${hasMatch(event_handler_pwa, &quot;(^[_]+[0-9a-zA-Z]|^[a-zA-Z])[0-9a-zA-Z_]*$&quot;)}`" visible="false" editable="false" desc="Supporting variable to check validity of event name." />
+
+    <!-- Connections -->
+    <ParamSignal port="service_out[0]" name="Service Output" group="Connections" visible="true" desc="WDT slice output signal." canBeEmpty="true" multiSelect="false" />
+
+    <!-- Advanced Settings -->
+    <ParamBool id="start_after_init" name="Start After Initialization" group="Advanced" default="false" visible="true" editable="true" desc="Enable/Disable Start After Initialization. If disabled then after configuration WDT will not start counting." />
+    <ParamBool id="runInDebug" name="Run in Debug Mode" group="Advanced" default="false" visible="true" editable="true" desc="Controls whether the WDT continues counting while in debug or not." />
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="WDT Clock is not enabled " condition="`${clock_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${clock_resource}`" value="" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Invalid Handler Function Name" condition="`${!is_event_handler_name_valid &amp;&amp; enable_pwa &amp;&amp; !event_request_pwa}`">
+      <FixIt action="SET_PARAM" target="event_handler_pwa" value="`${INST_NAME}`_EventHandler" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <!-- Config setup -->
+    <ConfigInclude value="xmc_wdt.h" include="true" />
+
+    <ConfigDefine name="WATCHDOG_EVENT_VIA_SCU" value="(`${enable_pwa &amp; !event_request_pwa}`U)" public="true" include="true" />
+    <ConfigDefine name="WATCHDOG_EVENT_VIA_NMI" value="(`${enable_pwa &amp; event_request_pwa}`U)" public="true" include="true" />
+    <ConfigDefine name="WATCHDOG_PREWARNING_CHECK" value="(`${enable_pwa ? 1 : 0}`U)" public="true" include="true" />
+
+    <ConfigExternVariable name="`${event_handler_pwa . &quot;(void)&quot;}`" type="void" const="false" include="`${enable_pwa &amp;&amp; !event_request_pwa}`" />
+
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_WDT_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="window_lower_bound" value="`${desired_ms_wlb}`" />
+      <Member name="window_upper_bound" value="`${desired_ms_wub}`" />
+      <Member name="prewarn_mode" value="`${enable_pwa}`" />
+      <Member name="service_pulse_width" value="`${width_sip}`U" />
+      <Member name="run_in_debug_mode" value="`${runInDebug ? 1 : 0}`U" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_SCU_INTERRUPT_EnableEvent(XMC_SCU_INTERRUPT_EVENT_WDT_WARN);" include="`${enable_pwa}`" />
+    <ConfigInstruction value="XMC_SCU_INTERRUPT_SetEventHandler(XMC_SCU_INTERRUPT_EVENT_WDT_WARN, &amp;`${event_handler_pwa}`);" include="`${enable_pwa &amp;&amp; !event_request_pwa}`" />
+    <ConfigInstruction value="XMC_SCU_INTERRUPT_EnableNmiRequest(XMC_SCU_INTERRUPT_EVENT_WDT_WARN);" include="`${enable_pwa &amp;&amp; !xmc1}`" />
+    <ConfigInstruction value="XMC_WDT_Init(&amp;`${INST_NAME}`_config);" include="true" />
+    <ConfigInstruction value="XMC_WDT_Start();" include="`${start_after_init}`" />
+  </ConfigFirmware>
+</Personality>

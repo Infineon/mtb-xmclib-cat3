@@ -375,44 +375,42 @@ Device Names</h2>
 Directories and Files</h1>
 <p >The following diagram shows the most important directories and files provided in the distribution.</p>
 <pre class="fragment">* mtb-xmclib-cat3                           - XMClib root directory
-*  +-- CMSIS                                - The Cortex Microcontroller Software Interface Standard abstraction layer
-* │   +-- Infineon                          - Includes device header files, system and startup files
-* +-- docs                                  - XMC Peripheral Library documentation generated with Doxygen
-* │   +-- xmc1_api_reference_manual.html    - XMC Peripheral Library documentation with XMC1 specific information
-* │   \-- xmc4_api_reference_manual.html    - XMC Peripheral Library documentation with XMC4 specific information
-* +-- Newlib                                - C standard library implementation intended for use on embedded systems.
-* +-- device-info                           - Configuration files that defines a resource behavior for ModusToolbox Device Configurator
-* +-- XMCLib
+* +-- CMSIS/Infineon                        - Includes device header files, system and startup files
+* +-- Newlib                                - C standard library implementation intended for use on embedded systems
+* +-- XMCLib                                - XMC Peripheral Library API root directory
 * │   +-- doc                               - Doxygen configuration files to generate documentation
 * │   +-- inc                               - XMC Peripheral Library API interface files
 * │   +-- src                               - XMC Peripheral Library API implementation files
-* +-- devicesupport.xml                     - Device description file for ModusToolbox Device Configurator
+* +-- device-info                           - Configuration files that defines a resource behavior for ModusToolbox Device Configurator
+* +-- docs                                  - XMC Peripheral Library documentation generated with Doxygen
+* │   +-- xmc1_api_reference_manual.html    - XMC Peripheral Library documentation with XMC1 specific information
+* │   +-- xmc4_api_reference_manual.html    - XMC Peripheral Library documentation with XMC4 specific information
+* +-- props.json                            - Device description file for ModusToolbox Device Configurator
 * +-- README.md                             - Description of the library
-* +-- RELEASE.md                            - Description of the changes in the release
-* </pre><h1><a class="anchor" id="examples"></a>
+* +-- RELEASE.md                            - Description of the changes in the release </pre><h1><a class="anchor" id="examples"></a>
 XMC Lib examples</h1>
-<p >The XMC Lib examples could be found at <a href="https://github.com/cypresssemiconductorco/Code-Examples-for-ModusToolbox-Software">https://github.com/cypresssemiconductorco/Code-Examples-for-ModusToolbox-Software</a></p>
+<p >The XMC Lib examples could be found at <a href="https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software">https://github.com/Infineon/Code-Examples-for-ModusToolbox-Software</a></p>
 <p >Create the project and open it using one of the following:</p>
 <h2><a class="anchor" id="mtbide"></a>
 In Eclipse IDE for ModusToolbox</h2>
 <ol type="1">
-<li>Click the <b>New Application</b> link in the <b>Quick Panel</b> (or, use <b>File</b> &gt; <b>New</b> &gt; <b>ModusToolbox Application</b>). This launches the <a href="http://www.cypress.com/ModusToolboxProjectCreator">Project Creator</a> tool.</li>
+<li>Click the <b>New Application</b> link in the <b>Quick Panel</b> (or, use <b>File</b> &gt; <b>New</b> &gt; <b>ModusToolbox Application</b>). This launches the <a href="https://www.infineon.com/dgdl/Infineon-ModusToolbox_Project_Creator_2.0_User_Guide-UserManual-v01_00-EN.pdf?fileId=8ac78c8c8386267f0183a973003f59b3&amp;utm_source=cypress&amp;utm_medium=referral&amp;utm_campaign=202110_globe_en_all_integration-files&amp;redirId=180675">Project Creator</a> tool.</li>
 <li>Pick a kit supported by the code example from the list shown in the <b>Project Creator - Choose Board Support Package (BSP)</b> dialog.</li>
 <li>In the <b>Project Creator - Select Application</b> dialog, choose the example by enabling the checkbox.</li>
 <li>Enter the local path in the <b>Application(s) Root Path</b> field to indicate where the application needs to be created.</li>
 <li>Click <b>Create</b> to complete the application creation process.</li>
 </ol>
-<p >For more details, see the Eclipse IDE for <a href="https://www.cypress.com/MTBEclipseIDEUserGuide">ModusToolbox User Guide</a></p>
+<p >For more details, see the Eclipse IDE for <a href="https://www.infineon.com/dgdl/Infineon-ModusToolbox_3.0_Eclipse_IDE_User_Guide-GettingStarted-v01_00-EN.pdf?fileId=8ac78c8c8386267f0183a8d7043b58ee&amp;utm_source=cypress&amp;utm_medium=referral&amp;utm_campaign=202110_globe_en_all_integration-files&amp;redirId=188241">ModusToolbox User Guide</a></p>
 <h2><a class="anchor" id="cli"></a>
 In Command-line Interface (CLI)</h2>
-<p >ModusToolbox provides the Project Creator as both a GUI tool and a command line tool to easily create one or more ModusToolbox applications. See the "Project Creator Tools" section of the <a href="https://www.cypress.com/ModusToolboxUserGuide">ModusToolbox User Guide</a> for more details.</p>
+<p >ModusToolbox provides the Project Creator as both a GUI tool and a command line tool to easily create one or more ModusToolbox applications. See the "Project Creator Tools" section of the <a href="https://www.infineon.com/dgdl/Infineon-ModusToolbox_3.0_Tools_Package_User_Guide-GettingStarted-v01_00-EN.pdf?fileId=8ac78c8c8386267f0183a8e9720c5915&amp;redirId=188343">ModusToolbox User Guide</a> for more details.</p>
 <p >Alternatively, you can manually create the application using the following steps:</p>
 <ol type="1">
 <li>Download and unzip this repository onto your local machine, or clone the repository.</li>
 <li>Open a CLI terminal and navigate to the application folder.</li>
 <li>Import the required libraries by executing the <code>make getlibs</code> command.</li>
 </ol>
-<p >Various CLI tools include a <code>-h</code> option that prints help information to the terminal screen about that tool. For more details, see the <a href="https://www.cypress.com/ModusToolboxUserGuide">ModusToolbox User Guide</a>.</p>
+<p >Various CLI tools include a <code>-h</code> option that prints help information to the terminal screen about that tool. For more details, see the <a href="https://www.infineon.com/dgdl/Infineon-ModusToolbox_3.0_Tools_Package_User_Guide-GettingStarted-v01_00-EN.pdf?fileId=8ac78c8c8386267f0183a8e9720c5915&amp;redirId=188343">ModusToolbox User Guide</a>.</p>
 <h1><a class="anchor" id="test"></a>
 Test conditions</h1>
 <ul>

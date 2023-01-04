@@ -47,6 +47,13 @@
  * 2017-02-25:
  *     - Remove the need to define XMC_USER_ASSERT_FUNCTION
  *     - XMC_AssertHandler fixed compilation warnings
+ * 
+ * 2022-11-15:
+ *     - Added XMC_DelayCycles(uint32_t cycles),
+ *             XMC_Delay(uint32_t milliseconds),
+ *             XMC_DelayUs(uint16_t microseconds),
+ *             XMC_EnterCriticalSection(void),
+ *             XMC_ExitCriticalSection(uint32_t savedIntrStatus)
  *
  * @endcond
  *
@@ -70,4 +77,26 @@ __WEAK void XMC_AssertHandler(const char *const msg, const char *const file, uin
   }
 }
 #endif
+
+#define XMC_DELAY_MAX_CYCLES (0xFFFFFFFFUL - 2UL) /* To avoid an overflow during rounding inside the XMC_DelayCycles */
+
+void XMC_Delay(uint32_t milliseconds)
+{
+    uint32_t clocksMs = SystemCoreClock / 1000UL; /* SystemCoreClock in kiloHertzs */
+    uint32_t maxDelay = XMC_DELAY_MAX_CYCLES / clocksMs; /* maximum XMC_DelayCycles delay in milliseconds */
+
+    /* This loop prevents an overflow in value passed to XMC_DelayCycles() API. */
+    while(milliseconds > maxDelay)
+    {
+        XMC_DelayCycles(XMC_DELAY_MAX_CYCLES);
+        milliseconds -= maxDelay;
+    }
+
+    XMC_DelayCycles(milliseconds * clocksMs);
+}
+
+void XMC_DelayUs(uint16_t microseconds)
+{
+    XMC_DelayCycles(microseconds * XMC_DIV_ROUNDUP(SystemCoreClock, 1000000UL)); /* microseconds * SystemCoreClock in MHz units */
+}
 

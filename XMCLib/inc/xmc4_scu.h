@@ -90,6 +90,11 @@
  * 2020-11-11:
  *     - Change making declaration of functions XMC_SCU_HighTemperature(), XMC_SCU_LowTemperature() and XMC_SCU_SetRawTempLimits() available only XMC41, XMC42 and XMC44
  *
+ * 2022-11-15:
+ *     - Added XMC_SCU_PCU_IsEnabledUsbPullUp(void),
+ *             XMC_SCU_PCU_EnableUsbPullUp(void),
+ *             XMC_SCU_PCU_DisableUsbPullUp(void)
+ *
  * @endcond
  *
  */
@@ -3027,6 +3032,44 @@ void XMC_SCU_POWER_EnableUsb(void);
  * XMC_SCU_POWER_EnableUsb(), XMC_SCU_CLOCK_SetUsbClockSource() \n\n\n
  */
 void XMC_SCU_POWER_DisableUsb(void);
+
+/**
+ * @return Status of pull-up activation
+ *
+ * \par<b>Description</b><br>
+ * Сhecks status of weak pull-up activation for USB-Device.
+ * Returns 'true' if pull-up enabled.
+ *
+ * \par<b>Related APIs:</b><BR>
+ * XMC_SCU_PCU_EnableUsbPullUp(), XMC_SCU_PCU_DisableUsbPullUp() \n\n\n
+ */
+bool XMC_SCU_PCU_IsEnabledUsbPullUp(void);
+
+/**
+ * @return None
+ *
+ * \par<b>Description</b><br>
+ * Enables the USB weak pull-up.\n\n
+ * Sets the \a USBPUWQ bit of \a PWRSET register to '1'.
+ * This enables USB weak pull-up.
+ *
+ * \par<b>Related APIs:</b><BR>
+ * XMC_SCU_PCU_IsEnabledUsbPullUp(), XMC_SCU_PCU_DisableUsbPullUp() \n\n\n
+ */
+void XMC_SCU_PCU_EnableUsbPullUp(void);
+
+/**
+ * @return None
+ *
+ * \par<b>Description</b><br>
+ * Disables the USB weak pull-up.\n\n
+ * Sets the \a USBPUWQ bit of \a PWRCLR register to '1'.
+ * This disables USB weak pull-up.
+ *
+ * \par<b>Related APIs:</b><BR>
+ * XMC_SCU_PCU_IsEnabledUsbPullUp(), XMC_SCU_PCU_EnableUsbPullUp() \n\n\n
+ */
+void XMC_SCU_PCU_DisableUsbPullUp(void);
 
 /**
  * @return None

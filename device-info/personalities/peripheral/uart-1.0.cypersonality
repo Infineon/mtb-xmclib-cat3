@@ -321,20 +321,32 @@
     <ParamSignal port="dout0[0]" name="TXD" group="Connections" visible="true" desc="DOUT0 signal connection." canBeEmpty="false" multiSelect="false">
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" />
     </ParamSignal>
+    <ParamBool id="ShowSystemRelatedOutputs" name="System Related Outputs" group="Connections" default="false" visible="true" editable="true" desc="Enables the system related output signals configuration."/>
     <Repeat count="6">
-      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal" canBeEmpty="true" multiSelect="true">
+      <ParamSignal port="dx$idxins[0]" name="DX$idxINS " group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;dx$idxins[0]&quot;)}`" desc="Selected DX$idx input signal output." canBeEmpty="true" multiSelect="true" />
+    </Repeat>
+    <Repeat count="6">
+      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal." canBeEmpty="true" multiSelect="true">
         <Constraint type="DENY" targetLocation="usic\[\d+\]\.ch\[\d+\].*" valid="true" />
       </ParamSignal>
     </Repeat>
+    <ParamBool id="StartAfterInit" name="Start After Initialization" group="Advanced" default="true" visible="true" editable="true" desc="If enabled the UART will be started at the end of the initialization." />
     <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
   </Parameters>
 
   <DRCs>
+    <DRC type="INFO" text="Enable 'DX$idxINS' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;dx$idxins&quot;, 0)}`" repeatCount="6">
+          <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
+    </DRC>
+    <DRC type="INFO" text="Enable 'SR$idx' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;sr$idx&quot;, 0)}`" repeatCount="6">
+      <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
+    </DRC>
   </DRCs>
 
   <ConfigFirmware>
     <ConfigInclude value="cycfg_routing.h" include="true" />
     <ConfigInclude value="xmc_uart.h" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${ChannelNumber}`U" public="true" include="true" />
     <ConfigDefine name="`${INST_NAME}`_HW" value="XMC_UART`${InstNumber}`_CH`${ChannelNumber}`" public="true" include="true" />
     <ConfigDefine name="`${INST_NAME}`_DX0_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX0CR_DSEL_VALUE" public="true" include="true" />
     <ConfigDefine name="`${INST_NAME}`_DX3_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX3CR_DSEL_VALUE" public="true" include="`${xmc1}`" guard="defined(USIC`${InstNumber}`_CH`${ChannelNumber}`_DX3CR_DSEL_VALUE)" />
@@ -416,7 +428,7 @@
     <ConfigInstruction value="XMC_USIC_CH_TXFIFO_EnableEvent(`${INST_NAME}`_HW, (uint32_t)XMC_USIC_CH_TXFIFO_EVENT_CONF_ERROR);" include="`${(TxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED) &amp;&amp; TransmitBufferErrorEvent}`" />
     <ConfigInstruction value="XMC_USIC_CH_RXFIFO_EnableEvent(`${INST_NAME}`_HW, (uint32_t)XMC_USIC_CH_RXFIFO_EVENT_CONF_STANDARD);" include="`${(RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED) &amp;&amp; StandardReceiveBufferEvent}`" />
     <ConfigInstruction value="XMC_USIC_CH_RXFIFO_EnableEvent(`${INST_NAME}`_HW, (uint32_t)XMC_USIC_CH_RXFIFO_EVENT_CONF_ERROR);" include="`${(RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED) &amp;&amp; ReceiveBufferErrorEvent}`" />
-    <ConfigInstruction value="XMC_UART_CH_Start(`${INST_NAME}`_HW);" include="true" />
+    <ConfigInstruction value="XMC_UART_CH_Start(`${INST_NAME}`_HW);" include="`${StartAfterInit}`" />
   </ConfigFirmware>
 
 </Personality>

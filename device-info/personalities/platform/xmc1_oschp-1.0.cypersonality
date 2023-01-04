@@ -52,7 +52,7 @@
     <ParamRange id="ext_frequency" name="Frequency (MHz)" group="General"
       default="20" min="4" max="`${(mode eq XMC_SCU_CLOCK_OSCHP_MODE_OSC) ? 20 : 48}`" resolution="0.001"
       visible="true" editable="true" desc="External Crystal or Direct Input clock frequency in MHz." />
-    <ParamRange id="accuracyPpm" name="Accuracy (&#177;ppm)" group="General" default="25" min="0" max="1000000" resolution="1"
+    <ParamRange id="accuracyPpm" name="Accuracy (&#177;ppm)" group="General" default="50" min="0" max="1000000" resolution="1"
       visible="true" editable="true" desc="External Crystal or Direct Input clock accuracy in ppm" />
     <ParamString id="accuracy" name="Accuracy (&#177;%)" group="Internal" default="`${accuracyPpm/10000.0}`" visible="false" editable="false" desc="Clock accuracy in %" />
       

@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="357" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="358" bodyend="365"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="362" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="363" bodyend="370"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1gab4e7fab86390d11083766317842074b6" prot="public" static="no" strong="no">
         <type></type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="248" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="249" bodyend="268"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="253" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="254" bodyend="273"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga74e553765a2b78b955d2eb8cd2a9217e" prot="public" static="no" strong="no">
         <type></type>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="214" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="215" bodyend="223"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="219" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="220" bodyend="228"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga7277cae85e421cd975a28a91e21de688" prot="public" static="no" strong="no">
         <type></type>
@@ -320,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="199" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="200" bodyend="208"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="204" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="205" bodyend="213"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga08bfaecf579c25093fc992320457d86a" prot="public" static="no" strong="no">
         <type></type>
@@ -364,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="185" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="186" bodyend="193"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="190" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="191" bodyend="198"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1gaf4be737ccac0300480dabb3635c9f95c" prot="public" static="no" strong="no">
         <type></type>
@@ -412,7 +412,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="343" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="344" bodyend="350"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="348" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="349" bodyend="355"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1gacf67e1a54b42e975838c0331a67d22f8" prot="public" static="no" strong="no">
         <type></type>
@@ -456,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="274" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="275" bodyend="281"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="279" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="280" bodyend="286"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga222a39dba6894d68bc2af180f3d42b34" prot="public" static="no" strong="no">
         <type></type>
@@ -484,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="287" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="288" bodyend="292"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="292" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="293" bodyend="297"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga77628de9d7c52f79eebbe7797bc7b581" prot="public" static="no" strong="no">
         <type></type>
@@ -514,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="371" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="372" bodyend="376"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="376" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="377" bodyend="381"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga32064f76d8be2050aeb60f7cf6f5717f" prot="public" static="no" strong="no">
         <type></type>
@@ -558,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="330" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="331" bodyend="337"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="335" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="336" bodyend="342"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1gac092a2346cbc4aab408df95beb6284ae" prot="public" static="no" strong="no">
         <type></type>
@@ -610,7 +610,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="230" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="231" bodyend="239"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="235" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="236" bodyend="244"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga0b1ee318d29a035ea865a08b6f83b4b6" prot="public" static="no" strong="no">
         <type></type>
@@ -654,7 +654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="317" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="318" bodyend="324"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="322" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="323" bodyend="329"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga3a6f085bea1f918759879c3b8516fb55" prot="public" static="no" strong="no">
         <type></type>
@@ -738,7 +738,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="299" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="300" bodyend="311"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="304" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="305" bodyend="316"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga36d00cfa1835598c73321abc43809042" prot="public" static="no" strong="no">
         <type></type>
@@ -894,7 +894,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="145" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="146" bodyend="164"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="150" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="151" bodyend="169"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga5f1d45bf1b7c823102d747bbb2d2afd8" prot="public" static="no" strong="no">
         <type></type>
@@ -942,7 +942,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="171" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="172" bodyend="178"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="176" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="177" bodyend="183"/>
       </memberdef>
       <memberdef kind="enum" id="group___d_s_d_1ga1fe41bdf5334f8dafa87942e43adf2e4" prot="public" static="no" strong="no">
         <type></type>
@@ -970,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="131" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="132" bodyend="137"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="136" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="137" bodyend="142"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -986,7 +986,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="120" column="24" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="120" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="125" column="24" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___d_s_d_1ga4b704e8631e5c1ce127a679e840166d4" prot="public" static="no">
         <type>DSD_GLOBAL_TypeDef</type>
@@ -1000,7 +1000,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="125" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="125" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="130" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -1033,7 +1033,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1032" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1032" bodyend="1036"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1037" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1037" bodyend="1041"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga5caf306dca39c1e83fd2c96ae386b780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1076,7 +1076,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1016" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1016" bodyend="1021"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1021" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1021" bodyend="1026"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1129,7 +1129,7 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="976" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="976" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="981" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="981" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gace30e711b2cbdd0a17e6fc856737d051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1191,7 +1191,7 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="995" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="995" bodyend="1003"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1000" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1000" bodyend="1008"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga78cbc0ea3aa5577e6186f93991bf5fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1234,7 +1234,7 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1087" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1087" bodyend="1091"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1092" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1092" bodyend="1096"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga70a28f988abaccc0c76130beb461efc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1283,7 +1283,7 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="779" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="779" bodyend="784"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="784" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="784" bodyend="789"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gae0d0b8a3009c9314ac07752ecec7945a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1332,7 +1332,7 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="833" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="833" bodyend="838"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="838" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="838" bodyend="843"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga56bbc99bfe95ae0507d46d4d72e7e99e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1410,7 +1410,7 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="801" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="801" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="806" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="806" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga97c150a74b54eceae3c8820bcdbb1286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1474,7 +1474,7 @@ Adding the auxiliary filter to the system structure helps by defining the bounda
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="819" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="819" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="824" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="824" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga6d191abec2d9b8d1c8ff1f21ac00313b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___d_s_d_1ga1fe41bdf5334f8dafa87942e43adf2e4" kindref="member">XMC_DSD_STATUS_t</ref></type>
@@ -1523,7 +1523,7 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="695" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="695" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="700" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="700" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga84eaf8c2fda261fcce202c81b2ee94c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1573,7 +1573,7 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1055" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="1055" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1060" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="1060" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga6b7baf705ddd49f5df11d49cdacfff0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1604,7 +1604,7 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="954" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="954" bodyend="958"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="959" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="959" bodyend="963"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga1209337fa505ce1aead18ef6fc1eef72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1635,7 +1635,7 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="939" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="939" bodyend="943"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="944" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="944" bodyend="948"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga553ef84a4928891b8196e1b302e62070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1685,7 +1685,7 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="908" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="908" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="913" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="913" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga550cf32d8f26da8b9d26bed22eb1171b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1730,7 +1730,7 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="923" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="923" bodyend="927"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="928" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="928" bodyend="932"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga21153beece159dc431200a17bbf582cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1780,7 +1780,7 @@ Internally this API invoke main filter, auxiliary filter, integrator, rectifier 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1073" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="1073" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1078" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="1078" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gaefcf46240b873558f4813d682d3e7db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1831,7 +1831,7 @@ Configures bits <emphasis>TRSEL</emphasis> and <emphasis>TSTRMODE</emphasis> of 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="679" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="679" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="684" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="684" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga14280e89324e1fb9adaa379d8e10b9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1882,7 +1882,7 @@ Set bit fields <emphasis>ALECx</emphasis> of register <emphasis>EVFLAGCLR.Cleari
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1171" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1171" bodyend="1175"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1176" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1176" bodyend="1180"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gac3e92415ba18b5bcedb454bc02409631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1933,7 +1933,7 @@ Set bit fields <emphasis>RESECx</emphasis> of register <emphasis>EVFLAGCLR.Clear
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1129" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1129" bodyend="1133"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1134" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1134" bodyend="1138"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gabc530c3f59111a433dca627b52477ccd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1970,7 +1970,7 @@ Configures <emphasis>PRSET0</emphasis> register&apos;s <emphasis>DSDRS</emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="611" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="611" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="616" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="616" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga201f09e7e0da21c460266de3ad6b7ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2007,7 +2007,7 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="638" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="638" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="643" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="643" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gae625acbcea862aaef4ae6ffa1384213d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2046,7 +2046,7 @@ Configures <emphasis>PRCLR0</emphasis> register&apos;s <emphasis>DSDRS</emphasis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="597" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="597" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="602" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="602" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gace3fcdbf6e73ac059ac75139f4d4d17c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2085,7 +2085,7 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="626" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="626" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="631" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="631" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga4110982124cd1c069bdc80c5461e1d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2128,7 +2128,7 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="850" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="850" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="855" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="855" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga7fcaf9ce73d825f8020964d9983d9da2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2176,7 +2176,7 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="865" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="865" bodyend="870"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="870" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="870" bodyend="875"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga54588105c52fe3a59667cb946efbca02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2214,7 +2214,7 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="886" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="886" bodyend="890"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="891" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="891" bodyend="895"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga8ef9ed5f2da44e68e667dd86157aa67f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2253,7 +2253,7 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="662" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="662" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="667" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="667" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga1c932fe74edcf6f32c2f87663edc1122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2305,7 +2305,7 @@ Configures bit field <emphasis>MCSEL</emphasis> of register <emphasis>GLOBCFG</e
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="752" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="752" bodyend="765"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="757" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="757" bodyend="770"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gaf99009cda039f955b12950d42d700d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2340,7 +2340,7 @@ Read <emphasis>PRSTAT0</emphasis> register&apos;s <emphasis>DSDRS</emphasis> bit
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="647" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="647" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="652" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" declline="652" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gae73cb88751e69031eb5d9ffbbfec47e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2391,7 +2391,7 @@ Set bit fields <emphasis>ALEVx</emphasis> of register <emphasis>EVFLAG.Clearing<
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1150" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1150" bodyend="1154"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1155" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1155" bodyend="1159"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1ga0dfd9c25608f8dd6d28f68fae3a04d68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2442,7 +2442,7 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1108" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1108" bodyend="1112"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="1113" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="1113" bodyend="1117"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gaf8ff4a18539762c79d68125f7298ccfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2492,7 +2492,7 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="714" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="714" bodyend="718"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="719" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="719" bodyend="723"/>
       </memberdef>
       <memberdef kind="function" id="group___d_s_d_1gac90d64373b776d4a0a50040243bb98d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2543,7 +2543,7 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="735" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="735" bodyend="739"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="740" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="740" bodyend="744"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -2557,7 +2557,7 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="112" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="112" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="117" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___d_s_d_1gaa407d696b0bec52989d3cc8c01f606ac" prot="public" static="no">
         <name>XMC_DSD_CHECK_MODULE_PTR</name>
@@ -2569,7 +2569,7 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="111" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="111" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="116" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -2595,9 +2595,10 @@ Set bit fields <emphasis>RESEVx</emphasis> of register <emphasis>EVFLAG.Clearing
 </listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___a_u_x___f_i_l_t_e_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_AUX_FILTER_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1gac5718c77cc5727ccf1b234f1e2653704" kindref="member">XMC_DSD_CH_AuxFilter_Init()</ref> to configure auxilary filter</para>
 </listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___i_n_t_e_g_r_a_t_o_r___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_INTEGRATOR_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga84eaf8c2fda261fcce202c81b2ee94c5" kindref="member">XMC_DSD_CH_Integrator_Init()</ref> to configure integrator</para>
 </listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___t_i_m_e_s_t_a_m_p___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_TIMESTAMP_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1gaefcf46240b873558f4813d682d3e7db1" kindref="member">XMC_DSD_CH_Timestamp_Init()</ref> to configure timestamp</para>
-</listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___r_e_c_t_i_f_y___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_RECTIFY_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga21153beece159dc431200a17bbf582cb" kindref="member">XMC_DSD_CH_Rectify_Init()</ref> to configure rectifier </para>
+</listitem><listitem><para>Configuration structure <ref refid="struct_x_m_c___d_s_d___c_h___r_e_c_t_i_f_y___c_o_n_f_i_g__t" kindref="compound">XMC_DSD_CH_RECTIFY_CONFIG_t</ref> and initialization function <ref refid="group___d_s_d_1ga21153beece159dc431200a17bbf582cb" kindref="member">XMC_DSD_CH_Rectify_Init()</ref> to configure rectifier</para>
 </listitem></orderedlist>
 </para>
+<para>Also, the DSD block can be configured from the ModusToolbox<trademark/> Device Configurator: <ref refid="page_personalities_reference_1section_personality_dsd" kindref="member">DSD Personality</ref> </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

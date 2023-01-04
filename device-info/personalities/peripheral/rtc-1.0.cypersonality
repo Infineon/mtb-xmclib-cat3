@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file rtc-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* RTC personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_rtc" name="RTC" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_rtc" />
+    <Resource name="rtc" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <!--Internal-->
+    <ParamBool id="xmc1" name="xmc1" group="Internal" default="`${lookupExpression(&quot;XMC1&quot;, 0)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="xmc4" name="xmc4" group="Internal" default="`${lookupExpression(&quot;XMC4&quot;, 0)}`" visible="false" editable="false" desc="" />
+    <ParamString id="accuracy" name="Clock Source Accuracy" group="Internal" default="`${getExposedMember(&quot;scu[0].clock[0].rtcclk[0]&quot;, &quot;accuracy&quot;)}`" visible="false" editable="false" desc="Clock source accuracy." />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${xmc1 ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___r_t_c.html" linkText="Open RTC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!--General-->
+    <ParamString id="rtc_clock_source" name="Clock Source" group="General" default="`${getExposedMember(&quot;scu[0].clock[0].rtcclk[0]&quot;, &quot;sourceClockDisplayName&quot;)}`" visible="true" editable="false" desc="Clock source." />
+    <ParamString id="rtc_accuracy" name="RTC Accuracy (Sec/Day)" group="General" default="`${60 * 60 * 24 * accuracy / 100.0}`" visible="true" editable="false" desc="RTC Accuracy in seconds per day." />
+
+    <!--Time Settings-->
+    <ParamChoice id="date_days_of_week" name="Days Of Week" group="Time Settings" default="XMC_RTC_WEEKDAY_SUNDAY" visible="true" editable="true" desc="Enter the day of week.">
+      <Entry name="Sunday" value="XMC_RTC_WEEKDAY_SUNDAY" visible="true" />
+      <Entry name="Monday" value="XMC_RTC_WEEKDAY_MONDAY" visible="true" />
+      <Entry name="Tuesday" value="XMC_RTC_WEEKDAY_TUESDAY" visible="true" />
+      <Entry name="Wednesday" value="XMC_RTC_WEEKDAY_WEDNESDAY" visible="true" />
+      <Entry name="Thursday" value="XMC_RTC_WEEKDAY_THURSDAY" visible="true" />
+      <Entry name="Friday" value="XMC_RTC_WEEKDAY_FRIDAY" visible="true" />
+      <Entry name="Saturday" value="XMC_RTC_WEEKDAY_SATURDAY" visible="true" />
+    </ParamChoice>
+    <ParamRange id="date_days" name="Days" group="Time Settings" default="1" min="1" max="31" resolution="1" visible="true" editable="true" desc="Enter days." />
+    <ParamRange id="date_month" name="Month" group="Time Settings" default="1" min="1" max="12" resolution="1" visible="true" editable="true" desc="Enter month." />
+    <ParamRange id="date_year" name="Year" group="Time Settings" default="1970" min="1970" max="9999" resolution="1" visible="true" editable="true" desc="Enter year." />
+    <ParamRange id="time_hours" name="Hours" group="Time Settings" default="0" min="0" max="23" resolution="1" visible="true" editable="true" desc="Enter hours." />
+    <ParamRange id="time_minutes" name="Minutes" group="Time Settings" default="0" min="0" max="59" resolution="1" visible="true" editable="true" desc="Enter minutes." />
+    <ParamRange id="time_seconds" name="Seconds" group="Time Settings" default="0" min="0" max="59" resolution="1" visible="true" editable="true" desc="Enter seconds." />
+
+    <!--Alarm Settings-->
+    <ParamRange id="alarm_days" name="Days" group="Alarm Settings" default="1" min="1" max="31" resolution="1" visible="true" editable="true" desc="Enter days." />
+    <ParamRange id="alarm_month" name="Month" group="Alarm Settings" default="1" min="1" max="12" resolution="1" visible="true" editable="true" desc="Enter month." />
+    <ParamRange id="alarm_year" name="Year" group="Alarm Settings" default="1970" min="1970" max="9999" resolution="1" visible="true" editable="true" desc="Enter year." />
+    <ParamRange id="alarm_hours" name="Hours" group="Alarm Settings" default="0" min="0" max="23" resolution="1" visible="true" editable="true" desc="Enter hours." />
+    <ParamRange id="alarm_minutes" name="Minutes" group="Alarm Settings" default="0" min="0" max="59" resolution="1" visible="true" editable="true" desc="Enter minutes." />
+    <ParamRange id="alarm_seconds" name="Seconds" group="Alarm Settings" default="0" min="0" max="59" resolution="1" visible="true" editable="true" desc="Enter seconds." />
+
+    <!--Periodic Event-->
+    <ParamBool id="periodic_event_days" name="Days" group="Periodic Event" default="false" visible="true" editable="true" desc="Periodic event - days." />
+    <ParamBool id="periodic_event_month" name="Month" group="Periodic Event" default="false" visible="true" editable="true" desc="Periodic event - month." />
+    <ParamBool id="periodic_event_year" name="Year" group="Periodic Event" default="false" visible="true" editable="true" desc="Periodic event - year." />
+    <ParamBool id="periodic_event_hours" name="Hours" group="Periodic Event" default="false" visible="true" editable="true" desc="Periodic event - hours." />
+    <ParamBool id="periodic_event_minutes" name="Minutes" group="Periodic Event" default="false" visible="true" editable="true" desc="Periodic event - minutes." />
+    <ParamBool id="periodic_event_seconds" name="Seconds" group="Periodic Event" default="false" visible="true" editable="true" desc="Periodic event - seconds." />
+
+    <!--Alarm Event Settings-->
+    <ParamBool id="enable_alarm_interrupt" name="Alarm Interrupt" group="Alarm Event Settings" default="false" visible="true" editable="true" desc="Enable alarm interrupt." />
+
+    <!-- Connections -->
+    <ParamSignal port="frtc[0]" name="frtc" group="Connections" visible="`${hasConnection(&quot;frtc&quot;, 0)}`" desc="32.768 kHz clock selected." canBeEmpty="true" />
+
+    <!-- Advanced -->
+    <ParamBool id="start_after_init" name="Start After Initialization" group="Advanced" default="false" visible="true" editable="true" desc="Start at Initialization." />
+    <ParamBool id="in_flash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+
+  <DRCs>
+    <DRC type="ERROR" text="Invalid value - Time Settings: Days. The selected month has 30 days."
+      condition="`${((date_month eq 4) || (date_month eq 6) || (date_month eq 9) || (date_month eq 11)) &amp;&amp; (date_days eq 31)}`">
+      <FixIt action="SET_PARAM" target="date_days" value="30" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Invalid value - Alarm Settings: Days. The selected month has 30 days."
+      condition="`${((alarm_month eq 4) || (alarm_month eq 6) || (alarm_month eq 9) || (alarm_month eq 11)) &amp;&amp; (alarm_days eq 31)}`">
+      <FixIt action="SET_PARAM" target="alarm_days" value="30" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Invalid value - Time Settings: Days. February has 28 days in common years or 29 days in a leap year."
+      condition="`${((date_month eq 2) &amp;&amp; (date_days gt 28))}`" >
+      <FixIt action="SET_PARAM" target="date_days" value="`${((date_year % 4) ? 28 : 29)}`" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Invalid value - Alarm Settings: Days. February has 28 days in common years or 29 days in a leap year."
+      condition="`${((alarm_month eq 2) &amp;&amp; (alarm_days gt 28))}`" >
+      <FixIt action="SET_PARAM" target="alarm_days" value="`${((alarm_year % 4) ? 28 : 29)}`" valid="true" />
+    </DRC>
+  </DRCs>
+
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_rtc.h" include="true" />
+    <ConfigInclude value="xmc1_rtc.h" include="`${xmc1}`" />
+    <ConfigInclude value="xmc4_rtc.h" include="`${xmc4}`" />
+
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_RTC_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="`${&quot;time.seconds&quot;}`" value="`${time_seconds}`U" />
+      <Member name="`${&quot;time.minutes&quot;}`" value="`${time_minutes}`U" />
+      <Member name="`${&quot;time.hours&quot;}`" value="`${time_hours}`U" />
+      <Member name="`${&quot;time.days&quot;}`" value="`${date_days}`U" />
+      <Member name="`${&quot;time.daysofweek&quot;}`" value="`${date_days_of_week}`" />
+      <Member name="`${&quot;time.month&quot;}`" value="`${date_month}`U" />
+      <Member name="`${&quot;time.year&quot;}`" value="`${date_year}`U" />
+      <Member name="`${&quot;alarm.seconds&quot;}`" value="`${alarm_seconds}`U" />
+      <Member name="`${&quot;alarm.minutes&quot;}`" value="`${alarm_minutes}`U" />
+      <Member name="`${&quot;alarm.hours&quot;}`" value="`${alarm_hours}`U" />
+      <Member name="`${&quot;alarm.days&quot;}`" value="`${alarm_days}`U" />
+      <Member name="`${&quot;alarm.month&quot;}`" value="`${alarm_month}`U" />
+      <Member name="`${&quot;alarm.year&quot;}`" value="`${alarm_year}`U" />
+      <Member name="prescaler" value="0x7fffU" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_RTC_Init(&amp;`${INST_NAME}`_config);" include="true" />
+    <ConfigInstruction value="XMC_RTC_EnableEvent(`${&quot;0UL&quot;.(periodic_event_days ? &quot; | XMC_RTC_EVENT_PERIODIC_DAYS&quot; : &quot;&quot;).
+                                                                     (periodic_event_month ? &quot; | XMC_RTC_EVENT_PERIODIC_MONTHS&quot; : &quot;&quot;).
+                                                                     (periodic_event_year ? &quot; | XMC_RTC_EVENT_PERIODIC_YEARS&quot; : &quot;&quot;).
+                                                                     (periodic_event_hours ? &quot; | XMC_RTC_EVENT_PERIODIC_HOURS&quot; : &quot;&quot;).
+                                                                     (periodic_event_minutes ? &quot; | XMC_RTC_EVENT_PERIODIC_MINUTES&quot; : &quot;&quot;).
+                                                                     (periodic_event_seconds ? &quot; | XMC_RTC_EVENT_PERIODIC_SECONDS&quot; : &quot;&quot;).
+                                                                     (enable_alarm_interrupt ? &quot; | XMC_RTC_EVENT_ALARM&quot; : &quot;&quot;)}`);"
+     include="`${(periodic_event_days || periodic_event_month || periodic_event_year || periodic_event_hours || periodic_event_minutes || periodic_event_seconds || enable_alarm_interrupt)}`" />
+
+    <ConfigInstruction value="XMC_RTC_Start();" include="`${start_after_init}`" />
+
+  </ConfigFirmware>
+</Personality>

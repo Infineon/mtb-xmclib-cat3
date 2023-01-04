@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file dac-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* DAC personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_dac" name="DAC" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_dac" />
+    <Resource name="dac" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="coupled_channels" paramId="dac_coupled_global_check" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___d_a_c.html" linkText="Open DAC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+
+    <ParamBool id="dac_coupled_global_check" name="Use DAC Coupled Register" group="Single Value Expert" default="false" visible="true" editable="true" desc="Enable DAC coupled mode to enable simultaneous data mode. If selected then it will update two DAC channel data in DATA01 register simultaneously." />
+  </Parameters>
+  <DRCs />
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_dac.h" include="true" />
+  </ConfigFirmware>
+</Personality>

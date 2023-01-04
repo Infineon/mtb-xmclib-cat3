@@ -30,9 +30,15 @@
     <IpBlock name="xmc_ccu4" />
     <Resource name="ccu4\.ch"/>
   </Dependencies>
-  <ExposedMembers/>
+  <ExposedMembers>
+    <ExposedMember key="isSR0Used" paramId="isSR0Used" />
+    <ExposedMember key="isSR1Used" paramId="isSR1Used" />
+    <ExposedMember key="isSR2Used" paramId="isSR2Used" />
+    <ExposedMember key="isSR3Used" paramId="isSR3Used" />
+  </ExposedMembers>
   <Parameters>
     <!-- Internal -->
+    <ParamBool id="debug" name="debug" group="Internal" default="false" visible="false" editable="false" desc="" />
     <ParamString id="module_num" name="Module Number" group="Internal" default="`${getInstNumber(&quot;ccu4&quot;)}`" visible="false" editable="false" desc="CCU4 parent module index." />
     <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;ch&quot;)}`" visible="false" editable="false" desc="CCU4 channel slice index." />
     <ParamString id="module_resource" name="Module Resource" group="Internal" default="ccu4[`${module_num}`]" visible="false" editable="false" desc="CCU4 parent module resource path." />
@@ -45,12 +51,13 @@
     <ParamString id="clock_resource" name="Clock Resource" group="Internal" default="scu[0].clock[0].ccuclk[0]" visible="false" editable="false" desc="Resource clock for CCU4" />
     <ParamBool id="clock_enabled" name="Clock Enabled" group="Internal" default="`${isBlockUsed(clock_resource)}`" visible="false" editable="false" desc="True when the resource clock for CCU4 is enabled" />
     <ParamBool id="clock_source_not_mclk" name="Clock Source is not MCLK" group="Internal" default="`${ip_ver3 &amp;&amp; clock_enabled ? (getExposedMember(clock_resource, &quot;sourceClockDisplayName&quot;) ne &quot;MCLK&quot;) : false}`" desc="True when PCLK source is not MCLK" visible="false" editable="false" />
+    <ParamString id="globalBaseAddr" name="globalBaseAddr" group="Internal" default="`${module_error ? NULL : getExposedMember(module_resource, &quot;baseAddr&quot;)}`" visible="`${debug}`" editable="false" desc="" />
 
-    <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u4.html" linkText="Open CCU4 Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <!-- Documentation -->
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u4.html" linkText="Open CCU4 Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Driver Documentation" />
+    <ParamDoc id="cfgDoc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_ccu4" linkText="Open CCU4 Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
 
     <!-- General Settings -->
-    <ParamBool id="init_start" name="Start During Initialization" group="General" default="true" visible="true" editable="true" desc="If enabled the timer will be started at the end of the CCU4 slice initialization." />
     <ParamChoice id="operation_mode" name="Operation Mode" group="General" default="XMC_CCU4_SLICE_MODE_COMPARE" visible="true" editable="true" desc="Choose between Compare and Capture Mode for the Timer Slice." >
       <Entry name="Compare Mode" value="XMC_CCU4_SLICE_MODE_COMPARE" visible="true" />
       <Entry name="Capture Mode" value="XMC_CCU4_SLICE_MODE_CAPTURE" visible="true" />
@@ -319,13 +326,23 @@
       <ParamSignal port="in$idx[0]" name="Event $idx Input Signal" group="Connections" visible="`${hasVisibleOption(&quot;in$idx[0]&quot;) &amp;&amp; !event$idx_sw_trigger}`" desc="CCU4 slice event $idx input signal" canBeEmpty="true" />
     </Repeat>
     <Repeat count="4">
+      <ParamBool id="isSR$idxUsed" name="isSR$idxUsed" group="Internal"
+                 default="`${(period_match_event_sr     eq $idx &amp;&amp; enable_period_match_event) ||
+                             (one_match_event_sr        eq $idx &amp;&amp; enable_one_match_event) ||
+                             (compare_up_match_event_sr eq $idx &amp;&amp; enable_compare_up_event) ||
+                             (compare_down_event_sr     eq $idx &amp;&amp; enable_compare_down_event) ||
+                             (external_event0_sr        eq $idx &amp;&amp; enable_external_event0) ||
+                             (external_event1_sr        eq $idx &amp;&amp; enable_external_event1) ||
+                             (external_event2_sr        eq $idx &amp;&amp; enable_external_event2)}`"
+                 visible="`${debug}`" editable="false" desc="" />
       <ParamSignal port="sr$idx[0]" name="Service Request $idx Signal" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="CCU4 slice service request $idx output signal" canBeEmpty="true" multiSelect="true" forbiddenBy="none"/>
     </Repeat>
 
-    <ParamSignal port="mcss[0]" name="Multi Channel Shadow Transfer Trigger" group="Signal" visible="`${hasVisibleOption(&quot;mcss[0]&quot;)}`" desc="Multi pattern sync with shadow transfer trigger can be used to synchronize two events." canBeEmpty="true" forbiddenBy="none"/>
+    <ParamSignal port="mcss[0]" name="Multi Channel Shadow Transfer Trigger" group="Connections" visible="`${hasVisibleOption(&quot;mcss[0]&quot;)}`" desc="Multi pattern sync with shadow transfer trigger can be used to synchronize two events." canBeEmpty="true" forbiddenBy="none"/>
     <ParamSignal port="ps[0]" name="Pattern Update Signal Select" group="Connections" visible="`${hasVisibleOption(&quot;ps[0]&quot;)}`" desc="CCU4 slice pattern update signal select" canBeEmpty="true" />
 
    <!-- Advanced -->
+    <ParamBool id="init_start" name="Start After Initialization" group="Advanced" default="true" visible="true" editable="true" desc="If enabled the timer will be started at the end of the CCU4 slice initialization." />
     <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
   </Parameters>
   <DRCs>
@@ -422,24 +439,24 @@
     <ConfigInstruction value="XMC_CCU4_SLICE_SetTimerPeriodMatch(`${INST_NAME}`_HW, `${timer_period_value}`U);" include="`${operation_mode eq XMC_CCU4_SLICE_MODE_COMPARE}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_CaptureInit(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_capture_config);" include="`${operation_mode eq XMC_CCU4_SLICE_MODE_CAPTURE}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_SetTimerPeriodMatch(`${INST_NAME}`_HW, `${max_count_value}`U);" include="`${(operation_mode eq XMC_CCU4_SLICE_MODE_CAPTURE) &amp;&amp; (enable_same_capture_event eq false)}`" />
-    <ConfigInstruction value="XMC_CCU4_SetMultiChannelShadowTransferMode(`${INST_NAME}`_MODULE_HW, XMC_CCU4_MULTI_CHANNEL_SHADOW_TRANSFER_SW`${enable_mcss_input ? &quot;_MCSS&quot; : &quot;&quot;}`_SLICE`${channel_num}`);" include="true" />
+    <ConfigInstruction value="XMC_CCU4_SetMultiChannelShadowTransferMode(`${globalBaseAddr}`, XMC_CCU4_MULTI_CHANNEL_SHADOW_TRANSFER_SW`${enable_mcss_input ? &quot;_MCSS&quot; : &quot;&quot;}`_SLICE`${channel_num}`);" include="true" />
     <ConfigInstruction value="XMC_CCU4_SLICE_`${enable_cascade_shadow_transfer ? &quot;Enable&quot; : &quot;Disable&quot;}`CascadedShadowTransfer(`${INST_NAME}`_HW);" include="`${ip_ver3}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_SetShadowTransferMode(`${INST_NAME}`_HW, `${shadow_transfer_mode}`);" include="`${ip_ver3 &amp;&amp; (operation_mode eq XMC_CCU4_SLICE_MODE_COMPARE) &amp;&amp; (compare_counting_mode eq XMC_CCU4_SLICE_TIMER_COUNT_MODE_CA)}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_WriteImmediateAfterShadowTransfer(`${INST_NAME}`_HW, 0U`${
-      (enable_period_immediate_update ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_WRITE_INTO_PERIOD_CONFIGURATION&quot; : &quot;&quot;) .
-      (enable_compare_immediate_update ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_WRITE_INTO_COMPARE_CONFIGURATION&quot; : &quot;&quot;) .
-      (enable_psl_immediate_update ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_WRITE_INTO_PASSIVE_LEVEL_CONFIGURATION&quot; : &quot;&quot;) .
-      (enable_dither_immediate_update ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_WRITE_INTO_DITHER_VALUE_CONFIGURATION&quot; : &quot;&quot;) .
-      (enable_prescaler_immediate_update ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_WRITE_INTO_FLOATING_PRESCALER_VALUE_CONFIGURATION&quot; : &quot;&quot;)}`);"
+      (enable_period_immediate_update ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_WRITE_INTO_PERIOD_CONFIGURATION&quot; : &quot;&quot;) .
+      (enable_compare_immediate_update ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_WRITE_INTO_COMPARE_CONFIGURATION&quot; : &quot;&quot;) .
+      (enable_psl_immediate_update ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_WRITE_INTO_PASSIVE_LEVEL_CONFIGURATION&quot; : &quot;&quot;) .
+      (enable_dither_immediate_update ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_WRITE_INTO_DITHER_VALUE_CONFIGURATION&quot; : &quot;&quot;) .
+      (enable_prescaler_immediate_update ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_WRITE_INTO_FLOATING_PRESCALER_VALUE_CONFIGURATION&quot; : &quot;&quot;)}`);"
       include="`${ip_ver3 &amp;&amp; (enable_period_immediate_update || enable_compare_immediate_update || enable_psl_immediate_update || enable_dither_immediate_update || enable_prescaler_immediate_update)}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_EnableAutomaticShadowTransferRequest(`${INST_NAME}`_HW, 0U`${
-      (automatic_shadow_transfer_request_on_period_write ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PERIOD_SHADOW&quot; : &quot;&quot;) .
-      (automatic_shadow_transfer_request_on_compare_write ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_COMPARE_SHADOW&quot; : &quot;&quot;) .
-      (automatic_shadow_transfer_request_on_psl_write ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PASSIVE_LEVEL&quot; : &quot;&quot;) .
-      (automatic_shadow_transfer_request_on_dither_write ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_DITHER_SHADOW&quot; : &quot;&quot;) .
-      (automatic_shadow_transfer_request_on_prescaler_write ? &quot; |&#xA;&#x9;&#x9;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_FLOATING_PRESCALER_SHADOW&quot; : &quot;&quot;)}`);"
+      (automatic_shadow_transfer_request_on_period_write ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PERIOD_SHADOW&quot; : &quot;&quot;) .
+      (automatic_shadow_transfer_request_on_compare_write ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_COMPARE_SHADOW&quot; : &quot;&quot;) .
+      (automatic_shadow_transfer_request_on_psl_write ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_PASSIVE_LEVEL&quot; : &quot;&quot;) .
+      (automatic_shadow_transfer_request_on_dither_write ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_DITHER_SHADOW&quot; : &quot;&quot;) .
+      (automatic_shadow_transfer_request_on_prescaler_write ? &quot; |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SLICE_AUTOMAIC_SHADOW_TRANSFER_WRITE_INTO_FLOATING_PRESCALER_SHADOW&quot; : &quot;&quot;)}`);"
       include="`${ip_ver3 &amp;&amp; (automatic_shadow_transfer_request_on_period_write || automatic_shadow_transfer_request_on_compare_write || automatic_shadow_transfer_request_on_psl_write || automatic_shadow_transfer_request_on_dither_write || automatic_shadow_transfer_request_on_prescaler_write)}`" />
-    <ConfigInstruction value="XMC_CCU4_EnableShadowTransfer(`${INST_NAME}`_MODULE_HW,&#xA;&#x9;&#x9;XMC_CCU4_SHADOW_TRANSFER_SLICE_`${channel_num}` |&#xA;&#x9;&#x9;XMC_CCU4_SHADOW_TRANSFER_DITHER_SLICE_`${channel_num}` |&#xA;&#x9;&#x9;XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_`${channel_num}` );" include="true" />
+    <ConfigInstruction value="XMC_CCU4_EnableShadowTransfer(`${globalBaseAddr}`,&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SHADOW_TRANSFER_SLICE_`${channel_num}` |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SHADOW_TRANSFER_DITHER_SLICE_`${channel_num}` |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_`${channel_num}` );" include="true" />
     <ConfigInstruction value="XMC_CCU4_SLICE_ConfigureEvent(`${INST_NAME}`_HW, XMC_CCU4_SLICE_EVENT_$idx, &amp;`${INST_NAME}`_event$idx_config);" include="true" repeatCount="3" />
     <ConfigInstruction value="XMC_CCU4_SLICE_StartConfig(`${INST_NAME}`_HW, `${start_function}`, `${start_function_mode}`);" include="`${start_function ne XMC_CCU4_SLICE_EVENT_NONE}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_StopConfig(`${INST_NAME}`_HW, `${stop_function}`, `${stop_function_mode}`);" include="`${stop_function ne XMC_CCU4_SLICE_EVENT_NONE}`" />
@@ -462,7 +479,7 @@
     <ConfigInstruction value="XMC_CCU4_SLICE_EnableEvent(`${INST_NAME}`_HW, XMC_CCU4_SLICE_IRQ_ID_COMPARE_MATCH_UP);" include="`${enable_compare_up_event}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_EnableEvent(`${INST_NAME}`_HW, XMC_CCU4_SLICE_IRQ_ID_COMPARE_MATCH_DOWN);" include="`${enable_compare_down_event}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_EnableEvent(`${INST_NAME}`_HW, XMC_CCU4_SLICE_IRQ_ID_EVENT$idx);" include="`${enable_external_event$idx}`" repeatCount="3" />
-    <ConfigInstruction value="XMC_CCU4_EnableClock(`${INST_NAME}`_MODULE_HW, `${INST_NAME}`_NUM);" include="true" />
+    <ConfigInstruction value="XMC_CCU4_EnableClock(`${globalBaseAddr}`, `${INST_NAME}`_NUM);" include="true" />
     <ConfigInstruction value="XMC_CCU4_SLICE_EnableTrap(`${INST_NAME}`_HW);" include="`${enable_trap_during_initialization &amp;&amp; (trap_function ne XMC_CCU4_SLICE_EVENT_NONE)}`" />
     <ConfigInstruction value="XMC_CCU4_SLICE_SetTimerValue(`${INST_NAME}`_HW, `${timer_initial_value}`U);" include="true" />
     <ConfigInstruction value="XMC_CCU4_SLICE_StartTimer(`${INST_NAME}`_HW);" include="`${init_start}`" />

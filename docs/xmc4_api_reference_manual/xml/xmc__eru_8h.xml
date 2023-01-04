@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__eru_8h" kind="file" language="C++">
     <compoundname>xmc_eru.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">xmc1_eru_map.h</includes>
     <includes local="yes">xmc4_eru_map.h</includes>
     <incdepgraph>
@@ -13,17 +13,12 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>xmc1_eru_map.h</label>
-      </node>
-      <node id="4">
-        <label>xmc4_eru_map.h</label>
       </node>
       <node id="2">
-        <label>xmc_common.h</label>
+        <label>xmc1_eru_map.h</label>
+      </node>
+      <node id="3">
+        <label>xmc4_eru_map.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___e_r_u___e_t_l___c_o_n_f_i_g__t" prot="public">XMC_ERU_ETL_CONFIG_t</innerclass>

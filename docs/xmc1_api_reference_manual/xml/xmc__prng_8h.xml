@@ -2,18 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__prng_8h" kind="file" language="C++">
     <compoundname>xmc_prng.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_prng.h</label>
-        <link refid="xmc__prng_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <innerclass refid="struct_x_m_c___p_r_n_g___i_n_i_t__t" prot="public">XMC_PRNG_INIT_t</innerclass>
       <sectiondef kind="define">
       <memberdef kind="define" id="group___p_r_n_g_1ga3410d04d1e98a69e80248f5a3abb23ff" prot="public" static="no">

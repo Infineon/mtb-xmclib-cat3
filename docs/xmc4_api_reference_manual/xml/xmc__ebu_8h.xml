@@ -2,19 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__ebu_8h" kind="file" language="C++">
     <compoundname>xmc_ebu.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes refid="xmc__scu_8h" local="yes">xmc_scu.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_ebu.h</label>
-        <link refid="xmc__ebu_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
     <innerclass refid="struct_x_m_c___e_b_u___b_u_s___r_e_a_d___c_o_n_f_i_g__t" prot="public">XMC_EBU_BUS_READ_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t" prot="public">XMC_EBU_BUS_WRITE_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___e_b_u___c_l_k___c_o_n_f_i_g__t" prot="public">XMC_EBU_CLK_CONFIG_t</innerclass>

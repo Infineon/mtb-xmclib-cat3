@@ -40,7 +40,7 @@
     <ParamString id="frequency" name="Nominal Frequency (Hz)" group="General"
       default="32768" visible="true" editable="false" desc="The nominal frequency" />
     <ParamRange id="accuracy" name="Accuracy (&#177;%)" group="General"
-      default="10" min="0" max="100" resolution="0.1" visible="true" editable="true"
+      default="5" min="0" max="100" resolution="0.1" visible="true" editable="true"
       desc="Clock accuracy in %, see the device datasheet for details" />
     <ParamString id="frequency_info" name="Actual Frequency" group="General"
       default="`${formatFrequency(frequency, accuracy)}`" visible="true" editable="false"

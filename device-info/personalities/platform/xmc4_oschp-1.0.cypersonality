@@ -51,7 +51,7 @@
     <ParamString id="fOSC_HP" name="Frequency (Hz)" group="Internal"
       default="`${ext_frequency * 1000000}`" visible="`${debug}`" editable="false"
       desc="External clock frequency in Hz." />
-    <ParamRange id="accuracyPpm" name="Accuracy (&#177;ppm)" group="General" default="25" min="0" max="1000000" resolution="1" visible="true" editable="true" desc="External Crystal Oscillator accuracy in ppm" />
+    <ParamRange id="accuracyPpm" name="Accuracy (&#177;ppm)" group="General" default="15" min="0" max="1000000" resolution="1" visible="true" editable="true" desc="External Crystal Oscillator accuracy in ppm" />
     <ParamString id="accuracy" name="Accuracy (&#177;%)" group="Internal" default="`${accuracyPpm/10000.0}`" visible="`${debug}`" editable="false" desc="Clock accuracy in %" />
   </Parameters>
 

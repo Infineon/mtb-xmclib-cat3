@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__usic_8h" kind="file" language="C++">
     <compoundname>xmc_usic.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">xmc1_usic_map.h</includes>
     <includes local="yes">xmc4_usic_map.h</includes>
     <includedby refid="xmc__i2c_8h" local="yes">xmc_i2c.h</includedby>
@@ -17,17 +17,12 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>xmc1_usic_map.h</label>
-      </node>
-      <node id="4">
-        <label>xmc4_usic_map.h</label>
       </node>
       <node id="2">
-        <label>xmc_common.h</label>
+        <label>xmc1_usic_map.h</label>
+      </node>
+      <node id="3">
+        <label>xmc4_usic_map.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___u_s_i_c___c_h__t" prot="public">XMC_USIC_CH_t</innerclass>

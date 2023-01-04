@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="page_personalities_reference" kind="page">
+    <compoundname>page_personalities_reference</compoundname>
+    <title>Personalities Reference</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The XMC Peripheral Library includes a set of files to enable the ModusToolbox<trademark/> Device Configurator functionality. These files are known as personalities and describe the user interface for the Device Configurator in the xml format. Based on the user settings, personalities generate initialization code (the configuration structures and initialization API calls), which is executed within the init_cycfg_all() function. The init_cycfg_all() is usually executed within the cybsp_init() function, or may be called directly in the main() function by the user. The system clock personalities generate a strong definition of the SystemCoreClockSetup() function, which is executed at a startup (before jumping to main.c, not within the init_cycfg_all() unlike other ModusToolbox<trademark/> PDL products).</para>
+<sect1 id="page_personalities_reference_1section_personality_advanced_settings">
+<title>Advanced Settings</title>
+<para>Most of the personalities have several common parameters located in the Advanced Settings group:</para>
+<para><itemizedlist>
+<listitem><para><bold>Start After Initialization:</bold> if enabled, the peripheral will start at the end of the peripheral initialization.</para>
+</listitem><listitem><para><bold>Store Config in Flash:</bold> controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false).</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="page_personalities_reference_1section_personality_ccu4">
+<title>CCU4 Personality</title>
+<para>There are two major revisions: 1.0 and 2.0</para>
+<para>The CCU4 1.0 is legacy and contains old-style EVENT_HANDLER definitions, which are deprecated and not recommended for usage in new applications.</para>
+<para>It is left in the XMCLib for the backward compatibility with already created projects that the user does not want to update.</para>
+<para>This support will be removed in the next major XMCLib revision.</para>
+<para>The CCU4 2.0 is almost the same as 1.0 but without the deprecated items, so it is recommended for new applications.</para>
+<sect2 id="page_personalities_reference_1subsection_ccu_codeGen">
+<title>Code Generation</title>
+<para>Instead of the deprecated items, modern INTERRUPT_HANDLER definitions are generated that are recommended for usage in applications:</para>
+<para><image type="html" name="ccu4_sr0_setting.png"></image>
+ <image type="html" name="ccu4_sr0_handler.png"></image>
+ Then, these definitions can be used in the application code, for example for the xmc4xxx devices: <programlisting filename="ccu.c"><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MyCCU4_SR0_INTERRUPT_HANDLER(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___c_c_u4_1ga40dd61be60dc66c77164829280181e90" kindref="member">XMC_CCU4_SLICE_ClearEvent</ref>(MyCCU4Slice_HW,<sp/><ref refid="group___c_c_u4_1gga9b6b22c75755089c6c4038de4a5d213ca1110754891260f416e50d1ad2bb30930" kindref="member">XMC_CCU4_SLICE_IRQ_ID_PERIOD_MATCH</ref>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> and for enabling the CCU4 interrupt before starting the block: <programlisting filename="ccu.c"><codeline><highlight class="normal"><sp/><sp/><sp/><sp/>NVIC_EnableIRQ(MyCCU4_SR0_IRQN);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___c_c_u4_1ga9997bb59706a4034e3e3be33a4935a7c" kindref="member">XMC_CCU4_SLICE_StartTimer</ref>(MyCCU4Slice_HW);</highlight></codeline>
+</programlisting></para>
+<para>Refer to the API reference <ref refid="group___c_c_u4" kindref="compound">Capture Compare Unit 4(CCU4)</ref> for the API details.</para>
+<para>Refer to the device Datasheet and Reference Manual for the HW details.</para>
+</sect2>
+</sect1>
+<sect1 id="page_personalities_reference_1section_personality_dsd">
+<title>DSD Personality</title>
+<para>The general DSD block configuration structure: <image type="html" name="dsd_settings_general.png"></image>
+</para>
+<para>The single channel GUI configurates a separate DSD channel: <image type="html" name="dsd_configuration_advanced.png"></image>
+ The Trigger (Integrator) settings are available for Advanced Preconfiguration Mode only.</para>
+<sect2 id="page_personalities_reference_1subsection_dsd_codeGen">
+<title>Code Generation</title>
+<para>Note that all the public generated code items are prefixed with the name given in the Device Configurator: <image type="html" name="dsd_instName.png"></image>
+ The personality generates a base address, channel ID, and interrupt-related macros that can be used in the application code: <programlisting filename="dsd.c"><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MyDSD_MAIN_FILTER_INTERRUPT_HANDLER(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___d_s_d_1gac3e92415ba18b5bcedb454bc02409631" kindref="member">XMC_DSD_ClearResultEventFlag</ref>(MyDSD_HW,<sp/>MyDSD_CH_ID);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MyDSD_AUX_FILTER_INTERRUPT_HANDLER(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___d_s_d_1ga14280e89324e1fb9adaa379d8e10b9fa" kindref="member">XMC_DSD_ClearAlarmEventFlag</ref>(MyDSD_HW,<sp/>MyDSD_CH_ID);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> and then, for enabling the DSD interrupts and starting the block itself: <programlisting filename="dsd.c"><codeline><highlight class="normal"><sp/><sp/><sp/><sp/>NVIC_EnableIRQ(MyDSD_MAIN_FILTER_IRQN);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>NVIC_EnableIRQ(MyDSD_AUX_FILTER_IRQN);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___d_s_d_1gaf8ff4a18539762c79d68125f7298ccfe" kindref="member">XMC_DSD_Start</ref>(MyDSD_HW,<sp/>MyDSD_CH_ID);</highlight></codeline>
+</programlisting></para>
+<para>Refer to the API reference <ref refid="group___d_s_d" kindref="compound">Delta Sigma Demodulator (DSD)</ref> for the API details.</para>
+<para>Refer to the device Datasheet and Reference Manual for the HW details. </para>
+</sect2>
+</sect1>
+<sect1 id="page_personalities_reference_1section_personality_hrpwm">
+<title>HRPWM Personality</title>
+<sect2 id="page_personalities_reference_1subsection_personality_hrpwm_csg">
+<title>Comparator &amp; Slope Generation Unit (CSG)</title>
+<para>The personality provides the following functionalities using the CSG peripheral:<orderedlist>
+<listitem><para>Inverting the comparator output.</para>
+</listitem><listitem><para>Blanking the comparator output.</para>
+</listitem><listitem><para>Clamping the comparator output.</para>
+</listitem><listitem><para>Slope generation in Decrementing mode.</para>
+</listitem><listitem><para>Slope generation in Incrementing mode.</para>
+</listitem><listitem><para>Slope generation in Triangle mode.</para>
+</listitem><listitem><para>Updating the slope start and stop value.</para>
+</listitem></orderedlist>
+</para>
+</sect2>
+<sect2 id="page_personalities_reference_1subsection_personality_hrpwm_hrc">
+<title>High Resolution Channel (HRC)</title>
+<para>The personality provides the following functionalities using the CCU8 and HRC peripherals:<orderedlist>
+<listitem><para>PWM signal generation on the selected port pins.</para>
+</listitem><listitem><para>Setting the required frequency of operation and initial duty cycle with the high-resolution positioning.</para>
+</listitem><listitem><para>Start the PWM unit after initialization or at a later time as required.</para>
+</listitem><listitem><para>Operate the PWM in Single shot or Continuous mode.</para>
+</listitem><listitem><para>Start multiple timers in the kernel synchronously.</para>
+</listitem><listitem><para>Generate PWM in Edge/Center aligned, Symmetric/Asymmetric mode.</para>
+</listitem><listitem><para>Select the passive state of the output.</para>
+</listitem><listitem><para>Connect up-to-three external event signals. The following functions can be implemented:<itemizedlist>
+<listitem><para>External Start</para>
+</listitem><listitem><para>External Stop</para>
+</listitem><listitem><para>External Count Direction</para>
+</listitem><listitem><para>External Gating</para>
+</listitem><listitem><para>External Count</para>
+</listitem><listitem><para>External Load</para>
+</listitem><listitem><para>External Modulation</para>
+</listitem><listitem><para>External Override (Level)</para>
+</listitem><listitem><para>External Trap</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Enable the period match or compare match events.</para>
+</listitem><listitem><para>Generate dead time between complementary outputs.</para>
+</listitem><listitem><para>Generate up-to-two PWMs with CCU8 and HRC slices.</para>
+</listitem></orderedlist>
+</para>
+<para>The next figure shows the functional overview of the PWM generation. The period match (PM) value is calculated based on the frequency and the compare match (CM) is calculated based on the duty cycle. The PWM state changes at the period and compare matches. <image type="html" name="hrpwm_overview.png">Overview of PWM generation</image>
+</para>
+</sect2>
+<sect2 id="page_personalities_reference_1subsection_personality_hrpwm_edge_symmetric">
+<title>CCU8 in Edge Aligned Symmetric Mode of Operation</title>
+<para>In this mode, we can use the 2 compare registers to generate 2 pairs of complementary outputs, which means a total of 4 outputs. The minimum duty that can be generated is 0% and the maximum is 100%. Here, the output is initially LOW until a compare match occurs. The output remains HIGH until a next match occurs. <image type="html" name="hrpwm_edge_symmetric.png">CCU8 in Edge Aligned Symmetric Mode</image>
+</para>
+<para><bold>Example with XMC4400:</bold></para>
+<para><formula id="0">$ Clock = 120MHz. $</formula></para>
+<para><formula id="1">$ Prescaler = 0. $</formula></para>
+<para><formula id="2">$ Required\:frequency\:of\:operation\:(F) = 100KHz. $</formula></para>
+<para><formula id="3">$ Duty\:required\:(D) = 30\%. $</formula></para>
+<para><formula id="4">$ Period = \frac{Clock}{(1 \texttt{&lt;&lt;} Prescaler) \cdot F} $</formula></para>
+<para><formula id="5">$ Cmp_{reg} = \frac{Period \cdot (100 - D)}{100} $</formula></para>
+<para><formula id="6">$ Period = \frac{120,000,000}{(1 \texttt{&lt;&lt;} 0) \cdot 100,000} $</formula></para>
+<para><formula id="7">$ Period = 1200 $</formula> <ensp/> Note: The value loaded to period register is <formula id="8">$ (Period - 1) $</formula>, i.e. <formula id="9">$ 1199. $</formula></para>
+<para><formula id="10">$ Cmp_{reg} = \frac{1200 \cdot (100 - 30)}{100} $</formula></para>
+<para><formula id="11">$ Cmp_{reg} = 840 $</formula> <linebreak/>
+ <linebreak/>
+ </para>
+</sect2>
+<sect2 id="page_personalities_reference_1subsection_personality_hrpwm_center_symmetric">
+<title>CCU8 in Center Aligned Symmetric Mode of Operation</title>
+<para>In this mode, we can use the 2 compare registers to generate 2 pairs of complementary outputs, which means a total of 4 outputs. The minimum duty that can be generated is 0% and the maximum is 100%. Here, the output is initially LOW. When a compare match occurs during the timer up-counting, the output is set HIGH. The output remains HIGH until a compare match occurs again during the timer down-counting. Here, we can see that the ON time of channel 1 and channel 2 are aligned to the time period center. <image type="html" name="hrpwm_center_symmetric.png">CCU8 in Center Aligned Symmetric Mode</image>
+</para>
+<para><bold>Example with XMC4400:</bold></para>
+<para><formula id="0">$ Clock = 120MHz. $</formula></para>
+<para><formula id="1">$ Prescaler = 0. $</formula></para>
+<para><formula id="2">$ Required\:frequency\:of\:operation\:(F) = 100KHz. $</formula></para>
+<para><formula id="3">$ Duty\:required\:(D) = 30\%. $</formula></para>
+<para><formula id="12">$ Period = \frac{Clock}{(1 \texttt{&lt;&lt;} Prescaler) \cdot 2F} $</formula></para>
+<para><formula id="5">$ Cmp_{reg} = \frac{Period \cdot (100 - D)}{100} $</formula></para>
+<para><formula id="13">$ Period = \frac{120,000,000}{(1 \texttt{&lt;&lt;} 0) \cdot 2 \cdot 100,000} $</formula></para>
+<para><formula id="14">$ Period = 600 $</formula> <ensp/> Note: The value loaded to period register is <formula id="8">$ (Period - 1) $</formula>, i.e. <formula id="15">$ 599. $</formula></para>
+<para><formula id="16">$ Cmp_{reg} = \frac{600 \cdot (100 - 30)}{100} $</formula></para>
+<para><formula id="17">$ Cmp_{reg} = 420 $</formula> <linebreak/>
+ <linebreak/>
+ </para>
+</sect2>
+<sect2 id="page_personalities_reference_1subsection_personality_hrpwm_edge_asymmetric">
+<title>CCU8 in Edge Aligned Asymmetric Mode of Operation</title>
+<para>In this mode, we can use the 2 compare registers to generate 1 pair of complementary outputs, which means a total of 2 outputs. The minimum duty that can be generated is 0% and the maximum is 100%. Here, the output remains LOW until a channel 1 compare match occurs. This duration can be called &quot;shift&quot;. The output remains HIGH until a channel 2 compare match occurs. This duration is determined by the duty. The condition is that the channel 2 register value is required to be greater that the channel 1 register value. This allows us to place the ON time anywhere in the time period, as long as the limiting conditions are met. <image type="html" name="hrpwm_edge_asymmetric.png">CCU8 in Edge Aligned Asymmetric Mode</image>
+</para>
+<para><bold>Example with XMC4400:</bold></para>
+<para><formula id="0">$ Clock = 120MHz. $</formula></para>
+<para><formula id="1">$ Prescaler = 0. $</formula></para>
+<para><formula id="2">$ Required\:frequency\:of\:operation\:(F) = 100KHz. $</formula></para>
+<para><formula id="18">$ Shift\:required\:(S) = 40\%. $</formula></para>
+<para><formula id="3">$ Duty\:required\:(D) = 30\%. $</formula></para>
+<para><formula id="4">$ Period = \frac{Clock}{(1 \texttt{&lt;&lt;} Prescaler) \cdot F} $</formula></para>
+<para><formula id="19">$ Cmp_{reg1} = \frac{Period \cdot S}{100} $</formula></para>
+<para><formula id="20">$ Cmp_{reg2} = \frac{Period \cdot (S + D)}{100} $</formula></para>
+<para><formula id="6">$ Period = \frac{120,000,000}{(1 \texttt{&lt;&lt;} 0) \cdot 100,000} $</formula></para>
+<para><formula id="7">$ Period = 1200 $</formula> <ensp/> Note: The value loaded to period register is <formula id="8">$ (Period - 1) $</formula>, i.e. <formula id="9">$ 1199. $</formula></para>
+<para><formula id="21">$ Cmp_{reg1} = \frac{1200 \cdot 40}{100} $</formula></para>
+<para><formula id="22">$ Cmp_{reg1} = 480 $</formula></para>
+<para><formula id="23">$ Cmp_{reg2} = \frac{1200 \cdot (40 + 30)}{100} $</formula></para>
+<para><formula id="24">$ Cmp_{reg2} = 840 $</formula> <linebreak/>
+ <linebreak/>
+ </para>
+</sect2>
+<sect2 id="page_personalities_reference_1subsection_personality_hrpwm_center_asymmetric">
+<title>CCU8 in Center Aligned Asymmetric Mode of Operation</title>
+<para>In this mode, we can use the 2 compare registers to generate 1 pair of complementary outputs, which means a total of 2 outputs. The minimum duty that can be generated is 0% and the maximum is 100%. Here, the output remains LOW until a channel 1 compare match occurs in the timer up-counting. This duration can be called &quot;shift&quot;. The output remains HIGH until a channel 2 compare match occurs during the timer down-counting. This duration is determined by the duty. <image type="html" name="hrpwm_center_asymmetric.png">CCU8 in Center Aligned Asymmetric Mode</image>
+</para>
+<para><bold>Example with XMC4400:</bold></para>
+<para><formula id="0">$ Clock = 120MHz. $</formula></para>
+<para><formula id="1">$ Prescaler = 0. $</formula></para>
+<para><formula id="2">$ Required\:frequency\:of\:operation\:(F) = 100KHz. $</formula></para>
+<para><formula id="18">$ Shift\:required\:(S) = 40\%. $</formula></para>
+<para><formula id="25">$ Duty\:required\:(D) = 40\%. $</formula></para>
+<para><formula id="12">$ Period = \frac{Clock}{(1 \texttt{&lt;&lt;} Prescaler) \cdot 2F} $</formula></para>
+<para><formula id="26">$ Cmp_{reg1} = \frac{2 \cdot Period \cdot S}{100} $</formula></para>
+<para><formula id="27">$ Cmp_{reg2} = \frac{2 \cdot Period \cdot (100 - (S + D))}{100} $</formula></para>
+<para><formula id="13">$ Period = \frac{120,000,000}{(1 \texttt{&lt;&lt;} 0) \cdot 2 \cdot 100,000} $</formula></para>
+<para><formula id="14">$ Period = 600 $</formula> <ensp/> Note: The value loaded to period register is <formula id="8">$ (Period - 1) $</formula>, i.e. <formula id="15">$ 599. $</formula></para>
+<para><formula id="28">$ Cmp_{reg1} = \frac{2 \cdot 600 \cdot 40}{100} $</formula></para>
+<para><formula id="22">$ Cmp_{reg1} = 480 $</formula></para>
+<para><formula id="29">$ Cmp_{reg2} = \frac{2 \cdot 600 \cdot (40 + 40)}{100} $</formula></para>
+<para><formula id="30">$ Cmp_{reg2} = 480 $</formula> <linebreak/>
+ <linebreak/>
+ </para>
+</sect2>
+<sect2 id="page_personalities_reference_1subsection_personality_hrpwm_ccu8">
+<title>CCU8 with HRPWM Mode of Operation</title>
+<para><image type="html" name="hrpwm_ccu8.png">CCU8</image>
+</para>
+<para><bold>Example with XMC4400:</bold></para>
+<para><formula id="31">$ Period = 10. $</formula></para>
+<para><formula id="32">$ Duty\:required\:(D) = 60\%. $</formula></para>
+<para><formula id="5">$ Cmp_{reg} = \frac{Period \cdot (100 - D)}{100} $</formula></para>
+<para><formula id="33">$ Cmp_{reg} = \frac{10 \cdot (100 - 60)}{100} $</formula></para>
+<para><formula id="34">$ Cmp_{reg} = 4 $</formula></para>
+<para>Now let us say:</para>
+<para><formula id="35">$ Duty\:required\:(D) = 65\%. $</formula></para>
+<para><formula id="36">$ Cmp_{reg} = \frac{10 \cdot (100 - 65)}{100} = 3.5 &amp;cong; 3 $</formula></para>
+<para>With compare register 3, we get a duty of 70%. Therefore, we are not able to get a duty of 65% with a period of 10. Hence, need to use the HRPWM module. <image type="html" name="hrpwm_ccu8_hi_res.png">CCU8 with HRPWM</image>
+</para>
+<para>The CCU8 output is fed to the HRPWM module. The HRPWM module has two registers - CR1 and CR2. CR1 delays the rising edge of the output, whereas CR2 extends the falling edge of the output. The High Resolution module has a resolution of 150 Pico second. We can achieve the positioning of the output in the step of 150ps. Thus, by configuring the CR1, CR2 registers we can achieve finer generation of the shift and duty. Refer to the reference manual to determine the minimum and maximum duty cycle feasible with the HRPWM module.</para>
+<para>Refer to the API reference <ref refid="group___h_r_p_w_m" kindref="compound">High Resolution PWM Unit (HRPWM)</ref> for the API details.</para>
+<para>Refer to the device Datasheet and Reference Manual for the HW details.</para>
+</sect2>
+</sect1>
+<sect1 id="page_personalities_reference_1section_personality_posif">
+<title>POSIF Personality</title>
+<sect2 id="page_personalities_reference_1subsection_personality_posif_qd">
+<title>Quadrature Decoder Mode</title>
+<para>Quadrature Decoder mode is used to find the position and speed of the motor using the incremental encoder. The profile is designed so that it can estimate the angle by consuming 3 CCU4 slices and an optional CCU4 slice along with POSIF and its interconnections.</para>
+<para>Four CCU4 slices are consumed for the following purposes:<orderedlist>
+<listitem><para>Position Counter - set the slice to be in Counter mode, which starts ticking based on encoder pulses to provide the absolute position:<itemizedlist>
+<listitem><para>Connect the Status Signal of the Position Counter CCU4 to an optional Revolution Counter CCU4 slice Event 0 Input Signal.</para>
+</listitem><listitem><para>Set the Count Function of the Revolution Counter CCU4 slice to Triggered by Event 0.</para>
+</listitem><listitem><para>Set the Event 0 Edge Selection of the Revolution Counter CCU4 slice to Signal Active on Falling Edge.</para>
+</listitem><listitem><para>Set the Event 0 Level Selection of the Revolution Counter CCU4 slice to Active on the High Level.</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Revolution Counter (optional) - set the slice to be in Counter mode, which ticks based on the Position Counter period match (Falling edge of ST signal).</para>
+</listitem><listitem><para>Time Between Ticks - the slice to measure time between ticks for the angle extrapolation.</para>
+</listitem><listitem><para>Time Stamp Trigger - the slice to generate a trigger at the time stamp point when the angle extrapolation is required.<itemizedlist>
+<listitem><para>Connect the Status Signal of the Time Stamp Trigger CCU4 slice to the Position Counter and Revolution Counter CCU4 slices Event 2 Input Signal, and the Time Between Ticks CCU4 slice Event 1 Input Signal.</para>
+</listitem><listitem><para>Set the Capture 0 Function of the Position Counter and Revolution Counter CCU4 slices to Triggered by Event 2 and set the Capture 1 Function for the Time Between Ticks CCU4 slice to Triggered by Event 1.</para>
+</listitem><listitem><para>Set the Event 2 Edge Selection of the Position Counter and Revolution Counter as well as Event 1 Edge Selection of the Time Between Ticks CCU4 slices to Signal Active on Falling Edge.</para>
+</listitem><listitem><para>Set the Event 2 Level Selection of the Position Counter and Revolution Counter as well as Event 1 Level Selection of the Time Between Ticks CCU4 slices to Active on High Level.</para>
+</listitem></itemizedlist>
+</para>
+</listitem></orderedlist>
+</para>
+<para>The POSIF module and its interconnection with CCU4 are depicted in the following diagram: <image type="html" name="posif_encoder_structure.png"></image>
+</para>
+</sect2>
+<sect2 id="page_personalities_reference_1subsection_personality_posif_hsm">
+<title>Hall Sensor Mode</title>
+<para>Hall Sensor mode is used to find the position and speed of the motor using 2 or 3 hall sensors. The POSIF personality in Hall Sensor mode uses two CCU4 slices - one to add a phase delay and one to capture the time between two correct hall patterns.</para>
+<para>The personality supports 3 hall sensors and 2 hall sensors in the following use cases:<orderedlist>
+<listitem><para>Find the speed and position for the PMSM motor: In this use case, the speed and position of the PMSM motor is obtained based on the hall sensor input. It is used in the PMSM motor control, which drives the inverter as per SVM algorithm.</para>
+</listitem><listitem><para>Find the speed and position for the BLDC motor: In this use case, the speed and position of the BLDC motor is obtained based on the hall sensor input. It is used in the BLDC motor control, which drives the inverter as per multi-channel pattern sequence.</para>
+</listitem></orderedlist>
+</para>
+<para>Refer to the API reference <ref refid="group___p_o_s_i_f" kindref="compound">Position Interface Unit (POSIF)</ref> for the API details.</para>
+<para>Refer to the device Datasheet and Reference Manual for the HW details.</para>
+</sect2>
+</sect1>
+<sect1 id="page_personalities_reference_1section_personality_wdt">
+<title>WDT Personality</title>
+<para>The Window boundaries configuration: <image type="html" name="wdt_window.png"></image>
+ <image type="html" name="wdt_window_cfg.png"></image>
+</para>
+<para>The Pre-Warning Alarm interrupt configuration: <image type="html" name="wdt_prewarn.png"></image>
+ <image type="html" name="wdt_prewarn_cfg.png"></image>
+</para>
+<sect2 id="page_personalities_reference_1subsection_wdt_codeGen">
+<title>Code Generation</title>
+<para>The configurator performs the [name]_EventHandler registration in the generated code, so declare it in the application code, for example for the xmc4xxx devices: <programlisting filename="wdt.c"><codeline><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>NMI_Handler(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___s_c_u_1ga9ba1ce317ce89edfea107893fbd8a0be" kindref="member">XMC_SCU_IRQHandler</ref>((uint32_t)SCU_0_IRQn);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MyWDT_EventHandler(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___w_d_t_1ga5ce909e8a079938c30259381a993d316" kindref="member">XMC_WDT_Service</ref>();</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> and then start the block itself (the rest of configurations are performed in the generated code): <programlisting filename="wdt.c"><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___w_d_t_1gad01935f7e01dcc6697efe642d64e0053" kindref="member">XMC_WDT_Start</ref>();</highlight></codeline>
+</programlisting></para>
+<para>Refer to the API reference <ref refid="group___w_d_t" kindref="compound">Watchdog driver (WDT)</ref> for the API details.</para>
+<para>Refer to the device Datasheet and Reference Manual for HW details. </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="configuration.txt"/>
+  </compounddef>
+</doxygen>

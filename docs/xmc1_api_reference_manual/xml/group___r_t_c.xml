@@ -55,7 +55,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Mask value to enable an event on periodic seconds </para>
+<para>Mask value to enable an event on periodic minutes </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___r_t_c_1gga9c572864ac7a5b1399523261e42f6951ab209cc2ec8a7edbb3230a3020d8104ed" prot="public">
@@ -64,7 +64,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Mask value to enable an event on periodic seconds </para>
+<para>Mask value to enable an event on periodic hours </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___r_t_c_1gga9c572864ac7a5b1399523261e42f6951afa22d124a4d8ff86f9d8f7e324eddc2a" prot="public">
@@ -73,7 +73,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Mask value to enable an event on periodic seconds </para>
+<para>Mask value to enable an event on periodic days </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___r_t_c_1gga9c572864ac7a5b1399523261e42f6951a317318fc7f639a462d8f42fea95f8031" prot="public">
@@ -82,7 +82,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Mask value to enable an event on periodic seconds </para>
+<para>Mask value to enable an event on periodic months </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___r_t_c_1gga9c572864ac7a5b1399523261e42f6951ad4142a107e9a717b51cc93e52955bd06" prot="public">
@@ -91,7 +91,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Mask value to enable an event on periodic seconds </para>
+<para>Mask value to enable an event on periodic years </para>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="group___r_t_c_1gga9c572864ac7a5b1399523261e42f6951a8113ac4db38433f2aab4bc993ef2a720" prot="public">
@@ -100,7 +100,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Mask value to enable an event on periodic seconds </para>
+<para>Mask value to enable an alarm event </para>
           </detaileddescription>
         </enumvalue>
         <briefdescription>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="114" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="115" bodyend="123"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="118" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="119" bodyend="127"/>
       </memberdef>
       <memberdef kind="enum" id="group___r_t_c_1ga9fbe92e7ed334021ef7290a0a7a8ac63" prot="public" static="no" strong="no">
         <type></type>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="128" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="129" bodyend="142"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="132" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="133" bodyend="146"/>
       </memberdef>
       <memberdef kind="enum" id="group___r_t_c_1gaed446fc99b168a439c6cc2db2a205dfa" prot="public" static="no" strong="no">
         <type></type>
@@ -257,7 +257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="104" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="105" bodyend="109"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="108" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="109" bodyend="113"/>
       </memberdef>
       <memberdef kind="enum" id="group___r_t_c_1ga6c1ab7306136e305052ea695da51c855" prot="public" static="no" strong="no">
         <type></type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="147" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="148" bodyend="156"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="151" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="152" bodyend="160"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -363,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="638" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="638" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="642" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="642" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga304ac03dcebdf34bd64d8a4a55f68e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -381,7 +381,7 @@
 <simplesect kind="par"><title>Description</title><para>Disables RTC peripheral for programming its registers <linebreak/>
 </para>
 </simplesect>
-<simplesect kind="par"><title>\iline 341 </title><para>Gates the peripheral clock.  </para>
+<simplesect kind="par"><title>\iline 345 </title><para>Gates the peripheral clock.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___r_t_c_1gaff18bac4a49b34e5e75db30ad226a6e2" kindref="member">XMC_RTC_Enable()</ref>, XMC_SCU_RESET_AssertPeripheralReset() </para>
 </simplesect>
@@ -389,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="349" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="349" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="353" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="353" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga9cdf252baa2e293e393b3bd75c1858a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -425,7 +425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="620" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="620" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="624" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="624" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1gaff18bac4a49b34e5e75db30ad226a6e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -443,7 +443,7 @@
 <simplesect kind="par"><title>Description</title><para>Enables RTC peripheral for programming its registers <linebreak/>
 </para>
 </simplesect>
-<simplesect kind="par"><title>\iline 322 </title><para>Ungates the peripheral clock.  </para>
+<simplesect kind="par"><title>\iline 326 </title><para>Ungates the peripheral clock.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___r_t_c_1ga304ac03dcebdf34bd64d8a4a55f68e7e" kindref="member">XMC_RTC_Disable()</ref>, XMC_SCU_RESET_DeassertPeripheralReset() </para>
 </simplesect>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="330" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="330" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="334" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="334" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1gabb9181ef4ea092ce09bc8c80318fad23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -487,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="601" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="601" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="605" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="605" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga59347e7f1a7647efca68561c97dc455c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -524,7 +524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="545" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="545" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="549" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="549" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1gab7e150db371758a584a7efaf778ec65e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -561,7 +561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="582" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="582" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="586" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="586" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga303f3ef19eaacd57fd05e4c65759c503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -587,7 +587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="654" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="654" declcolumn="10"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="658" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="658" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1gad6bbfb84e080773cc0bc97a6b5d04673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -613,7 +613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="434" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="434" bodyend="437"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="438" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="438" bodyend="441"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga073e95cbaffd55d6f7c96557bb63cc9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -650,7 +650,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="472" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="472" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="476" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="476" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga7ea79333ab81d7595d2d36f65d693c1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -687,7 +687,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="509" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="509" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="513" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="513" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga6d21f3c6b2be1975f1593301c4ba9698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___r_t_c_1gaed446fc99b168a439c6cc2db2a205dfa" kindref="member">XMC_RTC_STATUS_t</ref></type>
@@ -715,13 +715,13 @@
 <simplesect kind="par"><title>Description: </title><para>Initialize the RTC peripheral <linebreak/>
 </para>
 </simplesect>
-<simplesect kind="par"><title>\iline 304 </title><para>The function ungates the peripheral clock for RTC, configures internal clock divider, time and alarm values by writing to the CTR.DIV, TIM0, TIM1, ATIM0 and ATIM1 registers.  </para>
+<simplesect kind="par"><title>\iline 308 </title><para>The function ungates the peripheral clock for RTC, configures internal clock divider, time and alarm values by writing to the CTR.DIV, TIM0, TIM1, ATIM0 and ATIM1 registers.  </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="311" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="311" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="315" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="315" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1gaa43757597d99d09440fe053536b380e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -739,7 +739,7 @@
 <simplesect kind="par"><title>Description</title><para>Checks RTC peripheral is enabled for programming its registers <linebreak/>
 </para>
 </simplesect>
-<simplesect kind="par"><title>\iline 360 </title><para>Checks peripheral clock is ungated or not.  </para>
+<simplesect kind="par"><title>\iline 364 </title><para>Checks peripheral clock is ungated or not.  </para>
 </simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___r_t_c_1gaff18bac4a49b34e5e75db30ad226a6e2" kindref="member">XMC_RTC_Enable()</ref>, <ref refid="group___r_t_c_1ga304ac03dcebdf34bd64d8a4a55f68e7e" kindref="member">XMC_RTC_Disable()</ref>, XMC_SCU_RESET_DeassertPeripheralReset(), XMC_SCU_RESET_AssertPeripheralReset() </para>
 </simplesect>
@@ -747,7 +747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="369" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="369" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="373" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="373" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1gae3c731e9a54a8723b34a3e1b7dfb54ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -773,7 +773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="670" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="670" bodyend="673"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="674" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" bodystart="674" bodyend="677"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1gab729ddc6942f268a7775faf5b8dba8ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -810,7 +810,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="527" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="527" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="531" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="531" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga9b7300d074526315c349c4de2b655948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -846,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="562" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="562" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="566" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="566" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1gafe70c1437b9b4af0c0c8ac85870d631c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -916,7 +916,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="418" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="418" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="422" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="422" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga05d0802f267b55eee877eb96707658b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -953,7 +953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="455" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="455" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="459" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="459" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga6ed60ac9d9ba537b8373be7c35cf7da2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -989,7 +989,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="489" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="489" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="493" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="493" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga154a51800df4635e2ab026b3c89b3678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1015,7 +1015,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="385" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="385" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="389" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="389" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___r_t_c_1ga12b8b8ec35283763356be6f42acad92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1041,7 +1041,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="400" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="400" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" line="404" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_rtc.h" declline="404" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1049,7 +1049,8 @@
     </briefdescription>
     <detaileddescription>
 <para>Real-time clock (RTC) is a clock that keeps track of the current time. Precise real time keeping is with a 32.768 KHz external crystal clock or a 32.768 KHz high precision internal clock. It provides a periodic time based interrupt and a programmable alarm interrupt on time match. It also supports wakeup from hibernate.</para>
-<para>The RTC low level driver provides functions to configure and initialize the RTC hardware peripheral. </para>
+<para>The RTC low level driver provides functions to configure and initialize the RTC hardware peripheral.</para>
+<para>Also, the RTC block can be configured from the ModusToolbox<trademark/> Device Configurator: section_personality_rtc </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

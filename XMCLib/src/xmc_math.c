@@ -65,6 +65,9 @@
  * 2019-12-16:
  *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
+ * 2022-03-15:
+ *     - Remove externally_visible attribute from the __aeabi_* forward declaration for ARM compiler.
+ *
  * @endcond
  *
  */

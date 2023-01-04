@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file hrpwm-csg-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* HRPWM CSG personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_hrpwm-csg" name="HRPWM-CSG" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_hrpwm" />
+    <Resource name="hrpwm\.csg\.mux" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="csg_sr$idx_valid" paramId="number_of_sr$idx" repeatCount="4" />
+  </ExposedMembers>
+  <Parameters>
+
+    <!-- Internal -->
+    <ParamString id="clock_resource" name="CCU Clock Resource" group="Internal" default="scu[0].clock[0].ccuclk[0]" visible="false" editable="false" desc="" />
+    <ParamBool id="clock_error" name="Clock Error" group="Internal" default="`${!isBlockUsed(clock_resource)}`" visible="false" editable="false" desc="" />
+    <ParamString id="fCCU8" name="CCU8 Clock Frequency" group="Clock Settings" default="`${clock_error ? 0.0 : getExposedMember(clock_resource, &quot;frequency&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="tmp_time" name="Time" group="Clock Settings" default="`${1000000.0/fCCU8}`" visible="false" editable="false" desc="" />
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;csg&quot;)}`" visible="false" editable="false" desc="HRPWM CSG channel slice index." />
+    <ParamString id="module_resource" name="Module Resource" group="Internal" default="hrpwm[0]" visible="false" editable="false" desc="HRPWM parent module resource path." />
+    <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(module_resource)}`" visible="false" editable="false" desc="True when the HRPWM module resource is not enabled." />
+    <ParamString id="ccu8_module_resource" name="Module Resource" group="Internal" default="ccu8[0]" visible="false" editable="false" desc="CCU8 parent module resource path." />
+    <ParamBool id="ccu8_module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(ccu8_module_resource)}`" visible="false" editable="false" desc="True when the CCU8 module resource is not enabled." />
+    <ParamString id="dac_module_resource" name="Module Resource" group="Internal" default="dac[0]" visible="false" editable="false" desc="DAC parent module resource path." />
+    <ParamBool id="dac_module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(dac_module_resource)}`" visible="false" editable="false" desc="True when the DAC module resource is not enabled." />
+    <ParamString id="hrpwm_module_resource" name="Module Resource" group="Internal" default="hrpwm[0]" visible="false" editable="false" desc="HRPWM parent module resource path." />
+    <ParamBool id="hrpwm_module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(hrpwm_module_resource)}`" visible="false" editable="false" desc="True when the HRPWM module resource is not enabled." />
+    <ParamString id="hrpwm_module_global" name="HRPWM Module Base Address" group="Internal" default="`${hrpwm_module_error ? &quot;NULL&quot; : getExposedMember(hrpwm_module_resource, &quot;hrpwm_module_base_address&quot;)}`" visible="false" editable="false" desc="" />
+
+    <!-- Peripheral Documentation -->
+    <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___h_r_p_w_m.html" linkText="Open HRPWM Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_hrpwm" linkText="Open HRPWM Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+
+    <!-- General Settings -->
+    <ParamBool id="advanced_settings" name="Advanced Settings" group="General Settings" default="false" visible="true" editable="true" desc="Enable advanced settings." />
+
+    <!-- Comparator Settings -->
+    <ParamImage id="comparator_input_image" name="Input Selector Block" group="Comparator Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_csg_cmp_op_setting.png" visible="true" desc="Through the CMP Input Selector block the user has the possibility to select the inputs that are allocated to several functions." />
+    <ParamChoice id="comparator_input_sw" name="Switching Configuration" group="Comparator Settings" default="XMC_HRPWM_CSG_LVL_SEL_DISABLED" visible="`${advanced_settings}`" editable="true" desc="Comparator input switching configuration.">
+      <Entry name="Disabled" value="XMC_HRPWM_CSG_LVL_SEL_DISABLED" visible="true" />
+      <Entry name="Low" value="XMC_HRPWM_CSG_LVL_SEL_LOW" visible="true" />
+      <Entry name="High" value="XMC_HRPWM_CSG_LVL_SEL_HIGH" visible="true" />
+    </ParamChoice>
+    <ParamBool id="invert_comparator_output" name="Invert Comparator Output" group="Comparator Settings" default="false" visible="true" editable="true" desc="Enables the inverting of comparator output." />
+    <ParamBool id="select_filter" name="Select Filter" group="Comparator Settings" default="false" visible="true" editable="true" desc="Enable the filtering of comparing." />
+    <ParamChoice id="filter_comparator_output" name="Filter Comparator Output" group="Comparator Settings" default="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_2_CLK_CYCLES" visible="true" editable="`${select_filter}`" desc="Select the filtering of comparing.">
+      <Entry name="2 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_2_CLK_CYCLES" visible="true" />
+      <Entry name="3 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_3_CLK_CYCLES" visible="true" />
+      <Entry name="4 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_4_CLK_CYCLES" visible="true" />
+      <Entry name="5 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_5_CLK_CYCLES" visible="true" />
+      <Entry name="6 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_6_CLK_CYCLES" visible="true" />
+      <Entry name="7 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_7_CLK_CYCLES" visible="true" />
+      <Entry name="8 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_8_CLK_CYCLES" visible="true" />
+      <Entry name="9 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_9_CLK_CYCLES" visible="true" />
+      <Entry name="10 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_10_CLK_CYCLES" visible="true" />
+      <Entry name="11 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_11_CLK_CYCLES" visible="true" />
+      <Entry name="12 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_12_CLK_CYCLES" visible="true" />
+      <Entry name="13 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_13_CLK_CYCLES" visible="true" />
+      <Entry name="14 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_14_CLK_CYCLES" visible="true" />
+      <Entry name="15 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_15_CLK_CYCLES" visible="true" />
+      <Entry name="16 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_16_CLK_CYCLES" visible="true" />
+      <Entry name="32 Clock Cycle" value="XMC_HRPWM_CSG_CMP_FILTER_WINDOW_32_CLK_CYCLES" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="filter_control" name="Filter Control" group="Comparator Settings" default="0" visible="`${advanced_settings}`" editable="true" desc="Select the filtering control.">
+      <Entry name="Always Done If Enabled" value="0" visible="true" />
+      <Entry name="CSGyDSV1 Is Currently Fed To DAC" value="1" visible="true" />
+      <Entry name="CSGyDSV2 Is Currently Fed To DAC" value="2" visible="true" />
+    </ParamChoice>
+
+    <!-- Blanking Settings -->
+    <ParamBool id="external_signal" name="External Signal" group="Blanking Settings" default="false" visible="true" editable="true" desc="Enables the transition of external signal." />
+    <ParamChoice id="blanking_mode" name="Blanking Mode" group="Blanking Settings" default="XMC_HRPWM_CSG_EDGE_SEL_DISABLED" visible="true" editable="true" desc="Select the blanking mode.">
+      <Entry name="Disabled" value="XMC_HRPWM_CSG_EDGE_SEL_DISABLED" visible="true" />
+      <Entry name="Start Upon Low To High Transition" value="XMC_HRPWM_CSG_EDGE_SEL_RISING_EDGE" visible="true" />
+      <Entry name="Start Upon High To Low Transition" value="XMC_HRPWM_CSG_EDGE_SEL_FALLING_EDGE" visible="true" />
+      <Entry name="Start Upon Both Transition" value="XMC_HRPWM_CSG_EDGE_SEL_BOTH_EDGE" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="blanking_level" name="Blanking Level" group="Blanking Settings" default="XMC_HRPWM_CSG_LVL_SEL_DISABLED" visible="`${advanced_settings}`" editable="true" desc="Active level of Blanking.">
+      <Entry name="Disabled" value="XMC_HRPWM_CSG_LVL_SEL_DISABLED" visible="true" />
+      <Entry name="Low" value="XMC_HRPWM_CSG_LVL_SEL_LOW" visible="true" />
+      <Entry name="High" value="XMC_HRPWM_CSG_LVL_SEL_HIGH" visible="true" />
+    </ParamChoice>
+    <ParamRange id="blanking_time" name="Blanking Time" group="Blanking Settings" default="0" min="0" max="3187.5" resolution="0.1" visible="true" editable="`${blanking_mode ne XMC_HRPWM_CSG_EDGE_SEL_DISABLED}`" desc="Enter the blanking time." />
+    <ParamRange id="blanking_velue" name="Blanking Value" group="Blanking Settings" default="`${blanking_time*(fCCU8/1000000000.0)}`" min="0" max="255" resolution="1" visible="false" editable="false" desc="" />
+    <ParamBool id="comparator_ext_sw" name="Switching Via External Trigger" group="Blanking Settings" default="false" visible="`${advanced_settings}`" editable="true" desc="Enable switching of input between CINA and CINB via external trigger." />
+
+    <!-- Clamping Of Comparator Output Settings -->
+    <ParamBool id="enable_clamping_of_comparator_output" name="Clamping Of Comparator Output" group="Clamping Of Comparator Output Settings" default="false" visible="true" editable="true" desc="Enables the clamping of comparator output." />
+    <ParamChoice id="comparator_output_clamp_edge" name="Comparator Output Clamp Edge" group="Clamping Of Comparator Output Settings" default="XMC_HRPWM_CSG_EDGE_SEL_DISABLED" visible="`${advanced_settings}`" editable="`${enable_clamping_of_comparator_output}`" desc="Active edge of comparator output.">
+      <Entry name="Disabled" value="XMC_HRPWM_CSG_EDGE_SEL_DISABLED" visible="true" />
+      <Entry name="Rising" value="XMC_HRPWM_CSG_EDGE_SEL_RISING_EDGE" visible="true" />
+      <Entry name="Falling" value="XMC_HRPWM_CSG_EDGE_SEL_FALLING_EDGE" visible="true" />
+      <Entry name="Both" value="XMC_HRPWM_CSG_EDGE_SEL_BOTH_EDGE" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="comparator_output_clamp_level" name="Comparator Output Clamp Level" group="Clamping Of Comparator Output Settings" default="0" visible="true" editable="`${enable_clamping_of_comparator_output}`" desc="Select the passive level of comparator output.">
+      <Entry name="Low" value="0" visible="true" />
+      <Entry name="High" value="1" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="clamping_state_happens_external_clamp_level" name="Clamping State Happens" group="Clamping Of Comparator Output Settings" default="1" visible="true" editable="`${enable_clamping_of_comparator_output}`" desc="Select the trigger signal level of clamping.">
+      <Entry name="Low" value="0" visible="true" />
+      <Entry name="High" value="1" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="clamping_state_enter_config" name="Clamping State Enter Config" group="Clamping Of Comparator Output Settings" default="0" visible="true" editable="`${enable_clamping_of_comparator_output}`" desc="Select the mode for entering clamp state.">
+      <Entry name="Immediately" value="0" visible="true" />
+      <Entry name="After The Comparator Output Level Passes To Low" value="1" visible="true" />
+      <Entry name="After The Comparator Output Level Passes To High" value="2" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="clamping_state_exit_config" name="Clamping State Exit Config" group="Clamping Of Comparator Output Settings" default="0" visible="true" editable="`${enable_clamping_of_comparator_output}`" desc="Select the mode for exiting clamp state.">
+      <Entry name="Immediately" value="0" visible="true" />
+      <Entry name="After The Comparator Output Level Passes To Low" value="1" visible="true" />
+      <Entry name="After The Comparator Output Level Passes To High" value="2" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="clamping_state_exit_sw_config" name="Clamping State Exit SW Config" group="Clamping Of Comparator Output Settings" default="0" visible="true" editable="`${enable_clamping_of_comparator_output}`" desc="Select the control for exiting clamped state.">
+      <Entry name="External Signal And SW" value="0" visible="true" />
+      <Entry name="Only SW" value="1" visible="true" />
+    </ParamChoice>
+
+    <!-- DAC And Slope Settings -->
+    <ParamBool id="run_dac_at_init" name="Run DAC At Init" group="DAC And Slope Settings" default="false" visible="true" editable="true" desc="Start Slope generation after inicialization." />
+    <ParamChoice id="dac_mode" name="DAC Mode" group="DAC And Slope Settings" default="XMC_HRPWM_CSG_SLOPE_CTRL_MODE_INC_GEN" visible="true" editable="true" desc="Select Slope generation mode.">
+      <Entry name="Static" value="XMC_HRPWM_CSG_SLOPE_CTRL_MODE_STATIC" visible="true" />
+      <Entry name="Decrementing Slope" value="XMC_HRPWM_CSG_SLOPE_CTRL_MODE_DEC_GEN" visible="true" />
+      <Entry name="Incrementing Slope" value="XMC_HRPWM_CSG_SLOPE_CTRL_MODE_INC_GEN" visible="true" />
+      <Entry name="Triangular Slope" value="XMC_HRPWM_CSG_SLOPE_CTRL_MODE_TRIANGULAR" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="restart_slope" name="Restart Slope" group="DAC And Slope Settings" default="XMC_HRPWM_CSG_EDGE_SEL_RISING_EDGE" visible="true" editable="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_DEC_GEN) || (dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_INC_GEN)}`" desc="Select the mode for restart of slope generation.">
+      <Entry name="Upon Rising Edge Of External Signal" value="XMC_HRPWM_CSG_EDGE_SEL_RISING_EDGE" visible="true" />
+      <Entry name="Upon Falling Edge Of External Signal" value="XMC_HRPWM_CSG_EDGE_SEL_FALLING_EDGE" visible="true" />
+      <Entry name="Upon Both Edge Of External Signal" value="XMC_HRPWM_CSG_EDGE_SEL_BOTH_EDGE" visible="true" />
+      <Entry name="If DAC Value Reaches Stop Value (DSV2)" value="XMC_HRPWM_CSG_EDGE_SEL_DISABLED" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="restart_slope_level" name="Slope Level" group="DAC And Slope Settings" default="XMC_HRPWM_CSG_LVL_SEL_HIGH" visible="`${advanced_settings}`" editable="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_DEC_GEN) || (dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_INC_GEN)}`" desc="Active level of start slope.">
+      <Entry name="Disabled" value="XMC_HRPWM_CSG_LVL_SEL_DISABLED" visible="true" />
+      <Entry name="Low" value="XMC_HRPWM_CSG_LVL_SEL_LOW" visible="true" />
+      <Entry name="High" value="XMC_HRPWM_CSG_LVL_SEL_HIGH" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="start_mode" name="Start Mode" group="DAC And Slope Settings" default="XMC_HRPWM_CSG_SWSM_DSV1_W_TRIGGER" visible="`${advanced_settings}`" editable="true" desc="Initial DAC start mode.">
+      <Entry name="DSV2 - Conversion Trigger" value="XMC_HRPWM_CSG_SWSM_DSV2_W_TRIGGER" visible="true" />
+      <Entry name="DSV1 - Conversion Trigger" value="XMC_HRPWM_CSG_SWSM_DSV1_W_TRIGGER" visible="true" />
+      <Entry name="DSV2 - No Conversion Trigger" value="XMC_HRPWM_CSG_SWSM_DSV2_NO_TRIGGER" visible="true" />
+      <Entry name="DSV1 - No Conversion Trigger" value="XMC_HRPWM_CSG_SWSM_DSV1_NO_TRIGGER" visible="true" />
+    </ParamChoice>
+    <ParamRange id="start_value_dsv1" name="Start Value DSV1 (mV)" group="DAC And Slope Settings" default="3000" min="0" max="3300" resolution="0.1" visible="true" editable="true" desc="DSV1 register is calculated using the entered value." />
+    <ParamRange id="dac_dsv1" name="DAC DSV1" group="DAC And Slope Settings" default="`${start_value_dsv1*1023.0/3300.0}`" min="0" max="1023" resolution="1" visible="false" editable="false" desc="" />
+    <ParamRange id="stop_value_dsv2" name="Stop Value DSV2 (mV)" group="DAC And Slope Settings" default="0" min="0" max="3300" resolution="0.1" visible="true" editable="`${((dac_mode ne XMC_HRPWM_CSG_SLOPE_CTRL_MODE_STATIC) &amp;&amp; (restart_slope eq XMC_HRPWM_CSG_EDGE_SEL_DISABLED)) || (dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_TRIANGULAR)}`" desc="DSV2 register is calculated using the entered value." />
+    <ParamRange id="dac_dsv2" name="DAC DSV2" group="DAC And Slope Settings" default="`${stop_value_dsv2*1023.0/3300.0}`" min="0" max="1023" resolution="1" visible="false" editable="false" desc="" />
+    <ParamRange id="slope_value_dsv2" name="Slope Value (mV/usec)" group="DAC And Slope Settings" default="330" min="4.032258064516129" max="2064.516129032258" resolution="0.01" visible="true" editable="`${dac_mode ne 0}`" desc="Prescaler, gain and pusle swallow and calculated using the endtered value." />
+    <ParamRange id="gain" name="Gain" group="DAC And Slope Settings" default="`${(slope_value_dsv2 > 1023.258) ? &quot;8&quot; : ((slope_value_dsv2 > 516.129) ? &quot;4&quot; : ((slope_value_dsv2 > 258.0645) ? &quot;2&quot; : &quot;1&quot;)) }`" min="1" max="8" resolution="1" visible="false" editable="false" desc="" />
+    <ParamRange id="ginteger_pulse_swallow_count" name="Pulse Swallow Count" group="DAC And Slope Settings" default="`${64-(((slope_value_dsv2)*19.84*tmp_time) /gain)}`" min="0" max="64" resolution="1" visible="false" editable="false" desc="" />
+    <ParamRange id="ginteger_pulse_swallow_gain" name="Pulse Swallow Gain" group="DAC And Slope Settings" default="`${(log10((slope_value_dsv2*19.84*tmp_time) /(64.0-ginteger_pulse_swallow_count))*3.321)}`" min="0" max="50000" resolution="1" visible="false" editable="false" desc="" />
+    <ParamChoice id="prescaler_ext_start_mode" name="Pre-scaler External Start Mode" group="DAC And Slope Settings" default="XMC_HRPWM_CSG_PRESCALER_EXT_START_CLR_N_STRT" visible="`${advanced_settings}`" editable="true" desc="Pre-scaler external start mode.">
+      <Entry name="Ignore" value="XMC_HRPWM_CSG_PRESCALER_EXT_START_IGNORE" visible="true" />
+      <Entry name="Start Prescaler" value="XMC_HRPWM_CSG_PRESCALER_EXT_START_STRT" visible="true" />
+      <Entry name="Clear Prescaler" value="XMC_HRPWM_CSG_PRESCALER_EXT_START_CLR" visible="true" />
+      <Entry name="Clear And Start Prescaler" value="XMC_HRPWM_CSG_PRESCALER_EXT_START_CLR_N_STRT" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="prescaler_ext_stop_mode" name="Pre-scaler External Stop Mode" group="DAC And Slope Settings" default="XMC_HRPWM_CSG_PRESCALER_EXT_STOP_STP" visible="`${advanced_settings}`" editable="true" desc="Pre-scaler external stop mode.">
+      <Entry name="Ignore" value="XMC_HRPWM_CSG_PRESCALER_EXT_STOP_IGNORE" visible="true" />
+      <Entry name="Stop Prescaler" value="XMC_HRPWM_CSG_PRESCALER_EXT_STOP_STP" visible="true" />
+      <Entry name="Clear Prescaler" value="XMC_HRPWM_CSG_PRESCALER_EXT_STOP_CLR" visible="true" />
+      <Entry name="Clear And Stop Prescaler" value="XMC_HRPWM_CSG_PRESCALER_EXT_STOP_CLR_N_STOP" visible="true" />
+    </ParamChoice>
+    <ParamBool id="fixed_prescaler_enable" name="Fixed Prescaler" group="DAC And Slope Settings" default="false" visible="`${advanced_settings}`" editable="true" desc="Fixed pre-scaler, 0:enabled, 1:disabled." />
+    <ParamChoice id="prescaler" name="Pre-scaler Division Factor" group="DAC And Slope Settings" default="0" visible="`${advanced_settings}`" editable="true" desc="Pre-scaler division factor.">
+      <Entry name="Division by 1" value="0" visible="true" />
+      <Entry name="Division by 2" value="1" visible="true" />
+      <Entry name="Division by 4" value="2" visible="true" />
+      <Entry name="Division by 8" value="3" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="ext_start_mode" name="Slope External Start Mode" group="DAC And Slope Settings" default="XMC_HRPWM_CSG_SLOPE_EXT_START_STRT" visible="`${advanced_settings}`" editable="true" desc="Slope Generation external start configuration.">
+      <Entry name="Ignore" value="XMC_HRPWM_CSG_SLOPE_EXT_START_IGNORE" visible="true" />
+      <Entry name="Start/Restart" value="XMC_HRPWM_CSG_SLOPE_EXT_START_STRT" visible="true" />
+      <Entry name="Resumes" value="XMC_HRPWM_CSG_SLOPE_EXT_START_RESUME" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="ext_stop_mode" name="Slope External Stop Mode" group="DAC And Slope Settings" default="XMC_HRPWM_CSG_SLOPE_EXT_STOP_STP" visible="`${advanced_settings}`" editable="true" desc="Slope Generation external stop configuration.">
+      <Entry name="Ignore" value="XMC_HRPWM_CSG_SLOPE_EXT_STOP_IGNORE" visible="true" />
+      <Entry name="Stops/Halts" value="XMC_HRPWM_CSG_SLOPE_EXT_STOP_STP" visible="true" />
+      <Entry name="Freezes" value="XMC_HRPWM_CSG_SLOPE_EXT_STOP_FREEZE" visible="true" />
+    </ParamChoice>
+    <ParamBool id="pulse_swallow_enable" name="Pulse Swallow" group="DAC And Slope Settings" default="true" visible="`${advanced_settings}`" editable="true" desc="Pulse swallow enable / disable." />
+    <ParamChoice id="pulse_swallow_win_mode" name="Pulse Swallow Window Mode" group="DAC And Slope Settings" default="2" visible="`${advanced_settings}`" editable="true" desc="Pulse swallow window mode.">
+      <Entry name="16 Clock Cycle Window" value="0" visible="true" />
+      <Entry name="32 Clock Cycle Window" value="1" visible="true" />
+      <Entry name="64 Clock Cycle Window" value="2" visible="true" />
+    </ParamChoice>
+    <ParamImage id="dac_mode_decrement_image" name="Decrementing Slope" group="DAC And Slope Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_csg_decrement.png" visible="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_DEC_GEN) &amp;&amp; (!invert_comparator_output)}`" desc="Slope generation mode: Decrement." />
+    <ParamImage id="dac_mode_decrement_inv_image" name="Inverted Decrementing Slope" group="DAC And Slope Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_csg_decrement_inv.png" visible="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_DEC_GEN) &amp;&amp; invert_comparator_output}`" desc="Slope generation mode: Decrement Inverted." />
+    <ParamImage id="dac_mode_increment_image" name="Incrementing Slope" group="DAC And Slope Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_csg_increment.png" visible="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_INC_GEN) &amp;&amp; (!invert_comparator_output)}`" desc="Slope generation mode: Increment." />
+    <ParamImage id="dac_mode_increment_inv_image" name="Inverted Incrementing Slope" group="DAC And Slope Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_csg_increment_inv.png" visible="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_INC_GEN) &amp;&amp; invert_comparator_output}`" desc="Slope generation mode: Increment Inverted." />
+    <ParamImage id="dac_mode_triangle_image" name="Triangular Slope" group="DAC And Slope Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_csg_triangle.png" visible="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_TRIANGULAR) &amp;&amp; (!invert_comparator_output)}`" desc="Slope generation mode: Triangle." />
+    <ParamImage id="dac_mode_triangle_inv_image" name="Inverted Triangular Slope" group="DAC And Slope Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/hrpwm_csg_triangle_inv.png" visible="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_TRIANGULAR) &amp;&amp; invert_comparator_output}`" desc="Slope generation mode: Triangle inverted." />
+
+    <!-- Shadow Transfer Settings -->
+    <ParamChoice id="shadow_transfer_edge" name="Shadow Transfer Edge" group="Shadow Transfer Settings" default="XMC_HRPWM_CSG_EDGE_SEL_FALLING_EDGE" visible="`${advanced_settings}`" editable="true" desc="Active edge of shadow transfer.">
+      <Entry name="Disabled" value="XMC_HRPWM_CSG_EDGE_SEL_DISABLED" visible="true" />
+      <Entry name="Rising" value="XMC_HRPWM_CSG_EDGE_SEL_RISING_EDGE" visible="true" />
+      <Entry name="Falling" value="XMC_HRPWM_CSG_EDGE_SEL_FALLING_EDGE" visible="true" />
+      <Entry name="Both" value="XMC_HRPWM_CSG_EDGE_SEL_BOTH_EDGE" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="shadow_transfer_level" name="Slope Level" group="Shadow Transfer Level" default="XMC_HRPWM_CSG_LVL_SEL_DISABLED" visible="`${advanced_settings}`" editable="true" desc="Active level of shadow transfer.">
+      <Entry name="Disabled" value="XMC_HRPWM_CSG_LVL_SEL_DISABLED" visible="true" />
+      <Entry name="Low" value="XMC_HRPWM_CSG_LVL_SEL_LOW" visible="true" />
+      <Entry name="High" value="XMC_HRPWM_CSG_LVL_SEL_HIGH" visible="true" />
+    </ParamChoice>
+
+    <!-- Comparator Event Settings -->
+    <ParamBool id="comparator_output_rising_edge" name="Comparator Output Rising Edge" group="Comparator Event Settings" default="false" visible="true" editable="true" desc="Select interrupt event." />
+    <ParamBool id="is_comparator_output_rising_edge_sr_valid" name="Is Comparator Output Rising Edge Service Request Choice Valid?" group="Comparator Event Settings" default="`${comparator_output_rising_edge}`" visible="false" editable="false" desc="" />
+    <ParamChoice id="comparator_output_rising_edge_SR_line" name="Comparator Output Rising Edge Service Request" group="Comparator Event Settings" default="XMC_HRPWM_CSG_IRQ_SR_LINE_0" visible="`${is_comparator_output_rising_edge_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Comparator Output Rising Edge event occurrence.">
+      <Entry name="Service Request 0" value="XMC_HRPWM_CSG_IRQ_SR_LINE_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_HRPWM_CSG_IRQ_SR_LINE_1" visible="true" />
+      <Entry name="Service Request 2" value="XMC_HRPWM_CSG_IRQ_SR_LINE_2" visible="true" />
+      <Entry name="Service Request 3" value="XMC_HRPWM_CSG_IRQ_SR_LINE_3" visible="true" />
+    </ParamChoice>
+    <ParamBool id="comparator_output_falling_edge" name="Comparator Output Falling Edge" group="Comparator Event Settings" default="false" visible="true" editable="true" desc="Select interrupt event." />
+    <ParamBool id="is_comparator_output_falling_edge_sr_valid" name="Is Comparator Output Falling Edge Service Request Choice Valid?" group="Comparator Event Settings" default="`${comparator_output_falling_edge}`" visible="false" editable="false" desc="" />
+    <ParamChoice id="comparator_output_falling_edge_SR_line" name="Comparator Output Falling Edge Service Request" group="Comparator Event Settings" default="XMC_HRPWM_CSG_IRQ_SR_LINE_0" visible="`${is_comparator_output_falling_edge_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Comparator Output Falling Edge event occurrence.">
+      <Entry name="Service Request 0" value="XMC_HRPWM_CSG_IRQ_SR_LINE_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_HRPWM_CSG_IRQ_SR_LINE_1" visible="true" />
+      <Entry name="Service Request 2" value="XMC_HRPWM_CSG_IRQ_SR_LINE_2" visible="true" />
+      <Entry name="Service Request 3" value="XMC_HRPWM_CSG_IRQ_SR_LINE_3" visible="true" />
+    </ParamChoice>
+    <ParamBool id="clamp_state_entered" name="Clamp State Entered" group="Comparator Event Settings" default="false" visible="true" editable="true" desc="Select interrupt event." />
+    <ParamBool id="is_clamp_state_entered_sr_valid" name="Is Clamp State Entered Service Request Choice Valid?" group="Comparator Event Settings" default="`${clamp_state_entered}`" visible="false" editable="false" desc="" />
+    <ParamChoice id="clamp_state_entered_SR_line" name="Clamp State Entered Service Request" group="Comparator Event Settings" default="XMC_HRPWM_CSG_IRQ_SR_LINE_0" visible="`${is_clamp_state_entered_sr_valid}`" editable="true" desc="Selects the service request output that becomes activated in case of a Clamp State Entered event occurrence.">
+      <Entry name="Service Request 0" value="XMC_HRPWM_CSG_IRQ_SR_LINE_0" visible="true" />
+      <Entry name="Service Request 1" value="XMC_HRPWM_CSG_IRQ_SR_LINE_1" visible="true" />
+      <Entry name="Service Request 2" value="XMC_HRPWM_CSG_IRQ_SR_LINE_2" visible="true" />
+      <Entry name="Service Request 3" value="XMC_HRPWM_CSG_IRQ_SR_LINE_3" visible="true" />
+    </ParamChoice>
+    <Repeat count="4">
+      <ParamRange id="number_of_sr$idx" name="Number of Events Routed to Service Request Line $idx" group="Comparator Event Settings"
+                  default="`${(is_comparator_output_rising_edge_sr_valid ? cast(int64, comparator_output_rising_edge_SR_line eq XMC_HRPWM_CSG_IRQ_SR_LINE_$idx) : 0) +
+                              (is_comparator_output_falling_edge_sr_valid ? cast(int64, comparator_output_falling_edge_SR_line eq XMC_HRPWM_CSG_IRQ_SR_LINE_$idx) : 0) +
+                              (is_clamp_state_entered_sr_valid ? cast(int64, clamp_state_entered_SR_line eq XMC_HRPWM_CSG_IRQ_SR_LINE_$idx) : 0)}`"
+                  min="0" max="3" resolution="1" visible="false" editable="false" desc="" />
+    </Repeat>
+
+    <!-- Input Control -->
+    <ParamChoice id="mapped_input" name="Mapped Input" group="Input Control" default="XMC_HRPWM_CSG_INPUT_SEL_IA" visible="`${advanced_settings}`" editable="true" desc="General input to control start/stop/trigger for Slope Control Logic.">
+      <Entry name="Input-A" value="XMC_HRPWM_CSG_INPUT_SEL_IA" visible="true" />
+      <Entry name="Input-B" value="XMC_HRPWM_CSG_INPUT_SEL_IB" visible="true" />
+      <Entry name="Input-C" value="XMC_HRPWM_CSG_INPUT_SEL_IC" visible="true" />
+      <Entry name="Input-D" value="XMC_HRPWM_CSG_INPUT_SEL_ID" visible="true" />
+      <Entry name="Input-E" value="XMC_HRPWM_CSG_INPUT_SEL_IE" visible="true" />
+      <Entry name="Input-F" value="XMC_HRPWM_CSG_INPUT_SEL_IF" visible="true" />
+      <Entry name="Input-G" value="XMC_HRPWM_CSG_INPUT_SEL_IG" visible="true" />
+      <Entry name="Input-H" value="XMC_HRPWM_CSG_INPUT_SEL_IH" visible="true" />
+      <Entry name="Input-I" value="XMC_HRPWM_CSG_INPUT_SEL_II" visible="true" />
+      <Entry name="Input-J" value="XMC_HRPWM_CSG_INPUT_SEL_IJ" visible="true" />
+      <Entry name="Input-K" value="XMC_HRPWM_CSG_INPUT_SEL_IK" visible="true" />
+      <Entry name="Input-L" value="XMC_HRPWM_CSG_INPUT_SEL_IL" visible="true" />
+      <Entry name="Input-M" value="XMC_HRPWM_CSG_INPUT_SEL_IM" visible="true" />
+      <Entry name="Input-N" value="XMC_HRPWM_CSG_INPUT_SEL_IN" visible="true" />
+      <Entry name="Input-O" value="XMC_HRPWM_CSG_INPUT_SEL_IO" visible="true" />
+      <Entry name="Input-P" value="XMC_HRPWM_CSG_INPUT_SEL_IP" visible="true" />
+    </ParamChoice>
+
+    <!-- Connections -->
+    <ParamSignal port="imcs[0]" name="Analog Input CIN" group="Connections" visible="`${hasVisibleOption(&quot;imcs[0]&quot;)}`" desc="Analog Input A or B for the High Speed Comparator." canBeEmpty="false" />
+    <ParamSignal port="cno[0]" name="High Speed Comparator Output" group="Connections" visible="`${hasVisibleOption(&quot;cno[0]&quot;)}`" desc="Output of the high speed comparator." canBeEmpty="true" />
+
+    <!-- Advanced -->
+    <ParamBool id="in_flash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="HRPWM module instance is not enabled" condition="`${module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${module_resource}`" value="" valid="true" />
+    </DRC>
+
+    <DRC type="ERROR" text="CCU8 module instance is not enabled" condition="`${ccu8_module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${ccu8_module_resource}`" value="" valid="true" />
+    </DRC>
+
+    <DRC type="ERROR" text="DAC module instance is not enabled" condition="`${dac_module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${dac_module_resource}`" value="" valid="true" />
+    </DRC>
+
+    <DRC type="ERROR" text="Entered value is not in range [0 : `${start_value_dsv1}`]." condition="`${((dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_DEC_GEN) &amp; (restart_slope eq XMC_HRPWM_CSG_EDGE_SEL_DISABLED)) &amp; (stop_value_dsv2 gt start_value_dsv1) }`">
+      <FixIt action="SET_PARAM" target="stop_value_dsv2" value="`${start_value_dsv1}`" valid="true" />
+    </DRC>
+
+    <DRC type="ERROR" text="Entered value is not in range [`${start_value_dsv1}` : 3300.0]." condition="`${((dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_INC_GEN) &amp; (restart_slope eq XMC_HRPWM_CSG_EDGE_SEL_DISABLED)) &amp; (stop_value_dsv2 lt start_value_dsv1) }`">
+      <FixIt action="SET_PARAM" target="stop_value_dsv2" value="`${start_value_dsv1}`" valid="true" />
+    </DRC>
+
+    <DRC type="ERROR" text="Entered value is not in range [`${stop_value_dsv2}` : 3300.0]." condition="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_TRIANGULAR) &amp; (start_value_dsv1 lt stop_value_dsv2) }`">
+      <FixIt action="SET_PARAM" target="start_value_dsv1" value="`${stop_value_dsv2}`" valid="true" />
+    </DRC>
+
+    <DRC type="ERROR" text="Entered value is not in range [0.0 : 2125.0]." condition="`${(blanking_time > 2125.0) &amp; (fCCU8 > 80000000) }`">
+      <FixIt action="SET_PARAM" target="blanking_time" value="2125.0" valid="true" />
+    </DRC>
+  </DRCs>
+
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_hrpwm.h" include="true" />
+    <ConfigInclude value="cycfg_routing.h" include="true" />
+
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${channel_num}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_HW" value="HRPWM0_CSG`${channel_num}`" public="true" include="true" />
+
+    <ConfigStruct name="`${INST_NAME}`_cmp_config" type="XMC_HRPWM_CSG_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="`${&quot;cmp_config.cmp_input_sel&quot;}`" value="HRPWM0_CSG`${channel_num}`_CIN" />
+      <Member name="`${&quot;cmp_config.cmp_input_sw&quot;}`" value="`${comparator_input_sw}`" />
+      <Member name="`${&quot;cmp_config.cmp_ext_sw_enable&quot;}`" value="`${comparator_ext_sw ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="`${&quot;cmp_config.cmp_out_inv&quot;}`" value="`${invert_comparator_output ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="`${&quot;cmp_config.blanking_mode&quot;}`" value="`${blanking_mode}`" />
+      <Member name="`${&quot;cmp_config.blank_ext_enable&quot;}`" value="`${external_signal ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="`${&quot;cmp_config.filter_enable&quot;}`" value="`${select_filter ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="`${&quot;cmp_config.filter_window&quot;}`" value="`${filter_comparator_output}`" />
+      <Member name="`${&quot;cmp_config.filter_control&quot;}`" value="`${filter_control}`U" />
+      <Member name="`${&quot;cmp_config.blanking_val&quot;}`" value="`${blanking_velue}`U" />
+      <Member name="`${&quot;cmp_config.clamp_ctrl_lvl&quot;}`" value="`${enable_clamping_of_comparator_output ? (clamping_state_happens_external_clamp_level ? &quot;XMC_HRPWM_CSG_LVL_SEL_HIGH&quot; : &quot;XMC_HRPWM_CSG_LVL_SEL_LOW&quot;) : &quot;XMC_HRPWM_CSG_LVL_SEL_DISABLED&quot;}`" />
+      <Member name="`${&quot;cmp_config.clamp_level&quot;}`" value="`${comparator_output_clamp_level}`U" />
+      <Member name="`${&quot;cmp_config.clamp_exit_sw_config&quot;}`" value="`${clamping_state_exit_sw_config}`U" />
+      <Member name="`${&quot;cmp_config.clamp_enter_config&quot;}`" value="`${clamping_state_enter_config}`U" />
+      <Member name="`${&quot;cmp_config.clamp_exit_config&quot;}`" value="`${clamping_state_exit_config}`U" />
+
+      <Member name="`${&quot;dac_config.start_mode&quot;}`" value="`${start_mode}`" />
+      <Member name="`${&quot;dac_config.dac_dsv1&quot;}`" value="`${dac_dsv1}`U" />
+      <Member name="`${&quot;dac_config.dac_dsv2&quot;}`" value="`${dac_dsv2}`U" />
+
+      <Member name="`${&quot;sgen_config.prescaler_ext_start_mode&quot;}`" value="`${prescaler_ext_start_mode}`" />
+      <Member name="`${&quot;sgen_config.prescaler_ext_stop_mode&quot;}`" value="`${prescaler_ext_stop_mode}`" />
+      <Member name="`${&quot;sgen_config.fixed_prescaler_enable&quot;}`" value="`${fixed_prescaler_enable ? &quot;0U&quot; : &quot;1U&quot;}`" />
+      <Member name="`${&quot;sgen_config.prescaler&quot;}`" value="`${prescaler}`U" />
+      <Member name="`${&quot;sgen_config.ctrl_mode&quot;}`" value="`${dac_mode}`" />
+      <Member name="`${&quot;sgen_config.ext_start_mode&quot;}`" value="`${ext_start_mode}`" />
+      <Member name="`${&quot;sgen_config.ext_stop_mode&quot;}`" value="`${ext_stop_mode}`" />
+      <Member name="`${&quot;sgen_config.slope_ref_val_mode&quot;}`" value="`${((restart_slope eq XMC_HRPWM_CSG_EDGE_SEL_DISABLED) || (dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_TRIANGULAR)) ? &quot;2U&quot; : &quot;0U&quot;}`" />
+      <Member name="`${&quot;sgen_config.step_gain&quot;}`" value="`${ginteger_pulse_swallow_gain}`U" />
+      <Member name="`${&quot;sgen_config.static_mode_ist_enable&quot;}`" value="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_STATIC) ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="`${&quot;sgen_config.pulse_swallow_enable&quot;}`" value="`${pulse_swallow_enable ? &quot;XMC_HRPWM_FUNC_STATUS_ENABLE&quot; : &quot;XMC_HRPWM_FUNC_STATUS_DISABLE&quot;}`" />
+      <Member name="`${&quot;sgen_config.pulse_swallow_win_mode&quot;}`" value="`${pulse_swallow_win_mode}`U" />
+      <Member name="`${&quot;sgen_config.pulse_swallow_val&quot;}`" value="`${ginteger_pulse_swallow_count > 0 ? (ginteger_pulse_swallow_count == 23 ? &quot;24&quot; : ginteger_pulse_swallow_count) : (ginteger_pulse_swallow_count+1)}`U" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_blanking_config" type="XMC_HRPWM_CSG_INPUT_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="mapped_input" value="`${mapped_input}`" />
+      <Member name="edge" value="`${blanking_mode}`" />
+      <Member name="level" value="`${blanking_level}`" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_clamping_config" type="XMC_HRPWM_CSG_INPUT_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="mapped_input" value="`${mapped_input}`" />
+      <Member name="edge" value="`${comparator_output_clamp_edge}`" />
+      <Member name="level" value="`${enable_clamping_of_comparator_output ? (clamping_state_happens_external_clamp_level ? &quot;XMC_HRPWM_CSG_LVL_SEL_HIGH&quot; : &quot;XMC_HRPWM_CSG_LVL_SEL_LOW&quot;) : &quot;XMC_HRPWM_CSG_LVL_SEL_DISABLED&quot;}`" />
+      <!-- OK -->
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_start_slope_config" type="XMC_HRPWM_CSG_INPUT_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="mapped_input" value="`${mapped_input}`" />
+      <Member name="edge" value="`${(dac_mode eq XMC_HRPWM_CSG_SLOPE_CTRL_MODE_TRIANGULAR) ? &quot;XMC_HRPWM_CSG_EDGE_SEL_DISABLED&quot; : restart_slope}`" />
+      <Member name="level" value="`${restart_slope_level}`" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_shadow_transfer_config" type="XMC_HRPWM_CSG_INPUT_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="mapped_input" value="`${mapped_input}`" />
+      <Member name="edge" value="`${shadow_transfer_edge}`" />
+      <Member name="level" value="`${shadow_transfer_level}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_HRPWM_CSG_Init(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_cmp_config);" include="true" />
+
+    <ConfigInstruction value="XMC_HRPWM_CSG_SelBlankingInput(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_blanking_config);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_CSG_SelClampingInput(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_clamping_config);" include="true" />
+    <ConfigInstruction value="XMC_HRPWM_CSG_StartSlopeGenConfig(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_start_slope_config);" include="true" />
+
+    <ConfigInstruction value="XMC_HRPWM_CSG_SetSRNode(`${INST_NAME}`_HW, XMC_HRPWM_CSG_IRQ_ID_CRSE, `${comparator_output_rising_edge_SR_line}`);" include="`${is_comparator_output_rising_edge_sr_valid}`" />
+    <ConfigInstruction value="XMC_HRPWM_CSG_SetSRNode(`${INST_NAME}`_HW, XMC_HRPWM_CSG_IRQ_ID_CFSE, `${comparator_output_falling_edge_SR_line}`);" include="`${is_comparator_output_falling_edge_sr_valid}`" />
+    <ConfigInstruction value="XMC_HRPWM_CSG_SetSRNode(`${INST_NAME}`_HW, XMC_HRPWM_CSG_IRQ_ID_CSEE, `${clamp_state_entered_SR_line}`);" include="`${is_clamp_state_entered_sr_valid}`" />
+
+    <ConfigInstruction value="XMC_HRPWM_CSG_EnableEvent(`${INST_NAME}`_HW, XMC_HRPWM_CSG_IRQ_ID_CRSE);" include="`${is_comparator_output_rising_edge_sr_valid}`" />
+    <ConfigInstruction value="XMC_HRPWM_CSG_EnableEvent(`${INST_NAME}`_HW, XMC_HRPWM_CSG_IRQ_ID_CFSE);" include="`${is_comparator_output_falling_edge_sr_valid}`" />
+    <ConfigInstruction value="XMC_HRPWM_CSG_EnableEvent(`${INST_NAME}`_HW, XMC_HRPWM_CSG_IRQ_ID_CSEE);" include="`${is_clamp_state_entered_sr_valid}`" />
+
+    <ConfigInstruction value="XMC_HRPWM_EnableComparatorShadowTransfer(`${hrpwm_module_global}`, XMC_HRPWM_SHADOW_TX_DAC`${channel_num}`);" include="`${run_dac_at_init}`" />
+    <ConfigInstruction value="XMC_HRPWM_StartDac(`${hrpwm_module_global}`, XMC_HRPWM_CSG_RUN_BIT_DAC`${channel_num}`);" include="`${run_dac_at_init}`" />
+    <ConfigInstruction value="XMC_HRPWM_StartComparator(`${hrpwm_module_global}`, XMC_HRPWM_CSG_RUN_BIT_CMP`${channel_num}`);" include="`${run_dac_at_init}`" />
+    <ConfigInstruction value="XMC_HRPWM_StartSlopeGeneration(`${hrpwm_module_global}`, ((uint32_t)XMC_HRPWM_CSG_SLOPE_START_DAC`${channel_num}` | (uint32_t)XMC_HRPWM_CSG_PRESCALER_START_CSG`${channel_num}`));" include="`${run_dac_at_init}`" />
+
+  </ConfigFirmware>
+
+</Personality>

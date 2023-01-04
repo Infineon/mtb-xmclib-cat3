@@ -2,20 +2,9 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__usbh_8h" kind="file" language="C++">
     <compoundname>xmc_usbh.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes refid="xmc__scu_8h" local="yes">xmc_scu.h</includes>
     <includes refid="xmc__gpio_8h" local="yes">xmc_gpio.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_usbh.h</label>
-        <link refid="xmc__usbh_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
     <innerclass refid="struct_x_m_c___u_s_b_h0___d_e_v_i_c_e__t" prot="public">XMC_USBH0_DEVICE_t</innerclass>
     <innerclass refid="struct_x_m_c___u_s_b_h0__pipe__t" prot="public">XMC_USBH0_pipe_t</innerclass>
     <innerclass refid="struct_x_m_c___u_s_b_h___c_a_p_a_b_i_l_i_t_i_e_s__t" prot="public">XMC_USBH_CAPABILITIES_t</innerclass>

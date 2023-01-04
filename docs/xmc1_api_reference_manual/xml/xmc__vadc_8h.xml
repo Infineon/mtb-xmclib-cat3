@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__vadc_8h" kind="file" language="C++">
     <compoundname>xmc_vadc.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes refid="xmc__scu_8h" local="yes">xmc_scu.h</includes>
     <includes local="yes">xmc_vadc_map.h</includes>
     <incdepgraph>
@@ -11,13 +11,8 @@
         <link refid="xmc__vadc_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
       </node>
       <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-      <node id="3">
         <label>xmc_vadc_map.h</label>
       </node>
     </incdepgraph>

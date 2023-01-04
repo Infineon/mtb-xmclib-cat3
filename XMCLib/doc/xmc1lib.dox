@@ -38,7 +38,7 @@ PROJECT_NAME           = "XMC Peripheral Library for XMC1000 Family"
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = 4.0.0
+PROJECT_NUMBER         = 3.1.0
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -776,6 +776,7 @@ INPUT                  = ../inc/xmc_acmp.h \
                          ../inc/xmc_can.h \
                          ../inc/xmc_ccu4.h \
                          ../inc/xmc_ccu8.h \
+                         ../inc/xmc_common.h \
                          ../inc/xmc_eru.h \
                          ../inc/xmc_flash.h \
                          ../inc/xmc_gpio.h \
@@ -797,6 +798,7 @@ INPUT                  = ../inc/xmc_acmp.h \
                          ../inc/xmc1_gpio.h \
                          ../inc/xmc1_rtc.h \
                          ../inc/xmc1_scu.h \
+                         configuration.txt \
                          main_xmc1.txt
 
 # This tag can be used to specify the character encoding of the source files
@@ -870,7 +872,7 @@ EXCLUDE_SYMBOLS        =
 # that contain example code fragments that are included (see the \include
 # command).
 
-EXAMPLE_PATH           =
+EXAMPLE_PATH           = ../../test/personalities
 
 # If the value of the EXAMPLE_PATH tag contains directories, you can use the
 # EXAMPLE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp and

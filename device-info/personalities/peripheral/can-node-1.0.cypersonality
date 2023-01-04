@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file can-node-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* CAN node personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_can-node" name="CAN-NODE" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_can" />
+    <Resource name="can\.node" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <!--Internal-->
+    <ParamString id="ip_version" name="IP Block Version" group="Internal" default="`${getVersion()}`" visible="false" editable="false" desc="" />
+    <ParamBool id="ip_ver1" name="IP Block Version 1" desc="True for XMC4100, XMC4200, XMC4400, XMC4500 series" group="Internal" default="`${ip_version == 1}`" visible="false" editable="false" />
+    <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(&quot;can[0]&quot;)}`" visible="false" editable="false" desc="True when the CAN module resource is not enabled." />
+    <ParamBool id="xmc1400" name="XMC1400" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;1400&quot;) ? (true) : (false)}`" visible="false" editable="false" desc="True when XMC1400 is selected." />
+    <ParamBool id="xmc4300" name="XMC4300" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4300&quot;) ? (true) : (false)}`" visible="false" editable="false" desc="True when XMC4300 is selected." />
+    <ParamString id="node_num" name="Node Number" group="Internal" default="`${getInstNumber(&quot;node&quot;)}`" visible="false" editable="false" desc="Active node number." />
+    <ParamString id="mo_count_node" name="Message Object Count String" group="Internal" default="mo_settings_mo_used_node_id_`${node_num}`" visible="false" editable="false" desc="Number of message objects as string." />
+    <ParamString id="mo_count" name="Message Object Count" group="Internal" default="`${getExposedMember(&quot;can[0]&quot;, mo_count_node)}`" visible="false" editable="false" desc="Number of message objects." />
+    <ParamString id="mo_starting_object_node_0" name="Starting Message Object Number - Node 0" group="Internal" default="0" visible="false" editable="false" desc="Starting message object number for node 0." />
+    <ParamString id="mo_starting_object_node_1" name="Starting Message Object Number - Node 1" group="Internal" default="`${(!module_error) ? (getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_0&quot;)) : (0)}`" visible="false" editable="false" desc="Starting message object number for node 1." />
+    <ParamString id="mo_starting_object_node_2" name="Starting Message Object Number - Node 2" group="Internal" default="`${(!module_error) ? (getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_0&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_1&quot;)) : (0)}`" visible="false" editable="false" desc="Starting message object number for node 2." />
+    <ParamString id="mo_starting_object_node_3" name="Starting Message Object Number - Node 3" group="Internal" default="`${(!module_error) ? (getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_0&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_1&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_2&quot;)) : (0)}`" visible="false" editable="false" desc="Starting message object number for node 3." />
+    <ParamString id="mo_starting_object_node_4" name="Starting Message Object Number - Node 4" group="Internal" default="`${(!module_error) ? (getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_0&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_1&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_2&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_3&quot;)) : (0)}`" visible="false" editable="false" desc="Starting message object number for node 4." />
+    <ParamString id="mo_starting_object_node_5" name="Starting Message Object Number - Node 5" group="Internal" default="`${(!module_error) ? (getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_0&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_1&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_2&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_3&quot;) + getExposedMember(&quot;can[0]&quot;, &quot;mo_settings_mo_used_node_id_4&quot;)) : (0)}`" visible="false" editable="false" desc="Starting message object number for node 5." />
+    <ParamString id="mo_starting_object_node_current" name="Starting Message Object Number - Current Node" group="Internal" default="mo_starting_object_node_`${node_num}`" visible="false" editable="false" desc="Starting message object number for currently used node object." />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc`${xmc1400 ? 1 : 4}`_api_reference_manual/html/group___c_a_n.html" linkText="Open CAN Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!-- General Settings - Node -->
+    <ParamString id="general_settings_num_of_objects_id" name="Number of Objects in the List" group="General Settings" default="`${(!module_error) ? (mo_count) : (&quot;Solve DRC First&quot;)}`" visible="true" editable="false" desc="Number of message objects for the CAN node. Set in the global personality." />
+    <ParamRange id="general_settings_baud_rate_id" name="Baud Rate [Kbps]" group="General Settings" default="500" min="100" max="1000" resolution="1" visible="true" editable="true" desc="Required CAN node baud rate." />
+    <ParamBool id="general_settings_loopback_mode_id" name="Enable Loopback Mode" group="General Settings" default="false" visible="true" editable="true" desc="Connect to internal CAN bus." />
+
+    <!-- Advanced Settings - Node -->
+    <ParamRange id="advanced_settings_sync_jump_width_id" name="Synchronization Jump Width [tq]" group="Advanced Settings" default="1" min="0" max="3" resolution="1" visible="true" editable="true" desc="Time quanta for resynchronization." />
+    <ParamRange id="advanced_settings_sample_point_id" name="Sample Point for the Bit Time [%]" group="Advanced Settings" default="80" min="0" max="100" resolution="1" visible="true" editable="true" desc="Sample point of the bit time in percentage." />
+
+    <!-- Event Settings - Node -->
+    <ParamBool id="event_settings_node_alert_id" name="Enable Node Alert" group="Event Settings" default="false" visible="true" editable="true" desc="Enables the alert event of CAN node." />
+    <ParamChoice id="event_settings_node_alert_sr_id" name="Node Alert SR Line" group="Event Settings" default="`${(xmc4300 || ip_ver1) ? (4) : (0)}`" visible="`${event_settings_node_alert_id}`" editable="true" desc="Connect service request to desired module.">
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR0/NVIC SR0&quot;) : (&quot;NVIC SR0&quot;)}`" value="0" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR1/NVIC SR1&quot;) : (&quot;NVIC SR1&quot;)}`" value="1" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR2/NVIC SR2&quot;) : (&quot;NVIC SR2&quot;)}`" value="2" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR3/NVIC SR3&quot;) : (&quot;NVIC SR3&quot;)}`" value="3" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR4/NVIC SR4&quot;) : (&quot;NVIC SR4&quot;)}`" value="4" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR5/NVIC SR5&quot;) : (&quot;NVIC SR5&quot;)}`" value="5" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR6/NVIC SR6&quot;) : (&quot;NVIC SR6&quot;)}`" value="6" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR7/NVIC SR7&quot;) : (&quot;CCU4 SR7/NVIC SR7&quot;)}`" value="7" visible="true" />
+    </ParamChoice>
+    <ParamBool id="event_settings_last_err_code_id" name="Enable Last Error Code" group="Event Settings" default="false" visible="true" editable="true" desc="Indicates the type of the most recent CAN error." />
+    <ParamChoice id="event_settings_last_err_code_sr_id" name="Last Error Code SR Line" group="Event Settings" default="`${(xmc4300 || ip_ver1) ? (4) : (0)}`" visible="`${event_settings_last_err_code_id}`" editable="true" desc="Connect service request to desired module.">
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR0/NVIC SR0&quot;) : (&quot;NVIC SR0&quot;)}`" value="0" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR1/NVIC SR1&quot;) : (&quot;NVIC SR1&quot;)}`" value="1" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR2/NVIC SR2&quot;) : (&quot;NVIC SR2&quot;)}`" value="2" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR3/NVIC SR3&quot;) : (&quot;NVIC SR3&quot;)}`" value="3" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR4/NVIC SR4&quot;) : (&quot;NVIC SR4&quot;)}`" value="4" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR5/NVIC SR5&quot;) : (&quot;NVIC SR5&quot;)}`" value="5" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR6/NVIC SR6&quot;) : (&quot;NVIC SR6&quot;)}`" value="6" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR7/NVIC SR7&quot;) : (&quot;CCU4 SR7/NVIC SR7&quot;)}`" value="7" visible="true" />
+    </ParamChoice>
+    <ParamBool id="event_settings_transfer_ok_id" name="Enable Transfer OK" group="Event Settings" default="false" visible="true" editable="true" desc="Enables transfer OK event." />
+    <ParamChoice id="event_settings_transfer_ok_sr_id" name="Transfer OK SR Line" group="Event Settings" default="`${(xmc4300 || ip_ver1) ? (4) : (0)}`" visible="`${event_settings_transfer_ok_id}`" editable="true" desc="Connect service request to desired module.">
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR0/NVIC SR0&quot;) : (&quot;NVIC SR0&quot;)}`" value="0" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR1/NVIC SR1&quot;) : (&quot;NVIC SR1&quot;)}`" value="1" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR2/NVIC SR2&quot;) : (&quot;NVIC SR2&quot;)}`" value="2" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR3/NVIC SR3&quot;) : (&quot;NVIC SR3&quot;)}`" value="3" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR4/NVIC SR4&quot;) : (&quot;NVIC SR4&quot;)}`" value="4" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR5/NVIC SR5&quot;) : (&quot;NVIC SR5&quot;)}`" value="5" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR6/NVIC SR6&quot;) : (&quot;NVIC SR6&quot;)}`" value="6" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR7/NVIC SR7&quot;) : (&quot;CCU4 SR7/NVIC SR7&quot;)}`" value="7" visible="true" />
+    </ParamChoice>
+    <ParamBool id="event_settings_frame_counter_id" name="Enable Frame Counter" group="Event Settings" default="false" visible="true" editable="true" desc="Enables CAN frame counter overflow event of the node." />
+    <ParamChoice id="event_settings_frame_counter_sr_id" name="Frame Counter SR Line" group="Event Settings" default="`${(xmc4300 || ip_ver1) ? (4) : (0)}`" visible="`${event_settings_frame_counter_id}`" editable="true" desc="Connect service request to desired module.">
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR0/NVIC SR0&quot;) : (&quot;NVIC SR0&quot;)}`" value="0" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR1/NVIC SR1&quot;) : (&quot;NVIC SR1&quot;)}`" value="1" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR2/NVIC SR2&quot;) : (&quot;NVIC SR2&quot;)}`" value="2" visible="true" />
+      <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR3/NVIC SR3&quot;) : (&quot;NVIC SR3&quot;)}`" value="3" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR4/NVIC SR4&quot;) : (&quot;NVIC SR4&quot;)}`" value="4" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR5/NVIC SR5&quot;) : (&quot;NVIC SR5&quot;)}`" value="5" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR6/NVIC SR6&quot;) : (&quot;NVIC SR6&quot;)}`" value="6" visible="true" />
+      <Entry name="`${(xmc1400) ? (&quot;ERU SR7/NVIC SR7&quot;) : (&quot;CCU4 SR7/NVIC SR7&quot;)}`" value="7" visible="true" />
+    </ParamChoice>
+    <ParamBool id="event_settings_enable" name="Enable SR Lines" group="Event Settings" default="false" visible="`${event_settings_node_alert_id || event_settings_last_err_code_id || event_settings_transfer_ok_id || event_settings_frame_counter_id}`" editable="true" desc="Enables connecting CAN service request lines of specific events." />
+    <ParamBool id="event_settings_mo_tx_enable_id" name="TX Message Object SR" group="Event Settings" default="false" visible="true" editable="true" desc="Enables connecting CAN TX service request lines of specific message objects." />
+    <ParamBool id="event_settings_mo_rx_enable_id" name="RX Message Object SR" group="Event Settings" default="false" visible="true" editable="true" desc="Enables connecting CAN RX service request lines of specific message objects." />
+    <Repeat count="8">
+      <ParamBool id="event_settings_mo_sr_enable_id_$idx" name="SR Line $idx" group="Event Settings" default="false" visible="`${(event_settings_mo_tx_enable_id || event_settings_mo_rx_enable_id || event_settings_enable) &amp;&amp; hasVisibleOption(&quot;sr$idx[0]&quot;)}`" editable="true" desc="Enables connecting CAN service request lines of specific message objects." />
+    </Repeat>
+
+    <!--Internal-->
+    <Repeat count="8">
+      <ParamBool id="event_sr_line_check_id_$idx" name="Event Settings Check - SR Line $idx" group="Internal" default="`${((event_settings_enable || event_settings_mo_tx_enable_id || event_settings_mo_rx_enable_id) ? (event_settings_mo_sr_enable_id_$idx) : (false))}`" visible="false" editable="false" desc="True when appropriate event SR Line is enabled." />
+    </Repeat>
+
+    <!-- MO Settings - Node -->
+    <Repeat count="256">
+      <!-- Logical MO Message Type - Node -->
+      <ParamChoice id="mo_settings_page_msg_type_id_$idx" name="Message Type" group="Logical MO - LMO_$idx Settings" default="0" visible="`${$idx &lt; general_settings_num_of_objects_id}`" editable="true" desc="Message object type. Either RX or TX.">
+        <Entry name="Tx" value="0" visible="true" />
+        <Entry name="Rx" value="1" visible="true" />
+      </ParamChoice>
+      <!-- Logical MO Identifier Type - Node -->
+      <ParamChoice id="mo_settings_page_identifier_type_id_$idx" name="Identifier Type (IDE)" group="Logical MO - LMO_$idx Settings" default="0x7FF" visible="`${$idx &lt; general_settings_num_of_objects_id}`" editable="true" desc="Message object identifier type. Either standard 11-bit identifier or Extended 29-bit identifier.">
+        <Entry name="Standard 11bit" value="0x7FF" visible="true" />
+        <Entry name="Extended 29bit" value="0x1FFFFFFFFFFFFFFF" visible="true" />
+      </ParamChoice>
+      <!-- Logical MO Identifier Value - Node -->
+      <ParamRange id="mo_settings_page_identifier_value_id_$idx" name="Identifier Value" group="Logical MO - LMO_$idx Settings" default="0x7FF" min="0" max="`${mo_settings_page_identifier_type_id_$idx}`" resolution="1" visible="`${$idx &lt; general_settings_num_of_objects_id}`" editable="true" desc="User configurable identifier value for the message object." />
+      <!-- Logical MO Acceptance Mask - Node -->
+      <ParamChoice id="mo_settings_page_acceptance_mask_id_$idx" name="Acceptance Mask" group="Logical MO - LMO_$idx Settings" default="1" visible="`${$idx &lt; general_settings_num_of_objects_id}`" editable="true" desc="Defines the mask type for acceptance filtering of the message object.">
+        <Entry name="Standard/Extended" value="0" visible="true" />
+        <Entry name="Matching IDE" value="1" visible="true" />
+      </ParamChoice>
+      <!-- Logical MO Mask Value - Node -->
+      <ParamRange id="mo_settings_page_mask_value_id_$idx" name="Mask Value" group="Logical MO - LMO_$idx Settings" default="0x7FF" min="0" max="`${mo_settings_page_identifier_type_id_$idx}`" resolution="1" visible="`${$idx &lt; general_settings_num_of_objects_id}`" editable="true" desc="Contains the mask bits for the acceptance filtering." />
+      <!-- Logical MO DLC - Node -->
+      <ParamRange id="mo_settings_page_dlc_id_$idx" name="DLC" group="Logical MO - LMO_$idx Settings" default="8" min="0" max="8" resolution="1" visible="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; (mo_settings_page_msg_type_id_$idx == 0)}`" editable="true" desc="Desired data length of the transmit message object." />
+      <!-- Logical MO DATA_H - Node -->
+      <ParamRange id="mo_settings_page_data_h_id_$idx" name="Data High" group="Logical MO - LMO_$idx Settings" default="0x0" min="0x0" max="4294967295" resolution="1" visible="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; (mo_settings_page_msg_type_id_$idx == 0)}`" editable="true" desc="MSB 4 bytes of data (DB7 to DB4)." />
+      <!-- Logical MO DATA_L - Node -->
+      <ParamRange id="mo_settings_page_data_l_id_$idx" name="Data Low" group="Logical MO - LMO_$idx Settings" default="0x0" min="0x0" max="4294967295" resolution="1" visible="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; (mo_settings_page_msg_type_id_$idx == 0)}`" editable="true" desc="LSB 4 bytes of data (DB3 to DB0)." />
+      <!-- Logical MO TX Event - Node -->
+      <ParamBool id="mo_settings_event_tx_id_$idx" name="Tx Event" group="Logical MO - LMO_$idx Settings" default="false" visible="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; event_settings_mo_tx_enable_id}`" editable="true" desc="Enables transmit event for the message object." />
+      <!-- Logical MO TX Event SR Line - Node -->
+      <ParamChoice id="mo_settings_event_tx_sr_id_$idx" name="Tx Event SR Line" group="Logical MO - LMO_$idx Settings" default="`${(xmc4300 || ip_ver1) ? (4) : (0)}`" visible="`${mo_settings_event_tx_id_$idx &amp;&amp; event_settings_mo_tx_enable_id}`" editable="true" desc="Connect service request to desired module.">
+        <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR0/NVIC SR0&quot;) : (&quot;NVIC SR0&quot;)}`" value="0" visible="true" />
+        <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR1/NVIC SR1&quot;) : (&quot;NVIC SR1&quot;)}`" value="1" visible="true" />
+        <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR2/NVIC SR2&quot;) : (&quot;NVIC SR2&quot;)}`" value="2" visible="true" />
+        <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR3/NVIC SR3&quot;) : (&quot;NVIC SR3&quot;)}`" value="3" visible="true" />
+        <Entry name="`${(xmc1400) ? (&quot;ERU SR4/NVIC SR4&quot;) : (&quot;NVIC SR4&quot;)}`" value="4" visible="true" />
+        <Entry name="`${(xmc1400) ? (&quot;ERU SR5/NVIC SR5&quot;) : (&quot;NVIC SR5&quot;)}`" value="5" visible="true" />
+        <Entry name="`${(xmc1400) ? (&quot;ERU SR6/NVIC SR6&quot;) : (&quot;NVIC SR6&quot;)}`" value="6" visible="true" />
+        <Entry name="`${(xmc1400) ? (&quot;ERU SR7/NVIC SR7&quot;) : (&quot;CCU4 SR7/NVIC SR7&quot;)}`" value="7" visible="true" />
+      </ParamChoice>
+      <!-- Logical MO RX Event - Node -->
+      <ParamBool id="mo_settings_event_rx_id_$idx" name="Rx Event" group="Logical MO - LMO_$idx Settings" default="false" visible="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; event_settings_mo_rx_enable_id}`" editable="true" desc="Enables receive event for the message object." />
+      <!-- Logical MO RX Event SR Line - Node -->
+      <ParamChoice id="mo_settings_event_rx_sr_id_$idx" name="Rx Event SR Line" group="Logical MO - LMO_$idx Settings" default="`${(xmc4300 || ip_ver1) ? (4) : (0)}`" visible="`${mo_settings_event_rx_id_$idx &amp;&amp; event_settings_mo_rx_enable_id}`" editable="true" desc="Connect service request to desired module.">
+        <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR0/NVIC SR0&quot;) : (&quot;NVIC SR0&quot;)}`" value="0" visible="true" />
+        <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR1/NVIC SR1&quot;) : (&quot;NVIC SR1&quot;)}`" value="1" visible="true" />
+        <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR2/NVIC SR2&quot;) : (&quot;NVIC SR2&quot;)}`" value="2" visible="true" />
+        <Entry name="`${(xmc4300 || ip_ver1) ? (&quot;DMA SR3/NVIC SR3&quot;) : (&quot;NVIC SR3&quot;)}`" value="3" visible="true" />
+        <Entry name="`${(xmc1400) ? (&quot;ERU SR4/NVIC SR4&quot;) : (&quot;NVIC SR4&quot;)}`" value="4" visible="true" />
+        <Entry name="`${(xmc1400) ? (&quot;ERU SR5/NVIC SR5&quot;) : (&quot;NVIC SR5&quot;)}`" value="5" visible="true" />
+        <Entry name="`${(xmc1400) ? (&quot;ERU SR6/NVIC SR6&quot;) : (&quot;NVIC SR6&quot;)}`" value="6" visible="true" />
+        <Entry name="`${(xmc1400) ? (&quot;ERU SR7/NVIC SR7&quot;) : (&quot;CCU4 SR7/NVIC SR7&quot;)}`" value="7" visible="true" />
+      </ParamChoice>
+    </Repeat>
+
+    <!-- Connection signals -->
+    <ParamSignal port="rxd[0]" name="Receiver Node" group="Connections" visible="`${hasVisibleOption(&quot;rxd[0]&quot;) &amp;&amp; !general_settings_loopback_mode_id}`" desc="CAN RX connection." canBeEmpty="`${general_settings_loopback_mode_id || module_error}`" forbiddenBy="none" multiSelect="false" />
+    <ParamSignal port="txd[0]" name="Transmitter Node" group="Connections" visible="`${hasVisibleOption(&quot;txd[0]&quot;) &amp;&amp; !general_settings_loopback_mode_id}`" desc="CAN TX connection." canBeEmpty="`${general_settings_loopback_mode_id || module_error}`" forbiddenBy="none" multiSelect="false" />
+    <Repeat count="8">
+      <ParamSignal port="sr$idx[0]" name="Service Request Line $idx" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;) &amp;&amp; (event_sr_line_check_id_$idx)}`" desc="Event Line $idx Connection." canBeEmpty="`${(!event_sr_line_check_id_$idx) || module_error}`" forbiddenBy="none" />
+    </Repeat>
+    <!-- EOF Connection signals -->
+
+    <!-- Advanced -->
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+    <!-- EOF Advanced -->
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="CAN is not enabled." condition="`${module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="can[0]" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_can.h" include="true" />
+    <ConfigInclude value="cycfg_routing.h" include="`${!general_settings_loopback_mode_id}`" />
+
+    <ConfigDefine name="`${INST_NAME}`_HW" value="(CAN_NODE`${node_num}`)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_TIME_CONFIG" value="`${INST_NAME}`_bit_time_config" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_LMO$idx_CONFIG" value="`${INST_NAME}`_LMO_$idx" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
+    <ConfigDefine name="`${INST_NAME}`_LMO$idx_EVENT_ENABLE_TX" value="(`${mo_settings_event_tx_id_$idx}`)" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
+    <ConfigDefine name="`${INST_NAME}`_LMO$idx_EVENT_ENABLE_RX" value="(`${mo_settings_event_rx_id_$idx}`)" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
+    <ConfigDefine name="`${INST_NAME}`_NODE_NUMBER" value="(`${node_num}`U)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_MO_COUNT" value="(`${general_settings_num_of_objects_id}`U)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_LOOPBACK" value="(`${general_settings_loopback_mode_id}`)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_ALERT" value="(`${event_settings_node_alert_id}`)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_LAST_ERR_CODE" value="(`${event_settings_last_err_code_id}`)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_TXOK" value="(`${event_settings_transfer_ok_id}`)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_FRAME_COUNT" value="(`${event_settings_frame_counter_id}`)" public="true" include="true" />
+
+    <ConfigStruct name="`${INST_NAME}`_bit_time_config" type="XMC_CAN_NODE_NOMINAL_BIT_TIME_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="can_frequency" value="CAN_FREQUENCY_VALUE" />
+      <Member name="baudrate" value="(uint32_t)(`${general_settings_baud_rate_id}` * 1000)" />
+      <Member name="sample_point" value="(uint16_t)(`${advanced_settings_sample_point_id}` * 100)" />
+      <Member name="sjw" value="(uint16_t)`${advanced_settings_sync_jump_width_id}`" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_LMO_$idx" type="XMC_CAN_MO_t" const="`${inFlash}`" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256">
+      <Member name="can_mo_type" value="`${(mo_settings_page_msg_type_id_$idx == 0) ? (&quot;XMC_CAN_MO_TYPE_TRANSMSGOBJ&quot;) : (&quot;XMC_CAN_MO_TYPE_RECMSGOBJ&quot;)}`" />
+      <Member name="can_id_mode" value="`${(mo_settings_page_identifier_type_id_$idx == 0x7FF) ? (&quot;XMC_CAN_FRAME_TYPE_STANDARD_11BITS&quot;) : (&quot;XMC_CAN_FRAME_TYPE_EXTENDED_29BITS&quot;)}`" />
+      <Member name="can_priority" value="XMC_CAN_ARBITRATION_MODE_IDE_DIR_BASED_PRIO_2" />
+      <Member name="can_identifier" value="`${mo_settings_page_identifier_value_id_$idx}`U" />
+      <Member name="can_id_mask" value="`${mo_settings_page_mask_value_id_$idx}`U" />
+      <Member name="can_ide_mask" value="`${mo_settings_page_acceptance_mask_id_$idx}`U" />
+      <Member name="can_mo_ptr" value="(CAN_MO_TypeDef*)CAN_MO`${$idx + getParamValue(mo_starting_object_node_current)}`" />
+      <Member name="can_data_length" value="`${mo_settings_page_dlc_id_$idx}`U" />
+      <Member name="`${&quot;can_data[1]&quot;}`" value="`${mo_settings_page_data_h_id_$idx}`U" include="`${!mo_settings_page_msg_type_id_$idx}`" />
+      <Member name="`${&quot;can_data[0]&quot;}`" value="`${mo_settings_page_data_l_id_$idx}`U" include="`${!mo_settings_page_msg_type_id_$idx}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="if(XMC_CAN_STATUS_SUCCESS == XMC_CAN_NODE_NominalBitTimeConfigureEx(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_bit_time_config))&#xA;    {" include="true" />
+    <ConfigInstruction value="    XMC_CAN_NODE_EnableConfigurationChange(`${INST_NAME}`_HW);" include="true" />
+    <ConfigInstruction value="    XMC_CAN_NODE_SetInitBit(`${INST_NAME}`_HW);" include="true" />
+    <ConfigInstruction value="    XMC_CAN_NODE_ReSetAnalyzerMode(`${INST_NAME}`_HW);" include="true" />
+    <ConfigInstruction value="    XMC_CAN_NODE_EnableLoopBack(`${INST_NAME}`_HW);" include="`${general_settings_loopback_mode_id}`" />
+    <ConfigInstruction value="    XMC_CAN_NODE_SetReceiveInput(`${INST_NAME}`_HW, CAN_NODE`${node_num}`_RECEIVE_INPUT);" include="`${!general_settings_loopback_mode_id}`" />
+
+    <ConfigInstruction value="    /* Configure the node event for the alert event with the service request number. */" include="`${event_settings_node_alert_id}`" />
+    <ConfigInstruction value="    XMC_CAN_NODE_SetEventNodePointer(`${INST_NAME}`_HW, XMC_CAN_NODE_POINTER_EVENT_ALERT, `${event_settings_node_alert_sr_id}`U);" include="`${event_settings_node_alert_id}`" />
+    <ConfigInstruction value="    /* Configure the node event for the LEC event with the service request number. */" include="`${event_settings_last_err_code_id}`" />
+    <ConfigInstruction value="    XMC_CAN_NODE_SetEventNodePointer(`${INST_NAME}`_HW, XMC_CAN_NODE_POINTER_EVENT_LEC, `${event_settings_last_err_code_sr_id}`U);" include="`${event_settings_last_err_code_id}`" />
+    <ConfigInstruction value="    /* Configure the node event for the TXOK event with the service request number. */" include="`${event_settings_transfer_ok_id}`" />
+    <ConfigInstruction value="    XMC_CAN_NODE_SetEventNodePointer(`${INST_NAME}`_HW, XMC_CAN_NODE_POINTER_EVENT_TRANSFER_OK, `${event_settings_transfer_ok_sr_id}`U);" include="`${event_settings_transfer_ok_id}`" />
+    <ConfigInstruction value="    /* Configure the node event for the Frame counter event with the service request number. */" include="`${event_settings_frame_counter_id}`" />
+    <ConfigInstruction value="    XMC_CAN_NODE_SetEventNodePointer(`${INST_NAME}`_HW, XMC_CAN_NODE_POINTER_EVENT_FRAME_COUNTER, `${event_settings_frame_counter_sr_id}`U);" include="`${event_settings_frame_counter_id}`" />
+
+    <ConfigInstruction value="    XMC_CAN_NODE_EnableEvent(`${INST_NAME}`_HW, XMC_CAN_NODE_EVENT_ALERT);" include="`${event_settings_node_alert_id}`" />
+    <ConfigInstruction value="    XMC_CAN_NODE_EnableEvent(`${INST_NAME}`_HW, XMC_CAN_NODE_EVENT_LEC);" include="`${event_settings_last_err_code_id}`" />
+    <ConfigInstruction value="    XMC_CAN_NODE_EnableEvent(`${INST_NAME}`_HW, XMC_CAN_NODE_EVENT_TX_INT);" include="`${event_settings_transfer_ok_id}`" />
+    <ConfigInstruction value="    XMC_CAN_NODE_EnableEvent(`${INST_NAME}`_HW, XMC_CAN_NODE_EVENT_CFCIE);" include="`${event_settings_frame_counter_id}`" />
+
+    <ConfigInstruction value="    XMC_CAN_AllocateMOtoNodeList(`${module_error ? &quot;NULL&quot; : (getExposedMember(&quot;can[0]&quot;, &quot;can_global&quot;))}`, `${node_num}`, `${$idx + getParamValue(mo_starting_object_node_current)}`);" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
+    <ConfigInstruction value="    XMC_CAN_MO_Config(&amp;`${INST_NAME}`_LMO_$idx);" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
+    <ConfigInstruction value="    XMC_CAN_MO_SetEventNodePointer(&amp;`${INST_NAME}`_LMO_$idx, XMC_CAN_MO_POINTER_EVENT_TRANSMIT, `${mo_settings_event_tx_sr_id_$idx}`U);" include="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; mo_settings_event_tx_id_$idx &amp;&amp; event_settings_mo_tx_enable_id}`" repeatCount="256" />
+    <ConfigInstruction value="    XMC_CAN_MO_EnableEvent(&amp;`${INST_NAME}`_LMO_$idx, XMC_CAN_MO_EVENT_TRANSMIT);" include="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; mo_settings_event_tx_id_$idx &amp;&amp; event_settings_mo_tx_enable_id}`" repeatCount="256" />
+    <ConfigInstruction value="    XMC_CAN_MO_SetEventNodePointer(&amp;`${INST_NAME}`_LMO_$idx, XMC_CAN_MO_POINTER_EVENT_RECEIVE, `${mo_settings_event_rx_sr_id_$idx}`U);" include="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; mo_settings_event_rx_id_$idx &amp;&amp; event_settings_mo_rx_enable_id}`" repeatCount="256" />
+    <ConfigInstruction value="    XMC_CAN_MO_EnableEvent(&amp;`${INST_NAME}`_LMO_$idx, XMC_CAN_MO_EVENT_RECEIVE);" include="`${($idx &lt; general_settings_num_of_objects_id) &amp;&amp; mo_settings_event_rx_id_$idx &amp;&amp; event_settings_mo_rx_enable_id}`" repeatCount="256" />
+
+    <ConfigInstruction value="    /* Reset CCE and INIT bit NCR for node configuration. */" include="true" />
+    <ConfigInstruction value="    XMC_CAN_NODE_DisableConfigurationChange(`${INST_NAME}`_HW);" include="true" />
+    <ConfigInstruction value="    XMC_CAN_NODE_ResetInitBit(`${INST_NAME}`_HW);" include="true" />
+    <ConfigInstruction value="}" include="true" />
+  </ConfigFirmware>
+</Personality>

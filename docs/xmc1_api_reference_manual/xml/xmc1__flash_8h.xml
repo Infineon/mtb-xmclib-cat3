@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc1__flash_8h" kind="file" language="C++">
     <compoundname>xmc1_flash.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">XMC1000_RomFunctionTable.h</includes>
     <includedby refid="xmc__flash_8h" local="yes">xmc_flash.h</includedby>
     <incdepgraph>
@@ -11,14 +11,9 @@
         <link refid="xmc1__flash_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>XMC1000_RomFunctionTable.h</label>
       </node>
       <node id="2">
-        <label>xmc_common.h</label>
+        <label>XMC1000_RomFunctionTable.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="define">

@@ -58,6 +58,9 @@
  * 2019-12-02:
  *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
+ * 2022-12-15:
+ *     - Documentation updates
+ *
  * @endcond
  *
  */
@@ -87,6 +90,7 @@
  * The RTC low level driver provides functions to configure and initialize the RTC
  * hardware peripheral.
  *
+ * Also, the RTC block can be configured from the ModusToolbox&trade; Device Configurator: \ref section_personality_rtc
  * @{
  */
 
@@ -114,12 +118,12 @@ typedef enum XMC_RTC_STATUS
 typedef enum XMC_RTC_EVENT
 {
   XMC_RTC_EVENT_PERIODIC_SECONDS = RTC_MSKSR_MPSE_Msk, /**< Mask value to enable an event on periodic seconds */
-  XMC_RTC_EVENT_PERIODIC_MINUTES = RTC_MSKSR_MPMI_Msk, /**< Mask value to enable an event on periodic seconds */
-  XMC_RTC_EVENT_PERIODIC_HOURS   = RTC_MSKSR_MPHO_Msk, /**< Mask value to enable an event on periodic seconds */
-  XMC_RTC_EVENT_PERIODIC_DAYS    = RTC_MSKSR_MPDA_Msk, /**< Mask value to enable an event on periodic seconds */
-  XMC_RTC_EVENT_PERIODIC_MONTHS  = RTC_MSKSR_MPMO_Msk, /**< Mask value to enable an event on periodic seconds */
-  XMC_RTC_EVENT_PERIODIC_YEARS   = RTC_MSKSR_MPYE_Msk, /**< Mask value to enable an event on periodic seconds */
-  XMC_RTC_EVENT_ALARM            = RTC_MSKSR_MAI_Msk   /**< Mask value to enable an event on periodic seconds */
+  XMC_RTC_EVENT_PERIODIC_MINUTES = RTC_MSKSR_MPMI_Msk, /**< Mask value to enable an event on periodic minutes */
+  XMC_RTC_EVENT_PERIODIC_HOURS   = RTC_MSKSR_MPHO_Msk, /**< Mask value to enable an event on periodic hours */
+  XMC_RTC_EVENT_PERIODIC_DAYS    = RTC_MSKSR_MPDA_Msk, /**< Mask value to enable an event on periodic days */
+  XMC_RTC_EVENT_PERIODIC_MONTHS  = RTC_MSKSR_MPMO_Msk, /**< Mask value to enable an event on periodic months */
+  XMC_RTC_EVENT_PERIODIC_YEARS   = RTC_MSKSR_MPYE_Msk, /**< Mask value to enable an event on periodic years */
+  XMC_RTC_EVENT_ALARM            = RTC_MSKSR_MAI_Msk   /**< Mask value to enable an alarm event */
 } XMC_RTC_EVENT_t;
 
 /**

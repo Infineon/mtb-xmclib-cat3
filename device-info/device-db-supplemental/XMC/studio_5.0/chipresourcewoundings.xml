@@ -19,7 +19,7 @@
     <Block name="ledts"/>
   </RemoveListWounding>
   <RemoveListWounding name="CAN_REMOVED">
-    <Block name="can"/>
+    <Block name="can.node"/>
   </RemoveListWounding>
   <RemoveListWounding name="ADC_REMOVED">
     <Block name="vadc.group"/>
@@ -30,10 +30,10 @@
     <Block name="acmp.acmpx"/>
   </RemoveListWounding>
   <RemoveListWounding name="DAC_REMOVED">
-    <Block name="dac"/>
+    <Block name="dac.ch"/>
   </RemoveListWounding>
   <RemoveListWounding name="DSD_REMOVED">
-    <Block name="dsd"/>
+    <Block name="dsd.ch"/>
   </RemoveListWounding>
   <RemoveListWounding name="USB_REMOVED">
     <Block name="usb"/>

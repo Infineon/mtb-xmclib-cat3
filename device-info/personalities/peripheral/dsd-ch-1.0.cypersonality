@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file dsd-ch-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* DSD CH personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_dsd-ch" name="DSD CH" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_dsd" />
+    <Resource name="dsd\.ch\.mux" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <ParamBool id="is_debug_mode" name="Is the Personality in Debug Mode?" group="Internal" default="false" visible="false" editable="true" desc="" />
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;ch&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="clock_resource" name="CCU Clock Resource" group="Internal" default="scu[0].clock[0].periclk[0]" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamBool id="clock_error" name="Clock Error" group="Internal" default="`${!isBlockUsed(clock_resource)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="clock_freq" name="Clock Frequency [Hz]" group="Internal" default="`${clock_error ? 0.0 : getExposedMember(clock_resource, &quot;frequency&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+
+    <!-- Documentation -->
+    <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___d_s_d.html" linkText="Open DSD Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Driver Documentation" />
+    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_dsd" linkText="Open DSD Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+
+    <!-- General Settings -->
+    <ParamChoice id="preconfiguration_mode" name="Preconfiguration Mode" group="General Settings" default="1" visible="true" editable="true" desc="The Advance configuration allows setting a manual value for the decimation factor as well as the option to add an integration feature. Select basic or advance functionality of DSD channels.">
+      <Entry name="Basic" value="1" visible="true" />
+      <Entry name="Advanced" value="2" visible="true" />
+    </ParamChoice>
+    <ParamBool id="is_advanced_configuration" name="Is It Advanced Configuration? " group="General Settings" default="`${preconfiguration_mode == 2}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamChoice id="clock_master" name="Data Clock Master" group="General Settings" default="1" visible="true" editable="true" desc="This selection defines if the XMC delta sigma demodulator provides a clock to the external delta sigma modulator (Clock Master: DSD). Or if the XMC delta sigma demodulator receives the clock from the external delta sigma modulator (Clock Master: DSM).">
+      <Entry name="DSM (External Module)" value="1" visible="true" />
+      <Entry name="DSD (XMC MCU)" value="2" visible="true" />
+    </ParamChoice>
+    <ParamString id="clock_frequency" name="Input Clock Frequency" group="General Settings" default="`${formatFrequency(clock_freq)}`" visible="true" editable="false" desc="Input frequency to DSD module from System Control Unit (SCU)." />
+    <ParamRange id="desired_frequency_khz" name="Desired Data Clock Frequency [kHz]" group="General Settings" default="10000" min="`${clock_freq / 32000}`" max="`${clock_freq / 2000}`" resolution="0.01" visible="true" editable="true" desc="Desired DSD channel frequency for all the channels." />
+    <ParamString id="clk_divider_intermediate" name="Clock Divider Intermediate" group="General Settings" default="`${floor(clock_freq / (desired_frequency_khz * 1000))}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="clk_divider" name="Clock Divider" group="General Settings" default="`${(clk_divider_intermediate &gt; 32) ? 32 : ((clk_divider_intermediate &lt; 2) ? 2 : ((clk_divider_intermediate % 2) ? (clk_divider_intermediate - 1) : clk_divider_intermediate))}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamRange id="actual_frequency_khz" name="Actual Data Clock Frequency [kHz]" group="General Settings" default="`${(clock_master == 1) ? desired_frequency_khz : (clock_freq / (clk_divider * 1000.0))}`" min="1" max="144000" resolution="0.01" visible="true" editable="false" desc="Due to the integer clock division the actual frequency may not be able to reach the desired frequency. This box displays the closest possible DSD demodulator channel frequency.&#13;&#10;" />
+    <ParamChoice id="data_strobe" name="Data Sampling" group="General Settings" default="XMC_DSD_CH_STROBE_DIRECT_CLOCK_RISE" visible="true" editable="true" desc="This defines the edge on which the external delta sigma modulator data is sampled. Option 3,4 and 5 influence the sample frequency.">
+      <Entry name="1) Direct Clock, Sample on Rising Edge" value="XMC_DSD_CH_STROBE_DIRECT_CLOCK_RISE" visible="true" />
+      <Entry name="2) Direct Clock, Sample on Falling Edge" value="XMC_DSD_CH_STROBE_DIRECT_CLOCK_FALL" visible="true" />
+      <Entry name="3) Double Clock, Sample on Both Edges" value="XMC_DSD_CH_STROBE_DOUBLE_DATA" visible="true" />
+      <Entry name="4) Half Clock, Sample Every Second Rising Edge" value="XMC_DSD_CH_STROBE_DOUBLE_CLOCK_RISE" visible="true" />
+      <Entry name="5) Half Clock, Sample Every Second Falling Edge" value="XMC_DSD_CH_STROBE_DOUBLE_CLOCK_FALL" visible="true" />
+    </ParamChoice>
+    <ParamImage id="data_strobe_image" name="" group="General Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dsd_data_strobe.png" visible="true" desc="Explain the sampling edge for input data." />
+    <ParamRange id="sample_frequency_khz" name="Sampling Frequency [kHz]" group="General Settings" default="`${(data_strobe eq XMC_DSD_CH_STROBE_DOUBLE_DATA) ? (actual_frequency_khz * 2) : (((data_strobe eq XMC_DSD_CH_STROBE_DOUBLE_CLOCK_RISE) || (data_strobe eq XMC_DSD_CH_STROBE_DOUBLE_CLOCK_FALL)) ? (actual_frequency_khz / 2) : actual_frequency_khz)}`" min="1" max="576000" resolution="0.01" visible="true" editable="false" desc="Demodulator channel operating frequency. Its applicable for all DSD channels. This is the frequency at which the channels are sampled based on the strobe. Strobe decides whether the sampling should be half, same to double the input channel frequency." />
+    <ParamChoice id="data_polarity" name="Data Polarity" group="General Settings" default="0U" visible="true" editable="true" desc="The DSM data can be optionally inverted before it is filtered. Select , whether data is fed directly or inverted to filter.">
+      <Entry name="Direct" value="0U" visible="true" />
+      <Entry name="Inverted" value="1U" visible="true" />
+    </ParamChoice>
+    <!-- Configuration - Main -->
+    <ParamChoice id="main_filter_type" name="Filtertype" group="Main Filter" default="`${!is_advanced_configuration ? 3 : 3}`" visible="true" editable="`${is_advanced_configuration}`" desc="`${is_advanced_configuration ? &quot;Configures the main filter type.&quot; : &quot;DSD filter type. Only allowed configuration is for CIC3 filter.&quot;}`">
+      <Entry name="CIC1" value="1" visible="`${is_advanced_configuration}`" />
+      <Entry name="CIC2" value="2" visible="`${is_advanced_configuration}`" />
+      <Entry name="CIC3" value="3" visible="true" />
+      <Entry name="CICF" value="4" visible="`${is_advanced_configuration}`" />
+    </ParamChoice>
+    <ParamChoice id="main_filter_decimation_basic" name="Decimation" group="Main Filter" default="32" visible="`${!is_advanced_configuration}`" editable="true" desc="Decimation factor settings for main filter.">
+      <Entry name="8" value="8" visible="true" />
+      <Entry name="16" value="16" visible="true" />
+      <Entry name="32" value="32" visible="true" />
+      <Entry name="64" value="64" visible="true" />
+    </ParamChoice>
+    <ParamRange id="main_filter_decimation_advanced" name="Decimation" group="Main Filter" default="32" min="4" max="256" resolution="1" visible="`${is_advanced_configuration}`" editable="true" desc="Decimation factor settings for CIC main filter.&#13;&#10;Refer Errata Sheet for decimation factor limitations." />
+    <ParamString id="main_filter_decimation" name="Basic/Advanced Decimation" group="Main Filter" default="`${is_advanced_configuration ? main_filter_decimation_advanced : main_filter_decimation_basic}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamRange id="main_filter_channel_offset_dec" name="Channel Offset [dec]" group="Main Filter" default="0" min="-32767" max="32768" resolution="1" visible="`${is_advanced_configuration}`" editable="true" desc="This value will be subtracted from the result, before storing the result in result register.&#13;&#10;For most cases this value would be zero." />
+    <ParamRange id="main_filter_channel_start_dec" name="Channel Start [dec]" group="Main Filter" default="4" min="4" max="`${main_filter_decimation}`" resolution="1" visible="`${is_advanced_configuration}`" editable="true" desc="In order to synchronize multiple channels, the start value of the main filter can be programmed. &#13;&#10;Note: This value is used only for the first time." />
+    <ParamString id="main_filter_shift_value_cic1" name="Shift Value CIC1" group="Main Filter" default="0" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="main_filter_shift_value_cic2" name="Shift Value CIC2" group="Main Filter" default="`${(main_filter_decimation &gt; 181) ? 1 : 0}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="main_filter_shift_value_cic3" name="Shift Value CIC3" group="Main Filter" default="`${(main_filter_decimation &lt; 33) ? 0 : ((main_filter_decimation &lt; 41) ? 1 : ((main_filter_decimation &lt; 51) ? 2 : ((main_filter_decimation &lt; 65) ? 3 : ((main_filter_decimation &lt; 81) ? 4 : ((main_filter_decimation &lt; 102) ? 5 : ((main_filter_decimation &lt; 129) ? 6 : ((main_filter_decimation &lt; 182) ? 7 : ((main_filter_decimation &lt; 204) ? 8 : 9))))))))}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="main_filter_shift_value_cicf" name="Shift Value CICF" group="Main Filter" default="`${(main_filter_decimation &lt; 129) ? 0 : ((main_filter_decimation &lt; 204) ? 1 : 2)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="main_filter_shift_value" name="Shift Value" group="Main Filter" default="`${(main_filter_type == 1) ? main_filter_shift_value_cic1 : ((main_filter_type == 2) ? main_filter_shift_value_cic2 : ((main_filter_type == 3) ? main_filter_shift_value_cic3 : main_filter_shift_value_cicf))}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="main_filter_maximum_absolute_value_cicf" name="Maximum Absolute Value in the Case of CICF" group="Main Filter" default="`${(2 * pow(main_filter_decimation, 2)) / pow(2, main_filter_shift_value)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="main_filter_maximum_absolute_value_cicx" name="Maximum Absolute Value in the Case of Not CICF" group="Main Filter" default="`${(pow(main_filter_decimation, main_filter_type)) / pow(2, main_filter_shift_value)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+
+    <!-- Configuration - Integrator -->
+    <ParamBool id="enable_trigger_integrator" name="Trigger (Integrator)" group="Trigger (Integrator)" default="false" visible="`${is_advanced_configuration}`" editable="true" desc="Enable integrator for higher accuracy or window based measurement." />
+    <ParamRange id="integrator_integrated_values_v" name="Integrated Values (V)" group="Trigger (Integrator)" default="64" min="1" max="64" resolution="1" visible="`${is_advanced_configuration}`" editable="`${is_advanced_configuration &amp;&amp; enable_trigger_integrator}`" desc="This configures the integrator window size. The number of samples to integrate." />
+    <ParamRange id="integrator_discarded" name="Discarded" group="Trigger (Integrator)" default="4" min="0" max="`${main_filter_decimation}`" resolution="1" visible="`${is_advanced_configuration}`" editable="`${is_advanced_configuration &amp;&amp; enable_trigger_integrator}`" desc="This would select the number of samples to discard before starting the integration." />
+    <ParamChoice id="integrator_window_type" name="Window Type" group="Trigger (Integrator)" default="XMC_DSD_CH_INTEGRATOR_STOP_END_OF_LOOPS" visible="`${is_advanced_configuration}`" editable="`${is_advanced_configuration &amp;&amp; enable_trigger_integrator}`" desc="Configure the stop condition of integrator. In &apos;Fixed window&apos; the repetition will stop after the value configured in &apos;Repetition&apos;. In &apos;Flexible window&apos; the repetition will stop after an inverse start trigger.">
+      <Entry name="Fixed window" value="XMC_DSD_CH_INTEGRATOR_STOP_END_OF_LOOPS" visible="true" />
+      <Entry name="Flexible window" value="XMC_DSD_CH_INTEGRATOR_STOP_ENDLESS_OR_INVERSE_TRIGGER" visible="true" />
+    </ParamChoice>
+    <ParamRange id="integrator_repetition_r" name="Repetition (R)" group="Trigger (Integrator)" default="1" min="1" max="16" resolution="1" visible="`${is_advanced_configuration}`" editable="`${is_advanced_configuration &amp;&amp; enable_trigger_integrator &amp;&amp; (integrator_window_type eq XMC_DSD_CH_INTEGRATOR_STOP_END_OF_LOOPS)}`" desc="If integrator window type is &apos;Fixed window&apos; then integrator will stop after configured number of cycles." />
+    <ParamChoice id="integrator_trigger_start" name="Trigger Start" group="Trigger (Integrator)" default="`${enable_trigger_integrator ? XMC_DSD_CH_INTEGRATOR_START_TRIGGER_RISE : XMC_DSD_CH_INTEGRATOR_START_OFF}`" visible="`${is_advanced_configuration}`" editable="`${is_advanced_configuration &amp;&amp; enable_trigger_integrator}`" desc="Only enable auxiliary filter when integrator is enabled.">
+      <Entry name="No Trigger, Integrator Bypassed" value="XMC_DSD_CH_INTEGRATOR_START_OFF" visible="`${!enable_trigger_integrator}`" />
+      <Entry name="Rising Edge" value="XMC_DSD_CH_INTEGRATOR_START_TRIGGER_RISE" visible="`${enable_trigger_integrator}`" />
+      <Entry name="Falling Edge" value="XMC_DSD_CH_INTEGRATOR_START_TRIGGER_FALL" visible="`${enable_trigger_integrator}`" />
+      <Entry name="No Trigger, Integrator Always On" value="XMC_DSD_CH_INTEGRATOR_START_ALLWAYS_ON" visible="`${enable_trigger_integrator}`" />
+    </ParamChoice>
+    <ParamBool id="trigger_gate_aux_filter_by_integrator" name="Gate Aux Filter by Integrator" group="Trigger (Integrator)" default="`${enable_trigger_integrator ? false : false}`" visible="`${is_advanced_configuration}`" editable="`${is_advanced_configuration &amp;&amp; enable_trigger_integrator}`" desc="Enable integrator for higher accuracy or window based measurement." />
+    <!-- Configuration - Aux -->
+    <ParamBool id="enable_aux_filter" name="Aux Filter" group="Aux Filter" default="false" visible="true" editable="true" desc="Enable auxiliary filter module." />
+    <ParamChoice id="aux_filter_type" name="Filtertype" group="Aux Filter" default="3" visible="true" editable="`${enable_aux_filter}`" desc="Configures the auxiliary filter type.">
+      <Entry name="CIC1" value="1" visible="true" />
+      <Entry name="CIC2" value="2" visible="true" />
+      <Entry name="CIC3" value="3" visible="true" />
+      <Entry name="CICF" value="4" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="aux_filter_decimation_basic" name="Decimation" group="Aux Filter" default="4" visible="`${!is_advanced_configuration}`" editable="`${!is_advanced_configuration &amp;&amp; enable_aux_filter}`" desc="Configure decimation factor of auxiliary filter.">
+      <Entry name="4" value="4" visible="true" />
+      <Entry name="8" value="8" visible="true" />
+      <Entry name="16" value="16" visible="true" />
+      <Entry name="32" value="32" visible="true" />
+    </ParamChoice>
+    <ParamRange id="aux_filter_decimation_advanced" name="Decimation" group="Aux Filter" default="32" min="4" max="32" resolution="1" visible="`${is_advanced_configuration}`" editable="`${is_advanced_configuration &amp;&amp; enable_aux_filter}`" desc="Configure decimation factor of auxiliary filter." />
+    <ParamString id="aux_filter_decimation" name="Basic/Advanced Decimation" group="Aux Filter" default="`${is_advanced_configuration ? aux_filter_decimation_advanced : aux_filter_decimation_basic}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="aux_filter_maximum_absolute_value_cicf" name="Maximum Absolute Value in the Case of CICF" group="Aux Filter" default="`${2 * pow(aux_filter_decimation, 2)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="aux_filter_maximum_absolute_value_cicx" name="Maximum Absolute Value in the Case of Not CICF" group="Aux Filter" default="`${pow(aux_filter_decimation, aux_filter_type)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <!-- Main Filter Summary -->
+    <ParamRange id="main_filter_result_frequency_khz" name="Result Frequency [kHz]" group="Main Filter" default="`${sample_frequency_khz / (main_filter_decimation * (enable_trigger_integrator ? integrator_integrated_values_v : 1))}`" min="0" max="400000" resolution="0.01" visible="true" editable="false" desc="This is the main filter result sampling frequency. This depends on the sample frequency and the decimation factor." />
+    <ParamRange id="main_filter_result_period_us" name="Result Period [us]" group="Main Filter" default="`${(1000 * main_filter_decimation * (enable_trigger_integrator ? integrator_integrated_values_v : 1)) / sample_frequency_khz}`" min="0" max="400000" resolution="0.01" visible="true" editable="false" desc="This is the main filter result sampling period. This depends on the sample frequency and the decimation factor." />
+    <ParamString id="main_filter_maximum_absolute_value" name="Maximum Absolute Value" group="Main Filter" default="`${(main_filter_type == 4 ? main_filter_maximum_absolute_value_cicf : main_filter_maximum_absolute_value_cicx) * (enable_trigger_integrator ? (integrator_integrated_values_v / 64.0) : 1)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="main_filter_range" name="Range" group="Main Filter" default="`${-main_filter_maximum_absolute_value}` : `${main_filter_maximum_absolute_value - 1}`" visible="true" editable="false" desc="This filed displays the maximum negative and positive possible values that can be captured in the result register based on the `${is_advanced_configuration ? &quot;channel clock, carrier frequency, decimation and integration window sizes.&quot; : &quot;filter type and the decimation factor.&quot;}`" />
+    <ParamRange id="main_filter_result_resolution_bits" name="Result Resolution [bits]" group="Main Filter" default="`${log(main_filter_maximum_absolute_value) / log(2) + 1}`" min="0" max="16" resolution="0.1" visible="true" editable="false" desc="Display the maximum possible result resolution of main filter with current settings. Including the sign bit." />
+    <ParamString id="main_filter_result_accuracy_bits_cicf" name="Result Accuracy in the Case of CICF" group="Main Filter" default="`${log((2 * pow(main_filter_decimation, 2))) / log(2) + 1}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="main_filter_result_accuracy_bits_cicx" name="Result Accuracy in the Case of Not CICF" group="Main Filter" default="`${(log(pow(main_filter_decimation, main_filter_type))) / log(2) + 1}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamRange id="main_filter_result_accuracy_bits" name="Result Accuracy [bits]" group="Main Filter" default="`${main_filter_type == 4 ? main_filter_result_accuracy_bits_cicf : main_filter_result_accuracy_bits_cicx}`" min="0" max="`${is_advanced_configuration ? 25 : 19}`" resolution="0.1" visible="true" editable="false" desc="Maximum actual result accuracy of the comb filter. Including the sign bit." />
+    <ParamRange id="main_filter_filter_response_time_us" name="Response Time [us]" group="Main Filter" default="`${((main_filter_type &lt; 4 ? main_filter_type : 2) * (main_filter_decimation + (main_filter_type &lt; 4 ? 0 : 1)) * 1000) / sample_frequency_khz}`" min="0" max="100000" resolution="0.01" visible="true" editable="false" desc="This is the main filter response time of the DSD due to CIC filter type, decimation factor and clock frequency." />
+    <ParamRange id="main_filter_filter_group_delay_us" name="Group Delay [us]" group="Main Filter" default="`${((1 + (main_filter_type &lt; 4 ? main_filter_type : 1) * (((main_filter_type &lt; 4 ? 1 : 2) * main_filter_decimation - 1) / (main_filter_type &lt; 4 ? 2.0 : 1.0))) * 1000) / sample_frequency_khz}`" min="0" max="400000" resolution="0.01" visible="true" editable="false" desc="Its filter group delay. Depends on decimation and filter type." />
+    <!-- Aux Filter Summary -->
+    <ParamRange id="aux_filter_result_frequency_khz" name="Result Frequency [kHz]" group="Aux Filter" default="`${sample_frequency_khz / aux_filter_decimation}`" min="0" max="400000" resolution="0.01" visible="`${enable_aux_filter}`" editable="false" desc="This is the auxiliary filter result sampling frequency. This depends on the sample frequency and the decimation factor." />
+    <ParamRange id="aux_filter_result_period_us" name="Result Period [us]" group="Aux Filter" default="`${(1000 * aux_filter_decimation) / sample_frequency_khz}`" min="0" max="400000" resolution="0.01" visible="`${enable_aux_filter}`" editable="false" desc="This is the auxiliary filter result sampling period. This depends on the sample frequency and the decimation factor." />
+    <ParamString id="aux_filter_maximum_absolute_value" name="Maximum Absolute Value" group="Aux Filter" default="`${aux_filter_type == 4 ? aux_filter_maximum_absolute_value_cicf : aux_filter_maximum_absolute_value_cicx}`" visible="`${is_debug_mode}`" editable="false" desc="" />
+    <ParamString id="aux_filter_range" name="Range" group="Aux Filter" default="`${-aux_filter_maximum_absolute_value}` : `${aux_filter_maximum_absolute_value - 1}`" visible="`${enable_aux_filter}`" editable="false" desc="This filed displays the maximum negative and positive possible values that can be captured in the result register based on the `${is_advanced_configuration ? &quot;channel clock, carrier frequency, decimation and integration window sizes.&quot; : &quot;filter type and the decimation factor in the case of maximum negative value, and the channel clock and decimation factor in the case of maximum positive value.&quot;}`" />
+    <ParamRange id="aux_filter_result_resolution_bits" name="Result Resolution [bits]" group="Aux Filter" default="`${log(aux_filter_maximum_absolute_value) / log(2) + 1}`" min="0" max="16" resolution="0.1" visible="`${enable_aux_filter}`" editable="false" desc="Display the maximum possible result resolution of auxiliary filter with current settings. Including the sign bit." />
+    <ParamRange id="aux_filter_filter_response_time_us" name="Response Time [us]" group="Aux Filter" default="`${((aux_filter_type &lt; 4 ? aux_filter_type : 2) * (aux_filter_decimation + (aux_filter_type &lt; 4 ? 0 : 1)) * 1000) / sample_frequency_khz}`" min="0" max="400000" resolution="0.01" visible="`${enable_aux_filter}`" editable="false" desc="This is the auxiliary filter response time of the DSD due to CIC filter type, decimation factor and clock frequency." />
+    <ParamRange id="aux_filter_filter_group_delay_us" name="Group Delay [us]" group="Aux Filter" default="`${((1 + (aux_filter_type &lt; 4 ? aux_filter_type : 1) * (((aux_filter_type &lt; 4 ? 1 : 2) * aux_filter_decimation - 1) / (aux_filter_type &lt; 4 ? 2.0 : 1.0))) * 1000) / sample_frequency_khz}`" min="0" max="400000" resolution="0.01" visible="`${enable_aux_filter}`" editable="false" desc="This is the auxiliary filter group delay. Depends on decimation and filter type." />
+    <!-- Configuration - Comparator -->
+    <ParamBool id="enable_comparator" name="Comparator" group="Comparator" default="`${!enable_aux_filter ? false : false}`" visible="true" editable="`${enable_aux_filter}`" desc="Enable comparator to detect overvoltage or current by defining the boundaries. &#13;&#10;Note: Auxiliary filter should be enabled to use this features." />
+    <ParamRange id="comparator_upper_limit_dec" name="Upper Limit [dec]" group="Comparator" default="0" min="`${-aux_filter_maximum_absolute_value}`" max="`${aux_filter_maximum_absolute_value - 1}`" resolution="1" visible="true" editable="`${enable_aux_filter &amp;&amp; enable_comparator}`" desc="Comparator event generation upper boundary limit." />
+    <ParamRange id="comparator_lower_limit_dec" name="Lower Limit [dec]" group="Comparator" default="0" min="`${-aux_filter_maximum_absolute_value}`" max="`${aux_filter_maximum_absolute_value - 1}`" resolution="1" visible="true" editable="`${enable_aux_filter &amp;&amp; enable_comparator}`" desc="Comparator event generation lower boundary limit." />
+    <!-- TODORCV WARNING! DAVE APP only allows Inside and Outside Boundary options, but the driver allows 5 options, being XMC_DSD_CH_AUX_EVENT_DISABLED = 0U, XMC_DSD_CH_AUX_EVENT_EVERY_NEW_RESULT = 1U, XMC_DSD_CH_AUX_EVENT_CAPTURE_SIGN_DELAY = 2U, XMC_DSD_CH_AUX_EVENT_INSIDE_BOUNDARY = 5U, XMC_DSD_CH_AUX_EVENT_OUTSIDE_BOUNDARY = 9U -->
+    <ParamChoice id="comparator_event" name="Event" group="Comparator" default="`${XMC_DSD_CH_AUX_EVENT_INSIDE_BOUNDARY}`" visible="true" editable="`${enable_aux_filter &amp;&amp; enable_comparator}`" desc="Comparator event generation control.">
+      <!-- <Entry name="Disabled" value="XMC_DSD_CH_AUX_EVENT_DISABLED" visible="false" /> -->
+      <!-- <Entry name="For Every New Result" value="XMC_DSD_CH_AUX_EVENT_EVERY_NEW_RESULT" visible="false" /> -->
+      <!-- <Entry name="For Alternate Source" value="XMC_DSD_CH_AUX_EVENT_CAPTURE_SIGN_DELAY" visible="false" /> -->
+      <Entry name="`${!enable_comparator ? &quot;Disabled&quot; : &quot;Inside Boundary&quot;}`" value="XMC_DSD_CH_AUX_EVENT_INSIDE_BOUNDARY" visible="true" />
+      <Entry name="Outside Boundary" value="XMC_DSD_CH_AUX_EVENT_OUTSIDE_BOUNDARY" visible="true" />
+    </ParamChoice>
+    <!-- Event Settings -->
+    <ParamBool id="enable_main_filter_result_event" name="Main Filter Result Event" group="Event Settings" default="false" visible="true" editable="true" desc="Enable main filter result event for DSD channel." />
+    <ParamBool id="enable_aux_filter_result_event" name="Auxiliary Filter Result Event" group="Event Settings" default="false" visible="`${enable_aux_filter &amp;&amp; enable_comparator}`" editable="true" desc="Enable aux filter alarm event for DSD channel." />
+
+    <!-- Connections -->
+    <ParamSignal port="din_inp[0]" name="Data Bitstream Input [din_inp]" group="Connections" visible="true" desc="" canBeEmpty="false" />
+    <ParamSignal port="mclk_inp[0]" name="Modulator Clock Input [mclk_inp]" group="Connections" visible="`${clock_master == 1}`" desc="" canBeEmpty="`${clock_master == 2}`" />
+    <ParamSignal port="mclk[0]" name="Modulator Clock Output [mclk]" group="Connections" visible="`${clock_master == 2}`" desc="" canBeEmpty="true" />
+    <ParamSignal port="itr_inp[0]" name="Trigger Signal Input A [itr_inp]" group="Connections" visible="`${enable_trigger_integrator}`" desc="" canBeEmpty="true" />
+    <ParamSignal port="srm[0]" name="Service Request Output Main Channel [srm]" group="Connections" visible="`${enable_main_filter_result_event}`" desc="" canBeEmpty="true" />
+
+    <!-- Advanced -->
+    <ParamBool id="start_after_init" name="Start After Initialization" group="Advanced" default="false" visible="true" editable="true" desc="Enable/Disable Start After Initialization. If disabled then after configuration DSD filter will be idle." />
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+  <DRCs />
+  <ConfigFirmware>
+    <ConfigInclude value="cycfg_routing.h" include="`${hasConnection(&quot;din_inp&quot;, 0) || hasConnection(&quot;mclk_inp&quot;, 0) || hasConnection(&quot;itr_inp&quot;, 0)}`" />
+
+    <ConfigDefine name="`${INST_NAME}`_HW" value="DSD" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_CH_HW" value="DSD_CH`${channel_num}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_CH_ID" value="XMC_DSD_CH_ID_`${channel_num}`" public="true" include="true" />
+
+    <!-- IRQ macros -->
+    <ConfigDefine name="`${INST_NAME}`_MAIN_FILTER_INTERRUPT_HANDLER" value="DSD0_`${channel_num}`_IRQHandler" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_MAIN_FILTER_IRQN" value="DSD0_M_`${channel_num}`_IRQn" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_AUX_FILTER_INTERRUPT_HANDLER" value="DSD0_`${channel_num + 4}`_IRQHandler" public="true" include="`${enable_aux_filter}`" />
+    <ConfigDefine name="`${INST_NAME}`_AUX_FILTER_IRQN" value="DSD0_A_`${channel_num + 4}`_IRQn" public="true" include="`${enable_aux_filter}`" />
+    <!-- EOF IRQ macros -->
+
+    <ConfigStruct name="`${INST_NAME}`_auxFilter_config" type="XMC_DSD_CH_AUX_FILTER_CONFIG_t" const="`${inFlash}`" public="true" include="`${enable_aux_filter}`">
+      <Member name="filter_type" value="(uint32_t)XMC_DSD_CH_FILTER_TYPE_CIC`${aux_filter_type &lt; 4 ? aux_filter_type : &quot;F&quot;}`" />
+      <Member name="result_event_type" value="(uint32_t)`${enable_aux_filter_result_event ? comparator_event : &quot;XMC_DSD_CH_AUX_EVENT_INSIDE_BOUNDARY&quot;}`" />
+      <Member name="enable_integrator_coupling" value="`${cast(int64, trigger_gate_aux_filter_by_integrator)}`U" />
+      <Member name="lower_boundary" value="`${comparator_lower_limit_dec &gt;= 0 ? comparator_lower_limit_dec : 65536 + comparator_lower_limit_dec}`U" include="`${enable_comparator}`" />
+      <Member name="upper_boundary" value="`${comparator_upper_limit_dec &gt;= 0 ? comparator_upper_limit_dec : 65536 + comparator_upper_limit_dec}`U" include="`${enable_comparator}`" />
+      <Member name="decimation_factor" value="`${aux_filter_decimation}`U" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_integrator_config" type="XMC_DSD_CH_INTEGRATOR_CONFIG_t" const="`${inFlash}`" public="true" include="`${is_advanced_configuration &amp;&amp; enable_trigger_integrator}`">
+      <Member name="start_condition" value="(uint32_t)`${integrator_trigger_start}`" />
+      <Member name="trigger_source" value="DSD_CH`${channel_num}`_TRIGGER_SOURCE" include="`${hasConnection(&quot;itr_inp&quot;, 0)}`" />
+      <Member name="integration_loop" value="`${integrator_repetition_r}`U" />
+      <Member name="discarded_values" value="`${integrator_discarded}`U" />
+      <Member name="stop_condition" value="(uint32_t)`${integrator_window_type}`" />
+      <Member name="counted_values" value="`${integrator_integrated_values_v}`U" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_mainFilter_config" type="XMC_DSD_CH_FILTER_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="clock_divider" value="(uint32_t)XMC_DSD_CH_CLK_DIV_`${clk_divider}`" />
+      <Member name="offset" value="`${is_advanced_configuration ? main_filter_channel_offset_dec : 0}`" />
+      <Member name="data_source" value="DSD_CH_DATA_SOURCE(DSD_CH`${channel_num}`_DATA_SOURCE,`${data_polarity ? &quot;_INVERTED&quot; : &quot;_DIRECT&quot;}`)" />
+      <Member name="clock_source" value="`${clock_master == 2 ? &quot;(uint32_t)XMC_DSD_CH_CLOCK_SOURCE_INTERN&quot; : &quot;DSD_CH&quot; . channel_num . &quot;_CLOCK_SOURCE&quot;}`" />
+      <Member name="strobe" value="(uint32_t)`${data_strobe}`" />
+      <Member name="filter_type" value="(uint32_t)XMC_DSD_CH_FILTER_TYPE_CIC`${main_filter_type == 4 ? &quot;F&quot; : main_filter_type}`" />
+      <Member name="result_event" value="(uint32_t)XMC_DSD_CH_RESULT_EVENT_`${enable_main_filter_result_event ? &quot;ENABLE&quot; : &quot;DISABLE&quot;}`" />
+      <Member name="decimation_factor" value="`${main_filter_decimation}`U" />
+      <Member name="filter_start_value" value="`${is_advanced_configuration ? main_filter_channel_start_dec : 0}`U" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_DSD_CH_MainFilter_Init(`${INST_NAME}`_CH_HW, &amp;`${INST_NAME}`_mainFilter_config);" include="true" />
+    <ConfigInstruction value="XMC_DSD_CH_Integrator_Init(`${INST_NAME}`_CH_HW, &amp;`${INST_NAME}`_integrator_config);" include="`${enable_trigger_integrator}`" />
+    <ConfigInstruction value="XMC_DSD_CH_AuxFilter_Init(`${INST_NAME}`_CH_HW, &amp;`${INST_NAME}`_auxFilter_config);" include="`${enable_aux_filter}`" />
+    <ConfigInstruction value="XMC_DSD_Start(`${INST_NAME}`_HW, (uint32_t)`${INST_NAME}`_CH_ID);" include="`${start_after_init}`" />
+  </ConfigFirmware>
+</Personality>

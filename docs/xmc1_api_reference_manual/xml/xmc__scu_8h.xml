@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__scu_8h" kind="file" language="C++">
     <compoundname>xmc_scu.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes refid="xmc1__scu_8h" local="yes">xmc1_scu.h</includes>
     <includedby refid="xmc__can_8h" local="yes">xmc_can.h</includedby>
     <includedby refid="xmc__ledts_8h" local="yes">xmc_ledts.h</includedby>
@@ -10,17 +10,6 @@
     <includedby refid="xmc__posif_8h" local="yes">xmc_posif.h</includedby>
     <includedby refid="xmc__vadc_8h" local="yes">xmc_vadc.h</includedby>
     <includedby refid="xmc__wdt_8h" local="yes">xmc_wdt.h</includedby>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_scu.h</label>
-        <link refid="xmc__scu_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
       <sectiondef kind="enum">
       <memberdef kind="enum" id="group___s_c_u_1gaff029b1575acc0712d494932d8ca6d60" prot="public" static="no" strong="no">
         <type></type>

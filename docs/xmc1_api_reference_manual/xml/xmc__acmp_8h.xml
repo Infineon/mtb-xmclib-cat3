@@ -2,18 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__acmp_8h" kind="file" language="C++">
     <compoundname>xmc_acmp.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_acmp.h</label>
-        <link refid="xmc__acmp_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <innerclass refid="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t" prot="public">XMC_ACMP_CONFIG_t</innerclass>
     <innerclass refid="struct_x_m_c___a_c_m_p__t" prot="public">XMC_ACMP_t</innerclass>
       <sectiondef kind="define">

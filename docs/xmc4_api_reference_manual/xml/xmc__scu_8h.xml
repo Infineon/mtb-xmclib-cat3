@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__scu_8h" kind="file" language="C++">
     <compoundname>xmc_scu.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">xmc1_scu.h</includes>
     <includedby refid="xmc__can_8h" local="yes">xmc_can.h</includedby>
     <includedby refid="xmc__dsd_8h" local="yes">xmc_dsd.h</includedby>
@@ -19,14 +19,9 @@
         <link refid="xmc__scu_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>xmc1_scu.h</label>
       </node>
       <node id="2">
-        <label>xmc_common.h</label>
+        <label>xmc1_scu.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="enum">

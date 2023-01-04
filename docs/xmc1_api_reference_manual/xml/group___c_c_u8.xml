@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="235" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="236" bodyend="241"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="238" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="239" bodyend="244"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga2ef4e5d8ac1208cb97c9e4ef1de858b3" prot="public" static="no" strong="no">
         <type></type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="246" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="247" bodyend="264"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="249" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="250" bodyend="267"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga7e5e8f23413ca0bc0efebcc990ed14cb" prot="public" static="no" strong="no">
         <type></type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="697" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="698" bodyend="707"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="700" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="701" bodyend="710"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga215258425f54a68a6662ee66b51fd944" prot="public" static="no" strong="no">
         <type></type>
@@ -263,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="802" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="803" bodyend="808"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="805" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="806" bodyend="811"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga66b794e39b4836974e6331c99590b57b" prot="public" static="no" strong="no">
         <type></type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="814" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="815" bodyend="820"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="817" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="818" bodyend="823"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gad242f1637192c0b1f2c3b96115032e0b" prot="public" static="no" strong="no">
         <type></type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="825" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="826" bodyend="829"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="828" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="829" bodyend="832"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gaa79d2bb95ea9136fa48bacbef55d5b3f" prot="public" static="no" strong="no">
         <type></type>
@@ -455,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="596" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="597" bodyend="626"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="599" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="600" bodyend="629"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga3a3f336a0aabb98f9870044de6d4ea73" prot="public" static="no" strong="no">
         <type></type>
@@ -484,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="317" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="318" bodyend="321"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="320" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="321" bodyend="324"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gaecf7a54b8ac1faac2ed3ccb37f60b108" prot="public" static="no" strong="no">
         <type></type>
@@ -513,7 +513,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="344" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="345" bodyend="348"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="347" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="348" bodyend="351"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga7b0e2bc71e06aa4833f62b3d999b638d" prot="public" static="no" strong="no">
         <type></type>
@@ -558,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="376" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="377" bodyend="382"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="379" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="380" bodyend="385"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga3929ebb1b1819bd28bd76846cc1e38a6" prot="public" static="no" strong="no">
         <type></type>
@@ -595,7 +595,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="488" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="489" bodyend="493"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="491" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="492" bodyend="496"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga1127c5f846e6a1acce3c27f8eb0860c8" prot="public" static="no" strong="no">
         <type></type>
@@ -640,7 +640,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="445" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="446" bodyend="453"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="448" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="449" bodyend="456"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gac4f04c5f9737e441bf4f0f587f78255e" prot="public" static="no" strong="no">
         <type></type>
@@ -685,7 +685,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="470" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="471" bodyend="476"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="473" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="474" bodyend="479"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga5736fda0968cf11f40d90bcd741fdba5" prot="public" static="no" strong="no">
         <type></type>
@@ -733,7 +733,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="458" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="459" bodyend="465"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="461" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="462" bodyend="468"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga477b3a261add3b009eea9ad8b597d223" prot="public" static="no" strong="no">
         <type></type>
@@ -778,7 +778,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="434" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="435" bodyend="440"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="437" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="438" bodyend="443"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gaae5842a21fb6dbddfa4fa09f166a513d" prot="public" static="no" strong="no">
         <type></type>
@@ -879,7 +879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="414" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="415" bodyend="429"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="417" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="418" bodyend="432"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga30ca0d64505b2b922d76d452e86432b0" prot="public" static="no" strong="no">
         <type></type>
@@ -981,7 +981,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="551" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="552" bodyend="563"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="554" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="555" bodyend="566"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga8f35468e76419c88d2e6cf9858c9f427" prot="public" static="no" strong="no">
         <type></type>
@@ -1029,7 +1029,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="791" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="792" bodyend="797"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="794" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="795" bodyend="800"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga65ff92cc699da56d9038d3a2076132dd" prot="public" static="no" strong="no">
         <type></type>
@@ -1068,7 +1068,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="536" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="537" bodyend="546"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="539" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="540" bodyend="549"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga29f6601a2c715bd91fe6ca6b79d2bb7f" prot="public" static="no" strong="no">
         <type></type>
@@ -1097,7 +1097,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="269" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="270" bodyend="273"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="272" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="273" bodyend="276"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga23cb9b0baa8ace33ecbe9d1c7a76e25f" prot="public" static="no" strong="no">
         <type></type>
@@ -1142,7 +1142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="403" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="404" bodyend="409"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="406" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="407" bodyend="412"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga2596ff4fccab9d79eb848433e44f2d08" prot="public" static="no" strong="no">
         <type></type>
@@ -1171,7 +1171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="507" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="508" bodyend="511"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="510" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="511" bodyend="514"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga0d04459231818c1bad54a68cec87909a" prot="public" static="no" strong="no">
         <type></type>
@@ -1264,7 +1264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="568" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="569" bodyend="579"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="571" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="572" bodyend="582"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gad789072bf9aaa6ccfdef3e4db3ea5d0a" prot="public" static="no" strong="no">
         <type></type>
@@ -1293,7 +1293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="335" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="336" bodyend="339"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="338" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="339" bodyend="342"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga5c3579f65c7ad7ce4df382a4da976ec0" prot="public" static="no" strong="no">
         <type></type>
@@ -1341,7 +1341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="278" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="279" bodyend="284"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="281" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="282" bodyend="287"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gaaf1bf3c74fca89be4fd007f16485e65f" prot="public" static="no" strong="no">
         <type></type>
@@ -1370,7 +1370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="326" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="327" bodyend="330"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="329" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="330" bodyend="333"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gae924b2c958e0868603e7026684024f31" prot="public" static="no" strong="no">
         <type></type>
@@ -1511,7 +1511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="353" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="354" bodyend="371"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="356" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="357" bodyend="374"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga09466ba09d60fdaa0f9d84093a03c8f9" prot="public" static="no" strong="no">
         <type></type>
@@ -1550,7 +1550,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="633" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="634" bodyend="639"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="636" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="637" bodyend="642"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gadc86f66ca71b50d73aa0409b2f12c4d1" prot="public" static="no" strong="no">
         <type></type>
@@ -1599,7 +1599,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="584" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="585" bodyend="590"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="587" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="588" bodyend="593"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga1fef52c32913adfaf295b7c24b29060d" prot="public" static="no" strong="no">
         <type></type>
@@ -1628,7 +1628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="498" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="499" bodyend="502"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="501" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="502" bodyend="505"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga1525f7d9aec26df1c7c7ae8a09da761b" prot="public" static="no" strong="no">
         <type></type>
@@ -1659,7 +1659,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="845" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="846" bodyend="849"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="848" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="849" bodyend="852"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga4593a29b146175cde17da7044c4967b7" prot="public" static="no" strong="no">
         <type></type>
@@ -1706,7 +1706,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="388" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="389" bodyend="398"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="391" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="392" bodyend="401"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga55b21896459210c26fa40fd2d0f3686c" prot="public" static="no" strong="no">
         <type></type>
@@ -1751,7 +1751,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="525" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="526" bodyend="531"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="528" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="529" bodyend="534"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga3527bd681bc190746f54e6675a1b6344" prot="public" static="no" strong="no">
         <type></type>
@@ -1780,7 +1780,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="308" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="309" bodyend="312"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="311" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="312" bodyend="315"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga2642eb3943535e59ef0b5bcb87b42f0c" prot="public" static="no" strong="no">
         <type></type>
@@ -1809,7 +1809,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="289" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="290" bodyend="293"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="292" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="293" bodyend="296"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga13c54fc17ed489e3bba539fe8116c92b" prot="public" static="no" strong="no">
         <type></type>
@@ -1838,7 +1838,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="298" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="299" bodyend="303"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="301" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="302" bodyend="306"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga017867eb63a170a10fa034a628bbfd3a" prot="public" static="no" strong="no">
         <type></type>
@@ -1867,7 +1867,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="516" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="517" bodyend="520"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="519" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="520" bodyend="523"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga8e661f983d5ca777659b143f1e4ae23e" prot="public" static="no" strong="no">
         <type></type>
@@ -1917,7 +1917,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="647" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="648" bodyend="653"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="650" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="651" bodyend="656"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga4b25b3c7088dd06c3051e5e55d646093" prot="public" static="no" strong="no">
         <type></type>
@@ -1967,7 +1967,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="659" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="660" bodyend="665"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="662" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="663" bodyend="668"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga76df2f8532427c0e7477520a995e3d39" prot="public" static="no" strong="no">
         <type></type>
@@ -2017,7 +2017,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="671" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="672" bodyend="677"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="674" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="675" bodyend="680"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga51de2f5044c3d5e80c5c36c47718d739" prot="public" static="no" strong="no">
         <type></type>
@@ -2067,7 +2067,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="683" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="684" bodyend="689"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="686" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="687" bodyend="692"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1gac96debe178f7c9b53f1f9e30e1694907" prot="public" static="no" strong="no">
         <type></type>
@@ -2112,7 +2112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="224" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="225" bodyend="230"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="227" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="228" bodyend="233"/>
       </memberdef>
       <memberdef kind="enum" id="group___c_c_u8_1ga9e5493466337ec03fa90ff40e5e964e9" prot="public" static="no" strong="no">
         <type></type>
@@ -2160,7 +2160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="834" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="835" bodyend="840"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="837" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="838" bodyend="843"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -2176,7 +2176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="214" column="29" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="214" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="217" column="29" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="217" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___c_c_u8_1ga6c4633f53c40c3904d457acc65aecb4c" prot="public" static="no">
         <type>uint8_t</type>
@@ -2190,7 +2190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="482" column="17" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="482" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="485" column="17" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="485" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___c_c_u8_1ga55e4d51af09f4965f29ca861aec4db2b" prot="public" static="no">
         <type>CCU8_CC8_TypeDef</type>
@@ -2204,7 +2204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="219" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="219" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="222" column="26" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="222" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -2258,7 +2258,7 @@ It is possible to disable clock at slice level using the module pointer. <bold>s
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1400" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1400" bodyend="1406"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1403" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1403" bodyend="1409"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac85e7fb4c99c60f132b1b9ab6bb281eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2296,7 +2296,7 @@ Invoke this API when a CCU8 module needs to be disabled completely. Any operatio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1152" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1152" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1155" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1155" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gae53ef991fb61066fcb205bc423a55547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2348,7 +2348,7 @@ Invoke this API when a CCU8 module needs to be disabled completely. Any operatio
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1376" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1376" bodyend="1382"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1379" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1379" bodyend="1385"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gafd5ef24a5ced8a4fde003ed02c982ca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2387,7 +2387,7 @@ Also disables the gating of the clock signal (if applicable depending on the dev
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1136" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1136" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1139" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1139" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga28e15744308482a625ce7e36499f44ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2437,7 +2437,7 @@ Takes an input clock_mask, which determines the slices that would receive the cl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1297" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1297" bodyend="1303"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1300" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1300" bodyend="1306"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga8adef91554fb4e3e9e40b46b975288b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2491,7 +2491,7 @@ Any call to <ref refid="group___c_c_u8_1ga0d0b4f388db7be9138abb90b3c6dba45" kind
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2380" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2380" bodyend="2384"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2383" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2383" bodyend="2387"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gae9bf8f3217de4fa2247820d8e999c4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_c_u8_1ga1525f7d9aec26df1c7c7ae8a09da761b" kindref="member">XMC_CCU8_SLICE_STATUS_BIT_t</ref></type>
@@ -2546,7 +2546,7 @@ Any call to <ref refid="group___c_c_u8_1ga0d0b4f388db7be9138abb90b3c6dba45" kind
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3246" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3246" bodyend="3249"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3249" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3249" bodyend="3252"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac7743795f24ff3c53ff61f8cd6dad67e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2596,7 +2596,7 @@ Any call to <ref refid="group___c_c_u8_1ga0d0b4f388db7be9138abb90b3c6dba45" kind
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1121" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1121" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1124" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1124" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gaf63b212815925413418c580ea6dc2dc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2636,7 +2636,7 @@ Any call to <ref refid="group___c_c_u8_1ga0d0b4f388db7be9138abb90b3c6dba45" kind
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1274" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1274" bodyend="1278"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1277" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1277" bodyend="1281"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gaab8fb77e161fe17d3ed34a37a2a892ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2676,7 +2676,7 @@ If clock is being supplied to the slices of the module then returns as true.</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1257" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1257" bodyend="1261"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1260" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1260" bodyend="1264"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gab3dbbd8bb8adc239fdc08059b6acc078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2693,7 +2693,7 @@ If clock is being supplied to the slices of the module then returns as true.</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1062" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1062" bodyend="1073"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1065" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1065" bodyend="1076"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga0c7093f11d42acc403ec5234110b0a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2710,7 +2710,7 @@ If clock is being supplied to the slices of the module then returns as true.</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1075" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1075" bodyend="1103"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1078" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1078" bodyend="1106"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gab760a67fb1bb0927108206d78ac8e234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2760,7 +2760,7 @@ If clock is being supplied to the slices of the module then returns as true.</pa
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1168" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1168" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1171" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1171" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gae4d7d87454cf0c6c54333b0befadd4b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2809,7 +2809,7 @@ The shadow transfer would take place either if it was requested by software or b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2663" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2663" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2666" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2666" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga2ad5857b74faf70f5f3a9f0a0a9a83c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2856,7 +2856,7 @@ The shadow transfer would take place either if it was requested by software or b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1317" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1317" bodyend="1321"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1320" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1320" bodyend="1324"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gaf36e58a8c2b9389980717016dea23ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2906,7 +2906,7 @@ Capture function is mapped with one of the 3 events. A CCU8 slice can be configu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1698" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1698" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1701" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1701" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gafb2d3177709b8be728ddfdc8b97ac9ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2956,7 +2956,7 @@ Capture function is mapped with one of the 3 events. A CCU8 slice can be configu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1714" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1714" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1717" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1717" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gafb99b536f1d1b8f68ffd02456dd9bbce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3006,7 +3006,7 @@ CC8 slice is configured with Capture configurations in this routine. Timer is st
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1357" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1357" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1360" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1360" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gafaaeed7545b77127d60c56311a88ff7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3057,7 +3057,7 @@ CC8 slice is configured with Capture configurations in this routine. Timer is st
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2833" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2833" bodyend="2838"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2836" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2836" bodyend="2841"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga5e781c6301e9523669860b563497c10a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3094,7 +3094,7 @@ A timer which has been stopped can still retain the last counted value. After in
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2072" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2072" bodyend="2076"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2075" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2075" bodyend="2079"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga9f6241e80cc973f5113644eee0f38ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3143,7 +3143,7 @@ CC8 slice is configured with Timer configurations in this routine. Timer is stop
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1339" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1339" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1342" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1342" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga8d04005eb78d21806a8cb2696ec5a2a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3192,7 +3192,7 @@ Use the provided masks to enable/disable the dead time for the compare channels 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2989" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2989" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2992" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2992" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga50cafd6f641304dd113a2c82a4eeca68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3263,7 +3263,7 @@ Details such as the input mapped to the event, event detection criteria and low 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1874" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1874" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1877" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1877" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga13b3a785d88e79fe7f14d9c299a8b986" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3312,7 +3312,7 @@ This routine defines the output STy as a function of ST1 or ST2 or both ST1 &amp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3046" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="3046" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3049" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="3049" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gae855e93fab6b881e17cd93e9b86213fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3373,7 +3373,7 @@ Details such as the input mapped to the event, event detection criteria and Low 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1851" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1851" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1854" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1854" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga215d46277617dda2a7487529b3a76a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3423,7 +3423,7 @@ Count function is mapped with one of the 3 events. CCU8 slice can take an extern
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1666" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1666" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1669" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1669" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga3643e1adcb1a1938db859b9aa8784a6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3476,7 +3476,7 @@ This routine programs dead time delays (rising &amp; falling) and dead time cloc
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2917" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2917" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2920" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2920" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga782e127faae933c4ff018320e2bbd33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3526,7 +3526,7 @@ Count direction function is mapped with one of the 3 events. A slice can be conf
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1795" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1795" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1798" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1798" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga4ed8b68a5ac01166a3a73136e113f753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3579,7 +3579,7 @@ Count direction function is mapped with one of the 3 events. A slice can be conf
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3226" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3226" bodyend="3231"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3229" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3229" bodyend="3234"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga7ab5c7a23e6ff95cbe1e67a0475e1f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3617,7 +3617,7 @@ Count direction function is mapped with one of the 3 events. A slice can be conf
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3092" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3092" bodyend="3096"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3095" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3095" bodyend="3099"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga5d3b2a8213f23b1c4d264a4a2ace5d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3654,7 +3654,7 @@ This disables the Dither mode that was set in <ref refid="group___c_c_u8_1gad614
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2466" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2466" bodyend="2470"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2469" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2469" bodyend="2473"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga90bb6c877391d2a2bca22cc13a815876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3706,7 +3706,7 @@ Prevents the event from being asserted.</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2768" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2768" bodyend="2774"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2771" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2771" bodyend="2777"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga817ee3a048e71467d3d95c2f5a09ddc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3743,7 +3743,7 @@ This would return the prescaler to the normal mode. The prescaler that would be 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2506" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2506" bodyend="2510"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2509" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2509" bodyend="2513"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac91752772cec777722d7e7551f0d62ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3792,7 +3792,7 @@ Returns the slices to the normal operation mode. This takes the slice number as 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2638" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2638" bodyend="2645"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2641" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2641" bodyend="2648"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gacf6e711a80117324ead7bf4dd14d0140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3844,7 +3844,7 @@ Returns the slices to the normal operation mode. This takes the slice number as 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2792" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2792" bodyend="2796"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2795" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2795" bodyend="2799"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga84d0ab52d6358735950db8ab509f32d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3895,7 +3895,7 @@ This API will revert the changes done by <ref refid="group___c_c_u8_1ga81bb1bbe0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1944" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1944" bodyend="1949"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1947" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1947" bodyend="1952"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gadae9172a3c957af27c0f280b296471e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3936,7 +3936,7 @@ In Center Aligned mode, the status bit is set when a compare match event of Comp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2940" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2940" bodyend="2944"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2943" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2943" bodyend="2947"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga1989b4662afd4cc1c2eb0936d267e5ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3989,7 +3989,7 @@ In Center Aligned mode, the status bit is set when a compare match event of Comp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3199" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3199" bodyend="3204"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3202" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3202" bodyend="3207"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga8a6d5c547994d20acdb899367e68d1bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4029,7 +4029,7 @@ In Center Aligned mode, the status bit is set when a compare match event of Comp
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3071" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3071" bodyend="3075"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3074" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3074" bodyend="3078"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gad614710c7aa00b5dcc6c5cce20f81da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4104,7 +4104,7 @@ Some control loops are slow in updating PWM frequency and duty cycle. In such a 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2448" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2448" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2451" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2451" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gab1d19b009ae3bffbac81d7697b316bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4156,7 +4156,7 @@ For an event to lead to an interrupt, it must first be enabled and bound to a se
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2723" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2723" bodyend="2729"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2726" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2726" bodyend="2732"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga1f20eaf080795ebd795298e846d97a47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4196,7 +4196,7 @@ It is necessary to have programmed an initial divider value and a compare value 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2487" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2487" bodyend="2491"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2490" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2490" bodyend="2494"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga10a6bb3d9a9c423ac83ffac6be13f4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4246,7 +4246,7 @@ The output state of the Timer slices can be controlled in parallel by a single i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2615" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2615" bodyend="2622"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2618" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2618" bodyend="2625"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga7fd5bf6d4ffac043be91e2d7291cd0b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4298,7 +4298,7 @@ For an event to lead to an interrupt, it must first be enabled and bound to a se
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2748" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2748" bodyend="2752"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2751" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2751" bodyend="2755"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga4c1b6e0da1400f77dbc525ba769f97d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4335,7 +4335,7 @@ In symmetric compare mode, the compare channels 1 &amp; 2 are independent of eac
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2959" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2959" bodyend="2963"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2962" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2962" bodyend="2966"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga81bb1bbe0d64060da346d2683e4504bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4387,7 +4387,7 @@ A particularly useful feature where the PWM output can be forced inactive upon d
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1920" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1920" bodyend="1924"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1923" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1923" bodyend="1927"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gad69605b0ee6f1c0975d1bf5d4121db14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -4437,7 +4437,7 @@ Gating function is mapped with one of the 3 events. A CCU8 slice can use an inpu
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1682" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1682" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1685" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1685" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga34e5cf85268e5bdf155330e38000d936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4485,7 +4485,7 @@ This is applicable only in the Capture mode of operation. The signal whose timin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1777" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1777" declcolumn="10"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1780" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1780" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga2a30227c044298f15b90d70472e8ea26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -4533,7 +4533,7 @@ The signal whose timing characteristics are to be measured must be mapped to an 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2683" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2683" declcolumn="10"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2686" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2686" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gab889c5ff6bfaa854bb996657341c191b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_c_u8_1ga3527bd681bc190746f54e6675a1b6344" kindref="member">XMC_CCU8_SLICE_TIMER_COUNT_DIR_t</ref></type>
@@ -4569,7 +4569,7 @@ This API will return the direction in which the timer is currently incrementing(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2017" column="35" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2017" bodyend="2021"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2020" column="35" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2020" bodyend="2024"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga4a31d77bf05c1a957500adb8004a6bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -4618,7 +4618,7 @@ Return true if the event is asserted. For a event to be asserted it has to be fi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2855" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2855" bodyend="2860"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2858" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2858" bodyend="2863"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga1d19339c0fa5700138cf2e0a5bc33ae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_c_u8_1gac96debe178f7c9b53f1f9e30e1694907" kindref="member">XMC_CCU8_STATUS_t</ref></type>
@@ -4679,7 +4679,7 @@ The lowest register is evaluated first followed by the next higher ordered regis
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2704" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2704" declcolumn="19"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2707" column="19" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2707" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga6a99cf887dca1df55f36ee7d5686ba78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_c_u8_1gae924b2c958e0868603e7026684024f31" kindref="member">XMC_CCU8_SLICE_PRESCALER_t</ref></type>
@@ -4716,7 +4716,7 @@ Used to detrmine the clock frequency of the CCU8 slice XMC_SCU_CLOCK_GetCcuClock
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2566" column="29" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2566" bodyend="2571"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2569" column="29" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2569" bodyend="2574"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga37eb9734e7aae8d8dc2d257dce2f8ca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_c_u8_1ga29f6601a2c715bd91fe6ca6b79d2bb7f" kindref="member">XMC_CCU8_SLICE_MODE_t</ref></type>
@@ -4752,7 +4752,7 @@ Ensure that before invoking this API the CCU8 slice should be configured otherwi
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2110" column="24" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2110" bodyend="2114"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2113" column="24" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2113" bodyend="2117"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gae73d5935d61a0bd7751a732357f8005c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -4802,7 +4802,7 @@ If the timer is active then the value being returned is currently being for the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2322" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2322" declcolumn="10"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2325" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2325" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga8d6834bb068d96cd708885e18903d3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -4837,7 +4837,7 @@ If the timer is active then the value being returned is currently being for the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2336" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2336" bodyend="2340"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2339" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2339" bodyend="2343"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga9247e100bd9ba7b69e1a2b528aa9835c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -4872,7 +4872,7 @@ If the timer is active then the value being returned is currently being for the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2353" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2353" bodyend="2357"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2356" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2356" bodyend="2360"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga81be4d563ab8025d74a2cc794a3a9c99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_c_u8_1ga2642eb3943535e59ef0b5bcb87b42f0c" kindref="member">XMC_CCU8_SLICE_TIMER_COUNT_MODE_t</ref></type>
@@ -4908,7 +4908,7 @@ If the timer is active then the value being returned is currently being for the 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2185" column="36" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2185" bodyend="2190"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2188" column="36" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2188" bodyend="2193"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gaca17052109686c2208f324b6101bdc18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -4946,7 +4946,7 @@ If the timer is active then the value being returned is currently being used for
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2229" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2229" bodyend="2233"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2232" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2232" bodyend="2236"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gafd387aa4385ff003686b5ac743658df4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___c_c_u8_1ga13c54fc17ed489e3bba539fe8116c92b" kindref="member">XMC_CCU8_SLICE_TIMER_REPEAT_MODE_t</ref></type>
@@ -4982,7 +4982,7 @@ The timer will count upto the terminal count as specified in the period register
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2148" column="37" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2148" bodyend="2153"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2151" column="37" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2151" bodyend="2156"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac2df8860234bb09e045803f174c763e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint16_t</type>
@@ -5018,7 +5018,7 @@ The timer will count upto the terminal count as specified in the period register
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2398" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2398" bodyend="2402"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2401" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2401" bodyend="2405"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga1a05ecc68de8e0aed3821d5fd277a099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5052,7 +5052,7 @@ The timer will count upto the terminal count as specified in the period register
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1980" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1980" bodyend="1984"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1983" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1983" bodyend="1987"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga0880b9188c65cfae383ff67095ddc449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5086,7 +5086,7 @@ The timer will count upto the terminal count as specified in the period register
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1998" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1998" bodyend="2002"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2001" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2001" bodyend="2005"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga7eb1571f4afe8db93a96d4216876549f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5123,7 +5123,7 @@ In this mode the there is only one associated read address for all the capture r
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1729" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1729" bodyend="1733"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1732" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1732" bodyend="1736"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gad89c5d5307ff1487de526c2e1d182d5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -5158,7 +5158,7 @@ In this mode the there is only one associated read address for all the capture r
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1962" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1962" bodyend="1966"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1965" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1965" bodyend="1969"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gad73fb6dbe8e0d250c023325272458dcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5211,7 +5211,7 @@ In this mode the there is only one associated read address for all the capture r
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1605" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1605" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1608" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1608" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga3053c340acc31fe9899c40bf5d0f2745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5263,7 +5263,7 @@ In this mode the there is only one associated read address for all the capture r
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1622" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1622" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1625" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1625" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga986bb94614d93e02279449e28fa0cd28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5349,7 +5349,7 @@ Modulation function is mapped with one of the 3 events. The output signal of the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1644" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1644" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1647" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1647" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gadf5d63b63b4041f8e6280000fb91b7bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5410,7 +5410,7 @@ Modulation function is mapped with one of the 3 events. The output signal of the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1447" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1447" bodyend="1456"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1450" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1450" bodyend="1459"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga8f25a530475d17a46291052d64549be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5471,7 +5471,7 @@ Modulation function is mapped with one of the 3 events. The output signal of the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1422" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1422" bodyend="1431"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1425" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1425" bodyend="1434"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga461d9533eb1c36b8e4d3aaa32b3742ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -5505,7 +5505,7 @@ Modulation function is mapped with one of the 3 events. The output signal of the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1524" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1524" bodyend="1528"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1527" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1527" bodyend="1531"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga945c3f05421ace816e57537a048f2648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5553,7 +5553,7 @@ Modulation function is mapped with one of the 3 events. The output signal of the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1470" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1470" bodyend="1474"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1473" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1473" bodyend="1477"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga95f3c69630683ff1b0444bf81ceadbc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5601,7 +5601,7 @@ Modulation function is mapped with one of the 3 events. The output signal of the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1489" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1489" bodyend="1493"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1492" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1492" bodyend="1496"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac517b8750161ba1cff329538211bf19c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5649,7 +5649,7 @@ Modulation function is mapped with one of the 3 events. The output signal of the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1507" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1507" bodyend="1511"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1510" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1510" bodyend="1514"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga5275157ccf15a2b018cb0e453a56c47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5700,7 +5700,7 @@ Modulation function is mapped with one of the 3 events. The output signal of the
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3030" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="3030" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3033" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="3033" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gacf4492c33e8e79bcbb489206a56132da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5777,7 +5777,7 @@ This API will Configure the delay that is need either when the value changes fro
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3010" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="3010" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3013" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="3013" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac5f7a5945266904564c4590b5b63de7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5826,7 +5826,7 @@ This value is the cornerstone of PWM dithering feature. Dithering is applied/don
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2529" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2529" bodyend="2535"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2532" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2532" bodyend="2538"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gae896f6fd7a56d0a816f5752717197bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5877,7 +5877,7 @@ For an event to lead to an interrupt, it must first be enabled and bound to a se
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2812" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2812" bodyend="2818"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2815" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2815" bodyend="2821"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac171a5abeeabf028e66786da9d182117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5926,7 +5926,7 @@ The compare value is applicable only in floating mode of operation. The prescale
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2590" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2590" bodyend="2596"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2593" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2593" bodyend="2599"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga87980058a8fb4563926f2a3ac862ee6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -5997,7 +5997,7 @@ It is possible to select one of the possible 16 input signals for a given Event.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1897" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1897" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1900" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1900" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga709bc19170bebd8ca4d594395c1a62a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6059,7 +6059,7 @@ For an event to lead to an interrupt, it must first be enabled and bound to a se
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2878" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2878" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2881" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2881" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga352ad3ac4f1715226aa2060ddcc78819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6108,7 +6108,7 @@ For an event to lead to an interrupt, it must first be enabled and bound to a se
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1548" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1548" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1551" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1551" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga823b81f03d3cc8f925e9c16bc1811467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6170,7 +6170,7 @@ Defines the passive level for the timer slice output pin. Selects either level h
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2897" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2897" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2900" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2900" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gaaccd43c185cc374d82dce9db1645a033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6219,7 +6219,7 @@ The prescaler divider may only be programmed after the prescaler run bit has bee
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2552" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2552" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2555" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2555" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga309924341a2e9534fc3a4fb0eb3a8ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6271,7 +6271,7 @@ The prescaler divider may only be programmed after the prescaler run bit has bee
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3118" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3118" bodyend="3124"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3121" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3121" bodyend="3127"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gafe1790571abecae0ac6e8077de341949" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6334,7 +6334,7 @@ The compare value is written to a shadow register. Explicitly enable the shadow 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2252" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2252" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2255" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2255" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga4585fe25f316e5185947cf21b90624ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6385,7 +6385,7 @@ The compare value is written to a shadow register. Explicitly enable the shadow 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2273" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2273" bodyend="2277"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2276" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2276" bodyend="2280"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga7d8b7bf17420270c62236439c16f1c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6436,7 +6436,7 @@ The compare value is written to a shadow register. Explicitly enable the shadow 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2296" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2296" bodyend="2300"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2299" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2299" bodyend="2303"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga21e50560f52b0f3e394d1615c2eb62c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6486,7 +6486,7 @@ In the edge aligned mode, the timer counts from 0 to the terminal count. Once th
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2171" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2171" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2174" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2174" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga0d0b4f388db7be9138abb90b3c6dba45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6535,7 +6535,7 @@ The frequency of counting/ PWM frequency is determined by this value. The period
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2208" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2208" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2211" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2211" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga9c2669bd1ed4f84691c2102f2f45cf48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6584,7 +6584,7 @@ The timer will count up to the terminal count as specified in the period registe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2131" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2131" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2134" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="2134" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac1d91e3b18e938153dc988985b89c78e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6635,7 +6635,7 @@ The timer will count up to the terminal count as specified in the period registe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2419" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2419" bodyend="2423"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2422" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2422" bodyend="2426"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga01803cfd74ac319039b4106ef10bef19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6698,7 +6698,7 @@ The timer will count up to the terminal count as specified in the period registe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1565" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1565" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1568" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1568" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gacf9bc67a4df0c380bb86865c38e79449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6735,7 +6735,7 @@ It is necessary to have configured the CC8 slice before starting its timer. Befo
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2035" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2035" bodyend="2039"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2038" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2038" bodyend="2042"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga8d9530b0150c88adb44bd11938fbfb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6772,7 +6772,7 @@ Status bit override function is mapped with one of the 3 events. A slice can be 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1810" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1810" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1813" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1813" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga725804194751a77cac84272a8da7681d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6809,7 +6809,7 @@ Status bit override function is mapped with one of the 3 events. A slice can be 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2089" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2089" bodyend="2093"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2092" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2092" bodyend="2096"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga84133f9bd1d4efcfc862849fd647d9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6872,7 +6872,7 @@ Stop function is mapped with one of the 3 events. An external signal can control
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1584" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1584" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1587" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1587" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gac44fd9a6f90a197da768b4ee9333c160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6909,7 +6909,7 @@ Timer counting operation can be stopped by invoking this API, by setting CC8yTCC
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2053" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2053" bodyend="2057"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="2056" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="2056" bodyend="2060"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga32af93ee0f1e67da4ca3ce358b467b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -6971,7 +6971,7 @@ Trap function is mapped with Event-2. Criteria for exiting the trap state is con
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1830" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1830" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1833" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" declline="1833" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gaf28ab1b167cddbd6f4297774c9156d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7025,7 +7025,7 @@ Trap function is mapped with Event-2. Criteria for exiting the trap state is con
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3172" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3172" bodyend="3177"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3175" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3175" bodyend="3180"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga57e0594371bc04ac07660456d6006cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7079,7 +7079,7 @@ Trap function is mapped with Event-2. Criteria for exiting the trap state is con
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3146" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3146" bodyend="3151"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="3149" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="3149" bodyend="3154"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga8bf1dfb8c44faf9a178e2f7a64af6a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7119,7 +7119,7 @@ Invoke this API after <ref refid="group___c_c_u8_1gac7743795f24ff3c53ff61f8cd6da
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1203" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1203" bodyend="1207"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1206" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1206" bodyend="1210"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga75e9b21283ba468755514f9f1284c1ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7160,7 +7160,7 @@ Invoke this API after <ref refid="group___c_c_u8_1gac7743795f24ff3c53ff61f8cd6da
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1185" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1185" bodyend="1189"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1188" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1188" bodyend="1192"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1gaec6b0738f2c0ecc5e5ca40b8b70204d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7200,7 +7200,7 @@ Invoke this API after <ref refid="group___c_c_u8_1gac7743795f24ff3c53ff61f8cd6da
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1239" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1239" bodyend="1243"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1242" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1242" bodyend="1246"/>
       </memberdef>
       <memberdef kind="function" id="group___c_c_u8_1ga43db67928e7efb36c6a29aba8c525ead" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -7240,7 +7240,7 @@ Clears the run bit of the prescaler. Ensures that the module clock is not suppli
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1222" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1222" bodyend="1226"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="1225" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="1225" bodyend="1229"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -7255,7 +7255,7 @@ Clears the run bit of the prescaler. Ensures that the module clock is not suppli
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="203" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="203" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="206" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="206" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_c_u8_1gaea1bd20f2ea8f7e715995a2da60e15f0" prot="public" static="no">
         <name>XMC_CCU8_SLICE_CHECK_INTERRUPT</name>
@@ -7276,7 +7276,7 @@ Clears the run bit of the prescaler. Ensures that the module clock is not suppli
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="190" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="190" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" line="193" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ccu8.h" bodystart="193" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

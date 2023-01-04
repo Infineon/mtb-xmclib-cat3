@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="754" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="754" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="759" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="759" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___i_n_p_u_t___c_o_n_f_i_g__t_1acd3fed7f3d2dad51b21f5f3ae830e0ef" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1gae1274dea1f81c40a35649162cd449b81" kindref="member">XMC_HRPWM_CSG_LVL_SEL_t</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="755" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="755" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="760" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="760" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___i_n_p_u_t___c_o_n_f_i_g__t_1a834efa7d0bedc8463eb43476e593c178" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1ga37b76dfd8cf0debb56c2534914fb405c" kindref="member">XMC_HRPWM_CSG_INPUT_SEL_t</ref></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="753" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="753" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="758" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="758" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -52,7 +52,7 @@
     <detaileddescription>
 <para>Configuration data structure of a CSG input selection </para>
     </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="751" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="752" bodyend="756"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="756" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="757" bodyend="761"/>
     <listofallmembers>
       <member refid="struct_x_m_c___h_r_p_w_m___c_s_g___i_n_p_u_t___c_o_n_f_i_g__t_1a06cd86f88f58fba9ea9462198b9ff4c4" prot="public" virt="non-virtual"><scope>XMC_HRPWM_CSG_INPUT_CONFIG_t</scope><name>edge</name></member>
       <member refid="struct_x_m_c___h_r_p_w_m___c_s_g___i_n_p_u_t___c_o_n_f_i_g__t_1acd3fed7f3d2dad51b21f5f3ae830e0ef" prot="public" virt="non-virtual"><scope>XMC_HRPWM_CSG_INPUT_CONFIG_t</scope><name>level</name></member>

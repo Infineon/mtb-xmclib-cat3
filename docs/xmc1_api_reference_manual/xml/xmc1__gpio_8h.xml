@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc1__gpio_8h" kind="file" language="C++">
     <compoundname>xmc1_gpio.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">xmc1_gpio_map.h</includes>
     <includedby refid="xmc__gpio_8h" local="yes">xmc_gpio.h</includedby>
     <incdepgraph>
@@ -11,14 +11,9 @@
         <link refid="xmc1__gpio_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>xmc1_gpio_map.h</label>
       </node>
       <node id="2">
-        <label>xmc_common.h</label>
+        <label>xmc1_gpio_map.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" prot="public">XMC_GPIO_CONFIG_t</innerclass>

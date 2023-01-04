@@ -39,7 +39,7 @@
       desc="Select interrupt source for IRQ0." >
       <Entry name="None" value="NC" visible="true" />
       <Entry name="SCU_SR0" value="XMC_SCU_IRQCTRL_SCU_SR0_IRQ0" visible="true" />
-      <Entry name="CAN_SR0" value="XMC_SCU_IRQCTRL_CAN0_SR0_IRQ0" visible="`${HAS_CAN}`" />
+      <Entry name="CAN_SR0" value="XMC_SCU_IRQCTRL_CAN0_SR0_IRQ0" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
       <Entry name="CCU40_SR0" value="XMC_SCU_IRQCTRL_CCU40_SR0_IRQ0" visible="true" />
     </ParamChoice>
     <ParamChoice id="intsel1" name="IRQ1 Interrupt Source" group="General"
@@ -47,16 +47,16 @@
       desc="Select interrupt source for IRQ1." >
       <Entry name="None" value="NC" visible="true" />
       <Entry name="SCU_SR1" value="XMC_SCU_IRQCTRL_SCU_SR1_IRQ1" visible="true" />
-      <Entry name="CAN_SR1" value="XMC_SCU_IRQCTRL_CAN0_SR1_IRQ1" visible="`${HAS_CAN}`" />
-      <Entry name="CCU80_SR0" value="XMC_SCU_IRQCTRL_CCU80_SR0_IRQ1" visible="`${HAS_CCU8}`" />
+      <Entry name="CAN_SR1" value="XMC_SCU_IRQCTRL_CAN0_SR1_IRQ1" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
+      <Entry name="CCU80_SR0" value="XMC_SCU_IRQCTRL_CCU80_SR0_IRQ1" visible="`${hasBlock(&quot;ccu8[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel2" name="IRQ2 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ2." >
       <Entry name="None" value="NC" visible="true" />
       <Entry name="SCU_SR2" value="XMC_SCU_IRQCTRL_SCU_SR2_IRQ2" visible="true" />
-      <Entry name="CAN_SR2" value="XMC_SCU_IRQCTRL_CAN0_SR2_IRQ2" visible="`${HAS_CAN}`" />
-      <Entry name="CCU80_SR1" value="XMC_SCU_IRQCTRL_CCU80_SR1_IRQ2" visible="`${HAS_CCU8}`" />
+      <Entry name="CAN_SR2" value="XMC_SCU_IRQCTRL_CAN0_SR2_IRQ2" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
+      <Entry name="CCU80_SR1" value="XMC_SCU_IRQCTRL_CCU80_SR1_IRQ2" visible="`${hasBlock(&quot;ccu8[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel3" name="IRQ3 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -64,7 +64,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="ERU0_SR0" value="XMC_SCU_IRQCTRL_ERU0_SR0_IRQ3" visible="true" />
       <Entry name="ERU1_SR0" value="XMC_SCU_IRQCTRL_ERU1_SR0_IRQ3" visible="true" />
-      <Entry name="CAN0_SR0" value="XMC_SCU_IRQCTRL_CAN0_SR0_IRQ3" visible="`${HAS_CAN}`" />
+      <Entry name="CAN0_SR0" value="XMC_SCU_IRQCTRL_CAN0_SR0_IRQ3" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel4" name="IRQ4 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -72,7 +72,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="ERU0_SR1" value="XMC_SCU_IRQCTRL_ERU0_SR1_IRQ4" visible="true" />
       <Entry name="ERU1_SR1" value="XMC_SCU_IRQCTRL_ERU1_SR1_IRQ4" visible="true" />
-      <Entry name="CAN0_SR1" value="XMC_SCU_IRQCTRL_CAN0_SR1_IRQ4" visible="`${HAS_CAN}`" />
+      <Entry name="CAN0_SR1" value="XMC_SCU_IRQCTRL_CAN0_SR1_IRQ4" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel5" name="IRQ5 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -80,7 +80,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="ERU0_SR2" value="XMC_SCU_IRQCTRL_ERU0_SR2_IRQ5" visible="true" />
       <Entry name="ERU1_SR2" value="XMC_SCU_IRQCTRL_ERU1_SR2_IRQ5" visible="true" />
-      <Entry name="CAN0_SR2" value="XMC_SCU_IRQCTRL_CAN0_SR2_IRQ5" visible="`${HAS_CAN}`" />
+      <Entry name="CAN0_SR2" value="XMC_SCU_IRQCTRL_CAN0_SR2_IRQ5" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel6" name="IRQ6 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -88,23 +88,23 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="ERU0_SR3" value="XMC_SCU_IRQCTRL_ERU0_SR3_IRQ6" visible="true" />
       <Entry name="ERU1_SR3" value="XMC_SCU_IRQCTRL_ERU1_SR3_IRQ6" visible="true" />
-      <Entry name="CAN0_SR3" value="XMC_SCU_IRQCTRL_CAN0_SR3_IRQ6" visible="`${HAS_CAN}`" />
+      <Entry name="CAN0_SR3" value="XMC_SCU_IRQCTRL_CAN0_SR3_IRQ6" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel7" name="IRQ7 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ7." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="MATH_SR0" value="XMC_SCU_IRQCTRL_MATH_SR0_IRQ7" visible="`${HAS_MATH}`" />
-      <Entry name="CAN0_SR3" value="XMC_SCU_IRQCTRL_CAN0_SR3_IRQ7" visible="`${HAS_CAN}`" />
+      <Entry name="MATH_SR0" value="XMC_SCU_IRQCTRL_MATH_SR0_IRQ7" visible="`${hasBlock(&quot;math[0]&quot;)}`" />
+      <Entry name="CAN0_SR3" value="XMC_SCU_IRQCTRL_CAN0_SR3_IRQ7" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
       <Entry name="CCU40_SR1" value="XMC_SCU_IRQCTRL_CCU40_SR1_IRQ7" visible="true" />
     </ParamChoice>
     <ParamChoice id="intsel8" name="IRQ8 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ8." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="LEDTS2_SR0" value="XMC_SCU_IRQCTRL_LEDTS2_SR0_IRQ8" visible="`${HAS_LEDTS2}`" />
+      <Entry name="LEDTS2_SR0" value="XMC_SCU_IRQCTRL_LEDTS2_SR0_IRQ8" visible="`${hasBlock(&quot;ledts[2]&quot;)}`" />
       <Entry name="CCU40_SR0" value="XMC_SCU_IRQCTRL_CCU40_SR0_IRQ8" visible="true" />
-      <Entry name="CCU80_SR0" value="XMC_SCU_IRQCTRL_CCU80_SR0_IRQ8" visible="`${HAS_CCU8}`" />
+      <Entry name="CCU80_SR0" value="XMC_SCU_IRQCTRL_CCU80_SR0_IRQ8" visible="`${hasBlock(&quot;ccu8[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel9" name="IRQ9 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -144,7 +144,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="USIC0_SR4" value="XMC_SCU_IRQCTRL_USIC0_SR4_IRQ13" visible="true" />
       <Entry name="USIC1_SR4" value="XMC_SCU_IRQCTRL_USIC1_SR4_IRQ13" visible="true" />
-      <Entry name="CCU80_SR1" value="XMC_SCU_IRQCTRL_CCU80_SR1_IRQ13" visible="`${HAS_CCU8}`" />
+      <Entry name="CCU80_SR1" value="XMC_SCU_IRQCTRL_CCU80_SR1_IRQ13" visible="`${hasBlock(&quot;ccu8[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel14" name="IRQ14 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -152,7 +152,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="USIC0_SR5" value="XMC_SCU_IRQCTRL_USIC0_SR5_IRQ14" visible="true" />
       <Entry name="USIC1_SR5" value="XMC_SCU_IRQCTRL_USIC1_SR5_IRQ14" visible="true" />
-      <Entry name="POSIF0_SR0" value="XMC_SCU_IRQCTRL_POSIF0_SR0_IRQ14" visible="`${HAS_POSIF0}`" />
+      <Entry name="POSIF0_SR0" value="XMC_SCU_IRQCTRL_POSIF0_SR0_IRQ14" visible="`${hasBlock(&quot;posif[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel15" name="IRQ15 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -160,7 +160,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="VADC0_C0SR0" value="XMC_SCU_IRQCTRL_VADC0_C0SR0_IRQ15" visible="true" />
       <Entry name="USIC0_SR0" value="XMC_SCU_IRQCTRL_USIC0_SR0_IRQ15" visible="true" />
-      <Entry name="POSIF0_SR1" value="XMC_SCU_IRQCTRL_POSIF0_SR1_IRQ15" visible="`${HAS_POSIF0}`" />
+      <Entry name="POSIF0_SR1" value="XMC_SCU_IRQCTRL_POSIF0_SR1_IRQ15" visible="`${hasBlock(&quot;posif[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel16" name="IRQ16 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -176,7 +176,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="VADC0_G0SR0" value="XMC_SCU_IRQCTRL_VADC0_G0SR0_IRQ17" visible="true" />
       <Entry name="USIC0_SR2" value="XMC_SCU_IRQCTRL_USIC0_SR2_IRQ17" visible="true" />
-      <Entry name="CAN0_SR0" value="XMC_SCU_IRQCTRL_CAN0_SR0_IRQ17" visible="`${HAS_CAN}`" />
+      <Entry name="CAN0_SR0" value="XMC_SCU_IRQCTRL_CAN0_SR0_IRQ17" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel18" name="IRQ18 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -184,7 +184,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="VADC0_G0SR1" value="XMC_SCU_IRQCTRL_VADC0_G0SR1_IRQ18" visible="true" />
       <Entry name="USIC0_SR3" value="XMC_SCU_IRQCTRL_USIC0_SR3_IRQ18" visible="true" />
-      <Entry name="CAN0_SR1" value="XMC_SCU_IRQCTRL_CAN0_SR1_IRQ18" visible="`${HAS_CAN}`" />
+      <Entry name="CAN0_SR1" value="XMC_SCU_IRQCTRL_CAN0_SR1_IRQ18" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel19" name="IRQ19 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -192,7 +192,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="VADC0_G1SR0" value="XMC_SCU_IRQCTRL_VADC0_G1SR0_IRQ19" visible="true" />
       <Entry name="USIC0_SR4" value="XMC_SCU_IRQCTRL_USIC0_SR4_IRQ19" visible="true" />
-      <Entry name="CAN0_SR2" value="XMC_SCU_IRQCTRL_CAN0_SR2_IRQ19" visible="`${HAS_CAN}`" />
+      <Entry name="CAN0_SR2" value="XMC_SCU_IRQCTRL_CAN0_SR2_IRQ19" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel20" name="IRQ20 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -200,7 +200,7 @@
       <Entry name="None" value="NC" visible="true" />
       <Entry name="VADC0_G1SR1" value="XMC_SCU_IRQCTRL_VADC0_G1SR1_IRQ20" visible="true" />
       <Entry name="USIC0_SR5" value="XMC_SCU_IRQCTRL_USIC0_SR5_IRQ20" visible="true" />
-      <Entry name="CAN0_SR3" value="XMC_SCU_IRQCTRL_CAN0_SR3_IRQ20" visible="`${HAS_CAN}`" />
+      <Entry name="CAN0_SR3" value="XMC_SCU_IRQCTRL_CAN0_SR3_IRQ20" visible="`${hasBlock(&quot;can[0]&quot;)}`" />
     </ParamChoice>
     <ParamChoice id="intsel21" name="IRQ21 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
@@ -238,39 +238,39 @@
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ25." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="CCU80_SR0" value="XMC_SCU_IRQCTRL_CCU80_SR0_IRQ25" visible="`${HAS_CCU8}`" />
-      <Entry name="CCU81_SR0" value="XMC_SCU_IRQCTRL_CCU81_SR0_IRQ25" visible="`${HAS_CCU8}`" />
+      <Entry name="CCU80_SR0" value="XMC_SCU_IRQCTRL_CCU80_SR0_IRQ25" visible="`${hasBlock(&quot;ccu8[0]&quot;)}`" />
+      <Entry name="CCU81_SR0" value="XMC_SCU_IRQCTRL_CCU81_SR0_IRQ25" visible="`${hasBlock(&quot;ccu8[0]&quot;)}`" />
       <Entry name="USIC0_SR4" value="XMC_SCU_IRQCTRL_USIC0_SR4_IRQ25" visible="true" />
     </ParamChoice>
     <ParamChoice id="intsel26" name="IRQ26 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ26." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="CCU80_SR1" value="XMC_SCU_IRQCTRL_CCU80_SR1_IRQ26" visible="`${HAS_CCU8}`" />
-      <Entry name="CCU81_SR1" value="XMC_SCU_IRQCTRL_CCU81_SR1_IRQ26" visible="`${HAS_CCU8}`" />
+      <Entry name="CCU80_SR1" value="XMC_SCU_IRQCTRL_CCU80_SR1_IRQ26" visible="`${hasBlock(&quot;ccu8[0]&quot;)}`" />
+      <Entry name="CCU81_SR1" value="XMC_SCU_IRQCTRL_CCU81_SR1_IRQ26" visible="`${hasBlock(&quot;ccu8[0]&quot;)}`" />
       <Entry name="USIC0_SR5" value="XMC_SCU_IRQCTRL_USIC0_SR5_IRQ26" visible="true" />
     </ParamChoice>
     <ParamChoice id="intsel27" name="IRQ27 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ27." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="POSIF0_SR0" value="XMC_SCU_IRQCTRL_POSIF0_SR0_IRQ27" visible="`${HAS_POSIF0}`" />
-      <Entry name="POSIF1_SR0" value="XMC_SCU_IRQCTRL_POSIF1_SR0_IRQ27" visible="`${HAS_POSIF1}`" />
+      <Entry name="POSIF0_SR0" value="XMC_SCU_IRQCTRL_POSIF0_SR0_IRQ27" visible="`${hasBlock(&quot;posif[0]&quot;)}`" />
+      <Entry name="POSIF1_SR0" value="XMC_SCU_IRQCTRL_POSIF1_SR0_IRQ27" visible="`${hasBlock(&quot;posif[1]&quot;)}`" />
       <Entry name="CCU40_SR3" value="XMC_SCU_IRQCTRL_CCU40_SR3_IRQ27" visible="true" />
     </ParamChoice>
     <ParamChoice id="intsel28" name="IRQ28 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ28." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="POSIF0_SR1" value="XMC_SCU_IRQCTRL_POSIF0_SR1_IRQ28" visible="`${HAS_POSIF0}`" />
-      <Entry name="POSIF1_SR1" value="XMC_SCU_IRQCTRL_POSIF1_SR1_IRQ28" visible="`${HAS_POSIF1}`" />
+      <Entry name="POSIF0_SR1" value="XMC_SCU_IRQCTRL_POSIF0_SR1_IRQ28" visible="`${hasBlock(&quot;posif[0]&quot;)}`" />
+      <Entry name="POSIF1_SR1" value="XMC_SCU_IRQCTRL_POSIF1_SR1_IRQ28" visible="`${hasBlock(&quot;posif[1]&quot;)}`" />
       <Entry name="ERU0_SR0" value="XMC_SCU_IRQCTRL_ERU0_SR0_IRQ28" visible="true" />
     </ParamChoice>
     <ParamChoice id="intsel29" name="IRQ29 Interrupt Source" group="General"
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ29." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="LEDTS0_SR0" value="XMC_SCU_IRQCTRL_LEDTS0_SR0_IRQ29" visible="`${HAS_LEDTS0}`" />
+      <Entry name="LEDTS0_SR0" value="XMC_SCU_IRQCTRL_LEDTS0_SR0_IRQ29" visible="`${hasBlock(&quot;ledts[0]&quot;)}`" />
       <Entry name="CCU40_SR1" value="XMC_SCU_IRQCTRL_CCU40_SR1_IRQ29" visible="true" />
       <Entry name="ERU0_SR1" value="XMC_SCU_IRQCTRL_ERU0_SR1_IRQ29" visible="true" />
     </ParamChoice>
@@ -278,7 +278,7 @@
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ30." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="LEDTS1_SR0" value="XMC_SCU_IRQCTRL_LEDTS1_SR0_IRQ30" visible="`${HAS_LEDTS1}`" />
+      <Entry name="LEDTS1_SR0" value="XMC_SCU_IRQCTRL_LEDTS1_SR0_IRQ30" visible="`${hasBlock(&quot;ledts[1]&quot;)}`" />
       <Entry name="CCU40_SR2" value="XMC_SCU_IRQCTRL_CCU40_SR2_IRQ30" visible="true" />
       <Entry name="ERU0_SR2" value="XMC_SCU_IRQCTRL_ERU0_SR2_IRQ30" visible="true" />
     </ParamChoice>
@@ -286,7 +286,7 @@
       default="NC" visible="true" editable="true"
       desc="Select interrupt source for IRQ31." >
       <Entry name="None" value="NC" visible="true" />
-      <Entry name="BCCU0_SR0" value="XMC_SCU_IRQCTRL_BCCU0_SR0_IRQ31" visible="`${HAS_BCCU}`" />
+      <Entry name="BCCU0_SR0" value="XMC_SCU_IRQCTRL_BCCU0_SR0_IRQ31" visible="`${hasBlock(&quot;bccu[0]&quot;)}`" />
       <Entry name="CCU40_SR3" value="XMC_SCU_IRQCTRL_CCU40_SR3_IRQ31" visible="true" />
       <Entry name="ERU0_SR3" value="XMC_SCU_IRQCTRL_ERU0_SR3_IRQ31" visible="true" />
     </ParamChoice>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file can-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* CAN personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_can" name="CAN" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_can" />
+    <Resource name="can" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="mo_settings_mo_used_node_id_$idx" paramId="node_settings_num_of_mos_id_$idx" repeatCount="6" />
+    <ExposedMember key="can_global" paramId="can_global" />
+  </ExposedMembers>
+  <Parameters>
+    <ParamRange id="mo_count" name="Message Object Count" group="Internal" default="`${lookupExpression(&quot;MO_CNT&quot;)}`" min="0" max="256" resolution="1" visible="false" editable="false" desc="Number of message objects." />
+    <ParamString id="node_count" name="Node Object Count" group="Internal" default="`${lookupExpression(&quot;NODE_CNT&quot;)}`" visible="false" editable="false" desc="Number of node objects." />
+    <ParamString id="ip_version" name="IP Block Version" group="Internal" default="`${getVersion()}`" visible="false" editable="false" desc="" />
+    <ParamBool id="ip_ver1" name="IP Block Version 1" desc="True for XMC4100, XMC4200, XMC4400, XMC4500 series" group="Internal" default="`${ip_version == 1}`" visible="false" editable="false" />
+    <ParamBool id="ip_ver2" name="IP Block Version 2" desc="True for XMC4100, XMC4300, XMC4700, XMC4800 series" group="Internal" default="`${ip_version == 2}`" visible="false" editable="false" />
+    <ParamString id="ip_ver" name="IP Block Version Used" desc="Either number 1 or 2 based on XMC MCU used." group="Internal" default="`${(ip_ver1) ? (1) : (2)}`" visible="false" editable="false" />
+    <ParamString id="can_global" name="CAN Global HW" desc="Global CAN HW handler." group="Internal" default="`${INST_NAME}`_HW" visible="false" editable="false" />
+
+    <ParamBool id="xmc1400" name="XMC1400" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;1400&quot;) ? (true) : (false)}`" visible="false" editable="false" desc="True when XMC1400 is selected." />
+    <ParamBool id="xmc4300" name="XMC4300" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4300&quot;) ? (true) : (false)}`" visible="false" editable="false" desc="True when XMC4300 is selected." />
+    <ParamBool id="xmc4700" name="XMC4700" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4700&quot;) ? (true) : (false)}`" visible="false" editable="false" desc="True when XMC4700 is selected." />
+    <ParamBool id="xmc4800" name="XMC4800" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4800&quot;) ? (true) : (false)}`" visible="false" editable="false" desc="True when XMC4800 is selected." />
+
+    <ParamString id="main_clk_resource" name="Main Clock Value" group="Internal" default="scu[0].clock[0].periclk[0]" visible="false" editable="false" desc="Peripheral clock value in MHz." />
+    <ParamBool id="main_clk_error" name="Main Clock Error" group="Internal" default="`${!isBlockUsed(main_clk_resource)}`" visible="false" editable="false" desc="True when peripheral clock is not enabled." />
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc`${xmc1400 ? 1 : 4}`_api_reference_manual/html/group___c_a_n.html" linkText="Open CAN Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!-- General Settings - Global -->
+    <!-- NOTE - XMC devices with ip_ver1 only have 1 option for clock source. -->
+    <ParamChoice id="general_settings_baud_clock_source_id" name="Baudrate Clock Source" group="General" default="periclk[0]" visible="`${ip_ver2}`" editable="true" desc="Clock source for the baud rate logic.">
+      <Entry name="`${(ip_ver1) ? (&quot;Main Clock (MCLK)&quot;) : (&quot;Peripheral Clock&quot;)}`" value="periclk[0]" visible="true" />
+      <Entry name="External Crystal Oscillator (OSC_HP)" value="osc_hp[0]" visible="`${xmc1400 &amp;&amp; ip_ver2}`" />
+      <Entry name="External Crystal Oscillator (OSC_HP)" value="extclk[0]" visible="`${(xmc4300 || xmc4700 || xmc4800) &amp;&amp; ip_ver2}`" />
+    </ParamChoice>
+
+    <!--Internal-->
+    <ParamString id="can_clk_source" name="CAN Clock Source" group="Internal" default="`${((general_settings_baud_clock_source_id eq &quot;extclk[0]&quot;) || (general_settings_baud_clock_source_id eq &quot;osc_hp[0]&quot;)) ?
+                                                                                          (&quot;XMC_CAN_CANCLKSRC_FOHP&quot;) :
+                                                                                          (xmc1400) ? (&quot;XMC_CAN_CANCLKSRC_MCLK&quot;) : (&quot;XMC_CAN_CANCLKSRC_FPERI&quot;)}`" visible="false" editable="false" desc="CAN module clock input." />
+    <ParamString id="can_clk_resource" name="CAN Clock Value" group="Internal" default="scu[0].clock[0].`${general_settings_baud_clock_source_id}`" visible="false" editable="false" desc="CAN module clock value in Hz." />
+    <ParamBool id="can_clk_error" name="CAN Clock Error" group="Internal" default="`${!isBlockUsed(can_clk_resource)}`" visible="false" editable="false" desc="True when peripheral clock is not enabled." />
+    <ParamBool id="can_clk_error_5mhz" name="CAN Clock Error Less Than 5MHz" group="Internal" default="`${(can_clk_error) ? (false) : ((getExposedMember(can_clk_resource, &quot;frequency&quot;) / 1000000) &lt; 5)}`" visible="false" editable="false" desc="True when peripheral clock is less than 5MHz." />
+
+    <!-- General Settings - Global -->
+    <ParamRange id="general_settings_module_frequency_id_1" name="Time Clock Frequency [MHz]" group="General" default="`${(main_clk_error || !getExposedMember(main_clk_resource, &quot;frequency&quot;)) ? (0) : (getExposedMember(main_clk_resource, &quot;frequency&quot;) / 1000000)}`" min="`${(main_clk_error || !getExposedMember(main_clk_resource, &quot;frequency&quot;)) ? (0) : (5)}`" max="`${(main_clk_error || !getExposedMember(main_clk_resource, &quot;frequency&quot;)) ? (0) : (getExposedMember(main_clk_resource, &quot;frequency&quot;) / 1000000)}`" resolution="0.1" visible="`${ip_ver1}`" editable="true" desc="Required peripheral frequency for CAN module." />
+    <ParamRange id="general_settings_module_frequency_id_2" name="Time Clock Frequency [MHz]" group="General" default="5" min="5" max="`${(can_clk_error || can_clk_error_5mhz) ? (5) : (getExposedMember(can_clk_resource, &quot;frequency&quot;) / 1000000)}`" resolution="0.1" visible="`${!can_clk_error &amp;&amp; ip_ver2}`" editable="true" desc="Required peripheral frequency for CAN module." />
+
+    <!-- NODE Settings - Number of Message Objects per NODE
+         Message objects are share between all NODE objects.
+         Repeat 6 times as maximum number of nodes is 6. -->
+    <Repeat count="6">
+      <ParamString id="node_settings_node_used_id_$idx" name="Node $idx Enabled" group="Internal" default="can[0].node[`${$idx}`]" visible="false" editable="false" desc="True if adequate node is enabled." />
+      <ParamRange id="node_settings_num_of_mos_id_$idx" name="Number of Message Objects in the List" group="Node $idx Settings" default="`${(isBlockUsed(node_settings_node_used_id_$idx)) ? (1) : (0)}`" min="0" max="`${mo_count}`" resolution="1" visible="`${($idx &lt; node_count) &amp;&amp; isBlockUsed(node_settings_node_used_id_$idx)}`" editable="`${isBlockUsed(node_settings_node_used_id_$idx)}`" desc="Select the desired number of message objects for CAN Node $idx." />
+    </Repeat>
+
+    <!--Internal-->
+    <ParamBool id="mo_overused_error" name="Message Object Error" group="Internal" default="`${(((isBlockUsed(&quot;can[0].node[0]&quot;)) ? node_settings_num_of_mos_id_0 : 0) +
+                                                                                                ((isBlockUsed(&quot;can[0].node[1]&quot;)) ? node_settings_num_of_mos_id_1 : 0) +
+                                                                                                ((isBlockUsed(&quot;can[0].node[2]&quot;)) ? node_settings_num_of_mos_id_2 : 0) +
+                                                                                                ((isBlockUsed(&quot;can[0].node[3]&quot;)) ? node_settings_num_of_mos_id_3 : 0) +
+                                                                                                ((isBlockUsed(&quot;can[0].node[4]&quot;)) ? node_settings_num_of_mos_id_4 : 0) +
+                                                                                                ((isBlockUsed(&quot;can[0].node[5]&quot;)) ? node_settings_num_of_mos_id_5 : 0)) &gt; mo_count}`" visible="false" editable="false" desc="True when combined number of all message objects exceeds total number of message objects." />
+
+    <ParamBool id="is_block_used" name="Node Usage" group="Internal" default="`${((isBlockUsed(&quot;can[0].node[0]&quot;)) ||
+                                                                                  (isBlockUsed(&quot;can[0].node[1]&quot;)) ||
+                                                                                  (isBlockUsed(&quot;can[0].node[2]&quot;)) ||
+                                                                                  (isBlockUsed(&quot;can[0].node[3]&quot;)) ||
+                                                                                  (isBlockUsed(&quot;can[0].node[4]&quot;)) ||
+                                                                                  (isBlockUsed(&quot;can[0].node[5]&quot;))) &amp;&amp; !hasBlock(&quot;scu[0].intcr[0]&quot;)}`" visible="false" editable="false" desc="True when at least one Node is active." />
+
+    <!-- Connection signals - None -->
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="`${(ip_ver1) ? (&quot;Main&quot;) : (&quot;CAN&quot;)}` clock is not enabled." condition="`${can_clk_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${can_clk_resource}`" value="" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Message objects overused. Maximum number of combined message objects is `${mo_count}`." condition="`${mo_overused_error}`" />
+    <DRC type="ERROR" text="CAN peripheral require clock frequency to be at least 5 MHz. Please update clock settings." condition="`${can_clk_error_5mhz}`" />
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_can.h" include="true" />
+
+    <ConfigDefine name="`${INST_NAME}`_HW" value="((CAN_GLOBAL_TypeDef*)CAN)" public="true" include="true" />
+    <ConfigDefine name="CAN_FREQUENCY_VALUE" value="((uint32_t)`${general_settings_module_frequency_id_1*1000000}`)" public="true" include="`${ip_ver1}`" />
+    <ConfigDefine name="CAN_FREQUENCY_VALUE" value="((uint32_t)`${general_settings_module_frequency_id_2*1000000}`)" public="true" include="`${ip_ver2}`" />
+    <ConfigDefine name="CAN_CLOCK_SOURCE" value="((XMC_CAN_CANCLKSRC_t)`${can_clk_source}`)" public="true" include="true" />
+
+    <!-- Generate all 8 IRQs and Handlers if at least one Node is used.
+         Note that these macros are generated ONLY for XMC4. -->
+    <ConfigDefine name="`${INST_NAME}`_$idx_INTERRUPT_HANDLER" value="CAN0_$idx_IRQHandler" public="true" include="`${is_block_used}`" repeatCount="8" />
+    <ConfigDefine name="`${INST_NAME}`_$idx_IRQN" value="CAN0_$idx_IRQn" public="true" include="`${is_block_used}`" repeatCount="8" />
+
+    <ConfigInstruction value="XMC_CAN_InitEx(`${INST_NAME}`_HW, CAN_CLOCK_SOURCE, CAN_FREQUENCY_VALUE);" include="true" />
+  </ConfigFirmware>
+</Personality>

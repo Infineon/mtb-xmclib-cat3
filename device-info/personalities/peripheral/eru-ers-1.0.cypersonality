@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file eth-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Ethernet personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_eru-ers" name="ERU-ERS" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_eru" />
+    <Resource name="eru\.ers" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="eru_detector_select_source" paramId="eru_detector_select_source" />
+  </ExposedMembers>
+  <Parameters>
+    <ParamString id="module_num" name="Module Number" group="Internal" default="`${getInstNumber(&quot;eru&quot;)}`" visible="false" editable="false" desc="ERU parent module index." />
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;ers&quot;)}`" visible="false" editable="false" desc="ERU channel slice index." />
+
+    <ParamDoc id="api_doc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___e_r_u.html" linkText="Open ERU Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!-- General -->
+    <ParamImage id="eru_ers_img" name="" group="General" default="`${cy_libs_path()}`/device-info/personalities/peripheral/eru_ers.png" visible="true" desc="" inSummary="false" />
+    <ParamChoice id="eru_detector_select_source" name="Source" group="General" default="`${hasVisibleOption(&quot;ersa[0]&quot;) ? A : B}`" visible="`${(hasVisibleOption(&quot;ersa[0]&quot;) || hasVisibleOption(&quot;ersb[0]&quot;))}`" editable="true" desc="Configures the gating scheme to apply on pattern match output.">
+      <Entry name="A" value="A" visible="`${hasVisibleOption(&quot;ersa[0]&quot;)}`" />
+      <Entry name="B" value="B" visible="`${hasVisibleOption(&quot;ersb[0]&quot;)}`" />
+      <Entry name="A OR B" value="A_OR_B" visible="`${hasVisibleOption(&quot;ersa[0]&quot;) &amp;&amp; hasVisibleOption(&quot;ersb[0]&quot;)}`" />
+      <Entry name="A AND B" value="A_AND_B" visible="`${hasVisibleOption(&quot;ersa[0]&quot;) &amp;&amp; hasVisibleOption(&quot;ersb[0]&quot;)}`" />
+    </ParamChoice>
+    <ParamBool id="eru_enable_input_a" name="Input A Inversion" group="General" default="false" visible="`${(eru_detector_select_source ne B)}`" editable="true" desc="Enable input A inversion." />
+    <ParamBool id="eru_enable_input_b" name="Input B Inversion" group="General" default="false" visible="`${(eru_detector_select_source ne A)}`" editable="true" desc="Enable input B inversion." />
+
+    <ParamSignal port="ersa[0]" name="Input A Signal" group="Connections" visible="`${(eru_detector_select_source ne B)}`" desc="Signal A input selection." canBeEmpty="`${(eru_detector_select_source eq B)}`">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_INPUT" />
+        </Parameter>
+      </Constraint>
+      <Constraint type="ACCEPT" targetLocation=".*" valid="true"/>
+    </ParamSignal>
+    <ParamSignal port="ersb[0]" name="Input B Signal" group="Connections" visible="`${(eru_detector_select_source ne A)}`" desc="Signal B input selection." canBeEmpty="`${(eru_detector_select_source eq A)}`">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_INPUT" />
+        </Parameter>
+      </Constraint>
+      <Constraint type="ACCEPT" targetLocation=".*" valid="true"/>
+    </ParamSignal>
+    <ParamSignal port="erso[0]" name="Event Trigger Logic" group="Connections" visible="true" desc="Event trigger logic selection." canBeEmpty="false" />
+  </Parameters>
+  <DRCs />
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_eru.h" include="true" />
+    <ConfigInclude value="cycfg_routing.h" include="`${hasConnection(&quot;ersa&quot;, 0) || hasConnection(&quot;ersb&quot;, 0) || hasConnection(&quot;erso&quot;, 0)}`" />
+
+    <ConfigDefine name="XMC_ERU`${module_num}`_ETL`${channel_num}`" value="XMC_ERU_ETL_SOURCE_`${(eru_enable_input_a &amp;&amp; (eru_detector_select_source ne B)) ? &quot;NOT_&quot; : &quot;&quot;}``${(eru_detector_select_source ne B) ? &quot;A&quot; : &quot;&quot;}``${(eru_detector_select_source eq A_OR_B) ? &quot;_OR_&quot; : &quot;&quot;}``${(eru_detector_select_source eq A_AND_B) ? &quot;_AND_&quot; : &quot;&quot;}``${(eru_enable_input_b &amp;&amp; (eru_detector_select_source ne A)) ? &quot;NOT_&quot; : &quot;&quot;}``${(eru_detector_select_source ne A) ? &quot;B&quot; : &quot;&quot;}`" public="true" include="true" />
+
+  </ConfigFirmware>
+</Personality>

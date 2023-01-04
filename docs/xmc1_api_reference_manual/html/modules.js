@@ -4,6 +4,7 @@ var modules =
     [ "Brightness and Color Control Unit(BCCU)", "group___b_c_c_u.html", "group___b_c_c_u" ],
     [ "Capture Compare Unit 4(CCU4)", "group___c_c_u4.html", "group___c_c_u4" ],
     [ "Capture Compare Unit 8(CCU8)", "group___c_c_u8.html", "group___c_c_u8" ],
+    [ "Common APIs to all peripherals (COMMON)", "group___c_o_m_m_o_n.html", "group___c_o_m_m_o_n" ],
     [ "Controller Area Network Controller(CAN)", "group___c_a_n.html", "group___c_a_n" ],
     [ "Event Request Unit (ERU)", "group___e_r_u.html", "group___e_r_u" ],
     [ "Flash driver (FLASH)", "group___f_l_a_s_h.html", "group___f_l_a_s_h" ],

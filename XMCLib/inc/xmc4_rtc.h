@@ -47,6 +47,9 @@
  * 2015-05-20:
  *     - Documentation updates <br>
  *
+ * 2022-10-27:
+ *     - Documentation updates
+ *
  * @endcond
  *
  */

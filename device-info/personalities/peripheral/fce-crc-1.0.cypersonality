@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file fce-crc-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* FCE CRC personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_fce-crc" name="FCE-CRC" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_fce" />
+    <Resource name="fce\.crc(8|16|32_0|32_1)" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <ParamString id="max_seedvalue" name="Max Seedvalue" group="Internal" default="`${(getBlockType(1) eq &quot;crc8&quot;) ? 255 : ((getBlockType(1) eq &quot;crc16&quot;) ? 65535 : 4294967295)}`" visible="false" editable="false" desc="Maximum seed value based on CRC mode." />
+    <ParamString id="module_resource" name="Module Resource" group="Internal" default="fce[0]" visible="false" editable="false" desc="FCE parent module resource path." />
+    <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(module_resource)}`" visible="false" editable="false" desc="True when the FCE module resource is not enabled." />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___f_c_e.html" linkText="Open FCE Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+
+    <ParamBool id="input_data_reflection" name="Input Data Bytewise Reflection" group="CRC Input Configuration" default="false" visible="true" editable="true" desc="Enables input data bytewise inversion." />
+    <ParamRange id="initialization_value" name="Initialization Value" group="CRC Input Configuration" default="0" min="0" max="`${max_seedvalue}`" resolution="1" visible="true" editable="true" desc="Defines the CRC seed value." />
+
+    <ParamBool id="output_data_reflection" name="CRC Output Reflection" group="CRC Output Configuration" default="false" visible="true" editable="true" desc="Enables the CRC output inversion before result check." />
+    <ParamBool id="output_data_xor" name="CRC Output Bitwise XOR with 1" group="CRC Output Configuration" default="false" visible="true" editable="true" desc="XOR CRC output with 1." />
+
+    <ParamBool id="interrupt_mismatch" name="CRC Mismatch Interrupt" group="Interrupt Settings for Error Handling" default="false" visible="true" editable="true" desc="Enable CRC mismatch interrupt." />
+    <ParamBool id="interrupt_error" name="Configuration Error Interrupt" group="Interrupt Settings for Error Handling" default="false" visible="true" editable="true" desc="Enable the configuration error handling." />
+    <ParamBool id="interrupt_error_length" name="Length Error Interrupt" group="Interrupt Settings for Error Handling" default="false" visible="true" editable="true" desc="Enable the length error interrupt handling." />
+    <ParamBool id="interrupt_bus_error" name="Bus Error Interrupt" group="Interrupt Settings for Error Handling" default="false" visible="true" editable="true" desc="Enable the bus error handling." />
+
+    <ParamSignal port="sr0[0]" name="sr0" group="Connections" visible="`${hasVisibleOption(&quot;sr0[0]&quot;)}`" desc="FCE sr0 connection." canBeEmpty="true" />
+
+    <!-- Advanced Settings -->
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="FCE module instance is not enabled" condition="`${module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${module_resource}`" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_FCE_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="kernel_ptr" value="XMC_FCE_`${toUpper(getBlockType(1))}`" />
+      <Member name="`${&quot;fce_cfg_update.config_refin&quot;}`" value="`${(input_data_reflection eq true) ? &quot;XMC_FCE_REFIN_SET&quot; : &quot;XMC_FCE_REFIN_RESET&quot;}`" />
+      <Member name="`${&quot;fce_cfg_update.config_refout&quot;}`" value="`${(output_data_reflection eq true) ? &quot;XMC_FCE_REFOUT_SET&quot; : &quot;XMC_FCE_REFOUT_RESET&quot;}`" />
+      <Member name="`${&quot;fce_cfg_update.config_xsel&quot;}`" value="`${(output_data_xor eq true) ? &quot;XMC_FCE_INVSEL_SET&quot; : &quot;XMC_FCE_INVSEL_RESET&quot;}`" />
+      <Member name="seedvalue" value="`${initialization_value}`U" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="(void)XMC_FCE_Init(&amp;`${INST_NAME}`_config);" include="true" />
+    <ConfigInstruction value="XMC_FCE_EnableEvent(&amp;`${INST_NAME}`_config, XMC_FCE_CFG_CONFIG_CMI);" include="`${(interrupt_mismatch eq true)}`" />
+    <ConfigInstruction value="XMC_FCE_EnableEvent(&amp;`${INST_NAME}`_config, XMC_FCE_CFG_CONFIG_CEI);" include="`${(interrupt_error eq true)}`" />
+    <ConfigInstruction value="XMC_FCE_EnableEvent(&amp;`${INST_NAME}`_config, XMC_FCE_CFG_CONFIG_LEI);" include="`${(interrupt_error_length eq true)}`" />
+    <ConfigInstruction value="XMC_FCE_EnableEvent(&amp;`${INST_NAME}`_config, XMC_FCE_CFG_CONFIG_BEI);" include="`${(interrupt_bus_error eq true)}`" />
+  </ConfigFirmware>
+</Personality>

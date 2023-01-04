@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file vadc-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* VADC personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_vadc-group" name="VADC-GROUP" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_vadc" />
+    <Resource name="vadc\.group" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="group_base" paramId="group_base" />
+    <ExposedMember key="group_other_boundaries_flag_invert_id_$idx" paramId="group_other_boundaries_flag_invert_id_$idx" repeatCount="4" />
+    <ExposedMember key="group_other_boundaries_flag_enable_id_$idx" paramId="group_other_boundaries_flag_enable_id_$idx" repeatCount="4" />
+    <ExposedMember key="group_other_boundaries_flag_activation_id_$idx" paramId="group_other_boundaries_flag_activation_id_$idx" repeatCount="4" />
+    <ExposedMember key="group_other_boundaries_flag_operation_id_$idx" paramId="group_other_boundaries_flag_operation_id_$idx" repeatCount="4" />
+    <ExposedMember key="group_channels_result_register_id_$idx" paramId="group_channels_result_register_id_$idx" repeatCount="8" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- Internal -->
+    <ParamString id="ip_version" name="IP Block Version" group="Internal" default="`${getVersion()}`" visible="false" editable="false" desc="" />
+    <ParamBool id="ip_ver1" name="IP Block Version 1" desc="True for XMC1 series." group="Internal" default="`${ip_version == 1}`" visible="false" editable="false" />
+    <ParamBool id="ip_ver2" name="IP Block Version 2" desc="True for XMC4 series." group="Internal" default="`${ip_version == 2}`" visible="false" editable="false" />
+    <ParamString id="vadc_global_instance" name="VADC Global Instance" group="Internal" default="vadc[0]" visible="false" editable="false" desc="VADC Global index." />
+    <ParamBool id="xmc11_dont_include" name="XMC11 Series" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;1100&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC1100 is selected." />
+    <ParamBool id="xmc4500_dont_include" name="XMC4500" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4500&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4500 is selected." />
+    <ParamBool id="xmc4502_dont_include" name="XMC4502" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4502&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4502 is selected." />
+    <ParamBool id="xmc4504_dont_include" name="XMC4504" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4504&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4504 is selected." />
+    <ParamBool id="xmc45_dont_include" name="XMC45 Series" group="Internal" default="`${xmc4500_dont_include || xmc4502_dont_include || xmc4504_dont_include}`" visible="false" editable="false" desc="True when the XMC4500 is selected." />
+    <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(&quot;vadc[0]&quot;)}`" visible="false" editable="false" desc="True when the VADC module resource is not enabled." />
+    <ParamString id="group_num" name="Group Number" group="Internal" default="`${getInstNumber(&quot;group&quot;)}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_base" name="Group Base" group="Internal" default="`${INST_NAME}`_HW" visible="false" editable="false" desc="VADC Group base address pointer." />
+    <Repeat count="8">
+      <ParamString id="module_resource_$idx" name="Module Resource $idx" group="Internal" default="vadc[0].group[`${group_num}`].ch[$idx]" visible="false" editable="false" desc="VADC Channel Enabled or Not." />
+    </Repeat>
+    <Repeat count="8">
+      <ParamBool id="group_channels_configure_channel_id_$idx" name="Configure Channel $idx" group="Internal" default="`${isBlockUsed(module_resource_$idx)}`" visible="false" editable="false" desc="Enable and configure channel $idx for group `${group_num}`." />
+    </Repeat>
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc`${ip_ver1 ? 1 : 4}`_api_reference_manual/html/group___v_a_d_c.html" linkText="Open VADC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!-- Channel Configuration -->
+    <Repeat count="8">
+      <ParamChoice id="group_channels_result_register_id_$idx" name="Channel $idx Result Register" group="Channel Result Register Configuration" default="$idx" visible="`${isBlockUsed(module_resource_$idx)}`" editable="true" desc="Select the result register where the conversion results will be kept.">
+        <Entry name="GxRES$idx" value="$idx" visible="true" repeatCount="16" />
+      </ParamChoice>
+    </Repeat>
+    <!-- EOF Channel Configuration -->
+
+    <!-- Request Sources - Group -->
+    <!-- Request Sources - Queue Request Sources - Group -->
+    <Repeat count="8">
+      <ParamChoice id="group_request_sources_queue_input_id_$idx" name="Queue Input Entry `${7-$idx}`" group="Queue Request Sources" default="None" visible="true" editable="true" desc="Select the channel to be placed at the position `${7-$idx}`.">
+        <Entry name="None" value="None" visible="true" />
+        <Entry name="Channel $idx" value="$idx" visible="true" repeatCount="8" />
+      </ParamChoice>
+      <ParamBool id="group_request_sources_refill_id_$idx" name="Refill Entry `${7-$idx}`" group="Queue Request Sources" default="false" visible="`${group_request_sources_queue_input_id_$idx ne &quot;None&quot;}`" editable="true" desc="Reload the entry back into queue buffer after conversion." />
+      <ParamBool id="group_request_sources_event_id_$idx" name="Event for Entry `${7-$idx}`" group="Queue Request Sources" default="false" visible="`${group_request_sources_queue_input_id_$idx ne &quot;None&quot;}`" editable="true" desc="If the wait for trigger is enabled, the conversion will wait for a trigger before this channel is converted." />
+      <ParamBool id="group_request_sources_trigger_id_$idx" name="Enable Trigger for Entry `${7-$idx}`" group="Queue Request Sources" default="false" visible="`${group_request_sources_queue_input_id_$idx ne &quot;None&quot;}`" editable="true" desc="Trigger a source event after entry `${7-$idx}` is converted." />
+    </Repeat>
+    <ParamChoice id="group_request_sources_external_trigger_edge_id" name="External Trigger Event" group="Queue Request Sources" default="XMC_VADC_TRIGGER_EDGE_NONE" visible="true" editable="true" desc="Configures the Trigger edge of queue request source. None: To ignore the Trigger signal. Upon Rising Edge: To trigger the queue conversion on a rising edge. Upon Falling Edge: To trigger the queue conversion on a falling edge. Upon Any Edge: To trigger the queue conversion on both rising and falling edges.">
+      <Entry name="None" value="XMC_VADC_TRIGGER_EDGE_NONE" visible="true" />
+      <Entry name="Upon a Falling Edge" value="XMC_VADC_TRIGGER_EDGE_FALLING" visible="true" />
+      <Entry name="Upon a Rising Edge" value="XMC_VADC_TRIGGER_EDGE_RISING" visible="true" />
+      <Entry name="Upon Any Edge" value="XMC_VADC_TRIGGER_EDGE_ANY" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_request_sources_gating_functionality_id" name="Gating Functionality" group="Queue Request Sources" default="BLOCK" visible="true" editable="true" desc="Configures the Gating mode for the queue request source. Block Conversion: All conversion requests are blocked. Always Convert: All conversion requests are issued if there are valid entries present in the queue. Ungate On A High(REQGTx =1): Conversion requests are issued only when gate level is high Ungate On A Low(REQGTx =0): Conversion requests are issued only when gate level is low.">
+      <Entry name="Block Conversion" value="BLOCK" visible="true" />
+      <Entry name="Always Convert" value="IGNORE" visible="true" />
+      <Entry name="Ungate On A High(REQGTx = 1)" value="ACTIVEHIGH" visible="true" />
+      <Entry name="Ungate On A Low(REQGTx = 0)" value="ACTIVELOW" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_request_sources_queue_specific_result_id" name="Queue Specific Result Register" group="Queue Request Sources" default="16" visible="true" editable="true" desc="Assign a specific result register to which all the results will be push into.">
+      <Entry name="No Specific Register" value="16" visible="true" />
+      <Entry name="GxRES$idx" value="$idx" visible="true" repeatCount="16" />
+    </ParamChoice>
+    <ParamBool id="group_request_sources_external_trigger_id" name="External Trigger" group="Queue Request Sources" default="false" visible="true" editable="true" desc="Enable the external trigger to the request source." />
+    <ParamBool id="group_request_sources_timer_mode_id" name="Timer Mode" group="Queue Request Sources" default="false" visible="true" editable="true" desc="Enable the timer mode in the request source." />
+    <!-- EOF Request Sources - Queue Request Sources - Group -->
+
+    <!-- Request Sources - Scan Request Sources - Group -->
+    <Repeat count="8">
+      <ParamBool id="group_request_sources_assigned_channel_id_$idx" name="Assign Channel `${7-$idx}`" group="Scan Request Sources" default="false" visible="true" editable="true" desc="Add channel `${7-$idx}` into the scan sequence." />
+    </Repeat>
+    <ParamBool id="group_request_sources_autoscan_enabled_id" name="Enable Autoscan" group="Scan Request Sources" default="false" visible="true" editable="true" desc="Enables the Autoscan feature. The conversion of the last channel in the sequence will cause a load event to occur. This causes continuous conversion of the scan sequence." />
+    <ParamChoice id="group_request_sources_external_trigger_event_id" name="External Trigger Event" group="Scan Request Sources" default="XMC_VADC_TRIGGER_EDGE_NONE" visible="true" editable="true" desc="Configures the Trigger edge of queue request source. None: To ignore the Trigger signal. Upon Rising Edge: To trigger the queue conversion on a rising edge. Upon Falling Edge: To trigger the queue conversion on a falling edge. Upon Any Edge: To trigger the queue conversion on both rising and falling edges.">
+      <Entry name="None" value="XMC_VADC_TRIGGER_EDGE_NONE" visible="true" />
+      <Entry name="Upon a Falling Edge" value="XMC_VADC_TRIGGER_EDGE_FALLING" visible="true" />
+      <Entry name="Upon a Rising Edge" value="XMC_VADC_TRIGGER_EDGE_RISING" visible="true" />
+      <Entry name="Upon Any Edge" value="XMC_VADC_TRIGGER_EDGE_ANY" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_request_sources_scan_gating_functionality_id" name="Gating Functionality" group="Scan Request Sources" default="BLOCK" visible="true" editable="true" desc="Configures the Gating mode for the queue request source. Block Conversion: All conversion requests are blocked. Always Convert: All conversion requests are issued if there are valid entries present in the queue. Ungate On A High(REQGTx =1): Conversion requests are issued only when gate level is high. Ungate On A Low(REQGTx =0): Conversion requests are issued only when gate level is low.">
+      <Entry name="Block Conversion" value="BLOCK" visible="true" />
+      <Entry name="Always Convert" value="IGNORE" visible="true" />
+      <Entry name="Ungate On A High(REQGTx = 1)" value="ACTIVEHIGH" visible="true" />
+      <Entry name="Ungate On A Low(REQGTx = 0)" value="ACTIVELOW" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_request_sources_scan_specific_result_id" name="Scan Specific Result Register" group="Scan Request Sources" default="16" visible="true" editable="true" desc="Assign a specific result register to which all the results will be pushed into.">
+      <Entry name="No Specific Register" value="16" visible="true" />
+      <Entry name="GxRES$idx" value="$idx" visible="true" repeatCount="16" />
+    </ParamChoice>
+    <ParamBool id="group_request_sources_scan_external_trigger_id" name="External Trigger" group="Scan Request Sources" default="false" visible="true" editable="true" desc="Enable the external trigger to the request source." />
+    <ParamBool id="group_request_sources_scan_timer_mode_id" name="Timer Mode" group="Scan Request Sources" default="false" visible="true" editable="true" desc="Enable the timer mode in the request source." />
+    <ParamBool id="group_request_sources_scan_request_interrupt_id" name="Request Source Event" group="Scan Request Sources" default="false" visible="true" editable="true" desc="Enables the request source interrupt." />
+    <!-- EOF Request Sources - Scan Request Sources - Group -->
+
+    <!-- Request Sources - Background Request Sources - Group -->
+    <Repeat count="8">
+      <ParamBool id="group_request_sources_background_assigned_channel_id_$idx" name="Assign Channel `${7-$idx}`" group="Global Settings" default="false" visible="true" editable="true" desc="Add channel `${7-$idx}` into the background scan sequence. Note: Background request source configurations are done in VADC personality." />
+    </Repeat>
+    <!-- EOF Request Sources - Background Request Sources - Group -->
+    <!-- EOF Request Sources - Group -->
+
+    <ParamBool id="group_request_sources_queue_input_id" name="Group `${group_num}` Request Sources Queue Input Check Value" group="Internal" default="`${(group_request_sources_queue_input_id_0 ne &quot;None&quot; ) ||
+                                                                                                                                                          (group_request_sources_queue_input_id_1 ne &quot;None&quot; ) ||
+                                                                                                                                                          (group_request_sources_queue_input_id_2 ne &quot;None&quot; ) ||
+                                                                                                                                                          (group_request_sources_queue_input_id_3 ne &quot;None&quot; ) ||
+                                                                                                                                                          (group_request_sources_queue_input_id_4 ne &quot;None&quot; ) ||
+                                                                                                                                                          (group_request_sources_queue_input_id_5 ne &quot;None&quot; ) ||
+                                                                                                                                                          (group_request_sources_queue_input_id_6 ne &quot;None&quot; ) ||
+                                                                                                                                                          (group_request_sources_queue_input_id_7 ne &quot;None&quot; )}`" visible="false" editable="false" desc="Supporting variable." />
+
+    <ParamRange id="group_request_sources_autoscan_id" name="Group `${group_num}` Request Sources Autoscan Check Value" group="Internal" default="`${(group_request_sources_assigned_channel_id_7 ? 1 : 0 ) +
+                                                                                                                                                     (group_request_sources_assigned_channel_id_6 ? 2 : 0 ) +
+                                                                                                                                                     (group_request_sources_assigned_channel_id_5 ? 4 : 0 ) +
+                                                                                                                                                     (group_request_sources_assigned_channel_id_4 ? 8 : 0 ) +
+                                                                                                                                                     (group_request_sources_assigned_channel_id_3 ? 16 : 0 ) +
+                                                                                                                                                     (group_request_sources_assigned_channel_id_2 ? 32 : 0 ) +
+                                                                                                                                                     (group_request_sources_assigned_channel_id_1 ? 64 : 0 ) +
+                                                                                                                                                     (group_request_sources_assigned_channel_id_0 ? 128 : 0 )}`" min="0" max="256" resolution="1" visible="false" editable="false" desc="Supporting variable." />
+
+    <!-- Arbitration - Group -->
+    <Repeat count="3">
+      <ParamBool id="group_arbitration_slot_enable_id_$idx" name="Enable Arbitration Slot $idx" group="Arbitration" default="false" visible="`${(($idx == 0)?(group_request_sources_queue_input_id):($idx == 1)?(group_request_sources_autoscan_id):(1))}`" editable="true" desc="Enable the arbitration slot for the `${($idx == 0) ? (&quot;queue&quot;) : ($idx == 1) ? (&quot;scan&quot;) : (&quot;background scan&quot;)}` request source." />
+      <ParamChoice id="group_arbitration_slot_priority_id_$idx" name="Arbitration Slot $idx Priority" group="Arbitration" default="0" visible="`${(($idx == 0)?(group_request_sources_queue_input_id):($idx == 1)?(group_request_sources_autoscan_id):(1)) &amp;&amp; group_arbitration_slot_enable_id_$idx}`" editable="`${(group_arbitration_slot_enable_id_$idx) &amp;&amp; ($idx != 2)}`" desc="This is the Arbitration priority of `${($idx == 0) ? (&quot;queue&quot;) : ($idx == 1) ? (&quot;scan&quot;) : (&quot;background scan&quot;)}` request source. Priority-0 would be the lowest priority and Priority-3 would be the highest. This determines the request source which would be selected during the arbitration round.">
+        <Entry name="`${($idx == 0) ? (&quot;0 (lowest)&quot;) : ($idx == 3) ? (&quot;3 (highest)&quot;) : ($idx)}`" value="$idx" visible="true" repeatCount="4" />
+      </ParamChoice>
+      <ParamChoice id="group_arbitration_slot_mode_id_$idx" name="Arbitration Slot $idx Mode" group="Arbitration" default="WFS" visible="`${(($idx == 0)?(group_request_sources_queue_input_id):($idx == 1)?(group_request_sources_autoscan_id):(1)) &amp;&amp; group_arbitration_slot_enable_id_$idx}`" editable="`${(group_arbitration_slot_enable_id_$idx) &amp;&amp; ($idx != 2) &amp;&amp; (group_request_sources_autoscan_id)}`" desc="Selecting start mode starts the conversion. Wait For Start Mode: In this mode the converter will finish the on-going conversion and then take up any channel that is pending conversion. Cancel Inject Repeat Mode: In this mode the converter will stall the on-going conversion, if a channel is pending in a higher priority request source. After the higher priority request source finishes the conversion the channel which was pre-empted will resume.">
+        <Entry name="Wait For Start Mode" value="WFS" visible="true" />
+        <Entry name="Cancel Inject Repeat Mode" value="CIR" visible="true" />
+      </ParamChoice>
+    </Repeat>
+    <!-- EOF Arbitration - Group -->
+
+    <!-- Input Classes - Group -->
+    <Repeat count="2">
+      <ParamRange id="group_input_classes_phase_std_conv_id_$idx" name="Sample Phase Clock Cycles for Standard Conversions" group="Group Input Class $idx" default="0" min="0" max="31" resolution="1" visible="true" editable="true" desc="This field defines the number of additional clock cycles to be added to the minimum sample phase of 2 analog clock cycles." />
+      <ParamChoice id="group_input_classes_std_conv_mode_id_$idx" name="Conversion Mode for Standard Conversions" group="Group Input Class $idx" default="12BIT" visible="true" editable="true" desc="This field sets desired conversion mode.">
+        <Entry name="12 Bit Conversion" value="12BIT" visible="true" />
+        <Entry name="10 Bit Conversion" value="10BIT" visible="true" />
+        <Entry name="8 Bit Conversion" value="8BIT" visible="true" />
+        <Entry name="10 Bit Fast Conversion" value="FASTCOMPARE" visible="true" />
+      </ParamChoice>
+      <ParamRange id="group_input_classes_phase_emux_conv_id_$idx" name="Sample Phase Clock Cycles for EMUX Conversions" group="Group Input Class $idx" default="0" min="0" max="31" resolution="1" visible="true" editable="true" desc="This field defines the number of additional clock cycles to be added to the minimum sample phase of 2 analog clock cycles." />
+      <ParamChoice id="group_input_classes_emux_conv_mode_id_$idx" name="Conversion Mode for EMUX Conversions" group="Group Input Class $idx" default="12BIT" visible="true" editable="true" desc="This field sets desired conversion mode.">
+        <Entry name="12 Bit Conversion" value="12BIT" visible="true" />
+        <Entry name="10 Bit Conversion" value="10BIT" visible="true" />
+        <Entry name="8 Bit Conversion" value="8BIT" visible="true" />
+        <Entry name="10 Bit Fast Conversion" value="FASTCOMPARE" visible="true" />
+      </ParamChoice>
+    </Repeat>
+    <!-- EOF Input Classes - Group -->
+
+    <!-- Result Registers - Group -->
+    <Repeat count="16">
+      <ParamBool id="group_result_registers_configure_register_id_$idx" name="Configure Result Register $idx" group="Result Registers" default="false" visible="true" editable="true" desc="Enable and configure result register $idx for group `${group_num}`." />
+      <ParamChoice id="group_result_registers_dmm_id_$idx" name="Data Modification Mode for GxRES$idx" group="Result Registers" default="REDUCTION" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Select the DRCTR value that needs to be applied to set the required accumulation or filter modes.">
+        <Entry name="Accumulate Values" value="REDUCTION" visible="true" />
+        <Entry name="Difference Mode" value="DIFFERENCE" visible="`${$idx}`" />
+        <Entry name="Apply Filter" value="FILTERING" visible="`${($idx == 7) || ($idx == 15)}`" />
+      </ParamChoice>
+      <ParamChoice id="group_result_registers_filter_type_id_$idx" name="Kind of Filter to Apply to Result" group="Result Registers" default="0" visible="`${group_result_registers_dmm_id_$idx eq &quot;FILTERING&quot;}`" editable="true" desc="Select the DRCTR value that needs to be applied to set the required accumulation or filter modes.">
+        <Entry name="FIR filter: a=2, b=1, c=0" value="0" visible="true" />
+        <Entry name="FIR filter: a=1, b=2, c=0" value="1" visible="true" />
+        <Entry name="FIR filter: a=2, b=0, c=1" value="2" visible="true" />
+        <Entry name="FIR filter: a=1, b=1, c=1" value="3" visible="true" />
+        <Entry name="FIR filter: a=1, b=0, c=2" value="4" visible="true" />
+        <Entry name="FIR filter: a=3, b=1, c=0" value="5" visible="true" />
+        <Entry name="FIR filter: a=2, b=2, c=0" value="6" visible="true" />
+        <Entry name="FIR filter: a=1, b=3, c=0" value="7" visible="true" />
+        <Entry name="FIR filter: a=3, b=0, c=1" value="8" visible="true" />
+        <Entry name="FIR filter: a=2, b=1, c=1" value="9" visible="true" />
+        <Entry name="FIR filter: a=1, b=2, c=1" value="10" visible="true" />
+        <Entry name="FIR filter: a=2, b=0, c=2" value="11" visible="true" />
+        <Entry name="FIR filter: a=1, b=1, c=2" value="12" visible="true" />
+        <Entry name="FIR filter: a=1, b=0, c=3" value="13" visible="true" />
+        <Entry name="IIR filter: a=2, b=2" value="14" visible="true" />
+        <Entry name="IIR filter: a=3, b=4" value="15" visible="true" />
+      </ParamChoice>
+      <ParamChoice id="group_result_registers_number_of_results_id_$idx" name="Number of Result Values Accumulated for GxRES$idx" group="Result Registers" default="0" visible="`${group_result_registers_configure_register_id_$idx &amp;&amp; (group_result_registers_dmm_id_$idx eq &quot;REDUCTION&quot;)}`" editable="true" desc="Select the DRCTR value that needs to be applied to set the required accumulation or filter modes.">
+        <Entry name="Data Reduction Disabled" value="0" visible="true" />
+        <Entry name="2 Result Values" value="1" visible="true" />
+        <Entry name="3 Result Values" value="2" visible="true" />
+        <Entry name="4 Result Values" value="3" visible="true" />
+      </ParamChoice>
+      <ParamBool id="group_result_registers_enable_wfr_id_$idx" name="Enable Wait-for-Read for GxRES$idx" group="Result Registers" default="false" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Enables the wait for read for this channel&apos;s result register. This implies that the new conversion will not start until the old result value is read." />
+      <ParamBool id="group_result_registers_enable_fifo_id_$idx" name="Enable FIFO Mode for GxRES$idx" group="Result Registers" default="false" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Enables the FIFO mode for result register $idx." />
+      <ParamBool id="group_result_registers_result_event_id_$idx" name="Generate Result Event for GxRES$idx" group="Result Registers" default="false" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="On enabling this option, an event will be generated when a new value is available in the global result register." />
+      <ParamBool id="group_result_registers_external_event_enable_id_$idx_0" name="Enable External Event 0 for Result Register $idx" group="Result Registers" default="false" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Enable the generation of service request 0." />
+      <ParamBool id="group_result_registers_external_event_enable_id_$idx_1" name="Enable External Event 1 for Result Register $idx" group="Result Registers" default="false" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Enable the generation of service request 1." />
+      <ParamBool id="group_result_registers_external_event_enable_id_$idx_2" name="Enable External Event 2 for Result Register $idx" group="Result Registers" default="false" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Enable the generation of service request 2." />
+      <ParamBool id="group_result_registers_external_event_enable_id_$idx_3" name="Enable External Event 3 for Result Register $idx" group="Result Registers" default="false" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Enable the generation of service request 3." />
+      <ParamBool id="group_result_registers_request_sources_only_id_$idx" name="Assign GxRES$idx to Group Request Sources Only" group="Result Registers" default="false" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Configure the selected result register so that a background source cannot store the conversion result in it." />
+      <ParamRange id="group_result_registers_compare_ref_value_id_$idx" name="Reference Value for Fast Compare" group="Result Registers" default="0" min="0" max="4095" resolution="1" visible="`${group_result_registers_configure_register_id_$idx}`" editable="true" desc="Provides the reference value for Fast Compare Mode. In this mode, bits 11-2 are evaluated, the other bits are ignored." />
+    </Repeat>
+    <!-- EOF Result Registers - Group -->
+
+    <!-- Other Settings - Group -->
+    <ParamChoice id="group_other_sync_id" name="Group Kernel Synchronization" group="Other Settings" default="4" visible="true" editable="true" desc="Select the behaviour of the group in synchronized conversion. Master: Select this if the group is either a master or doesn&apos;t participate in any synchronized conversion. Slave, His Master is Kernel-0: Select if the channel is acting as a sync slave and the master group is Group-0. Slave, His Master is Kernel-1: Select if the channel is acting as a sync slave and the master group is Group-1. Slave, His Master is Kernel-2: Select if the channel is acting as a sync slave and the master group is Group-2. Slave, His Master is Kernel-3: Select if the channel is acting as a sync slave and the master group is Group-3.">
+      <Entry name="Master" value="4" visible="true" />
+      <Entry name="Slave, His Master is Kernel $idx" value="$idx" visible="true" repeatCount="4" />
+    </ParamChoice>
+    <Repeat count="2">
+      <ParamRange id="group_other_boundaries_value_id_$idx" name="Boundary Value $idx" group="Other Settings" default="0" min="0" max="4095" resolution="1" visible="true" editable="true" desc="This field has a different meaning in each conversion mode, so in standard conversions, it defines a value against which a conversion result can be directly compared in fast compare conversions, it defines a delta limit which can be added (or subtracted from) a compare value stored in the result register and allow defining an arbitrary hysteresis band." />
+    </Repeat>
+    <Repeat count="4">
+      <ParamBool id="group_other_boundaries_flag_enable_id_$idx" name="Enable Boundary Flag $idx" group="Other Settings" default="false" visible="`${!xmc11_dont_include &amp;&amp; !xmc45_dont_include}`" editable="true" desc="Enable the boundary flag." />
+      <ParamBool id="group_other_boundaries_flag_invert_id_$idx" name="Invert Boundary Flag $idx" group="Other Settings" default="false" visible="`${(group_other_boundaries_flag_enable_id_$idx) &amp;&amp; (!xmc11_dont_include) &amp;&amp; (!xmc45_dont_include)}`" editable="true" desc="Select to invert the Boundary flag $idx." />
+      <ParamChoice id="group_other_boundaries_flag_activation_id_$idx" name="Select Boundary Flag $idx Activation" group="Other Settings" default="ABOVE" visible="`${(group_other_boundaries_flag_enable_id_$idx) &amp;&amp; (!xmc11_dont_include) &amp;&amp; (!xmc45_dont_include)}`" editable="true" desc="Set BFL If Result Is Above Band or Below Band.">
+        <Entry name="Set BFL If Result Is Above Band" value="ABOVE" visible="true" />
+        <Entry name="Set BFL If Result Is Below Band" value="BELOW" visible="true" />
+      </ParamChoice>
+      <ParamChoice id="group_other_boundaries_flag_operation_id_$idx" name="Select Operation of the Boundary Flags" group="Other Settings" default="XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_ENABLED" visible="`${(group_other_boundaries_flag_enable_id_$idx) &amp;&amp; (!xmc11_dont_include) &amp;&amp; (!xmc45_dont_include)}`" editable="true" desc="Select operation of the boundary flags.">
+        <Entry name="Always enable boundary flag (follow compare results)" value="XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_ENABLED" visible="true" />
+        <Entry name="Enable boundary flag while gate of source 0 is active, clear BFL$idx while gate is inactive" value="XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_ENABLED_ACTIVE_LOW" visible="true" />
+        <Entry name="Enable boundary flag while gate of source 1 is active, clear BFL$idx while gate is inactive" value="XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_ENABLED_ACTIVE_HIGH" visible="true" />
+      </ParamChoice>
+    </Repeat>
+    <ParamChoice id="group_other_mux_mode_id" name="External Multiplexer Mode" group="Other Settings" default="SWCTRL" visible="true" editable="true" desc="Select control mode.">
+      <Entry name="Software Control" value="SWCTRL" visible="true" />
+      <Entry name="Steady Mode" value="STEADYMODE" visible="true" />
+      <Entry name="Single-step Mode" value="SINGLEMODE" visible="true" />
+      <Entry name="Sequence Mode" value="SEQUENCEMODE" visible="true" />
+    </ParamChoice>
+    <Repeat count="8">
+      <ParamBool id="group_other_mux_channel_id_$idx" name="Connect Channel $idx to EMUX" group="Other Settings" default="false" visible="`${group_other_mux_mode_id ne &quot;SWCTRL&quot;}`" editable="true" desc="Connect channel $idx to EMUX." />
+    </Repeat>
+    <ParamRange id="group_other_mux_start_id" name="Start Selection" group="Other Settings" default="0" min="-9223372036854775808" max="9223372036854775807" resolution="1" visible="`${group_other_mux_mode_id ne &quot;SWCTRL&quot;}`" editable="true" desc="Set EMUX start value." />
+    <ParamChoice id="group_other_mux_coding_id" name="Coding Scheme" group="Other Settings" default="BINARY" visible="`${group_other_mux_mode_id ne &quot;SWCTRL&quot;}`" editable="true" desc="Set desired EMUX coding scheme.">
+      <Entry name="Binary Code" value="BINARY" visible="true" />
+      <Entry name="Gray Code" value="GRAY" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_other_mux_sample_time_id" name="Sample Time Control" group="Other Settings" default="0" visible="`${group_other_mux_mode_id ne &quot;SWCTRL&quot;}`" editable="true" desc="Select when STCE changes.">
+      <Entry name="Use STCE whenever the setting changes" value="0" visible="true" />
+      <Entry name="Use STCE for each conversion of an external channel" value="1" visible="true" />
+    </ParamChoice>
+    <!-- EOF Other Settings - Group -->
+    <!-- EOF Group personality settings -->
+
+    <!-- Supporting Configuration -->
+    <ParamRange id="group_channels_check_id" name="Group Channels Group `${group_num}` Check Value" group="Internal" default="`${((group_channels_configure_channel_id_0) ? (1 &lt;&lt; group_channels_result_register_id_0) : (0)) |
+                                                                                                                                 ((group_channels_configure_channel_id_1) ? (1 &lt;&lt; group_channels_result_register_id_1) : (0)) |
+                                                                                                                                 ((group_channels_configure_channel_id_2) ? (1 &lt;&lt; group_channels_result_register_id_2) : (0)) |
+                                                                                                                                 ((group_channels_configure_channel_id_3) ? (1 &lt;&lt; group_channels_result_register_id_3) : (0)) |
+                                                                                                                                 ((group_channels_configure_channel_id_4) ? (1 &lt;&lt; group_channels_result_register_id_4) : (0)) |
+                                                                                                                                 ((group_channels_configure_channel_id_5) ? (1 &lt;&lt; group_channels_result_register_id_5) : (0)) |
+                                                                                                                                 ((group_channels_configure_channel_id_6) ? (1 &lt;&lt; group_channels_result_register_id_6) : (0)) |
+                                                                                                                                 ((group_channels_configure_channel_id_7) ? (1 &lt;&lt; group_channels_result_register_id_7) : (0))}`" min="0" max="65536" resolution="1" visible="false" editable="false" desc="Supporting variable." />
+
+    <ParamRange id="group_channels_check_res_reg_id" name="Group Channels Group `${group_num}` Check Value" group="Internal" default="`${(1 &lt;&lt; group_channels_result_register_id_0) |
+                                                                                                                                         (1 &lt;&lt; group_channels_result_register_id_1) |
+                                                                                                                                         (1 &lt;&lt; group_channels_result_register_id_2) |
+                                                                                                                                         (1 &lt;&lt; group_channels_result_register_id_3) |
+                                                                                                                                         (1 &lt;&lt; group_channels_result_register_id_4) |
+                                                                                                                                         (1 &lt;&lt; group_channels_result_register_id_5) |
+                                                                                                                                         (1 &lt;&lt; group_channels_result_register_id_6) |
+                                                                                                                                         (1 &lt;&lt; group_channels_result_register_id_7)}`" min="0" max="65536" resolution="1" visible="false" editable="false" desc="Supporting variable." />
+
+    <ParamRange id="group_request_sources_background_assigned_id" name="Group `${group_num}` Request Sources Background Check Value" group="Internal" default="`${(group_request_sources_background_assigned_channel_id_7 ? 1 : 0 ) +
+                                                                                                                                                                  (group_request_sources_background_assigned_channel_id_6 ? 2 : 0 ) +
+                                                                                                                                                                  (group_request_sources_background_assigned_channel_id_5 ? 4 : 0 ) +
+                                                                                                                                                                  (group_request_sources_background_assigned_channel_id_4 ? 8 : 0 ) +
+                                                                                                                                                                  (group_request_sources_background_assigned_channel_id_3 ? 16 : 0 ) +
+                                                                                                                                                                  (group_request_sources_background_assigned_channel_id_2 ? 32 : 0 ) +
+                                                                                                                                                                  (group_request_sources_background_assigned_channel_id_1 ? 64 : 0 ) +
+                                                                                                                                                                  (group_request_sources_background_assigned_channel_id_0 ? 128 : 0 )}`" min="0" max="256" resolution="1" visible="false" editable="false" desc="Supporting variable." />
+
+    <Repeat count="8">
+      <ParamString id="channel_error_queue_$idx" name="Channel Error Queue Input $idx" group="Internal" default="group_channels_configure_channel_id_`${group_request_sources_queue_input_id_$idx}`" visible="false" editable="false" desc="Supporting variable." />
+      <ParamString id="channel_error_request_source_$idx" name="Channel Error Request Source Assigned Channel $idx" group="Internal" default="group_channels_configure_channel_id_`${7-$idx}`" visible="false" editable="false" desc="Supporting variable." />
+    </Repeat>
+    <ParamRange id="channel_error_queue" name="Channel Error Queue Input" group="Internal" default="`${((group_request_sources_queue_input_id_0 ne &quot;None&quot;) ? (1 &lt;&lt; group_request_sources_queue_input_id_0) : (0)) |
+                                                                                                       ((group_request_sources_queue_input_id_1 ne &quot;None&quot;) ? (1 &lt;&lt; group_request_sources_queue_input_id_1) : (0)) |
+                                                                                                       ((group_request_sources_queue_input_id_2 ne &quot;None&quot;) ? (1 &lt;&lt; group_request_sources_queue_input_id_2) : (0)) |
+                                                                                                       ((group_request_sources_queue_input_id_3 ne &quot;None&quot;) ? (1 &lt;&lt; group_request_sources_queue_input_id_3) : (0)) |
+                                                                                                       ((group_request_sources_queue_input_id_4 ne &quot;None&quot;) ? (1 &lt;&lt; group_request_sources_queue_input_id_4) : (0)) |
+                                                                                                       ((group_request_sources_queue_input_id_5 ne &quot;None&quot;) ? (1 &lt;&lt; group_request_sources_queue_input_id_5) : (0)) |
+                                                                                                       ((group_request_sources_queue_input_id_6 ne &quot;None&quot;) ? (1 &lt;&lt; group_request_sources_queue_input_id_6) : (0)) |
+                                                                                                       ((group_request_sources_queue_input_id_7 ne &quot;None&quot;) ? (1 &lt;&lt; group_request_sources_queue_input_id_7) : (0))}`" min="0" max="255" resolution="1" visible="false" editable="false" desc="Supporting variable." />
+
+    <ParamRange id="group_result_registers_request_sources_only_check_id" name="Group `${group_num}` Request Sources Background Check Value" group="Internal" default="`${((group_result_registers_request_sources_only_id_0) ? (1 &lt;&lt; 0) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_1) ? (1 &lt;&lt; 1) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_2) ? (1 &lt;&lt; 2) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_3) ? (1 &lt;&lt; 3) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_4) ? (1 &lt;&lt; 4) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_5) ? (1 &lt;&lt; 5) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_6) ? (1 &lt;&lt; 6) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_7) ? (1 &lt;&lt; 7) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_8) ? (1 &lt;&lt; 8) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_9) ? (1 &lt;&lt; 9) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_10) ? (1 &lt;&lt; 10) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_11) ? (1 &lt;&lt; 11) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_12) ? (1 &lt;&lt; 12) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_13) ? (1 &lt;&lt; 13) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_14) ? (1 &lt;&lt; 14) : (0)) |
+                                                                                                                                                                          ((group_result_registers_request_sources_only_id_15) ? (1 &lt;&lt; 15) : (0))}`" min="0" max="65536" resolution="1" visible="false" editable="false" desc="Supporting variable." />
+
+    <ParamRange id="group_other_emux_channels_id" name="Group `${group_num}` EMUX Channels" group="Internal" default="`${(group_other_mux_channel_id_7 ? 128 : 0 ) +
+                                                                                                                         (group_other_mux_channel_id_6 ? 64 : 0 ) +
+                                                                                                                         (group_other_mux_channel_id_5 ? 32 : 0 ) +
+                                                                                                                         (group_other_mux_channel_id_4 ? 16 : 0 ) +
+                                                                                                                         (group_other_mux_channel_id_3 ? 8 : 0 ) +
+                                                                                                                         (group_other_mux_channel_id_2 ? 4 : 0 ) +
+                                                                                                                         (group_other_mux_channel_id_1 ? 2 : 0 ) +
+                                                                                                                         (group_other_mux_channel_id_0 ? 1 : 0 )}`" min="0" max="256" resolution="1" visible="false" editable="false" desc="Supporting variable." />
+
+    <Repeat count="8">
+      <ParamString id="group_results_channel_num_id_$idx" name="Channel $idx Result Register" group="Internal" default="`${group_channels_result_register_id_$idx}`" visible="false" editable="false" desc="VADC Group index." />
+      <ParamString id="group_results_drc_channel_case_accumulate_values_id_$idx" name="Data Reduction Mode Accumulate Values Channel $idx" group="Internal" default="group_result_registers_number_of_results_id_`${group_results_channel_num_id_$idx}`" visible="false" editable="false" desc="VADC Group index." />
+      <ParamString id="group_results_drc_channel_case_accumulate_apply_filter_id_$idx" name="Data Reduction Mode Apply Filter Channel $idx" group="Internal" default="group_result_registers_filter_type_id_`${group_results_channel_num_id_$idx}`" visible="false" editable="false" desc="VADC Group index." />
+      <ParamString id="group_results_ppm_channel_id_$idx" name="Post Processing Mode Channel $idx" group="Internal" default="group_result_registers_dmm_id_`${group_results_channel_num_id_$idx}`" visible="false" editable="false" desc="VADC Group index." />
+      <ParamString id="group_results_wfr_channel_id_$idx" name="Wait for Read Mode Channel $idx" group="Internal" default="group_result_registers_enable_wfr_id_`${group_results_channel_num_id_$idx}`" visible="false" editable="false" desc="VADC Group index." />
+      <ParamString id="group_results_fifo_channel_id_$idx" name="Enable FIFO for Channel $idx" group="Internal" default="group_result_registers_enable_fifo_id_`${group_results_channel_num_id_$idx}`" visible="false" editable="false" desc="VADC Group index." />
+      <ParamString id="group_results_event_channel_id_$idx" name="Generate event for Channel $idx" group="Internal" default="group_result_registers_result_event_id_`${group_results_channel_num_id_$idx}`" visible="false" editable="false" desc="VADC Group index." />
+    </Repeat>
+
+    <ParamString id="group_results_drc_queue_case_accumulate_values_id" name="Data Reduction Mode Accumulate Values Queue" group="Internal" default="group_result_registers_number_of_results_id_`${group_request_sources_queue_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_drc_queue_case_accumulate_apply_filter_id" name="Data Reduction Mode Apply Filter Queue" group="Internal" default="group_result_registers_filter_type_id_`${group_request_sources_queue_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_ppm_queue_id" name="Post Processing Mode Queue" group="Internal" default="group_result_registers_dmm_id_`${group_request_sources_queue_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_wfr_queue_id" name="Wait for Read Mode Queue" group="Internal" default="group_result_registers_enable_wfr_id_`${group_request_sources_queue_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_fifo_queue_id" name="Enable FIFO for Queue" group="Internal" default="group_result_registers_enable_fifo_id_`${group_request_sources_queue_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_event_queue_id" name="Generate event for Queue" group="Internal" default="group_result_registers_result_event_id_`${group_request_sources_queue_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+
+    <ParamString id="group_results_drc_scan_case_accumulate_values_id" name="Data Reduction Mode Accumulate Values Scan" group="Internal" default="group_result_registers_number_of_results_id_`${group_request_sources_scan_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_drc_scan_case_accumulate_apply_filter_id" name="Data Reduction Mode Apply Filter Scan" group="Internal" default="group_result_registers_filter_type_id_`${group_request_sources_scan_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_ppm_scan_id" name="Post Processing Mode Scan" group="Internal" default="group_result_registers_dmm_id_`${group_request_sources_scan_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_wfr_scan_id" name="Wait for Read Mode Scan" group="Internal" default="group_result_registers_enable_wfr_id_`${group_request_sources_scan_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_fifo_scan_id" name="Enable FIFO for Scan" group="Internal" default="group_result_registers_enable_fifo_id_`${group_request_sources_scan_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_results_event_scan_id" name="Generate event for Scan" group="Internal" default="group_result_registers_result_event_id_`${group_request_sources_scan_specific_result_id}`" visible="false" editable="false" desc="VADC Group index." />
+    <!-- EOF Supporting Configuration -->
+
+    <!-- Connection signals -->
+    <ParamSignal port="bgreqgtsel[0]" name="Background Gating Input" group="Connections" visible="`${(group_request_sources_external_trigger_id || group_request_sources_scan_external_trigger_id) &amp;&amp; hasVisibleOption(&quot;bgreqgtsel[0]&quot;)}`" desc="Connect a gating input for the global background source." canBeEmpty="`${!((group_request_sources_external_trigger_id || group_request_sources_scan_external_trigger_id) &amp;&amp; hasVisibleOption(&quot;bgreqgtsel[0]&quot;))}`" forbiddenBy="none" />
+    <ParamSignal port="bgreqtrsel[0]" name="Background Trigger Input" group="Connections" visible="`${(group_request_sources_external_trigger_id || group_request_sources_scan_external_trigger_id) &amp;&amp; hasVisibleOption(&quot;bgreqtrsel[0]&quot;)}`" desc="Connect a triggering input for the global background source." canBeEmpty="`${!((group_request_sources_external_trigger_id || group_request_sources_scan_external_trigger_id) &amp;&amp; hasVisibleOption(&quot;bgreqtrsel[0]&quot;))}`" forbiddenBy="none" />
+    <Repeat count="4">
+      <ParamSignal port="sr$idx[0]" name="Group `${group_num}` Service Request $idx" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx signal connection." canBeEmpty="true" forbiddenBy="none" />
+    </Repeat>
+    <Repeat count="4">
+      <ParamSignal port="c0sr$idx[0]" name="Common Block Service Request $idx" group="Connections" visible="`${hasVisibleOption(&quot;c0sr$idx[0]&quot;)}`" desc="Common block 0 service request $idx signal connection." canBeEmpty="true" forbiddenBy="none" />
+    </Repeat>
+    <Repeat count="4">
+      <ParamSignal port="g$idxarbcnt[0]" name="End of Arbitration Round $idx" group="Connections" visible="`${hasVisibleOption(&quot;g$idxarbcnt[0]&quot;)}`" desc="An end of the arbitration round raises a signal which can also be given to other peripherals." canBeEmpty="true" forbiddenBy="none" />
+      <ParamSignal port="bflout$idx[0]" name="Boundary Flag $idx Output" group="Connections" visible="`${hasVisibleOption(&quot;bflout$idx[0]&quot;)}`" desc="Boundary flag group-specific output line $idx." canBeEmpty="true" forbiddenBy="none" />
+    </Repeat>
+    <ParamSignal port="emux00[0]" name="EMUX 0 Bit 0" group="Connections" visible="`${hasVisibleOption(&quot;emux00[0]&quot;)}`" desc="EMUX Interface 0 control signal 0: Connect to a gpio to control the bit 0 of the external multiplexer interface 0." canBeEmpty="true" forbiddenBy="none" />
+    <ParamSignal port="emux01[0]" name="EMUX 0 Bit 1" group="Connections" visible="`${hasVisibleOption(&quot;emux01[0]&quot;)}`" desc="EMUX Interface 0 control signal 1: Connect to a gpio to control the bit 1 of the external multiplexer interface 0." canBeEmpty="true" forbiddenBy="none" />
+    <ParamSignal port="emux02[0]" name="EMUX 0 Bit 2" group="Connections" visible="`${hasVisibleOption(&quot;emux02[0]&quot;)}`" desc="EMUX Interface 0 control signal 2: Connect to a gpio to control the bit 2 of the external multiplexer interface 0." canBeEmpty="true" forbiddenBy="none" />
+    <ParamSignal port="emux10[0]" name="EMUX 1 Bit 0" group="Connections" visible="`${hasVisibleOption(&quot;emux10[0]&quot;)}`" desc="EMUX Interface 1 control signal 0: Connect to a gpio to control the bit 0 of the external multiplexer interface 1." canBeEmpty="true" forbiddenBy="none" />
+    <ParamSignal port="emux11[0]" name="EMUX 1 Bit 1" group="Connections" visible="`${hasVisibleOption(&quot;emux11[0]&quot;)}`" desc="EMUX Interface 1 control signal 1: Connect to a gpio to control the bit 1 of the external multiplexer interface 1." canBeEmpty="true" forbiddenBy="none" />
+    <ParamSignal port="emux12[0]" name="EMUX 1 Bit 2" group="Connections" visible="`${hasVisibleOption(&quot;emux12[0]&quot;)}`" desc="EMUX Interface 1 control signal 2: Connect to a gpio to control the bit 2 of the external multiplexer interface 1." canBeEmpty="true" forbiddenBy="none" />
+    <!-- EOF Connection signals -->
+
+    <!-- Advanced -->
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+    <!-- EOF Advanced -->
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="VADC is not enabled." condition="`${module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="vadc[0]" value="" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Channel `${group_request_sources_queue_input_id_$idx}` is not configured." condition="`${(group_request_sources_queue_input_id_$idx ne &quot;None&quot;) ? ((channel_error_queue &amp; (1 &lt;&lt; group_request_sources_queue_input_id_$idx)) &amp;&amp; (getParamValue(getParamValue(&quot;channel_error_queue_$idx&quot;)) eq &quot;false&quot;)) : (false)}`" paramId="group_channels_configure_channel_id_$idx" repeatCount="8">
+      <FixIt action="ENABLE_BLOCK" target="vadc[0].group[`${group_num}`].ch[`${group_request_sources_queue_input_id_$idx}`]" value="" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Channel `${7-$idx}` is not configured." condition="`${group_request_sources_assigned_channel_id_$idx &amp;&amp; (getParamValue(getParamValue(&quot;channel_error_request_source_$idx&quot;)) eq &quot;false&quot;)}`" paramId="channel_error_request_source_$idx" repeatCount="8">
+      <FixIt action="ENABLE_BLOCK" target="vadc[0].group[`${group_num}`].ch[`${7-$idx}`]" value="" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Channel `${7-$idx}` is not configured." condition="`${group_request_sources_background_assigned_channel_id_$idx &amp;&amp; (getParamValue(getParamValue(&quot;channel_error_request_source_$idx&quot;)) eq &quot;false&quot;)}`" paramId="channel_error_request_source_$idx" repeatCount="8">
+      <FixIt action="ENABLE_BLOCK" target="vadc[0].group[`${group_num}`].ch[`${7-$idx}`]" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_vadc.h" include="true" />
+    <ConfigInclude value="cycfg_routing.h" include="`${hasConnection(&quot;bgreqgtsel&quot;, 0) || hasConnection(&quot;bgreqtrsel&quot;, 0)}`" />
+
+    <ConfigDefine name="`${group_base}`" value="VADC_G`${group_num}`" public="true" include="`${(lookupExpression(&quot;XMC_SERIES&quot;)) ne &quot;1100&quot;}`" />
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${group_num}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ICLASS_$idx" value="`${$idx}`U" public="true" include="`${group_input_classes_phase_std_conv_id_$idx || group_input_classes_phase_emux_conv_id_$idx}`" repeatCount="2" />
+    <ConfigDefine name="`${INST_NAME}`_SCAN_CHANNELS" value="`${group_request_sources_autoscan_id}`U" public="true" include="`${group_request_sources_autoscan_id}`" />
+    <ConfigDefine name="`${INST_NAME}`_BACKGROUND_SCAN_CHANNELS" value="`${group_request_sources_background_assigned_id}`U" public="true" include="`${group_request_sources_background_assigned_id}`" />
+    <ConfigDefine name="`${INST_NAME}`_RESULT_REG_PRI_MASK" value="`${group_result_registers_request_sources_only_check_id}`U" public="true" include="`${ip_ver1 &amp;&amp; group_result_registers_request_sources_only_check_id}`" />
+    <ConfigDefine name="`${INST_NAME}`_LOWER_BOUND_VALUE" value="`${group_other_boundaries_value_id_0}`U" public="true" include="`${group_other_boundaries_value_id_0 || group_other_boundaries_value_id_1}`" />
+    <ConfigDefine name="`${INST_NAME}`_UPPER_BOUND_VALUE" value="`${group_other_boundaries_value_id_1}`U" public="true" include="`${group_other_boundaries_value_id_0 || group_other_boundaries_value_id_1}`" />
+    <!-- Applicable only for sync operations -->
+    <ConfigDefine name="`${INST_NAME}`_MASTER_GROUP_PTR" value="VADC_G`${group_num}`" public="true" include="`${group_other_sync_id != 4}`" />
+    <ConfigDefine name="`${INST_NAME}`_MASTER_GROUP_NUM" value="`${group_num}`U" public="true" include="`${group_other_sync_id != 4}`" />
+    <ConfigDefine name="`${INST_NAME}`_ALL_EVAL_MASK" value="0U" public="true" include="`${group_other_sync_id != 4}`" />
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_INTERRUPT_HANDLER" value="VADC0_G`${group_num}`_$idx_IRQHandler" public="true" include="`${(ip_ver1 &amp;&amp; ($idx &lt; 2) &amp;&amp; !xmc11_dont_include) || ip_ver2}`" repeatCount="4" />
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_IRQN" value="VADC0_G`${group_num}`_$idx_IRQn" public="true" include="`${(ip_ver1 &amp;&amp; ($idx &lt; 2) &amp;&amp; !xmc11_dont_include) || ip_ver2}`" repeatCount="4" />
+
+    <!-- Queue entries config -->
+    <ConfigStruct name="`${INST_NAME}`_queue_entries_$idx" type="XMC_VADC_QUEUE_ENTRY_t" const="true" public="true" include="`${group_request_sources_queue_input_id_$idx ne &quot;None&quot;}`" repeatCount="8">
+      <Member name="channel_num" value="(uint8_t)`${group_request_sources_queue_input_id_$idx}`" />
+      <Member name="refill_needed" value="(uint32_t)`${group_request_sources_refill_id_$idx}`" />
+      <Member name="generate_interrupt" value="(uint32_t)`${group_request_sources_event_id_$idx}`" />
+      <Member name="external_trigger" value="(uint32_t)`${group_request_sources_trigger_id_$idx}`" />
+    </ConfigStruct>
+    <!-- EOF Queue entries config -->
+
+    <ConfigStruct name="`${INST_NAME}`_result_`${group_channels_result_register_id_$idx}`_config" type="XMC_VADC_RESULT_CONFIG_t" const="`${inFlash}`" public="true" include="`${(group_channels_configure_channel_id_$idx) &amp;&amp; ((1 &lt;&lt; group_channels_result_register_id_$idx) &amp; group_channels_check_res_reg_id)}`" repeatCount="8">
+      <Member name="data_reduction_control" value="(uint32_t) `${(getParamValue(group_results_ppm_channel_id_$idx) eq &quot;FILTERING&quot;) ? (getParamValue(group_results_drc_channel_case_accumulate_apply_filter_id_$idx)) : (getParamValue(group_results_ppm_channel_id_$idx) eq &quot;REDUCTION&quot;) ? (getParamValue(group_results_drc_channel_case_accumulate_values_id_$idx)) : (0)}`" include="true" />
+      <Member name="post_processing_mode" value="(uint32_t) XMC_VADC_DMM_`${getParamValue(group_results_ppm_channel_id_$idx)}`_MODE" include="true" />
+      <Member name="wait_for_read_mode" value="(uint32_t) `${getParamValue(group_results_wfr_channel_id_$idx)}`" include="true" />
+      <Member name="part_of_fifo" value="(uint32_t) `${getParamValue(group_results_fifo_channel_id_$idx)}`" include="true" />
+      <Member name="event_gen_enable" value="`${getParamValue(group_results_event_channel_id_$idx)}`" include="true" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_result_`${group_request_sources_queue_specific_result_id}`_config" type="XMC_VADC_RESULT_CONFIG_t" const="`${inFlash}`" public="true" include="`${(!(group_request_sources_queue_specific_result_id == 16)) &amp;&amp; (!(group_channels_check_id &amp; (1 &lt;&lt; group_request_sources_queue_specific_result_id)))}`">
+      <Member name="data_reduction_control" value="(uint32_t) `${(getParamValue(group_results_ppm_queue_id) eq &quot;FILTERING&quot;) ? (getParamValue(group_results_drc_queue_case_accumulate_apply_filter_id)) : (getParamValue(group_results_ppm_queue_id) eq &quot;REDUCTION&quot;) ? (getParamValue(group_results_drc_queue_case_accumulate_values_id)) : (0)}`" include="true" />
+      <Member name="post_processing_mode" value="(uint32_t) XMC_VADC_DMM_`${getParamValue(group_results_ppm_queue_id)}`_MODE" include="true" />
+      <Member name="wait_for_read_mode" value="(uint32_t) `${getParamValue(group_results_wfr_queue_id)}`" include="true" />
+      <Member name="part_of_fifo" value="(uint32_t) `${getParamValue(group_results_fifo_queue_id)}`" include="true" />
+      <Member name="event_gen_enable" value="`${getParamValue(group_results_event_queue_id)}`" include="true" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_result_`${group_request_sources_scan_specific_result_id}`_config" type="XMC_VADC_RESULT_CONFIG_t" const="`${inFlash}`" public="true" include="`${(!(group_request_sources_scan_specific_result_id == 16)) &amp;&amp; (!(group_channels_check_id &amp; (1 &lt;&lt; group_request_sources_scan_specific_result_id))) &amp;&amp; (group_request_sources_queue_specific_result_id != group_request_sources_scan_specific_result_id)}`">
+      <Member name="data_reduction_control" value="(uint32_t) `${(getParamValue(group_results_ppm_scan_id) eq &quot;FILTERING&quot;) ? (getParamValue(group_results_drc_scan_case_accumulate_apply_filter_id)) : (getParamValue(group_results_ppm_scan_id) eq &quot;REDUCTION&quot;) ? (getParamValue(group_results_drc_scan_case_accumulate_values_id)) : (0)}`" include="true" />
+      <Member name="post_processing_mode" value="(uint32_t) XMC_VADC_DMM_`${getParamValue(group_results_ppm_scan_id)}`_MODE" include="true" />
+      <Member name="wait_for_read_mode" value="(uint32_t) `${getParamValue(group_results_wfr_scan_id)}`" include="true" />
+      <Member name="part_of_fifo" value="(uint32_t) `${getParamValue(group_results_fifo_scan_id)}`" include="true" />
+      <Member name="event_gen_enable" value="`${getParamValue(group_results_event_scan_id)}`" include="true" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_result_$idx_config" type="XMC_VADC_RESULT_CONFIG_t" const="`${inFlash}`" public="true" include="`${group_result_registers_configure_register_id_$idx &amp;&amp; (!((1 &lt;&lt; $idx) &amp; group_channels_check_id)) &amp;&amp; (group_request_sources_queue_specific_result_id != $idx) &amp;&amp; (group_request_sources_scan_specific_result_id != $idx)}`" repeatCount="16">
+      <Member name="data_reduction_control" value="(uint32_t) `${(group_result_registers_dmm_id_$idx eq &quot;FILTERING&quot;) ? (group_result_registers_filter_type_id_$idx) : (group_result_registers_dmm_id_$idx eq &quot;REDUCTION&quot;) ? (group_result_registers_number_of_results_id_$idx) : (0)}`" include="true" />
+      <Member name="post_processing_mode" value="(uint32_t) XMC_VADC_DMM_`${group_result_registers_dmm_id_$idx}`_MODE" include="true" />
+      <Member name="wait_for_read_mode" value="(uint32_t) `${group_result_registers_enable_wfr_id_$idx ? &quot;true&quot; : &quot;false&quot;}`" include="true" />
+      <Member name="part_of_fifo" value="(uint32_t) `${group_result_registers_enable_fifo_id_$idx ? &quot;true&quot; : &quot;false&quot;}`" include="true" />
+      <Member name="event_gen_enable" value="`${group_result_registers_result_event_id_$idx ? &quot;true&quot; : &quot;false&quot;}`" include="true" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_scan_config" type="XMC_VADC_SCAN_CONFIG_t" const="`${inFlash}`" public="true" include="`${group_request_sources_autoscan_id &amp;&amp; !xmc11_dont_include}`">
+      <Member name="conv_start_mode" value="(uint32_t) XMC_VADC_STARTMODE_`${group_arbitration_slot_mode_id_1}`" include="true" />
+      <Member name="req_src_priority" value="(uint32_t) XMC_VADC_GROUP_RS_PRIORITY_`${group_arbitration_slot_priority_id_1}`" include="true" />
+      <Member name="trigger_signal" value="(uint32_t) VADC0_GROUP`${group_num}`_BGXTSEL_VALUE" include="`${group_request_sources_scan_external_trigger_id}`" />
+      <Member name="trigger_edge" value="(uint32_t) `${group_request_sources_external_trigger_event_id}`" include="true" />
+      <Member name="gate_signal" value="(uint32_t) VADC0_GROUP`${group_num}`_BGGTSEL_VALUE" include="`${group_request_sources_scan_external_trigger_id}`" />
+      <Member name="timer_mode" value="(uint32_t) `${group_request_sources_scan_timer_mode_id}`" include="true" />
+      <Member name="external_trigger" value="(uint32_t) `${group_request_sources_scan_external_trigger_id}`" include="true" />
+      <Member name="req_src_interrupt" value="(uint32_t) `${group_request_sources_scan_request_interrupt_id}`" include="true" />
+      <Member name="enable_auto_scan" value="(uint32_t) `${group_request_sources_autoscan_enabled_id}`" include="true" />
+      <Member name="load_mode" value="(uint32_t) XMC_VADC_SCAN_LOAD_`${getExposedMember(vadc_global_instance, &quot;background_load_mode_id&quot;)}`" include="true" />
+      <Member name="src_specific_result_reg" value="(uint32_t) `${(group_request_sources_scan_specific_result_id == 16) ? (0) : (group_request_sources_scan_specific_result_id)}`" include="`${(!xmc11_dont_include) &amp;&amp; (!xmc45_dont_include)}`" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_queue_config" type="XMC_VADC_QUEUE_CONFIG_t" const="`${inFlash}`" public="true" include="`${group_request_sources_queue_input_id &amp;&amp; !xmc11_dont_include}`">
+      <Member name="conv_start_mode" value="(uint32_t) XMC_VADC_STARTMODE_`${group_arbitration_slot_mode_id_0}`" include="true" />
+      <Member name="req_src_priority" value="(uint32_t) XMC_VADC_GROUP_RS_PRIORITY_`${group_arbitration_slot_priority_id_0}`" include="true" />
+      <Member name="src_specific_result_reg" value="(uint32_t) `${(group_request_sources_queue_specific_result_id == 16) ? (0) : (group_request_sources_queue_specific_result_id)}`" include="`${(!xmc11_dont_include) &amp;&amp; (!xmc45_dont_include)}`" />
+      <Member name="trigger_signal" value="(uint32_t) VADC0_GROUP`${group_num}`_BGXTSEL_VALUE" include="`${group_request_sources_external_trigger_id}`" />
+      <Member name="trigger_edge" value="(uint32_t) `${group_request_sources_external_trigger_edge_id}`" include="true" />
+      <Member name="gate_signal" value="(uint32_t) VADC0_GROUP`${group_num}`_BGGTSEL_VALUE" include="`${group_request_sources_external_trigger_id}`" />
+      <Member name="timer_mode" value="(uint32_t) `${group_request_sources_timer_mode_id}`" include="true" />
+      <Member name="external_trigger" value="(uint32_t) `${group_request_sources_external_trigger_id}`" include="true" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_iclass_$idx" type="XMC_VADC_GROUP_CLASS_t" const="`${inFlash}`" public="true" include="`${group_input_classes_phase_std_conv_id_$idx || group_input_classes_phase_emux_conv_id_$idx}`" repeatCount="2">
+      <Member name="sample_time_std_conv" value="(uint32_t) `${group_input_classes_phase_std_conv_id_$idx}`" include="true" />
+      <Member name="conversion_mode_standard" value="XMC_VADC_CONVMODE_`${group_input_classes_std_conv_mode_id_$idx}`" include="true" />
+      <Member name="sampling_phase_emux_channel" value="(uint32_t) `${group_input_classes_phase_emux_conv_id_$idx}`" include="true" />
+      <Member name="conversion_mode_emux" value="XMC_VADC_CONVMODE_`${group_input_classes_emux_conv_mode_id_$idx}`" include="true" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_emux_cfg" type="XMC_VADC_GROUP_EMUXCFG_t" const="`${inFlash}`" public="true" include="`${group_other_emux_channels_id}`">
+      <Member name="starting_external_channel" value="(uint32_t) `${group_other_mux_start_id}`" include="true" />
+      <Member name="connected_channel" value="`${(xmc11_dont_include || xmc45_dont_include)?(group_other_emux_channels_id &amp; 7):(group_other_emux_channels_id)}`" include="true" />
+      <Member name="emux_mode" value="XMC_VADC_GROUP_EMUXMODE_`${group_other_mux_mode_id}`" include="true" />
+      <Member name="emux_coding" value="XMC_VADC_GROUP_EMUXCODE_`${group_other_mux_coding_id}`" include="true" />
+      <Member name="stce_usage" value="`${group_other_mux_sample_time_id}`" include="true" />
+      <Member name="emux_channel_select_style" value="1" include="`${(!xmc11_dont_include) &amp;&amp; (!xmc45_dont_include)}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="/* Request source initializations. */" include="`${(group_request_sources_queue_input_id || group_request_sources_autoscan_id) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_QueueSetGatingMode(`${INST_NAME}`_HW, (XMC_VADC_GATEMODE_t) XMC_VADC_GATEMODE_`${group_request_sources_gating_functionality_id}`);" include="`${group_request_sources_queue_input_id &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_QueueSetReqSrcEventInterruptNode(`${INST_NAME}`_HW, (XMC_VADC_SR_t) XMC_VADC_SR_GROUP_SR$idx);" include="`${group_request_sources_queue_input_id &amp;&amp; !xmc11_dont_include}`" repeatCount="4" />
+    <ConfigInstruction value="XMC_VADC_GROUP_QueueDisableArbitrationSlot(`${INST_NAME}`_HW);" include="`${(!group_arbitration_slot_enable_id_0) &amp;&amp; (group_request_sources_queue_input_id) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_QueueInit(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_queue_config);" include="`${group_request_sources_queue_input_id &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_ScanSetGatingMode(`${INST_NAME}`_HW, (XMC_VADC_GATEMODE_t) XMC_VADC_GATEMODE_`${group_request_sources_scan_gating_functionality_id}` );" include="`${group_request_sources_autoscan_id &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_ScanSetReqSrcEventInterruptNode(`${INST_NAME}`_HW, (XMC_VADC_SR_t) XMC_VADC_SR_GROUP_SR$idx);" include="`${group_request_sources_autoscan_id &amp;&amp; !xmc11_dont_include}`" repeatCount="4" />
+    <ConfigInstruction value="XMC_VADC_GROUP_ScanDisableArbitrationSlot(`${INST_NAME}`_HW); " include="`${(!group_arbitration_slot_enable_id_1) &amp;&amp; (group_request_sources_autoscan_id) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_ScanInit(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_scan_config);" include="`${group_request_sources_autoscan_id &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_BackgroundDisableArbitrationSlot(`${INST_NAME}`_HW);" include="`${(!group_arbitration_slot_enable_id_2) &amp;&amp; (group_request_sources_background_assigned_id) &amp;&amp; !xmc11_dont_include}`" />
+
+    <ConfigInstruction value="&#xA;    /* Initialize input classes. */" include="`${group_input_classes_phase_std_conv_id_0 || group_input_classes_phase_emux_conv_id_0 || group_input_classes_phase_std_conv_id_1 || group_input_classes_phase_emux_conv_id_1}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_InputClassInit(`${INST_NAME}`_HW,&#xA;
+                              `${INST_NAME}`_iclass_0,&#xA;
+                              XMC_VADC_GROUP_CONV_`${$idx ? &quot;EMUX&quot; : &quot;STD&quot;}`,&#xA;
+                              `${INST_NAME}`_ICLASS_0);" include="`${(group_input_classes_phase_std_conv_id_0 || group_input_classes_phase_emux_conv_id_0) &amp;&amp; !xmc11_dont_include}`" repeatCount="2" />
+    <ConfigInstruction value="XMC_VADC_GROUP_InputClassInit(`${INST_NAME}`_HW,&#xA;
+                              `${INST_NAME}`_iclass_1,&#xA;
+                              XMC_VADC_GROUP_CONV_`${$idx ? &quot;EMUX&quot; : &quot;STD&quot;}`,&#xA;
+                              `${INST_NAME}`_ICLASS_1);" include="`${(group_input_classes_phase_std_conv_id_1 || group_input_classes_phase_emux_conv_id_1) &amp;&amp; !xmc11_dont_include}`" repeatCount="2" />
+
+    <ConfigInstruction value="&#xA;    XMC_VADC_GROUP_ExternalMuxControlInit(`${INST_NAME}`_HW, `${INST_NAME}`_emux_cfg);" include="`${group_other_emux_channels_id &amp;&amp; !xmc11_dont_include}`" />
+
+    <ConfigInstruction value="&#xA;    XMC_VADC_GROUP_SetBoundaries(`${INST_NAME}`_HW,&#xA;
+                              `${INST_NAME}`_LOWER_BOUND_VALUE,&#xA;
+                              `${INST_NAME}`_UPPER_BOUND_VALUE);" include="`${(group_other_boundaries_value_id_0 || group_other_boundaries_value_id_1) &amp;&amp; !xmc11_dont_include}`" />
+
+    <ConfigInstruction value="&#xA;    /* Sync related init. */" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_HW, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_OFF);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_MASTER_GROUP_PTR, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_OFF);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetSyncSlave(`${INST_NAME}`_MASTER_GROUP_PTR, `${INST_NAME}`_MASTER_GROUP_NUM, `${INST_NAME}`_NUM);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_CheckSlaveReadiness(`${INST_NAME}`_MASTER_GROUP_PTR, `${INST_NAME}`_NUM);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetSyncReadySignal(`${INST_NAME}`_HW, `${INST_NAME}`_ALL_EVAL_MASK);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_MASTER_GROUP_PTR, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_NORMAL);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
+
+    <ConfigInstruction value="&#xA;    /* RESULT init. */" include="`${group_channels_check_id &amp;&amp; group_channels_check_res_reg_id &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_ResultInit(`${INST_NAME}`_HW, (uint32_t)`${group_channels_result_register_id_$idx}`, &amp;`${INST_NAME}`_result_`${group_channels_result_register_id_$idx}`_config);" include="`${group_channels_configure_channel_id_$idx &amp;&amp; ((1 &lt;&lt; group_channels_result_register_id_$idx) &amp; group_channels_check_id) &amp;&amp; !xmc11_dont_include}`" repeatCount="8" />
+
+    <ConfigInstruction value="&#xA;    /* Set registers with priority conversions. */" include="`${ip_ver1 &amp;&amp; group_result_registers_request_sources_only_check_id}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetResultRegPriority(`${INST_NAME}`_HW, `${INST_NAME}`_RESULT_REG_PRI_MASK);&#xA;" include="`${ip_ver1 &amp;&amp; group_result_registers_request_sources_only_check_id &amp;&amp; !xmc11_dont_include}`" />
+
+    <ConfigInstruction value="XMC_VADC_GROUP_SetResultInterruptNode(`${INST_NAME}`_HW, (uint32_t)$idx, (XMC_VADC_SR_t)XMC_VADC_SR_GROUP_SR0);" include="`${group_result_registers_result_event_id_$idx &amp;&amp; group_result_registers_external_event_enable_id_$idx_0 &amp;&amp; !xmc11_dont_include}`" repeatCount="16" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetResultInterruptNode(`${INST_NAME}`_HW, (uint32_t)$idx, (XMC_VADC_SR_t)XMC_VADC_SR_GROUP_SR1);" include="`${group_result_registers_result_event_id_$idx &amp;&amp; group_result_registers_external_event_enable_id_$idx_1 &amp;&amp; !xmc11_dont_include}`" repeatCount="16" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetResultInterruptNode(`${INST_NAME}`_HW, (uint32_t)$idx, (XMC_VADC_SR_t)XMC_VADC_SR_GROUP_SR2);" include="`${group_result_registers_result_event_id_$idx &amp;&amp; group_result_registers_external_event_enable_id_$idx_2 &amp;&amp; !xmc11_dont_include}`" repeatCount="16" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetResultInterruptNode(`${INST_NAME}`_HW, (uint32_t)$idx, (XMC_VADC_SR_t)XMC_VADC_SR_GROUP_SR3);" include="`${group_result_registers_result_event_id_$idx &amp;&amp; group_result_registers_external_event_enable_id_$idx_3 &amp;&amp; !xmc11_dont_include}`" repeatCount="16" />
+
+    <ConfigInstruction value="&#xA;    /* Fast compare configuration for Result Register-$idx. */&#xA;    XMC_VADC_GROUP_SetResultFastCompareValue(`${INST_NAME}`_HW, (uint32_t)$idx, `${group_result_registers_compare_ref_value_id_$idx}`);" include="`${group_result_registers_compare_ref_value_id_$idx &amp;&amp; !xmc11_dont_include}`" repeatCount="16" />
+
+    <ConfigInstruction value="&#xA;    /* Insert channels into the background request sources. */" include="`${group_request_sources_background_assigned_id}`" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_BackgndAddMultipleChannels(`${getExposedMember(&quot;vadc[0]&quot;, &quot;vadc_base&quot;)}`,&#xA;
+                                                 `${INST_NAME}`_NUM,&#xA;
+                                                 `${INST_NAME}`_BACKGROUND_SCAN_CHANNELS);" include="`${group_request_sources_background_assigned_id}`" />
+
+    <ConfigInstruction value="&#xA;    /* Insert channels into the scan request sources. */" include="`${group_request_sources_autoscan_id}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_ScanAddMultipleChannels(`${INST_NAME}`_HW, `${INST_NAME}`_SCAN_CHANNELS);" include="`${group_request_sources_autoscan_id &amp;&amp; !xmc11_dont_include}`" />
+
+    <ConfigInstruction value="&#xA;    /* Insert channels into the background request sources. */" include="`${group_request_sources_queue_input_id &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_QueueInsertChannel(`${INST_NAME}`_HW, `${INST_NAME}`_queue_entries_$idx);" include="`${(group_request_sources_queue_input_id_$idx ne &quot;None&quot;) &amp;&amp; !xmc11_dont_include}`" repeatCount="8" />
+  </ConfigFirmware>
+</Personality>

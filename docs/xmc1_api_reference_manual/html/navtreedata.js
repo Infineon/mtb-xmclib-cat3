@@ -41,6 +41,28 @@ var NAVTREE =
       [ "XMC Peripheral Library Licensing", "index.html#licensing", null ]
     ] ],
     [ "PDL API Reference", "modules.html", "modules" ],
+    [ "Personalities Reference", "page_personalities_reference.html", [
+      [ "Advanced Settings", "page_personalities_reference.html#section_personality_advanced_settings", null ],
+      [ "CCU4 Personality", "page_personalities_reference.html#section_personality_ccu4", [
+        [ "Code Generation", "page_personalities_reference.html#subsection_ccu_codeGen", null ]
+      ] ],
+      [ "HRPWM Personality", "page_personalities_reference.html#section_personality_hrpwm", [
+        [ "Comparator & Slope Generation Unit (CSG)", "page_personalities_reference.html#subsection_personality_hrpwm_csg", null ],
+        [ "High Resolution Channel (HRC)", "page_personalities_reference.html#subsection_personality_hrpwm_hrc", null ],
+        [ "CCU8 in Edge Aligned Symmetric Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_edge_symmetric", null ],
+        [ "CCU8 in Center Aligned Symmetric Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_center_symmetric", null ],
+        [ "CCU8 in Edge Aligned Asymmetric Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_edge_asymmetric", null ],
+        [ "CCU8 in Center Aligned Asymmetric Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_center_asymmetric", null ],
+        [ "CCU8 with HRPWM Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_ccu8", null ]
+      ] ],
+      [ "POSIF Personality", "page_personalities_reference.html#section_personality_posif", [
+        [ "Quadrature Decoder Mode", "page_personalities_reference.html#subsection_personality_posif_qd", null ],
+        [ "Hall Sensor Mode", "page_personalities_reference.html#subsection_personality_posif_hsm", null ]
+      ] ],
+      [ "WDT Personality", "page_personalities_reference.html#section_personality_wdt", [
+        [ "Code Generation", "page_personalities_reference.html#subsection_wdt_codeGen", null ]
+      ] ]
+    ] ],
     [ "Deprecated List", "deprecated.html", null ]
   ] ]
 ];
@@ -52,15 +74,15 @@ var NAVTREEINDEX =
 "group___c_c_u4.html#gab5c05e6fda34ac046c12ec25ef405a3d",
 "group___c_c_u8.html#ga7d8b7bf17420270c62236439c16f1c3a",
 "group___c_c_u8.html#ggae924b2c958e0868603e7026684024f31aa0e595b24c2238f3379c6797506cd3f2",
-"group___i2_c.html#gga797641917b01a783e6e7aac5d25a298fafd73773ef7c86cc9030d4766b6dad775",
-"group___l_e_d_t_s.html#ggaede9b9ad8e3bcf69f5285a8882f5a7daa0381e1c5f1822e79ad5e92e290906670",
-"group___p_r_n_g.html#ga50c7502d10a31a18d05f69c341f8c383",
-"group___s_c_u.html#ggad54a1c90f3b35f4c49d62ac204678487a4f658f6a02d06f8009dc9966949d40ac",
-"group___u_a_r_t.html#ga29676690a77272438ef1cfc21575ff6d",
-"group___u_s_i_c.html#gga5917220b11972dd6f2fdeb20e344f99ca94521f0e91a523cb28af682c05de59f6",
-"group___v_a_d_c.html#gaee20e2687198c9446da88b963d4a4c4f",
-"struct_x_m_c___c_a_n___n_o_d_e___n_o_m_i_n_a_l___b_i_t___t_i_m_e___c_o_n_f_i_g__t.html",
-"struct_x_m_c___u_s_i_c___c_h__t.html#ac005cdf6a4e1350830161ee7ef88b9a2"
+"group___i2_c.html#gga4142054abf4133012810875bc5ac4f48ad4539a3f5b3d43af665dcb2a5816ed82",
+"group___l_e_d_t_s.html#ggadda863f4501e1adcaeda41e4d970b915a27ff97807014b409560f7853d13a75e2",
+"group___p_o_s_i_f.html#ggafa5c70ea2a0e7b945f5f5e9e434432faafe0123eba980b86b152be2580205b1de",
+"group___s_c_u.html#ggad54a1c90f3b35f4c49d62ac204678487a47ef0f2233fa669d704d862a44de7506",
+"group___s_p_i.html#ggaf703b28cb6fe62eec40258bbb4b2381eae57defba0e28b37387753485a740acf2",
+"group___u_s_i_c.html#gga4b8a7556ad13b0d7540a620c3d067689ac9ff6cf12767f7879611f5098732bd99",
+"group___v_a_d_c.html#gae5c0071a3d6728dad1f4ddcb06f6bed8",
+"struct_x_m_c___c_a_n___f_i_f_o___c_o_n_f_i_g__t.html#a3c41910f32a66c181cf9a007ea2f614c",
+"struct_x_m_c___u_s_i_c___c_h__t.html#a2fe7ac49b2e1d0dc7e301b617e241ede"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

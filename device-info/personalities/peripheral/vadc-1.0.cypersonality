@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file vadc-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* VADC personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_vadc" name="VADC" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_vadc" />
+    <Resource name="vadc" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="vadc_base" paramId="vadc_base" />
+    <ExposedMember key="background_load_mode_id" paramId="background_load_mode_id" />
+  </ExposedMembers>
+
+  <Parameters>
+    <!--Internal-->
+    <ParamString id="ip_version" name="IP Block Version" group="Internal" default="`${getVersion()}`" visible="false" editable="false" desc="" />
+    <ParamBool id="ip_ver1" name="IP Block Version 1" desc="True for XMC1 series." group="Internal" default="`${ip_version == 1}`" visible="false" editable="false" />
+    <ParamBool id="ip_ver2" name="IP Block Version 2" desc="True for XMC4 series." group="Internal" default="`${ip_version == 2}`" visible="false" editable="false" />
+    <ParamBool id="xmc11_dont_include" name="XMC11 Series" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;1100&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC1100 is selected." />
+    <ParamBool id="xmc4500_dont_include" name="XMC4500" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4500&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4500 is selected." />
+    <ParamBool id="xmc4502_dont_include" name="XMC4502" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4502&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4502 is selected." />
+    <ParamBool id="xmc4504_dont_include" name="XMC4504" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4504&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4504 is selected." />
+    <ParamBool id="xmc45_dont_include" name="XMC45 Series" group="Internal" default="`${xmc4500_dont_include || xmc4502_dont_include || xmc4504_dont_include}`" visible="false" editable="false" desc="True when the XMC4500 is selected." />
+    <ParamString id="periclk_resource" name="Internal Peripheral Clock Value" group="Internal" default="scu[0].clock[0].periclk[0]" visible="false" editable="false" desc="Peripheral clock value in MHz." />
+    <ParamBool id="periclk_error" name="Internal Peripheral Clock Error" group="Internal" default="`${!isBlockUsed(periclk_resource)}`" visible="false" editable="false" desc="True when peripheral clock is not enabled." />
+    <ParamString id="shs0_resource" name="Internal SHS Clock Value" group="Internal" default="scu[0].clock[0].periclk[0]" visible="false" editable="false" desc="SHS clock value in MHz." />
+    <ParamBool id="shs0_error" name="Internal SHS Clock Error" group="Internal" default="`${!isBlockUsed(periclk_resource)}`" visible="false" editable="false" desc="True when shs clock is not enabled." />
+    <ParamString id="group_num" name="Group Number" group="Internal" default="`${lookupExpression(&quot;GROUP_CNT&quot;)}`" visible="false" editable="false" desc="VADC Group number." />
+    <ParamString id="vadc_base" name="Internal VADC Module Pointer" group="Internal" default="`${INST_NAME}`_HW" visible="false" editable="false" desc="VADC base address pointer." />
+    <ParamString id="shs0_base" name="Internal SHS Module Pointer" group="Internal" default="`${INST_NAME}`_SHS_HW" visible="false" editable="false" desc="SHS base address pointer." />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc`${ip_ver1 ? 1 : 4}`_api_reference_manual/html/group___v_a_d_c.html" linkText="Open VADC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!-- General Settings - Global -->
+    <ParamChoice id="general_settings_configuration_settings_id" name="Configuration Settings Available" group="General" default="false" visible="true" editable="true" desc="Change between basic and advanced configuration options.">
+      <Entry name="Basic" value="false" visible="true" />
+      <Entry name="Advanced" value="true" visible="true" />
+    </ParamChoice>
+    <ParamRange id="general_settings_arbiter_clock_divider_id" name="Arbiter Clock Divider" group="General" default="1" min="1" max="4" resolution="1" visible="`${!xmc11_dont_include}`" editable="true" desc="Divider factor for the arbiter clock." />
+    <ParamString id="general_settings_arbiter_clock_value" name="Arbiter Clock Value" group="General" default="`${(periclk_error) ? (0) : (cast(float,getExposedMember(periclk_resource, &quot;frequency&quot;)) / general_settings_arbiter_clock_divider_id / 1.0E6)}` MHz" visible="true" editable="false" desc="Actual clock value after division." />
+    <ParamRange id="general_settings_analog_clock_divider_id" name="Analog Clock Divider" group="General" default="2" min="2" max="32" resolution="1" visible="`${!xmc11_dont_include}`" editable="true" desc="Divider factor for the analog internal clock frequency." />
+    <ParamString id="general_settings_analog_clock_value" name="Analog Clock Value" group="General" default="`${(periclk_error) ? (0) : (cast(float,getExposedMember(periclk_resource, &quot;frequency&quot;)) / general_settings_analog_clock_divider_id / 1.0E6)}` MHz" visible="true" editable="false" desc="Actual clock value after division." />
+    <ParamRange id="general_settings_shs_clock_divider_id" name="SHS Clock Divider" group="General" default="1" min="1" max="16" resolution="1" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include)}`" editable="true" desc="Clock&apos;s frequency used for the SHS logic and the SAR converter" />
+    <ParamString id="general_settings_shs_clock_value" name="SHS Clock Value" group="General" default="`${shs0_error ? ( 0 ) : ((cast(float,getExposedMember(shs0_resource, &quot;frequency&quot;)) / 1.5) / general_settings_shs_clock_divider_id / 1.0E6)}` MHz" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id}`" editable="false" desc="Actual clock value after division." />
+    <ParamBool id="general_settings_wait_for_read_id" name="Enable Wait-for-Read" group="General" default="false" visible="true" editable="true" desc="On selecting this option, the wait-for-read mode can be enabled. This means, that a conversion can be deferred if the global result register hasn&apos;t been read yet from a previous conversion stored in this register." />
+    <ParamChoice id="general_settings_result_accumulation_id" name="Result Accumulation" group="General" default="0" visible="true" editable="true" desc="Result accumulation of upto 4x can be selected using this option.&lt;br&gt;&#13;&#10;If set, the specified number of converted results are accumulated before the result event is triggered.">
+      <Entry name="Data Reduction Disabled" value="0" visible="true" />
+      <Entry name="2 Result Values" value="1" visible="true" />
+      <Entry name="3 Result Values" value="2" visible="true" />
+      <Entry name="4 Result Values" value="3" visible="true" />
+    </ParamChoice>
+    <ParamBool id="general_settings_generate_result_event_id" name="Generate a Result Event" group="General" default="false" visible="true" editable="true" desc="On enabling this options, an event will be generated when a new value is available in the global result register." />
+    <ParamChoice id="general_settings_analog_reference_voltage_id" name="Analog Reference Voltage" group="General" default="2" visible="`${ip_ver1}`" editable="true" desc="This field selects the reference voltage required for conversions and its operating range.">
+      <Entry name="External Reference, Upper Supply Range" value="0" visible="true" />
+      <Entry name="Internal Reference, Upper Supply Range" value="2" visible="true" />
+      <Entry name="Internal Reference, Lower Supply Range" value="3" visible="true" />
+    </ParamChoice>
+
+    <ParamRange id="general_settings_boundary_value_0_id" name="Global Boundary Value 0" group="General" default="0" min="0" max="4095" resolution="1" visible="true" editable="true" desc="This field has a different meaning in each conversion mode. In standard conversions, it defines a value against which a conversion result can be directly compared. In fast compare conversions, it defines a delta limit which can be added (or substracted from) a compare value stored in the result register and allow defining an arbitrary hysteresis band." />
+    <ParamRange id="general_settings_boundary_value_1_id" name="Global Boundary Value 1" group="General" default="0" min="0" max="4095" resolution="1" visible="true" editable="true" desc="This field has a different meaning in each conversion mode. In standard conversions, it defines a value against which a conversion result can be directly compared. In fast compare conversions, it defines a delta limit which can be added (or substracted from) a compare value stored in the result register and allow defining an arbitrary hysteresis band." />
+
+    <!-- Background - Global -->
+    <ParamChoice id="background_trigger_edge_id" name="Trigger Edge Selection" group="Background" default="NONE" visible="true" editable="true" desc="Configures the Trigger edge of queue request source. No External Trigger ignores the Trigger signal. External Trigger Upon Rising Edge triggers the queue conversion on a rising edge. External Trigger Upon Falling Edge triggers the queue conversion on a falling edge. External Trigger Upon Both Edges triggers the queue conversion on both rising and falling edges.">
+      <Entry name="No External Trigger" value="NONE" visible="true" />
+      <Entry name="External Trigger Upon Rising Edge" value="RISING" visible="true" />
+      <Entry name="External Trigger Upon Falling Edge" value="FALLING" visible="true" />
+      <Entry name="External Trigger Upon Both Edges" value="ANY" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="background_gating_selection_id" name="Gating Selection" group="Background" default="BLOCK" visible="true" editable="true" desc="Configures the Gating mode for the queue request source. No Conversion Request is Issued means all conversion requests are blocked. All Conversion Requests are Issued means all conversion requests are issued if there are valid entries present in the queue. Conversion Request Issued When Gate is High means conversion requests are issued only when gate level is high. Conversion Request Issued When Gate is Low means conversion requests are issued only when gate level is low.">
+      <Entry name="No Conversion Request is Issued" value="BLOCK" visible="true" />
+      <Entry name="All Conversion Requests are Issued" value="IGNORE" visible="true" />
+      <Entry name="Conversion Requests Issued When Gate is High" value="ACTIVEHIGH" visible="true" />
+      <Entry name="Conversion Requests Issued When Gate is Low" value="ACTIVELOW" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="background_source_priority_id" name="Background Source Priority" group="Background" default="0" visible="true" editable="true" desc="This is Arbitration priority of queue request source. 0 is the lowest, 3 is the highest. This determines the request source which is selected during the arbitration round.">
+      <Entry name="Priority-0 (Lowest Priority)" value="0" visible="true" />
+      <Entry name="Priority-1" value="1" visible="true" />
+      <Entry name="Priority-2" value="2" visible="true" />
+      <Entry name="Priority-3 (Highest Priority)" value="3" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="background_conversion_start_mode_id" name="Conversion Start Mode" group="Background" default="WFS" visible="true" editable="true" desc="Select adequate start mode.">
+      <Entry name="Wait For Start Mode" value="WFS" visible="true" />
+      <Entry name="Cancel Inject Repeat Mode" value="CIR" visible="true" />
+      <Entry name="Cancel Never Resume Mode" value="CNR" visible="false" />
+      <!-- CNR defined in enum, but no such option in manual. -->
+    </ParamChoice>
+    <ParamChoice id="background_specific_result_register_id" name="Background Specific Result Register" group="Background" default="16" visible="`${!xmc11_dont_include &amp;&amp; !xmc45_dont_include}`" editable="true" desc="Select specific register for results.">
+      <Entry name="No Specific Register" value="16" visible="true" />
+      <Entry name="GxRES$idx" value="$idx" visible="true" repeatCount="16" />
+    </ParamChoice>
+    <ParamBool id="background_enable_autoscan_id" name="Enable Autoscan" group="Background" default="false" visible="true" editable="true" desc="Enable this option to do a continuous conversion for all the available measurements." />
+    <ParamBool id="background_enable_trigger_id" name="Enable Trigger" group="Background" default="false" visible="true" editable="true" desc="Enabling this option will enable the trigger for the background request source." />
+    <ParamBool id="background_enable_timer_mode_id" name="Enable Timer Mode" group="Background" default="false" visible="true" editable="true" desc="Enabling this option will enable the timer mode for background request source." />
+    <ParamChoice id="background_load_mode_id" name="Background Load Mode" group="Background" default="OVERWRITE" visible="true" editable="true" desc="Defines the behavior of load event for the scan request source.">
+      <Entry name="Overwrite Old With New" value="OVERWRITE" visible="true" />
+      <Entry name="Combine Old With New" value="COMBINE" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="background_trigger_mode_id" name="Background Trigger Request" group="Background" default="A" visible="true" editable="true" desc="Sets appropriate trigger signal.">
+      <Entry name="Trigger Signal A" value="A" visible="true" />
+      <Entry name="Trigger Signal B" value="B" visible="true" />
+      <Entry name="Trigger Signal C" value="C" visible="true" />
+      <Entry name="Trigger Signal D" value="D" visible="true" />
+      <Entry name="Trigger Signal E" value="E" visible="true" />
+      <Entry name="Trigger Signal F" value="F" visible="true" />
+      <Entry name="Trigger Signal G" value="G" visible="true" />
+      <Entry name="Trigger Signal H" value="H" visible="true" />
+      <Entry name="Trigger Signal I" value="I" visible="true" />
+      <Entry name="Trigger Signal J" value="J" visible="true" />
+      <Entry name="Trigger Signal K" value="K" visible="true" />
+      <Entry name="Trigger Signal L" value="L" visible="true" />
+      <Entry name="Trigger Signal M" value="M" visible="true" />
+      <Entry name="Trigger Signal N" value="N" visible="true" />
+      <Entry name="Trigger Signal O" value="O" visible="true" />
+      <Entry name="Trigger Signal P" value="P" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="background_gate_mode_id" name="Background Gate Mode" group="Background" default="A" visible="true" editable="true" desc="Sets appropriate gate signal.">
+      <Entry name="Gate Signal A" value="A" visible="true" />
+      <Entry name="Gate Signal B" value="B" visible="true" />
+      <Entry name="Gate Signal C" value="C" visible="true" />
+      <Entry name="Gate Signal D" value="D" visible="true" />
+      <Entry name="Gate Signal E" value="E" visible="true" />
+      <Entry name="Gate Signal F" value="F" visible="true" />
+      <Entry name="Gate Signal G" value="G" visible="true" />
+      <Entry name="Gate Signal H" value="H" visible="true" />
+      <Entry name="Gate Signal I" value="I" visible="true" />
+      <Entry name="Gate Signal J" value="J" visible="true" />
+      <Entry name="Gate Signal K" value="K" visible="true" />
+      <Entry name="Gate Signal L" value="L" visible="true" />
+      <Entry name="Gate Signal M" value="M" visible="true" />
+      <Entry name="Gate Signal N" value="N" visible="true" />
+      <Entry name="Gate Signal O" value="O" visible="true" />
+      <Entry name="Gate Signal P" value="P" visible="true" />
+    </ParamChoice>
+
+    <!-- Groups - Global -->
+    <Repeat count="4">
+      <ParamBool id="groups_calibrate_after_each_conversion_id_$idx" name="Enable Calibration After Each Conversion" group="Group $idx" default="false" visible="`${$idx &lt; group_num}`" editable="true" desc="On enabling this option, calibration cycles will be executed after a conversion sequence for this group." />
+      <ParamChoice id="groups_arbitration_slots_num_id_$idx" name="Number of Arbitration Slots per Arbitration Round" group="Group $idx" default="0" visible="`${$idx &lt; group_num}`" editable="true" desc="This field defines the timing of the arbiter, by defining the number of slots within an arbitration round.">
+        <Entry name="4" value="0" visible="true" />
+        <Entry name="8" value="1" visible="true" />
+        <Entry name="16" value="2" visible="true" />
+        <Entry name="20" value="3" visible="true" />
+      </ParamChoice>
+      <ParamChoice id="groups_arbitration_mode_id_$idx" name="Arbitration Mode" group="Group $idx" default="ALWAYS" visible="`${$idx &lt; group_num}`" editable="true" desc="Sets adequate arbitration mode. Either runs permanently or if at least one conversion request of an enabled request source is pending">
+        <Entry name="Always (Runs Permanently)" value="ALWAYS" visible="true" />
+        <Entry name="Run on a Conversion Request" value="ONDEMAND" visible="true" />
+      </ParamChoice>
+    </Repeat>
+
+    <!-- Input Classes - Global -->
+    <Repeat count="2">
+      <ParamRange id="input_classes_std_conv_id_$idx" name="Sample Phase Clock Cycles for Standard Conversions" group="Global Input Class $idx" default="0" min="0" max="31" resolution="1" visible="true" editable="true" desc="Setting of the bitfield GLOBICLASS0.STCS" />
+      <ParamChoice id="input_classes_std_conv_mode_id_$idx" name="Conversion Mode for Standard Conversions" group="Global Input Class $idx" default="12BIT" visible="true" editable="true" desc="Sets desired conversion mode for standard conversions.">
+        <Entry name="12 Bit Conversion" value="12BIT" visible="true" />
+        <Entry name="10 Bit Conversion" value="10BIT" visible="true" />
+        <Entry name="8 Bit Conversion" value="8BIT" visible="true" />
+        <Entry name="10 Bit Fast Conversion" value="FASTCOMPARE" visible="true" />
+      </ParamChoice>
+      <ParamRange id="input_classes_emux_conv_id_$idx" name="Sample Phase Clock Cycles for EMUX Conversions" group="Global Input Class $idx" default="0" min="0" max="31" resolution="1" visible="true" editable="true" desc="Setting of the bitfield GLOBICLASS0.STCS" />
+      <ParamChoice id="input_classes_emux_conv_mode_id_$idx" name="Conversion Mode for EMUX Conversions" group="Global Input Class $idx" default="12BIT" visible="true" editable="true" desc="Sets desired conversion mode for EMUX conversions.">
+        <Entry name="12 Bit Conversion" value="12BIT" visible="true" />
+        <Entry name="10 Bit Conversion" value="10BIT" visible="true" />
+        <Entry name="8 Bit Conversion" value="8BIT" visible="true" />
+        <Entry name="10 Bit Fast Conversion" value="FASTCOMPARE" visible="true" />
+      </ParamChoice>
+    </Repeat>
+
+    <!-- Sample and Hold - Global -->
+    <ParamChoice id="sample_and_hold_calibration_order_id" name="Calibration Order" group="Sample and Hold" default="POST" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include)}`" editable="true" desc="Sets desired calibration order.">
+      <Entry name="Do Conversions Then Calibration" value="POST" visible="true" />
+      <Entry name="Do Calibration Then Conversions" value="PRE" visible="true" />
+    </ParamChoice>
+    <ParamRange id="sample_and_hold_cycles_between_conv_id" name="Maximum Clock Cycles Between Calibrations" group="Sample and Hold" default="0" min="0" max="63" resolution="1" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include)}`" editable="true" desc="This field defines the maximum number of cycles between calibrations that are done." />
+    <Repeat count="8">
+      <ParamBool id="sample_and_hold_stepper_step_enabled_$idx" name="Enable Stepper Step $idx" group="Sample and Hold" default="false" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include)}`" editable="true" desc="This field defines whether this particular step (`${$idx}`) is executed during the sequence." />
+      <ParamChoice id="sample_and_hold_stepper_step_group_$idx" name="Stepper $idx Group" group="Sample and Hold" default="2" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include) &amp;&amp; sample_and_hold_stepper_step_enabled_$idx}`" editable="true" desc="This field defines which group (i.e. S&amp;H unit) is served in this particular step (`${$idx+1}`) of the stepper sequence. The valid values depend on the number of supported kernels/interfaces, which varies from one device (family) to another.">
+        <Entry name="None" value="2" visible="true" />
+        <Entry name="Group 0" value="0" visible="true" />
+        <Entry name="Group 1" value="1" visible="true" />
+      </ParamChoice>
+    </Repeat>
+
+    <!-- Other - Global -->
+    <ParamBool id="other_additional_clock_cycle_id" name="Additional Clock Cycle for the Analog Converter" group="Other" default="false" visible="`${general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include)}`" editable="true" desc="This field enables an additional clock cycle for the conversion step of the MSB. Note that this feature may be limited to some devices." />
+    <ParamBool id="other_disable_sleep_mode_id" name="Disable Sleep Mode" group="Other" default="false" visible="`${general_settings_configuration_settings_id}`" editable="true" desc="This field disables the sleep mode. When it is checked, the module diregards the sleep mode control signal." />
+    <Repeat count="2">
+      <ParamBool id="other_enable_sigma_delta_loop_id_$idx" name="Enable the Sigma-Delta-Loop" group="Other - Sigma-Delta-Loop $idx Control" default="false" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id}`" editable="true" desc="This activates the `${$idx ? &quot;second&quot; : &quot;first&quot;}` of the Sigma-Delta-Loop functions available. Because each conversion incurs a quantization error due to the limited number of steps i.e. discrete result values, by activating this function, this residual quantization error can be forwarded to the next conversion. This means that the error can be reduced. Note that the data accumulation function already supports this averaging." />
+      <ParamChoice id="other_channel_assigned_$idx" name="Channel Assigned" group="Other - Sigma-Delta-Loop $idx Control" default="0" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id}`" editable="true" desc="Selects the input channel, for which the sigma-delta-loop function shall be enabled.">
+        <Entry name="Input Channel $idx" value="$idx" visible="true" repeatCount="8" />
+      </ParamChoice>
+      <ParamChoice id="other_sample_and_hold_id_$idx" name="Sample and Hold Unit Assigned" group="Other - Sigma-Delta-Loop $idx Control" default="0" visible="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id}`" editable="true" desc="Selects the S&amp;H unit, to which channel `${other_channel_assigned_$idx}` is assigned">
+        <Entry name="S&amp;H unit $idx" value="$idx" visible="true" repeatCount="2" />
+      </ParamChoice>
+      <ParamChoice id="other_ext_mux_group_id_$idx" name="External Multiplexer Group for Interface $idx" group="Other - External Multiplexer Selection" default="0" visible="`${general_settings_configuration_settings_id}`" editable="true" desc="Defines the group whose external multiplexer control signals are routed to EMUX interface `${$idx}`.">
+        <Entry name="$idx" value="$idx" visible="true" repeatCount="2" />
+      </ParamChoice>
+    </Repeat>
+    <!-- EOF Global personality settings -->
+
+    <!-- Function Configuration -->
+    <ParamBool id="function_configuration_startup_calibration_id" name="Enable Start Up Calibration" group="Function Settings" default="false" visible="true" editable="true" desc="Include &quot;XMC_VADC_GLOBAL_StartupCalibration&quot; function." />
+    <ParamBool id="function_configuration_background_source_init_id" name="Enable Background Request Source Initialization" group="Function Settings" default="false" visible="true" editable="true" desc="Configure the background request source with the settings in &quot;Global Background Settings&quot; tab." />
+    <ParamBool id="function_configuration_enable_request_source_interrupt_id" name="Enable Request Source Interrupt" group="Function Settings" default="`${function_configuration_background_source_init_id}`" visible="true" editable="`${function_configuration_background_source_init_id}`" desc="Enabling this option will enable the background request source interrupt. Requires previous field to be enabled." />
+    <ParamBool id="function_configuration_enable_gain_offset_calibration_id" name="Enable Gain and Offset Calibration" group="Function Settings" default="true" visible="`${general_settings_configuration_settings_id}`" editable="true" desc="Include &quot;XMC_VADC_GLOBAL_SHS_EnableGainAndOffsetCalibrations&quot; function." />
+
+    <!-- External input events -->
+    <Repeat count="4">
+      <ParamBool id="external_event_enable_id_$idx" name="External Event $idx" group="Event Settings" default="false" visible="`${function_configuration_enable_request_source_interrupt_id}`" editable="true" desc="Enable the generation of service request $idx." />
+      <ParamChoice id="external_event_select_type_$idx" name="External Event $idx SR" group="Event Settings" default="GROUP_SR0" visible="`${function_configuration_enable_request_source_interrupt_id &amp;&amp; external_event_enable_id_$idx}`" editable="true" desc="Defines the used SR.">
+        <Entry name="Group SR $idx" value="GROUP_SR$idx" visible="true" repeatCount="4" />
+        <Entry name="Shared SR $idx" value="SHARED_SR$idx" visible="true" repeatCount="4" />
+      </ParamChoice>
+    </Repeat>
+
+    <!-- Advanced -->
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+    <!-- EOF Advanced -->
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="Peripheral clock is not enabled." condition="`${periclk_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${periclk_resource}`" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_vadc.h" include="true" />
+
+    <ConfigDefine name="`${vadc_base}`" value="VADC" public="true" include="true" />
+    <ConfigDefine name="`${shs0_base}`" value="SHS0" public="true" include="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id}`" />
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_INTERRUPT_HANDLER" value="VADC0_C0_$idx_IRQHandler" public="true" include="`${(ip_ver1 &amp;&amp; ($idx &lt; 2)) || ip_ver2}`" repeatCount="4" />  
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_IRQN" value="VADC0_C0_$idx_IRQn" public="true" include="`${(ip_ver1 &amp;&amp; ($idx &lt; 2)) || ip_ver2}`" repeatCount="4" />
+
+    <ConfigStruct name="`${INST_NAME}`_shs_config_handle" type="XMC_VADC_GLOBAL_SHS_CONFIG_t" const="`${inFlash}`" public="true" include="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id}`">
+      <Member name="shs_clock_divider" value="`${general_settings_shs_clock_divider_id-1}`U" include="`${!xmc11_dont_include}`" />
+      <Member name="analog_reference_select" value="(uint32_t)`${general_settings_analog_reference_voltage_id}`" />
+      <Member name="calibration_order" value="(XMC_VADC_GLOBAL_SHS_CALIBRATION_ORDER_t)XMC_VADC_GLOBAL_SHS_CALIBRATION_ORDER_`${sample_and_hold_calibration_order_id}`_CONV" include="`${!xmc11_dont_include}`" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_stepper_config" type="XMC_VADC_GLOBAL_SHS_STEP_CONFIG_t" const="`${inFlash}`" public="true" include="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include)}`">
+      <Member name="enable_step##" value="`${(sample_and_hold_stepper_step_enabled_##)?(1):(0)}`U" count="8" />
+      <Member name="sh_unit_step##" value="(uint32_t)XMC_VADC_GROUP_INDEX_`${(sample_and_hold_stepper_step_group_## == 2)?(0):(sample_and_hold_stepper_step_group_##)}`" count="8" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_group$idx_init_config" type="XMC_VADC_GROUP_CONFIG_t" const="`${inFlash}`" public="true" include="`${($idx &lt; group_num) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="4">
+      <Member name="`${&quot;emux_config.starting_external_channel&quot;}`" value="(uint32_t) 0" />
+      <Member name="`${&quot;emux_config.connected_channel&quot;}`" value="(uint32_t) 0" />
+      <Member name="`${&quot;emux_config.emux_mode&quot;}`" value="XMC_VADC_GROUP_EMUXMODE_SWCTRL" />
+      <Member name="`${&quot;emux_config.emux_coding&quot;}`" value="XMC_VADC_GROUP_EMUXCODE_BINARY" />
+      <Member name="`${&quot;emux_config.stce_usage&quot;}`" value="(uint32_t) 0" />
+      <Member name="`${&quot;class0.sample_time_std_conv&quot;}`" value="(uint32_t) 0" />
+      <Member name="`${&quot;class0.conversion_mode_standard&quot;}`" value="XMC_VADC_CONVMODE_12BIT" />
+      <Member name="`${&quot;class0.sampling_phase_emux_channel&quot;}`" value="(uint32_t) 0" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;class0.conversion_mode_emux&quot;}`" value="XMC_VADC_CONVMODE_12BIT" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;class1.sample_time_std_conv&quot;}`" value="(uint32_t) 0" />
+      <Member name="`${&quot;class1.conversion_mode_standard&quot;}`" value="XMC_VADC_CONVMODE_12BIT" />
+      <Member name="`${&quot;class1.sampling_phase_emux_channel&quot;}`" value="(uint32_t) 0" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;class1.conversion_mode_emux&quot;}`" value="XMC_VADC_CONVMODE_12BIT" include="`${!xmc11_dont_include}`" />
+      <Member name="boundary0" value="(uint32_t) 0" />
+      <Member name="boundary1" value="(uint32_t) 0" />
+      <Member name="arbitration_round_length" value="(uint32_t) `${groups_arbitration_slots_num_id_$idx}`" />
+      <Member name="arbiter_mode" value="(uint32_t) XMC_VADC_GROUP_ARBMODE_`${groups_arbitration_mode_id_$idx}`" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_VADC_GLOBAL_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="boundary0" value="`${general_settings_boundary_value_0_id}`U" />
+      <Member name="boundary1" value="`${general_settings_boundary_value_1_id}`U" />
+      <Member name="`${&quot;clock_config.analog_clock_divider&quot;}`" value="`${general_settings_analog_clock_divider_id - 1}`U" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;clock_config.msb_conversion_clock&quot;}`" value="`${other_additional_clock_cycle_id ? 1 : 0}`U" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;clock_config.arbiter_clock_divider&quot;}`" value="`${general_settings_arbiter_clock_divider_id - 1}`U" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;class0.sample_time_std_conv&quot;}`" value="(uint32_t) `${input_classes_std_conv_id_0}`" />
+      <Member name="`${&quot;class0.conversion_mode_standard&quot;}`" value="XMC_VADC_CONVMODE_`${input_classes_std_conv_mode_id_0}`" />
+      <Member name="`${&quot;class0.sampling_phase_emux_channel&quot;}`" value="(uint32_t) `${input_classes_emux_conv_id_0}`" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;class0.conversion_mode_emux&quot;}`" value="XMC_VADC_CONVMODE_`${input_classes_emux_conv_mode_id_0}`" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;class1.sample_time_std_conv&quot;}`" value="(uint32_t) `${input_classes_std_conv_id_1}`" />
+      <Member name="`${&quot;class1.conversion_mode_standard&quot;}`" value="XMC_VADC_CONVMODE_`${input_classes_std_conv_mode_id_1}`" />
+      <Member name="`${&quot;class1.sampling_phase_emux_channel&quot;}`" value="(uint32_t) `${input_classes_emux_conv_id_1}`" include="`${!xmc11_dont_include}`" />
+      <Member name="`${&quot;class1.conversion_mode_emux&quot;}`" value="XMC_VADC_CONVMODE_`${input_classes_emux_conv_mode_id_1}`" include="`${!xmc11_dont_include}`" />
+      <Member name="data_reduction_control" value="`${general_settings_result_accumulation_id}`U" />
+      <Member name="wait_for_read_mode" value="`${general_settings_wait_for_read_id ? 1 : 0}`U" />
+      <Member name="event_gen_enable" value="`${general_settings_generate_result_event_id ? 1 : 0}`U" />
+      <Member name="disable_sleep_mode_control" value="`${other_disable_sleep_mode_id ? 1 : 0}`U" />
+    </ConfigStruct>
+
+    <ConfigStruct name="`${INST_NAME}`_background_scan_config" type="XMC_VADC_BACKGROUND_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="conv_start_mode" value="(uint32_t) XMC_VADC_STARTMODE_`${background_conversion_start_mode_id}`" />
+      <Member name="req_src_priority" value="(uint32_t) XMC_VADC_GROUP_RS_PRIORITY_`${background_source_priority_id}`" />
+      <Member name="src_specific_result_reg" value="(uint32_t) `${(background_specific_result_register_id == 16)?(0):(background_specific_result_register_id)}`" include="`${(!xmc11_dont_include) &amp;&amp; (!xmc45_dont_include)}`" />
+      <Member name="trigger_signal" value="(uint32_t) XMC_VADC_REQ_TR_`${background_trigger_mode_id}`" />
+      <Member name="trigger_edge" value="(uint32_t) XMC_VADC_TRIGGER_EDGE_`${background_trigger_edge_id}`" />
+      <Member name="gate_signal" value="(uint32_t) XMC_VADC_REQ_GT_`${background_gate_mode_id}`" />
+      <Member name="timer_mode" value="(uint32_t) `${background_enable_timer_mode_id}`" />
+      <Member name="external_trigger" value="(uint32_t) `${background_enable_trigger_id}`" />
+      <Member name="req_src_interrupt" value="(uint32_t) `${function_configuration_enable_request_source_interrupt_id}`" />
+      <Member name="enable_auto_scan" value="(uint32_t) `${background_enable_autoscan_id}`" />
+      <Member name="load_mode" value="(uint32_t) XMC_VADC_SCAN_LOAD_`${background_load_mode_id}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="/* Global configuration. */" include="true" />
+    <!-- General instructions -->
+    <ConfigInstruction value="XMC_VADC_GLOBAL_Init(`${vadc_base}`, &amp;`${INST_NAME}`_config);" include="true" />
+
+    <ConfigInstruction value="XMC_VADC_GROUP_Init(`${getExposedMember(&quot;vadc[0].group[$idx]&quot;, &quot;group_base&quot;)}`, &amp;`${INST_NAME}`_group$idx_init_config);" include="`${(!xmc11_dont_include) &amp;&amp; ($idx &lt; group_num) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="4" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${getExposedMember(&quot;vadc[0].group[$idx]&quot;, &quot;group_base&quot;)}`, (XMC_VADC_GROUP_POWERMODE_t) XMC_VADC_GROUP_POWERMODE_NORMAL);" include="`${(!xmc11_dont_include) &amp;&amp; ($idx &lt; group_num) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="4" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_`${groups_calibrate_after_each_conversion_id_$idx ? &quot;Enable&quot; : &quot;Disable&quot;}`PostCalibration(`${vadc_base}`, $idxU);" include="`${(!xmc11_dont_include) &amp;&amp; ($idx &lt; group_num) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="4" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_BindGroupToEMux(`${vadc_base}`, $idxU, `${other_ext_mux_group_id_$idx}`U);" include="`${(!xmc11_dont_include) &amp;&amp; (general_settings_configuration_settings_id) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="2" />
+
+    <!-- XMC1x specific ( SHS ) -->
+    <ConfigInstruction value="XMC_VADC_GLOBAL_SHS_Init(`${shs0_base}`, &amp;`${INST_NAME}`_shs_config_handle);" include="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id}`" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_SHS_SetStepperSequence(`${shs0_base}`, &amp;`${INST_NAME}`_stepper_config);" include="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include)}`" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_SHS_SetMaxCalTime(`${shs0_base}`, (uint32_t)`${sample_and_hold_cycles_between_conv_id}`);" include="`${ip_ver1 &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (!xmc11_dont_include)}`" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_SHS_`${function_configuration_enable_gain_offset_calibration_id ? &quot;Enable&quot; : &quot;Disable&quot;}`GainAndOffsetCalibrations(`${shs0_base}`, (XMC_VADC_GROUP_INDEX_t)XMC_VADC_GROUP_INDEX_$idx);" include="`${ip_ver1 &amp;&amp; (general_settings_configuration_settings_id) &amp;&amp; (!xmc11_dont_include) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="2" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_SHS_DisableAcceleratedMode(`${shs0_base}`, (XMC_VADC_GROUP_INDEX_t)XMC_VADC_GROUP_INDEX_$idx);" include="`${ip_ver1 &amp;&amp; (general_settings_configuration_settings_id) &amp;&amp; (!xmc11_dont_include) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="2" />
+
+    <ConfigInstruction value="XMC_VADC_GLOBAL_SHS_SetSigmaDeltaLoop(`${shs0_base}`, (XMC_VADC_GROUP_INDEX_t)XMC_VADC_GROUP_INDEX_`${other_sample_and_hold_id_$idx}`, (XMC_VADC_SHS_LOOP_CH_t)XMC_VADC_SHS_LOOP_CH_$idx, (uint8_t)`${other_channel_assigned_$idx}`);" include="`${ip_ver1 &amp;&amp; other_enable_sigma_delta_loop_id_$idx &amp;&amp; general_settings_configuration_settings_id &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="2" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_SHS_EnableSigmaDeltaLoop(`${shs0_base}`, (XMC_VADC_SHS_LOOP_CH_t)XMC_VADC_SHS_LOOP_CH_$idx);" include="`${ip_ver1 &amp;&amp; other_enable_sigma_delta_loop_id_$idx &amp;&amp; general_settings_configuration_settings_id}`" repeatCount="2" />
+
+    <!-- General instructions -->
+    <ConfigInstruction value="XMC_VADC_GLOBAL_StartupCalibration(`${vadc_base}`);" include="`${function_configuration_startup_calibration_id}`" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_BackgroundSetGatingMode(`${vadc_base}`, (XMC_VADC_GATEMODE_t) XMC_VADC_GATEMODE_`${background_gating_selection_id}`);" include="`${function_configuration_background_source_init_id}`" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_BackgroundSetReqSrcEventInterruptNode(`${vadc_base}`, XMC_VADC_SR_`${external_event_select_type_$idx}`);" include="`${function_configuration_enable_request_source_interrupt_id &amp;&amp; external_event_enable_id_$idx}`" repeatCount="4" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_SetResultEventInterruptNode(`${vadc_base}`, XMC_VADC_SR_`${external_event_select_type_$idx}`);" include="`${general_settings_generate_result_event_id &amp;&amp; external_event_enable_id_$idx}`" repeatCount="4" />
+    <ConfigInstruction value="XMC_VADC_GLOBAL_BackgroundInit(`${vadc_base}`, &amp;`${INST_NAME}`_background_scan_config);" include="`${function_configuration_background_source_init_id}`" />
+  </ConfigFirmware>
+</Personality>

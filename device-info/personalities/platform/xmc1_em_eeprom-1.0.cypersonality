@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--****************************************************************************
+* \file xmc1_em_eeprom-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Emulated EEPROM personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc1_eeprom" name="EEPROM" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc1_scu" />
+    <Resource name="scu\.eeprom" />
+  </Dependencies>
+
+  <ExposedMembers />
+
+  <Parameters>
+    <!-- EM_EEPROM documentation -->
+    <ParamDoc id="doc" name="Configuration Help" group="Documentation" default="https://infineon.github.io/mtb-xmc-emeeprom/xmc1_em_eeprom_api_reference_manual/html/index.html" linkText="XMC1 Em_EEPROM Middleware Library Documentation" visible="true" desc="Opens the XMC Em_EEPROM Middleware Library Documentation." />
+
+    <ParamRange id="eeprom_size" name="EEPROM Size" group="EEPROM Configuration" default="1792" min="256" max="50944" resolution="1" visible="true" editable="true" desc="Emulated EEPROM size" />
+    <ParamString id="Internal_eeprom_bank_size" name="Internal_eeprom_bank_size" group="EEPROM Configuration" default="`${(((((eeprom_size -1) / 256) + 1) * 256) + 256)}`" visible="false" editable="false" desc="Flash size allocated for single bank" />
+    <ParamString id="eeprom_bank0_size" name="EEPROM bank0 Flash size" group="EEPROM Configuration" default="`${Internal_eeprom_bank_size}`" visible="true" editable="false" desc="EEPROM bank0 size." />
+    <ParamString id="eeprom_bank1_size" name="EEPROM bank1 size" group="EEPROM Configuration" default="`${Internal_eeprom_bank_size}`" visible="true" editable="false" desc="EEPROM bank1 Flash size." />
+    <ParamString id="Emulated_Size" name="Emulated Size" group="EEPROM Configuration" default="`${(Internal_eeprom_bank_size * 2)}`" visible="true" editable="false" desc="EEPROM mapped Total Flash size." />
+    <ParamRange id="Number_of_Blocks" name="Number of Blocks in EEPROM" group="BLOCK Configuration" default="1" min="1" max="10" resolution="1" visible="true" editable="true" desc="Emulated EEPROM Number of User blocks" />
+    <Repeat count="10">
+        <ParamRange id="Block$idx_size" name="User Block_$idx Size" group="BLOCK Configuration" default="16" min="1" max="32768" resolution="1" visible="true" editable="true" desc="User Block $idx" />
+    </Repeat>
+  </Parameters>
+  <ConfigFirmware>
+    <ConfigDefine name="E_EEPROM_XMC1_FLASH_EEPROM_SIZE" value="`${eeprom_size}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_EEPROM_NUM_BLOCKS" value="`${Number_of_Blocks}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_EEPROM_BLOCK$idx_SIZE" value="`${Block$idx_size}`" public="true" include="true" repeatCount ="10" />
+  </ConfigFirmware>
+</Personality>
+

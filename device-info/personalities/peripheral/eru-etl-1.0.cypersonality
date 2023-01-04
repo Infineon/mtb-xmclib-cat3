@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file eth-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* Ethernet personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_eru-etl" name="ERU-ETL" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_eru" />
+    <Resource name="eru\.etl" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <ParamString id="module_num" name="Module Number" group="Internal" default="`${getInstNumber(&quot;eru&quot;)}`" visible="false" editable="false" desc="ERU parent module index." />
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;etl&quot;)}`" visible="false" editable="false" desc="ERU channel slice index." />
+
+    <ParamDoc id="api_doc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___e_r_u.html" linkText="Open ERU Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <!-- General -->
+    <ParamImage id="eru_etl_img" name="" group="General" default="`${cy_libs_path()}`/device-info/personalities/peripheral/eru_etl.png" visible="true" desc="" inSummary="false" />
+    <ParamChoice id="eru_edge_detector" name="Edge Detection" group="General" default="XMC_ERU_ETL_EDGE_DETECTION_DISABLED" visible="true" editable="true" desc="Configures the gating scheme to apply on pattern match output">
+      <Entry name="Disabled" value="XMC_ERU_ETL_EDGE_DETECTION_DISABLED" visible="true" />
+      <Entry name="Rising Edge" value="XMC_ERU_ETL_EDGE_DETECTION_RISING" visible="true" />
+      <Entry name="Falling Edge" value="XMC_ERU_ETL_EDGE_DETECTION_FALLING" visible="true" />
+      <Entry name="Either Edge" value="XMC_ERU_ETL_EDGE_DETECTION_BOTH" visible="true" />
+    </ParamChoice>
+    <ParamBool id="eru_enable_status_flag_autoclear" name="Status Flag Autoclear" group="General" default="false" visible="true" editable="true" desc="The status flag is reset by the hardware if opposite edge is detected" />
+
+    <ParamSignal port="erso[0]" name="Event Request Select Unit" group="Connections" visible="true" desc="Event Request Select unit select" canBeEmpty="false" />
+    <Repeat count="4">
+      <ParamSignal port="tr$idx[0]" name="Trigger $idx" group="Connections" visible="true" desc="Triggers the action in the connected Output Gating Unit. This becomes active when the configured event edge is detected. This signal is independent of the status flag." canBeEmpty="true" />
+    </Repeat>
+    <ParamSignal port="exiconfl[0]" name="EXICONFL" group="Connections" visible="true" desc="The status flags EXICON of the Input Channels can be enabled to take part in the pattern detection. A pattern match is detected while all enabled status flags are set." canBeEmpty="true" />
+
+    <ParamBool id="in_flash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+  <DRCs />
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_eru.h" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${channel_num}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_HW" value="ERU`${module_num}`_ETL`${channel_num}`" public="true" include="true"/>
+
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_ERU_ETL_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="input_a" value="ERU`${module_num}`_EXS`${channel_num}`A" include="`${((getExposedMember(&quot;eru[&quot;. module_num .&quot;].ers[&quot;. channel_num .&quot;]&quot;, &quot;eru_detector_select_source&quot;)) ne &quot;B&quot;)}`" />
+      <Member name="input_b" value="ERU`${module_num}`_EXS`${channel_num}`B" include="`${(getExposedMember(&quot;eru[&quot;. module_num .&quot;].ers[&quot;. channel_num .&quot;]&quot;, &quot;eru_detector_select_source&quot;)) ne &quot;A&quot;}`" />
+      <Member name="enable_output_trigger" value="`${hasConnection(&quot;erso&quot;, 0) ? &quot;1&quot; : &quot;0&quot;}`" />
+      <Member name="output_trigger_channel" value="`${hasConnection(&quot;tr0&quot;, 0) ? &quot;XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL0&quot; : &quot;&quot; }``${(hasConnection(&quot;tr0&quot;, 0) &amp;&amp; (hasConnection(&quot;tr1&quot;, 0) || hasConnection(&quot;tr2&quot;, 0) || hasConnection(&quot;tr3&quot;, 0))) ? &quot; | &quot; : &quot;&quot;}``${hasConnection(&quot;tr1&quot;, 0) ? &quot;XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL1&quot; : &quot;&quot;}``${(hasConnection(&quot;tr1&quot;, 0) &amp;&amp; (hasConnection(&quot;tr2&quot;, 0) || hasConnection(&quot;tr3&quot;, 0))) ? &quot; | &quot; : &quot;&quot;}``${hasConnection(&quot;tr2&quot;, 0) ? &quot;XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL2&quot; : &quot;&quot;}``${(hasConnection(&quot;tr2&quot;, 0) &amp;&amp; hasConnection(&quot;tr3&quot;, 0)) ? &quot; | &quot; : &quot;&quot;}``${hasConnection(&quot;tr3&quot;, 0) ? &quot;XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL3&quot; : &quot;&quot;}`" include="`${hasConnection(&quot;tr0&quot;, 0) || hasConnection(&quot;tr1&quot;, 0) || hasConnection(&quot;tr2&quot;, 0) || hasConnection(&quot;tr3&quot;, 0)}`" />
+      <Member name="status_flag_mode" value="XMC_ERU_ETL_STATUS_FLAG_MODE_`${eru_enable_status_flag_autoclear ? &quot;HWCTRL&quot; : &quot;SWCTRL&quot;}`" />
+      <Member name="source" value="XMC_ERU`${module_num}`_ETL`${channel_num}`" />
+      <Member name="edge_detection" value="`${eru_edge_detector}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_ERU_ETL_Init(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_config);" include="true" />
+  </ConfigFirmware>
+</Personality>

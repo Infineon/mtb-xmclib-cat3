@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="688" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="688" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="693" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="693" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1a2b07cce48218720e970a1f54e420e1b7" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1ga898488583126f170c29de20ad78e7f96" kindref="member">XMC_HRPWM_HRC_SRC_EDGE_SEL_t</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="693" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="693" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="698" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="698" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1a3cb8dd8a6ba138dcd7fc5fc4ed661af1" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1gac26495c9b452d11e893e55a996d1cdd2" kindref="member">XMC_HRPWM_HRC_CMP_SEL_t</ref></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="690" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="690" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="695" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="695" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1aa42cb6fce5ed732943664af203a1635e" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1gac26495c9b452d11e893e55a996d1cdd2" kindref="member">XMC_HRPWM_HRC_CMP_SEL_t</ref></type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="689" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="689" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="694" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="694" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1af79763da944564b7a7fb4980c53aba7c" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1ga16f08ec4aff668ebdebfd70a349cbd1f" kindref="member">XMC_HRPWM_HRC_HR_EDGE_t</ref></type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="686" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="686" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="691" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="691" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1affde53b592fdb2cd8e0c01a9958a0519" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1gaab18b9caec75ff8940a250d265706f3c" kindref="member">XMC_HRPWM_HRC_SRC_INPUT_t</ref></type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="687" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="687" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="692" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="692" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1a14156879f2742f33e319bd8fede7100c" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1ga898488583126f170c29de20ad78e7f96" kindref="member">XMC_HRPWM_HRC_SRC_EDGE_SEL_t</ref></type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="692" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="692" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="697" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="697" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1a0b9efa1157f4fb5f06660822ed03ee1e" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1ga92348e75fa87c899d8e1e42b17ade149" kindref="member">XMC_HRPWM_FUNC_STATUS_t</ref></type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="694" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="694" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="699" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="699" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1a41aa603a15ebd290244be542461335f4" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1gae0bbc6eaf0460ede1b5331a0ddb8d23b" kindref="member">XMC_HRPWM_HRC_TIMER_SEL_t</ref></type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="691" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="691" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="696" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="696" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -136,7 +136,7 @@
     <detaileddescription>
 <para>HRPWM HRC source path configuration </para>
     </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="684" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="685" bodyend="695"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="689" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="690" bodyend="700"/>
     <listofallmembers>
       <member refid="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1a1dac68d7ac68f897345684d3fa351d20" prot="public" virt="non-virtual"><scope>XMC_HRPWM_HRC_SRC_CONFIG_t</scope><name>clear_config</name></member>
       <member refid="struct_x_m_c___h_r_p_w_m___h_r_c___s_r_c___c_o_n_f_i_g__t_1a2b07cce48218720e970a1f54e420e1b7" prot="public" virt="non-virtual"><scope>XMC_HRPWM_HRC_SRC_CONFIG_t</scope><name>clear_edge_config</name></member>

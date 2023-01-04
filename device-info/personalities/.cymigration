@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Migration>
+  <Source id="xmc_ccu4-1.0">
+    <Destination id="xmc_ccu4-2.0" valid="true" message="Migration is successful" defaultMapping="true"/>
+  </Source>
+  <Source id="xmc_ccu4-2.0">
+    <Destination id="xmc_ccu4-1.0" valid="true" message="Migration is successful" defaultMapping="true"/>
+  </Source>
+</Migration>

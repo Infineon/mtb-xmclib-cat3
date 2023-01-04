@@ -105,6 +105,12 @@
  *
  * 2020-12-21:
  *     - Updated XMC_SCU_CLOCK_Init to enable USB PLL locking when the System PLL is disabled.
+ * 
+ * 2022-11-15:
+ *     - Added XMC_SCU_PCU_IsEnabledUsbPullUp(void),
+ *             XMC_SCU_PCU_EnableUsbPullUp(void),
+ *             XMC_SCU_PCU_DisableUsbPullUp(void)
+ *
  * @endcond
  *
  */
@@ -1231,6 +1237,24 @@ void XMC_SCU_POWER_DisableUsb(void)
 #else
   SCU_POWER->PWRCLR = (uint32_t)SCU_POWER_PWRCLR_USBPHYPDQ_Msk;
 #endif
+}
+
+/* API to check status of USB weak pull-up activation */
+bool XMC_SCU_PCU_IsEnabledUsbPullUp(void)
+{
+    return (0UL != (SCU_POWER->PWRSTAT & SCU_POWER_PWRSET_USBPUWQ_Msk));
+}
+
+/* API to enable USB weak pull-up */
+void XMC_SCU_PCU_EnableUsbPullUp(void)
+{
+    SCU_POWER->PWRSET = SCU_POWER_PWRSET_USBPUWQ_Msk;
+}
+
+/* API to disable USB weak pull-up */
+void XMC_SCU_PCU_DisableUsbPullUp(void)
+{
+    SCU_POWER->PWRCLR = SCU_POWER_PWRCLR_USBPUWQ_Msk;
 }
 
 /* API to check USB PLL is locked or not */

@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="xmc__common_8h" kind="file" language="C++">
+    <compoundname>xmc_common.h</compoundname>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">inttypes.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="yes">xmc_device.h</includes>
+    <includedby refid="xmc1__flash_8h" local="yes">xmc1_flash.h</includedby>
+    <includedby refid="xmc1__gpio_8h" local="yes">xmc1_gpio.h</includedby>
+    <includedby refid="xmc1__scu_8h" local="yes">xmc1_scu.h</includedby>
+    <includedby refid="xmc__acmp_8h" local="yes">xmc_acmp.h</includedby>
+    <includedby refid="xmc__bccu_8h" local="yes">xmc_bccu.h</includedby>
+    <includedby refid="xmc__can_8h" local="yes">xmc_can.h</includedby>
+    <includedby refid="xmc__ccu4_8h" local="yes">xmc_ccu4.h</includedby>
+    <includedby refid="xmc__ccu8_8h" local="yes">xmc_ccu8.h</includedby>
+    <includedby refid="xmc__eru_8h" local="yes">xmc_eru.h</includedby>
+    <includedby refid="xmc__flash_8h" local="yes">xmc_flash.h</includedby>
+    <includedby refid="xmc__gpio_8h" local="yes">xmc_gpio.h</includedby>
+    <includedby refid="xmc__ledts_8h" local="yes">xmc_ledts.h</includedby>
+    <includedby refid="xmc__math_8h" local="yes">xmc_math.h</includedby>
+    <includedby refid="xmc__pau_8h" local="yes">xmc_pau.h</includedby>
+    <includedby refid="xmc__posif_8h" local="yes">xmc_posif.h</includedby>
+    <includedby refid="xmc__prng_8h" local="yes">xmc_prng.h</includedby>
+    <includedby refid="xmc__rtc_8h" local="yes">xmc_rtc.h</includedby>
+    <includedby refid="xmc__scu_8h" local="yes">xmc_scu.h</includedby>
+    <includedby refid="xmc__usic_8h" local="yes">xmc_usic.h</includedby>
+    <includedby refid="xmc__vadc_8h" local="yes">xmc_vadc.h</includedby>
+    <includedby refid="xmc__wdt_8h" local="yes">xmc_wdt.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>xmc_common.h</label>
+        <link refid="xmc__common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>inttypes.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="2">
+        <label>stddef.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>string.h</label>
+      </node>
+      <node id="7">
+        <label>xmc_device.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1gab7155203d7199c7a752478960b2a5280" prot="public" static="no">
+        <name>XMC_ASSERT</name>
+        <param><defname>msg</defname></param>
+        <param><defname>exp</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="163" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1ga6d01dd58e9748e537c15f5f187bbaa90" prot="public" static="no">
+        <name>XMC_DEBUG</name>
+        <param><defname>...</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="170" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1gac6d99ca361d4c42402d4fff4c1095384" prot="public" static="no">
+        <name>XMC_DIV_ROUND</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>(((a) + ((b) / 2U)) / (b))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates a / b with rounding to the nearest integer, a and b must have the same sign. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="185" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1ga9db04aa5f100ccaf9b1f12c7d621739b" prot="public" static="no">
+        <name>XMC_DIV_ROUNDUP</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>((((a) - 1U) / (b)) + 1U)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates a / b with rounding up if remainder != 0, both a and b must be positive. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="195" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1ga2a9d6e44ae0353ef2426f35c154c45b9" prot="public" static="no">
+        <name>XMC_LIB_MAJOR_VERSION</name>
+        <initializer>(2U)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="121" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1gae74ace78c5137b972b3f760cd5e09343" prot="public" static="no">
+        <name>XMC_LIB_MINOR_VERSION</name>
+        <initializer>(2U)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="122" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1ga83d51c05ca48b74331f3dd393ceafd03" prot="public" static="no">
+        <name>XMC_LIB_PATCH_VERSION</name>
+        <initializer>(0U)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1gaf5e319e51fba35a9c2bf924dc2033776" prot="public" static="no">
+        <name>XMC_LIB_VERSION</name>
+        <initializer>((XMC_LIB_MAJOR_VERSION &lt;&lt; 16U) + (XMC_LIB_MINOR_VERSION &lt;&lt; 8U) + XMC_LIB_PATCH_VERSION)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="125" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1gad2b629bce679930ce0315950fbb2de4f" prot="public" static="no">
+        <name>XMC_STRUCT_INIT</name>
+        <param><defname>m</defname></param>
+        <initializer>memset(&amp;m, 0, sizeof(m))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="175" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1gaf50650e73583944093685f4dbd0693e4" prot="public" static="no">
+        <name>XMC_UNUSED_ARG</name>
+        <param><defname>x</defname></param>
+        <initializer>(void)x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="173" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___c_o_m_m_o_n_1ga64d434fc320c9489a1e2b1c9df8b6523" prot="public" static="no">
+        <name>XMC_VERSION_NUMBER</name>
+        <param><defname>major</defname></param>
+        <param><defname>minor</defname></param>
+        <param><defname>patch</defname></param>
+        <initializer>((major &lt;&lt; 16U) + (minor &lt;&lt; 8U) + patch)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="127" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group___c_o_m_m_o_n_1gaea382e16ad0ee471de23008a9d7dbbea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMC_AssertHandler</definition>
+        <argsstring>(const char *const msg, const char *const file, uint32_t line)</argsstring>
+        <name>XMC_AssertHandler</name>
+        <param>
+          <type>const char *const</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>const char *const</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="223" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="223" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___c_o_m_m_o_n_1ga343bdc93bf3c5946e9944ce0b85464f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMC_Delay</definition>
+        <argsstring>(uint32_t milliseconds)</argsstring>
+        <name>XMC_Delay</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function delays by the specified number of milliseconds. The number of cycles to delay is calculated based on the SystemCoreClock.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>milliseconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of milliseconds to delay.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>The function calls <ref refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kindref="member">XMC_DelayCycles()</ref> API to generate a delay. If the desired delay is bigger than 0xFFFFFFFD CPU cycles, then an additional loop runs to prevent an overflow in parameter passed to <ref refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kindref="member">XMC_DelayCycles()</ref> API. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="258" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="258" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMC_DelayCycles</definition>
+        <argsstring>(uint32_t cycles)</argsstring>
+        <name>XMC_DelayCycles</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>cycles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function delays by the specified number of CPU clock cycles.</para>
+<para><simplesect kind="note"><para>There is memory reading timing limitation in XMC1xxx device family (see section Memory Read in the device TRM) this may significantly stretch this function execution, especially at high CPU speeds.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cycles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of CPU clock cycles to delay. Valid range: 0x0 .. 0xFFFFFFFD. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="240" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="240" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___c_o_m_m_o_n_1ga87fd14add15725f8cf055e258a2a821a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMC_DelayUs</definition>
+        <argsstring>(uint16_t microseconds)</argsstring>
+        <name>XMC_DelayUs</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>microseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The function delays by the specified number of microseconds. The number of cycles to delay is calculated based on the SystemCoreClock.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>microseconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of microseconds to delay.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>If the CPU frequency in MHz is a small number, the actual delay can be significantly bigger than the desired value. The actual delay cannot be shorter than the desired one. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="275" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="275" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t XMC_EnterCriticalSection</definition>
+        <argsstring>(void)</argsstring>
+        <name>XMC_EnterCriticalSection</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XMC_EnterCriticalSection disables interrupts and returns a value indicating whether the interrupts were previously enabled.</para>
+<para><simplesect kind="return"><para>Returns the current interrupt status. Returns 0 if the interrupts were previously enabled or 1 if the interrupts were previously disabled.</para>
+</simplesect>
+<simplesect kind="note"><para>Implementation of XMC_EnterCriticalSection manipulates the IRQ enable bit with interrupts still enabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="292" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="292" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group___c_o_m_m_o_n_1ga6dfa72c89386d9c65584d2d526f76112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMC_ExitCriticalSection</definition>
+        <argsstring>(uint32_t savedIntrStatus)</argsstring>
+        <name>XMC_ExitCriticalSection</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>savedIntrStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Re-enables the interrupts if they were enabled before <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref> was called. The argument should be the value returned from <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>savedIntrStatus</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Puts the saved interrupts status returned by the <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="306" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="306" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2020-05-05 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XMC_COMMON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_COMMON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;inttypes.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_device.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_MAJOR_VERSION<sp/><sp/><sp/>(2U)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_MINOR_VERSION<sp/><sp/><sp/>(2U)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_PATCH_VERSION<sp/><sp/><sp/>(0U)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((XMC_LIB_MAJOR_VERSION<sp/>&lt;&lt;<sp/>16U)<sp/>+<sp/>(XMC_LIB_MINOR_VERSION<sp/>&lt;&lt;<sp/>8U)<sp/>+<sp/>XMC_LIB_PATCH_VERSION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_VERSION_NUMBER(major,<sp/>minor,<sp/>patch)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((major<sp/>&lt;&lt;<sp/>16U)<sp/>+<sp/>(minor<sp/>&lt;&lt;<sp/>8U)<sp/>+<sp/>patch)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>WEAK<sp/>attribute<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(__WEAK)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(<sp/>__CC_ARM<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__WEAK<sp/>__attribute__<sp/>((weak))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(__ARMCC_VERSION)<sp/>&amp;&amp;<sp/>(__ARMCC_VERSION<sp/>&gt;=<sp/>6010050)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__WEAK<sp/>__attribute__<sp/>((weak))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__ICCARM__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__WEAK<sp/>__weak</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__GNUC__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__WEAK<sp/>__attribute__<sp/>((weak))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__TASKING__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__WEAK<sp/>__attribute__<sp/>((weak))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(__RAM_FUNC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>(<sp/>__CC_ARM<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//<sp/>http://www.keil.com/support/docs/3723.htm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__RAM_FUNC<sp/>__attribute__((section(&quot;RAMCODESECTION&quot;</highlight><highlight class="normal">)))</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(__ARMCC_VERSION)<sp/>&amp;&amp;<sp/>(__ARMCC_VERSION<sp/>&gt;=<sp/>6010050)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__RAM_FUNC<sp/>__attribute__((section(&quot;RAMCODESECTION&quot;</highlight><highlight class="normal">)))</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__ICCARM__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="comment">//<sp/>https://www.iar.com/support/tech-notes/linker/controlling-placement-of-the-section-where-__ramfunc-functions-reside-ewarm-5.x--6.x/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__RAM_FUNC<sp/>__ramfunc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__GNUC__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__RAM_FUNC<sp/>__attribute__((section(&quot;.ram_code&quot;</highlight><highlight class="normal">),<sp/>long_call))</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>(<sp/>__TASKING__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__RAM_FUNC<sp/>__attribute__((section(&quot;.ram_code&quot;</highlight><highlight class="normal">)))</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>XMC_ASSERT_ENABLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ASSERT(msg,<sp/>exp)<sp/>{<sp/>if(!(exp))<sp/>{XMC_AssertHandler(msg,<sp/>__FILE__,<sp/>__LINE__);}<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ASSERT(msg,<sp/>exp)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>XMC_DEBUG_ENABLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DEBUG(...)<sp/>{<sp/>printf(__VA_ARGS__);<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DEBUG(...)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_UNUSED_ARG(x)<sp/>(void)x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_STRUCT_INIT(m)<sp/>memset(&amp;m,<sp/>0,<sp/>sizeof(m))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************************************</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/>*<sp/>Macro<sp/>Name:<sp/>XMC_DIV_ROUND</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/>***********************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DIV_ROUND(a,<sp/>b)<sp/>(((a)<sp/>+<sp/>((b)<sp/>/<sp/>2U))<sp/>/<sp/>(b))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************************************</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/>*<sp/>Macro<sp/>Name:<sp/>XMC_DIV_ROUNDUP</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>***********************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_DIV_ROUNDUP(a,<sp/>b)<sp/>((((a)<sp/>-<sp/>1U)<sp/>/<sp/>(b))<sp/>+<sp/>1U)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_DRIVER_VERSION</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>uint8_t<sp/>major;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>uint8_t<sp/>minor;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>uint8_t<sp/>patch;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}<sp/>XMC_DRIVER_VERSION_t;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">/**********************************************************************************************************************</highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/>*<sp/>API<sp/>PROTOTYPES</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMC_AssertHandler(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>msg,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>file,<sp/>uint32_t<sp/>line);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="226"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>XMC_DelayCycles</highlight></codeline>
+<codeline lineno="227"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kindref="member">XMC_DelayCycles</ref>(uint32_t<sp/>cycles);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="243"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>XMC_Delay</highlight></codeline>
+<codeline lineno="244"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_o_m_m_o_n_1ga343bdc93bf3c5946e9944ce0b85464f8" kindref="member">XMC_Delay</ref>(uint32_t<sp/>milliseconds);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="261"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>XMC_DelayUs</highlight></codeline>
+<codeline lineno="262"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_o_m_m_o_n_1ga87fd14add15725f8cf055e258a2a821a" kindref="member">XMC_DelayUs</ref>(uint16_t<sp/>microseconds);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="278"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>XMC_EnterCriticalSection</highlight></codeline>
+<codeline lineno="279"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal">uint32_t<sp/><ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="295"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>XMC_ExitCriticalSection</highlight></codeline>
+<codeline lineno="296"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___c_o_m_m_o_n_1ga6dfa72c89386d9c65584d2d526f76112" kindref="member">XMC_ExitCriticalSection</ref>(uint32_t<sp/>savedIntrStatus);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_COMMON_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h"/>
+  </compounddef>
+</doxygen>

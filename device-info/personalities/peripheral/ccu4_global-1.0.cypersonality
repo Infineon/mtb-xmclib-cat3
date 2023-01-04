@@ -32,19 +32,28 @@
   </Dependencies>
   <ExposedMembers>
     <ExposedMember key="frequency" paramId="fCCU4" />
+    <ExposedMember key="baseAddr" paramId="baseAddr" />
   </ExposedMembers>
 
   <Parameters>
     <!-- Internal -->
+    <ParamBool id="debug" name="debug" group="Internal" default="false" visible="false" editable="false" desc="" />
     <ParamString id="module_num" name="CCU4 module index" group="Internal"
       default="`${getInstNumber(&quot;ccu4&quot;)}`" visible="false" editable="false" desc="" />
     <ParamString id="clock_resource" name="CCU Clock Resource" group="Internal"
       default="scu[0].clock[0].ccuclk[0]" visible="false" editable="false" desc="" />
     <ParamBool id="clock_error" name="Clock Error" group="Internal"
       default="`${!isBlockUsed(clock_resource)}`" visible="false" editable="false" desc="" />
+    <ParamString id="baseAddr" name="baseAddr" group="Internal"
+      default="`${INST_NAME}`_HW" visible="false" editable="false" desc="" />
+    <Repeat count="4">
+      <ParamString id="slice$idxRcs" name="slice$idxRcs" group="Internal" default="ccu4[`${module_num}`].ch[$idx]" visible="`${debug}`" editable="false" desc="" />
+      <ParamBool id="isSlice$idxUsed" name="isSlice$idxUsed" group="Internal" default="`${hasBlock(slice$idxRcs) &amp;&amp; isBlockUsed(slice$idxRcs)}`" visible="`${debug}`" editable="false" desc="" />
+    </Repeat>
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u4.html" linkText="Open CCU4 Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u4.html" linkText="Open CCU4 Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Driver Documentation" />
+    <ParamDoc id="cfgDoc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_ccu4" linkText="Open CCU4 Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
 
     <!-- General -->
     <ParamString id="fCCU4" name="Frequency (Hz)" group="General"
@@ -66,13 +75,35 @@
     <DRC type="ERROR" text="CCU4 source clock is not enabled" condition="`${clock_error}`" >
       <FixIt action="ENABLE_BLOCK" target="`${clock_resource}`" value="" valid="true" />
     </DRC>
+    <DRC type="INFO" text="SR`${getExposedMember(slice$idxRcs, &quot;sr&quot;)}` is reserved for the emUSB middleware" condition="`${hasExposedMember(slice$idxRcs, &quot;baseAddress&quot;)}`" repeatCount="4"/>
   </DRCs>
 
   <ConfigFirmware>
     <ConfigInclude value="xmc_ccu4.h" include="true" />
     <ConfigDefine name="`${INST_NAME}`_NUM" value="`${module_num}`U" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_HW" value="CCU4`${module_num}`" public="true" include="true" />
-    <ConfigInstruction value="XMC_CCU4_Init(`${INST_NAME}`_HW, `${mc_shadow_tx_function}`);" include="true"/>
-    <ConfigInstruction value="XMC_CCU4_StartPrescaler(`${INST_NAME}`_HW);" include="true"/>
+    <ConfigDefine name="`${baseAddr}`" value="CCU4`${module_num}`" public="true" include="true" />
+    
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_INTERRUPT_HANDLER" value="CCU8`${module_num}`_$idx_IRQHandler" public="true" 
+                  include="`${((isSlice0Used &amp;&amp; hasExposedMember(slice0Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice0Rcs, &quot;sr&quot;)) : true) &amp;&amp;
+                               (isSlice1Used &amp;&amp; hasExposedMember(slice1Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice1Rcs, &quot;sr&quot;)) : true) &amp;&amp;
+                               (isSlice2Used &amp;&amp; hasExposedMember(slice2Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice2Rcs, &quot;sr&quot;)) : true) &amp;&amp;
+                               (isSlice3Used &amp;&amp; hasExposedMember(slice3Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice3Rcs, &quot;sr&quot;)) : true)) &amp;&amp;
+                              ((isSlice0Used ? getExposedMember(slice0Rcs, &quot;isSR$idxUsed&quot;) : false) ||
+                               (isSlice1Used ? getExposedMember(slice1Rcs, &quot;isSR$idxUsed&quot;) : false) ||
+                               (isSlice2Used ? getExposedMember(slice2Rcs, &quot;isSR$idxUsed&quot;) : false) ||
+                               (isSlice3Used ? getExposedMember(slice3Rcs, &quot;isSR$idxUsed&quot;) : false))}`" repeatCount="4" />
+                              
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_IRQN" value="CCU8`${module_num}`_$idx_IRQn" public="true" 
+                  include="`${((isSlice0Used &amp;&amp; hasExposedMember(slice0Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice0Rcs, &quot;sr&quot;)) : true) &amp;&amp;
+                               (isSlice1Used &amp;&amp; hasExposedMember(slice1Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice1Rcs, &quot;sr&quot;)) : true) &amp;&amp;
+                               (isSlice2Used &amp;&amp; hasExposedMember(slice2Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice2Rcs, &quot;sr&quot;)) : true) &amp;&amp;
+                               (isSlice3Used &amp;&amp; hasExposedMember(slice3Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice3Rcs, &quot;sr&quot;)) : true)) &amp;&amp;
+                              ((isSlice0Used ? getExposedMember(slice0Rcs, &quot;isSR$idxUsed&quot;) : false) ||
+                               (isSlice1Used ? getExposedMember(slice1Rcs, &quot;isSR$idxUsed&quot;) : false) ||
+                               (isSlice2Used ? getExposedMember(slice2Rcs, &quot;isSR$idxUsed&quot;) : false) ||
+                               (isSlice3Used ? getExposedMember(slice3Rcs, &quot;isSR$idxUsed&quot;) : false))}`" repeatCount="4" />
+    
+    <ConfigInstruction value="XMC_CCU4_Init(`${baseAddr}`, `${mc_shadow_tx_function}`);" include="true"/>
+    <ConfigInstruction value="XMC_CCU4_StartPrescaler(`${baseAddr}`);" include="true"/>
   </ConfigFirmware>
 </Personality>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file spi-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* SPI personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_spi" name="SPI" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_usic" />
+    <Resource name="usic\.ch" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="RxFIFOSize" paramId="RxFIFOSizeVal" />
+    <ExposedMember key="TxFIFOSize" paramId="TxFIFOSizeVal" />
+    <ExposedMember key="RxFIFOPointer" paramId="RxFIFOPointer" />
+    <ExposedMember key="TxFIFOPointer" paramId="TxFIFOPointer" />
+  </ExposedMembers>
+  <Parameters>
+    <!--Internal-->
+    <ParamBool id="xmc1" name="xmc1" group="Internal" default="`${lookupExpression(&quot;XMC1&quot;, 0)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="xmc4" name="xmc4" group="Internal" default="`${lookupExpression(&quot;XMC4&quot;, 0)}`" visible="false" editable="false" desc="" />
+
+    <ParamString id="InstNumber" name="" group="Internal" default="`${getInstNumber(&quot;usic&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="ChannelNumber" name="" group="Internal" default="`${getInstNumber(&quot;ch&quot;)}`" visible="false" editable="false" desc="" />
+
+    <ParamString id="periclk_resource" name="" group="Internal" default="scu[0].clock[0].periclk[0]" visible="false" editable="false" desc="" />
+    <ParamBool id="periclk_enabled" name="" group="Internal" default="`${isBlockUsed(periclk_resource)}`" visible="false" editable="false" desc="" />
+
+    <Repeat count="8">
+      <ParamBool id="has_visible_option_selo$idx" name="" group="Internal" default="`${hasVisibleOption(&quot;selo$idx[0]&quot;)}`" visible="false" editable="false" desc="" />
+    </Repeat>
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${xmc1 ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___s_p_i.html" linkText="Open SPI Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!--General-->
+    <ParamChoice id="DeviceType" name="Device Type" group="General" default="XMC_SPI_CH_BUS_MODE_MASTER" visible="true" editable="true" desc="Device type selection. The peripheral can work either as a master or a slave.">
+      <Entry name="Slave" value="XMC_SPI_CH_BUS_MODE_SLAVE" visible="true" />
+      <Entry name="Master" value="XMC_SPI_CH_BUS_MODE_MASTER" visible="true" />
+    </ParamChoice>
+    <ParamBool id="Slave" name="Slave" group="Internal" default="`${DeviceType ne XMC_SPI_CH_BUS_MODE_MASTER}`" visible="false" editable="false" desc="Enables Slave functionality." />
+    <ParamBool id="Master" name="Master" group="Internal" default="`${DeviceType ne XMC_SPI_CH_BUS_MODE_SLAVE}`" visible="false" editable="false" desc="Enables Master functionality." />
+
+    <ParamChoice id="OperationMode" name="Operation Mode" group="General" default="XMC_SPI_CH_MODE_STANDARD" visible="true" editable="true" desc="Selection of the operation mode. The following modes are achievable: Half Duplex, Full Duplex, Dual SPI or Quad SPI.">
+      <Entry name="Half Duplex" value="XMC_SPI_CH_MODE_STANDARD_HALFDUPLEX" visible="true" />
+      <Entry name="Full Duplex" value="XMC_SPI_CH_MODE_STANDARD" visible="true" />
+      <Entry name="Dual SPI" value="XMC_SPI_CH_MODE_DUAL" visible="true" />
+      <Entry name="Quad SPI" value="XMC_SPI_CH_MODE_QUAD" visible="true" />
+    </ParamChoice>
+
+    <!--Data Framing Settings-->
+    <ParamRange id="WordLength" name="Word Length" group="Data Framing Settings" default="8" min="1" max="16" resolution="1" visible="true" editable="true" desc="Configures number of bits required in each data word." />
+    <ParamRange id="FrameLength" name="Frame Length" group="Data Framing Settings" default="64" min="1" max="64" resolution="1" visible="true" editable="true" desc="Configures number of bits required in per data frame." />
+    <ParamChoice id="DataShiftDirection" name="Data Shift Direction" group="Data Framing Settings" default="XMC_USIC_CH_SHIFT_DIRECTION_MSB_FIRST" visible="true" editable="true" desc="Configures shift direction of the data words for transmission and reception.">
+      <Entry name="MSB" value="XMC_USIC_CH_SHIFT_DIRECTION_MSB_FIRST" visible="true" />
+      <Entry name="LSB" value="XMC_USIC_CH_SHIFT_DIRECTION_LSB_FIRST" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="ParityMode" name="Parity Mode" group="Data Framing Settings" default="XMC_USIC_CH_PARITY_MODE_NONE" visible="true" editable="true" desc="Configures parity mode for detecting the error during communication.">
+      <Entry name="No Parity" value="XMC_USIC_CH_PARITY_MODE_NONE" visible="true" />
+      <Entry name="Even Parity" value="XMC_USIC_CH_PARITY_MODE_EVEN" visible="true" />
+      <Entry name="Odd Parity" value="XMC_USIC_CH_PARITY_MODE_ODD" visible="true" />
+    </ParamChoice>
+    <ParamBool id="KeepTheSlaveSelectSignalActive" name="Keep Slave Select Signal Active" group="Data Framing Settings" default="false" visible="true" editable="true" desc="Configures frame end mode. Selection allows MSLS signal to be active also while no new data is available and no other end of frame condition is reached." />
+
+    <!--Input Stages-->
+    <ParamBool id="EnableDelayCompensation" name="Delay Compensation" group="Input Stages" default="false" visible="true" editable="true" desc="Selections enables delay compensation method for the master." />
+    <ParamChoice id="DX1InputStageMaster" name="DX1 Input Stage" group="Input Stages" default="`${Master ? DX1None : XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT_SCLK}`" visible="true" editable="true" desc="Configures input signal source for the input stage DX1.">
+      <Entry name="None" value="DX1None" visible="`${Master}`" />
+      <Entry name="External Frequency Input" value="XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT_DX1" visible="`${Master}`" />
+      <Entry name="Delay Compensation" value="XMC_USIC_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_0_DELAY_ENABLED" visible="`${Master}`" />
+      <Entry name="SCLKIN" value="XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT_SCLK" visible="`${Slave}`" />
+    </ParamChoice>
+
+    <ParamBool id="InvertSignalPolarityOfDX1" name="Invert Signal Polarity of DX1" group="Input Stages" default="false" visible="true" editable="true" desc="Selection inverts the signal polarity of the input signal DX1." />
+    <ParamChoice id="DX2InputStageMaster" name="DX2 Input Stage" group="Input Stages" default="`${Master ? DX2None : SELIN}`" visible="true" editable="true" desc="Configures input signal source for the input stage DX2.">
+      <Entry name="None" value="DX2None" visible="`${Master}`" />
+      <Entry name="Transmit Data Validation" value="TransmitDataValidation" visible="`${Master}`" />
+      <Entry name="Delay Compensation" value="DX2DelayCompensation" visible="`${Master}`" />
+      <Entry name="SELIN" value="SELIN" visible="`${Slave}`" />
+    </ParamChoice>
+    <ParamBool id="InvertSignalPolarityOfDX2" name="Invert Signal Polarity of DX2" group="Input Stages" default="false" visible="true" editable="true" desc="Selection inverts the signal polarity of the input signal DX2." />
+
+    <ParamChoice id="TypeOfDataValidation" name="Type of Data Validation" group="Input Stages" default="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_0" visible="`${Master}`" editable="`${DX2InputStageMaster eq TransmitDataValidation}`" desc="Selection controles the gating of the transmission start of the data word in transmit buffer TRUF.">
+      <Entry name="Transfer on Low (DX2S=0)" value="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_0" visible="true" />
+      <Entry name="Transfer on High (DX2S=1)" value="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_1" visible="true" />
+      <Entry name="Transfer on Event (DX2T)" value="XMC_USIC_CH_START_TRANSMISION_ON_TDV" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="TriggeringEdgeForDataValidationOnEvent" name="Triggering Edge for Data Validation on Event" group="Input Stages" default="`${!(Master &amp;&amp; (DX2InputStageMaster eq TransmitDataValidation) &amp;&amp; (TypeOfDataValidation eq XMC_USIC_CH_START_TRANSMISION_ON_TDV)) ? XMC_USIC_CH_INPUT_COMBINATION_MODE_TRIGGER_DISABLED : XMC_USIC_CH_INPUT_COMBINATION_MODE_TRIGGER_DISABLED}`" visible="`${Master}`" editable="`${(TypeOfDataValidation eq XMC_USIC_CH_START_TRANSMISION_ON_TDV) &amp;&amp; (DX2InputStageMaster eq TransmitDataValidation)}`" desc="Selection activates the DX2S signal edge for trigger output DXnT.">
+      <Entry name="Disabled" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_TRIGGER_DISABLED" visible="`${!(Master &amp;&amp; (DX2InputStageMaster eq TransmitDataValidation) &amp;&amp; (TypeOfDataValidation eq XMC_USIC_CH_START_TRANSMISION_ON_TDV))}`" />
+      <Entry name="Rising Edge" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE" visible="true" />
+      <Entry name="Falling Edge" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_FALLING_EDGE" visible="true" />
+      <Entry name="Both Edges" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_BOTH_EDGES" visible="true" />
+    </ParamChoice>
+
+    <!--Output Signals-->
+    <ParamChoice id="SclkoutOutputMaster" name="SCLKOUT Output" group="Output Signals" default="MasterShiftClock" visible="`${Master}`" editable="true" desc="In master mode, the shift clock is generated by the internal baud rate generator. The output signal SCLKOUT of the baud rate generator is taken as shift clock for the data shift unit.">
+      <Entry name="Master Shift Clock" value="MasterShiftClock" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="SclkoutOutputSlave" name="SCLKOUT Output" group="Output Signals" default="SCLKOUTNone" visible="`${Slave}`" editable="true" desc="In slave mode, the shift clock is generated by the master and the internal baud rate generator of the slave is not needed. The SCLKOUT and MCLKOUT signals can be used as clock outputs with 50% duty cycle with a frequency that can be independent from the communication baud rate.">
+      <Entry name="None" value="SCLKOUTNone" visible="true" />
+      <Entry name="Independent Clock Output" value="IndependentClockOutputSCLKOUT" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="MclkoutOutput" name="MCLKOUT Output" group="Output Signals" default="MCLKOUTNone" visible="true" editable="true" desc="The MCLKOUT output signal has a stable frequency relation to the shift clock output (the frequency of the MCLKOUT can be higher than SCLKOUT) for synchronization purposes of a slave device to a master device.">
+      <Entry name="None" value="MCLKOUTNone" visible="true" />
+      <Entry name="Master Time Base" value="MasterTimeBase" visible="`${Master}`" />
+      <Entry name="Independent Clock Output" value="IndependentClockOutputMCLKOUT" visible="`${Slave}`" />
+    </ParamChoice>
+    <ParamBool id="InvertSignalPolarityOfOutputSignals" name="Invert Signal Polarity of Output Signals" group="Output Signals" default="false" visible="true" editable="true" desc="Selection inverts the signal polarity of the output signal DOUTx." />
+    <ParamChoice id="ShiftClockSignalSclkout" name="Shift Clock Signal `${Master ? &quot;SCLKOUT&quot; : &quot;SCLKIN&quot;}` Settings" group="Output Signals" default="XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_0_DELAY_ENABLED" visible="true" editable="true" desc="Configures the required delay and signal polarity level from the shift clock output signal SCLKOUT with respect to SCLK.">
+      <Entry name="No Delay, No Polarity Inversion" value="XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_0_DELAY_DISABLED" visible="true" />
+      <Entry name="No Delay, Polarity Inversion" value="XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_DISABLED" visible="true" />
+      <Entry name="Delayed by 1/2 Shift Clock Period, No Polarity Inversion" value="XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_0_DELAY_ENABLED" visible="`${Master}`" />
+      <Entry name="Delayed by 1/2 Shift Clock Period, Polarity Inversion" value="XMC_SPI_CH_BRG_SHIFT_CLOCK_PASSIVE_LEVEL_1_DELAY_ENABLED" visible="`${Master}`" />
+    </ParamChoice>
+
+    <!-- Clock Settings-->
+    <ParamChoice id="BaudRateGeneratorClockSrc" name="Baud Rate Generator Clock Source" group="Clock Settings" default="XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER" visible="`${Master}`" editable="false" desc="Selects the clock source for the baud rate generator">
+      <Entry name="Internal Clock" value="XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER" visible="true" />
+    </ParamChoice>
+
+    <ParamChoice id="ClockDividerMode" name="Clock Divider Mode" group="Clock Settings" default="XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_NORMAL" visible="`${Master}`" editable="true" desc="Selects the operation mode for the data transmission and reception">
+      <Entry name="Disabled" value="XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_DISABLED" visible="true" />
+      <Entry name="Normal Mode" value="XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_NORMAL" visible="true" />
+      <Entry name="Fractional Mode" value="XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_FRACTIONAL" visible="true" />
+    </ParamChoice>
+
+    <ParamBool id="clockDividerMode_internal" name="" group="Internal" default="`${(ClockDividerMode eq XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_DISABLED) ? true : false}`" visible="false" editable="false" desc="" />
+    <ParamChoice id="configuration" name="Baud Rate Configuration" group="Clock Settings" default="auto" visible="`${Master}`" editable="true" desc="Choose the automatic or manual baud rate tuning.">
+      <Entry name="Automatic" value="auto" visible="true" />
+      <Entry name="Manual" value="manual" visible="true" />
+    </ParamChoice>
+    <ParamBool id="manConfig" name="Manual Baud Rate Configuration" group="Internal" default="`${configuration eq manual}`" visible="false" editable="false" desc="" />
+    <ParamRange id="srcBrgFreq" name="" group="Internal" default="`${periclk_enabled ? getExposedMember(periclk_resource, &quot;frequency&quot;) : 1000000000}`" min="1" max="1000000000" resolution="1" visible="false" editable="false" desc="" />
+    <ParamRange id="BusSpeed" name="Desired Bus Speed (kHz)" group="Clock Settings" default="19.2" min="0.1" max="30000.0" resolution="0.1" visible="`${Master &amp;&amp; !manConfig}`" editable="true" desc="Bus speed that SPI operates." />
+    <ParamRange id="Oversampling" name="Symbol Timing" group="Clock Settings" default="2" min="0" max="25" resolution="1" visible="false" editable="false" desc="" />
+    <ParamRange id="MasterBaudRate" name="Desired Baud Rate (bps)" group="Clock Settings" default="`${BusSpeed*1000}`" min="1" max="`${BusSpeed*1000}`" resolution="1" visible="`${Master &amp;&amp; !manConfig}`" editable="false" desc="Baud rate that SPI operates." />
+    <ParamString id="callSolver" name="" group="Internal" default="`${runTcl(&quot;brg_solver-1.0.tcl&quot;, srcBrgFreq, MasterBaudRate, Oversampling, clockDividerMode_internal)}`" visible="false" editable="false" desc="" />
+    <ParamString id="normalDividerDesc" name="" group="Internal" default="The frequency fFD is derived from the input clock fPERI by a fractional multiplication of 1/(1024 - step)." visible="false" editable="false" desc="" />
+    <ParamString id="fractionalDividerDesc" name="" group="Internal" default="The frequency fFD is derived from the input clock fPERI by a fractional multiplication of step/1024." visible="false" editable="false" desc="" />
+    <ParamRange id="ClockDividerStep" name="Clock Divider Step" group="Clock Settings" default="`${getTclVar(&quot;step&quot;, callSolver)}`" min="0" max="1023" resolution="1" visible="false" editable="`${manConfig}`" desc="`${(ClockDividerMode eq XMC_USIC_CH_BRG_CLOCK_DIVIDER_MODE_DISABLED) ? normalDividerDesc : fractionalDividerDesc}`" />
+    <ParamRange id="PDiv" name="Divider Factor" group="Clock Settings" default="`${getTclVar(&quot;pDiv&quot;, callSolver)}`" min="0" max="1023" resolution="1" visible="`${Master}`" editable="`${manConfig}`" desc="Divider to derive the internal frequency fPDIV from fFD or external frequency." />
+    <ParamRange id="BaudRateVal" name="Actual Baud Rate (bps)" group="Clock Settings" default="`${getTclVar(&quot;baudrate&quot;, callSolver)}`" min="1" max="`${(srcBrgFreq / 4) * 1.0E6}`" resolution="1" visible="`${Master &amp;&amp; !manConfig}`" editable="false" desc="Baud rate that SPI operates." />
+
+    <!--Signals-->
+    <ParamChoice id="SelectControl" name="Select Control" group="Signals" default="Direct" visible="`${Master}`" editable="true" desc="Configures the operating mode for SELOn outputs.">
+      <Entry name="Direct" value="Direct" visible="true" />
+      <Entry name="Codded" value="Codded" visible="true" />
+    </ParamChoice>
+    <ParamRange id="NumberOfSlaveSelectLines" name="Number of Slave Select Lines Used" group="Signals" default="1" min="0" max="8" resolution="1" visible="`${Master}`" editable="true" desc="Select the number of slaves to be connected." />
+    <ParamChoice id="SlaveSelectMode" name="Slave Select" group="Signals" default="0" visible="`${Master}`" editable="true" desc="The SPI module supports up to 8 different slave select output signals for master mode operation (named SELOx, with x = 0-7) and 1 slave select input SELIN for slave mode.">
+      <Entry name="SELO 0" value="0" visible="`${has_visible_option_selo0}`" />
+      <Entry name="SELO 1" value="1" visible="`${has_visible_option_selo1}`" />
+      <Entry name="SELO 2" value="2" visible="`${has_visible_option_selo2}`" />
+      <Entry name="SELO 3" value="3" visible="`${has_visible_option_selo3}`" />
+      <Entry name="SELO 4" value="4" visible="`${has_visible_option_selo4}`" />
+      <Entry name="SELO 5" value="5" visible="`${has_visible_option_selo5}`" />
+      <Entry name="SELO 6" value="6" visible="`${has_visible_option_selo6}`" />
+      <Entry name="SELO 7" value="7" visible="`${has_visible_option_selo7}`" />
+    </ParamChoice>
+    <ParamBool id="InvertTheSignalPolarityOfSELOxSignals" name="Invert Signal Polarity of SELOx Signals" group="Signals" default="false" visible="`${Master}`" editable="true" desc="Selection inverts the signal polarity of SELOx output signals." />
+
+    <!--Leading/Trailing Delay Generation-->
+    <ParamRange id="DesiredDelayClockCycles" name="Desired Delay (Clock Cycles)" group="Leading/Trailing Delay Generation" default="2" min="1" max="32" resolution="1" visible="`${Master}`" editable="true" desc="Configure slave setup and hold time requirements." />
+    <ParamChoice id="InputFrequency" name="Input Frequency" group="Leading/Trailing Delay Generation" default="fSCLK" visible="`${Master}`" editable="false" desc="Shift clock: fSCLK.">
+      <Entry name="fSCLK" value="fSCLK" visible="true" />
+    </ParamChoice>
+    <ParamString id="TimeQuantumLength" name="Time Quantum Length" group="Leading/Trailing Delay Generation" default="0x1" visible="`${Master}`" editable="false" desc="Define the length of a time quantum (division of fCTQIN by 1, 2, 3, or 4) for Tld and Ttd." />
+    <ParamString id="NumberOfTimeQuanta" name="Number of Time Quanta" group="Leading/Trailing Delay Generation" default="0x`${DesiredDelayClockCycles - 1}`" visible="`${Master}`" editable="false" desc="Define the number of time quanta for the delay generation for Tld and Ttd." />
+    <ParamRange id="ActualDelayUs" name="Actual Delay (us)" group="Leading/Trailing Delay Generation" default="`${DesiredDelayClockCycles * 52.08}`" min="52.08" max="1666.67" resolution="0.01" visible="`${Master}`" editable="false" desc="The leading delay starts if valid data is available for transmission. The trailing delay starts at the end of the last SCLK cycle of a data frame." />
+
+    <!--Inter-Word/Next-Frame Delay Generation-->
+    <ParamRange id="DesiredDelayCycles" name="Desired Delay (Clock)" group="Inter-Word/Next-Frame Delay Generation" default="0" min="0" max="32" resolution="1" visible="`${Master}`" editable="true" desc="Configure slave select inter-word delay (Tiw) and the next-frame delay (Tnf) timing requirements." />
+    <ParamChoice id="InputFrequency1" name="Input Frequency" group="Inter-Word/Next-Frame Delay Generation" default="fSCLK" visible="`${Master}`" editable="false" desc="Shift clock: fSCLK.">
+      <Entry name="fSCLK" value="fSCLK" visible="true" />
+    </ParamChoice>
+    <ParamString id="TimeQuantumLength1" name="Time Quantum Length" group="Inter-Word/Next-Frame Delay Generation" default="0x0" visible="`${Master}`" editable="false" desc="Define the length of a time quantum (division of fCTQIN by 1, 2, 3, or 4) for Tld and Ttd." />
+    <ParamString id="NumberOfTimeQuanta1" name="Number of Time Quanta" group="Inter-Word/Next-Frame Delay Generation" default="0x`${(DesiredDelayCycles > 0) ? ( DesiredDelayCycles - 1 ):0}`" visible="`${Master}`" editable="false" desc="Define the number of time quanta for the delay generation for Tld and Ttd." />
+    <ParamRange id="ActualDelayUs1" name="Actual Delay (us)" group="Inter-Word/Next-Frame Delay Generation" default="`${DesiredDelayCycles * 52.08}`" min="0" max="1666.67" resolution="0.01" visible="`${Master}`" editable="false" desc="Inter-word delay is optional and can be enabled/disabled by PCR.TIWEN. Next-frame delay starts at the end of the trailing delay." />
+
+    <!--Data Transfer Events Settings-->
+    <ParamBool id="TransmitBufferInterrupt" name="Transmit Buffer Event" group="Data Transfer Events Settings" default="false" visible="true" editable="true" desc="Set after the start of first data bit of a data word. This is the earliest point in time when a new data word can be written to TBUF" />
+    <ParamBool id="ReceiverStartInterrupt" name="Receiver Start Event" group="Data Transfer Events Settings" default="false" visible="true" editable="true" desc="Set after the sample point of the first data bit of a data word" />
+    <ParamChoice id="TransmitBufferInterruptSRSel" name="Transmit Buffer or Receiver Event Service Request" group="Data Transfer Events Settings" default="0" visible="`${TransmitBufferInterrupt || ReceiverStartInterrupt}`" editable="true" desc="Selects the service request output that becomes activated in case of a transmit buffer or receiver start event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+    <ParamBool id="TransmitShiftInterrupt" name="Transmit Shift Event" group="Data Transfer Events Settings" default="false" visible="true" editable="true" desc="Set after the start of the last data bit of a data word" />
+    <ParamChoice id="TransmitShiftInterruptSRSel" name="Transmit Shift Event Service Request" group="Data Transfer Events Settings" default="0" visible="`${TransmitShiftInterrupt}`" editable="true" desc="Selects the service request output that becomes activated in case of a transmit shift event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+    <ParamBool id="ReceiverInterrupt" name="Standard Receive Event" group="Data Transfer Events Settings" default="false" visible="true" editable="true" desc="Set after the sampling point of the last data bit of a data word if this data word is not directly followed by a parity bit, otherwise set after the sampling point of the parity bit if no parity error has been detected" />
+    <ParamChoice id="ReceiverInterruptSRSel" name="Standard Receive Event Service Request" group="Data Transfer Events Settings" default="0" visible="`${ReceiverInterrupt}`" editable="true" desc="Selects the service request output that becomes activated in case of a standard receive event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+    <ParamBool id="AlternativeInterrupt" name="Alternative Event" group="Data Transfer Events Settings" default="false" visible="true" editable="true" desc="Set after a parity error has been detected" />
+    <ParamChoice id="AlternativeInterruptSRSel" name="Alternative Event Service Request" group="Data Transfer Events Settings" default="0" visible="`${AlternativeInterrupt}`" editable="true" desc="Selects the service request output that becomes activated in case of a alternative receive event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+
+    <!--Protocol Events Settings-->
+    <ParamBool id="MSLSEvent" name="MSLS Event" group="Protocol Events Settings" default="false" visible="`${Master}`" editable="true" desc="Generate event when MSLS signal has changed its state." />
+    <ParamBool id="BoudRateGeneratorEvent" name="Boud Rate Generator Event" group="Protocol Events Settings" default="false" visible="true" editable="true" desc="Generates event when capture mode timer reached its maximum value." />
+    <ParamBool id="DataLostEvent" name="Data Lost Event" group="Protocol Events Settings" default="false" visible="true" editable="true" desc="Generates event when new data is recived with recive buffer full conditiond." />
+    <ParamBool id="DX2TEvent" name="DX2T Event" group="Protocol Events Settings" default="false" visible="true" editable="true" desc="Generates event when slave select signal has changed its state." />
+    <ParamChoice id="TrigEdgeForDataValidationOnEvent" name="Triggering Edge for Data Validation on Event" group="Protocol Events Settings" default="TriggRisingEdge" visible="`${Slave &amp;&amp; DX2TEvent eq true}`" editable="true" desc="Selection activates the DX2S signal edge for trigger output DXnT.">
+      <Entry name="Rising Edge" value="TriggRisingEdge" visible="true" />
+      <Entry name="Falling Edge" value="TriggFallingEdge" visible="true" />
+      <Entry name="Both Edges" value="TriggBothEdges" visible="true" />
+    </ParamChoice>
+
+    <ParamBool id="ProtocolEvent" name="" group="Internal" default="`${MSLSEvent || BoudRateGeneratorEvent || DataLostEvent || DX2TEvent }`" visible="false" editable="false" desc="" />
+    <ParamChoice id="ProtocolEventSRSel" name="Protocol Event Service Request" group="Protocol Events Settings" default="0" visible="`${DataLostEvent || ProtocolEvent}`" editable="true" desc="Selects the service request output that becomes activated in case of a protocol event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+
+    <!-- Data Buffer Events Settings -->
+    <ParamBool id="StandardTransmitBufferEvent" name="Standard Transmit Buffer Event" group="Data Buffer Events Settings" default="false" visible="true" editable="true" desc="Set after the filling level of the transmit buffer falls below the programmed limit" />
+    <ParamChoice id="StandardTransmitBufferEventSRSel" name="Standard Transmit Buffer Event Service Request" group="Data Buffer Events Settings" default="0" visible="`${StandardTransmitBufferEvent}`" editable="true" desc="Selects the service request output that becomes activated in case of a standard transmit buffer event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+    <ParamBool id="TransmitBufferErrorEvent" name="Transmit Buffer Error Event" group="Data Buffer Events Settings" default="false" visible="true" editable="true" desc="Set when writting to a full buffer" />
+    <ParamChoice id="TransmitBufferErrorEventSRSel" name="Transmit Buffer Error Event Service Request" group="Data Buffer Events Settings" default="0" visible="`${TransmitBufferErrorEvent}`" editable="true" desc="Selects the service request output that becomes activated in case of a transmit buffer error event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+    <ParamBool id="StandardReceiveBufferEvent" name="Standard Receive Buffer Event" group="Data Buffer Events Settings" default="false" visible="true" editable="true" desc="Set after the filling level of the receive buffer exceeds the programmed limit" />
+    <ParamChoice id="StandardReceiveBufferEventSRSel" name="Standard Receive Buffer Event Service Request" group="Data Buffer Events Settings" default="0" visible="`${StandardReceiveBufferEvent}`" editable="true" desc="Selects the service request output that becomes activated in case of a standard receive buffer event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+    <ParamBool id="ReceiveBufferErrorEvent" name="Receive Buffer Error Event" group="Data Buffer Events Settings" default="false" visible="true" editable="true" desc="Set when reading from an empty buffer" />
+    <ParamChoice id="ReceiveBufferErrorEventSRSel" name="Receive Buffer Error Event Service Request" group="Data Buffer Events Settings" default="0" visible="`${ReceiveBufferErrorEvent}`" editable="true" desc="Selects the service request output that becomes activated in case of a receive buffer error event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+    <ParamBool id="ProtocolRelatedInterrupt" name="Protocol Related Event" group="Data Transfer Events Settings" default="false" visible="true" editable="true" desc="Set after a parity error has been detected" />
+    <ParamChoice id="ProtocolRelatedInterruptSel" name="Protocol Related Event Request" group="Data Transfer Events Settings" default="0" visible="`${ProtocolRelatedInterrupt}`" editable="true" desc="Selects the service request output that becomes activated in case of a protocol related event occurrance">
+      <Entry name="Service Request 0" value="0" visible="true" />
+      <Entry name="Service Request 1" value="1" visible="true" />
+      <Entry name="Service Request 2" value="2" visible="true" />
+      <Entry name="Service Request 3" value="3" visible="true" />
+      <Entry name="Service Request 4" value="4" visible="true" />
+      <Entry name="Service Request 5" value="5" visible="true" />
+    </ParamChoice>
+
+    <!--FIFO Settings-->
+    <ParamChoice id="RxFIFOSize" name="Receive FIFO Size" group="FIFO Settings" default="XMC_USIC_CH_FIFO_DISABLED" visible="true" editable="true" desc="Transmit FIFO size">
+      <Entry name="0 words" value="XMC_USIC_CH_FIFO_DISABLED" visible="true" />
+      <Entry name="2 words" value="XMC_USIC_CH_FIFO_SIZE_2WORDS" visible="true" />
+      <Entry name="4 words" value="XMC_USIC_CH_FIFO_SIZE_4WORDS" visible="true" />
+      <Entry name="8 words" value="XMC_USIC_CH_FIFO_SIZE_8WORDS" visible="true" />
+      <Entry name="16 words" value="XMC_USIC_CH_FIFO_SIZE_16WORDS" visible="true" />
+      <Entry name="32 words" value="XMC_USIC_CH_FIFO_SIZE_32WORDS" visible="true" />
+      <Entry name="64 words" value="XMC_USIC_CH_FIFO_SIZE_64WORDS" visible="true" />
+    </ParamChoice>
+    <ParamRange id="RxFIFOSizeVal" name="" group="Internal" default="`${(RxFIFOSize eq XMC_USIC_CH_FIFO_DISABLED) ? 0 :
+                                                                        ((RxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_2WORDS) ? 2 :
+                                                                        ((RxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_4WORDS) ? 4 :
+                                                                        ((RxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_8WORDS) ? 8 :
+                                                                        ((RxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_16WORDS) ? 16 :
+                                                                        ((RxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_32WORDS) ? 32 :
+                                                                        ((RxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_64WORDS) ? 64 : 0))))))}`" min="0" max="64" resolution="1" visible="false" editable="false" desc="" />
+    <ParamChoice id="RxFIFOPointer" name="Receive FIFO Data Pointer" group="FIFO Settings" default="0" visible="`${RxFIFOSizeVal>0}`" editable="true" desc="Receive FIFO data pointer">
+      <Entry name="0" value="0" visible="true" />
+      <Entry name="2" value="2" visible="`${RxFIFOSizeVal == 0 || (2 % RxFIFOSizeVal == 0 &amp;&amp; 2 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="4" value="4" visible="`${RxFIFOSizeVal == 0 || (4 % RxFIFOSizeVal == 0 &amp;&amp; 4 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="6" value="6" visible="`${RxFIFOSizeVal == 0 || (6 % RxFIFOSizeVal == 0 &amp;&amp; 6 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="8" value="8" visible="`${RxFIFOSizeVal == 0 || (8 % RxFIFOSizeVal == 0 &amp;&amp; 8 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="10" value="10" visible="`${RxFIFOSizeVal == 0 || (10 % RxFIFOSizeVal == 0 &amp;&amp; 10 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="12" value="12" visible="`${RxFIFOSizeVal == 0 || (12 % RxFIFOSizeVal == 0 &amp;&amp; 12 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="14" value="14" visible="`${RxFIFOSizeVal == 0 || (14 % RxFIFOSizeVal == 0 &amp;&amp; 14 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="16" value="16" visible="`${RxFIFOSizeVal == 0 || (16 % RxFIFOSizeVal == 0 &amp;&amp; 16 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="18" value="18" visible="`${RxFIFOSizeVal == 0 || (18 % RxFIFOSizeVal == 0 &amp;&amp; 18 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="20" value="20" visible="`${RxFIFOSizeVal == 0 || (20 % RxFIFOSizeVal == 0 &amp;&amp; 20 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="22" value="22" visible="`${RxFIFOSizeVal == 0 || (22 % RxFIFOSizeVal == 0 &amp;&amp; 22 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="24" value="24" visible="`${RxFIFOSizeVal == 0 || (24 % RxFIFOSizeVal == 0 &amp;&amp; 24 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="26" value="26" visible="`${RxFIFOSizeVal == 0 || (26 % RxFIFOSizeVal == 0 &amp;&amp; 26 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="28" value="28" visible="`${RxFIFOSizeVal == 0 || (28 % RxFIFOSizeVal == 0 &amp;&amp; 28 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="30" value="30" visible="`${RxFIFOSizeVal == 0 || (30 % RxFIFOSizeVal == 0 &amp;&amp; 30 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="32" value="32" visible="`${RxFIFOSizeVal == 0 || (32 % RxFIFOSizeVal == 0 &amp;&amp; 32 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="34" value="34" visible="`${RxFIFOSizeVal == 0 || (34 % RxFIFOSizeVal == 0 &amp;&amp; 34 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="36" value="36" visible="`${RxFIFOSizeVal == 0 || (36 % RxFIFOSizeVal == 0 &amp;&amp; 36 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="38" value="38" visible="`${RxFIFOSizeVal == 0 || (38 % RxFIFOSizeVal == 0 &amp;&amp; 38 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="40" value="40" visible="`${RxFIFOSizeVal == 0 || (40 % RxFIFOSizeVal == 0 &amp;&amp; 40 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="42" value="42" visible="`${RxFIFOSizeVal == 0 || (42 % RxFIFOSizeVal == 0 &amp;&amp; 42 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="44" value="44" visible="`${RxFIFOSizeVal == 0 || (44 % RxFIFOSizeVal == 0 &amp;&amp; 44 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="46" value="46" visible="`${RxFIFOSizeVal == 0 || (46 % RxFIFOSizeVal == 0 &amp;&amp; 46 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="48" value="48" visible="`${RxFIFOSizeVal == 0 || (48 % RxFIFOSizeVal == 0 &amp;&amp; 48 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="50" value="50" visible="`${RxFIFOSizeVal == 0 || (50 % RxFIFOSizeVal == 0 &amp;&amp; 50 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="52" value="52" visible="`${RxFIFOSizeVal == 0 || (52 % RxFIFOSizeVal == 0 &amp;&amp; 52 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="54" value="54" visible="`${RxFIFOSizeVal == 0 || (54 % RxFIFOSizeVal == 0 &amp;&amp; 54 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="56" value="56" visible="`${RxFIFOSizeVal == 0 || (56 % RxFIFOSizeVal == 0 &amp;&amp; 56 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="58" value="58" visible="`${RxFIFOSizeVal == 0 || (58 % RxFIFOSizeVal == 0 &amp;&amp; 58 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="60" value="60" visible="`${RxFIFOSizeVal == 0 || (60 % RxFIFOSizeVal == 0 &amp;&amp; 60 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="62" value="62" visible="`${RxFIFOSizeVal == 0 || (62 % RxFIFOSizeVal == 0 &amp;&amp; 62 &lt;= (64 - RxFIFOSizeVal))}`" />
+      <Entry name="64" value="64" visible="`${RxFIFOSizeVal == 0 || (64 % RxFIFOSizeVal == 0 &amp;&amp; 64 &lt;= (64 - RxFIFOSizeVal))}`" />
+    </ParamChoice>
+    <ParamRange id="RxFIFOLimit" name="Receive FIFO Limit" group="FIFO Settings" default="0" min="0" max="`${(RxFIFOSizeVal > 0) ? (RxFIFOSizeVal - 1) : 1}`" resolution="1" visible="true" editable="`${RxFIFOSizeVal>0}`" desc="Receive FIFO limit" />
+
+    <ParamChoice id="TxFIFOSize" name="Transmit FIFO Size" group="FIFO Settings" default="XMC_USIC_CH_FIFO_DISABLED" visible="true" editable="true" desc="Transmit FIFO size">
+      <Entry name="0 words" value="XMC_USIC_CH_FIFO_DISABLED" visible="true" />
+      <Entry name="2 words" value="XMC_USIC_CH_FIFO_SIZE_2WORDS" visible="true" />
+      <Entry name="4 words" value="XMC_USIC_CH_FIFO_SIZE_4WORDS" visible="true" />
+      <Entry name="8 words" value="XMC_USIC_CH_FIFO_SIZE_8WORDS" visible="true" />
+      <Entry name="16 words" value="XMC_USIC_CH_FIFO_SIZE_16WORDS" visible="true" />
+      <Entry name="32 words" value="XMC_USIC_CH_FIFO_SIZE_32WORDS" visible="true" />
+      <Entry name="64 words" value="XMC_USIC_CH_FIFO_SIZE_64WORDS" visible="true" />
+    </ParamChoice>
+    <ParamRange id="TxFIFOSizeVal" name="" group="Internal" default="`${(TxFIFOSize eq XMC_USIC_CH_FIFO_DISABLED) ? 0 :
+                                                                        ((TxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_2WORDS) ? 2 :
+                                                                        ((TxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_4WORDS) ? 4 :
+                                                                        ((TxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_8WORDS) ? 8 :
+                                                                        ((TxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_16WORDS) ? 16 :
+                                                                        ((TxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_32WORDS) ? 32 :
+                                                                        ((TxFIFOSize eq XMC_USIC_CH_FIFO_SIZE_64WORDS) ? 64 : 0))))))}`" min="0" max="64" resolution="1" visible="false" editable="false" desc="" />
+    <ParamChoice id="TxFIFOPointer" name="Transmit FIFO Data Pointer" group="FIFO Settings" default="0" visible="`${TxFIFOSizeVal>0}`" editable="true" desc="Transmit FIFO data pointer">
+      <Entry name="0" value="0" visible="true" />
+      <Entry name="2" value="2" visible="`${TxFIFOSizeVal == 0 || (2 % TxFIFOSizeVal == 0 &amp;&amp; 2 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="4" value="4" visible="`${TxFIFOSizeVal == 0 || (4 % TxFIFOSizeVal == 0 &amp;&amp; 4 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="6" value="6" visible="`${TxFIFOSizeVal == 0 || (6 % TxFIFOSizeVal == 0 &amp;&amp; 6 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="8" value="8" visible="`${TxFIFOSizeVal == 0 || (8 % TxFIFOSizeVal == 0 &amp;&amp; 8 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="10" value="10" visible="`${TxFIFOSizeVal == 0 || (10 % TxFIFOSizeVal == 0 &amp;&amp; 10 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="12" value="12" visible="`${TxFIFOSizeVal == 0 || (12 % TxFIFOSizeVal == 0 &amp;&amp; 12 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="14" value="14" visible="`${TxFIFOSizeVal == 0 || (14 % TxFIFOSizeVal == 0 &amp;&amp; 14 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="16" value="16" visible="`${TxFIFOSizeVal == 0 || (16 % TxFIFOSizeVal == 0 &amp;&amp; 16 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="18" value="18" visible="`${TxFIFOSizeVal == 0 || (18 % TxFIFOSizeVal == 0 &amp;&amp; 18 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="20" value="20" visible="`${TxFIFOSizeVal == 0 || (20 % TxFIFOSizeVal == 0 &amp;&amp; 20 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="22" value="22" visible="`${TxFIFOSizeVal == 0 || (22 % TxFIFOSizeVal == 0 &amp;&amp; 22 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="24" value="24" visible="`${TxFIFOSizeVal == 0 || (24 % TxFIFOSizeVal == 0 &amp;&amp; 24 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="26" value="26" visible="`${TxFIFOSizeVal == 0 || (26 % TxFIFOSizeVal == 0 &amp;&amp; 26 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="28" value="28" visible="`${TxFIFOSizeVal == 0 || (28 % TxFIFOSizeVal == 0 &amp;&amp; 28 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="30" value="30" visible="`${TxFIFOSizeVal == 0 || (30 % TxFIFOSizeVal == 0 &amp;&amp; 30 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="32" value="32" visible="`${TxFIFOSizeVal == 0 || (32 % TxFIFOSizeVal == 0 &amp;&amp; 32 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="34" value="34" visible="`${TxFIFOSizeVal == 0 || (34 % TxFIFOSizeVal == 0 &amp;&amp; 34 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="36" value="36" visible="`${TxFIFOSizeVal == 0 || (36 % TxFIFOSizeVal == 0 &amp;&amp; 36 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="38" value="38" visible="`${TxFIFOSizeVal == 0 || (38 % TxFIFOSizeVal == 0 &amp;&amp; 38 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="40" value="40" visible="`${TxFIFOSizeVal == 0 || (40 % TxFIFOSizeVal == 0 &amp;&amp; 40 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="42" value="42" visible="`${TxFIFOSizeVal == 0 || (42 % TxFIFOSizeVal == 0 &amp;&amp; 42 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="44" value="44" visible="`${TxFIFOSizeVal == 0 || (44 % TxFIFOSizeVal == 0 &amp;&amp; 44 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="46" value="46" visible="`${TxFIFOSizeVal == 0 || (46 % TxFIFOSizeVal == 0 &amp;&amp; 46 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="48" value="48" visible="`${TxFIFOSizeVal == 0 || (48 % TxFIFOSizeVal == 0 &amp;&amp; 48 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="50" value="50" visible="`${TxFIFOSizeVal == 0 || (50 % TxFIFOSizeVal == 0 &amp;&amp; 50 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="52" value="52" visible="`${TxFIFOSizeVal == 0 || (52 % TxFIFOSizeVal == 0 &amp;&amp; 52 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="54" value="54" visible="`${TxFIFOSizeVal == 0 || (54 % TxFIFOSizeVal == 0 &amp;&amp; 54 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="56" value="56" visible="`${TxFIFOSizeVal == 0 || (56 % TxFIFOSizeVal == 0 &amp;&amp; 56 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="58" value="58" visible="`${TxFIFOSizeVal == 0 || (58 % TxFIFOSizeVal == 0 &amp;&amp; 58 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="60" value="60" visible="`${TxFIFOSizeVal == 0 || (60 % TxFIFOSizeVal == 0 &amp;&amp; 60 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="62" value="62" visible="`${TxFIFOSizeVal == 0 || (62 % TxFIFOSizeVal == 0 &amp;&amp; 62 &lt;= (64 - TxFIFOSizeVal))}`" />
+      <Entry name="64" value="64" visible="`${TxFIFOSizeVal == 0 || (64 % TxFIFOSizeVal == 0 &amp;&amp; 64 &lt;= (64 - TxFIFOSizeVal))}`" />
+    </ParamChoice>
+    <ParamRange id="TxFIFOLimit" name="Transmit FIFO Limit" group="FIFO Settings" default="1" min="0" max="`${(TxFIFOSizeVal > 0) ? (TxFIFOSizeVal - 1) : 1}`" resolution="1" visible="true" editable="`${TxFIFOSizeVal>0}`" desc="Transmit FIFO limit" />
+
+
+    <!--Advanced Settings-->
+    <ParamBool id="HwTransferGatingEnabled" name="Hardware Controlled Transfer Gating" group="Advanced Settings" default="false" visible="true" editable="true" desc="Enables hardware gated transfer based on DX2 input." />
+    <ParamChoice id="HwTransferGatingLogic" name="Select Hardware Transfer Gating Logic" group="Advanced Settings" default="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_0" visible="`${HwTransferGatingEnabled}`" editable="true" desc="Selects gating logic for the transmission of a data word in TBUF.">
+      <Entry name="Transfer on low (DX2S=0)" value="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_0" visible="true" />
+      <Entry name="Transfer on low (DX2S=1)" value="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="HwTransferTriggerEnabled" name="Hardware Controlled Transfer Triggering" group="Advanced Settings" default="false" visible="true" editable="true" desc="Enables hardware triggered transfer based on DX2 input." />
+    <ParamChoice id="HwTransferTriggerEdge" name="Select Hardware Transfer Triggering Edge" group="Advanced Settings" default="XMC_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE" visible="`${HwTransferTriggerEnabled}`" editable="true" desc="Selects transfer trigger edge for the triggered transmission of a data word in TBUF.">
+      <Entry name="Rising Edge of DX2T" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE" visible="true" />
+      <Entry name="Falling Edge of DX2T" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_FALLING_EDGE" visible="true" />
+      <Entry name="Both Edges of DX2T" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_BOTH_EDGES" visible="true" />
+    </ParamChoice>
+    <ParamBool id="TimeMeasurementEnabled" name="Capture Mode Timer" group="Advanced Settings" default="false" visible="`${Master}`" editable="true" desc="Enables the timing measurement of the capture mode timer." />
+
+    <!-- Connections -->
+    <Repeat count="4">
+      <ParamMux id="dout$idx" name="DOUT$idx" group="Connections">
+        <Common port="dout$idx[0]" />
+        <Arm name="DOUT$idx" desc="Dout$idx signal connection." visible="`${((OperationMode eq XMC_SPI_CH_MODE_STANDARD_HALFDUPLEX) || (OperationMode eq XMC_SPI_CH_MODE_STANDARD)) &amp;&amp; ($idx eq 0)}`" canBeEmpty="`${(OperationMode eq XMC_SPI_CH_MODE_DUAL) || (OperationMode eq XMC_SPI_CH_MODE_QUAD) || !($idx eq 0)}`" multiSelect="false" group="Connections">
+          <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" />
+        </Arm>
+        <Arm name="DOUT$idx" desc="Dout$idx signal connection." visible="`${((OperationMode eq XMC_SPI_CH_MODE_DUAL) || (OperationMode eq XMC_SPI_CH_MODE_QUAD)) &amp;&amp; ($idx eq 0)}`" canBeEmpty="`${(OperationMode eq XMC_SPI_CH_MODE_STANDARD_HALFDUPLEX) || (OperationMode eq XMC_SPI_CH_MODE_STANDARD) || !($idx eq 0)}`" multiSelect="true" group="Connections">
+          <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+            <Parameter id="io_function" severity="DEFAULT" reason="">
+              <Fixed value="XMC_GPIO_HWCTRL" />
+            </Parameter>
+            <Parameter id="output_strength" severity="DEFAULT" reason="">
+              <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+            </Parameter>
+          </Constraint>
+        </Arm>
+        <Arm name="DOUT$idx" desc="Dout$idx signal connection." visible="`${((OperationMode eq XMC_SPI_CH_MODE_DUAL) &amp;&amp; ($idx eq 1)) || ((OperationMode eq XMC_SPI_CH_MODE_QUAD) &amp;&amp; !($idx eq 0))}`" canBeEmpty="`${(OperationMode eq XMC_SPI_CH_MODE_STANDARD_HALFDUPLEX) || (OperationMode eq XMC_SPI_CH_MODE_STANDARD) || ((OperationMode eq XMC_SPI_CH_MODE_DUAL) &amp;&amp; !($idx eq 1)) || ((OperationMode eq XMC_SPI_CH_MODE_QUAD) &amp;&amp; ($idx eq 0))}`" multiSelect="false" group="Connections">
+          <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+            <Parameter id="io_function" severity="DEFAULT" reason="">
+              <Fixed value="XMC_GPIO_HWCTRL" />
+            </Parameter>
+            <Parameter id="output_strength" severity="DEFAULT" reason="">
+              <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+            </Parameter>
+          </Constraint>
+        </Arm>
+      </ParamMux>
+      <ParamSignal port="hwin$idx[0]" name="DIN$idx" group="Connections" visible="`${((OperationMode eq XMC_SPI_CH_MODE_DUAL) &amp;&amp; ($idx &lt; 2)) || (OperationMode eq XMC_SPI_CH_MODE_QUAD) }`" desc="Hwin$idx signal connection." canBeEmpty="`${(OperationMode eq XMC_SPI_CH_MODE_STANDARD) || (OperationMode eq XMC_SPI_CH_MODE_STANDARD_HALFDUPLEX) || ((OperationMode eq XMC_SPI_CH_MODE_DUAL) &amp;&amp; !($idx &lt; 2))}`" multiSelect="false">
+        <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+          <Parameter id="io_function" severity="DEFAULT" reason="">
+            <Fixed value="XMC_GPIO_HWCTRL" />
+          </Parameter>
+          <Parameter id="output_strength" severity="DEFAULT" reason="">
+            <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+          </Parameter>
+        </Constraint>
+      </ParamSignal>
+    </Repeat>
+    <ParamSignal port="dx0[0]" name="DIN0 [dx0]" group="Connections" visible="`${(OperationMode eq XMC_SPI_CH_MODE_STANDARD_HALFDUPLEX) || (OperationMode eq XMC_SPI_CH_MODE_STANDARD)}`" desc="DX0 signal connection." canBeEmpty="`${(OperationMode eq XMC_SPI_CH_MODE_DUAL) || (OperationMode eq XMC_SPI_CH_MODE_QUAD)}`" multiSelect="false" />
+    <ParamSignal port="sclkout[0]" name="SCLKOUT [sclkout]" group="Connections" visible="`${Master}`" desc="Master Clock signal connection." canBeEmpty="`${Slave}`" multiSelect="false">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" />
+    </ParamSignal>
+    <ParamString id="dx1_name" name="dx1 Port Name" group="Connections" default="`${(getParamValueDisplay(&quot;DX1InputStageMaster&quot;))}`" visible="false" editable="false" desc="" />
+    <ParamSignal port="dx1[0]" name="`${dx1_name}` [dx1]" group="Connections" visible="`${DX1InputStageMaster ne DX1None}`" desc="Slave Clock signal connection." canBeEmpty="`${DX1InputStageMaster eq DX1None}`" multiSelect="false" />
+    <Repeat count="8">
+      <ParamSignal port="selo$idx[0]" name="SELO$idx [selo$idx]" group="Connections" visible="`${(SlaveSelectMode eq $idx) &amp;&amp; Master}`" desc="selo$idx signal connection." canBeEmpty="`${(SlaveSelectMode ne $idx) || Slave}`" multiSelect="false">
+        <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" />
+      </ParamSignal>
+    </Repeat>
+    <ParamString id="dx2_name" name="dx2 Port Name" group="Connections" default="`${(getParamValueDisplay(&quot;DX2InputStageMaster&quot;))}`" visible="false" editable="false" desc="" />
+    <ParamSignal port="dx2[0]" name="`${dx2_name}` [dx2]" group="Connections" visible="`${DX2InputStageMaster ne DX2None}`" desc="DX2 signal connection." canBeEmpty="`${DX2InputStageMaster eq DX2None}`" multiSelect="false" />
+    <ParamBool id="ShowSystemRelatedOutputs" name="System Related Outputs" group="Connections" default="false" visible="true" editable="true" desc="Enables the system related output signals configuration."/>
+    <Repeat count="6">
+      <ParamSignal port="dx$idxins[0]" name="DX$idxINS " group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;dx$idxins[0]&quot;)}`" desc="Selected DX$idx input signal output." canBeEmpty="true" multiSelect="true" />
+    </Repeat>
+    <Repeat count="6">
+      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal." canBeEmpty="true" multiSelect="true" />
+    </Repeat>
+
+    <ParamBool id="StartAfterInit" name="Start After Initialization" group="Advanced" default="true" visible="true" editable="true" desc="If enabled the SPI will be started at the end of the initialization." />
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+
+    <ParamString id="valueDout" name="Dout Value" group="Internal" default="`${getMuxArmSignal(&quot;dout0&quot;, 1)}`" visible="false" editable="false" desc="" />
+    <!-- For multi-connect signals, getBlockFromSignal will return a value if all connected signals are from the same block, otherwise it will return empty string.
+         This parameter will be used in DRC to ensure both DOUT0 signals in Dual and Quad modes are connected to the same pin -->
+    <ParamString id="pinDout" name="Dout Pin" group="Internal" default="`${getBlockFromSignal(&quot;valueDout&quot;)}`" visible="false" editable="false" desc="" />
+  </Parameters>
+
+  <!-- DRC -->
+  <DRCs>
+    <DRC type="ERROR" text="DOUT0 connections should use the same pin: `${valueDout}`" condition="`${(valueDout ne &quot;&quot;) &amp;&amp; (pinDout eq &quot;&quot;)}`" />
+    <DRC type="INFO" text="Enable 'DX$idxINS' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;dx$idxins&quot;, 0)}`" repeatCount="6">
+      <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
+    </DRC>
+    <DRC type="INFO" text="Enable 'SR$idx' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;sr$idx&quot;, 0)}`" repeatCount="6">
+      <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
+    </DRC>
+  </DRCs>
+
+  <ConfigFirmware>
+    <!-- Config setup -->
+    <ConfigInclude value="cycfg_routing.h" include="true" />
+    <ConfigInclude value="xmc_spi.h" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${ChannelNumber}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_HW" value="XMC_SPI`${InstNumber}`_CH`${ChannelNumber}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_SS_CHANNEL" value="XMC_SPI_CH_SLAVE_SELECT_`${SlaveSelectMode}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_RXFIFO_SIZE" value="`${RxFIFOSize}`" public="true" include="`${RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
+    <ConfigDefine name="`${INST_NAME}`_RXFIFO_DPTR" value="`${RxFIFOPointer}`" public="true" include="`${RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
+    <ConfigDefine name="`${INST_NAME}`_RXFIFO_LIMIT" value="`${RxFIFOLimit}`" public="true" include="`${RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
+    <ConfigDefine name="`${INST_NAME}`_TXFIFO_SIZE" value="`${TxFIFOSize}`" public="true" include="`${TxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
+    <ConfigDefine name="`${INST_NAME}`_TXFIFO_DPTR" value="`${TxFIFOPointer}`" public="true" include="`${TxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
+    <ConfigDefine name="`${INST_NAME}`_TXFIFO_LIMIT" value="`${TxFIFOLimit}`" public="true" include="`${TxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
+    <ConfigDefine name="`${INST_NAME}`_TRANSMIT_BUFFER_EVENT_HANDLER" value="USIC`${InstNumber}`_`${TransmitBufferInterruptSRSel}`_IRQHandler" public="true" include="`${TransmitBufferInterrupt || ReceiverStartInterrupt}`" />
+    <ConfigDefine name="`${INST_NAME}`_TRANSMIT_BUFFER_EVENT_IRQN" value="USIC`${InstNumber}`_`${TransmitBufferInterruptSRSel}`_IRQn" public="true" include="`${TransmitBufferInterrupt || ReceiverStartInterrupt}`" />
+    <ConfigDefine name="`${INST_NAME}`_TRANSMIT_SHIFT_EVENT_HANDLER" value="USIC`${InstNumber}`_`${TransmitShiftInterruptSRSel}`_IRQHandler" public="true" include="`${TransmitShiftInterrupt}`" />
+    <ConfigDefine name="`${INST_NAME}`_TRANSMIT_SHIFT_EVENT_IRQN" value="USIC`${InstNumber}`_`${TransmitShiftInterruptSRSel}`_IRQn" public="true" include="`${TransmitShiftInterrupt}`" />
+    <ConfigDefine name="`${INST_NAME}`_RECEIVE_EVENT_HANDLER" value="USIC`${InstNumber}`_`${ReceiverInterruptSRSel}`_IRQHandler" public="true" include="`${ReceiverInterrupt}`" />
+    <ConfigDefine name="`${INST_NAME}`_RECEIVE_EVENT_IRQN" value="USIC`${InstNumber}`_`${ReceiverInterruptSRSel}`_IRQn" public="true" include="`${ReceiverInterrupt}`" />
+    <ConfigDefine name="`${INST_NAME}`_ALTERNATE_RECEIVE_EVENT_HANDLER" value="USIC`${InstNumber}`_`${AlternativeInterruptSRSel}`_IRQHandler" public="true" include="`${AlternativeInterrupt}`" />
+    <ConfigDefine name="`${INST_NAME}`_ALTERNATE_RECEIVE_EVENT_IRQN" value="USIC`${InstNumber}`_`${AlternativeInterruptSRSel}`_IRQn" public="true" include="`${AlternativeInterrupt}`" />
+    <ConfigDefine name="`${INST_NAME}`_PROTOCOL_EVENT_HANDLER" value="USIC`${InstNumber}`_`${ProtocolEventSRSel}`_IRQHandler" public="true" include="`${DataLostEvent || ProtocolEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_PROTOCOL_EVENT_IRQN" value="USIC`${InstNumber}`_`${ProtocolEventSRSel}`_IRQn" public="true" include="`${DataLostEvent || ProtocolEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_TRANSMIT_BUFFER_STANDARD_EVENT_HANDLER" value="USIC`${InstNumber}`_`${StandardTransmitBufferEventSRSel}`_IRQHandler" public="true" include="`${StandardTransmitBufferEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_TRANSMIT_BUFFER_STANDARD_EVENT_IRQN" value="USIC`${InstNumber}`_`${StandardTransmitBufferEventSRSel}`_IRQn" public="true" include="`${StandardTransmitBufferEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_TRANSMIT_BUFFER_ALTERNATE_EVENT_HANDLER" value="USIC`${InstNumber}`_`${TransmitBufferErrorEventSRSel}`_IRQHandler" public="true" include="`${TransmitBufferErrorEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_TRANSMIT_BUFFER_ALTERNATE_EVENT_IRQN" value="USIC`${InstNumber}`_`${TransmitBufferErrorEventSRSel}`_IRQn" public="true" include="`${TransmitBufferErrorEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_RECEIVE_BUFFER_STANDARD_EVENT_HANDLER" value="USIC`${InstNumber}`_`${StandardReceiveBufferEventSRSel}`_IRQHandler" public="true" include="`${StandardReceiveBufferEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_RECEIVE_BUFFER_STANDARD_EVENT_IRQN" value="USIC`${InstNumber}`_`${StandardReceiveBufferEventSRSel}`_IRQn" public="true" include="`${StandardReceiveBufferEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_RECEIVE_BUFFER_ALTERNATE_EVENT_HANDLER" value="USIC`${InstNumber}`_`${ReceiveBufferErrorEventSRSel}`_IRQHandler" public="true" include="`${ReceiveBufferErrorEvent}`" />
+    <ConfigDefine name="`${INST_NAME}`_RECEIVE_BUFFER_ALTERNATE_EVENT_IRQN" value="USIC`${InstNumber}`_`${ReceiveBufferErrorEventSRSel}`_IRQn" public="true" include="`${ReceiveBufferErrorEvent}`" />
+
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_SPI_CH_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="baudrate" value="`${Master ? BaudRateVal . &quot;U&quot; : &quot;0U&quot;}`" />
+      <Member name="bus_mode" value="`${DeviceType}`" />
+      <Member name="selo_inversion" value="`${InvertTheSignalPolarityOfSELOxSignals ? &quot;XMC_SPI_CH_SLAVE_SEL_INV_TO_MSLS&quot; : &quot;XMC_SPI_CH_SLAVE_SEL_SAME_AS_MSLS&quot;}`" />
+      <Member name="parity_mode" value="`${ParityMode}`" />
+    </ConfigStruct>
+
+    <ConfigInstruction value="XMC_SPI_CH_InitEx(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_config, true);" include="true" />
+    <ConfigInstruction value="XMC_SPI_CH_SetBitOrderMsbFirst(`${INST_NAME}`_HW);" include="`${DataShiftDirection eq XMC_USIC_CH_SHIFT_DIRECTION_MSB_FIRST}`" />
+    <ConfigInstruction value="XMC_SPI_CH_SetBitOrderLsbFirst(`${INST_NAME}`_HW);" include="`${DataShiftDirection eq XMC_USIC_CH_SHIFT_DIRECTION_LSB_FIRST}`" />
+    <ConfigInstruction value="XMC_USIC_CH_SetStartTransmisionMode(`${INST_NAME}`_HW, `${TypeOfDataValidation}`);" include="`${Master &amp;&amp; (DX2InputStageMaster eq TransmitDataValidation) &amp;&amp; (TypeOfDataValidation ne XMC_USIC_CH_START_TRANSMISION_ON_TDV)}`" />
+    <ConfigInstruction value="XMC_USIC_CH_SetInputTriggerCombinationMode(`${INST_NAME}`_HW, XMC_USIC_CH_INPUT_DX2, `${TriggeringEdgeForDataValidationOnEvent}`);" include="`${Master &amp;&amp; (DX2InputStageMaster eq TransmitDataValidation) &amp;&amp; (TypeOfDataValidation eq XMC_USIC_CH_START_TRANSMISION_ON_TDV)}`" />
+    <ConfigInstruction value="XMC_USIC_CH_EnableTBUFDataValidTrigger(`${INST_NAME}`_HW);" include="`${Master &amp;&amp; (DX2InputStageMaster eq TransmitDataValidation) &amp;&amp; (TypeOfDataValidation eq XMC_USIC_CH_START_TRANSMISION_ON_TDV)}`" />
+    <ConfigInstruction value="XMC_SPI_CH_SetWordLength(`${INST_NAME}`_HW, `${WordLength}`U);" include="true" />
+    <ConfigInstruction value="XMC_SPI_CH_SetFrameLength(`${INST_NAME}`_HW, `${FrameLength}`U);" include="true" />
+    <ConfigInstruction value="XMC_SPI_CH_SetTransmitMode(`${INST_NAME}`_HW, `${OperationMode}`);" include="true" />
+
+    <ConfigInstruction value="XMC_SPI_CH_SetInputSource(`${INST_NAME}`_HW, XMC_SPI_CH_INPUT_DIN0, USIC`${InstNumber}`_CH`${ChannelNumber}`_DX0CR_DSEL_VALUE);" include="`${hasConnection(&quot;dx0&quot;, 0)}`" />
+    <ConfigInstruction value="XMC_SPI_CH_SetInputSource(`${INST_NAME}`_HW, XMC_SPI_CH_INPUT_SLAVE_SCLKIN, USIC`${InstNumber}`_CH`${ChannelNumber}`_DX1CR_DSEL_VALUE);" include="`${hasConnection(&quot;dx1&quot;, 0)}`" />
+    <ConfigInstruction value="XMC_SPI_CH_SetInputSource(`${INST_NAME}`_HW, XMC_SPI_CH_INPUT_SLAVE_SELIN, USIC`${InstNumber}`_CH`${ChannelNumber}`_DX2CR_DSEL_VALUE);" include="`${hasConnection(&quot;dx2&quot;, 0)}`" />
+
+    <ConfigInstruction value="XMC_USIC_CH_SetFractionalDivider(`${INST_NAME}`_HW, `${ClockDividerMode}`, `${ClockDividerStep}`U);" include="`${Master}`" />
+    <ConfigInstruction value="XMC_USIC_CH_SetBaudrateDivider(`${INST_NAME}`_HW, `${BaudRateGeneratorClockSrc}`, false, `${PDiv}`U, XMC_USIC_CH_BRG_CTQSEL_PDIV, 0U, `${Oversampling - 1}`U);" include="`${Master}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableFEM(`${INST_NAME}`_HW);" include="`${KeepTheSlaveSelectSignalActive}`" />
+    <ConfigInstruction value="XMC_SPI_CH_DisableFEM(`${INST_NAME}`_HW);" include="`${!KeepTheSlaveSelectSignalActive}`" />
+    <ConfigInstruction value="XMC_SPI_CH_ConfigureShiftClockOutput(`${INST_NAME}`_HW, `${ShiftClockSignalSclkout}`, XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT_SCLK);" include="`${Master || (Slave &amp;&amp; (SclkoutOutputSlave ne SCLKOUTNone) &amp;&amp; !EnableDelayCompensation)}`" />
+    <ConfigInstruction value="XMC_SPI_CH_ConfigureShiftClockOutput(`${INST_NAME}`_HW, `${ShiftClockSignalSclkout}`, XMC_SPI_CH_BRG_SHIFT_CLOCK_OUTPUT_DX1);" include="`${Slave &amp;&amp; EnableDelayCompensation}`" />
+    <ConfigInstruction value="XMC_SPI_CH_SetInterwordDelaySCLK(`${INST_NAME}`_HW, `${DesiredDelayCycles}`);" include="`${DesiredDelayCycles ne 0}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableInterwordDelay(`${INST_NAME}`_HW);" include="`${DesiredDelayCycles ne 0}`" />
+    <ConfigInstruction value="XMC_SPI_CH_DisableSlaveSelect(`${INST_NAME}`_HW);" include="`${Master}`" />
+    <ConfigInstruction value="XMC_SPI_CH_SetSlaveSelectPolarity(`${INST_NAME}`_HW, `${InvertTheSignalPolarityOfSELOxSignals ? &quot;XMC_SPI_CH_SLAVE_SEL_INV_TO_MSLS&quot; : &quot;XMC_SPI_CH_SLAVE_SEL_SAME_AS_MSLS&quot;}`);" include="`${Master}`" />
+    <ConfigInstruction value="XMC_SPI_CH_DisableSlaveSelectCodedMode(`${INST_NAME}`_HW);" include="`${Master &amp;&amp; (SelectControl eq Direct)}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableSlaveSelectCodedMode(`${INST_NAME}`_HW);" include="`${Master &amp;&amp; (SelectControl eq Codded)}`" />
+    <ConfigInstruction value="XMC_SPI_CH_SetSlaveSelectDelay(`${INST_NAME}`_HW, `${DesiredDelayClockCycles}`);" include="`${Master}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableSlaveSelect(`${INST_NAME}`_HW, XMC_SPI_CH_SLAVE_SELECT_`${SlaveSelectMode}`);" include="`${Master &amp;&amp; NumberOfSlaveSelectLines ne 0}`" />
+
+    <ConfigInstruction value="XMC_USIC_CH_TXFIFO_Configure(`${INST_NAME}`_HW, `${INST_NAME}`_TXFIFO_DPTR, `${INST_NAME}`_TXFIFO_SIZE, `${INST_NAME}`_TXFIFO_LIMIT);" include="`${TxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
+    <ConfigInstruction value="XMC_USIC_CH_RXFIFO_Configure(`${INST_NAME}`_HW, `${INST_NAME}`_RXFIFO_DPTR, `${INST_NAME}`_RXFIFO_SIZE, `${INST_NAME}`_RXFIFO_LIMIT);" include="`${RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
+    <ConfigInstruction value="XMC_USIC_CH_TXFIFO_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_TXFIFO_INTERRUPT_NODE_POINTER_STANDARD, `${StandardTransmitBufferEventSRSel}`U);" include="`${StandardTransmitBufferEvent}`" />
+    <ConfigInstruction value="XMC_USIC_CH_TXFIFO_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_TXFIFO_INTERRUPT_NODE_POINTER_ALTERNATE, `${TransmitBufferErrorEventSRSel}`U);" include="`${TransmitBufferErrorEvent}`" />
+    <ConfigInstruction value="XMC_USIC_CH_RXFIFO_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_RXFIFO_INTERRUPT_NODE_POINTER_STANDARD, `${StandardReceiveBufferEventSRSel}`U);" include="`${StandardReceiveBufferEvent}`" />
+    <ConfigInstruction value="XMC_USIC_CH_RXFIFO_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_RXFIFO_INTERRUPT_NODE_POINTER_ALTERNATE, `${ReceiveBufferErrorEventSRSel}`U);" include="`${ReceiveBufferErrorEvent}`" />
+
+    <ConfigInstruction value="XMC_USIC_CH_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_BUFFER, `${TransmitBufferInterruptSRSel}`U);" include="`${TransmitBufferInterrupt || ReceiverStartInterrupt}`" />
+    <ConfigInstruction value="XMC_USIC_CH_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_INTERRUPT_NODE_POINTER_TRANSMIT_SHIFT, `${TransmitShiftInterruptSRSel}`U);" include="`${TransmitShiftInterrupt}`" />
+    <ConfigInstruction value="XMC_USIC_CH_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_INTERRUPT_NODE_POINTER_RECEIVE, `${ReceiverInterruptSRSel}`U);" include="`${ReceiverInterrupt}`" />
+    <ConfigInstruction value="XMC_USIC_CH_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_INTERRUPT_NODE_POINTER_ALTERNATE_RECEIVE, `${AlternativeInterruptSRSel}`U);" include="`${AlternativeInterrupt}`" />
+    <ConfigInstruction value="XMC_USIC_CH_SetInterruptNodePointer(`${INST_NAME}`_HW, XMC_USIC_CH_INTERRUPT_NODE_POINTER_PROTOCOL, `${ProtocolRelatedInterruptSel}`);" include="`${ProtocolRelatedInterrupt}`" />
+
+    <ConfigInstruction value="XMC_SPI_CH_EnableInputInversion(`${INST_NAME}`_HW, XMC_SPI_CH_INPUT_SLAVE_SELIN);" include="`${(DX1InputStageMaster ne DX1None) &amp;&amp; InvertSignalPolarityOfDX1}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableInputInversion(`${INST_NAME}`_HW, XMC_SPI_CH_INPUT_SLAVE_SCLKIN);" include="`${(DX2InputStageMaster ne DX2None) &amp;&amp; InvertSignalPolarityOfDX2}`" />
+    <ConfigInstruction value="XMC_USIC_CH_SetDataOutputMode(`${INST_NAME}`_HW, XMC_USIC_CH_DATA_OUTPUT_MODE_INVERTED);" include="`${(Master || (Slave &amp;&amp; (SclkoutOutputSlave ne SCLKOUTNone))) &amp;&amp; InvertSignalPolarityOfOutputSignals}`" />
+    <ConfigInstruction value="XMC_USIC_CH_EnableDelayCompensation(`${INST_NAME}`_HW);" include="`${EnableDelayCompensation}`" />
+    <ConfigInstruction value="XMC_USIC_CH_DisableDelayCompensation(`${INST_NAME}`_HW);" include="`${!EnableDelayCompensation}`" />
+
+    <!-- Protocol events setup -->
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_TRANSMIT_BUFFER);" include="`${TransmitBufferInterrupt}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_TRANSMIT_SHIFT);" include="`${TransmitShiftInterrupt}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_RECEIVE_START);" include="`${ReceiverStartInterrupt}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_STANDARD_RECEIVE);" include="`${ReceiverInterrupt}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_ALTERNATIVE_RECEIVE);" include="`${AlternativeInterrupt}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_DATA_LOST);" include="`${DataLostEvent}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_MSLS_CHANGE);" include="`${MSLSEvent}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_BAUD_RATE_GENERATOR);" include="`${BoudRateGeneratorEvent}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_DATA_LOST);" include="`${DataLostEvent}`" />
+    <ConfigInstruction value="XMC_SPI_CH_EnableEvent(`${INST_NAME}`_HW, XMC_SPI_CH_EVENT_DX2TIEN_ACTIVATED);" include="`${DX2TEvent}`" />
+
+    <ConfigInstruction value="XMC_USIC_CH_TXFIFO_EnableEvent(`${INST_NAME}`_HW, (uint32_t)XMC_USIC_CH_TXFIFO_EVENT_CONF_STANDARD);" include="`${(TxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED) &amp;&amp; StandardTransmitBufferEvent}`" />
+    <ConfigInstruction value="XMC_USIC_CH_TXFIFO_EnableEvent(`${INST_NAME}`_HW, (uint32_t)XMC_USIC_CH_TXFIFO_EVENT_CONF_ERROR);" include="`${(TxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED) &amp;&amp; TransmitBufferErrorEvent}`" />
+    <ConfigInstruction value="XMC_USIC_CH_RXFIFO_EnableEvent(`${INST_NAME}`_HW, (uint32_t)XMC_USIC_CH_RXFIFO_EVENT_CONF_STANDARD);" include="`${(RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED) &amp;&amp; StandardReceiveBufferEvent}`" />
+    <ConfigInstruction value="XMC_USIC_CH_RXFIFO_EnableEvent(`${INST_NAME}`_HW, (uint32_t)XMC_USIC_CH_RXFIFO_EVENT_CONF_ERROR);" include="`${(RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED) &amp;&amp; ReceiveBufferErrorEvent}`" />
+
+    <ConfigInstruction value="XMC_SPI_CH_EnableMasterClock(`${INST_NAME}`_HW);" include="`${MclkoutOutput ne MCLKOUTNone}`" />
+    <ConfigInstruction value="XMC_SPI_CH_Start(`${INST_NAME}`_HW);" include="`${StartAfterInit}`" />
+  </ConfigFirmware>
+
+</Personality>

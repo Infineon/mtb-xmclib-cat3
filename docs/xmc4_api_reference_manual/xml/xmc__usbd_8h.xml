@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__usbd_8h" kind="file" language="C++">
     <compoundname>xmc_usbd.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="no">stdlib.h</includes>
     <includes local="no">string.h</includes>
     <includes local="yes">xmc_usbd_regs.h</includes>
@@ -17,19 +17,14 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="3">
-        <label>stdlib.h</label>
-      </node>
-      <node id="4">
-        <label>string.h</label>
       </node>
       <node id="2">
-        <label>xmc_common.h</label>
+        <label>stdlib.h</label>
       </node>
-      <node id="5">
+      <node id="3">
+        <label>string.h</label>
+      </node>
+      <node id="4">
         <label>xmc_usbd_regs.h</label>
       </node>
     </incdepgraph>

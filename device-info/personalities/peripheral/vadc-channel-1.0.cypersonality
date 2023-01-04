@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file vadc-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* VADC personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_vadc-ch" name="VADC-CHANNEL" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_vadc" />
+    <Resource name="vadc\.group\.ch" />
+  </Dependencies>
+  <ExposedMembers></ExposedMembers>
+  <Parameters>
+    <!-- Internal -->
+    <ParamString id="ip_version" name="IP Block Version" group="Internal" default="`${getVersion()}`" visible="false" editable="false" desc="" />
+    <ParamBool id="ip_ver1" name="IP Block Version 1" desc="True for XMC1 series." group="Internal" default="`${ip_version == 1}`" visible="false" editable="false" />
+    <ParamBool id="xmc11_dont_include" name="XMC11 Series" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;1100&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC1100 is selected." />
+    <ParamBool id="xmc4500_dont_include" name="XMC4500" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4500&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4500 is selected." />
+    <ParamBool id="xmc4502_dont_include" name="XMC4502" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4502&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4502 is selected." />
+    <ParamBool id="xmc4504_dont_include" name="XMC4504" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4504&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4504 is selected." />
+    <ParamBool id="xmc45_dont_include" name="XMC45 Series" group="Internal" default="`${xmc4500_dont_include || xmc4502_dont_include || xmc4504_dont_include}`" visible="false" editable="false" desc="True when the XMC4500 is selected." />
+    <ParamString id="group_instance" name="Group Instance" group="Internal" default="vadc[0].group[`${getInstNumber(&quot;group&quot;)}`]" visible="false" editable="false" desc="VADC Channel index." />
+    <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(group_instance)}`" visible="false" editable="false" desc="True when the VADC Group module resource is not enabled." />
+    <ParamString id="group_num" name="Group Number" group="Internal" default="`${getInstNumber(&quot;group&quot;)}`" visible="false" editable="false" desc="VADC Group index." />
+    <ParamString id="group_base" name="Group Base" group="Internal" default="`${getExposedMember(group_instance, &quot;group_base&quot;)}`" visible="false" editable="false" desc="VADC Group base address pointer." />
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;ch&quot;)}`" visible="false" editable="false" desc="VADC Channel index." />
+    <Repeat count="4">
+      <ParamString id="flag_invert_id_$idx" name="VADC Group Instance Flag Invert Setting $idx" group="Internal" default="group_other_boundaries_flag_invert_id_$idx" visible="false" editable="false" desc="VADC Channel index." />
+      <ParamString id="flag_enable_id_$idx" name="VADC Group Instance Flag Enable Setting $idx" group="Internal" default="group_other_boundaries_flag_enable_id_$idx" visible="false" editable="false" desc="VADC Channel index." />
+      <ParamString id="flag_activation_id_$idx" name="VADC Group Instance Flag Activation Setting $idx" group="Internal" default="group_other_boundaries_flag_activation_id_$idx" visible="false" editable="false" desc="VADC Channel index." />
+      <ParamString id="flag_operation_id_$idx" name="VADC Group Instance Flag Operation Setting $idx" group="Internal" default="group_other_boundaries_flag_operation_id_$idx" visible="false" editable="false" desc="VADC Channel index." />
+    </Repeat>
+    <Repeat count="8">
+      <ParamString id="result_register_id_$idx" name="VADC Group Instance Flag Operation Setting $idx" group="Internal" default="group_channels_result_register_id_$idx" visible="false" editable="false" desc="VADC Channel index." />
+    </Repeat>
+    <ParamString id="group_channels_result_register_id" name="VADC Channel Number" group="Internal" default="result_register_id_`${channel_num}`" visible="false" editable="false" desc="VADC Channel index." />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc`${ip_ver1 ? 1 : 4}`_api_reference_manual/html/group___v_a_d_c.html" linkText="Open VADC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!-- Channel personality settings -->
+    <!-- Channel Configuration -->
+    <ParamChoice id="group_channels_input_class_id" name="Input Class" group="Channel Configuration" default="XMC_VADC_CHANNEL_CONV_GROUP_CLASS0" visible="true" editable="true" desc="The conversion classes set the properties of conversion, like resolution, sampling time etc.">
+      <Entry name="Group-Specific Class 0" value="XMC_VADC_CHANNEL_CONV_GROUP_CLASS0" visible="true" />
+      <Entry name="Group-Specific Class 1" value="XMC_VADC_CHANNEL_CONV_GROUP_CLASS1" visible="true" />
+      <Entry name="Global Class 0" value="XMC_VADC_CHANNEL_CONV_GLOBAL_CLASS0" visible="true" />
+      <Entry name="Global Class 1" value="XMC_VADC_CHANNEL_CONV_GLOBAL_CLASS1" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_channels_result_target_background_source_id" name="Result Target for Background Source" group="Channel Configuration" default="0" visible="true" editable="true" desc="Use global result register or group result register for background request source channels.">
+      <Entry name="Group Result Register" value="0" visible="true" />
+      <Entry name="Global Result Register" value="1" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_channels_store_results_id" name="Store Results" group="Channel Configuration" default="XMC_VADC_RESULT_ALIGN_LEFT" visible="true" editable="true" desc="Alignment of the converted result. Left-Aligned: The converted results are left aligned the MSB starting from bit position-12. Right-Aligned: The converted results are right aligned, the lsb starting from bit position-0.">
+      <Entry name="Left-Aligned" value="XMC_VADC_RESULT_ALIGN_LEFT" visible="true" />
+      <Entry name="Right-Aligned" value="XMC_VADC_RESULT_ALIGN_RIGHT" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_channels_generate_channel_event_id" name="Generate a Channel Event" group="Channel Configuration" default="XMC_VADC_CHANNEL_EVGEN_NEVER" visible="true" editable="true" desc="Defines the criteria for event generation by the channel.">
+      <Entry name="Never" value="XMC_VADC_CHANNEL_EVGEN_NEVER" visible="true" />
+      <Entry name="If Result is Inside The Boundary Band" value="XMC_VADC_CHANNEL_EVGEN_INBOUND" visible="true" />
+      <Entry name="If Result is Outside The Boundary Band" value="XMC_VADC_CHANNEL_EVGEN_OUTBOUND" visible="true" />
+      <Entry name="Always (ignore band)" value="XMC_VADC_CHANNEL_EVGEN_ALWAYS" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_channels_broken_wire_detection_channel_id" name="Broken Wire Detection Channel" group="Channel Configuration" default="XMC_VADC_CHANNEL_BWDCH_VAGND" visible="true" editable="true" desc="V_AGND: Capacitor pre-charged to ground. V_AREF: Capacitor pre-charged to reference voltage.">
+      <Entry name="V_AGND" value="XMC_VADC_CHANNEL_BWDCH_VAGND" visible="true" />
+      <Entry name="V_AREF" value="XMC_VADC_CHANNEL_BWDCH_VAREF" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_channels_alias_value_for_conversion_requests_id" name="Alias Value for Conversion Requests" group="Channel Configuration" default="XMC_VADC_CHANNEL_ALIAS_DISABLED" visible="`${channel_num &lt; 2}`" editable="true" desc="Alias channel for the conversion. Note: Only available for Channel 0 and Channel 1.">
+      <Entry name="None" value="XMC_VADC_CHANNEL_ALIAS_DISABLED" visible="true" />
+      <Entry name="Channel 0" value="XMC_VADC_CHANNEL_ALIAS_CH0" visible="`${channel_num != 0}`" />
+      <Entry name="Channel 1" value="XMC_VADC_CHANNEL_ALIAS_CH1" visible="`${channel_num != 1}`" />
+      <Entry name="Channel 2" value="XMC_VADC_CHANNEL_ALIAS_CH2" visible="`${channel_num != 2}`" />
+      <Entry name="Channel 3" value="XMC_VADC_CHANNEL_ALIAS_CH3" visible="`${channel_num != 3}`" />
+      <Entry name="Channel 4" value="XMC_VADC_CHANNEL_ALIAS_CH4" visible="`${channel_num != 4}`" />
+      <Entry name="Channel 5" value="XMC_VADC_CHANNEL_ALIAS_CH5" visible="`${channel_num != 5}`" />
+      <Entry name="Channel 6" value="XMC_VADC_CHANNEL_ALIAS_CH6" visible="`${channel_num != 6}`" />
+      <Entry name="Channel 7" value="XMC_VADC_CHANNEL_ALIAS_CH7" visible="`${channel_num != 7}`" />
+    </ParamChoice>
+    <ParamChoice id="group_channels_upper_boundary_id" name="Upper Boundary" group="Channel Configuration" default="XMC_VADC_CHANNEL_BOUNDARY_GROUP_BOUND0" visible="true" editable="true" desc="Result range upper boundary value.">
+      <Entry name="Group-Specific Boundary 0" value="XMC_VADC_CHANNEL_BOUNDARY_GROUP_BOUND0" visible="true" />
+      <Entry name="Group-Specific Boundary 1" value="XMC_VADC_CHANNEL_BOUNDARY_GROUP_BOUND1" visible="true" />
+      <Entry name="Global Boundary 0" value="XMC_VADC_CHANNEL_BOUNDARY_GLOBAL_BOUND0" visible="true" />
+      <Entry name="Global Boundary 1" value="XMC_VADC_CHANNEL_BOUNDARY_GLOBAL_BOUND1" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="group_channels_lower_boundary_id" name="Lower Boundary" group="Channel Configuration" default="XMC_VADC_CHANNEL_BOUNDARY_GROUP_BOUND0" visible="true" editable="true" desc="Result range lower boundary value.">
+      <Entry name="Group-Specific Boundary 0" value="XMC_VADC_CHANNEL_BOUNDARY_GROUP_BOUND0" visible="true" />
+      <Entry name="Group-Specific Boundary 1" value="XMC_VADC_CHANNEL_BOUNDARY_GROUP_BOUND1" visible="true" />
+      <Entry name="Global Boundary 0" value="XMC_VADC_CHANNEL_BOUNDARY_GLOBAL_BOUND0" visible="true" />
+      <Entry name="Global Boundary 1" value="XMC_VADC_CHANNEL_BOUNDARY_GLOBAL_BOUND1" visible="true" />
+    </ParamChoice>
+    <ParamBool id="group_channels_request_synchronized_conversion_id" name="Request a Synchronized Conversion of Channel" group="Channel Configuration" default="false" visible="true" editable="true" desc="Enable to make the channel as the sync master channel. Whenever the selected channel is converted by any of the request sources the channel will trigger a synchronized conversion." />
+    <ParamBool id="group_channels_enable_alternate_reference_input_id" name="Enable Alternate Reference Input from Channel 0" group="Channel Configuration" default="false" visible="true" editable="true" desc="Defines the reference voltage input to be used for conversions of the selected channel." />
+    <ParamBool id="group_channels_enable_additional_preparation_phase_id" name="Enable Additional Preparation Phase for Broken Wire Detection" group="Channel Configuration" default="false" visible="true" editable="true" desc="Enable the broken wire detection for the selected channel." />
+    <ParamBool id="group_channels_assign_channel_to_group_request_id" name="Assign Channel to Group Request Sources Only" group="Channel Configuration" default="false" visible="true" editable="true" desc="Enable to ensure that the channel will not be converted by a background request source." />
+    <!-- EOF Channel Configuration -->
+    <!-- EOF Channels -->
+
+    <!-- Connection signals -->
+    <ParamSignal port="ch[0]" name="Analog Input" group="Connections" visible="`${hasVisibleOption(&quot;ch[0]&quot;)}`" desc="Analog connection." canBeEmpty="false" forbiddenBy="none" />
+    <!-- EOF Connection signals -->
+
+    <!-- Advanced -->
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+    <!-- EOF Advanced -->
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="VADC Group `${group_num}` is not enabled." condition="`${module_error}`">
+      <FixIt action="ENABLE_BLOCK" target="vadc[0].group[`${group_num}`]" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_vadc.h" include="true" />
+
+    <!-- Channel config -->
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_VADC_CHANNEL_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="input_class" value="(uint32_t) `${group_channels_input_class_id}`" />
+      <Member name="lower_boundary_select" value="(uint32_t) `${group_channels_lower_boundary_id}`" />
+      <Member name="upper_boundary_select" value="(uint32_t) `${group_channels_upper_boundary_id}`" />
+      <Member name="event_gen_criteria" value="(uint32_t) `${group_channels_generate_channel_event_id}`" />
+      <Member name="sync_conversion" value="(uint32_t) `${group_channels_request_synchronized_conversion_id}`" />
+      <Member name="alternate_reference" value="(uint32_t) `${(group_channels_enable_alternate_reference_input_id)?(&quot;XMC_VADC_CHANNEL_REF_ALT_CH0&quot;):(&quot;XMC_VADC_CHANNEL_REF_INTREF&quot;)}`" />
+      <Member name="result_reg_number" value="(uint32_t) `${getExposedMember(group_instance, getParamValue(group_channels_result_register_id))}`" />
+      <Member name="use_global_result" value="(uint32_t) `${group_channels_result_target_background_source_id}`" />
+      <Member name="result_alignment" value="(uint32_t) `${group_channels_store_results_id}`" />
+      <Member name="broken_wire_detect_channel" value="(uint32_t) `${group_channels_broken_wire_detection_channel_id}`" />
+      <Member name="broken_wire_detect" value="(uint32_t) `${group_channels_enable_additional_preparation_phase_id}`" />
+      <Member name="invert_boundary_flag_ch##" value="(uint32_t) `${(getExposedMember(group_instance, flag_invert_id_##)) ? (&quot;true&quot;) : (&quot;false&quot;)}`" include="`${(getExposedMember(group_instance, flag_enable_id_##)) &amp;&amp; !xmc11_dont_include &amp;&amp; !xmc45_dont_include}`" count="4" />
+      <Member name="flag_output_condition_ch##" value="(uint32_t) XMC_VADC_CHANNEL_BOUNDARY_CONDITION_`${getExposedMember(group_instance, flag_activation_id_##)}`_BAND" include="`${(getExposedMember(group_instance, flag_enable_id_##)) &amp;&amp; !xmc11_dont_include &amp;&amp; !xmc45_dont_include}`" count="4" />
+      <Member name="boundary_flag_mode_ch##" value="(uint32_t) `${getExposedMember(group_instance, flag_operation_id_##)}`" include="`${(getExposedMember(group_instance, flag_enable_id_##)) &amp;&amp; !xmc11_dont_include &amp;&amp; !xmc45_dont_include}`" count="4" />
+      <Member name="channel_priority" value="(bool) `${group_channels_assign_channel_to_group_request_id}`" />
+      <Member name="alias_channel" value="(int8_t) `${group_channels_alias_value_for_conversion_requests_id}`" />
+    </ConfigStruct>
+    <!-- EOF Channel config -->
+
+    <ConfigInstruction value="/* Channel init. */" include="`${!xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_ChannelInit(`${group_base}`, (uint32_t)`${channel_num}`, &amp;`${INST_NAME}`_config);" include="`${!xmc11_dont_include}`" />
+  </ConfigFirmware>
+</Personality>

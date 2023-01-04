@@ -2,18 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="xmc__sdmmc_8h" kind="file" language="C++">
     <compoundname>xmc_sdmmc.h</compoundname>
-    <includes local="yes">xmc_common.h</includes>
-    <incdepgraph>
-      <node id="1">
-        <label>xmc_sdmmc.h</label>
-        <link refid="xmc__sdmmc_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>xmc_common.h</label>
-      </node>
-    </incdepgraph>
+    <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <innerclass refid="union_x_m_c___s_d_m_m_c___c_o_m_m_a_n_d__t" prot="public">XMC_SDMMC_COMMAND_t</innerclass>
     <innerclass refid="struct_x_m_c___s_d_m_m_c___c_o_n_f_i_g__t" prot="public">XMC_SDMMC_CONFIG_t</innerclass>
     <innerclass refid="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t" prot="public">XMC_SDMMC_PRESENT_STATE_t</innerclass>

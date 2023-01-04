@@ -169,7 +169,8 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >Real-time clock (RTC) is a clock that keeps track of the current time. Precise real time keeping is with a 32.768 KHz external crystal clock or a 32.768 KHz high precision internal clock. It provides a periodic time based interrupt and a programmable alarm interrupt on time match. It also supports wakeup from hibernate.</p>
-<p >The RTC low level driver provides functions to configure and initialize the RTC hardware peripheral. </p>
+<p >The RTC low level driver provides functions to configure and initialize the RTC hardware peripheral.</p>
+<p >Also, the RTC block can be configured from the ModusToolbox&trade; Device Configurator: section_personality_rtc </p>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="ga2f2c7d034888680751467b8226778f2a" name="ga2f2c7d034888680751467b8226778f2a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2f2c7d034888680751467b8226778f2a">&#9670;&nbsp;</a></span>XMC_RTC_DEBUG_MODE_t</h2>
@@ -207,17 +208,17 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951abaf495d3fe42c40fe8ce9055db3d8bd6" name="gga9c572864ac7a5b1399523261e42f6951abaf495d3fe42c40fe8ce9055db3d8bd6"></a>XMC_RTC_EVENT_PERIODIC_SECONDS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic seconds </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951a70134c3b9338fe6548649885e4b55056" name="gga9c572864ac7a5b1399523261e42f6951a70134c3b9338fe6548649885e4b55056"></a>XMC_RTC_EVENT_PERIODIC_MINUTES&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic seconds </p>
+<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951a70134c3b9338fe6548649885e4b55056" name="gga9c572864ac7a5b1399523261e42f6951a70134c3b9338fe6548649885e4b55056"></a>XMC_RTC_EVENT_PERIODIC_MINUTES&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic minutes </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951ab209cc2ec8a7edbb3230a3020d8104ed" name="gga9c572864ac7a5b1399523261e42f6951ab209cc2ec8a7edbb3230a3020d8104ed"></a>XMC_RTC_EVENT_PERIODIC_HOURS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic seconds </p>
+<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951ab209cc2ec8a7edbb3230a3020d8104ed" name="gga9c572864ac7a5b1399523261e42f6951ab209cc2ec8a7edbb3230a3020d8104ed"></a>XMC_RTC_EVENT_PERIODIC_HOURS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic hours </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951afa22d124a4d8ff86f9d8f7e324eddc2a" name="gga9c572864ac7a5b1399523261e42f6951afa22d124a4d8ff86f9d8f7e324eddc2a"></a>XMC_RTC_EVENT_PERIODIC_DAYS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic seconds </p>
+<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951afa22d124a4d8ff86f9d8f7e324eddc2a" name="gga9c572864ac7a5b1399523261e42f6951afa22d124a4d8ff86f9d8f7e324eddc2a"></a>XMC_RTC_EVENT_PERIODIC_DAYS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic days </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951a317318fc7f639a462d8f42fea95f8031" name="gga9c572864ac7a5b1399523261e42f6951a317318fc7f639a462d8f42fea95f8031"></a>XMC_RTC_EVENT_PERIODIC_MONTHS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic seconds </p>
+<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951a317318fc7f639a462d8f42fea95f8031" name="gga9c572864ac7a5b1399523261e42f6951a317318fc7f639a462d8f42fea95f8031"></a>XMC_RTC_EVENT_PERIODIC_MONTHS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic months </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951ad4142a107e9a717b51cc93e52955bd06" name="gga9c572864ac7a5b1399523261e42f6951ad4142a107e9a717b51cc93e52955bd06"></a>XMC_RTC_EVENT_PERIODIC_YEARS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic seconds </p>
+<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951ad4142a107e9a717b51cc93e52955bd06" name="gga9c572864ac7a5b1399523261e42f6951ad4142a107e9a717b51cc93e52955bd06"></a>XMC_RTC_EVENT_PERIODIC_YEARS&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic years </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951a8113ac4db38433f2aab4bc993ef2a720" name="gga9c572864ac7a5b1399523261e42f6951a8113ac4db38433f2aab4bc993ef2a720"></a>XMC_RTC_EVENT_ALARM&#160;</td><td class="fielddoc"><p >Mask value to enable an event on periodic seconds </p>
+<tr><td class="fieldname"><a id="gga9c572864ac7a5b1399523261e42f6951a8113ac4db38433f2aab4bc993ef2a720" name="gga9c572864ac7a5b1399523261e42f6951a8113ac4db38433f2aab4bc993ef2a720"></a>XMC_RTC_EVENT_ALARM&#160;</td><td class="fielddoc"><p >Mask value to enable an alarm event </p>
 </td></tr>
 </table>
 
@@ -324,7 +325,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>None</dd></dl>
 <dl class="section user"><dt>Description</dt><dd>Disables RTC peripheral for programming its registers <br  />
 </dd></dl>
-<dl class="section user"><dt>\iline 341 </dt><dd>Gates the peripheral clock.  </dd></dl>
+<dl class="section user"><dt>\iline 345 </dt><dd>Gates the peripheral clock.  </dd></dl>
 <dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___r_t_c.html#gaff18bac4a49b34e5e75db30ad226a6e2">XMC_RTC_Enable()</a>, XMC_SCU_RESET_AssertPeripheralReset() </dd></dl>
 
 </div>
@@ -376,7 +377,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>None</dd></dl>
 <dl class="section user"><dt>Description</dt><dd>Enables RTC peripheral for programming its registers <br  />
 </dd></dl>
-<dl class="section user"><dt>\iline 322 </dt><dd>Ungates the peripheral clock.  </dd></dl>
+<dl class="section user"><dt>\iline 326 </dt><dd>Ungates the peripheral clock.  </dd></dl>
 <dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___r_t_c.html#ga304ac03dcebdf34bd64d8a4a55f68e7e">XMC_RTC_Disable()</a>, XMC_SCU_RESET_DeassertPeripheralReset() </dd></dl>
 
 </div>
@@ -600,7 +601,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>XMC_RTC_STATUS_t Always returns XMC_RTC_STATUS_OK (It contains only register assignment statements)</dd></dl>
 <dl class="section user"><dt>Description: </dt><dd>Initialize the RTC peripheral <br  />
 </dd></dl>
-<dl class="section user"><dt>\iline 304 </dt><dd>The function ungates the peripheral clock for RTC, configures internal clock divider, time and alarm values by writing to the CTR.DIV, TIM0, TIM1, ATIM0 and ATIM1 registers.  </dd></dl>
+<dl class="section user"><dt>\iline 308 </dt><dd>The function ungates the peripheral clock for RTC, configures internal clock divider, time and alarm values by writing to the CTR.DIV, TIM0, TIM1, ATIM0 and ATIM1 registers.  </dd></dl>
 
 </div>
 </div>
@@ -622,7 +623,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>None</dd></dl>
 <dl class="section user"><dt>Description</dt><dd>Checks RTC peripheral is enabled for programming its registers <br  />
 </dd></dl>
-<dl class="section user"><dt>\iline 360 </dt><dd>Checks peripheral clock is ungated or not.  </dd></dl>
+<dl class="section user"><dt>\iline 364 </dt><dd>Checks peripheral clock is ungated or not.  </dd></dl>
 <dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___r_t_c.html#gaff18bac4a49b34e5e75db30ad226a6e2">XMC_RTC_Enable()</a>, <a class="el" href="group___r_t_c.html#ga304ac03dcebdf34bd64d8a4a55f68e7e">XMC_RTC_Disable()</a>, XMC_SCU_RESET_DeassertPeripheralReset(), XMC_SCU_RESET_AssertPeripheralReset() </dd></dl>
 
 </div>

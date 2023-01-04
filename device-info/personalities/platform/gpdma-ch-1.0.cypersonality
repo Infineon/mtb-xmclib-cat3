@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file gpdma-ch-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* GPDMA-CH personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2021-2022 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_gpdma_channel" name="GPDMA-CH" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_gpdma" />
+    <Resource name="gpdma\.ch" />
+  </Dependencies>
+  <ExposedMembers>
+    <ExposedMember key="event" paramId="is_any_event_enabled" />
+  </ExposedMembers>
+  <Parameters>
+    <!-- Internal -->
+    <ParamBool id="debug" name="debug" group="Internal" default="false" visible="false" editable="false" desc="" />
+    <ParamString id="module_num" name="Module Number" group="Internal" default="`${getInstNumber(&quot;gpdma&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;ch&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="api_doc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___d_m_a.html" linkText="Open DMA Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+
+    <!-- Channel Settings -->
+    <ParamChoice id="transfer_type" name="Transfer Type" group="Channel Settings" default="XMC_DMA_CH_TRANSFER_TYPE_SINGLE_BLOCK" visible="true" editable="true" desc="Select DMA transfer type.">
+      <Entry name="Single Block" value="XMC_DMA_CH_TRANSFER_TYPE_SINGLE_BLOCK" visible="true" />
+      <Entry name="Multi-Block: Source Address Contiguous, Destination Address Reload" value="XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_CONTIGUOUS_DSTADR_RELOAD" visible="true" />
+      <Entry name="Multi-Block: Source Address Reload, Destination Address Contiguous" value="XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_RELOAD_DSTADR_CONTIGUOUS" visible="true" />
+      <Entry name="Multi-Block: Source Address Reload, Destination Address Reload" value="XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_RELOAD_DSTADR_RELOAD" visible="true" />
+      <Entry name="Multi-Block: Source Address Contiguous, Destination Address Linked" value="XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_CONTIGUOUS_DSTADR_LINKED" visible="true" />
+      <Entry name="Multi-Block: Source Address Reload, Destination Address Linked" value="XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_RELOAD_DSTADR_LINKED" visible="true" />
+      <Entry name="Multi-Block: Source Address Linked, Destination Address Contiguous" value="XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_LINKED_DSTADR_CONTIGUOUS" visible="true" />
+      <Entry name="Multi-Block: Source Address Linked, Destination Address Reload" value="XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_LINKED_DSTADR_RELOAD" visible="true" />
+      <Entry name="Multi-Block: Source Address Linked, Destination Address Linked" value="XMC_DMA_CH_TRANSFER_TYPE_MULTI_BLOCK_SRCADR_LINKED_DSTADR_LINKED" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="transfer_flow" name="Transfer Flow" group="Channel Settings" default="XMC_DMA_CH_TRANSFER_FLOW_M2M_DMA" visible="true" editable="true" desc="Select the DMA transfer flow type.">
+      <Entry name="Memory to Memory (DMA Flow Controller)" value="XMC_DMA_CH_TRANSFER_FLOW_M2M_DMA" visible="true" />
+      <Entry name="Memory to Peripheral (DMA Flow Controller)" value="XMC_DMA_CH_TRANSFER_FLOW_M2P_DMA" visible="true" />
+      <Entry name="Peripheral to Memory (DMA Flow Controller)" value="XMC_DMA_CH_TRANSFER_FLOW_P2M_DMA" visible="true" />
+      <Entry name="Peripheral to Peripheral (DMA Flow Controller)" value="XMC_DMA_CH_TRANSFER_FLOW_P2P_DMA" visible="true" />
+      <Entry name="Peripheral to Memory (Peripheral Flow Controller)" value="XMC_DMA_CH_TRANSFER_FLOW_P2M_PER" visible="true" />
+      <Entry name="Peripheral to Peripheral (Source Peripheral Flow Controller)" value="XMC_DMA_CH_TRANSFER_FLOW_P2P_SRCPER" visible="true" />
+      <Entry name="Memory to Peripheral (Peripheral Flow Controller)" value="XMC_DMA_CH_TRANSFER_FLOW_M2P_PER" visible="true" />
+      <Entry name="Peripheral to Peripheral (Destination Peripheral Flow Controller)" value="XMC_DMA_CH_TRANSFER_FLOW_P2P_DSTPER" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="priority" name="Priority" group="Channel Settings" default="XMC_DMA_CH_PRIORITY_0" visible="true" editable="true" desc="Assign the channel priority.">
+      <Entry name="Priority 0 (Lower)" value="XMC_DMA_CH_PRIORITY_0" visible="true" />
+      <Entry name="Priority 1" value="XMC_DMA_CH_PRIORITY_1" visible="true" />
+      <Entry name="Priority 2" value="XMC_DMA_CH_PRIORITY_2" visible="true" />
+      <Entry name="Priority 3" value="XMC_DMA_CH_PRIORITY_3" visible="true" />
+      <Entry name="Priority 4" value="XMC_DMA_CH_PRIORITY_4" visible="true" />
+      <Entry name="Priority 5" value="XMC_DMA_CH_PRIORITY_5" visible="true" />
+      <Entry name="Priority 6" value="XMC_DMA_CH_PRIORITY_6" visible="true" />
+      <Entry name="Priority 7 (Higher)" value="XMC_DMA_CH_PRIORITY_7" visible="true" />
+    </ParamChoice>
+    <ParamBool id="is_transfer_type_linked" name="Does Transfer Type uses Linked Lists?" group="Channel Settings" default="`${hasMatch(transfer_type, &quot;LINKED&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="is_transfer_flow_DMA_flow_control" name="Is Transfer Flow set to DMA Flow Control?" group="Channel Settings" default="`${hasMatch(transfer_flow, &quot;FLOW.*DMA&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="is_block_size_enabled" name="Is Block Size Enabled?" group="Channel Settings" default="`${!is_transfer_type_linked &amp;&amp; is_transfer_flow_DMA_flow_control}`" visible="false" editable="false" desc="" />
+    <ParamRange id="block_size" name="Block Size" group="Channel Settings" default="1" min="1" max="4095" resolution="1" visible="true" editable="`${is_block_size_enabled}`" desc="Assign the block size. &lt;br&gt;&lt;br&gt;&#13;&#10;The processor programs the GPDMA with the number of data items (block size) of source transfer width (CTL.SRC_TR_WIDTH) to be transferred by the GPDMA in a block transfer. The unit for block size is the transfer width. e.g: Block size * 16 bits.&lt;br&gt;&lt;br&gt;&#13;&#10;For more information, please refer to section 5.2.2 in the XMC4500 reference manual. &lt;br&gt;&lt;br&gt;&#13;&#10;The maximum value for this field is 0xFFF (4095 in decimal)." />
+    <!-- Channel Settings - Source -->
+    <ParamBool id="are_source_fields_enabled" name="Are Source Fields Enabled?" group="Channel Settings" default="`${!hasMatch(transfer_type, &quot;_SRCADR_LINKED&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="source_address" name="Source Address" group="Channel Settings" default="0x00000000" visible="true" editable="`${are_source_fields_enabled}`" desc="DMA source address.&lt;br&gt;&#13;&#10;Absolute address or C symbols are permitted. &lt;br&gt;&lt;br&gt;&#13;&#10;Source address: &lt;br&gt;&lt;br&gt;&#13;&#10;This option permits the configuration of the DMA source address. Alternatively, a C symbol identifier can also be provided here. The C symbol (a pointer of type void, to an array perhaps) should be defined in the application code.&lt;br&gt;&lt;br&gt;&#13;&#10;An example is provided below: &lt;br&gt;&lt;br&gt;&#13;&#10;uint32_t tx_buf_arr[256]; &lt;br&gt;&#13;&#10;uint32_t rx_buf_arr[256]; &lt;br&gt;&#13;&#10;void *tx_ptr = (void *)tx_buf_arr; &lt;br&gt;&#13;&#10;void *rx_ptr = (void *)rx_buf_arr; &lt;br&gt;&lt;br&gt;&#13;&#10;&#13;&#10;Consider another example which involves peripheral (ADC) to memory DMA transfer. The source address shall be declared as a global pointer and defined in the application code like this: &lt;br&gt;&lt;br&gt;&#13;&#10;&#13;&#10;uint32_t rx_buf[100]; &lt;br&gt;&#13;&#10;void *tx_ptr; &lt;br&gt;&#13;&#10;void *rx_ptr = (void *)rx_buf; &lt;br&gt;tx_ptr = (void*)&amp;ADC_MEASUREMENT_Channel_A.group_handle-&gt;RES[ADC_MEASUREMENT_Channel_A.ch_handle-&gt;result_reg_number];&lt;br&gt;&lt;br&gt;Anyway this parameter usage is optional, so it could be left by default (as well as left empty or set to NULL), and the XMC_DMA_CH_SetSourceAddress() function with proper pointer shall be called in the application code." />
+    <ParamBool id="is_source_address_null" name="Should Source Address be Ignored?" group="Channel Settings" default="`${(source_address eq &quot;&quot;) || (source_address eq &quot;NULL&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamBool id="is_source_address_hex" name="Is Source Address an Hexadecimal Number?" group="Channel Settings" default="`${hasMatch(source_address, &quot;^0x[0-9a-fA-F]{8}$&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamBool id="is_source_address_extern" name="Is Source Address an Extern?" group="Channel Settings" default="`${!is_source_address_hex &amp;&amp; hasMatch(source_address, &quot;(^[_]+[0-9a-zA-Z]|^[a-zA-Z])[0-9a-zA-Z_]*$&quot;) &amp;&amp; !is_source_address_null}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamChoice id="source_address_counter" name="Source Address Counter" group="Channel Settings" default="XMC_DMA_CH_ADDRESS_COUNT_MODE_INCREMENT" visible="true" editable="`${are_source_fields_enabled}`" desc="Select the source address count mode. &lt;br&gt;&lt;br&gt;&#13;&#10;This element is used to determine next transfer source address. The transfer mode can be set to one of the following: &lt;br&gt;&lt;br&gt;&#13;&#10;(1) Address increment&lt;br&gt;&#13;&#10;(2) Address decrement or &lt;br&gt;&#13;&#10;(3) No change.&lt;br&gt;&lt;br&gt; Address change in bytes is defined by the Source Transfer Width divided by 4.">
+      <Entry name="Increment" value="XMC_DMA_CH_ADDRESS_COUNT_MODE_INCREMENT" visible="true" />
+      <Entry name="Decrement" value="XMC_DMA_CH_ADDRESS_COUNT_MODE_DECREMENT" visible="true" />
+      <Entry name="No Change" value="XMC_DMA_CH_ADDRESS_COUNT_MODE_NO_CHANGE" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="source_transfer_width" name="Source Transfer Width" group="Channel Settings" default="XMC_DMA_CH_TRANSFER_WIDTH_32" visible="true" editable="`${are_source_fields_enabled}`" desc="Select DMA source transfer width. &lt;br&gt;&lt;br&gt;&#13;&#10;Source single transfer width: &lt;br&gt;&lt;br&gt;&#13;&#10;Transfer width times block size should provide the total memory size being transferred.&#13;&#10;">
+      <Entry name="8 Bits" value="XMC_DMA_CH_TRANSFER_WIDTH_8" visible="true" />
+      <Entry name="16 Bits" value="XMC_DMA_CH_TRANSFER_WIDTH_16" visible="true" />
+      <Entry name="32 Bits" value="XMC_DMA_CH_TRANSFER_WIDTH_32" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="source_transfer_width_number" name="Source Transfer Width Number" group="Channel Settings" default="`${source_transfer_width}`" visible="false" editable="false" desc="Select DMA source transfer width. &lt;br&gt;&lt;br&gt;&#13;&#10;Source single transfer width: &lt;br&gt;&lt;br&gt;&#13;&#10;Transfer width times block size should provide the total memory size being transferred.&#13;&#10;">
+      <Entry name="8" value="XMC_DMA_CH_TRANSFER_WIDTH_8" visible="true" />
+      <Entry name="16" value="XMC_DMA_CH_TRANSFER_WIDTH_16" visible="true" />
+      <Entry name="32" value="XMC_DMA_CH_TRANSFER_WIDTH_32" visible="true" />
+    </ParamChoice>
+    <ParamString id="source_word_length" name="Source Word Length" group="Channel Settings" default="`${getParamValueDisplay(&quot;source_transfer_width_number&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamChoice id="source_burst_width" name="Source Burst Width" group="Channel Settings" default="XMC_DMA_CH_BURST_LENGTH_1" visible="true" editable="`${are_source_fields_enabled}`" desc="Select DMA source burst width. &lt;br&gt;&lt;br&gt;&#13;&#10;Source DMA burst width: &lt;br&gt;&lt;br&gt;&#13;&#10;This permits configuration of the number of elements transferred at once in a single transfer. This combo-box can be used to select one of three valid values: 1, 4 and 8.&lt;br&gt;&lt;br&gt;Length of 1 word in bits is defined by Source Transfer Width.">
+      <Entry name="1 Word (`${source_word_length}` Bits)" value="XMC_DMA_CH_BURST_LENGTH_1" visible="true" />
+      <Entry name="4 Words (4 x `${source_word_length}` Bits)" value="XMC_DMA_CH_BURST_LENGTH_4" visible="true" />
+      <Entry name="8 Words (8 x `${source_word_length}` Bits)" value="XMC_DMA_CH_BURST_LENGTH_8" visible="true" />
+    </ParamChoice>
+    <ParamBool id="is_source_handshaking_enabled" name="Is Source Handshaking Enabled?" group="Channel Settings" default="`${!hasMatch(transfer_flow, &quot;M2[MP]&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamChoice id="source_handshaking" name="Source Handshaking" group="Channel Settings" default="`${!is_source_handshaking_enabled ? XMC_DMA_CH_SRC_HANDSHAKING_SOFTWARE : XMC_DMA_CH_SRC_HANDSHAKING_SOFTWARE}`" visible="true" editable="`${is_source_handshaking_enabled}`" desc="Select DMA source handshaking mode. &lt;br&gt;&lt;br&gt;&#13;&#10;Every DMA transaction requires a trigger. This option selects between a hardware and software trigger for a transfer between a peripheral and a memory device. &lt;br&gt;&lt;br&gt;&#13;&#10;For more information please check section 5.2.3 in the XMC4500 reference manual.&#13;&#10;">
+      <Entry name="Hardware" value="XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE" visible="`${hasMatch(transfer_flow, &quot;P2[PM]_DMA&quot;)}`" />
+      <Entry name="Software" value="XMC_DMA_CH_SRC_HANDSHAKING_SOFTWARE" visible="true" />
+    </ParamChoice>
+    <!-- Channel Settings - Destination -->
+    <ParamBool id="are_destination_fields_enabled" name="Are Destination Fields Enabled?" group="Channel Settings" default="`${!hasMatch(transfer_type, &quot;_DSTADR_LINKED&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="destination_address" name="Destination Address" group="Channel Settings" default="0x00000000" visible="true" editable="`${are_destination_fields_enabled}`" desc="DMA destination address.&lt;br&gt;&#13;&#10;Absolute address or C symbols are permitted. &lt;br&gt;&lt;br&gt;&#13;&#10;Destination address: &lt;br&gt;&lt;br&gt;&#13;&#10;This option permits the configuration of the DMA destination address. Alternatively, a C symbol identifier can also be provided here. The C symbol (a pointer of type void, to an array perhaps) should be defined in the application code.&lt;br&gt;&lt;br&gt;&#13;&#10;An example is provided below: &lt;br&gt;&lt;br&gt;&#13;&#10;&#13;&#10;uint32_t tx_buf_arr[256]; &lt;br&gt;&#13;&#10;uint32_t rx_buf_arr[256]; &lt;br&gt;&#13;&#10;void *tx_ptr = (void *)tx_buf_arr; &lt;br&gt;&#13;&#10;void *rx_ptr = (void *)rx_buf_arr; &lt;br&gt;&lt;br&gt;&#13;&#10;&#13;&#10;Consider another example which involves memory to peripheral (UART) DMA transfer. The destination address shall be declared as a global pointer and defined in the application code like this: &lt;br&gt;&lt;br&gt;&#13;&#10;&#13;&#10;uint32_t tx_buf[100]; &lt;br&gt;&#13;&#10;void *rx_ptr; &lt;br&gt;&#13;&#10;void *tx_ptr = (void *)tx_buf; &lt;br&gt;rx_ptr = (void*)&amp;UART_0.channel-&gt;TBUF; &lt;br&gt;&#13;&#10;&lt;br&gt;&lt;br&gt;Anyway this parameter usage is optional, so it could be left by default (as well as left empty or set to NULL), and the XMC_DMA_CH_SetDestinationAddress() function with a proper pointer shall be called in the application code." />
+    <ParamBool id="is_destination_address_null" name="Should Destination Address be Ignored?" group="Channel Settings" default="`${(destination_address eq &quot;&quot;) || (destination_address eq &quot;NULL&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamBool id="is_destination_address_hex" name="Is Destination Address an Hexadecimal Number?" group="Channel Settings" default="`${hasMatch(destination_address, &quot;^0x[0-9a-fA-F]{8}$&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamBool id="is_destination_address_extern" name="Is Destination Address an Extern?" group="Channel Settings" default="`${!is_destination_address_hex &amp;&amp; hasMatch(destination_address, &quot;(^[_]+[0-9a-zA-Z]|^[a-zA-Z])[0-9a-zA-Z_]*$&quot;) &amp;&amp; !is_destination_address_null}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamChoice id="destination_address_counter" name="Destination Address Counter" group="Channel Settings" default="XMC_DMA_CH_ADDRESS_COUNT_MODE_INCREMENT" visible="true" editable="`${are_destination_fields_enabled}`" desc="Select the destination address count mode.&lt;br&gt;&lt;br&gt;This element is used to determine next transfer destination address. The transfer mode can be set to one of the following: &lt;br&gt;&lt;br&gt;&#13;&#10;(1) Address increment &lt;br&gt;&#13;&#10;(2) Address decrement or &lt;br&gt;&#13;&#10;(3) No change.&lt;br&gt;&lt;br&gt; Address change in bytes is defined by the Destination Transfer Width divided by 4.">
+      <Entry name="Increment" value="XMC_DMA_CH_ADDRESS_COUNT_MODE_INCREMENT" visible="true" />
+      <Entry name="Decrement" value="XMC_DMA_CH_ADDRESS_COUNT_MODE_DECREMENT" visible="true" />
+      <Entry name="No Change" value="XMC_DMA_CH_ADDRESS_COUNT_MODE_NO_CHANGE" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="destination_transfer_width" name="Destination Transfer Width" group="Channel Settings" default="XMC_DMA_CH_TRANSFER_WIDTH_32" visible="true" editable="`${are_destination_fields_enabled}`" desc="Select DMA destination transfer width. &lt;br&gt;&lt;br&gt;&#13;&#10;Destination single transfer width: &lt;br&gt;&lt;br&gt;&#13;&#10;Transfer width times block size should provide the total memory size being transferred.">
+      <Entry name="8 Bits" value="XMC_DMA_CH_TRANSFER_WIDTH_8" visible="true" />
+      <Entry name="16 Bits" value="XMC_DMA_CH_TRANSFER_WIDTH_16" visible="true" />
+      <Entry name="32 Bits" value="XMC_DMA_CH_TRANSFER_WIDTH_32" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="destination_transfer_width_number" name="Destination Transfer Width Number" group="Channel Settings" default="`${destination_transfer_width}`" visible="false" editable="false" desc="Select DMA destination transfer width. &lt;br&gt;&lt;br&gt;&#13;&#10;Destination single transfer width: &lt;br&gt;&lt;br&gt;&#13;&#10;Transfer width times block size should provide the total memory size being transferred.&#13;&#10;">
+      <Entry name="8" value="XMC_DMA_CH_TRANSFER_WIDTH_8" visible="true" />
+      <Entry name="16" value="XMC_DMA_CH_TRANSFER_WIDTH_16" visible="true" />
+      <Entry name="32" value="XMC_DMA_CH_TRANSFER_WIDTH_32" visible="true" />
+    </ParamChoice>
+    <ParamString id="destination_word_length" name="Destination Word Length" group="Channel Settings" default="`${getParamValueDisplay(&quot;destination_transfer_width_number&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamChoice id="destination_burst_width" name="Destination Burst Width" group="Channel Settings" default="XMC_DMA_CH_BURST_LENGTH_1" visible="true" editable="`${are_destination_fields_enabled}`" desc="Select DMA destination burst width. &lt;br&gt;&lt;br&gt;&#13;&#10;Destination DMA burst width: &lt;br&gt;&lt;br&gt;&#13;&#10;This permits configuration of the number of elements transferred at once in a single transfer. This combo-box can be used to select one of three valid values: 1, 4 and 8.&lt;br&gt;&lt;br&gt;Length of 1 word in bits is defined by Destination Transfer Width.">
+      <Entry name="1 Word (`${destination_word_length}` Bits)" value="XMC_DMA_CH_BURST_LENGTH_1" visible="true" />
+      <Entry name="4 Words (4 x `${destination_word_length}` Bits)" value="XMC_DMA_CH_BURST_LENGTH_4" visible="true" />
+      <Entry name="8 Words (8 x `${destination_word_length}` Bits)" value="XMC_DMA_CH_BURST_LENGTH_8" visible="true" />
+    </ParamChoice>
+    <ParamBool id="is_destination_handshaking_enabled" name="Is Destination Handshaking Enabled?" group="Channel Settings" default="`${!hasMatch(transfer_flow, &quot;[MP]2M&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamChoice id="destination_handshaking" name="Destination Handshaking" group="Channel Settings" default="`${!is_source_handshaking_enabled ? XMC_DMA_CH_DST_HANDSHAKING_SOFTWARE : XMC_DMA_CH_DST_HANDSHAKING_SOFTWARE}`" visible="true" editable="`${is_destination_handshaking_enabled}`" desc="Select DMA destination handshaking mode. &lt;br&gt;&lt;br&gt;&#13;&#10;Every DMA transaction requires a trigger. This option selects between a hardware and software trigger for a transfer between a memory device and a peripheral.">
+      <Entry name="Hardware" value="XMC_DMA_CH_DST_HANDSHAKING_HARDWARE" visible="`${hasMatch(transfer_flow, &quot;[MP]2P_DMA&quot;)}`" />
+      <Entry name="Software" value="XMC_DMA_CH_DST_HANDSHAKING_SOFTWARE" visible="true" />
+    </ParamChoice>
+    <!-- Channel Settings -->
+    <ParamBool id="is_linked_list_pointer_enabled" name="Is Linked List Pointer Enabled?" group="Channel Settings" default="`${is_transfer_type_linked}`" visible="false" editable="false" desc="" />
+    <ParamString id="linked_list_pointer" name="Linked List Pointer" group="Channel Settings" default="0x00000000" visible="true" editable="`${is_linked_list_pointer_enabled}`" desc="Linked list pointer: &lt;br&gt;&lt;br&gt;&#13;&#10;This option permits the configuration of the DMA linked-list address. Alternatively, a C symbol identifier can also be provided here. The C symbol (of type XMC_DMA_LLI_t) should be defined in the Main.c file. &lt;br&gt;&lt;br&gt;&#13;&#10;The main DMA_CH handle structure will contain an address or a reference to the C symbol provided here in the text-box.&lt;br&gt;&lt;br&gt;Anyway this parameter usage is optional, so it could be left by default (as well as left empty or set to NULL), and if really needed the XMC_DMA_CH_SetLinkedListPointer() function with proper pointer shall be called in the application code." />
+    <ParamBool id="is_linked_list_pointer_null" name="Is Linked List Pointer Not Valid?" group="Channel Settings" default="`${(linked_list_pointer eq &quot;&quot;) || (linked_list_pointer eq &quot;NULL&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamBool id="is_linked_list_pointer_hex" name="Is Linked List Pointer an Hexadecimal Number?" group="Channel Settings" default="`${hasMatch(linked_list_pointer, &quot;^0x[0-9a-fA-F]{8}$&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="is_linked_list_pointer_extern" name="Is linked List Pointer an Extern?" group="Channel Settings" default="`${!is_linked_list_pointer_hex &amp;&amp; hasMatch(linked_list_pointer, &quot;(^[_]+[0-9a-zA-Z]|^[a-zA-Z])[0-9a-zA-Z_]*$&quot;) &amp;&amp; !is_linked_list_pointer_null}`" visible="`${debug}`" editable="false" desc="" />
+    <!-- Channel Settings - Scatter/Gather Settings -->
+    <ParamBool id="enable_source_gather" name="Enable Source Gather" group="Channel Settings" default="false" visible="true" editable="true" desc="This check-box can be used to enable/disable the gather feature provided by the advanced DMA channels." />
+    <ParamRange id="gather_count" name="Gather Count" group="Channel Settings" default="0" min="0" max="4095" resolution="1" visible="true" editable="`${enable_source_gather}`" desc="Assign DMA source gather count." />
+    <ParamRange id="gather_interval" name="Gather Interval" group="Channel Settings" default="0" min="0" max="1048575" resolution="1" visible="true" editable="`${enable_source_gather}`" desc="Assign DMA source gather interval." />
+    <ParamBool id="enable_destination_scatter" name="Enable Destination Scatter" group="Channel Settings" default="false" visible="true" editable="true" desc="This check-box can be used to enable/disable the scatter feature provided by the advanced DMA channels.&#13;&#10; Enable DMA destination scatter." />
+    <ParamRange id="scatter_count" name="Scatter Count" group="Channel Settings" default="0" min="0" max="4095" resolution="1" visible="true" editable="`${enable_destination_scatter}`" desc="Assign DMA destination scatter count." />
+    <ParamRange id="scatter_interval" name="Scatter Interval" group="Channel Settings" default="0" min="0" max="1048575" resolution="1" visible="true" editable="`${enable_destination_scatter}`" desc="Assign DMA destination scatter interval." />
+
+    <!-- Interrupt Settings -->
+    <ParamBool id="enable_dma_transfer_complete_event" name="Enable DMA Transfer Complete Event" group="Interrupt Settings" default="false" visible="true" editable="true" desc="Enable transfer complete interrupt." />
+    <ParamBool id="enable_block_transfer_complete_event" name="Enable Block Transfer Complete Event" group="Interrupt Settings" default="false" visible="true" editable="true" desc="Enable DMA block transfer complete event." />
+    <ParamBool id="enable_source_transaction_complete_event" name="Enable Source Transaction Complete Event" group="Interrupt Settings" default="`${source_handshaking eq XMC_DMA_CH_SRC_HANDSHAKING_SOFTWARE ? false : false}`" visible="true" editable="`${source_handshaking eq XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE}`" desc="Enable DMA source transaction complete event." />
+    <ParamBool id="enable_destination_transaction_complete_event" name="Enable Destination Transaction Complete Event" group="Interrupt Settings" default="`${destination_handshaking eq XMC_DMA_CH_DST_HANDSHAKING_SOFTWARE ? false : false}`" visible="true" editable="`${destination_handshaking eq XMC_DMA_CH_DST_HANDSHAKING_HARDWARE}`" desc="Enable DMA destination transaction complete event." />
+    <ParamBool id="enable_error_event" name="Enable Error Event" group="Interrupt Settings" default="false" visible="true" editable="true" desc="Enable DMA error event." />
+    <ParamBool id="is_any_event_enabled" name="Is Any Event Enabled?" group="Interrupt Settings" default="`${enable_dma_transfer_complete_event || enable_block_transfer_complete_event || ((source_handshaking eq XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE) &amp;&amp; enable_source_transaction_complete_event) || ((destination_handshaking eq XMC_DMA_CH_DST_HANDSHAKING_HARDWARE) &amp;&amp; enable_destination_transaction_complete_event) || enable_error_event}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamBool id="event_handler_gen" name="Use Event Handler?" group="Interrupt Settings" default="false" visible="`${is_any_event_enabled}`" editable="`${is_any_event_enabled}`" desc="This check-box can be used to enable/disable registration of Event Handler feature provided by XMCLib.&#13;&#10; If enabled the function from Event Handler Name element should be defined in the user code." />
+    <ParamString id="dma_channel_event_handler" name="Event Handler Name" group="Interrupt Settings" default="`${INST_NAME}`_EventHandler" visible="`${is_any_event_enabled &amp;&amp; event_handler_gen}`" editable="true" desc="User event handler (callback): &lt;br&gt;&lt;br&gt;&#13;&#10;This widget configures the DMA user callback for DMA events.  A valid C function identifier must be provided here. The function should be defined in the user code. It should have the following signature:&lt;br&gt;&lt;br&gt;&#13;&#10;void `${INST_NAME}`_EventHandler(XMC_DMA_CH_EVENT_t event);" />
+    <ParamBool id="is_dma_channel_event_handler_name_valid" name="Is Event Handler Name Valid?" group="Interrupt Settings" default="`${hasMatch(dma_channel_event_handler, &quot;(^[_]+[0-9a-zA-Z]|^[a-zA-Z])[0-9a-zA-Z_]*$&quot;)}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamString id="dma_channel_event_handler_shadow" name="Event Handler Name" group="Interrupt Settings" default="`${dma_channel_event_handler}`" visible="`${is_any_event_enabled &amp;&amp; !event_handler_gen}`" editable="false" desc="User event handler (callback): &lt;br&gt;&lt;br&gt;&#13;&#10;This widget configures the DMA user callback for DMA events.  A valid C function identifier must be provided here. The function should be defined in the user code. It should have the following signature:&lt;br&gt;&lt;br&gt;&#13;&#10;void `${dma_channel_event_handler}`(XMC_DMA_CH_EVENT_t event);" />
+
+    <!-- Advanced -->
+    <ParamBool id="in_flash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+
+    <!-- Connections -->
+    <ParamSignal port="src_per[0]" name="Source Periphery [src_per]" group="Connections" visible="`${source_handshaking eq XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE}`" desc="" canBeEmpty="`${source_handshaking ne XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE}`" />
+    <ParamString id="src_per_signal" name="src_per Signal" group="Connections" default="`${hasConnection(&quot;src_per&quot;, 0) ? getParamValue(&quot;src_per[0]&quot;) : &quot;No Connection&quot;}`" visible="false" editable="false" desc="" />
+    <ParamString id="src_per_signal_name" name="src_per Signal Name" group="Connections" default="`${hasConnection(&quot;src_per&quot;, 0) ? getDefineNameFromSignal(src_per_signal) : &quot;No Connection&quot;}`" visible="false" editable="false" desc="" />
+    <ParamSignal port="dest_per[0]" name="Destination Periphery [dest_per]" group="Connections" visible="`${destination_handshaking eq XMC_DMA_CH_DST_HANDSHAKING_HARDWARE}`" desc="" canBeEmpty="`${destination_handshaking ne XMC_DMA_CH_DST_HANDSHAKING_HARDWARE}`" />
+    <ParamString id="dest_per_signal" name="dest_per Signal" group="Connections" default="`${hasConnection(&quot;dest_per&quot;, 0) ? getParamValue(&quot;dest_per[0]&quot;) : &quot;No Connection&quot;}`" visible="false" editable="false" desc="" />
+    <ParamString id="dest_per_signal_name" name="dest_per Signal Name" group="Connections" default="`${hasConnection(&quot;dest_per&quot;, 0) ? getDefineNameFromSignal(dest_per_signal) : &quot;No Connection&quot;}`" visible="false" editable="false" desc="" />
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="Invalid Handler Function Name" condition="`${!is_dma_channel_event_handler_name_valid &amp;&amp; hasMatch(source_address, &quot;^[\\w\\W].*$&quot;) &amp;&amp; is_any_event_enabled &amp;&amp; event_handler_gen}`">
+      <FixIt action="SET_PARAM" target="dma_channel_event_handler" value="`${INST_NAME}`_EventHandler" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Invalid Hexadecimal Source Address Number" condition="`${!is_source_address_hex &amp;&amp; hasMatch(source_address, &quot;^0x.*$&quot;)}`" />
+    <DRC type="ERROR" text="Invalid Source Address Extern Variable Name" condition="`${!is_source_address_extern &amp;&amp; hasMatch(source_address, &quot;^[\\w\\W].*$&quot;) &amp;&amp; !hasMatch(source_address, &quot;^0x.*$&quot;) &amp;&amp; !is_source_address_null}`" />
+    <DRC type="ERROR" text="Invalid Hexadecimal Destination Address Number" condition="`${!is_destination_address_hex &amp;&amp; hasMatch(destination_address, &quot;^0x.*$&quot;)}`" />
+    <DRC type="ERROR" text="Invalid Destination Address Extern Variable Name" condition="`${!is_destination_address_extern &amp;&amp; hasMatch(destination_address, &quot;^[\\w\\W].*$&quot;) &amp;&amp; !hasMatch(destination_address, &quot;^0x.*$&quot;) &amp;&amp; !is_destination_address_null}`" />
+    <DRC type="ERROR" text="Invalid Hexadecimal Linked List Pointer Address Number" condition="`${!is_linked_list_pointer_hex &amp;&amp; hasMatch(linked_list_pointer, &quot;^0x.*$&quot;)}`" />
+    <DRC type="ERROR" text="Invalid Linked List Pointer Extern Variable Name" condition="`${!is_linked_list_pointer_extern &amp;&amp; hasMatch(linked_list_pointer, &quot;^[\\w\\W].*$&quot;) &amp;&amp; !hasMatch(linked_list_pointer, &quot;^0x.*$&quot;)}`" />
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_dma.h" include="true" />
+    <ConfigInclude value="cycfg_routing.h" include="`${hasConnection(&quot;src_per&quot;, 0) || hasConnection(&quot;dest_per&quot;, 0)}`" />
+    <ConfigDefine name="`${INST_NAME}`_NUM" value="`${channel_num}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_HW" value="XMC_DMA`${module_num}`" public="true" include="true" />
+    <ConfigExternVariable name="`${source_address}`" type="void *" const="false" include="`${are_source_fields_enabled &amp;&amp; is_source_address_extern}`" />
+    <ConfigExternVariable name="`${destination_address}`" type="void *" const="false" include="`${are_destination_fields_enabled &amp;&amp; is_destination_address_extern}`" />
+    <ConfigExternVariable name="`${linked_list_pointer}`" type="XMC_DMA_LLI_t * const" const="false" include="`${is_linked_list_pointer_enabled &amp;&amp; is_linked_list_pointer_extern}`" />
+    <ConfigExternVariable name="`${dma_channel_event_handler . &quot;(XMC_DMA_CH_EVENT_t event)&quot;}`" type="void" const="false" include="`${is_any_event_enabled &amp;&amp; event_handler_gen}`" />
+    <ConfigVariable name="`${INST_NAME}`_events" type="uint32_t" const="`${in_flash}`" public="true" include="true" value="`${enable_dma_transfer_complete_event ? &quot;XMC_DMA_CH_EVENT_TRANSFER_COMPLETE&quot; : &quot;0U&quot;}` | `${enable_block_transfer_complete_event ? &quot;XMC_DMA_CH_EVENT_BLOCK_TRANSFER_COMPLETE&quot; : &quot;0U&quot;}` | `${((source_handshaking eq XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE) &amp;&amp; enable_source_transaction_complete_event) ? &quot;XMC_DMA_CH_EVENT_SRC_TRANSACTION_COMPLETE&quot; : &quot;0U&quot;}` | `${((destination_handshaking eq XMC_DMA_CH_DST_HANDSHAKING_HARDWARE) &amp;&amp; enable_destination_transaction_complete_event) ? &quot;XMC_DMA_CH_EVENT_DST_TRANSACTION_COMPLETE&quot; : &quot;0U&quot;}` | `${enable_error_event ? &quot;XMC_DMA_CH_EVENT_ERROR&quot; : &quot;0U&quot;}`" />
+
+    <ConfigStruct name="`${INST_NAME}`_config" type="XMC_DMA_CH_CONFIG_t" const="`${in_flash}`" public="true" include="true">
+      <Member name="enable_interrupt" value="`${is_any_event_enabled}`" />
+      <Member name="dst_transfer_width" value="`${destination_transfer_width}`" />
+      <Member name="src_transfer_width" value="`${source_transfer_width}`" />
+      <Member name="dst_address_count_mode" value="`${destination_address_counter}`" />
+      <Member name="src_address_count_mode" value="`${source_address_counter}`" />
+      <Member name="dst_burst_length" value="`${destination_burst_width}`" />
+      <Member name="src_burst_length" value="`${source_burst_width}`" />
+      <Member name="enable_src_gather" value="`${cast(int64, enable_source_gather)}`U" />
+      <Member name="enable_dst_scatter" value="`${cast(int64, enable_destination_scatter)}`U" />
+      <Member name="transfer_flow" value="`${transfer_flow}`" />
+      <Member name="src_addr" value="(uint32_t)`${source_address}`" include="false" />
+      <Member name="dst_addr" value="(uint32_t)`${destination_address}`" include="false" />
+      <Member name="linked_list_pointer" value="(XMC_DMA_LLI_t *)`${linked_list_pointer}`" include="false" />
+      <Member name="src_gather_interval" value="`${gather_interval}`U" include="`${enable_source_gather}`" />
+      <Member name="src_gather_count" value="`${gather_count}`U" include="`${enable_source_gather}`" />
+      <Member name="dst_scatter_interval" value="`${scatter_interval}`U" include="`${enable_destination_scatter}`" />
+      <Member name="dst_scatter_count" value="`${scatter_count}`U" include="`${enable_destination_scatter}`" />
+      <Member name="block_size" value="`${block_size}`U" />
+      <Member name="transfer_type" value="`${transfer_type}`" />
+      <Member name="priority" value="`${priority}`" />
+      <Member name="src_handshaking" value="`${source_handshaking}`" include="`${is_source_handshaking_enabled}`" />
+      <Member name="src_peripheral_request" value="DMA_PERIPHERAL_REQUEST(XMC_GPDMA`${module_num}`_CH`${channel_num}`_SRC_PER, `${src_per_signal_name}`_TRIGGER_IN)" include="`${is_source_handshaking_enabled &amp;&amp; (source_handshaking eq XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE)}`" />
+      <Member name="dst_handshaking" value="`${destination_handshaking}`" include="`${is_destination_handshaking_enabled}`" />
+      <Member name="dst_peripheral_request" value="DMA_PERIPHERAL_REQUEST(XMC_GPDMA`${module_num}`_CH`${channel_num}`_DEST_PER, `${dest_per_signal_name}`_TRIGGER_IN)" include="`${is_destination_handshaking_enabled &amp;&amp; (destination_handshaking eq XMC_DMA_CH_DST_HANDSHAKING_HARDWARE)}`" />
+    </ConfigStruct>
+    <ConfigFunction signature="void `${INST_NAME}`_reload(void)"
+                    body     ="    XMC_DMA_CH_SetBlockSize(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${block_size}`U);&#13;`${are_source_fields_enabled ? (&quot;    XMC_DMA_CH_SetSourceAddress(&quot; . INST_NAME . &quot;_HW, &quot; . INST_NAME . &quot;_NUM, &quot; . (((source_address eq &quot;&quot;) || (source_address eq &quot;NULL&quot;)) ? &quot;(uint32_t)NULL&quot; : (!is_source_address_hex ? (&quot;(uint32_t)&quot; . source_address) : source_address . &quot;UL&quot;)) . &quot;);&#13;&quot;) :&quot;&quot;}``${are_destination_fields_enabled ? (&quot;    XMC_DMA_CH_SetDestinationAddress(&quot; . INST_NAME . &quot;_HW, &quot; . INST_NAME . &quot;_NUM, &quot; . (((destination_address eq &quot;&quot;) || (destination_address eq &quot;NULL&quot;)) ? &quot;(uint32_t)NULL&quot; : (!is_destination_address_hex ? (&quot;(uint32_t)&quot; . destination_address) : destination_address . &quot;UL&quot;)) . &quot;);&#13;&quot;) : &quot;&quot;}``${is_linked_list_pointer_enabled ? (&quot;    XMC_DMA_CH_SetLinkedListPointer(&quot; . INST_NAME . &quot;_HW, &quot; . INST_NAME . &quot;_NUM, &quot; . (((linked_list_pointer eq &quot;&quot;) || (linked_list_pointer eq &quot;NULL&quot;)) ? &quot;NULL&quot; : &quot;(XMC_DMA_LLI_t *)&quot; . linked_list_pointer) . &quot;);&#13;&quot;) : &quot;&quot;}`" public="true" include="true" />
+    <ConfigInstruction value="XMC_DMA_CH_Init(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, &amp;`${INST_NAME}`_config);" include="true" />
+    <ConfigInstruction value="XMC_DMA_CH_EnableEvent(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${INST_NAME}`_events);" include="true" />
+    <ConfigInstruction value="XMC_DMA_CH_SetEventHandler(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${(is_any_event_enabled &amp;&amp; event_handler_gen)? &quot;(XMC_DMA_CH_EVENT_HANDLER_t)&amp;&quot; . dma_channel_event_handler : &quot;NULL&quot;}`);" include="true" />
+
+    <ConfigInstruction value="`${INST_NAME}`_reload();" include="true" />
+  </ConfigFirmware>
+</Personality>
