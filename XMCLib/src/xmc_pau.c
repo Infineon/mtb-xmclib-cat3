@@ -1,10 +1,9 @@
 /**
  * @file xmc_pau.c
- * @date 2015-06-20
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,14 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-06-20:
- *     - Removed GetDriverVersion API
  * @endcond
  *
  */

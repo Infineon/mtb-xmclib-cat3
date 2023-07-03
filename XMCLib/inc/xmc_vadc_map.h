@@ -1,10 +1,9 @@
 /**
  * @file xmc_vadc_map.h
- * @date 2016-11-17
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,27 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-15:
- *     - Initial version
- *
- * 2015-12-01:
- *     - Added:
- *     - XMC4300 device supported
- *
- *     - Fixed:
- *     - Wrong MACRO name corrected for XMC4200/4100 devices.
- *       XMC_VADC_G3_SAMPLE renamed to XMC_VADC_G1_SAMPLE
- *
- * 2016-11-17:
- *      - Fixed: Add missing support for XMC47000
- *      - Fixed: Renamed XMC_CCU_41_ST2 to  XMC_CCU_41_ST3
- *      - Added: New macros equivalent to th existing ones but with better naming.
- *               Old macros are kept for backward compatibility but they deprecated.
- *      - Added: ECAT support for XMC48/43
  *
  * @endcond
  *

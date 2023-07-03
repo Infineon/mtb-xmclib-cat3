@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_DSD_CH_FILTER_CONFIG_t</compoundname>
     <includes local="no">xmc_dsd.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="438" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="413" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a38f3eb99ebc7891b76c479cf73220c10" prot="public" static="no" mutable="no">
         <type>union XMC_DSD_CH_FILTER_CONFIG_t::@82</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="452" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="427" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="432" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="432" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="407" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="407" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="435" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="435" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="410" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="410" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="447" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="447" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="422" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="422" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a4854608c0e776f0704a4d9a4b98ea57d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="448" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="448" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="423" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="423" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1ad75caa2a4ae7d1bf58cad8f20676227b" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -95,11 +95,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This parameter can take a value of XMC_DSD_CH_CLK_t </para>
-        </detaileddescription>
+<para>This parameter can take a value of XMC_DSD_CH_CLK_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="425" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="425" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="400" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="400" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a6b0e79ef871d53c11270ff6980f5a6e5" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -110,11 +109,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This parameter can take a value of XMC_DSD_CH_CLOCK_SOURCE_t </para>
-        </detaileddescription>
+<para>This parameter can take a value of XMC_DSD_CH_CLOCK_SOURCE_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="433" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="433" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="408" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="408" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1ab80d6886684143814f11eeda5e092b7a" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -125,11 +123,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This parameter can take a value of XMC_DSD_CH_DATA_SOURCE_t </para>
-        </detaileddescription>
+<para>This parameter can take a value of XMC_DSD_CH_DATA_SOURCE_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="431" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="431" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="406" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="406" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1ac8badddd0704c5278b4f6463a45287bd" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -139,11 +136,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This parameter can be in range of 4 - 256[dec] </para>
-        </detaileddescription>
+<para>This parameter can be in range of 4 - 256[dec] </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="453" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="453" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="428" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="428" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a037877e8a032c11fff2145515078647b" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -156,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="437" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="437" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="412" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="412" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1ae07810d364650c802825b263f8765660" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -166,11 +162,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This parameter can be in range of 4 - decimation_factor[dec] </para>
-        </detaileddescription>
+<para>This parameter can be in range of 4 - decimation_factor[dec] </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="454" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="454" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="429" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="429" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a8e2f23725403bd88afed489a883799aa" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -181,11 +176,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This parameter can take a value of XMC_DSD_CH_FILTER_TYPE_t </para>
-        </detaileddescription>
+<para>This parameter can take a value of XMC_DSD_CH_FILTER_TYPE_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="444" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="444" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="419" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="419" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a3fb1f431022a67732f10c815e62a68fb" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -198,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="450" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="450" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="425" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="425" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a59f874d10bf763992bd4b427fdb7f0cd" prot="public" static="no" mutable="no">
         <type>int16_t</type>
@@ -208,11 +202,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Offset subtracted from result.This parameter can take a value of int16_t </para>
-        </detaileddescription>
+<para>Offset subtracted from result.This parameter can take a value of int16_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="426" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="426" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="401" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="401" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a636dd3a4e59c0e5397ac1f0bd36563e1" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -223,11 +216,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This parameter can take a value of XMC_DSD_CH_RESULT_EVENT_t </para>
-        </detaileddescription>
+<para>This parameter can take a value of XMC_DSD_CH_RESULT_EVENT_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="446" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="446" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="421" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="421" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a42f8987f07f04638705e4f1ac630adbc" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -238,19 +230,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This parameter can take a value of XMC_DSD_CH_STROBE_t </para>
-        </detaileddescription>
+<para>This parameter can take a value of XMC_DSD_CH_STROBE_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="434" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="434" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="409" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="409" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>DSD filter is the basic module of the DSD. It can be used separately or can be combined with the other modules like integrator, rectify, auxiliary filter etc. The filter demodulates the incoming bit stream from the delta sigma modulator to a 16 bit result. Note: Configure or reconfigure filter parameters while the channel is inactive. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="423" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="424" bodyend="456"/>
+<para>DSD filter is the basic module of the DSD. It can be used separately or can be combined with the other modules like integrator, rectify, auxiliary filter etc. The filter demodulates the incoming bit stream from the delta sigma modulator to a 16 bit result. Note: Configure or reconfigure filter parameters while the channel is inactive. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" line="399" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dsd.h" bodystart="398" bodyend="431"/>
     <listofallmembers>
       <member refid="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_DSD_CH_FILTER_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___d_s_d___c_h___f_i_l_t_e_r___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_DSD_CH_FILTER_CONFIG_t</scope><name>__pad1__</name></member>

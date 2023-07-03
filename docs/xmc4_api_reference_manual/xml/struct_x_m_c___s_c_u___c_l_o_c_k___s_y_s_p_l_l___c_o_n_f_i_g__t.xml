@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_SCU_CLOCK_SYSPLL_CONFIG_t</compoundname>
     <includes local="no">xmc4_scu.h</includes>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>PLL divider input frequency. </para>
-        </detaileddescription>
+<para>PLL divider input frequency. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="934" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="934" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="876" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="876" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t_1ad8f4946bc150aa980b8e0319fa533b23" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -26,11 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>K1-Divider(Prescalar mode) or K2-Divider (Normal mode). </para>
-        </detaileddescription>
+<para>K1-Divider(Prescalar mode) or K2-Divider (Normal mode). </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="932" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="932" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="874" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="874" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t_1af18af0543a393ec3d18f1d62590ce842" prot="public" static="no" mutable="no">
         <type><ref refid="group___s_c_u_1gad0bc6581cbe44ad6b1d649cbffe96875" kindref="member">XMC_SCU_CLOCK_SYSPLL_MODE_t</ref></type>
@@ -40,11 +38,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>PLL mode of operation. </para>
-        </detaileddescription>
+<para>PLL mode of operation. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="933" column="31" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="933" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="875" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="875" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t_1aaf1a79235eb65d30561037f100ba4e9e" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -54,11 +51,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>PLL N-Divider value. </para>
-        </detaileddescription>
+<para>PLL N-Divider value. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="930" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="930" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="872" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="872" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t_1a89b3cddaa1f65f5256ce636018135647" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -68,19 +64,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>PLL P-Divider value. </para>
-        </detaileddescription>
+<para>PLL P-Divider value. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="931" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="931" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="873" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="873" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Defines a data structure for initializing the PLL functional block. Structure holds divider values for N-DIV, P-DIV, K1-DIV, K2-DIV in order to generate desired frequency using VCO. It holds the PLL mode of operation either normal or prescaler (VCO bypassed). Use type <emphasis>XMC_SCU_CLOCK_PLL_CONFIG_t</emphasis> for accessing these structure parameters. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="928" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="929" bodyend="935"/>
+<para>Defines a data structure for initializing the PLL functional block. Structure holds divider values for N-DIV, P-DIV, K1-DIV, K2-DIV in order to generate desired frequency using VCO. It holds the PLL mode of operation either normal or prescaler (VCO bypassed). Use type <emphasis>XMC_SCU_CLOCK_PLL_CONFIG_t</emphasis> for accessing these structure parameters. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="871" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="870" bodyend="877"/>
     <listofallmembers>
       <member refid="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t_1ac8ec466a72627bffd1b3072e4149deac" prot="public" virt="non-virtual"><scope>XMC_SCU_CLOCK_SYSPLL_CONFIG_t</scope><name>clksrc</name></member>
       <member refid="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t_1ad8f4946bc150aa980b8e0319fa533b23" prot="public" virt="non-virtual"><scope>XMC_SCU_CLOCK_SYSPLL_CONFIG_t</scope><name>k_div</name></member>

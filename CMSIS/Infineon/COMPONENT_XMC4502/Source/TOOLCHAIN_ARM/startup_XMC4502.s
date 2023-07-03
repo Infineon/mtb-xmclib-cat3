@@ -2,12 +2,10 @@
 ;* @file     startup_XMC4502.s
 ;* @brief    CMSIS Core Device Startup File for
 ;*           Infineon XMC4502 Device Series
-;* @version  V1.9
-;* @date     January 2021
 ;*
 ;* @cond
 ;*********************************************************************************************************************
-;* Copyright (c) 2012-2020, Infineon Technologies AG
+;* Copyright (c) 2012-2023, Infineon Technologies AG
 ;* All rights reserved.                        
 ;*                                             
 ;* Boost Software License - Version 1.0 - August 17th, 2003
@@ -39,24 +37,6 @@
 ;* at XMCSupport@infineon.com.
 ;*********************************************************************************************************************
 ;*
-;************************** Version History ************************************
-; V1.00, February 2012, First version
-; V1.10, August 2012, Adding Dave3 init function call
-; V1.20, February 2013, FIX for CPU prefetch bug implemented
-; V1.30, August 2013, Fix the bug of stack pointer alignment to a 8 byte boundary
-; V1.40, November 2014, Disable CPU workaround. 
-;                       To enable the workaround add to the ASM defines: 
-;                           ENABLE_PMU_CM_001_WORKAROUND 
-;                       Increased stack size. 
-;                       Removed DAVE3 dependency
-; V1.50, December 2014, Fix not available entries in vector table
-; V1.60, November 2015, Remove peripherals not included in device
-; V1.7 , March    2016, Fix weak definition of Veneers.
-;                       Only relevant for AA and AB step, which needs ENABLE_PMU_CM_001_WORKAROUND 
-; V1.8,  June     2016, Rename ENABLE_CPU_CM_001_WORKAROUND to ENABLE_PMU_CM_001_WORKAROUND
-;                       Action required: If using AA/AB step, use ENABLE_PMU_CM_001_WORKAROUND instead of ENABLE_CPU_CM_001_WORKAROUND
-; V1.9,  January  2021, Stack configured in scatter file
-;*******************************************************************************
 ;* @endcond
 
 

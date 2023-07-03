@@ -16,7 +16,7 @@
  * - XMC1100 series
  *
  * The following toolchains are supported:
- * - GNU GCC for ARM 10.3.1. (provided with ModusToolbox 3.0).
+ * - GNU GCC for ARM 11.3.1. (provided with ModusToolbox 3.1).
  *
  * @section overview Overview
  * XMC Lib consists of routines and data structures which cover all peripheral functions.
@@ -324,7 +324,7 @@
  *	- Limited functional test is applied with XMC1404-Q064x0200.
  *
  *  Compilers used :
- *  -  GNU GCC for ARM 10.3.1.
+ *  -  GNU GCC for ARM 11.3.1.
  *
  * @section licensing XMC Peripheral Library Licensing
  *

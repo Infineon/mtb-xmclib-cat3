@@ -1,10 +1,9 @@
 /**
  * @file xmc1_scu.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,70 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-05-20:
- *     - XMC_SCU_StartTempMeasurement API is modified
- *     - XMC_ASSERT statements are added in XMC_SCU_INTERRUPT_SetEventHandler
- *
- * 2015-06-20:
- *     - XMC_SCU_INTERRUPT_EnableEvent,XMC_SCU_INTERRUPT_DisableEvent,
- *     - XMC_SCU_INTERRUPT_TriggerEvent,XMC_SCU_INTERUPT_GetEventStatus,
- *     - XMC_SCU_INTERRUPT_ClearEventStatus APIs are added
- *
- * 2015-09-23:
- *     - XMC1400 support added
- *
- * 2015-11-30:
- *     - Documentation improved
- *
- * 2016-02-29:
- *     - Fixed XMC_SCU_CLOCK_ScaleMCLKFrequency
- *       It solves issues with down clock frequency scaling
- *
- * 2016-04-15:
- *     - Fixed XMC_SCU_CLOCK_Init for XMC1400
- *       It solves issues when trying to disable the OSCHP and use the XTAL pins as GPIO
- *
- * 2017-02-09
- *     - At XMC_SCU_CLOCK_Init() fixed issue while reading oscillator watchdog status
- *
- * 2017-04-11:
- *     - Added XMC_SCU_SetBMI()
- *
- * 2017-06-24
- *     - Changed XMC_SCU_SetBMI() for XMC11/XMC12/XMC13 to set to 1 the bit 11 of BMI
- *
- * 2017-10-25
- *     - Move the following functions to xmc1_scu.h as STATCI_INLINE and make them available for XMC1 families
- *            XMC_SCU_CLOCK_EnableDCO1OscillatorWatchdog(),
- *            XMC_SCU_CLOCK_DisableDCO1OscillatorWatchdog(),
- *            XMC_SCU_CLOCK_ClearDCO1OscillatorWatchdogStatus(),
- *            XMC_SCU_CLOCK_IsDCO1ClockFrequencyUsable()
- *     - Changed XMC_SCU_SetBMI() for XMC11/XMC12/XMC13 to set to 1 the bits [7:6] of BMI
- *
- * 2018-06-21:
- *     - Changed XMC_SCU_CLOCK_Init() for XMC1400 adding a delay between disable/enable oscillator watchdog to avoid startup hangs when using external crystal oscillator
- *     - Changed XMC_SCU_CLOCK_Init() for XMC1400 adding a wait time of 5s after enabling the RTC_XTAL
- *
- * 2019-03-20:
- *     - Fix XMC_SCU_CLOCK_Init() if external XTAL is used  for XMC1400 (clock watchdog issue, see errata SCU_CM.023)
- *     - Added DISABLE_WAIT_RTC_XTAL_OSC_STARTUP preprocessor guard:
- *         The RTC_XTAL can be used as clock source for RTC or as reference for DCO1 calibration
- *         In both cases if no wait is done in the startup after enabling the RTC_XTAL oscillator,
- *         the RTC_Enable() or the calibration will stall the MCU until the oscillator is stable (max. 5s according datasheet)
- *     - Added XMC_SCU_CLOCK_SetHighPerformanceOscillatorMode() and XMC_SCU_CLOCK_SetLowPerformanceOscillatorMode()
- *
- * 2019-10-14:
- *     - Added XMC_SCU_CLOCK_SetAdcClockSrc()
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  *

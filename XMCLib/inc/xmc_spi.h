@@ -1,12 +1,11 @@
 /**
  * @file xmc_spi.h
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,56 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial
- *
- * 2015-05-20:
- *     - Documentation improved <br>
- *     - Added XMC_SPI_CH_SetSlaveSelectDelay(), XMC_SPI_CH_TriggerServiceRequest() and
- *       XMC_SPI_CH_SelectInterruptNodePointer() <br>
- *     - Added XMC_SPI_CH_SetInterwordDelaySCLK() <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *
- * 2015-08-24:
- *     - Added APIs for enabling/disabling delay compensation XMC_SPI_CH_DisableDelayCompensation() and
- *       XMC_SPI_CH_EnableDelayCompensation() <br>
- *
- * 2015-08-27:
- *     - Added APIs for external input for BRG configuration:XMC_SPI_CH_ConfigExternalInputSignalToBRG() <br>
- *
- * 2015-09-01:
- *     - Modified XMC_SPI_CH_SetInputSource() for avoiding complete DXCR register overwriting. <br>
- *     - Modified XMC_SPI_CH_EVENT_t enum for supporting XMC_SPI_CH_EnableEvent() and XMC_SPI_CH_DisableEvent()
- *       for supporting multiple events configuration <br>
- *
- * 2015-09-08:
- *     - Adding API for configuring the receiving clock phase in the slave:XMC_SPI_CH_DataLatchedInTrailingEdge() and XMC_SPI_CH_DataLatchedInLeadingEdge() <br>
- *
- * 2016-04-10:
- *     - Added an API for configuring the transmit mode:XMC_SPI_CH_SetTransmitMode() <br>
- *
- * 2016-05-20:
- *     - Added XMC_SPI_CH_EnableDataTransmission() and XMC_SPI_CH_DisableDataTransmission()
- *
- * 2019-03-30:
- *     - Fix XMC_SPI_CH_MODE_STANDARD_HALFDUPLEX macro value
- *
- * 2019-05-07:
- *     - Added normal_divider_mode to XMC_SPI_CH_CONFIG_t configuration structure.
- *       It selects normal divider mode for baudrate generator instead of default fractional divider decreasing jitter at cost of frequency selection
- *     - Added XMC_SPI_CH_SetBaudrateEx()
- *
- * 2019-09-04:
- *    - Added XMC_SPI_CLOCK_MODE_t enum
- *
- * 2020-12-05:
- *    - Added XMC_SPI_CH_InitEx() that allows user select if automatic baudrate configuration should be done or not
  *
  * @endcond
  *

@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,7 +35,7 @@
   </ExposedMembers>
   <Parameters>
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___d_a_c.html" linkText="Open DAC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___d_a_c.html" linkText="Open DAC Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
 
     <ParamBool id="dac_coupled_global_check" name="Use DAC Coupled Register" group="Single Value Expert" default="false" visible="true" editable="true" desc="Enable DAC coupled mode to enable simultaneous data mode. If selected then it will update two DAC channel data in DATA01 register simultaneously." />
   </Parameters>

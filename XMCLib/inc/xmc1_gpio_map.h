@@ -1,10 +1,9 @@
 /**
  * @file xmc1_gpio_map.h
- * @date 2019-07-30
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,30 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial draft
- *
- * 2015-06-20:
- *     - Updated copyright information
- *
- * 2015-08-25:
- *     - Added XMC1400
- *
- * 2016-03-09:
- *     - Fixed VADC_EMUX signals
- *     - Added P1_6_AF_BCCU0_OUT2 for (UC_DEVICE == XMC1202) && (UC_PACKAGE == VQFN40)
- *     - Added HWCTRL_U1C0_DOUTx for XMC14xx
- *
- * 2016-08-22:
- *     - Added P1_5_AF_U0C0_DOUT0 for XMC14xx
- *     - Add missing P4_5_AF_BCCU0_OUT8 for XMC1402/04 64/48 pins package
- *
- * 2019-07-30:
- *     - Added support for XMC1404-Q040
  *
  * @endcond
  *

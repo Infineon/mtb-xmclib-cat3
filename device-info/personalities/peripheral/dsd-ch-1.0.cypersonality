@@ -64,7 +64,7 @@
       <Entry name="4) Half Clock, Sample Every Second Rising Edge" value="XMC_DSD_CH_STROBE_DOUBLE_CLOCK_RISE" visible="true" />
       <Entry name="5) Half Clock, Sample Every Second Falling Edge" value="XMC_DSD_CH_STROBE_DOUBLE_CLOCK_FALL" visible="true" />
     </ParamChoice>
-    <ParamImage id="data_strobe_image" name="" group="General Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dsd_data_strobe.png" visible="true" desc="Explain the sampling edge for input data." />
+    <ParamImage id="data_strobe_image" name="" group="General Settings" default="`${cy_libs_path()}`/device-info/personalities/images/dsd_data_strobe.png" visible="true" desc="Explain the sampling edge for input data." />
     <ParamRange id="sample_frequency_khz" name="Sampling Frequency [kHz]" group="General Settings" default="`${(data_strobe eq XMC_DSD_CH_STROBE_DOUBLE_DATA) ? (actual_frequency_khz * 2) : (((data_strobe eq XMC_DSD_CH_STROBE_DOUBLE_CLOCK_RISE) || (data_strobe eq XMC_DSD_CH_STROBE_DOUBLE_CLOCK_FALL)) ? (actual_frequency_khz / 2) : actual_frequency_khz)}`" min="1" max="576000" resolution="0.01" visible="true" editable="false" desc="Demodulator channel operating frequency. Its applicable for all DSD channels. This is the frequency at which the channels are sampled based on the strobe. Strobe decides whether the sampling should be half, same to double the input channel frequency." />
     <ParamChoice id="data_polarity" name="Data Polarity" group="General Settings" default="0U" visible="true" editable="true" desc="The DSM data can be optionally inverted before it is filtered. Select , whether data is fed directly or inverted to filter.">
       <Entry name="Direct" value="0U" visible="true" />

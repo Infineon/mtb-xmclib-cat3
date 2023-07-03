@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020-2021 Cypress Semiconductor Corporation
+* Copyright 2020-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -48,7 +48,7 @@
     <ParamBool id="periclk_enabled" name="" group="Internal" default="`${isBlockUsed(periclk_resource)}`" visible="false" editable="false" desc=""/>
 
    <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${xmc1 ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___i2_c.html" linkText="Open I2C Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation"/>
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___i2_c.html" linkText="Open I2C Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation"/>
 
    <!--General-->
     <ParamChoice id="ModeUser" name="Device Type" group="General" default="I2C_MASTER" visible="true" editable="true" desc="This parameter defines the I2C operation mode as: the slave, master or master-slave.">
@@ -348,11 +348,6 @@
    <!-- Connections -->
     <ParamSignal port="dx0[0]" name="SDA In" group="Connections" visible="true" desc="DX0 signal connection." canBeEmpty="false" multiSelect="false">
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" >
-        <Parameter id="output_mode" severity="DEFAULT" reason="">
-          <Fixed value="XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN"/>
-        </Parameter>
-      </Constraint>
-      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" >
         <Parameter id="output_mode" severity="INFO" reason="The pin Output Mode parameter does not match expected.">
           <Fixed value="XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN"/>
         </Parameter>
@@ -362,11 +357,6 @@
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" />
     </ParamSignal>
     <ParamSignal port="dx1[0]" name="SCL In" group="Connections" visible="true" desc="DX1 signal connection." canBeEmpty="false" multiSelect="false" >
-      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" >
-        <Parameter id="output_mode" severity="DEFAULT" reason="">
-          <Fixed value="XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN"/>
-        </Parameter>
-      </Constraint>
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" >
         <Parameter id="output_mode" severity="INFO" reason="The pin Output Mode parameter does not match expected.">
           <Fixed value="XMC_GPIO_MODE_OUTPUT_OPEN_DRAIN"/>

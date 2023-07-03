@@ -7,12 +7,10 @@
 ;*********************************************************************************************************************
 ;* @file     XMC4800x2048_ac5.sct
 ;* @brief    Scatter-Loading Description File for Infineon XMC4800 2048K Flash Devices
-;* @version  V1.0
-;* @date     26 Jan 2021
 ;*
 ;* @cond
 ;*********************************************************************************************************************
-;* Copyright (c) 2018-2020, Infineon Technologies AG
+;* Copyright (c) 2018-2023, Infineon Technologies AG
 ;* All rights reserved.                        
 ;*                                             
 ;* Boost Software License - Version 1.0 - August 17th, 2003
@@ -43,9 +41,6 @@
 ;* modifications, enhancements or bug fixes with Infineon Technologies AG 
 ;* at XMCSupport@infineon.com.
 ;*********************************************************************************************************************
-;*
-;**************************** Change history ********************************
-;* V1.0, Jan, 26, 2021 JFT:Initial version
 ;*
 ;* @endcond 
 ;*

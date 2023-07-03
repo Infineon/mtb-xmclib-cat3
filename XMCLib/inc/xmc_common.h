@@ -1,12 +1,11 @@
 /**
  * @file xmc_common.h
- * @date 2020-05-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -38,59 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Initial
- *     - Brief section updated
- *     - Added XMC_LIB_VERSION macro
- *
- * 2016-02-26:
- *     - Updated XMC_LIB_VERSION macro to v2.1.6
- *
- * 2016-05-30:
- *     - Updated XMC_LIB_VERSION macro to v2.1.8
- *
- * 2016-11-18:
- *     - Updated XMC_LIB_VERSION macro to v2.1.10
- *     - Changed type of size in XMC_PRIOARRAY_t to fix compilation warnings
- *
- * 2017-04-04:
- *     - Updated XMC_LIB_VERSION macro to v2.1.12
- *
- * 2017-06-24:
- *     - Updated XMC_LIB_VERSION macro to v2.1.14
- *
- * 2017-08-03:
- *     - Updated XMC_LIB_VERSION macro to v2.1.16
- *     - Added __RAM_FUNC macro
- *
- * 2018-06-29:
- *     - Updated XMC_LIB_VERSION macro to v2.1.20
- *
- * 2019-05-29:
- *     - Updated XMC_LIB_VERSION macro to v2.1.22
- *
- * 2019-07-12:
- *     - Updated XMC_LIB_VERSION macro to v2.1.24
- *
- * 2019-11-19:
- *     - Updated XMC_LIB_VERSION macro to v2.2.0
- *
- * 2019-12-16:
- *     - Added include for inttypes.h
- *
- * 2020-05-05:
- *     - Added XMC_VERSION_NUMBER to build version number given major, minor and patch numbers
- *
- * 2022-11-15:
- *     - Added XMC_DelayCycles(uint32_t cycles),
- *             XMC_Delay(uint32_t milliseconds),
- *             XMC_DelayUs(uint16_t microseconds),
- *             XMC_EnterCriticalSection(void),
- *             XMC_ExitCriticalSection(uint32_t savedIntrStatus)
- *
  * @endcond
  */
 
@@ -118,7 +64,7 @@
 /**********************************************************************************************************************
  * MACROS
  *********************************************************************************************************************/
-#define XMC_LIB_MAJOR_VERSION	(2U)
+#define XMC_LIB_MAJOR_VERSION	(4U)
 #define XMC_LIB_MINOR_VERSION	(2U)
 #define XMC_LIB_PATCH_VERSION	(0U)
 

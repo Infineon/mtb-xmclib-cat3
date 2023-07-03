@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2022 Cypress Semiconductor Corporation
+* Copyright 2022-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -46,7 +46,7 @@
     <!-- <ParamBool id="modeIsOtg" name="modeIsOtg" group="Internal" default="`${mode eq 2}`" visible="`${debug}`" editable="false" desc="" /> -->
     
     <!-- Documentation -->
-    <ParamDoc id="emUsbDoc" name="Configuration Help" group="Overview" default="`${modeIsHost ? &quot;https://infineon.github.io/emusb-host/html/index.html&quot; : &quot;https://infineon.github.io/emusb-device/html/index.html&quot;}`" linkText="`${modeIsHost ? &quot;Open emUSB-Host Documentation&quot; : &quot;Open emUSB-Device Documentation&quot;}`" visible="true" desc="Open the USB Documentation" />
+    <ParamDoc id="emUsbDoc" name="API Help" group="Documentation" default="`${modeIsHost ? &quot;https://infineon.github.io/emusb-host/html/index.html&quot; : &quot;https://infineon.github.io/emusb-device/html/index.html&quot;}`" linkText="`${modeIsHost ? &quot;Open emUSB-Host Documentation&quot; : &quot;Open emUSB-Device Documentation&quot;}`" visible="true" desc="Open the USB Documentation" />
 
     <!-- Connections -->
     <!-- USB clock configuration -->	
@@ -61,14 +61,8 @@
     <!--****************************************************************************
     <ParamSignal port="id[0]" name="ID" group="Connections" visible="`${modeIsOtg}`" canBeEmpty="`${!modeIsOtg}`" multiSelect="false" desc="The OTG ID sensing signal">
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" >
-        <Parameter id="io_function" severity="DEFAULT" reason="">
-          <Fixed value="XMC_GPIO_INPUT" />
-        </Parameter>
         <Parameter id="io_function" severity="INFO" reason="">
           <Fixed value="XMC_GPIO_INPUT" />
-        </Parameter>
-        <Parameter id="input_mode" severity="DEFAULT" reason="">
-          <Fixed value="XMC_GPIO_MODE_INPUT_TRISTATE" />
         </Parameter>
         <Parameter id="input_mode" severity="INFO" reason="">
           <Fixed value="XMC_GPIO_MODE_INPUT_TRISTATE" />
@@ -78,14 +72,8 @@
     **************************************************************************** -->
     <ParamSignal port="drivevbus[0]" name="Drive Bus" group="Connections" visible="`${modeIsHost}`" canBeEmpty="false" multiSelect="false" desc="The VBus control signal">
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" >
-        <Parameter id="io_function" severity="DEFAULT" reason="">
-          <Fixed value="XMC_GPIO_INPUT_OUTPUT" />
-        </Parameter>
         <Parameter id="io_function" severity="INFO" reason="">
           <Fixed value="XMC_GPIO_INPUT_OUTPUT" />
-        </Parameter>
-        <Parameter id="output_mode" severity="DEFAULT" reason="">
-          <Fixed value="XMC_GPIO_MODE_OUTPUT_PUSH_PULL" />
         </Parameter>
         <Parameter id="output_mode" severity="INFO" reason="">
           <Fixed value="XMC_GPIO_MODE_OUTPUT_PUSH_PULL" />
@@ -119,13 +107,14 @@
       <FixIt action="ENABLE_BLOCK" target="`${ccuRsc}`" value="xmc_emusb-os-timer-1.0" valid="true" />
     </DRC>
     <DRC type="ERROR" text="The chosen CCU Timer Period must be 1 ms." condition="`${ccuEnabled &amp;&amp; (1000000 != (hasExposedMember(ccuRsc, &quot;period&quot;) ? getExposedMember(ccuRsc, &quot;period&quot;) : 1000000))}`"  location="`${ccuRsc}`" />
-    <DRC type="ERROR" text="1. Enable CCU4 and CCU4 Slise;  2. Select emUSB OS Timer-1.0 personality into drop-down list of CCU4 Slice;  3. Select the CCU resource from CCU Recource drop-down list of the emUSB personality." condition="`${ccuOsEnable &amp;&amp; !ccuEnabled}`"  location="`${ccuRsc}`" />
-    <DRC type="ERROR" text="Empty the text of CCU Resource section of emUSB personality before unchecking of CCU for OS checkbox." condition="`${!ccuOsEnable &amp;&amp; ccuEnabled}`"  location="`${ccuRsc}`" />
+    <DRC type="ERROR" text="1. Enable CCU4 and CCU4 Slise;  2. Select emUSB OS Timer-1.0 personality into drop-down list of CCU4 Slice;  3. Select the CCU resource from CCU Recource drop-down list of the emUSB personality." condition="`${modeIsDevice &amp;&amp; ccuOsEnable &amp;&amp; !ccuEnabled}`"  location="`${ccuRsc}`" />
+    
+    <DRC type="ERROR" text="'CCU for OS' is not applicable for 'Host' mode. Empty the text of 'CCU Resource' parameter and uncheck the 'CCU for OS' checkbox into emUSB 'Device' mode" condition="`${modeIsHost &amp;&amp; ccuOsEnable &amp;&amp; !ccuEnabled}`"  location="`${ccuRsc}`" />
+    
+    <DRC type="ERROR" text="Empty the text of 'CCU Resource' section of emUSB personality before unchecking of CCU for OS checkbox." condition="`${!ccuOsEnable &amp;&amp; ccuEnabled}`"  location="`${ccuRsc}`" />
   </DRCs>
   
   <ConfigFirmware>
-    <ConfigDefine name="`${INST_NAME}`_CCU_HW" value="`${ccuEnabled ? getExposedMember(ccuRsc, &quot;baseAddress&quot;) : &quot;&quot;}`" public="true" include="`${ccuEnabled}`" />
-    <ConfigDefine name="`${INST_NAME}`_CCU_IRQHandler" value="`${ccuEnabled ? getExposedMember(ccuRsc, &quot;irqHandler&quot;) : &quot;&quot;}`" public="true" include="`${ccuEnabled}`" />
-    <ConfigDefine name="`${INST_NAME}`_CCU_IRQn" value="`${ccuEnabled ? getExposedMember(ccuRsc, &quot;irqNumber&quot;) : &quot;&quot;}`" public="true" include="`${ccuEnabled}`" />
+    
   </ConfigFirmware>
 </Personality>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="main__xmc4_8txt" kind="file" language="C++">
     <compoundname>main_xmc4.txt</compoundname>
     <briefdescription>
@@ -7,7 +7,7 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/>*<sp/>#include<sp/></highlight><highlight class="stringliteral">&quot;xmc_gpio.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/>*<sp/>#include<sp/></highlight><highlight class="stringliteral">&quot;xmc_i2c.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="125"><highlight class="normal"><sp/>*<sp/>...</highlight></codeline>
@@ -40,7 +40,7 @@
 <codeline lineno="152"><highlight class="normal"><sp/>*<sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"><sp/>*<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>wait<sp/>for<sp/>ACK<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="154"><highlight class="normal"><sp/>*<sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/>*<sp/><sp/><sp/><ref refid="group___i2_c_1gab922e97164d14898b92df3d30c10fe83" kindref="member">XMC_I2C_CH_ClearStatusFlag</ref>(<ref refid="group___i2_c_1ga9ffc942d7d7d6a1a2653c4406f265a16" kindref="member">XMC_I2C1_CH0</ref>,<sp/><ref refid="group___i2_c_1ggae922e0696a07a1809a0d8e80248ce497ab08a526647c7f9bd1bcad252e6a195c3" kindref="member">XMC_I2C_CH_STATUS_FLAG_ACK_RECEIVED</ref>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/>*<sp/><sp/><sp/><ref refid="group___i2_c_1gab922e97164d14898b92df3d30c10fe83" kindref="member">XMC_I2C_CH_ClearStatusFlag</ref>(<ref refid="group___i2_c_1ga9ffc942d7d7d6a1a2653c4406f265a16" kindref="member">XMC_I2C1_CH0</ref>,<sp/>XMC_I2C_CH_STATUS_FLAG_ACK_RECEIVED);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/>*<sp/><sp/><sp/>...</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/>*</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">@end</highlight><highlight class="normal">code</highlight></codeline>
@@ -157,7 +157,7 @@
 <codeline lineno="269"><highlight class="normal"><sp/>*<sp/><sp/>-<sp/>Limited<sp/>functional<sp/>test<sp/>is<sp/>applied<sp/>with<sp/>XMC4700-F144x2048.</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"><sp/>*</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"><sp/>*<sp/><sp/>Compilers<sp/>used<sp/>:</highlight></codeline>
-<codeline lineno="272"><highlight class="normal"><sp/>*<sp/><sp/>-<sp/><sp/>GNU<sp/>GCC<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>ARM<sp/>10.3.1.</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/>*<sp/><sp/>-<sp/><sp/>GNU<sp/>GCC<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>ARM<sp/>11.3.1.</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"><sp/>*</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"><sp/>*<sp/>@section<sp/>licensing<sp/>XMC<sp/>Peripheral<sp/>Library<sp/>Licensing</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"><sp/>*</highlight></codeline>

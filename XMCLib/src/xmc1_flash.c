@@ -1,10 +1,9 @@
 /**
  * @file xmc1_flash.c
- * @date 2019-05-04
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,23 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-10:
- *     - Initial <br>
- *
- * 2015-06-20:
- *     - Removed definition of GetDriverVersion API
- *
- * 2015-10-14:
- *     - Fixed defect in API XMC_FLASH_ErasePages, related to the errata NVM_CM.001
- *     - NVM ROM user routine XMC1000_NvmErasePage(address) used for erase page.
- *
- * 2019-05-04:
- *     - Changed XMC_FLASH_ErasePage() and XMC_FLASH_ProgramVerifyPage() to return status of operation
- *     - Changed XMC_FLASH_ErasePages(), XMC_FLASH_EraseSector() and XMC_FLASH_ProgramPage() to return status of operation
  *
  * @endcond
  *

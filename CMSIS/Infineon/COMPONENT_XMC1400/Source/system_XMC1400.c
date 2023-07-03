@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     system_XMC1400.c
  * @brief    Device specific initialization for the XMC1400-Series according to CMSIS
- * @version  V1.10
- * @date     02 Feb 2021
  *
  * @cond
  *********************************************************************************************************************
@@ -37,27 +35,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG 
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
- *
- * *************************** Change history ********************************
- * V1.0, 03 Sep 2015, JFT : Initial version
- *                          MCLK = 48MHz, PCLK = 96MHz
- * V1.1, 09 Dec 2015, JFT : Enable prefetch unit
- * V1.2, 19 Jun 2017, Rely on cmsis_compiler.h instead of defining __WEAK
- *                    Added support for ARM Compiler 6 (armclang) 
- * V1.3, 20 Jun 2018, Fixed OSC_HP oscillator watchdog result detection in startup
- *                    Added wait time for RTC_XTAL oscillator startup time ~5s
- * V1.4, 29 Oct 2018, Fix variable location of SystemCoreClock for ARMCC compiler
- * V1.5, 20 Mar 2019, Fix clock initialization if external XTAL is used (clock watchdog issue, see errata SCU_CM.023)
- *                    Added DISABLE_WAIT_RTC_XTAL_OSC_STARTUP preprocessor guard:
- *                      The RTC_XTAL can be used as clock source for RTC or as reference for DCO1 calibration 
- *                      In both cases if no wait is done in the startup after enabling the RTC_XTAL oscillator,
- *                      the RTC_Enable() or the calibration will stall the MCU until the oscillator is stable (max. 5s according datasheet)
- *
- * V1.6, 04 June 2019, Sync. code of SystemCoreClockSetup() to XMC_SCU_CLOCK_Init() in xmc1_scu.c
- * V1.7, 02 Dec 2019, Fix including device header file following the convention: angle brackets are used for standard includes and double quotes for everything else.
- * V1.8, 03 Mar 2020, Fix seeting of ANAOSCHPCTRL accoring to OSC_CM.D001 in errata
- * V1.9, 13 Nov 2020, Added options to disable/enable the OSC_HP/LP. 
- * V1.10,02 Feb 2021, Fix to support OSCHP_MODE_DIRECT. 
  *
  * @endcond
  */

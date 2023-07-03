@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___s_d_m_m_c___t_r_a_n_s_f_e_r___m_o_d_e__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_SDMMC_TRANSFER_MODE_t</compoundname>
     <includes local="no">xmc_sdmmc.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="577" column="38" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="577" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="530" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="530" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_d_m_m_c___t_r_a_n_s_f_e_r___m_o_d_e__t_1a9e3fb1e50a1c71b2337df296222d9553" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="574" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="574" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="527" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="527" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_d_m_m_c___t_r_a_n_s_f_e_r___m_o_d_e__t_1a5ea30a44e7155f50ee41d98c6d7325cb" prot="public" static="no" mutable="no">
         <type><ref refid="group___s_d_m_m_c_1gaca28cba8c96000149ce2ea93fe28822d" kindref="member">XMC_SDMMC_DATA_TRANSFER_DIR_t</ref></type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="578" column="33" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="578" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="531" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="531" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_d_m_m_c___t_r_a_n_s_f_e_r___m_o_d_e__t_1a4f3082976948d4834b6928985faca106" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="575" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="575" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="528" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="528" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_d_m_m_c___t_r_a_n_s_f_e_r___m_o_d_e__t_1a56be370e0f08bb6931e4222afac0daff" prot="public" static="no" mutable="no">
         <type><ref refid="group___s_d_m_m_c_1gaa2da138dd3a8f0860265ee85f706bbbd" kindref="member">XMC_SDMMC_TRANSFER_MODE_TYPE_t</ref></type>
@@ -67,15 +67,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="576" column="34" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="576" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="529" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="529" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>SDMMC transfer mode configuration </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="572" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="573" bodyend="579"/>
+<para>SDMMC transfer mode configuration </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="526" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="525" bodyend="532"/>
     <listofallmembers>
       <member refid="struct_x_m_c___s_d_m_m_c___t_r_a_n_s_f_e_r___m_o_d_e__t_1ac7e52fd7fa40fb2976a13c413a33c938" prot="public" virt="non-virtual"><scope>XMC_SDMMC_TRANSFER_MODE_t</scope><name>auto_cmd</name></member>
       <member refid="struct_x_m_c___s_d_m_m_c___t_r_a_n_s_f_e_r___m_o_d_e__t_1a9e3fb1e50a1c71b2337df296222d9553" prot="public" virt="non-virtual"><scope>XMC_SDMMC_TRANSFER_MODE_t</scope><name>block_size</name></member>

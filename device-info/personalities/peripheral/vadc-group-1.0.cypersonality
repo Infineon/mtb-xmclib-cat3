@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,7 +60,7 @@
     </Repeat>
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc`${ip_ver1 ? 1 : 4}`_api_reference_manual/html/group___v_a_d_c.html" linkText="Open VADC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___v_a_d_c.html" linkText="Open VADC Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!-- Channel Configuration -->
     <Repeat count="8">
@@ -363,7 +363,7 @@
     <!-- EOF Supporting Configuration -->
 
     <!-- Connection signals -->
-    <ParamSignal port="bgreqgtsel[0]" name="Background Gating Input" group="Connections" visible="`${(group_request_sources_external_trigger_id || group_request_sources_scan_external_trigger_id) &amp;&amp; hasVisibleOption(&quot;bgreqgtsel[0]&quot;)}`" desc="Connect a gating input for the global background source." canBeEmpty="`${!((group_request_sources_external_trigger_id || group_request_sources_scan_external_trigger_id) &amp;&amp; hasVisibleOption(&quot;bgreqgtsel[0]&quot;))}`" forbiddenBy="none" />
+    <ParamSignal port="bgreqgtsel[0]" name="Background Gating Input" group="Connections" visible="`${hasVisibleOption(&quot;bgreqgtsel[0]&quot;)}`" desc="Connect a gating input for the global background source." canBeEmpty="true" forbiddenBy="none" />
     <ParamSignal port="bgreqtrsel[0]" name="Background Trigger Input" group="Connections" visible="`${(group_request_sources_external_trigger_id || group_request_sources_scan_external_trigger_id) &amp;&amp; hasVisibleOption(&quot;bgreqtrsel[0]&quot;)}`" desc="Connect a triggering input for the global background source." canBeEmpty="`${!((group_request_sources_external_trigger_id || group_request_sources_scan_external_trigger_id) &amp;&amp; hasVisibleOption(&quot;bgreqtrsel[0]&quot;))}`" forbiddenBy="none" />
     <Repeat count="4">
       <ParamSignal port="sr$idx[0]" name="Group `${group_num}` Service Request $idx" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx signal connection." canBeEmpty="true" forbiddenBy="none" />
@@ -464,9 +464,9 @@
     <ConfigStruct name="`${INST_NAME}`_scan_config" type="XMC_VADC_SCAN_CONFIG_t" const="`${inFlash}`" public="true" include="`${group_request_sources_autoscan_id &amp;&amp; !xmc11_dont_include}`">
       <Member name="conv_start_mode" value="(uint32_t) XMC_VADC_STARTMODE_`${group_arbitration_slot_mode_id_1}`" include="true" />
       <Member name="req_src_priority" value="(uint32_t) XMC_VADC_GROUP_RS_PRIORITY_`${group_arbitration_slot_priority_id_1}`" include="true" />
-      <Member name="trigger_signal" value="(uint32_t) VADC0_GROUP`${group_num}`_BGXTSEL_VALUE" include="`${group_request_sources_scan_external_trigger_id}`" />
+      <Member name="trigger_signal" value="(uint32_t) VADC0_BGXTSEL_VALUE" include="`${group_request_sources_scan_external_trigger_id}`" />
       <Member name="trigger_edge" value="(uint32_t) `${group_request_sources_external_trigger_event_id}`" include="true" />
-      <Member name="gate_signal" value="(uint32_t) VADC0_GROUP`${group_num}`_BGGTSEL_VALUE" include="`${group_request_sources_scan_external_trigger_id}`" />
+      <Member name="gate_signal" value="(uint32_t) VADC0_BGGTSEL_VALUE" include="`${group_request_sources_scan_external_trigger_id}`" />
       <Member name="timer_mode" value="(uint32_t) `${group_request_sources_scan_timer_mode_id}`" include="true" />
       <Member name="external_trigger" value="(uint32_t) `${group_request_sources_scan_external_trigger_id}`" include="true" />
       <Member name="req_src_interrupt" value="(uint32_t) `${group_request_sources_scan_request_interrupt_id}`" include="true" />
@@ -479,9 +479,9 @@
       <Member name="conv_start_mode" value="(uint32_t) XMC_VADC_STARTMODE_`${group_arbitration_slot_mode_id_0}`" include="true" />
       <Member name="req_src_priority" value="(uint32_t) XMC_VADC_GROUP_RS_PRIORITY_`${group_arbitration_slot_priority_id_0}`" include="true" />
       <Member name="src_specific_result_reg" value="(uint32_t) `${(group_request_sources_queue_specific_result_id == 16) ? (0) : (group_request_sources_queue_specific_result_id)}`" include="`${(!xmc11_dont_include) &amp;&amp; (!xmc45_dont_include)}`" />
-      <Member name="trigger_signal" value="(uint32_t) VADC0_GROUP`${group_num}`_BGXTSEL_VALUE" include="`${group_request_sources_external_trigger_id}`" />
+      <Member name="trigger_signal" value="(uint32_t) VADC0_BGXTSEL_VALUE" include="`${group_request_sources_external_trigger_id}`" />
       <Member name="trigger_edge" value="(uint32_t) `${group_request_sources_external_trigger_edge_id}`" include="true" />
-      <Member name="gate_signal" value="(uint32_t) VADC0_GROUP`${group_num}`_BGGTSEL_VALUE" include="`${group_request_sources_external_trigger_id}`" />
+      <Member name="gate_signal" value="(uint32_t) VADC0_BGGTSEL_VALUE" include="`${group_request_sources_external_trigger_id}`" />
       <Member name="timer_mode" value="(uint32_t) `${group_request_sources_timer_mode_id}`" include="true" />
       <Member name="external_trigger" value="(uint32_t) `${group_request_sources_external_trigger_id}`" include="true" />
     </ConfigStruct>

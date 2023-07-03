@@ -1,10 +1,9 @@
 /**
  * @file xmc_i2s.c
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,41 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-08-21:
- *     - Initial <br>
- *
- * 2015-09-01:
- *     - Modified XMC_I2S_CH_EnableEvent() and XMC_I2S_CH_DisableEvent() for supporting multiple events configuration<br>
- *
- * 2015-09-14:
- *     - Modified XMC_I2S_CH_SetSystemWordLength for supporting up to 63 system word length.
- *     - Removed parity configuration<br>
- *
- * 2015-09-28:
- *     - Fixed bugs in the XMC_I2S_CH_Init() and in the ASSERTs <br>
- *
- * 2015-11-04:
- *     - Modified the check of XMC_USIC_CH_GetTransmitBufferStatus() in the XMC_I2S_CH_Transmit() API <br>
- *
- * 2016-06-30:
- *     - Modified XMC_I2S_CH_Init:
- *       + change default passive level to 0
- *       + Call XMC_I2S_CH_SetSystemWordLength() to set the system frame length equal to the frame length.
- *     - Modified XMC_I2S_CH_SetBaudrate:
- *       + Optional Master clock output signal generated with a fixed phase relation to SCLK.
- *
- * 2019-05-07:
- *     - Added XMC_I2S_CH_SetBaudrateEx() which allows to select between baudrate generator normal divider and fractional divider mode
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2020-12-05:
- *     - Added XMC_I2S_CH_InitEx that allows user select if automatic baudrate configuration should be done or not
- * 
  * @endcond
  *
  */

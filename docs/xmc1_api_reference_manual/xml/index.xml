@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
   <compound refid="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t" kind="struct"><name>XMC_ACMP_CONFIG_t</name>
     <member refid="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1aa3f4ffc2778134aede7eb40e8a0b5ef9" kind="variable"><name>@1</name></member>
     <member refid="struct_x_m_c___a_c_m_p___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" kind="variable"><name>__pad0__</name></member>
@@ -264,11 +264,11 @@
     <member refid="struct_x_m_c___e_r_u__t_1a3e57c2ef1c3ffb36722f000cc1156824" kind="variable"><name>__pad0__</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1ab258afc6b0d91396f4e8d9e57a1cf49b" kind="variable"><name>ED</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a4c3a79fc32dbe4364cc851e8cbf85a91" kind="variable"><name>EXICON</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1af99855d3aba044caf62f2181fd275155" kind="variable"><name>EXICON_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1a96847de323ca78815a15a566e22c15fa" kind="variable"><name>EXICON_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1ae01320249b16d00118b06a015514df3c" kind="variable"><name>EXISEL</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1a21024c0d3713698a198ad695e6abbf0b" kind="variable"><name>EXISEL_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1aad5c6505019872c894ae82fe4432aa03" kind="variable"><name>EXISEL_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a350d783f21195368d69f295524bc91e3" kind="variable"><name>EXOCON</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1a1fdc3809e9b8789cee682dab7ef94237" kind="variable"><name>EXOCON_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1a5b7d8bfb73eb5623007945269f373f92" kind="variable"><name>EXOCON_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a138e546f7b2f98abea1ac802a4dccc44" kind="variable"><name>EXS0A</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a5feedfead136e07ba11dccaa0a8aa23a" kind="variable"><name>EXS0B</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a378201da178da5cd8ddc16825a689f48" kind="variable"><name>EXS1A</name></member>

@@ -1,11 +1,10 @@
 
 /**
  * @file xmc_ecat.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,21 +37,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-10-21:
- *     - Initial Version
- *
- * 2015-12-27:
- *     - Add clock gating control in enable/disable APIs
- *
- * 2017-04-27:
- *     - Changed XMC_ECAT_ReadPhy() and XMC_ECAT_WritePhy() to release the MII access and check that the master enables take over of MII management control
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  */

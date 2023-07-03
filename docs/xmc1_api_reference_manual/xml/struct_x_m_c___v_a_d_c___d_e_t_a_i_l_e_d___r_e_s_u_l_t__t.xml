@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_VADC_DETAILED_RESULT_t</compoundname>
     <includes local="no">xmc_vadc.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1365" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1271" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1a479ca40521feb861ab9ba723bba39457" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -26,11 +26,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Converted channel number </para>
-        </detaileddescription>
+<para>Converted channel number </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1357" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1357" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1263" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1263" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1a157e45bb747fa48e46d086638899e0da" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -41,11 +40,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Converted request source </para>
-        </detaileddescription>
+<para>Converted request source </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1360" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1360" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1266" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1266" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1a3761d714bb10c884f70beda7848ef1f8" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -56,11 +54,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Results reduction counter value </para>
-        </detaileddescription>
+<para>Results reduction counter value </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1356" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1356" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1262" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1262" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1af18431e0f7cefd721fd79ba1ddf9dab9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -71,11 +68,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Converted external multiplexer channel number. Only applicable for GxRES[0] result register </para>
-        </detaileddescription>
+<para>Converted external multiplexer channel number. Only applicable for GxRES[0] result register </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1358" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1358" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1264" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1264" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1a1d07c27c30320c8ebd724410372b2544" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -86,11 +82,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Fast compare result if conversion mode is fast compare mode. </para>
-        </detaileddescription>
+<para>Fast compare result if conversion mode is fast compare mode. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1361" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1361" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1267" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1267" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1a97e3bb97951482c8cf4d55a2d0bfcb62" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -103,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1364" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1364" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1270" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1270" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1a36692bbc61358ebc0e37a6fc6a395d28" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -114,11 +109,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Result of the Analog to digital conversion </para>
-        </detaileddescription>
+<para>Result of the Analog to digital conversion </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1355" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1355" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1261" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1261" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1ade9c2ac5e8b69f959cbac08c84bf664d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -129,19 +123,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Valid flag is set when a new result is available </para>
-        </detaileddescription>
+<para>Valid flag is set when a new result is available </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1362" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1362" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1268" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1268" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Detailed channel result structure </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1349" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1350" bodyend="1366"/>
+<para>Detailed channel result structure </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1256" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1255" bodyend="1272"/>
     <listofallmembers>
       <member refid="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1a479ca40521feb861ab9ba723bba39457" prot="public" virt="non-virtual"><scope>XMC_VADC_DETAILED_RESULT_t</scope><name>channel_number</name></member>
       <member refid="struct_x_m_c___v_a_d_c___d_e_t_a_i_l_e_d___r_e_s_u_l_t__t_1a157e45bb747fa48e46d086638899e0da" prot="public" virt="non-virtual"><scope>XMC_VADC_DETAILED_RESULT_t</scope><name>converted_request_source</name></member>

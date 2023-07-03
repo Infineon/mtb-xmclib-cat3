@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     startup_XMC1300.S
  * @brief    CMSIS Core Device Startup File for Infineon XMC1300 Device Series
- * @version  V1.21
- * @date     18 Nov 2020
  *
  * @cond
  *********************************************************************************************************************
@@ -37,31 +35,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG 
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
- *
- **************************** Change history ********************************
- * V1.0, Oct, 02, 2012 PKB:Startup file for XMC1  
- * V1.1, Oct, 19, 2012 PKB:ERU and MATH interrupt handlers  
- * V1.2, Nov, 02, 2012 PKB:Renamed AllowPLLInitByStartup to AllowClkInitByStartup  
- * V1.3, Dec, 11, 2012 PKB:Attributes of .XmcVeneerCode section changed  
- * V1.4, Dec, 13, 2012 PKB:Removed unwanted interrupts/veneers  
- * V1.5, Jan, 26, 2013 PKB:Corrected the SSW related entries  
- * V1.6, Feb, 13, 2013 PKB:Relative path to Device_Data.h  
- * V1.7, Feb, 19, 2013 PKB:Included XMC1100_SCU.inc
- * V1.8, Jan, 24, 2014 PKB:Removed AllowClkInitStartup and DAVE Extended init
- * V1.9, Feb, 05, 2014 PKB:Removed redundant alignment code from copy+clear funcs
- * V1.10, Feb, 14, 2014 PKB:Added software_init_hook and hardware_init_hook
- * V1.11, May, 06, 2014 JFT:__COPY_FLASH2RAM to initialize ram 
- *                          Added ram_code section initialization
- * V1.12, Sep, 29, 2014 JFT:One single default handler
- *                          Device_Data.h not included, user may use CLKVAL1_SSW
- *                          and CLKVAL2_SSW.
- *                          software_init_hook and hardware_init_hook removed
- *                          Misc optimizations
- * V1.13, Dec, 11,2014 JFT:Default clocking changed, MCLK=32MHz and PCLK=64MHz
- * V1.14, Sep, 03,2015 JFT:SSW default clocking changed, MCLK=8MHz and PCLK=16MHz avoid problems with BMI tool timeout
- * V1.15, Jan, 05,2016 JFT:Fix .reset section attributes
- * V1.20, Mai, 15,2020 JFT:Added option (ENABLE_OWN_HANDLER) to generate a individual interrupt handlers for unhandled vectors
- * V1.21, Nov, 18,2021     Added weak cy_toolchain_init
  *
  * @endcond 
  */

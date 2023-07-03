@@ -1,12 +1,11 @@
 /**
  * @file xmc_can.h
- * @date 2019-07-02
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -38,67 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *     - Documentation improved <br>
- *
- * 2015-05-20:
- *     - New elements have added in XMC_CAN_MO_t data structure <br>
- *     - XMC_CAN_MO_Config() signature has changed <br>
- *     - XMC_CAN_STATUS_t enum structure has updated. <br>
- *
- * 2015-06-20:
- *     - New APIs added: XMC_CAN_NODE_ClearStatus(),XMC_CAN_MO_ReceiveData(), XMC_CAN_GATEWAY_InitDesObject(). <br>
- *     - Removed version macros and declaration of GetDriverVersion API
- *
- * 2015-07-09:
- *     - New API added: XMC_CAN_NODE_Enable. <br>
- *
- * 2015-09-01:
- *     - Removed fCANB clock support <br>
- *
- * 2015-09-15:
- *     - Added "xmc_can_map.h" include <br>
- *
- * 2016-06-07:
- *     - Added XMC_CAN_IsPanelControlReady()
- *
- * 2017-11-09:
- *     - Added XMC_CAN_InitEx() and XMC_CAN_NODE_NominalBitTimeConfigureEx()
- *     - Make XMC_CAN_GetBaudrateClockSource(), XMC_CAN_SetBaudrateClockSource() and XMC_CAN_GetBaudrateClockFrequency() available to all devices
- *
- * 2019-07-02:
- *     - Added XMC_CAN_GetClockFrequency()
- *     - Added XMC_CAN_IsListEmpty(), XMC_CAN_GetListBegin(), XMC_CAN_GetListSize(), XMC_CAN_MO_GetMessageObject(), XMC_CAN_MO_GetNextMessageObjectIdx()
- *
- * <b>Details of use for node configuration related APIs</b><br>
- * Please use the XMC_CAN_NODE_SetInitBit() and XMC_CAN_NODE_EnableConfigurationChange() before calling node configuration
- * related APIs.
- * XMC_CAN_NODE_DisableConfigurationChange() and  XMC_CAN_NODE_ResetInitBit() can be called for disable the configuration
- * change and enable the node for communication afterwards.
- * Do not use this when configuring the nominal bit time with XMC_CAN_NODE_NominalBitTimeConfigure(). In this case the
- * Enable/Disable node configuration change is taken in account.
- *
- * <b>Example Usage:</b>
- * @code
- * //disabling the Node
- * XMC_CAN_NODE_SetInitBit(CAN_NODE0)
- * //allowing the configuration change
- * XMC_CAN_NODE_EnableConfigurationChange(CAN_NODE0)
- * //Node configuration
- * XMC_CAN_NODE_FrameCounterConfigure(CAN_NODE0,&can_node_frame_counter);
- * XMC_CAN_NODE_EnableLoopBack(CAN_NODE0)
- * //disable configuration
- * XMC_CAN_NODE_DisableConfigurationChange(CAN_NODE0)
- * //Enabling node for communication
- * XMC_CAN_NODE_ResetInitBit(CAN_NODE0)
- * @endcode
- *
- * 2016-06-20:
- *     - Fixed bug in XMC_CAN_MO_Config() <br>
  * @endcond
  *
  */

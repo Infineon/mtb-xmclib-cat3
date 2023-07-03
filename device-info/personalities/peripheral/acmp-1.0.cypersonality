@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,7 +37,7 @@
     <ParamString id="module_resource" name="Module Resource" group="Internal" default="acmp[`${module_num}`]" visible="false" editable="false" desc="ACMP parent module resource path." />
     <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(module_resource)}`" visible="false" editable="false" desc="True when the ACMP module resource is not enabled." />
 
-    <ParamDoc id="api_doc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/XMC1_api_reference_manual/html/group___a_c_m_p.html" linkText="Open ACMP Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/XMC1_api_reference_manual/html/group___a_c_m_p.html" linkText="Open ACMP Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!-- General -->
     <ParamBool id="acmp_invert_output" name="Invert Comparator Output" group="General" default="false" visible="true" editable="true" desc="Comparatr output is inverted." />

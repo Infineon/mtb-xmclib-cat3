@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_VADC_GLOBAL_CONFIG_t</compoundname>
     <includes local="no">xmc_vadc.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1097" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1003" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a76e04bf73b4fe8f1ad63c2dca3836683" prot="public" static="no" mutable="no">
         <type>union XMC_VADC_GLOBAL_CONFIG_t::@309</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1116" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1022" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1ad3a02dedaf8c4c9c6ef7b931f98449de" prot="public" static="no" mutable="no">
         <type>union XMC_VADC_GLOBAL_CONFIG_t::@311</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1127" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1033" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1092" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1092" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="998" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="998" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1094" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1094" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1000" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1000" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1112" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1112" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1018" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1018" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1afa1f8d0e8c195a4e11c173e796a0ccfa" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -94,11 +94,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Boundary value for results comparison </para>
-        </detaileddescription>
+<para>Boundary value for results comparison </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1091" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1091" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="997" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="997" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a526defd6dde917b2a3eb34bb6da90f83" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -109,11 +108,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Boundary value for results comparison </para>
-        </detaileddescription>
+<para>Boundary value for results comparison </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1093" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1093" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="999" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="999" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a9a31324d6c7c476833c5be6d056296c4" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_l_a_s_s__t" kindref="compound">XMC_VADC_GLOBAL_CLASS_t</ref></type>
@@ -123,11 +121,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ADC input conversion configurations for GLOBICLASS[0] </para>
-        </detaileddescription>
+<para>ADC input conversion configurations for GLOBICLASS[0] </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1101" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1101" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1007" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1007" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a1f8e0e25a14053adf025236053563ce9" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_l_a_s_s__t" kindref="compound">XMC_VADC_GLOBAL_CLASS_t</ref></type>
@@ -137,11 +134,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ADC input conversion configurations for GLOBICLASS[1] </para>
-        </detaileddescription>
+<para>ADC input conversion configurations for GLOBICLASS[1] </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1102" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1102" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1008" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1008" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a99f41da8466222ce696286459010f8f6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -154,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1126" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1126" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1032" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1032" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a04e8fe083d5bc435ff4220044fe2e891" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_l_o_c_k__t" kindref="compound">XMC_VADC_GLOBAL_CLOCK_t</ref></type>
@@ -164,11 +160,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>ADC clock configurations </para>
-        </detaileddescription>
+<para>ADC clock configurations </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1099" column="27" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1099" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1005" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1005" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1ab214fae777d811b0ecb538ee46d52950" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -179,11 +174,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Data reduction stages </para>
-        </detaileddescription>
+<para>Data reduction stages </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1108" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1108" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1014" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1014" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a1f70ae52cc9f48acb5469e08d3d9681a" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -194,11 +188,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Set it to true in order to disable the Sleep mode </para>
-        </detaileddescription>
+<para>Set it to true in order to disable the Sleep mode </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1123" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1029" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1029" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a8b629d8f3ceb3335a384b5f5b443ad8b" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -209,11 +202,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generates an event on availability of new result. </para>
-        </detaileddescription>
+<para>Generates an event on availability of new result. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1113" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1113" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1019" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1019" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a16a5ca1eab2087ab8483852663430db8" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -226,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1096" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1096" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1002" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1002" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1aa6e66e4925eaf50a514c8ca78aec542d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -239,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1115" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1115" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1021" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1021" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a92c8d3ec6c248b3a3439e8bf4ea941df" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -250,11 +242,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Disables the module clock. </para>
-        </detaileddescription>
+<para>Disables the module clock. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1121" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1121" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1027" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1027" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1af501c18c04e222f0e9d0cb0cf7b66d84" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -265,40 +256,38 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Results of the next conversion will not be overwritten in the result register until the previous value is read </para>
-        </detaileddescription>
+<para>Results of the next conversion will not be overwritten in the result register until the previous value is read </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1110" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1110" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1016" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1016" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Structure to initialize the VADC Global functions </para>
-    </detaileddescription>
+<para>Structure to initialize the VADC Global functions </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="3">
-        <label>XMC_VADC_GLOBAL_CLASS_t</label>
-        <link refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_l_a_s_s__t"/>
-      </node>
-      <node id="2">
-        <label>XMC_VADC_GLOBAL_CLOCK_t</label>
-        <link refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_l_o_c_k__t"/>
-      </node>
-      <node id="1">
+      <node id="229">
         <label>XMC_VADC_GLOBAL_CONFIG_t</label>
         <link refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t"/>
-        <childnode refid="2" relation="usage">
+        <childnode refid="230" relation="usage">
           <edgelabel>clock_config</edgelabel>
         </childnode>
-        <childnode refid="3" relation="usage">
+        <childnode refid="231" relation="usage">
           <edgelabel>class0</edgelabel>
           <edgelabel>class1</edgelabel>
         </childnode>
       </node>
+      <node id="231">
+        <label>XMC_VADC_GLOBAL_CLASS_t</label>
+        <link refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_l_a_s_s__t"/>
+      </node>
+      <node id="230">
+        <label>XMC_VADC_GLOBAL_CLOCK_t</label>
+        <link refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_l_o_c_k__t"/>
+      </node>
     </collaborationgraph>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="1085" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="1086" bodyend="1128"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="992" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="991" bodyend="1034"/>
     <listofallmembers>
       <member refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_VADC_GLOBAL_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___v_a_d_c___g_l_o_b_a_l___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_VADC_GLOBAL_CONFIG_t</scope><name>__pad1__</name></member>

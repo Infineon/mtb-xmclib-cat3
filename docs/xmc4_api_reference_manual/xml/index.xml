@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
   <compound refid="struct_g_p_d_m_a___c_h__t" kind="struct"><name>GPDMA_CH_t</name>
     <member refid="struct_g_p_d_m_a___c_h__t_1a5874f9297ff9db9663cfed357fe02113" kind="variable"><name>CFGH</name></member>
     <member refid="struct_g_p_d_m_a___c_h__t_1a0e55cb376162e10e8045506285c1a637" kind="variable"><name>CFGL</name></member>
@@ -205,9 +205,9 @@
   </compound>
   <compound refid="struct_x_m_c___d_a_c__t" kind="struct"><name>XMC_DAC_t</name>
     <member refid="struct_x_m_c___d_a_c__t_1a66520c0e8b5c4b6446ef009be26133fc" kind="variable"><name>DAC01DATA</name></member>
-    <member refid="struct_x_m_c___d_a_c__t_1a0e104609382041010455f3d0d3ec7987" kind="variable"><name>DACCFG</name></member>
+    <member refid="struct_x_m_c___d_a_c__t_1abbf42225773e1af747e1d4cf914a4a4b" kind="variable"><name>DACCFG</name></member>
     <member refid="struct_x_m_c___d_a_c__t_1a996ac7881d7850aabeb52abf8c29f3c7" kind="variable"><name>DACDATA</name></member>
-    <member refid="struct_x_m_c___d_a_c__t_1a3c8c56772588e030de7f620150d28a44" kind="variable"><name>DACPAT</name></member>
+    <member refid="struct_x_m_c___d_a_c__t_1a28c0aed80524e52d707238c33b81aa92" kind="variable"><name>DACPAT</name></member>
     <member refid="struct_x_m_c___d_a_c__t_1a752c6d7b3b05108aecc3e1b9462ef7ff" kind="variable"><name>high</name></member>
     <member refid="struct_x_m_c___d_a_c__t_1a4b54fa3095fbaabb5caab30ea9a26969" kind="variable"><name>ID</name></member>
     <member refid="struct_x_m_c___d_a_c__t_1a3b980d1d65867d9d2713fc852c8349d1" kind="variable"><name>low</name></member>
@@ -526,7 +526,7 @@
   </compound>
   <compound refid="struct_x_m_c___e_b_u__t" kind="struct"><name>XMC_EBU_t</name>
     <member refid="struct_x_m_c___e_b_u__t_1af4ed6b041d0a802bd9cfb40ab0d2d3df" kind="variable"><name>ADDRSEL</name></member>
-    <member refid="struct_x_m_c___e_b_u__t_1afe3903adfa4f9afcbc23af7ee997d09d" kind="variable"><name>BUS</name></member>
+    <member refid="struct_x_m_c___e_b_u__t_1acc3790f582d47faabcc31d3389746ba2" kind="variable"><name>BUS</name></member>
     <member refid="struct_x_m_c___e_b_u__t_1ac9a0dbf3eaccce574b9c5ae4edfca9f5" kind="variable"><name>CLC</name></member>
     <member refid="struct_x_m_c___e_b_u__t_1a4b54fa3095fbaabb5caab30ea9a26969" kind="variable"><name>ID</name></member>
     <member refid="struct_x_m_c___e_b_u__t_1a81873fa83fb29241bd9861429c1a33dd" kind="variable"><name>MODCON</name></member>
@@ -565,15 +565,15 @@
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a9ce12a63de64ef64ae2d59d128251cae" kind="variable"><name>__pad2__</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a4854608c0e776f0704a4d9a4b98ea57d" kind="variable"><name>__pad3__</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a7b2edc85d90e34c4435951e1e5c59517" kind="variable"><name>__pad4__</name></member>
-    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a9ec1e81c985c0b524ec3704e30fd1ce2" kind="variable"><name>common</name></member>
+    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1aa07fa9ecbb26c87b0d767aade6f0fc18" kind="variable"><name>common</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1af5105c675c5eaa94251e21ad545bc202" kind="variable"><name>enable_rstreq</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a31dedc2c7ce3f3682a9c610fe0802368" kind="variable"><name>latch_input0</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1ac039c6ce864b47c14511ef580823fe88" kind="variable"><name>latch_input1</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a6163461798acb053ba062347095330e0" kind="variable"><name>link</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a64c7c0762a879e3ada17a39e8a3080c9" kind="variable"><name>mdio</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a80a432d4379551529d62aba3b58603fa" kind="variable"><name>phyaddr_offset</name></member>
-    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1add00f0b72c40e46f28b522f87b734405" kind="variable"><name>port0</name></member>
-    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1aa5d8a145323216adffd8a0057a8e984a" kind="variable"><name>port1</name></member>
+    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a07e7e7ea28d084f1eb8667c71ad3879a" kind="variable"><name>port0</name></member>
+    <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a07b4608471c2fcf0ea8e7f49f8d5619a" kind="variable"><name>port1</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a0a595268561edc58e347ca8387000bc6" kind="variable"><name>raw</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1a2be567cb9a63eebd46b36cfca645f589" kind="variable"><name>rx_clk</name></member>
     <member refid="struct_x_m_c___e_c_a_t___p_o_r_t___c_t_r_l__t_1aab914121f91beccd7f39d6915a2ebdc1" kind="variable"><name>rx_dv</name></member>
@@ -618,11 +618,11 @@
     <member refid="struct_x_m_c___e_r_u__t_1a3e57c2ef1c3ffb36722f000cc1156824" kind="variable"><name>__pad0__</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1ab258afc6b0d91396f4e8d9e57a1cf49b" kind="variable"><name>ED</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a4c3a79fc32dbe4364cc851e8cbf85a91" kind="variable"><name>EXICON</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1a2f5a614d93f80e95c1c0173465be3efa" kind="variable"><name>EXICON_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1a51d334e95f70504731d25fd197a07217" kind="variable"><name>EXICON_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1ae01320249b16d00118b06a015514df3c" kind="variable"><name>EXISEL</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1a45313d2fa3761077921d2791c3a490d1" kind="variable"><name>EXISEL_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1abd363bd019ed57fbec4c4bc85afa725a" kind="variable"><name>EXISEL_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a350d783f21195368d69f295524bc91e3" kind="variable"><name>EXOCON</name></member>
-    <member refid="struct_x_m_c___e_r_u__t_1a5c1a31d26c68628253763cacc9191551" kind="variable"><name>EXOCON_b</name></member>
+    <member refid="struct_x_m_c___e_r_u__t_1a9155050ecf402c2119b2d68aa9ddb904" kind="variable"><name>EXOCON_b</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a138e546f7b2f98abea1ac802a4dccc44" kind="variable"><name>EXS0A</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a5feedfead136e07ba11dccaa0a8aa23a" kind="variable"><name>EXS0B</name></member>
     <member refid="struct_x_m_c___e_r_u__t_1a378201da178da5cd8ddc16825a689f48" kind="variable"><name>EXS1A</name></member>
@@ -1151,8 +1151,8 @@
   </compound>
   <compound refid="struct_x_m_c___u_s_b_d___e_p__t" kind="struct"><name>XMC_USBD_EP_t</name>
     <member refid="struct_x_m_c___u_s_b_d___e_p__t_1ac0d31ca829f934cccd89f8054e02773e" kind="variable"><name>address</name></member>
-    <member refid="struct_x_m_c___u_s_b_d___e_p__t_1afd00568c74f9cb70bea302fd8c669231" kind="variable"><name>address_st</name></member>
-    <member refid="struct_x_m_c___u_s_b_d___e_p__t_1afcc06854bb564655c3b38138005a9212" kind="variable"><name>address_u</name></member>
+    <member refid="struct_x_m_c___u_s_b_d___e_p__t_1abf8d570adffcb088884d287a21e25f69" kind="variable"><name>address_st</name></member>
+    <member refid="struct_x_m_c___u_s_b_d___e_p__t_1a204ada188693126e63efec15844d1ccc" kind="variable"><name>address_u</name></member>
     <member refid="struct_x_m_c___u_s_b_d___e_p__t_1a2148ffb99828aeaced6a5655502434ac" kind="variable"><name>direction</name></member>
     <member refid="struct_x_m_c___u_s_b_d___e_p__t_1a2576e682d5f9c67dfdf5fc956ef4631f" kind="variable"><name>inBuffer</name></member>
     <member refid="struct_x_m_c___u_s_b_d___e_p__t_1aaca115c329d074b835b620b7358b6ebe" kind="variable"><name>inBufferSize</name></member>
@@ -3749,11 +3749,11 @@
     <member refid="group___e_t_h___m_a_c_1ga460e14bb0682b885f5a6229362e43cf3" kind="function"><name>XMC_ETH_MAC_GetEventStatus</name></member>
     <member refid="group___e_t_h___m_a_c_1ga2c4cf235c6a7805c72085d4e997b8324" kind="function"><name>XMC_ETH_MAC_GetPTPStatus</name></member>
     <member refid="group___e_t_h___m_a_c_1ga96e0ce10f2cec680e8dffe9cee6a9c2e" kind="function"><name>XMC_ETH_MAC_GetPTPTime</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga15298ad6e32aedebff1f4122e4a20b7c" kind="function"><name>XMC_ETH_MAC_GetRxBuffer</name></member>
+    <member refid="group___e_t_h___m_a_c_1gae3249a9cd3cf63c5edb206d721221a61" kind="function"><name>XMC_ETH_MAC_GetRxBuffer</name></member>
     <member refid="group___e_t_h___m_a_c_1ga6ea4b201e230e052d13d21f8c4af7941" kind="function"><name>XMC_ETH_MAC_GetRxFrameSize</name></member>
     <member refid="group___e_t_h___m_a_c_1gaee26579fc23646c827a3889bc1a2840c" kind="function"><name>XMC_ETH_MAC_GetRxTimeStamp</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga44a2dd8919fcd3a696198215fa30faa5" kind="function"><name>XMC_ETH_MAC_GetTxBuffer</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga9eb337b345626c050e93c6cf74ea19a6" kind="function"><name>XMC_ETH_MAC_GetTxBufferEx</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga74a2a222b9cd3a89314fe2e7a236b12d" kind="function"><name>XMC_ETH_MAC_GetTxBuffer</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga6f2f593e431fa9e5cbee316d4216d470" kind="function"><name>XMC_ETH_MAC_GetTxBufferEx</name></member>
     <member refid="group___e_t_h___m_a_c_1gab4e58ab6315317cfc82f0fb4bf0c9d27" kind="function"><name>XMC_ETH_MAC_GetTxTimeStamp</name></member>
     <member refid="group___e_t_h___m_a_c_1ga7c1571e10960029ed06dfb0bdab8a0b9" kind="function"><name>XMC_ETH_MAC_Init</name></member>
     <member refid="group___e_t_h___m_a_c_1ga22da6273cc60b12690a8b7cc9ab3fc41" kind="function"><name>XMC_ETH_MAC_InitEx</name></member>
@@ -7228,11 +7228,11 @@
     <member refid="group___e_t_h___m_a_c_1ga460e14bb0682b885f5a6229362e43cf3" kind="function"><name>XMC_ETH_MAC_GetEventStatus</name></member>
     <member refid="group___e_t_h___m_a_c_1ga2c4cf235c6a7805c72085d4e997b8324" kind="function"><name>XMC_ETH_MAC_GetPTPStatus</name></member>
     <member refid="group___e_t_h___m_a_c_1ga96e0ce10f2cec680e8dffe9cee6a9c2e" kind="function"><name>XMC_ETH_MAC_GetPTPTime</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga15298ad6e32aedebff1f4122e4a20b7c" kind="function"><name>XMC_ETH_MAC_GetRxBuffer</name></member>
+    <member refid="group___e_t_h___m_a_c_1gae3249a9cd3cf63c5edb206d721221a61" kind="function"><name>XMC_ETH_MAC_GetRxBuffer</name></member>
     <member refid="group___e_t_h___m_a_c_1ga6ea4b201e230e052d13d21f8c4af7941" kind="function"><name>XMC_ETH_MAC_GetRxFrameSize</name></member>
     <member refid="group___e_t_h___m_a_c_1gaee26579fc23646c827a3889bc1a2840c" kind="function"><name>XMC_ETH_MAC_GetRxTimeStamp</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga44a2dd8919fcd3a696198215fa30faa5" kind="function"><name>XMC_ETH_MAC_GetTxBuffer</name></member>
-    <member refid="group___e_t_h___m_a_c_1ga9eb337b345626c050e93c6cf74ea19a6" kind="function"><name>XMC_ETH_MAC_GetTxBufferEx</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga74a2a222b9cd3a89314fe2e7a236b12d" kind="function"><name>XMC_ETH_MAC_GetTxBuffer</name></member>
+    <member refid="group___e_t_h___m_a_c_1ga6f2f593e431fa9e5cbee316d4216d470" kind="function"><name>XMC_ETH_MAC_GetTxBufferEx</name></member>
     <member refid="group___e_t_h___m_a_c_1gab4e58ab6315317cfc82f0fb4bf0c9d27" kind="function"><name>XMC_ETH_MAC_GetTxTimeStamp</name></member>
     <member refid="group___e_t_h___m_a_c_1ga7c1571e10960029ed06dfb0bdab8a0b9" kind="function"><name>XMC_ETH_MAC_Init</name></member>
     <member refid="group___e_t_h___m_a_c_1ga22da6273cc60b12690a8b7cc9ab3fc41" kind="function"><name>XMC_ETH_MAC_InitEx</name></member>

@@ -1,5 +1,5 @@
 /*********************************************************************************************************************
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.                        
  *                                             
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,9 +37,6 @@
  *
  * @brief    CMSIS Cortex-M4 Peripheral Access Layer Header File for
  *           XMC4800 from Infineon.
- *
- * @version  V1.3.1 (Reference Manual v1.3)
- * @date     19. June 2017
  *
  * @note     Generated with SVDConv V2.87l 
  *           from CMSIS SVD File 'XMC4800_Processed_SVD.xml' Version 1.3.0 (Reference Manual v1.3),
@@ -5578,7 +5575,7 @@ typedef struct {                                    /*!< (@ 0x48028F00) PORT15 S
 
 /* ------------------------------  SCU_CLK_DSLEEPCR  ------------------------------ */
 #define SCU_CLK_DSLEEPCR_SYSSEL_Pos           (0UL)                     /*!< SCU_CLK DSLEEPCR: SYSSEL (Bit 0)                            */
-#define SCU_CLK_DSLEEPCR_SYSSEL_Msk           (0x3UL)                   /*!< SCU_CLK DSLEEPCR: SYSSEL (Bitfield-Mask: 0x03)              */
+#define SCU_CLK_DSLEEPCR_SYSSEL_Msk           (0x1UL)                   /*!< SCU_CLK DSLEEPCR: SYSSEL (Bitfield-Mask: 0x01)              */
 #define SCU_CLK_DSLEEPCR_FPDN_Pos             (11UL)                    /*!< SCU_CLK DSLEEPCR: FPDN (Bit 11)                             */
 #define SCU_CLK_DSLEEPCR_FPDN_Msk             (0x800UL)                 /*!< SCU_CLK DSLEEPCR: FPDN (Bitfield-Mask: 0x01)                */
 #define SCU_CLK_DSLEEPCR_PLLPDN_Pos           (12UL)                    /*!< SCU_CLK DSLEEPCR: PLLPDN (Bit 12)                           */

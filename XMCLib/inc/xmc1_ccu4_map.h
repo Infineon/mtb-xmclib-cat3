@@ -1,10 +1,9 @@
 /**
  * @file xmc1_ccu4_map.h
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,21 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-08-25:
- *     - Initial version
- *
- * 2019-05-07:
- *     - Add missing CCU41_IN3_CCU41_GP00 macros for XMC14
- *
- * 2019-07-30:
- *     - Added support for XMC1404-Q040
- *
- * 2020-12-05:
- *     - Added CCU41_IN<x>_SCU_GSC41. CCU41_IN<x>_SCU_GSC40 are marked as deprecated
  *
  * @endcond
  */

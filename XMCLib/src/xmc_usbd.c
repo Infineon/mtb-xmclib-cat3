@@ -1,10 +1,9 @@
 /**
  * @file xmc_usbd.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,24 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-02-16:
- *     - Initial Version.<br>
- * 2015-03-18:
- *     - Updated the XMC_USBD_EndpointStall() to fix issue on USB clear stall. <br>
- *     - Updated the XMC_USBD_EndpointConfigure() to fix issue in EP0 configuration.<br>
- *     - Updated the XMC_USBD_IRQHandler()(Removed the DAVE_CE check on SOF event).<br>
- * 2015-06-20:
- *     - Removed GetDriverVersion API.<br>
- *     - Updated the XMC_USBD_IsEnumDone() API.<br>
- *     - Updated the copy right in the file header.<br>
- *     - Updated the XMC_USBD_Disable() API to gate the clock after programming the SCU registers.<br>
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- * 2020-09-03:
- *     - Fix XMC_USBD_EndpointConfigure()
  * @endcond
  *
  */

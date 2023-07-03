@@ -1,10 +1,9 @@
 /**
  * @file xmc1_eru_map.h
- * @date 2019-07-30
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,18 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial version
- *
- * 2015-08-25:
- *     - Added support for XMC1400 devices
- *
- * 2019-07-30:
- *     - Added support for XMC1404-Q040
  *
  * @endcond
  */

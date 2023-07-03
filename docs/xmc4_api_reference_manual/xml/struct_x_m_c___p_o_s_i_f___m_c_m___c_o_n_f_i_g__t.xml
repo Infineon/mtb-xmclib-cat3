@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_POSIF_MCM_CONFIG_t</compoundname>
     <includes local="no">xmc_posif.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="360" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="332" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="351" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="351" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="323" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="323" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="353" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="353" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="325" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="325" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="357" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="357" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="329" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="329" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1afee1a082e5170f69689f36ff8acc1ed7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="359" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="359" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="331" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="331" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1aeb24c1ad5b8d46951b303ef1271fd4e3" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -81,11 +81,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>should multi channel pattern updated by SW ? </para>
-        </detaileddescription>
+<para>should multi channel pattern updated by SW ? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="352" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="352" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="324" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="324" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1a83672dd8d3eb4c5de6a74390a414f1d9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -96,11 +95,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Which edge of the pattern update trigger is to be considered? </para>
-        </detaileddescription>
+<para>Which edge of the pattern update trigger is to be considered? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="355" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="355" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="327" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="327" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1abd38b6eec5d67d3010bc1d50977fb2f2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -111,11 +109,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Of the 8 update triggers, which one is to be considered? </para>
-        </detaileddescription>
+<para>Of the 8 update triggers, which one is to be considered? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="354" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="354" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="326" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="326" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1a0abf2c857918a97e8c0ef124c01f127e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -126,19 +123,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Of the 4 pwm sync inputs, which one is to be considered? </para>
-        </detaileddescription>
+<para>Of the 4 pwm sync inputs, which one is to be considered? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="356" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="356" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="328" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="328" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Defines POSIF multi-channel mode initialization data structure. Use type <ref refid="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_MCM_CONFIG_t</ref> for this data structure. It used to initialize multi channel mode configuration using <emphasis>PCONF</emphasis> register. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="345" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="346" bodyend="361"/>
+<para>Defines POSIF multi-channel mode initialization data structure. Use type <ref refid="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_MCM_CONFIG_t</ref> for this data structure. It used to initialize multi channel mode configuration using <emphasis>PCONF</emphasis> register. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="318" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="317" bodyend="333"/>
     <listofallmembers>
       <member refid="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_POSIF_MCM_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___p_o_s_i_f___m_c_m___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_POSIF_MCM_CONFIG_t</scope><name>__pad1__</name></member>

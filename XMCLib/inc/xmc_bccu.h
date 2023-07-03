@@ -1,12 +1,11 @@
 /**
  * @file xmc_bccu.h
- * @date 2012-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,30 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-19:
- *     - Initial draft<br>
- *     - Documentation improved <br>
- *
- * 2015-05-08:
- *     - Minor bug fix in XMC_BCCU_ClearEventFlag().
- *     - New APIs are added: XMC_BCCU_DIM_ReadDimDivider(), XMC_BCCU_DIM_GetDimCurve(), XMC_BCCU_IsDitherEnable()<br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- *
- * 2019-12-16:
- *     - Fix including xmc_common.h following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- *
- * <b>Detailed description of file:</b><br>
- * APIs for the functional blocks of BCCU have been defined:<br>
- * -- GLOBAL configuration <br>
- * -- Clock configuration, Function/Event configuration, Interrupt configuration <br>
- *
  * @endcond
  *
  */

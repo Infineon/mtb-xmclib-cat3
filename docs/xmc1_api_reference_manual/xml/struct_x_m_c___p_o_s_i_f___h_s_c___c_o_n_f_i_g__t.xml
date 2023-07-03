@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_POSIF_HSC_CONFIG_t</compoundname>
     <includes local="no">xmc_posif.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="337" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="309" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="325" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="325" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="297" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="297" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="327" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="327" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="299" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="299" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="330" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="330" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="302" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="302" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a4854608c0e776f0704a4d9a4b98ea57d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="334" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="334" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="306" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="306" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a804d9b698bff925068c656f775991439" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -82,11 +82,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Should idle signal be disabled upon wrong hall event? </para>
-        </detaileddescription>
+<para>Should idle signal be disabled upon wrong hall event? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="326" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="326" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="298" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="298" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a08605278e2711066a995f57b1da47d1d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -97,11 +96,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Should external errors lead to Wrong Hall event? </para>
-        </detaileddescription>
+<para>Should external errors lead to Wrong Hall event? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="332" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="332" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="304" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="304" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a6d93920f43ca1c47f774ba8f3cfcdd07" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -112,11 +110,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>What should be the active level of external error signal? </para>
-        </detaileddescription>
+<para>What should be the active level of external error signal? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="333" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="333" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="305" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="305" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1af5d0739130bd3f50b15b26b0ec8c4445" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -127,11 +124,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Of the 4 external error ports, which one is to be considered? </para>
-        </detaileddescription>
+<para>Of the 4 external error ports, which one is to be considered? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="331" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="331" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="303" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="303" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a63014e751d0342e02c71b88e29797d67" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -144,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="336" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="336" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="308" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="308" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a15213bb95c7cdce3cc920e64e2a19b71" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -155,11 +151,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Of HSDA and HSDB, which one is to be used to trigger POSIF to sample hall pattern? </para>
-        </detaileddescription>
+<para>Of HSDA and HSDB, which one is to be used to trigger POSIF to sample hall pattern? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="328" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="328" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="300" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="300" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1af939bd2dc11d0c38e7db4a087407b7ea" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -170,19 +165,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Which edge of the sampling trigger signal is to be considered? </para>
-        </detaileddescription>
+<para>Which edge of the sampling trigger signal is to be considered? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="329" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="329" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="301" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="301" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Defines POSIF hall sensor control initialization data structure. Use type <ref refid="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_HSC_CONFIG_t</ref> for this data structure. It used to initialize hall sensor mode configuration using <emphasis>PCONF</emphasis> register. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="319" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="320" bodyend="338"/>
+<para>Defines POSIF hall sensor control initialization data structure. Use type <ref refid="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_HSC_CONFIG_t</ref> for this data structure. It used to initialize hall sensor mode configuration using <emphasis>PCONF</emphasis> register. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="292" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="291" bodyend="310"/>
     <listofallmembers>
       <member refid="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_POSIF_HSC_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___p_o_s_i_f___h_s_c___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_POSIF_HSC_CONFIG_t</scope><name>__pad1__</name></member>

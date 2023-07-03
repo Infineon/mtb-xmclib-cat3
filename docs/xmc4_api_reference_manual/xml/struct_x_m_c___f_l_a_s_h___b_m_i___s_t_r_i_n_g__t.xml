@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___f_l_a_s_h___b_m_i___s_t_r_i_n_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_FLASH_BMI_STRING_t</compoundname>
     <includes local="no">xmc4_flash.h</includes>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>See <ref refid="group___f_l_a_s_h_1ga1366551fd3139133b486a1d77b4d8d42" kindref="member">XMC_FLASH_BMI_t</ref> </para>
-        </detaileddescription>
+<para>See <ref refid="group___f_l_a_s_h_1ga1366551fd3139133b486a1d77b4d8d42" kindref="member">XMC_FLASH_BMI_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="278" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="278" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="258" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="258" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_l_a_s_h___b_m_i___s_t_r_i_n_g__t_1a5871bb7d764e094a30bdba43b6b3506f" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -26,11 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Ethernet IP extension </para>
-        </detaileddescription>
+<para>Ethernet IP extension </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="280" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="280" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="260" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="260" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_l_a_s_h___b_m_i___s_t_r_i_n_g__t_1a6ebc8ec06b7e6d8e4bf58018c643cbca" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -40,11 +38,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>MAC address extension </para>
-        </detaileddescription>
+<para>MAC address extension </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="279" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="279" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="259" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="259" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_l_a_s_h___b_m_i___s_t_r_i_n_g__t_1aa43c4c21b173ada1b6b7568956f0d650" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="282" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="282" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="262" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="262" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_l_a_s_h___b_m_i___s_t_r_i_n_g__t_1a6b89b86dfe0266be2fc46cf46f6e7b72" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -70,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="283" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="283" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="263" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="263" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_l_a_s_h___b_m_i___s_t_r_i_n_g__t_1a2f6ea2a963998f9632759ebde686c6de" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -80,19 +77,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>USB Serial Number </para>
-        </detaileddescription>
+<para>USB Serial Number </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="281" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="281" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="261" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="261" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>BMI String configuration </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="276" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="277" bodyend="284"/>
+<para>BMI String configuration </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" line="257" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_flash.h" bodystart="256" bodyend="264"/>
     <listofallmembers>
       <member refid="struct_x_m_c___f_l_a_s_h___b_m_i___s_t_r_i_n_g__t_1a6ae51eccb75069dae7f1ebab13955aac" prot="public" virt="non-virtual"><scope>XMC_FLASH_BMI_STRING_t</scope><name>bmi</name></member>
       <member refid="struct_x_m_c___f_l_a_s_h___b_m_i___s_t_r_i_n_g__t_1a5871bb7d764e094a30bdba43b6b3506f" prot="public" virt="non-virtual"><scope>XMC_FLASH_BMI_STRING_t</scope><name>ip_extension</name></member>

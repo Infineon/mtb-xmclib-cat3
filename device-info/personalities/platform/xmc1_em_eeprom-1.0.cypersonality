@@ -10,7 +10,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -36,7 +36,7 @@
 
   <Parameters>
     <!-- EM_EEPROM documentation -->
-    <ParamDoc id="doc" name="Configuration Help" group="Documentation" default="https://infineon.github.io/mtb-xmc-emeeprom/xmc1_em_eeprom_api_reference_manual/html/index.html" linkText="XMC1 Em_EEPROM Middleware Library Documentation" visible="true" desc="Opens the XMC Em_EEPROM Middleware Library Documentation." />
+    <ParamDoc id="doc" name="API Help" group="Documentation" default="https://infineon.github.io/mtb-xmc-emeeprom/xmc1_em_eeprom_api_reference_manual/html/index.html" linkText="XMC1 Em_EEPROM Middleware Library Documentation" visible="true" desc="Opens the XMC Em_EEPROM Middleware Library Documentation." />
 
     <ParamRange id="eeprom_size" name="EEPROM Size" group="EEPROM Configuration" default="1792" min="256" max="50944" resolution="1" visible="true" editable="true" desc="Emulated EEPROM size" />
     <ParamString id="Internal_eeprom_bank_size" name="Internal_eeprom_bank_size" group="EEPROM Configuration" default="`${(((((eeprom_size -1) / 256) + 1) * 256) + 256)}`" visible="false" editable="false" desc="Flash size allocated for single bank" />

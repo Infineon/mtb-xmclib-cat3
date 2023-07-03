@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_HRPWM_CSG_DAC_t</compoundname>
     <includes local="no">xmc_hrpwm.h</includes>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DAC reference value 1 </para>
-        </detaileddescription>
+<para>DAC reference value 1 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="820" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="820" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="794" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="794" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t_1ad71e746b25fd3661ab4838a80912b804" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -26,11 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DAC reference value 2 </para>
-        </detaileddescription>
+<para>DAC reference value 2 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="821" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="821" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="795" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="795" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t_1aa216d612f167ae6c0714e10f6d3fc713" prot="public" static="no" mutable="no">
         <type><ref refid="group___h_r_p_w_m_1gadfaa9ad3d5d14d786ac920e411b1a4ce" kindref="member">XMC_HRPWM_CSG_SWSM_t</ref></type>
@@ -40,19 +38,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Initial DAC start mode </para>
-        </detaileddescription>
+<para>Initial DAC start mode </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="819" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="819" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="793" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="793" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>CSG Unit - DAC configuration </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="817" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="818" bodyend="822"/>
+<para>CSG Unit - DAC configuration </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="792" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="791" bodyend="796"/>
     <listofallmembers>
       <member refid="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t_1afe19a89adfbc633b28fb2513eb70cb99" prot="public" virt="non-virtual"><scope>XMC_HRPWM_CSG_DAC_t</scope><name>dac_dsv1</name></member>
       <member refid="struct_x_m_c___h_r_p_w_m___c_s_g___d_a_c__t_1ad71e746b25fd3661ab4838a80912b804" prot="public" virt="non-virtual"><scope>XMC_HRPWM_CSG_DAC_t</scope><name>dac_dsv2</name></member>

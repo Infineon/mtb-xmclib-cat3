@@ -1,11 +1,10 @@
 
 /**
  * @file xmc_hrpwm.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -39,37 +38,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-02-18:
- *     - Variable g_hrpwm_char_data[] defined in startup file is used in place of trim data macro<br>
- *
- * 2015-05-12:
- *     - XMC_HRPWM_CSG_SelClampingInput() api is added to select the clamping input.<br>
- *     - In XMC_HRPWM_Init() api macros used to check 'ccu_clock' frequency are renamed for readability<br>
- *     - 80MHz HRC operation would need a minimum of 70 Mhz CCU clock.<br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *     - Updated copyright and change history section.<br>
- *
- * 2015-07-06:
- *     - CSG trimming data assignment is corrected.<br>
- *
- * 2015-07-14:
- *     - Redundant code removed in XMC_HRPWM_HRC_ConfigSourceSelect0() and XMC_HRPWM_HRC_ConfigSourceSelect1() API's.<br>
- *     - Enums and masks are type casted to uint32_t type.
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2020-05-28:
- *     - Fix: Use CSG trimming values only if the values are properly initialized
- *
- * 2020-07-07:
- *     - Fix XMC_HRPWM_HRC_ConfigSourceSelect1()
- * 
  * @endcond
  *
  */

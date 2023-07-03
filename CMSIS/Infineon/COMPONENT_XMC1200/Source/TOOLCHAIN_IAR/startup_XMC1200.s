@@ -36,15 +36,6 @@
 ;* at XMCSupport@infineon.com.
 ;*********************************************************************************************************************
 ;*
-;******************* Version History **********************************************   
-;
-;  V6, May, 16,2013 TYS:a) Add XMC1200_SCU.inc 
-;  V7, Nov, 20,2014 JFT:a) Removed dependencies with DAVE generated code
-;  V8, Dec, 11,2014 JFT:a) Default clocking changed, MCLK=32MHz and PCLK=64MHz
-;  V9, Sep, 03,2015 JFT:a) SSW default clocking changed, MCLK=8MHz and PCLK=16MHz avoid problems with BMI tool timeout   
-;     
-;**********************************************************************************
-;
 ; The modules in this file are included in the libraries, and may be replaced
 ; by any user-defined modules that define the PUBLIC symbol _program_start or
 ; a user defined start symbol.

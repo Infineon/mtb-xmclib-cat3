@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___f_c_e__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_FCE_t</compoundname>
     <includes local="no">xmc_fce.h</includes>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>FCE CFG register update </para>
-        </detaileddescription>
+<para>FCE CFG register update </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="236" column="20" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="236" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="217" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="217" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_c_e__t_1a46b3f5dce65dc84f4941a32d74ab9781" prot="public" static="no" mutable="no">
         <type><ref refid="group___f_c_e_1gaa48f868a31e4d625cec55f99835f112d" kindref="member">XMC_FCE_Kernel_t</ref> *</type>
@@ -26,11 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>FCE Kernel Pointer </para>
-        </detaileddescription>
+<para>FCE Kernel Pointer </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="235" column="20" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="235" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="216" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="216" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_c_e__t_1aabf7380877a26cb6078f166a4e6b088b" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -40,32 +38,30 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>CRC seed value to be used </para>
-        </detaileddescription>
+<para>CRC seed value to be used </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="237" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="237" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="218" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="218" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>FCE handler </para>
-    </detaileddescription>
+<para>FCE handler </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="2">
+      <node id="113">
         <label>XMC_FCE_CONFIG_t</label>
         <link refid="struct_x_m_c___f_c_e___c_o_n_f_i_g__t"/>
       </node>
-      <node id="1">
+      <node id="112">
         <label>XMC_FCE_t</label>
         <link refid="struct_x_m_c___f_c_e__t"/>
-        <childnode refid="2" relation="usage">
+        <childnode refid="113" relation="usage">
           <edgelabel>fce_cfg_update</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="233" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="234" bodyend="238"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="215" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="214" bodyend="219"/>
     <listofallmembers>
       <member refid="struct_x_m_c___f_c_e__t_1a3d740f5abcec55615bf6597720d2ed90" prot="public" virt="non-virtual"><scope>XMC_FCE_t</scope><name>fce_cfg_update</name></member>
       <member refid="struct_x_m_c___f_c_e__t_1a46b3f5dce65dc84f4941a32d74ab9781" prot="public" virt="non-virtual"><scope>XMC_FCE_t</scope><name>kernel_ptr</name></member>

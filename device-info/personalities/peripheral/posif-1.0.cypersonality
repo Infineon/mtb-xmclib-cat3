@@ -96,9 +96,9 @@
       <Entry name="Generates only on First Index Signal" value="XMC_POSIF_QD_INDEX_GENERATION_ONCE" visible="true" />
       <Entry name="Generates on every Index Signal" value="XMC_POSIF_QD_INDEX_GENERATION_ALWAYS" visible="true" />
     </ParamChoice>
-    <ParamImage id="leading_phase_a" name="" group="Quadrature Decoder Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/posif_phase_a_lead.png"
+    <ParamImage id="leading_phase_a" name="" group="Quadrature Decoder Settings" default="`${cy_libs_path()}`/device-info/personalities/images/posif_phase_a_lead.png"
                 visible="`${(clockwise_direction_def eq 0) &amp;&amp; ((POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD)) &amp;&amp; ((QD_mode eq XMC_POSIF_QD_MODE_QUADRATURE) || is_default_qd_profile_used)}`" desc="" inSummary="true" />
-    <ParamImage id="leading_phase_b" name="" group="Quadrature Decoder Settings" default="`${cy_libs_path()}`/device-info/personalities/peripheral/posif_phase_b_lead.png"
+    <ParamImage id="leading_phase_b" name="" group="Quadrature Decoder Settings" default="`${cy_libs_path()}`/device-info/personalities/images/posif_phase_b_lead.png"
                 visible="`${(clockwise_direction_def eq 1) &amp;&amp; ((POSIF_mode eq XMC_POSIF_MODE_QD) || (POSIF_mode eq XMC_POSIF_MODE_MCM_QD))  &amp;&amp; ((QD_mode eq XMC_POSIF_QD_MODE_QUADRATURE) || is_default_qd_profile_used)}`" desc="" inSummary="true" />
 
     <!-- Hall mode Settings -->
@@ -278,7 +278,7 @@
     <ParamSignal port="insel1[0]" name="`${input1_name}` [insel1]" group="Connections" visible="`${POSIF_mode ne XMC_POSIF_MODE_MCM}`" desc="" canBeEmpty="`${POSIF_mode eq XMC_POSIF_MODE_MCM}`" />
     <ParamSignal port="insel2[0]" name="`${input2_name}` [insel2]" group="Connections" visible="`${(POSIF_mode ne XMC_POSIF_MODE_MCM) &amp;&amp; are_three_inputs_used}`" desc="" canBeEmpty="`${(POSIF_mode eq XMC_POSIF_MODE_MCM) || !are_three_inputs_used}`" />
 
-    <ParamImage id="hall_profile_example" name="Hall Sensor Mode POSIF Profile Example" group="Connections" default="`${cy_libs_path()}`/device-info/personalities/peripheral/posif_hall_structure.png"
+    <ParamImage id="hall_profile_example" name="Hall Sensor Mode POSIF Profile Example" group="Connections" default="`${cy_libs_path()}`/device-info/personalities/images/posif_hall_structure.png"
                 visible="`${is_default_hall_profile_used &amp;&amp; (POSIF_mode eq XMC_POSIF_MODE_HALL_SENSOR)}`"
                 desc="Example hall POSIF profile is targeted to find position and speed of the motor using 2 or 3 hall sensors. This profile uses POSIF module
                       and two CCU4 slices.&lt;br&gt;&lt;br&gt;

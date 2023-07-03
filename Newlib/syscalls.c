@@ -1,8 +1,6 @@
 /**
  * @file syscalls.c
  * @brief    Newlib stubs
- * @version  V1.7
- * @date 2019-09-21
  *
  * @cond
  *****************************************************************************
@@ -38,18 +36,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * *************************** Change history ********************************
- * V0.1                  : Initial version
- * V0.2                  : Label updates
- * V1.0                  : Made _sbrk device agnostic
- * V1.1                  : C++ support
- * V1.2                  : Restored compatibility with old project files
- * V1.3    Jan 2014, PKB : Encapsulating everything in this file for use only with GCC
- * V1.4 11 Dec 2015, JFT : Fix heap overflow
- * V1.5 09 Mar 2016, JFT : Add dso_handle to support destructors call at exit 
- * V1.6 20 Apr 2017, JFT : Foward declaration of __sbrk to fix link time optimization (-flto) compilation errors
- * V1.7 21 Sep 2019, JFT : Fixed C++ compilation issues
- * V1.8 11 Nov 2020, JFT : Fix compilation with ARMCC
  * @endcond
  */
 

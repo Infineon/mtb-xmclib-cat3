@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -38,7 +38,7 @@
     <ParamString id="accuracy" name="Clock Source Accuracy" group="Internal" default="`${getExposedMember(&quot;scu[0].clock[0].rtcclk[0]&quot;, &quot;accuracy&quot;)}`" visible="false" editable="false" desc="Clock source accuracy." />
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${xmc1 ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___r_t_c.html" linkText="Open RTC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___r_t_c.html" linkText="Open RTC Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!--General-->
     <ParamString id="rtc_clock_source" name="Clock Source" group="General" default="`${getExposedMember(&quot;scu[0].clock[0].rtcclk[0]&quot;, &quot;sourceClockDisplayName&quot;)}`" visible="true" editable="false" desc="Clock source." />

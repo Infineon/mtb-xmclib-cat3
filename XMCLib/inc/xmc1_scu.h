@@ -1,12 +1,11 @@
 /**
  * @file xmc1_scu.h
- * @date 2020-12-03
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,52 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial
- *
- * 2015-05-20:
- *     - Description updated <br>
- *
- * 2015-06-20:
- *     - XMC_SCU_INTERRUPT_EVENT enum elements are typecasted to int64_t
- *
- * 2015-06-20:
- *     - Added support for XMC1400
- *
- * 2015-11-30:
- *     - Documentation improved
- *
- * 2015-12-09:
- *     - Added XMC_SCU_EnablePrefetchUnit and XMC_SCU_DisablePrefetchUnit
- *
- * 2016-03-09:
- *     - Added XMC_SCU_POWER_EnableMonitor/XMC_SCU_POWER_DisableMonitor
- *
- * 2017-03-28:
- *     - Fixed prescaler formula comments for XMC_SCU_CLOCK_EnableDCO1ExtRefCalibration()
- *     - Added XMC_SCU_SetBMI()
- *
- * 2017-08-03:
- *     - Removed unused XMC_SCU_CLOCK_DEEP_SLEEP_t
- *     - Added XMC_SCU_CLOCK_EnableFlashPowerDown() and XMC_SCU_CLOCK_DisableFlashPowerDown()
- *
- * 2017-09-15:
- *     - Added XMC_SCU_GetBMI()
- *     - Make XMC_SCU_CLOCK_EnableFlashPowerDown() and XMC_SCU_CLOCK_DisableFlashPowerDown() available to all XMC1 families
- *     - Added XMC_SCU_BMI_HWCFG_PINDIS for XMC1400
- *
- * 2019-03-20:
- *     - Added XMC_SCU_CLOCK_SetHighPerformanceOscillatorMode() and XMC_SCU_CLOCK_SetLowPerformanceOscillatorMode()
- *
- * 2019-10-11:
- *     - Added XMC_SCU_CLOCK_ADCCLKSRC_t and XMC_SCU_CLOCK_SetAdcClockSrc()
- *
- * 2020-12-03:
- *     - Added XMC_SCU_IRQCTRL_CAN0_SR3_IRQ20. XMC_SCU_IRQCTRL_CAN0_SR4_IRQ20 is marked as deprecated
  *
  * @endcond
  *

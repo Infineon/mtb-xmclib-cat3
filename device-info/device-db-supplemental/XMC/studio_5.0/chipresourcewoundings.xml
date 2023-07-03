@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Woundings xml_version="1" xmlns="http://cypress.com/xsd/cychipresourcewoundings_v1">
+  <BooleanWounding name="CAN_COUNT">
+    <Block name="can"/>
+  </BooleanWounding>
   <RemoveListWounding name="CCU4_REMOVED">
     <Block name="ccu4"/>
   </RemoveListWounding>
@@ -11,9 +14,6 @@
   </RemoveListWounding>
   <RemoveListWounding name="BCCU_REMOVED">
     <Block name="bccu"/>
-  </RemoveListWounding>
-  <RemoveListWounding name="USIC_REMOVED">
-    <Block name="usic"/>
   </RemoveListWounding>
   <RemoveListWounding name="LEDTS_REMOVED">
     <Block name="ledts"/>
@@ -53,6 +53,46 @@
   <RemoveListWounding name="EBU_REMOVED">
     <Block name="ebu"/>
   </RemoveListWounding>
+  <IndexResourceWounding name="USIC_REMOVED">
+    <ResourceIndex index="0">
+      <Block name="usic[0].ch[0]" />
+    </ResourceIndex>
+    <ResourceIndex index="1">
+      <Block name="usic[0].ch[1]" />
+    </ResourceIndex>
+    <ResourceIndex index="2">
+      <Block name="usic[1].ch[0]" />
+    </ResourceIndex>
+    <ResourceIndex index="3">
+      <Block name="usic[1].ch[1]" />
+    </ResourceIndex>
+    <ResourceIndex index="4">
+      <Block name="usic[2].ch[0]" />
+    </ResourceIndex>
+    <ResourceIndex index="5">
+      <Block name="usic[2].ch[1]" />
+    </ResourceIndex>
+  </IndexResourceWounding>
+  <IndexResourceWounding name="USIC_I2C_REMOVED">
+    <ResourceIndex index="0">
+      <Block name="usic[0].ch[0].i2c[0]" />
+    </ResourceIndex>
+    <ResourceIndex index="1">
+      <Block name="usic[0].ch[1].i2c[0]" />
+    </ResourceIndex>
+    <ResourceIndex index="2">
+      <Block name="usic[1].ch[0].i2c[0]" />
+    </ResourceIndex>
+    <ResourceIndex index="3">
+      <Block name="usic[1].ch[1].i2c[0]" />
+    </ResourceIndex>
+    <ResourceIndex index="4">
+      <Block name="usic[2].ch[0].i2c[0]" />
+    </ResourceIndex>
+    <ResourceIndex index="5">
+      <Block name="usic[2].ch[1].i2c[0]" />
+    </ResourceIndex>
+  </IndexResourceWounding>
   <IndexResourceWounding name="ADCCH_REMOVED">
     <ResourceIndex index="0">
       <Block name="vadc[0].group[0].ch[0]" />

@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,9 +35,9 @@
     <ParamString id="module_num" name="Module Number" group="Internal" default="`${getInstNumber(&quot;eru&quot;)}`" visible="false" editable="false" desc="ERU parent module index." />
     <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;etl&quot;)}`" visible="false" editable="false" desc="ERU channel slice index." />
 
-    <ParamDoc id="api_doc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___e_r_u.html" linkText="Open ERU Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___e_r_u.html" linkText="Open ERU Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
     <!-- General -->
-    <ParamImage id="eru_etl_img" name="" group="General" default="`${cy_libs_path()}`/device-info/personalities/peripheral/eru_etl.png" visible="true" desc="" inSummary="false" />
+    <ParamImage id="eru_etl_img" name="" group="General" default="`${cy_libs_path()}`/device-info/personalities/images/eru_etl.png" visible="true" desc="" inSummary="false" />
     <ParamChoice id="eru_edge_detector" name="Edge Detection" group="General" default="XMC_ERU_ETL_EDGE_DETECTION_DISABLED" visible="true" editable="true" desc="Configures the gating scheme to apply on pattern match output">
       <Entry name="Disabled" value="XMC_ERU_ETL_EDGE_DETECTION_DISABLED" visible="true" />
       <Entry name="Rising Edge" value="XMC_ERU_ETL_EDGE_DETECTION_RISING" visible="true" />

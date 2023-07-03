@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!--/*****************************************************************************
  *
- * Copyright (C) 2016 Infineon Technologies AG. All rights reserved.
+ * Copyright (C) 2016-2023, Infineon Technologies AG. All rights reserved.
  *
  * Infineon Technologies AG (Infineon) is supplying this software for use with
  * Infineon's microcontrollers.  This file can be freely distributed within 
@@ -17829,7 +17829,7 @@ Changes versus V1.3.0
 							<name>SYSSEL</name>
 							<description>System Clock Selection Value</description>
 							<lsb>0</lsb>
-							<msb>1</msb>
+							<msb>0</msb>
 							<access>read-write</access>
 							<enumeratedValues>
 								<enumeratedValue>

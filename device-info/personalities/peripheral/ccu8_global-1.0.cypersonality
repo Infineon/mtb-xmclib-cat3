@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -48,12 +48,12 @@
     </Repeat>
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u8.html" linkText="Open CCU8 Documentation." visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u8.html" linkText="Open CCU8 Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
 
     <!-- General -->
     <ParamString id="fCCU8" name="Frequency (Hz)" group="General" default="`${clock_error ? 0.0 : getExposedMember(clock_resource, &quot;frequency&quot;)}`" visible="false" editable="false" desc="" />
     <ParamString id="frequency_info" name="Frequency" group="General" default="`${formatFrequency(fCCU8)}`" visible="true" editable="false" desc="Input frequency to CCU8 module from System Control Unit (SCU)." />
-    <ParamChoice id="mc_shadow_tx_function" name="Multi Channel Mode Shadow Transfer" group="General" default="XMC_CCU8_SLICE_MCMS_ACTION_TRANSFER_PR_CR" visible="true" editable="true" desc="Select this to allow the override of the status signal (CC8yST) with a value passed through an external signal. This will consume two events: one configured as edge that will act as trigger to override the status bit and the other configured as level that contains the value to be copied in the status bit.">
+    <ParamChoice id="mc_shadow_tx_function" name="Multi-Channel Mode Shadow Transfer" group="General" default="XMC_CCU8_SLICE_MCMS_ACTION_TRANSFER_PR_CR" visible="true" editable="true" desc="Select this to allow the override of the status signal (CC8yST) with a value passed through an external signal. This will consume two events: one configured as edge that will act as trigger to override the status bit and the other configured as level that contains the value to be copied in the status bit.">
       <Entry name="Period and Compare" value="XMC_CCU8_SLICE_MCMS_ACTION_TRANSFER_PR_CR" visible="true" />
       <Entry name="Period, Compare and Prescaler" value="XMC_CCU8_SLICE_MCMS_ACTION_TRANSFER_PR_CR_PCMP" visible="true" />
       <Entry name="Period, Compare, Prescaler and Dither" value="XMC_CCU8_SLICE_MCMS_ACTION_TRANSFER_PR_CR_PCMP_DIT" visible="true" />

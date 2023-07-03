@@ -1,10 +1,9 @@
 /**
  * @file xmc_ebu.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,21 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-06-20:
- *     - Removed GetDriverVersion API
- *
- * 2017-06-24:
- *     - Changed XMC_EBU_Init() adding checks for the clock acknoledgment.
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  *

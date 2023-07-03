@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     startup_XMC4502.S
  * @brief    CMSIS Core Device Startup File for Infineon XMC4502 Device Series
- * @version  V1.31
- * @date     18 Nov 2021
  *
  * @cond
  *********************************************************************************************************************
@@ -37,37 +35,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG 
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
- *
- **************************** Change history ********************************
- * V1.0,July 2011, First version for XIP profile
- * V1.1,Oct  2011, Program loading code included (GH: b to main changed)
- * V1.2,Nov, 01, 2011 GH :Removed second definition of section .Xmc4500.reset
- *                        at line 186. 
- * V1.3,Nov, 16, 2011 GH :Removed PMU0_1_IRQHandler and respective weak function
- *                        declaration.
- * V1.4,Dec, 16, 2011 PKB:Jump to __Xmc4500_start_c reinstated for RTOS integration
- * V1.5,Jan, 10, 2012 PKB:Migrated to GCC from ARM
- * V1.6,Jan, 16, 2012 PKB:Branch prediction turned off, Parity errors cleared.
- * V1.7,Apr, 17, 2012 PKB:Added decision function for PLL initialization  
- * V1.8,Apr, 20, 2012 PKB:Handshake with DAVE code engine added  
- * V1.9,Jun, 14, 2012 PKB:Removed the handshake protocol towards simplification  
- * V1.10,Aug, 13, 2012 PKB:Flash Wait states handling  
- * V1.11,Oct, 11, 2012 PKB:C++ support. Call to global constructors  
- * V1.12,Jan, 23, 2013 PKB:XMC4 Prefetch bug workaround  
- * V1.13,Jul, 29, 2013 PKB:AAPCS violation in V1.12 fixed
- * V1.14,Feb, 05, 2014 PKB:Removed redundant alignment code from copy+clear funcs   
- * V1.15,May, 05, 2014 JFT:Added ram_code section
- * V1.16,Nov, 25, 2014 JFT:CPU workaround disabled. Single default handler.
- *                         Removed DAVE3 dependency
- * V1.17,June 11, 2015 JFT:Remove SystemCoreClockUpdate call, done in SystemCoreClockSetup
- * V1.18,Nov  24, 2015 JFT:Remove peripherals not included in device
- * V1.19,Jan, 05, 2016 JFT:Fix .reset section attributes
- * V1.20,March,04,2016 JFT:Fix weak definition of Veneers. 
- *                         Only relevant for AA and AB step, which needs ENABLE_PMU_CM_001_WORKAROUND 
- * V1.21,June ,01,2016 JFT:Rename ENABLE_CPU_CM_001_WORKAROUND to ENABLE_PMU_CM_001_WORKAROUND
- *                         Action required: If using AA/AB step, use ENABLE_PMU_CM_001_WORKAROUND instead of ENABLE_CPU_CM_001_WORKAROUND 
- * V1.30,Mai, 15, 2020 JFT:Added option (ENABLE_OWN_HANDLER) to generate a individual interrupt handlers for unhandled vectors
- * V1.31,Nov, 18, 2021     Added weak cy_toolchain_init
  *
  * @endcond 
  */

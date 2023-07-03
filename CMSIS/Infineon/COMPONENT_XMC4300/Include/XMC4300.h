@@ -38,9 +38,6 @@
  * @brief    CMSIS Cortex-M4 Peripheral Access Layer Header File for
  *           XMC4300 from Infineon.
  *
- * @version  V1.1.1 (Reference Manual v1.1)
- * @date     19. June 2017
- *
  * @note     Generated with SVDConv V2.87l 
  *           from CMSIS SVD File 'XMC4300_Processed_SVD.xml' Version 1.1.0 (Reference Manual v1.1),
  *           added support for ARM Compiler 6 (armclang)  

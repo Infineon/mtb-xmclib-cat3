@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     system_XMC4200.c
  * @brief    CMSIS Cortex-M4 Device Peripheral Access Layer Header File for the Infineon XMC4200 Device Series
- * @version  V3.1.6
- * @date     27. Aug 2020
  *
  * @cond
  *********************************************************************************************************************
@@ -38,23 +36,6 @@
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
  *
- ********************** Version History ***************************************
- * V3.1.0, Dec 2014, Added options to configure clock settings
- * V3.1.1, 01. Jun 2016, Fix masking of OSCHPCTRL value 
- * V3.1.2, 19. Jun 2017, Rely on cmsis_compiler.h instead of defining __WEAK 
- *                       Added support for ARM Compiler 6 (armclang) 
- * V3.1.3, 26. Sep 2017, Disable FPU if FPU_USED is zero 
- * V3.1.4, 29. Oct 2018, Fix variable location of SystemCoreClock, g_hrpwm_char_data and g_chipid for ARMCC compiler
- * V3.1.5, 02. Dec 2019, Fix including device header file following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *                       Fix EXTCLKDIV macro definition
- *                       Fix code for condition EXTCLK_PIN == EXTCLK_PIN_P1_15
- * V3.1.6, 27. Aug 2020. Fix K1 divider input clock for PLL in prescaler mode
- *                       Added compiler checks for input VCO and VCO frequencies
- *                       Added wait for K2 divider ready after updating the K2 divider in the PLL ramp up 
- *                       Removed wait for lock after changing the K2 divider in the PLL ramp up since a modification of the K2-divider has no impact on the VCO Lock status
- *                       Use P,N,K2 even values dividers for system PLL to minimize jitter (for the case of external clock 12MHz)
- *                       Use P,N,K2 value dividers for system PLL when running out of internal oscillator that centers the input frequency of the VCO to 6MHz instead of 4MHz (minimum value in DS)
- ******************************************************************************
  * @endcond
  */
 

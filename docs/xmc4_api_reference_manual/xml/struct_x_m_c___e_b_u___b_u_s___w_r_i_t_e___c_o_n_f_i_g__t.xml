@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_EBU_BUS_WRITE_CONFIG_t</compoundname>
     <includes local="no">xmc_ebu.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="722" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="704" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1ac5cd2bb432dfbe47ad759d0ae8902aa9" prot="public" static="no" mutable="no">
         <type>union XMC_EBU_BUS_WRITE_CONFIG_t::@130</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="811" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="793" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="710" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="710" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="692" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="692" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="713" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="713" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="695" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="695" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1aa5fc04645a02b6ce88faf4f57f037234" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -74,11 +74,10 @@
  ... <linebreak/>
  1110B: 14 clock cycles selected <linebreak/>
  1111B: 15 clock cycles selected <linebreak/>
- </para>
-        </detaileddescription>
+ </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="809" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="809" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="791" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="791" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1aafea8fcb570ed737119ff6e02685fa8e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -96,11 +95,10 @@
  ... <linebreak/>
  1110B: 14 clock cycles selected <linebreak/>
  1111B: 15 clock cycles selected <linebreak/>
- </para>
-        </detaileddescription>
+ </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="799" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="799" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="781" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="781" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1ab42e007bc669642065d09719219e8bde" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -118,11 +116,10 @@
  ... <linebreak/>
  1110B: 14 clock cycles selected <linebreak/>
  1111B: 15 clock cycles selected <linebreak/>
- </para>
-        </detaileddescription>
+ </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="790" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="790" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="772" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="772" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1aba6d3d9b4087e0fbd30916297a7cde6c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -133,11 +130,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Asynchronous address phase (<ref refid="group___e_b_u_1gaa27abe69423e93cafd80546717dd25b4" kindref="member">XMC_EBU_ASYNCHRONOUS_ADDRESS_PHASE_t</ref>) </para>
-        </detaileddescription>
+<para>Asynchronous address phase (<ref refid="group___e_b_u_1gaa27abe69423e93cafd80546717dd25b4" kindref="member">XMC_EBU_ASYNCHRONOUS_ADDRESS_PHASE_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="718" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="718" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="700" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="700" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a01b291a106e937697eae13f2879f101c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -148,11 +144,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Burst buffer mode (<ref refid="group___e_b_u_1gab55fcf393a1277a80090e70536b36444" kindref="member">XMC_EBU_BURST_BUFFER_SYNC_MODE_t</ref>) </para>
-        </detaileddescription>
+<para>Burst buffer mode (<ref refid="group___e_b_u_1gab55fcf393a1277a80090e70536b36444" kindref="member">XMC_EBU_BURST_BUFFER_SYNC_MODE_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="709" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="709" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="691" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="691" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1ac634adfa1698ddc79b4e820a053a117e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -163,11 +158,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Burst length for synchronous burst (<ref refid="group___e_b_u_1ga078e81cde5be916553622c04d8cf462e" kindref="member">XMC_EBU_BURST_LENGTH_SYNC_t</ref>) </para>
-        </detaileddescription>
+<para>Burst length for synchronous burst (<ref refid="group___e_b_u_1ga078e81cde5be916553622c04d8cf462e" kindref="member">XMC_EBU_BURST_LENGTH_SYNC_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="708" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="708" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="690" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="690" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a524e764e220487c3d8fe82e2eb257425" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -178,11 +172,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Early burst signal enable for synchronous burst (<ref refid="group___e_b_u_1ga1e6be4e6205bbe8c44f4b482cce5cee4" kindref="member">XMC_EBU_BURST_SIGNAL_SYNC_BURST_t</ref>) </para>
-        </detaileddescription>
+<para>Early burst signal enable for synchronous burst (<ref refid="group___e_b_u_1ga1e6be4e6205bbe8c44f4b482cce5cee4" kindref="member">XMC_EBU_BURST_SIGNAL_SYNC_BURST_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="712" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="712" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="694" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="694" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a60cc2a4cd404631146e67bd5f7d68718" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -193,11 +186,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Byte control signal control (<ref refid="group___e_b_u_1ga43087015d29aaa4a8b32d769c69bfe6a" kindref="member">XMC_EBU_BYTE_CONTROL_t</ref>) </para>
-        </detaileddescription>
+<para>Byte control signal control (<ref refid="group___e_b_u_1ga43087015d29aaa4a8b32d769c69bfe6a" kindref="member">XMC_EBU_BYTE_CONTROL_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="715" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="715" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="697" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="697" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a975095f8bc736439d1c852a1cff49650" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -214,11 +206,10 @@
  ... <linebreak/>
  1110B: 14 clock cycles selected <linebreak/>
  1111B: 15 clock cycles selected <linebreak/>
- Frequency of external clock at pin BFCLKO (<ref refid="group___e_b_u_1gac16c71d81d8a97a55188dde6b9cf87d8" kindref="member">XMC_EBU_FREQ_EXT_CLK_PIN_t</ref>) </para>
-        </detaileddescription>
+ Frequency of external clock at pin BFCLKO (<ref refid="group___e_b_u_1gac16c71d81d8a97a55188dde6b9cf87d8" kindref="member">XMC_EBU_FREQ_EXT_CLK_PIN_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="772" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="772" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="754" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="754" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a29e9c7035b94a479786a22717a5cbc43" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -229,11 +220,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Device addressing mode (<ref refid="group___e_b_u_1ga239aff03e96cbe0814177fdcc0fa9e6a" kindref="member">XMC_EBU_DEVICE_ADDRESSING_MODE_t</ref>) </para>
-        </detaileddescription>
+<para>Device addressing mode (<ref refid="group___e_b_u_1ga239aff03e96cbe0814177fdcc0fa9e6a" kindref="member">XMC_EBU_DEVICE_ADDRESSING_MODE_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="716" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="716" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="698" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="698" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1abd206212398403e7dba2f01376d5c6ad" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -244,11 +234,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Device type for region (<ref refid="group___e_b_u_1gaf6f1e50ac1ff13355a5047661362775d" kindref="member">XMC_EBU_DEVICE_TYPE_t</ref>) </para>
-        </detaileddescription>
+<para>Device type for region (<ref refid="group___e_b_u_1gaf6f1e50ac1ff13355a5047661362775d" kindref="member">XMC_EBU_DEVICE_TYPE_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="720" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="720" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="702" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="702" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1ad96e9c8692551b122a74eddfe62fdab2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -259,11 +248,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Early chip select for sync burst (<ref refid="group___e_b_u_1ga441b1805b4fb3907c9568d19afc33e87" kindref="member">XMC_EBU_EARLY_CHIP_SELECT_SYNC_BURST_t</ref>) </para>
-        </detaileddescription>
+<para>Early chip select for sync burst (<ref refid="group___e_b_u_1ga441b1805b4fb3907c9568d19afc33e87" kindref="member">XMC_EBU_EARLY_CHIP_SELECT_SYNC_BURST_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="711" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="711" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="693" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="693" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a486d75ee6ea52a670b6648243a74a2d5" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -274,11 +262,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>EBU extended data (<ref refid="group___e_b_u_1ga8fb8549ed85f30c05687a18d91a1e139" kindref="member">XMC_EBU_EXT_DATA_t</ref>) </para>
-        </detaileddescription>
+<para>EBU extended data (<ref refid="group___e_b_u_1ga8fb8549ed85f30c05687a18d91a1e139" kindref="member">XMC_EBU_EXT_DATA_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="780" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="780" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="762" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="762" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1afca82a90601a18a29303264cc3ea1026" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -292,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="776" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="776" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="758" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="758" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1ac1af132da760c10c167c42c6a584e727" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -303,11 +290,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Lock chip select (<ref refid="group___e_b_u_1ga90ed23b7a7944dfa54fa201002ae6487" kindref="member">XMC_EBU_LOCK_CHIP_SELECT_t</ref>) </para>
-        </detaileddescription>
+<para>Lock chip select (<ref refid="group___e_b_u_1ga90ed23b7a7944dfa54fa201002ae6487" kindref="member">XMC_EBU_LOCK_CHIP_SELECT_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="719" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="719" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="701" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="701" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a48d18bc892df1e312555870694ba9836" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -326,11 +312,10 @@
  ... <linebreak/>
  11110B: 30 wait states <linebreak/>
  11111B: 31 wait states <linebreak/>
- </para>
-        </detaileddescription>
+ </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="761" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="761" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="743" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="743" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a67e71694f05158d408408291058026a2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -348,11 +333,10 @@
  ... <linebreak/>
  110B: 6 clock cycles selected <linebreak/>
  111B: 7 clock cycles selected <linebreak/>
- </para>
-        </detaileddescription>
+ </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="749" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="749" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="731" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="731" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1ae76b5e0c33547d41f4d2defef9ebe529" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -370,11 +354,10 @@
  ... <linebreak/>
  1110B: 14 clock cycles selected <linebreak/>
  1111B: 15 clock cycles selected <linebreak/>
- </para>
-        </detaileddescription>
+ </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="738" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="738" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="720" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="720" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1af85dd7c1ae0f2e95bec9e3184d8b9c95" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -385,11 +368,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>External wait control (<ref refid="group___e_b_u_1gaad0e41baf7d64e0497972a3823a1f1dc" kindref="member">XMC_EBU_WAIT_CONTROL_t</ref>) </para>
-        </detaileddescription>
+<para>External wait control (<ref refid="group___e_b_u_1gaad0e41baf7d64e0497972a3823a1f1dc" kindref="member">XMC_EBU_WAIT_CONTROL_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="717" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="717" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="699" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="699" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1ada6921f9e15ca117281fda8fb9abfbae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -400,11 +382,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Reversed polarity at WAIT (<ref refid="group___e_b_u_1ga184c3ec5aa33164682af56311973eab3" kindref="member">XMC_EBU_WAIT_SIGNAL_POLARITY_t</ref>) </para>
-        </detaileddescription>
+<para>Reversed polarity at WAIT (<ref refid="group___e_b_u_1ga184c3ec5aa33164682af56311973eab3" kindref="member">XMC_EBU_WAIT_SIGNAL_POLARITY_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="714" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="714" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="696" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="696" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a1c9c29d7f8e7f061fe1b649d9bfb082a" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -417,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="705" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="705" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="687" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="687" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1acbe7c18e421b751048bd70d61fa08577" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -430,17 +411,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="726" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="726" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="708" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="708" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Write configuration for a region of EBU <linebreak/>
-</para>
-<para>The structure presents a convenient way to set/obtain the write and write timing configurations for a region of EBU. The <ref refid="group___e_b_u_1ga61dac3f06d3abac9b1ef8eb99532cb7b" kindref="member">XMC_EBU_ConfigureRegion()</ref> can be used to populate the structure with the write configuration values of EBU. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="700" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="701" bodyend="812"/>
+</para><para>The structure presents a convenient way to set/obtain the write and write timing configurations for a region of EBU. The <ref refid="group___e_b_u_1ga61dac3f06d3abac9b1ef8eb99532cb7b" kindref="member">XMC_EBU_ConfigureRegion()</ref> can be used to populate the structure with the write configuration values of EBU. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" line="683" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_ebu.h" bodystart="682" bodyend="794"/>
     <listofallmembers>
       <member refid="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_EBU_BUS_WRITE_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___e_b_u___b_u_s___w_r_i_t_e___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_EBU_BUS_WRITE_CONFIG_t</scope><name>__pad1__</name></member>

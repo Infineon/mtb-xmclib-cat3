@@ -1,10 +1,9 @@
 /**
  * @file xmc_i2c.c
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,42 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-05-20:
-       - Modified XMC_I2C_CH_Stop() API for not setting to IDLE the channel if it is busy <br>
- *
- * 2015-06-20:
- *     - Removed GetDriverVersion API <br>
- *
- * 2015-08-14:
- *     - updated the XMC_I2C_CH_SetBaudrate API to support dynamic change from 400K to low frequencies <br>
- *
- * 2015-09-01:
- *     - Modified XMC_I2C_CH_EnableEvent() and XMC_I2C_CH_DisableEvent() for supporting multiple events configuration <br>
- *
- * 2015-10-02:
- *     - Fixed 10bit addressing
- *
- * 2019-05-07:
- *     - Added XMC_I2C_CH_SetBaudrateEx() which allows to select between baudrate generator normal divider and fractional divider mode
- *
- * 2019-07-12:
- *     - Fixed wrong oversampling setting in case of baudrate greater than 100Kbaud/s
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2020-09-02:
- *     - Fixed XMC_I2C_CH_SetSlaveAddress
- *
- * 2020-12-05:
- *     - Added XMC_I2C_CH_InitEx that allows user select if automatic baudrate configuration should be done or not
- * 
  * @endcond
  *
  */

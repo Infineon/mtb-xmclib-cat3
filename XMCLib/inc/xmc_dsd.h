@@ -1,12 +1,11 @@
 /**
  * @file xmc_dsd.h
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,30 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-03-30:
- *     - Initial version
- *
- * 2015-06-19:
- *     - Removed version macros and declaration of GetDriverVersion API <BR>
- *     - Added API XMC_DSD_CH_GetRectifyDelay <BR>
- *
- * 2015-07-16:
- *     - Renamed API “XMC_DSD_CH_AuxFilter_SetBoudary()” to “XMC_DSD_CH_AuxFilter_SetBoundary()” <BR>
- *
- * 2015-09-18:
- *     - Added APIs "XMC_DSD_SetResultEventFlag()","XMC_DSD_ClearResultEventFlag()"
- *       "XMC_DSD_SetAlarmEventFlag()" and "XMC_DSD_ClearAlarmEventFlag()" <BR>
- *     - Support added for XMC4800 microcontroller family <BR>
- *
- * 2019-12-16:
- *     - Fix including xmc_common.h and xmc_scu.h following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2022-11-23:
- *     - Documentation updates
  *
  * @endcond
  *

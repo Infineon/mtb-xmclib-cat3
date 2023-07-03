@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020-2021 Cypress Semiconductor Corporation
+* Copyright 2020-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -146,7 +146,7 @@
 
     <!-- Value Update Settings -->
     <ParamBool id="enable_shadow_transfer_on_clear" name="Shadow Transfer on Clear" group="Value Update" default="false" visible="true" editable="true" desc="Enables a shadow transfer when a timer clearing action is performed." />
-    <ParamBool id="enable_mcss_input" name="Multi-channel Shadow Transfer" group="Value Update" default="false" visible="true" editable="true" desc="If enabled allows multi-channel shadow transfer using the MCSS input." />
+    <ParamBool id="enable_mcss_input" name="Multi-Channel Shadow Transfer" group="Value Update" default="false" visible="true" editable="true" desc="If enabled allows multi-channel shadow transfer using the MCSS input." />
     <ParamChoice id="shadow_transfer_mode" name="Shadow Transfer Mode" group="Value Update" default="XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_IN_PERIOD_MATCH_AND_ONE_MATCH" visible="`${ip_ver3 &amp;&amp; (operation_mode eq XMC_CCU4_SLICE_MODE_COMPARE) &amp;&amp; (compare_counting_mode eq XMC_CCU4_SLICE_TIMER_COUNT_MODE_CA)}`" editable="true" desc="Select the type of shadow transfer requested via the CCU4x.MCSS input." >
       <Entry name="In Period Match and One Match" value="XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_IN_PERIOD_MATCH_AND_ONE_MATCH" visible="true" />
       <Entry name="Only in Period Match" value="XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_ONLY_IN_PERIOD_MATCH" visible="true" />
@@ -338,7 +338,7 @@
       <ParamSignal port="sr$idx[0]" name="Service Request $idx Signal" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="CCU4 slice service request $idx output signal" canBeEmpty="true" multiSelect="true" forbiddenBy="none"/>
     </Repeat>
 
-    <ParamSignal port="mcss[0]" name="Multi Channel Shadow Transfer Trigger" group="Connections" visible="`${hasVisibleOption(&quot;mcss[0]&quot;)}`" desc="Multi pattern sync with shadow transfer trigger can be used to synchronize two events." canBeEmpty="true" forbiddenBy="none"/>
+    <ParamSignal port="mcss[0]" name="Multi-Channel Shadow Transfer Trigger" group="Connections" visible="`${hasVisibleOption(&quot;mcss[0]&quot;)}`" desc="Multi-Pattern sync with shadow transfer trigger can be used to synchronize two events." canBeEmpty="true" forbiddenBy="none"/>
     <ParamSignal port="ps[0]" name="Pattern Update Signal Select" group="Connections" visible="`${hasVisibleOption(&quot;ps[0]&quot;)}`" desc="CCU4 slice pattern update signal select" canBeEmpty="true" />
 
    <!-- Advanced -->

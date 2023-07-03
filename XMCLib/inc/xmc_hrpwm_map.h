@@ -1,11 +1,10 @@
 
 /**
  * @file xmc_hrpwm_map.h
- * @date 2015-06-20
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -39,12 +38,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Updated copyright and change history section.
- *
  * @endcond
  *
  */
@@ -54,11 +47,6 @@
  * @brief HRPWM mapping for XMC4 microcontroller family. <br>
  *
  */
-
-/*********************************************************************************************************************
- * HEADER FILES
- ********************************************************************************************************************/
-#include "xmc_hrpwm.h"
 
 #ifndef XMC_HRPWM_MAP_H
 #define XMC_HRPWM_MAP_H

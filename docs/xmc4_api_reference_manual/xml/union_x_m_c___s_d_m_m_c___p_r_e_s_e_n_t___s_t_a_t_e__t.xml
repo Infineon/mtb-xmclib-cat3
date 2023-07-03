@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t" kind="union" language="C++" prot="public">
     <compoundname>XMC_SDMMC_PRESENT_STATE_t</compoundname>
     <includes local="no">xmc_sdmmc.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="565" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="518" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="551" column="5" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="551" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="504" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="504" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="556" column="5" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="556" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="509" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="509" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="564" column="5" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="564" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="517" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="517" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1ada06c792bfd6e432c983f0de962e5eb4" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="566" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="566" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="519" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="519" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a06adf01a5f9d38bee11f694421ef5f55" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -81,11 +81,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Buffer read enable </para>
-        </detaileddescription>
+<para>Buffer read enable </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="555" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="555" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="508" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="508" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1ab25ce9bbe6110b28f70ad1fc88b22325" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -96,11 +95,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Buffer write enable </para>
-        </detaileddescription>
+<para>Buffer write enable </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="554" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="554" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="507" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="507" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1ae074912c63f04810db116260a1a92828" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -111,11 +109,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Card detect pin level </para>
-        </detaileddescription>
+<para>Card detect pin level </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="559" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="559" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="512" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="512" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1aa014e6bf6b6c7ea2f8213cc5f0c63206" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -126,11 +123,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Card inserted </para>
-        </detaileddescription>
+<para>Card inserted </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="557" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="557" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="510" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="510" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a416c3fa8fe04aa877a99e0fd8a03b9ec" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -141,11 +137,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Card state stable </para>
-        </detaileddescription>
+<para>Card state stable </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="558" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="558" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="511" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="511" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a33b4fd3cc985217e4d59b07f36da6c65" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -156,11 +151,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Command line level </para>
-        </detaileddescription>
+<para>Command line level </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="562" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="562" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="515" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="515" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a79d3397c9475dea4166f75e762f135b1" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -171,11 +165,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Command: Inhibit command </para>
-        </detaileddescription>
+<para>Command: Inhibit command </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="548" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="548" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="501" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="501" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a40119fb7779a5b43726d11dcda636245" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -186,11 +179,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Command: Inhibit data </para>
-        </detaileddescription>
+<para>Command: Inhibit data </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="549" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="549" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="502" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="502" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1ac9ac38e23bdcd624c1f9fe305fa0487b" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -201,11 +193,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Data 7_4 pin level </para>
-        </detaileddescription>
+<para>Data 7_4 pin level </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="563" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="563" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="516" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="516" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a21893ab9422abec000702bc29eb7cb60" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -216,11 +207,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Data 3_0 pin level </para>
-        </detaileddescription>
+<para>Data 3_0 pin level </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="561" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="561" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="514" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="514" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1af1ed80404d588ee699bf4e094e4a07fc" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -231,11 +221,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Data line active </para>
-        </detaileddescription>
+<para>Data line active </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="550" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="550" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="503" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="503" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a1f2f40a7c2439996a2f3c6f5ce7be484" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -246,11 +235,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Read transfer active </para>
-        </detaileddescription>
+<para>Read transfer active </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="553" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="553" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="506" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="506" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1ad0157ee6c9181557b96e0ef5dcee5f57" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -261,11 +249,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Write protect pin level </para>
-        </detaileddescription>
+<para>Write protect pin level </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="560" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="560" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="513" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="513" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1ad2f897e8dd8e494d157c3c6a6b9b5e7e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -276,21 +263,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Write transfer active </para>
-        </detaileddescription>
+<para>Write transfer active </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="552" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="552" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="505" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="505" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Present state of the SDMMC host controller <linebreak/>
-</para>
-<para>The structure presents a convenient way to obtain the SDMMC peripheral&apos;s present state information (for example, the write protect pin level). The <ref refid="group___s_d_m_m_c_1ga288474aba13cd8564c6e49628dde449a" kindref="member">XMC_SDMMC_GetPresentState()</ref> API can be used to populate the structure with the state of the SD host controller. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="544" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="545" bodyend="567"/>
+</para><para>The structure presents a convenient way to obtain the SDMMC peripheral&apos;s present state information (for example, the write protect pin level). The <ref refid="group___s_d_m_m_c_1ga288474aba13cd8564c6e49628dde449a" kindref="member">XMC_SDMMC_GetPresentState()</ref> API can be used to populate the structure with the state of the SD host controller. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" line="498" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_sdmmc.h" bodystart="497" bodyend="520"/>
     <listofallmembers>
       <member refid="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_SDMMC_PRESENT_STATE_t</scope><name>__pad0__</name></member>
       <member refid="union_x_m_c___s_d_m_m_c___p_r_e_s_e_n_t___s_t_a_t_e__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_SDMMC_PRESENT_STATE_t</scope><name>__pad1__</name></member>

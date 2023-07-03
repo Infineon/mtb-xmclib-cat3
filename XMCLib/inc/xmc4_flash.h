@@ -1,12 +1,11 @@
 /**
  * @file xmc4_flash.h
- * @date 2019-05-06
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,39 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2014-12-10:
- *     - Initial <br>
- * 2015-02-20:
- *     - Updated for Documentation related changes<br>
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- * 2015-08-17:
- *     - Added the below API's to the public interface.
- *       1. XMC_FLASH_Reset
- *       2. XMC_FLASH_ErasePhysicalSector
- *       3. XMC_FLASH_EraseUCB
- *       4. XMC_FLASH_ResumeProtection
- *       5. XMC_FLASH_RepairPhysicalSector
- *     - Added support for XMC4800/4700 devices
- * 2015-12-07:
- *     - Fix XMC_FLASH_READ_ACCESS_TIME for XMC43, 47 and 48 devices
- * 2016-03-18:
- *     - Fix implementation of XMC_PREFETCH_EnableInstructionBuffer and XMC_PREFETCH_DisableInstructionBuffer
- * 2016-03-22:
- *     - Fix implementation of XMC_PREFETCH_InvalidateInstructionBuffer
- *
- * 2018-02-08:
- *     - Added XMC_FLASH_InstallBMI()
- *
- * 2019-03-30:
- *     - Fix compilation warnings
- *
- * 2019-05-06:
- *     - Moved definitions of XMC_FLASH_ProgramPage() and XMC_FLASH_EraseSector() from xmc_flash.h
  *
  * @endcond
  *

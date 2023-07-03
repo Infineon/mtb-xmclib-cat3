@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="group___m_a_t_h" kind="group">
     <compoundname>MATH</compoundname>
     <title>MATH Coprocessor (MATH)</title>
       <sectiondef kind="enum">
-      <memberdef kind="enum" id="group___m_a_t_h_1gac53e08a1cc2cd849165caa9ad94e2116" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1gac53e08a1cc2cd849165caa9ad94e2116" prot="public" static="no">
         <name>XMC_MATH_CORDIC_CORDXRC_t</name>
         <enumvalue id="group___m_a_t_h_1ggac53e08a1cc2cd849165caa9ad94e2116adb097288383078815a3fc90c886d2120" prot="public">
           <name>XMC_MATH_CORDIC_CORDXRC_DISABLED</name>
@@ -13,8 +12,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>No result chaining is selected </para>
-          </detaileddescription>
+<para>No result chaining is selected </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggac53e08a1cc2cd849165caa9ad94e2116a98233beb998d4978ab0317d529441b44" prot="public">
           <name>XMC_MATH_CORDIC_CORDXRC_QUOT_IS_SOURCE</name>
@@ -22,8 +20,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>QUOT register is the selected source </para>
-          </detaileddescription>
+<para>QUOT register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggac53e08a1cc2cd849165caa9ad94e2116a791784224dd6254906477bb709b52d4e" prot="public">
           <name>XMC_MATH_CORDIC_CORDXRC_RMD_IS_SOURCE</name>
@@ -31,20 +28,17 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>RMD register is the selected source </para>
-          </detaileddescription>
+<para>RMD register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>CORDX Register Result Chaining. </para>
-        </briefdescription>
+<para>CORDX Register Result Chaining. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="185" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="186" bodyend="190"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="166" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="165" bodyend="170"/>
       </memberdef>
-      <memberdef kind="enum" id="group___m_a_t_h_1ga092dbebe76a44966b4bec687bde0b89f" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1ga092dbebe76a44966b4bec687bde0b89f" prot="public" static="no">
         <name>XMC_MATH_CORDIC_CORDYRC_t</name>
         <enumvalue id="group___m_a_t_h_1gga092dbebe76a44966b4bec687bde0b89fa4ce0284a234f9209617f46206618e4e7" prot="public">
           <name>XMC_MATH_CORDIC_CORDYRC_DISABLED</name>
@@ -52,8 +46,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>No result chaining is selected </para>
-          </detaileddescription>
+<para>No result chaining is selected </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga092dbebe76a44966b4bec687bde0b89fa13a3063171259b0ef71f92011d14445f" prot="public">
           <name>XMC_MATH_CORDIC_CORDYRC_QUOT_IS_SOURCE</name>
@@ -61,8 +54,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>QUOT register is the selected source </para>
-          </detaileddescription>
+<para>QUOT register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga092dbebe76a44966b4bec687bde0b89fab95e1203988b1ea6deb6d93371ee4250" prot="public">
           <name>XMC_MATH_CORDIC_CORDYRC_RMD_IS_SOURCE</name>
@@ -70,20 +62,17 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>RMD register is the selected source </para>
-          </detaileddescription>
+<para>RMD register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>CORDY Register Result Chaining. </para>
-        </briefdescription>
+<para>CORDY Register Result Chaining. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="195" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="196" bodyend="200"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="176" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="175" bodyend="180"/>
       </memberdef>
-      <memberdef kind="enum" id="group___m_a_t_h_1ga89102390cca78126c6069ef7eab55acb" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1ga89102390cca78126c6069ef7eab55acb" prot="public" static="no">
         <name>XMC_MATH_CORDIC_CORDZRC_t</name>
         <enumvalue id="group___m_a_t_h_1gga89102390cca78126c6069ef7eab55acbab6bddf1b4866cb78aff4696c643fef20" prot="public">
           <name>XMC_MATH_CORDIC_CORDZRC_DISABLED</name>
@@ -91,8 +80,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>No result chaining is selected </para>
-          </detaileddescription>
+<para>No result chaining is selected </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga89102390cca78126c6069ef7eab55acba2ff2deffbf767e6d26cf9fddce35def9" prot="public">
           <name>XMC_MATH_CORDIC_CORDZRC_QUOT_IS_SOURCE</name>
@@ -100,8 +88,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>QUOT register is the selected source </para>
-          </detaileddescription>
+<para>QUOT register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga89102390cca78126c6069ef7eab55acba1042d0ec0764b49bd4c2a886d40e0927" prot="public">
           <name>XMC_MATH_CORDIC_CORDZRC_RMD_IS_SOURCE</name>
@@ -109,20 +96,17 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>RMD register is the selected source </para>
-          </detaileddescription>
+<para>RMD register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>CORDZ Register Result Chaining. </para>
-        </briefdescription>
+<para>CORDZ Register Result Chaining. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="205" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="206" bodyend="210"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="186" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="185" bodyend="190"/>
       </memberdef>
-      <memberdef kind="enum" id="group___m_a_t_h_1ga06365bc953ebcd9d056b09597a8558f9" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1ga06365bc953ebcd9d056b09597a8558f9" prot="public" static="no">
         <name>XMC_MATH_CORDIC_MAGNITUDE_t</name>
         <enumvalue id="group___m_a_t_h_1gga06365bc953ebcd9d056b09597a8558f9ae7afa77cc80d61f601f80bb5eac13c0a" prot="public">
           <name>XMC_MATH_CORDIC_MAGNITUDE_DIVBY1</name>
@@ -130,8 +114,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Divide by 1 </para>
-          </detaileddescription>
+<para>Divide by 1 </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga06365bc953ebcd9d056b09597a8558f9ad76e04a59518dbf566c5a4438bff83bf" prot="public">
           <name>XMC_MATH_CORDIC_MAGNITUDE_DIVBY2</name>
@@ -139,8 +122,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Divide by 2 </para>
-          </detaileddescription>
+<para>Divide by 2 </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga06365bc953ebcd9d056b09597a8558f9afefcfbfd006832fe7c19bd67554e72cc" prot="public">
           <name>XMC_MATH_CORDIC_MAGNITUDE_DIVBY4</name>
@@ -148,20 +130,17 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Divide by 4 </para>
-          </detaileddescription>
+<para>Divide by 4 </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Calculated value of CORRX and CORRY are each divided by this factor to yield the result. </para>
-        </briefdescription>
+<para>Calculated value of CORRX and CORRY are each divided by this factor to yield the result. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="233" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="234" bodyend="238"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="214" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="213" bodyend="218"/>
       </memberdef>
-      <memberdef kind="enum" id="group___m_a_t_h_1gab2d4c7f443de5351d31f5a15e685e6fb" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1gab2d4c7f443de5351d31f5a15e685e6fb" prot="public" static="no">
         <name>XMC_MATH_CORDIC_OPERATING_MODE_t</name>
         <enumvalue id="group___m_a_t_h_1ggab2d4c7f443de5351d31f5a15e685e6fbae3822bef144d6850879def05ab145d81" prot="public">
           <name>XMC_MATH_CORDIC_OPERATING_MODE_LINEAR</name>
@@ -169,8 +148,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Linear mode </para>
-          </detaileddescription>
+<para>Linear mode </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggab2d4c7f443de5351d31f5a15e685e6fbac7c7516164c2f93ece9af2eb4e1144f1" prot="public">
           <name>XMC_MATH_CORDIC_OPERATING_MODE_CIRCULAR</name>
@@ -178,8 +156,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Circular mode </para>
-          </detaileddescription>
+<para>Circular mode </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggab2d4c7f443de5351d31f5a15e685e6fba9d4e85db941eec9002839d9562e41b49" prot="public">
           <name>XMC_MATH_CORDIC_OPERATING_MODE_HYPERBOLIC</name>
@@ -187,20 +164,17 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Hyperbolic mode </para>
-          </detaileddescription>
+<para>Hyperbolic mode </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>CORDIC operating mode. </para>
-        </briefdescription>
+<para>CORDIC operating mode. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="214" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="215" bodyend="219"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="195" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="194" bodyend="199"/>
       </memberdef>
-      <memberdef kind="enum" id="group___m_a_t_h_1ga6c36f03bd27e23cea13f7dbaf5c2eda0" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1ga6c36f03bd27e23cea13f7dbaf5c2eda0" prot="public" static="no">
         <name>XMC_MATH_CORDIC_ROTVEC_MODE_t</name>
         <enumvalue id="group___m_a_t_h_1gga6c36f03bd27e23cea13f7dbaf5c2eda0a9357143d2a36d9485f3d4bd2ee6d7653" prot="public">
           <name>XMC_MATH_CORDIC_ROTVEC_MODE_VECTORING</name>
@@ -208,8 +182,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Vectoring mode </para>
-          </detaileddescription>
+<para>Vectoring mode </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga6c36f03bd27e23cea13f7dbaf5c2eda0a586d861dcae23a62daf88f73aee6b2f5" prot="public">
           <name>XMC_MATH_CORDIC_ROTVEC_MODE_ROTATION</name>
@@ -217,20 +190,17 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Rotation mode </para>
-          </detaileddescription>
+<para>Rotation mode </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Rotation vectoring selection. </para>
-        </briefdescription>
+<para>Rotation vectoring selection. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="224" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="225" bodyend="228"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="205" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="204" bodyend="208"/>
       </memberdef>
-      <memberdef kind="enum" id="group___m_a_t_h_1gafdd9e26276264c4e54ffa042ddc6d6ae" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1gafdd9e26276264c4e54ffa042ddc6d6ae" prot="public" static="no">
         <name>XMC_MATH_DIV_DVDRC_t</name>
         <enumvalue id="group___m_a_t_h_1ggafdd9e26276264c4e54ffa042ddc6d6aea667f74790b3e88ad7e1db6db5a5faa8d" prot="public">
           <name>XMC_MATH_DIV_DVDRC_DISABLED</name>
@@ -238,8 +208,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>No result chaining is selected </para>
-          </detaileddescription>
+<para>No result chaining is selected </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggafdd9e26276264c4e54ffa042ddc6d6aea0b57305eea3396957ea32840f012dddf" prot="public">
           <name>XMC_MATH_DIV_DVDRC_QUOT_IS_SOURCE</name>
@@ -247,8 +216,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>QUOT register is the selected source </para>
-          </detaileddescription>
+<para>QUOT register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggafdd9e26276264c4e54ffa042ddc6d6aeafcce839cf308f450e70dd78073514002" prot="public">
           <name>XMC_MATH_DIV_DVDRC_RMD_IS_SOURCE</name>
@@ -256,8 +224,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>RMD register is the selected source </para>
-          </detaileddescription>
+<para>RMD register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggafdd9e26276264c4e54ffa042ddc6d6aeaa493b38fad1337a4bcd547cb6cc16452" prot="public">
           <name>XMC_MATH_DIV_DVDRC_CORRX_IS_SOURCE</name>
@@ -265,8 +232,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CORRX is the selected source </para>
-          </detaileddescription>
+<para>CORRX is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggafdd9e26276264c4e54ffa042ddc6d6aea4fa3a3684986a350387b2bea46b4f2be" prot="public">
           <name>XMC_MATH_DIV_DVDRC_CORRY_IS_SOURCE</name>
@@ -274,8 +240,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CORRY is the selected source </para>
-          </detaileddescription>
+<para>CORRY is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1ggafdd9e26276264c4e54ffa042ddc6d6aea7846d10fb411b7c190145c84464faddd" prot="public">
           <name>XMC_MATH_DIV_DVDRC_CORRZ_IS_SOURCE</name>
@@ -283,20 +248,17 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CORRZ is the selected source </para>
-          </detaileddescription>
+<para>CORRZ is the selected source </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Dividend Register Result Chaining. </para>
-        </briefdescription>
+<para>Dividend Register Result Chaining. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="159" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="160" bodyend="167"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="140" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="139" bodyend="147"/>
       </memberdef>
-      <memberdef kind="enum" id="group___m_a_t_h_1ga9e9d4439b343cbb851f6fd544e0fc13c" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1ga9e9d4439b343cbb851f6fd544e0fc13c" prot="public" static="no">
         <name>XMC_MATH_DIV_DVSRC_t</name>
         <enumvalue id="group___m_a_t_h_1gga9e9d4439b343cbb851f6fd544e0fc13cabf8fc312da9f8c634cd454dc805b4813" prot="public">
           <name>XMC_MATH_DIV_DVSRC_DISABLED</name>
@@ -304,8 +266,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>No result chaining is selected </para>
-          </detaileddescription>
+<para>No result chaining is selected </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga9e9d4439b343cbb851f6fd544e0fc13ca031a12e4a8d294479570b4d12093e2f4" prot="public">
           <name>XMC_MATH_DIV_DVSRC_QUOT_IS_SOURCE</name>
@@ -313,8 +274,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>QUOT register is the selected source </para>
-          </detaileddescription>
+<para>QUOT register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga9e9d4439b343cbb851f6fd544e0fc13ca2bcc6cea2f5a7b092889608868354677" prot="public">
           <name>XMC_MATH_DIV_DVSRC_RMD_IS_SOURCE</name>
@@ -322,8 +282,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>RMD register is the selected source </para>
-          </detaileddescription>
+<para>RMD register is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga9e9d4439b343cbb851f6fd544e0fc13ca6c17a173ba97297c4cae5c073f878dbf" prot="public">
           <name>XMC_MATH_DIV_DVSRC_CORRX_IS_SOURCE</name>
@@ -331,8 +290,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CORRX is the selected source </para>
-          </detaileddescription>
+<para>CORRX is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga9e9d4439b343cbb851f6fd544e0fc13ca0f91cf84e5af40d9bd8e81ff8a542f2d" prot="public">
           <name>XMC_MATH_DIV_DVSRC_CORRY_IS_SOURCE</name>
@@ -340,8 +298,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CORRY is the selected source </para>
-          </detaileddescription>
+<para>CORRY is the selected source </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga9e9d4439b343cbb851f6fd544e0fc13ca99e9c341469e7f7244af17e34fe992d3" prot="public">
           <name>XMC_MATH_DIV_DVSRC_CORRZ_IS_SOURCE</name>
@@ -349,20 +306,17 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CORRZ is the selected source </para>
-          </detaileddescription>
+<para>CORRZ is the selected source </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Divisor Register Result Chaining. </para>
-        </briefdescription>
+<para>Divisor Register Result Chaining. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="172" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="173" bodyend="180"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="153" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="152" bodyend="160"/>
       </memberdef>
-      <memberdef kind="enum" id="group___m_a_t_h_1ga89292d1091a73802a39d64f6721eb828" prot="public" static="no" strong="no">
-        <type></type>
+      <memberdef kind="enum" id="group___m_a_t_h_1ga89292d1091a73802a39d64f6721eb828" prot="public" static="no">
         <name>XMC_MATH_EVENT_t</name>
         <enumvalue id="group___m_a_t_h_1gga89292d1091a73802a39d64f6721eb828abadf5cc4a4164cba7ed57328e39a0e2e" prot="public">
           <name>XMC_MATH_EVENT_DIV_END_OF_CALC</name>
@@ -370,8 +324,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Divider end of calculation event </para>
-          </detaileddescription>
+<para>Divider end of calculation event </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga89292d1091a73802a39d64f6721eb828a0509c6dbe0619d94b854f21515e07d98" prot="public">
           <name>XMC_MATH_EVENT_DIV_ERROR</name>
@@ -379,8 +332,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>Divider error event </para>
-          </detaileddescription>
+<para>Divider error event </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga89292d1091a73802a39d64f6721eb828aa1ff0b46b6edc0fe672385283f20e9b0" prot="public">
           <name>XMC_MATH_EVENT_CORDIC_END_OF_CALC</name>
@@ -388,8 +340,7 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CORDIC end of calculation event </para>
-          </detaileddescription>
+<para>CORDIC end of calculation event </para>          </detaileddescription>
         </enumvalue>
         <enumvalue id="group___m_a_t_h_1gga89292d1091a73802a39d64f6721eb828ae9538cac5c2ebb72ce8f39816489e827" prot="public">
           <name>XMC_MATH_EVENT_CORDIC_ERROR</name>
@@ -397,17 +348,15 @@
           <briefdescription>
           </briefdescription>
           <detaileddescription>
-<para>CORDIC error event </para>
-          </detaileddescription>
+<para>CORDIC error event </para>          </detaileddescription>
         </enumvalue>
         <briefdescription>
-<para>Service request events for the DIV and CORDIC modules. </para>
-        </briefdescription>
+<para>Service request events for the DIV and CORDIC modules. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="148" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="149" bodyend="154"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="129" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="128" bodyend="134"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -417,13 +366,12 @@
         <argsstring></argsstring>
         <name>XMC_MATH_Q0_11_t</name>
         <briefdescription>
-<para>This typedef is used for Output Data representation in blocking &amp; non-blocking functions. XMC_MATH_Q0_11_t =&gt; 1 Signed bit, 0 Integer bits, 11 fraction bits. </para>
-        </briefdescription>
+<para>This typedef is used for Output Data representation in blocking &amp; non-blocking functions. XMC_MATH_Q0_11_t =&gt; 1 Signed bit, 0 Integer bits, 11 fraction bits. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="132" column="17" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="132" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="112" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___m_a_t_h_1gae9c5b92455318c54a5b9095a732fa9ac" prot="public" static="no">
         <type>int32_t</type>
@@ -431,13 +379,12 @@
         <argsstring></argsstring>
         <name>XMC_MATH_Q0_23_t</name>
         <briefdescription>
-<para>This typedef is used for Input and Output Data representation in blocking &amp; non-blocking functions. XMC_MATH_Q0_23_t =&gt; 1 Signed bit, 0 Integer bits, 23 fraction bits. </para>
-        </briefdescription>
+<para>This typedef is used for Input and Output Data representation in blocking &amp; non-blocking functions. XMC_MATH_Q0_23_t =&gt; 1 Signed bit, 0 Integer bits, 23 fraction bits. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="114" column="17" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="114" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="94" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___m_a_t_h_1ga6d5caee593c5b8ce8523155a5c38d74c" prot="public" static="no">
         <type>int32_t</type>
@@ -445,13 +392,12 @@
         <argsstring></argsstring>
         <name>XMC_MATH_Q1_22_t</name>
         <briefdescription>
-<para>This typedef is used for Output Data representation in blocking &amp; non-blocking functions. XMC_MATH_Q1_22_t =&gt; 1 Signed bit, 1 Integer bits, 22 fraction bits. </para>
-        </briefdescription>
+<para>This typedef is used for Output Data representation in blocking &amp; non-blocking functions. XMC_MATH_Q1_22_t =&gt; 1 Signed bit, 1 Integer bits, 22 fraction bits. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="126" column="17" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="126" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="106" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___m_a_t_h_1ga43ca234ba5bbaef1acd0b4c1563d4734" prot="public" static="no">
         <type>int32_t</type>
@@ -459,13 +405,12 @@
         <argsstring></argsstring>
         <name>XMC_MATH_Q8_15_t</name>
         <briefdescription>
-<para>This typedef is used for Input Data representation in blocking &amp; non-blocking functions. XMC_MATH_Q8_15_t =&gt; 1 Signed bit, 8 Integer bits, 15 fraction bits. </para>
-        </briefdescription>
+<para>This typedef is used for Input Data representation in blocking &amp; non-blocking functions. XMC_MATH_Q8_15_t =&gt; 1 Signed bit, 8 Integer bits, 15 fraction bits. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="120" column="17" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="120" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="100" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -486,26 +431,20 @@
 <parametername>event</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Event of type XMC_MATH_EVENT_t</para>
-</parameterdescription>
+<para>Event of type XMC_MATH_EVENT_t</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Clears the requested event.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) is cleared by setting bit-fields of <emphasis>EVFCR</emphasis> register.</para>
-</simplesect>
+<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Clears the requested event.</para></simplesect>
+<simplesect kind="par"><title></title><para>DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) is cleared by setting bit-fields of <emphasis>EVFCR</emphasis> register.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gad1c69680de299eaf40d3b98ae4099a29" kindref="member">XMC_MATH_SetEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="412" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="412" bodyend="415"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="392" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="392" bodyend="395"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga9d630a05bc5503a6ee59637fa0be2cf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1gae9c5b92455318c54a5b9095a732fa9ac" kindref="member">XMC_MATH_Q0_23_t</ref></type>
@@ -528,32 +467,25 @@
 <parametername>x</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Value representing the proportion of the x-coordinate (XMC_MATH_Q8_15_t format) </para>
-</parameterdescription>
+<para>Value representing the proportion of the x-coordinate (XMC_MATH_Q8_15_t format) </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>y</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Value representing the proportion of the y-coordinate (XMC_MATH_Q8_15_t format)</para>
-</parameterdescription>
+<para>Value representing the proportion of the y-coordinate (XMC_MATH_Q8_15_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>XMC_MATH_Q0_23_t <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the principal value arc tangent of an angle of y/x expressed in radians. The input radians must be in XMC_MATH_Q8_15_t format.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC as circular mode. <emphasis>CORDY</emphasis> register is programmed with input <emphasis>y</emphasis> and <emphasis>CORDX</emphasis> register is programmed with input <emphasis>x</emphasis>. Most significant 24 bits of <emphasis>CORRZ</emphasis> register returns the result of the operation.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation. </para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the principal value arc tangent of an angle of y/x expressed in radians. The input radians must be in XMC_MATH_Q8_15_t format.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC as circular mode. <emphasis>CORDY</emphasis> register is programmed with input <emphasis>y</emphasis> and <emphasis>CORDX</emphasis> register is programmed with input <emphasis>x</emphasis>. Most significant 24 bits of <emphasis>CORRZ</emphasis> register returns the result of the operation.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation. </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="708" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="708" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="688" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga63ebf1a863d5afa9aa0b3811b015704d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -576,37 +508,29 @@
 <parametername>x</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Value representing the proportion of the x-coordinate (XMC_MATH_Q8_15_t format) </para>
-</parameterdescription>
+<para>Value representing the proportion of the x-coordinate (XMC_MATH_Q8_15_t format) </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>y</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Value representing the proportion of the y-coordinate (XMC_MATH_Q8_15_t format)</para>
-</parameterdescription>
+<para>Value representing the proportion of the y-coordinate (XMC_MATH_Q8_15_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the principal value arc tangent of an angle of y/x expressed in radians. The input radians must be in XMC_MATH_Q8_15_t format. Call <ref refid="group___m_a_t_h_1gad3aa89c06a142c5fccc63a532abe5bb8" kindref="member">XMC_MATH_CORDIC_GetArcTanResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC as circular mode. <emphasis>CORDY</emphasis> register is programmed with input <emphasis>y</emphasis> and <emphasis>CORDX</emphasis> register is programmed with input <emphasis>x</emphasis>.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the principal value arc tangent of an angle of y/x expressed in radians. The input radians must be in XMC_MATH_Q8_15_t format. Call <ref refid="group___m_a_t_h_1gad3aa89c06a142c5fccc63a532abe5bb8" kindref="member">XMC_MATH_CORDIC_GetArcTanResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC as circular mode. <emphasis>CORDY</emphasis> register is programmed with input <emphasis>y</emphasis> and <emphasis>CORDX</emphasis> register is programmed with input <emphasis>x</emphasis>.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gad3aa89c06a142c5fccc63a532abe5bb8" kindref="member">XMC_MATH_CORDIC_GetArcTanResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="876" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="876" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="856" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga5b15c1c2d28d6e7a8e33bf55aaa88f90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1gae9c5b92455318c54a5b9095a732fa9ac" kindref="member">XMC_MATH_Q0_23_t</ref></type>
@@ -625,29 +549,22 @@
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>XMC_MATH_Q0_23_t <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the cosine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>. Most significant 24 bits of <emphasis>CORRX</emphasis> register returns the result of the operation.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the cosine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>. Most significant 24 bits of <emphasis>CORRX</emphasis> register returns the result of the operation.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga893b264a7d4f96e018276445a1cf31e6" kindref="member">XMC_MATH_CORDIC_Sin()</ref>, <ref refid="group___m_a_t_h_1ga66462bac14344cc04e175db6810217d0" kindref="member">XMC_MATH_CORDIC_Tan()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="639" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="639" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="619" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gaa38aea2dbe10dc487d1f536ea10fe2b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1ga6d5caee593c5b8ce8523155a5c38d74c" kindref="member">XMC_MATH_Q1_22_t</ref></type>
@@ -666,29 +583,22 @@
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>XMC_MATH_Q1_22_t <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic cosine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>. Most significant 24 bits of <emphasis>CORRX</emphasis> register returns the result of the operation.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic cosine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>. Most significant 24 bits of <emphasis>CORRX</emphasis> register returns the result of the operation.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga1ce93195bf43d2385dc8c1b35141bc7b" kindref="member">XMC_MATH_CORDIC_Sinh()</ref>, <ref refid="group___m_a_t_h_1gacd1203692c5a634a185b4427ae294b9a" kindref="member">XMC_MATH_CORDIC_Tanh()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="731" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="731" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="711" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gaf54fc42f2f192c5c6e967d653d939db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -707,29 +617,22 @@
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic cosine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1gad71ced8f8fccf18791a144549c0438b7" kindref="member">XMC_MATH_CORDIC_GetCoshResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic cosine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1gad71ced8f8fccf18791a144549c0438b7" kindref="member">XMC_MATH_CORDIC_GetCoshResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gad71ced8f8fccf18791a144549c0438b7" kindref="member">XMC_MATH_CORDIC_GetCoshResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="899" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="899" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="879" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga9cce2054887fa3d7e5820c61b9ada43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -748,29 +651,22 @@
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the cosine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1gaaa101050aa5f794b7fb1e9f91356437e" kindref="member">XMC_MATH_CORDIC_GetCosResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the cosine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1gaaa101050aa5f794b7fb1e9f91356437e" kindref="member">XMC_MATH_CORDIC_GetCosResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gaaa101050aa5f794b7fb1e9f91356437e" kindref="member">XMC_MATH_CORDIC_GetCosResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="804" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="804" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="784" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gad3aa89c06a142c5fccc63a532abe5bb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1gae9c5b92455318c54a5b9095a732fa9ac" kindref="member">XMC_MATH_Q0_23_t</ref></type>
@@ -783,22 +679,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>XMC_MATH_Q0_23_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Arc Tangent operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRZ</emphasis> register returns the result of Arc Tangent operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>XMC_MATH_Q0_23_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Arc Tangent operation.</para></simplesect>
+<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRZ</emphasis> register returns the result of Arc Tangent operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga63ebf1a863d5afa9aa0b3811b015704d" kindref="member">XMC_MATH_CORDIC_ArcTanNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="484" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="484" bodyend="487"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="464" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="464" bodyend="467"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gad71ced8f8fccf18791a144549c0438b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1ga6d5caee593c5b8ce8523155a5c38d74c" kindref="member">XMC_MATH_Q1_22_t</ref></type>
@@ -811,22 +702,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>XMC_MATH_Q1_22_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Hyperbolic Cosine operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRX</emphasis> register returns the result of Hyperbolic Cosine operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>XMC_MATH_Q1_22_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Hyperbolic Cosine operation.</para></simplesect>
+<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRX</emphasis> register returns the result of Hyperbolic Cosine operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gaf54fc42f2f192c5c6e967d653d939db9" kindref="member">XMC_MATH_CORDIC_CoshNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="502" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="502" bodyend="505"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="482" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="482" bodyend="485"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gaaa101050aa5f794b7fb1e9f91356437e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1gae9c5b92455318c54a5b9095a732fa9ac" kindref="member">XMC_MATH_Q0_23_t</ref></type>
@@ -839,22 +725,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>XMC_MATH_Q0_23_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Cosine operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRX</emphasis> register returns the result of Cosine operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>XMC_MATH_Q0_23_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Cosine operation.</para></simplesect>
+<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRX</emphasis> register returns the result of Cosine operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga9cce2054887fa3d7e5820c61b9ada43c" kindref="member">XMC_MATH_CORDIC_CosNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="430" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="430" bodyend="433"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="410" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="410" bodyend="413"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga023af7ec6d0053377ad0cb2f66dac851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1ga6d5caee593c5b8ce8523155a5c38d74c" kindref="member">XMC_MATH_Q1_22_t</ref></type>
@@ -867,22 +748,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>XMC_MATH_Q1_22_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Hyperbolic Sine operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of Hyperbolic Sine operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>XMC_MATH_Q1_22_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Hyperbolic Sine operation.</para></simplesect>
+<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of Hyperbolic Sine operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga6c359779efd80a9c02bf1d78a4b491e5" kindref="member">XMC_MATH_CORDIC_SinhNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="520" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="520" bodyend="523"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="500" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="500" bodyend="503"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga0800aa39037ae679b8e7a35874e0ebfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1gae9c5b92455318c54a5b9095a732fa9ac" kindref="member">XMC_MATH_Q0_23_t</ref></type>
@@ -895,22 +771,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>XMC_MATH_Q0_23_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Sine operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of Sine operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>XMC_MATH_Q0_23_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Sine operation.</para></simplesect>
+<simplesect kind="par"><title></title><para>Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of Sine operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga0ef6fbb7ab5fea15868c8474ba74e12e" kindref="member">XMC_MATH_CORDIC_SinNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="448" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="448" bodyend="451"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="428" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="428" bodyend="431"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gaf9d14a3a153fb8778a346121102c8ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1ga36cbd3c89447925d3b9dd3557aa48474" kindref="member">XMC_MATH_Q0_11_t</ref></type>
@@ -923,22 +794,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>XMC_MATH_Q0_11_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Hyperbolic Tangent operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para><emphasis>QUOT</emphasis> register returns the result of Hyperbolic Tangent operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>XMC_MATH_Q0_11_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Hyperbolic Tangent operation.</para></simplesect>
+<simplesect kind="par"><title></title><para><emphasis>QUOT</emphasis> register returns the result of Hyperbolic Tangent operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga4932b29e0d77c219c1c555ba024b2321" kindref="member">XMC_MATH_CORDIC_TanhNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="538" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="538" bodyend="541"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="518" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="518" bodyend="521"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga80975b1dcb6b1b519b0e760ddffee249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1ga36cbd3c89447925d3b9dd3557aa48474" kindref="member">XMC_MATH_Q0_11_t</ref></type>
@@ -951,22 +817,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>XMC_MATH_Q0_11_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Tangent operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para><emphasis>QUOT</emphasis> register returns the result of Tangent operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>XMC_MATH_Q0_11_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Tangent operation.</para></simplesect>
+<simplesect kind="par"><title></title><para><emphasis>QUOT</emphasis> register returns the result of Tangent operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga65dd42f9d76a07a59baab86d7c3f2f6b" kindref="member">XMC_MATH_CORDIC_TanNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="466" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="466" bodyend="469"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="446" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="446" bodyend="449"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga7529255d7c4abd02ebee2aa8bffac2af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -981,17 +842,13 @@
         <detaileddescription>
 <para><simplesect kind="return"><para>bool <linebreak/>
 true - if CORDIC unit is busy<linebreak/>
-false - if CORDIC unit is not busy</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Utility function to check if the DIV unit is busy.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>CORDIC coprocessor&apos;s status is determined by reading <emphasis>BSY</emphasis> bit of <emphasis>STATC</emphasis> register. </para>
-</simplesect>
-</para>
-        </detaileddescription>
+false - if CORDIC unit is not busy</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Utility function to check if the DIV unit is busy.</para></simplesect>
+<simplesect kind="par"><title></title><para>CORDIC coprocessor&apos;s status is determined by reading <emphasis>BSY</emphasis> bit of <emphasis>STATC</emphasis> register. </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="316" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="316" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="296" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gacff8448608fe39ee5ec1068fd3932954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int16_t</type>
@@ -1010,22 +867,17 @@ false - if CORDIC unit is not busy</para>
 <parametername>x</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Value whose square root is computed</para>
-</parameterdescription>
+<para>- Value whose square root is computed</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>Square root of x <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes square root of Q15 number</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>x &gt; 0 </para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes square root of Q15 number</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>x &gt; 0 </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="1056" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="1056" declcolumn="9"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="1036" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga58ceac71c6739c2fa225a401c1c66d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1044,22 +896,17 @@ false - if CORDIC unit is not busy</para>
 <parametername>x</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Value whose square root is computed</para>
-</parameterdescription>
+<para>- Value whose square root is computed</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>Square root of x <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes square root of Q31 number</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>x &gt; 0 </para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes square root of Q31 number</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>x &gt; 0 </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="1070" column="9" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="1070" declcolumn="9"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="1050" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga893b264a7d4f96e018276445a1cf31e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1gae9c5b92455318c54a5b9095a732fa9ac" kindref="member">XMC_MATH_Q0_23_t</ref></type>
@@ -1078,29 +925,22 @@ false - if CORDIC unit is not busy</para>
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>XMC_MATH_Q0_23_t <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the sine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>. Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of the operation.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the sine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>. Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of the operation.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga5b15c1c2d28d6e7a8e33bf55aaa88f90" kindref="member">XMC_MATH_CORDIC_Cos()</ref>, <ref refid="group___m_a_t_h_1ga66462bac14344cc04e175db6810217d0" kindref="member">XMC_MATH_CORDIC_Tan()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="662" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="662" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="642" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga1ce93195bf43d2385dc8c1b35141bc7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1ga6d5caee593c5b8ce8523155a5c38d74c" kindref="member">XMC_MATH_Q1_22_t</ref></type>
@@ -1119,29 +959,22 @@ false - if CORDIC unit is not busy</para>
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>XMC_MATH_Q1_22_t <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic sine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>. Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of the operation.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic sine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>. Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of the operation.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gaa38aea2dbe10dc487d1f536ea10fe2b6" kindref="member">XMC_MATH_CORDIC_Cosh()</ref>, <ref refid="group___m_a_t_h_1gacd1203692c5a634a185b4427ae294b9a" kindref="member">XMC_MATH_CORDIC_Tanh()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="754" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="754" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="734" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga6c359779efd80a9c02bf1d78a4b491e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1160,29 +993,22 @@ false - if CORDIC unit is not busy</para>
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic sine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1ga023af7ec6d0053377ad0cb2f66dac851" kindref="member">XMC_MATH_CORDIC_GetSinhResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic sine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1ga023af7ec6d0053377ad0cb2f66dac851" kindref="member">XMC_MATH_CORDIC_GetSinhResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga023af7ec6d0053377ad0cb2f66dac851" kindref="member">XMC_MATH_CORDIC_GetSinhResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="922" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="922" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="902" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga0ef6fbb7ab5fea15868c8474ba74e12e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1201,29 +1027,22 @@ false - if CORDIC unit is not busy</para>
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the sine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1ga0800aa39037ae679b8e7a35874e0ebfc" kindref="member">XMC_MATH_CORDIC_GetSinResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the sine for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1ga0800aa39037ae679b8e7a35874e0ebfc" kindref="member">XMC_MATH_CORDIC_GetSinResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Configures <emphasis>CORDZ</emphasis> register with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga0800aa39037ae679b8e7a35874e0ebfc" kindref="member">XMC_MATH_CORDIC_GetSinResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="827" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="827" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="807" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga66462bac14344cc04e175db6810217d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1ga36cbd3c89447925d3b9dd3557aa48474" kindref="member">XMC_MATH_Q0_11_t</ref></type>
@@ -1242,29 +1061,22 @@ false - if CORDIC unit is not busy</para>
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>XMC_MATH_Q0_11_t <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the tangent for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Chains the results of Cosine (<emphasis>CORRX</emphasis>) and Sine (<emphasis>CORRY</emphasis>) as a dividend and divisor by configuring <emphasis>GLBCON</emphasis> register. <emphasis>CORDZ</emphasis> register is programmed with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>. Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of the operation.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the tangent for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Chains the results of Cosine (<emphasis>CORRX</emphasis>) and Sine (<emphasis>CORRY</emphasis>) as a dividend and divisor by configuring <emphasis>GLBCON</emphasis> register. <emphasis>CORDZ</emphasis> register is programmed with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>. Most significant 24 bits of <emphasis>CORRY</emphasis> register returns the result of the operation.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga893b264a7d4f96e018276445a1cf31e6" kindref="member">XMC_MATH_CORDIC_Sin()</ref>, <ref refid="group___m_a_t_h_1ga5b15c1c2d28d6e7a8e33bf55aaa88f90" kindref="member">XMC_MATH_CORDIC_Cos()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="686" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="686" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="666" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gacd1203692c5a634a185b4427ae294b9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___m_a_t_h_1ga36cbd3c89447925d3b9dd3557aa48474" kindref="member">XMC_MATH_Q0_11_t</ref></type>
@@ -1283,29 +1095,22 @@ false - if CORDIC unit is not busy</para>
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>XMC_MATH_Q0_11_t <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic tangent for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Chains the results of Cosine (<emphasis>CORRX</emphasis>) and Sine (<emphasis>CORRY</emphasis>) as a dividend and divisor by configuring <emphasis>GLBCON</emphasis> register. <emphasis>CORDZ</emphasis> register is programmed with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>. <emphasis>QUOT</emphasis> register returns the result of the operation.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic tangent for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Chains the results of Cosine (<emphasis>CORRX</emphasis>) and Sine (<emphasis>CORRY</emphasis>) as a dividend and divisor by configuring <emphasis>GLBCON</emphasis> register. <emphasis>CORDZ</emphasis> register is programmed with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>. <emphasis>QUOT</emphasis> register returns the result of the operation.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga1ce93195bf43d2385dc8c1b35141bc7b" kindref="member">XMC_MATH_CORDIC_Sinh()</ref>, <ref refid="group___m_a_t_h_1gaa38aea2dbe10dc487d1f536ea10fe2b6" kindref="member">XMC_MATH_CORDIC_Cosh()</ref>()<linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="778" column="18" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="778" declcolumn="18"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="758" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga4932b29e0d77c219c1c555ba024b2321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1324,29 +1129,22 @@ false - if CORDIC unit is not busy</para>
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic tangent for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1gaf9d14a3a153fb8778a346121102c8ad6" kindref="member">XMC_MATH_CORDIC_GetTanhResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Chains the results of Cosine (<emphasis>CORRX</emphasis>) and Sine (<emphasis>CORRY</emphasis>) as a dividend and divisor by configuring <emphasis>GLBCON</emphasis> register. <emphasis>CORDZ</emphasis> register is programmed with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the hyperbolic tangent for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1gaf9d14a3a153fb8778a346121102c8ad6" kindref="member">XMC_MATH_CORDIC_GetTanhResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; hyperbolic mode. Chains the results of Cosine (<emphasis>CORRX</emphasis>) and Sine (<emphasis>CORRY</emphasis>) as a dividend and divisor by configuring <emphasis>GLBCON</emphasis> register. <emphasis>CORDZ</emphasis> register is programmed with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_HYPERBOLIC_GAIN_IN_Q1_22</emphasis>.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gaf9d14a3a153fb8778a346121102c8ad6" kindref="member">XMC_MATH_CORDIC_GetTanhResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="946" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="946" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="926" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga65dd42f9d76a07a59baab86d7c3f2f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1365,29 +1163,22 @@ false - if CORDIC unit is not busy</para>
 <parametername>angle_in_radians</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para>
-</parameterdescription>
+<para>- Normalised Angle in Radians (XMC_MATH_Q0_23_t format)</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Computes the tangent for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1ga80975b1dcb6b1b519b0e760ddffee249" kindref="member">XMC_MATH_CORDIC_GetTanResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Chains the results of Cosine (<emphasis>CORRX</emphasis>) and Sine (<emphasis>CORRY</emphasis>) as a dividend and divisor by configuring <emphasis>GLBCON</emphasis> register. <emphasis>CORDZ</emphasis> register is programmed with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Computes the tangent for an angle in radians <emphasis>angle_in_radians</emphasis>. The input angle in radians must be in XMC_MATH_Q0_23_t format. Call <ref refid="group___m_a_t_h_1ga80975b1dcb6b1b519b0e760ddffee249" kindref="member">XMC_MATH_CORDIC_GetTanResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>This function programs CORDIC to rotation &amp; circular mode. Chains the results of Cosine (<emphasis>CORRX</emphasis>) and Sine (<emphasis>CORRY</emphasis>) as a dividend and divisor by configuring <emphasis>GLBCON</emphasis> register. <emphasis>CORDZ</emphasis> register is programmed with input <emphasis>angle_in_radians</emphasis> and <emphasis>CORDX</emphasis> register with gain <emphasis>XMC_MATH_RECIPROC_CIRCULAR_GAIN_IN_Q023</emphasis>.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Loading of <emphasis>CORDX</emphasis> register triggers the start of computation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga80975b1dcb6b1b519b0e760ddffee249" kindref="member">XMC_MATH_CORDIC_GetTanResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="851" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="851" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="831" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga71d099b1395e99beea8f38c8f837194f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1400,22 +1191,17 @@ false - if CORDIC unit is not busy</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>None</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Disables the Math module by gating the clock.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>MATH coprocessor&apos;s clock is disabled by setting <emphasis>MATH</emphasis> bit of <emphasis>CGATSET0</emphasis> register.</para>
-</simplesect>
+<para><simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Disables the Math module by gating the clock.</para></simplesect>
+<simplesect kind="par"><title></title><para>MATH coprocessor&apos;s clock is disabled by setting <emphasis>MATH</emphasis> bit of <emphasis>CGATSET0</emphasis> register.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga71d099b1395e99beea8f38c8f837194f" kindref="member">XMC_MATH_Disable()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="282" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="282" bodyend="286"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="262" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="262" bodyend="266"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga4bbc85128a8d08d1a356ab6180f017f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1434,26 +1220,20 @@ false - if CORDIC unit is not busy</para>
 <parametername>event</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Event of type XMC_MATH_EVENT_t</para>
-</parameterdescription>
+<para>Event of type XMC_MATH_EVENT_t</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Disables the requested event.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) is disabled by clearing bit-fields of <emphasis>EVIER</emphasis> register.</para>
-</simplesect>
+<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Disables the requested event.</para></simplesect>
+<simplesect kind="par"><title></title><para>DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) is disabled by clearing bit-fields of <emphasis>EVIER</emphasis> register.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="372" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="372" bodyend="375"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="352" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="352" bodyend="355"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga7124f3def874ad05f92a3581f924ef46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1466,22 +1246,17 @@ false - if CORDIC unit is not busy</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>int32_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Signed Division operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para><emphasis>QUOT</emphasis> register returns the result of Signed Division operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>int32_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Signed Division operation.</para></simplesect>
+<simplesect kind="par"><title></title><para><emphasis>QUOT</emphasis> register returns the result of Signed Division operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga5ecb7c33e1726366d119be68579e42ae" kindref="member">XMC_MATH_DIV_SignedDivNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="592" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="592" bodyend="595"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="572" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="572" bodyend="575"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gab2302fdf2652fef31d0e02aa2243b7f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1494,22 +1269,17 @@ false - if CORDIC unit is not busy</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>int32_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Signed Modulo operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para><emphasis>RMD</emphasis> register returns the result of Signed Modulo operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>int32_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Signed Modulo operation.</para></simplesect>
+<simplesect kind="par"><title></title><para><emphasis>RMD</emphasis> register returns the result of Signed Modulo operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga02b5894fdf8eb008902afddc3301446c" kindref="member">XMC_MATH_DIV_SignedModNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="610" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="610" bodyend="613"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="590" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="590" bodyend="593"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gad2faae513aa4d281426f724e22b67ddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1522,22 +1292,17 @@ false - if CORDIC unit is not busy</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>uint32_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Unsigned Division operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para><emphasis>QUOT</emphasis> register returns the result of Unsigned Division operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>uint32_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Unsigned Division operation.</para></simplesect>
+<simplesect kind="par"><title></title><para><emphasis>QUOT</emphasis> register returns the result of Unsigned Division operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga44144d935b65d35f5dd4e15a0fbd8bf0" kindref="member">XMC_MATH_DIV_UnsignedDivNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="556" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="556" bodyend="559"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="536" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="536" bodyend="539"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gaabbb395269d36a1a1f4691667ef856ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1550,22 +1315,17 @@ false - if CORDIC unit is not busy</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>uint32_t</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns result of a Unsigned Modulo operation.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para><emphasis>RMD</emphasis> register returns the result of Unsigned Modulo operation.</para>
-</simplesect>
+<para><simplesect kind="return"><para>uint32_t</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns result of a Unsigned Modulo operation.</para></simplesect>
+<simplesect kind="par"><title></title><para><emphasis>RMD</emphasis> register returns the result of Unsigned Modulo operation.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga7a439a366c9204adaf6591fdce8c16f0" kindref="member">XMC_MATH_DIV_UnsignedModNB()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="574" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="574" bodyend="577"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="554" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="554" bodyend="557"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gaa2437ec18e7ea1a239c5d29d4d788ccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1579,17 +1339,13 @@ false - if CORDIC unit is not busy</para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="return"><para>bool <linebreak/>
-true - if DIV unit is busy false - if DIV unit is not busy</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Utility function to check if the DIV unit is busy.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Divider unit status is determined by reading <emphasis>BSY</emphasis> bit of <emphasis>DIVST</emphasis> register. </para>
-</simplesect>
-</para>
-        </detaileddescription>
+true - if DIV unit is busy false - if DIV unit is not busy</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Utility function to check if the DIV unit is busy.</para></simplesect>
+<simplesect kind="par"><title></title><para>Divider unit status is determined by reading <emphasis>BSY</emphasis> bit of <emphasis>DIVST</emphasis> register. </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="301" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="301" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="281" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga5ecb7c33e1726366d119be68579e42ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1612,37 +1368,29 @@ true - if DIV unit is busy false - if DIV unit is not busy</para>
 <parametername>dividend</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Dividend </para>
-</parameterdescription>
+<para>- Dividend </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>divisor</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Divisor</para>
-</parameterdescription>
+<para>- Divisor</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Performs signed integer division and computes quotient of the division. Call <ref refid="group___m_a_t_h_1ga7124f3def874ad05f92a3581f924ef46" kindref="member">XMC_MATH_DIV_GetSignedDivResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Divider unit is configured for signed division. <emphasis>DVD</emphasis> &amp; <emphasis>DVS</emphasis> registers are programmed with <emphasis>dividend</emphasis> and <emphasis>divisor</emphasis> values. The division is started with the write to DVS register.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Ensure <emphasis>divisor</emphasis> is smaller than <emphasis>dividend</emphasis>.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Performs signed integer division and computes quotient of the division. Call <ref refid="group___m_a_t_h_1ga7124f3def874ad05f92a3581f924ef46" kindref="member">XMC_MATH_DIV_GetSignedDivResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>Divider unit is configured for signed division. <emphasis>DVD</emphasis> &amp; <emphasis>DVS</emphasis> registers are programmed with <emphasis>dividend</emphasis> and <emphasis>divisor</emphasis> values. The division is started with the write to DVS register.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Ensure <emphasis>divisor</emphasis> is smaller than <emphasis>dividend</emphasis>.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga7124f3def874ad05f92a3581f924ef46" kindref="member">XMC_MATH_DIV_GetSignedDivResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="994" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="994" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="974" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga02b5894fdf8eb008902afddc3301446c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1665,37 +1413,29 @@ true - if DIV unit is busy false - if DIV unit is not busy</para>
 <parametername>dividend</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Dividend </para>
-</parameterdescription>
+<para>- Dividend </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>divisor</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Divisor</para>
-</parameterdescription>
+<para>- Divisor</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Performs signed modulo operation and computes remainder of the division. Call <ref refid="group___m_a_t_h_1gab2302fdf2652fef31d0e02aa2243b7f7" kindref="member">XMC_MATH_DIV_GetSignedModResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Divider unit is configured for signed division. <emphasis>DVD</emphasis> &amp; <emphasis>DVS</emphasis> registers are programmed with <emphasis>dividend</emphasis> and <emphasis>divisor</emphasis> values. The division is started with the write to DVS register.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Ensure <emphasis>divisor</emphasis> is smaller than <emphasis>dividend</emphasis>.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Performs signed modulo operation and computes remainder of the division. Call <ref refid="group___m_a_t_h_1gab2302fdf2652fef31d0e02aa2243b7f7" kindref="member">XMC_MATH_DIV_GetSignedModResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>Divider unit is configured for signed division. <emphasis>DVD</emphasis> &amp; <emphasis>DVS</emphasis> registers are programmed with <emphasis>dividend</emphasis> and <emphasis>divisor</emphasis> values. The division is started with the write to DVS register.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Ensure <emphasis>divisor</emphasis> is smaller than <emphasis>dividend</emphasis>.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gab2302fdf2652fef31d0e02aa2243b7f7" kindref="member">XMC_MATH_DIV_GetSignedModResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="1042" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="1042" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="1022" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga44144d935b65d35f5dd4e15a0fbd8bf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1718,37 +1458,29 @@ true - if DIV unit is busy false - if DIV unit is not busy</para>
 <parametername>dividend</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Dividend </para>
-</parameterdescription>
+<para>- Dividend </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>divisor</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Divisor</para>
-</parameterdescription>
+<para>- Divisor</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Performs unsigned integer division and computes quotient of the division. Call <ref refid="group___m_a_t_h_1gad2faae513aa4d281426f724e22b67ddd" kindref="member">XMC_MATH_DIV_GetUnsignedDivResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Divider unit is configured for unsigned division. <emphasis>DVD</emphasis> &amp; <emphasis>DVS</emphasis> registers are programmed with <emphasis>dividend</emphasis> and <emphasis>divisor</emphasis> values. The division is started with the write to DVS register.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Ensure <emphasis>divisor</emphasis> is smaller than <emphasis>dividend</emphasis>.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Performs unsigned integer division and computes quotient of the division. Call <ref refid="group___m_a_t_h_1gad2faae513aa4d281426f724e22b67ddd" kindref="member">XMC_MATH_DIV_GetUnsignedDivResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>Divider unit is configured for unsigned division. <emphasis>DVD</emphasis> &amp; <emphasis>DVS</emphasis> registers are programmed with <emphasis>dividend</emphasis> and <emphasis>divisor</emphasis> values. The division is started with the write to DVS register.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Ensure <emphasis>divisor</emphasis> is smaller than <emphasis>dividend</emphasis>.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gad2faae513aa4d281426f724e22b67ddd" kindref="member">XMC_MATH_DIV_GetUnsignedDivResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="970" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="970" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="950" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga7a439a366c9204adaf6591fdce8c16f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1771,37 +1503,29 @@ true - if DIV unit is busy false - if DIV unit is not busy</para>
 <parametername>dividend</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Dividend </para>
-</parameterdescription>
+<para>- Dividend </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>divisor</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- Divisor</para>
-</parameterdescription>
+<para>- Divisor</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None <linebreak/>
-</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Performs unsigned modulo operation and computes remainder of the division. Call <ref refid="group___m_a_t_h_1gaabbb395269d36a1a1f4691667ef856ea" kindref="member">XMC_MATH_DIV_GetUnsignedModResult()</ref> API to get the result.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Divider unit is configured for unsigned division. <emphasis>DVD</emphasis> &amp; <emphasis>DVS</emphasis> registers are programmed with <emphasis>dividend</emphasis> and <emphasis>divisor</emphasis> values. The division is started with the write to DVS register.</para>
-</simplesect>
-<simplesect kind="par"><title>Note:</title><para>Ensure <emphasis>divisor</emphasis> is smaller than <emphasis>dividend</emphasis>.</para>
-</simplesect>
+</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Performs unsigned modulo operation and computes remainder of the division. Call <ref refid="group___m_a_t_h_1gaabbb395269d36a1a1f4691667ef856ea" kindref="member">XMC_MATH_DIV_GetUnsignedModResult()</ref> API to get the result.</para></simplesect>
+<simplesect kind="par"><title></title><para>Divider unit is configured for unsigned division. <emphasis>DVD</emphasis> &amp; <emphasis>DVS</emphasis> registers are programmed with <emphasis>dividend</emphasis> and <emphasis>divisor</emphasis> values. The division is started with the write to DVS register.</para></simplesect>
+<simplesect kind="par"><title>Note:</title><para>Ensure <emphasis>divisor</emphasis> is smaller than <emphasis>dividend</emphasis>.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gaabbb395269d36a1a1f4691667ef856ea" kindref="member">XMC_MATH_DIV_GetUnsignedModResult()</ref>, <ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="1018" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="1018" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="998" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga96deae384cc966238f54343e8d5a1b28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1814,22 +1538,17 @@ true - if DIV unit is busy false - if DIV unit is not busy</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>None</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Enables the Math module by un-gating the clock.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>MATH coprocessor&apos;s clock is enabled by setting <emphasis>MATH</emphasis> bit of <emphasis>CGATCLR0</emphasis> register.</para>
-</simplesect>
+<para><simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Enables the Math module by un-gating the clock.</para></simplesect>
+<simplesect kind="par"><title></title><para>MATH coprocessor&apos;s clock is enabled by setting <emphasis>MATH</emphasis> bit of <emphasis>CGATCLR0</emphasis> register.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga71d099b1395e99beea8f38c8f837194f" kindref="member">XMC_MATH_Disable()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="262" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="262" bodyend="266"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="242" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="242" bodyend="246"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1848,26 +1567,20 @@ true - if DIV unit is busy false - if DIV unit is not busy</para>
 <parametername>event</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Event of type XMC_MATH_EVENT_t</para>
-</parameterdescription>
+<para>Event of type XMC_MATH_EVENT_t</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Enables the requested event.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) is enabled by setting bit-fields of <emphasis>EVIER</emphasis> register.</para>
-</simplesect>
+<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Enables the requested event.</para></simplesect>
+<simplesect kind="par"><title></title><para>DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) is enabled by setting bit-fields of <emphasis>EVIER</emphasis> register.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" kindref="member">XMC_MATH_GetEventStatus()</ref>, <ref refid="group___m_a_t_h_1ga4bbc85128a8d08d1a356ab6180f017f5" kindref="member">XMC_MATH_DisableEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="352" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="352" bodyend="355"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="332" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="332" bodyend="335"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gac5f5293a326842d3dfad6c62db0e66a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1886,28 +1599,22 @@ true - if DIV unit is busy false - if DIV unit is not busy</para>
 <parametername>event</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Event of type XMC_MATH_EVENT_t</para>
-</parameterdescription>
+<para>Event of type XMC_MATH_EVENT_t</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>bool<linebreak/>
 true - if status is set<linebreak/>
-false - if status is not set</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Returns the status of the requested event.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>Status of DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) status is determined by reading <emphasis>EVFR</emphasis> register.</para>
-</simplesect>
+false - if status is not set</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Returns the status of the requested event.</para></simplesect>
+<simplesect kind="par"><title></title><para>Status of DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) status is determined by reading <emphasis>EVFR</emphasis> register.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga4f213dff33df60625c418e824bb5a9b6" kindref="member">XMC_MATH_EnableEvent()</ref>, <ref refid="group___m_a_t_h_1ga4bbc85128a8d08d1a356ab6180f017f5" kindref="member">XMC_MATH_DisableEvent()</ref>, <ref refid="group___m_a_t_h_1gad1c69680de299eaf40d3b98ae4099a29" kindref="member">XMC_MATH_SetEvent()</ref>, <ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="335" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" declline="335" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="315" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___m_a_t_h_1gad1c69680de299eaf40d3b98ae4099a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1926,26 +1633,20 @@ false - if status is not set</para>
 <parametername>event</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Event of type XMC_MATH_EVENT_t</para>
-</parameterdescription>
+<para>Event of type XMC_MATH_EVENT_t</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>None</para>
-</simplesect>
-<simplesect kind="par"><title>Description:</title><para>Sets the requested event. This is a software setting for the event.</para>
-</simplesect>
-<simplesect kind="par"><title></title><para>DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) is set by setting bit-fields of <emphasis>EVFSR</emphasis> register.</para>
-</simplesect>
+<simplesect kind="return"><para>None</para></simplesect>
+<simplesect kind="par"><title>Description:</title><para>Sets the requested event. This is a software setting for the event.</para></simplesect>
+<simplesect kind="par"><title></title><para>DIV &amp; CORDIC unit&apos;s event (end of calculation &amp; error) is set by setting bit-fields of <emphasis>EVFSR</emphasis> register.</para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___m_a_t_h_1ga00878fe25ef9074bd387070a13d8a8f0" kindref="member">XMC_MATH_ClearEvent()</ref><linebreak/>
 <linebreak/>
 <linebreak/>
-</para>
-</simplesect>
-</para>
-        </detaileddescription>
+</para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="392" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="392" bodyend="395"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="372" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="372" bodyend="375"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -1956,11 +1657,10 @@ false - if status is not set</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Converts the given number to XMC_MATH_Q0_11_t format </para>
-        </detaileddescription>
+<para>Converts the given number to XMC_MATH_Q0_11_t format </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="139" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="139" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___m_a_t_h_1gaba9956f3d672cf16899f865d4ab3b010" prot="public" static="no">
         <name>XMC_MATH_Q0_23</name>
@@ -1969,32 +1669,20 @@ false - if status is not set</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Converts the given number to XMC_MATH_Q0_23_t format </para>
-        </detaileddescription>
+<para>Converts the given number to XMC_MATH_Q0_23_t format </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="138" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="138" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" line="118" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_math.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>MATH Coprocessor (MATH) driver for the XMC1302 microcontroller family <linebreak/>
- </para>
-    </briefdescription>
+ </para>    </briefdescription>
     <detaileddescription>
 <para>The MATH Coprocessor (MATH) module comprises of two independent sub-blocks to support the CPU in math-intensive computations: a Divider Unit (DIV) for signed and unsigned 32-bit division operations and a CORDIC (COrdinate Rotation DIgital Computer) Coprocessor for computation of trigonometric, linear or hyperbolic functions.<linebreak/>
-</para>
-<para>MATH driver features:<orderedlist>
-<listitem><para>CORDIC Coprocessor is used for computation of trigonometric and hyperbolic functions</para>
-</listitem><listitem><para>Supports result chaining between the Divider Unit and CORDIC Coprocessor</para>
-</listitem><listitem><para>All MATH APIs are available in <bold>Blocking</bold> and <bold>non-blocking</bold> modes. Non-blocking APIs are suffixed with <bold>NB</bold>.</para>
-</listitem><listitem><para>32bit signed and unsigned division implementations available for __aeabi_uidiv(), __aeabi_idiv(), __aeabi_uidivmod(), __aeabi_idivmod()</para>
-</listitem><listitem><para>Divider and CORDIC unit busy status can be checked by <ref refid="group___m_a_t_h_1gaa2437ec18e7ea1a239c5d29d4d788ccf" kindref="member">XMC_MATH_DIV_IsBusy()</ref> and <ref refid="group___m_a_t_h_1ga7529255d7c4abd02ebee2aa8bffac2af" kindref="member">XMC_MATH_CORDIC_IsBusy()</ref></para>
-</listitem><listitem><para>Individual APIs available to return the result of each non-blocking MATH function</para>
-</listitem></orderedlist>
-</para>
-<para><bold>Note:</bold> <linebreak/>
- All non-blocking MATH APIs are not atomic and hence occurence of interrupts during the normal execution of these APIs may lead to erroneous results. User has to exercise caution while using these APIs.</para>
-<para>Example: Execution of divide instruction (/) in an ISR during the normal execution of non-blocking APIs may give erroneous results. </para>
-    </detaileddescription>
+</para><para>MATH driver features:<orderedlist>
+<listitem><para>CORDIC Coprocessor is used for computation of trigonometric and hyperbolic functions</para></listitem><listitem><para>Supports result chaining between the Divider Unit and CORDIC Coprocessor</para></listitem><listitem><para>All MATH APIs are available in <bold>Blocking</bold> and <bold>non-blocking</bold> modes. Non-blocking APIs are suffixed with <bold>NB</bold>.</para></listitem><listitem><para>32bit signed and unsigned division implementations available for __aeabi_uidiv(), __aeabi_idiv(), __aeabi_uidivmod(), __aeabi_idivmod()</para></listitem><listitem><para>Divider and CORDIC unit busy status can be checked by <ref refid="group___m_a_t_h_1gaa2437ec18e7ea1a239c5d29d4d788ccf" kindref="member">XMC_MATH_DIV_IsBusy()</ref> and <ref refid="group___m_a_t_h_1ga7529255d7c4abd02ebee2aa8bffac2af" kindref="member">XMC_MATH_CORDIC_IsBusy()</ref></para></listitem><listitem><para>Individual APIs available to return the result of each non-blocking MATH function</para></listitem></orderedlist>
+</para><para><bold>Note:</bold> <linebreak/>
+ All non-blocking MATH APIs are not atomic and hence occurence of interrupts during the normal execution of these APIs may lead to erroneous results. User has to exercise caution while using these APIs.</para><para>Example: Execution of divide instruction (/) in an ISR during the normal execution of non-blocking APIs may give erroneous results. </para>    </detaileddescription>
   </compounddef>
 </doxygen>

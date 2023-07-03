@@ -1,12 +1,11 @@
 /**
  * @file xmc_i2c.h
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,57 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-05-20:
- *     - Description updated <br>
- *     - Added XMC_I2C_CH_TriggerServiceRequest() and XMC_I2C_CH_SelectInterruptNodePointer() <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *
- * 2015-08-27:
- *     - Added APIs for external input for BRG configuration:XMC_I2C_CH_ConfigExternalInputSignalToBRG() <br>
- *
- * 2015-09-01:
- *     - Added APIs for enabling or disabling the ACK response to a 0x00 slave address: XMC_I2C_CH_EnableSlaveAcknowledgeTo00() and
- *       XMC_I2C_CH_DisableSlaveAcknowledgeTo00(). <br>
- *     - Modified XMC_I2C_CH_SetInputSource() API for avoiding complete DXCR register overwriting. <br>
- *     - Modified XMC_I2C_CH_EVENT_t enum for supporting XMC_I2C_CH_EnableEvent() and XMC_I2C_CH_DisableEvent()
- *       for supporting multiple events configuration <br>
- *
- * 2015-10-02:
- *     - Fix 10bit addressing
- *
- * 2015-10-07:
- *     - Fix register access in XMC_I2C_CH_EnableSlaveAcknowledgeTo00() and XMC_I2C_CH_DisableSlaveAcknowledgeTo00() APIs.
- *     - Naming of APIs modified: from XMC_I2C_CH_EnableSlaveAcknowledgeTo00() to  XMC_I2C_CH_EnableAcknowledgeAddress0()
- *       and from XMC_I2C_CH_DisableSlaveAcknowledgeTo00() to XMC_I2C_CH_DisableAcknowledgeAddress0().
- *
- * 2016-05-20:
- *     - Added XMC_I2C_CH_EnableDataTransmission() and XMC_I2C_CH_DisableDataTransmission()
- *
- * 2016-08-17:
- *     - Improved documentation of slave address passing
- *
- * 2017-10-25:
- *     - Added XMC_I2C_CH_EnableMasterClock() and XMC_I2C_CH_DisableMasterClock()
- *
- * 2019-05-07:
- *     - Added normal_divider_mode to XMC_I2C_CH_CONFIG_t configuration structure.
- *       It selects normal divider mode for baudrate generator instead of default fractional divider decreasing jitter at cost of frequency selection
- *     - Added XMC_I2C_CH_SetBaudrateEx()
- *
- * 2019-12-10:
- *     - Added XMC_I2C_CH_SetHoldDelay()
- *
- * 2020-12-05:
- *    - Added XMC_I2C_CH_InitEx() that allows user select if automatic baudrate configuration should be done or not
  *
  * @endcond
  *

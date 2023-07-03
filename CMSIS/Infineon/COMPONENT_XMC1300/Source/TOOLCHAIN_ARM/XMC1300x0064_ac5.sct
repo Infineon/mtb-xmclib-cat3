@@ -4,12 +4,10 @@
 ;*********************************************************************************************************************
 ;* @file     XMC1300x0064.sct
 ;* @brief    Scatter-Loading Description File for Infineon XMC1300 64K Flash Devices
-;* @version  V1.2
-;* @date     09 Jan 2021
 ;*
 ;* @cond
 ;*********************************************************************************************************************
-;* Copyright (c) 2018-2020, Infineon Technologies AG
+;* Copyright (c) 2018-2023, Infineon Technologies AG
 ;* All rights reserved.                        
 ;*                                             
 ;* Boost Software License - Version 1.0 - August 17th, 2003
@@ -40,10 +38,6 @@
 ;* modifications, enhancements or bug fixes with Infineon Technologies AG 
 ;* at XMCSupport@infineon.com.
 ;*********************************************************************************************************************
-;*
-;**************************** Change history ********************************
-;* V1.1, Nov, 09, 2018 JFT:Initial version
-;* V1.2, Jan, 09, 2021 JFT:Added heap and stack areas
 ;*
 ;* @endcond 
 ;*

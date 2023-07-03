@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     startup_XMC4700.S
  * @brief    CMSIS Core Device Startup File for Infineon XMC4700 Device Series
- * @version  V1.3
- * @date     18 Nov 2021
  *
  * @cond
  *********************************************************************************************************************
@@ -37,12 +35,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG 
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
- *
- **************************** Change history ********************************
- * V1.0,Sep, 03, 2015 JFT:Initial version
- * V1.1,Jan, 05, 2016 JFT:Fix .reset section attributes
- * V1.2,Mai, 15, 2020 JFT:Added option (ENABLE_OWN_HANDLER) to generate a individual interrupt handlers for unhandled vectors
- * V1.3,Nov, 18, 2021     Added weak cy_toolchain_init
  *
  * @endcond 
  */

@@ -1,10 +1,9 @@
 /**
  * @file xmc_uart.c
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,38 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-05-20:
- *     - xmc_uart_ch_stop API implementation corrected.
- *     - Modified XMC_UART_CH_Stop() API for not setting to IDLE the channel if it is busy <br>
- *
- * 2015-06-20:
- *     - Removed GetDriverVersion API <br>
- *
- * 2015-09-01:
- *     - Modified XMC_UART_CH_EnableEvent() and XMC_UART_CH_DisableEvent() for supporting multiple events configuration <br>
- *
- * 2016-07-22:
- *     - Modified XMC_UART_CH_Init() to enable transfer status BUSY
- *     - Modified XMC_UART_CH_Stop() to check for transfer status
- *
- * 2019-05-07:
- *     - Added XMC_UART_CH_SetBaudrateEx() which allows to select between baudrate generator normal divider and fractional divider mode
- *
- * 2019-07-01:
- *    - Fix XMC_UART_CH_SetBaudrateEx() compiler warning
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2020-12-05:
- *     - Added XMC_UART_CH_InitEx that allows user select if automatic baudrate configuration should be done or not
- * 
  * @endcond
  *
  */

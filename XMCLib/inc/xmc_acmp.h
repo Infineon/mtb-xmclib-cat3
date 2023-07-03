@@ -1,12 +1,11 @@
 /**
  * @file xmc_acmp.h
- * @date 2015-09-02
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,36 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2014-12-10:
- *     - Initial version
- * 2015-02-20:
- *     - Removed unused declarations<br>
- * 2015-05-08:
- *     - Fixed sequence problem of low power mode in XMC_ACMP_Init() API<br>
- *     - Fixed wrong register setting in XMC_ACMP_SetInput() API<br>
- *     - Removed return type variable and by default comparator enable from XMC_ACMP_Init() API. <br>
- *       Additional call to XMC_ACMP_EnableComparator() API needed to start Comparator after Init.<br>
- * 2015-06-04:
- *     - Removed return type variable and by default comparator enable from XMC_ACMP_Init() API. <br>
- *     - Divided XMC_ACMP_SetInput into two 3 APIs to reduce the code size and complexity as stated below<br>
- *       (a)XMC_ACMP_EnableReferenceDivider <br>
- *       (b)XMC_ACMP_DisableReferenceDivider <br>
- *       (c)XMC_ACMP_SetInput <br>
- *     - Optimized enable and disable API's and moved to header file as static inline APIs.
- *     - XMC_ACMP_t typedef changed to structure which overrides the standard header file structure.
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- * 2015-06-26:
- *     - API help documentation modified.
- * 2015-09-02:
- *     - API help documentation modified for XMC1400 device support.
- * 2019-12-16:
- *     - Fix including xmc_common.h following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
  * @endcond
  *
  */

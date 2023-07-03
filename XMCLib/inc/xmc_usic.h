@@ -1,12 +1,11 @@
 /**
  * @file xmc_usic.h
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,76 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial draft<br>
- *     - Documentation improved <br>
- *
- * 2015-05-08:
- *     - Added XMC_USIC_CH_SetInputTriggerCombinationMode() and XMC_USIC_CH_SetTransmitBufferStatus()  <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- *
- * 2015-08-17:
- *     - Bug fixed in XMC_USIC_CH_SetTransmitBufferStatus API. OR operator removed.
- *
- * 2015-08-24:
- *     - Added APIs for enabling/disabling delay compensation XMC_USIC_CH_DisableDelayCompensation() and
- *       XMC_USIC_CH_DisableDelayCompensation()
- *
- * 2015-08-25:
- *     - Added APIs for defining if the data shift unit input is derived
- *       from the input data path DXn or from the selected protocol pre-processors: XMC_USIC_CH_ConnectInputDataShiftToPPP()
- *       and XMC_USIC_CH_ConnectInputDataShiftToDataInput()
- *
- * 2015-08-27:
- *     - Fixed bug in XMC_USIC_CH_BRG_CLOCK_SOURCE_DX1T value.
- *     - Added APIs for direct TBUF access: XMC_USIC_CH_WriteToTBUF() and XMC_USIC_CH_WriteToTBUFTCI()
- *     - Added APIs for external input for BRG configuration:XMC_USIC_CH_ConfigExternalInputSignalToBRG() and XMC_USIC_CH_SetBRGInputClockSource()
- *
- * 2015-08-28:
- *     - Added API for enabling the transfer trigger unit to set bit TCSR.TE if the trigger signal DX2T becomes active. Feature used for RS-232
- *       Clear to Send (CTS) signal: XMC_USIC_CH_EnableTBUFDataValidTrigger() and XMC_USIC_CH_DisableTBUFDataValidTrigger().
- *
- * 2016-03-09:
- *     - Optimization of write only registers
- *
- * 2016-04-10:
- *     - Added an API to put the data into FIFO when hardware port control is enabled: XMC_USIC_CH_TXFIFO_PutDataHPCMode() <br>
- *
- * 2017-02-10:
- *     - Added XMC_USIC_CH_SetShiftDirection() to allow selection of shift direction of the data words for transmision and reception
- *     - Added XMC_USIC_CH_GetCaptureTimerValue() and XMC_USIC_CH_SetFractionalDivider()
- *
- * 2017-09-08:
- *     - Fixed value of macro XMC_USIC_CH_SHIFT_DIRECTION_MSB_FIRST used in XMC_USIC_CH_SetShiftDirection()
- *
- * 2018-09-29:
- *     - Added XMC_USIC_CH_SetBaudrateEx which uses the integer divider instead of the fractional divider <br>
- *
- * 2019-05-07:
- *     - Added XMC_USIC_CH_GetBaudrate(), XMC_USIC_CH_GetSCLKFrequency() and XMC_USIC_CH_GetMCLKFrequency()
- *
- * 2019-07-01:
- *     - Changed XMC_USIC_CH_SetBaudrateEx() input parameter types
- *
- * 2019-09-30:
- *     - Added XMC_USIC_CH_InvalidateReadData(), XMC_USIC_CH_EnableWordLengthControl() and XMC_USIC_CH_DisableWordLengthControl()
- *
- * 2019-12-05:
- *     - Added XMC_USIC_CH_TXFIFO_PutDataEx()
- *
- * 2020-04-30:
- *     - Added XMC_USIC_CH_TXFIFO_SetTriggerLimit() and XMC_USIC_CH_RXFIFO_SetTriggerLimit()
- *
- * 2020-12-05:
- *     - Added XMC_USIC_CH_BRG_CLOCK_SOURCE_DX1S to XMC_USIC_CH_BRG_CLOCK_SOURCE_t
- *     - Added XMC_USIC_CH_BRG_CTQSEL_t
- *     - Added XMC_USIC_CH_SetBaudrateDivider()
  *
  * @endcond
  *

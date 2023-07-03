@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___f_c_e___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_FCE_CONFIG_t</compoundname>
     <includes local="no">xmc_fce.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="220" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="201" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_c_e___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="214" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="214" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="195" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="195" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_c_e___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -40,11 +40,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Reserved bits </para>
-        </detaileddescription>
+<para>Reserved bits </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="218" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="218" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="199" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="199" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_c_e___c_o_n_f_i_g__t_1a26f1096190581666f65b7a3d7848dda0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -55,11 +54,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enables byte-wise reflection </para>
-        </detaileddescription>
+<para>Enables byte-wise reflection </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="215" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="215" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="196" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_c_e___c_o_n_f_i_g__t_1a8802b0df1502dd47b7e76bce86c19134" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -70,11 +68,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enables bit-wise reflection </para>
-        </detaileddescription>
+<para>Enables bit-wise reflection </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="216" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="216" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="197" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="197" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_c_e___c_o_n_f_i_g__t_1a52a7a811a96fd72e52a093c2c0190501" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -85,11 +82,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enables output inversion </para>
-        </detaileddescription>
+<para>Enables output inversion </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="217" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="217" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="198" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="198" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___f_c_e___c_o_n_f_i_g__t_1ac1b2d3d4f273acf4b3ab993f24a046ce" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -102,15 +98,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="211" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="211" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="192" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="192" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>XMC_FCE configuration structure. </para>
-    </briefdescription>
+<para>XMC_FCE configuration structure. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="207" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="208" bodyend="221"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" line="189" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_fce.h" bodystart="188" bodyend="202"/>
     <listofallmembers>
       <member refid="struct_x_m_c___f_c_e___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_FCE_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___f_c_e___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_FCE_CONFIG_t</scope><name>__pad1__</name></member>

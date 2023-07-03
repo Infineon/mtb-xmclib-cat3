@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_DMA_CH_CONFIG_t</compoundname>
     <includes local="no">xmc_dma.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="405" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="381" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a2ffdd9cc626cb150d9b1fcfff0bf672e" prot="public" static="no" mutable="no">
         <type>union XMC_DMA_CH_CONFIG_t::@66</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="419" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="395" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1ac252e8e71b1b73bc782cca2d72cb08e4" prot="public" static="no" mutable="no">
         <type>union XMC_DMA_CH_CONFIG_t::@68</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="429" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="405" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="401" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="401" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="377" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="377" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="403" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="403" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="379" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="379" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a9d83aa5f365f4a1b62dd70bd1ae426a3" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -79,11 +79,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Block size for DMA controlled transfers [max. 4095] </para>
-        </detaileddescription>
+<para>Block size for DMA controlled transfers [max. 4095] </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="431" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="431" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="407" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="407" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1af47d900be5b5e5b1cce48f959401cb4e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -96,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="389" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="389" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="365" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="365" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1ad3367f6b5057b9c73b012338e5a437ae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -106,11 +105,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Destination address </para>
-        </detaileddescription>
+<para>Destination address </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="408" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="408" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="384" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="384" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a4e917f7bdd327e83e22721cba4e6eb0a" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -121,11 +119,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Destination address count mode (:: XMC_DMA_CH_ADDRESS_COUNT_MODE_t) </para>
-        </detaileddescription>
+<para>Destination address count mode (:: XMC_DMA_CH_ADDRESS_COUNT_MODE_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="395" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="395" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="371" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="371" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a0a96024fabbc0a9422532edc431362a3" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -136,11 +133,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Destination burst length (:: XMC_DMA_CH_BURST_LENGTH_t) </para>
-        </detaileddescription>
+<para>Destination burst length (:: XMC_DMA_CH_BURST_LENGTH_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="397" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="397" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="373" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="373" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a703f79d4a3825737c480e9170d0e4b7e" prot="public" static="no" mutable="no">
         <type><ref refid="group___d_m_a_1ga726c5d8b4d82b8c80c40d728d9b4687b" kindref="member">XMC_DMA_CH_DST_HANDSHAKING_t</ref></type>
@@ -150,11 +146,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DMA destination handshaking interface (:: XMC_DMA_CH_DST_HANDSHAKING_t) </para>
-        </detaileddescription>
+<para>DMA destination handshaking interface (:: XMC_DMA_CH_DST_HANDSHAKING_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="436" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="436" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="412" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="412" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1add97c793336482d9e4120bffc87cdcda" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -164,11 +159,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Destination peripheral request. See xmc_dma_map.h </para>
-        </detaileddescription>
+<para>Destination peripheral request. See xmc_dma_map.h </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="437" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="437" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="413" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="413" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a32d57352aeadaaa52c7bbed9acb656ee" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -181,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="423" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="423" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="399" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="399" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a487042f3952d3af1bc61ad951f33834d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -192,11 +186,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Destination scatter count </para>
-        </detaileddescription>
+<para>Destination scatter count </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="427" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="427" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="403" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="403" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1ad5dc8de72fe2a46f9d10a3ccff92b54d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -207,11 +200,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Destination scatter interval </para>
-        </detaileddescription>
+<para>Destination scatter interval </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="426" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="426" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="402" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="402" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1afd44b028b170c15b834e0d835e831743" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -222,11 +214,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Destination transfer width (:: XMC_DMA_CH_TRANSFER_WIDTH_t) </para>
-        </detaileddescription>
+<para>Destination transfer width (:: XMC_DMA_CH_TRANSFER_WIDTH_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="393" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="393" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="369" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="369" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a7ebf6417cf37ad64e574c6cc1b049f87" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -237,11 +228,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enable destination scatter? </para>
-        </detaileddescription>
+<para>Enable destination scatter? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="400" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="400" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="376" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="376" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1ab4451ed74feb37e9f912ef7bb15ba250" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -252,11 +242,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enable interrupts? </para>
-        </detaileddescription>
+<para>Enable interrupts? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="392" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="392" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="368" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="368" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1acc4bff36f5f630e74eab2eb14bfc3b4f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -267,11 +256,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enable source gather? </para>
-        </detaileddescription>
+<para>Enable source gather? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="399" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="399" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="375" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="375" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1afe9ce0e84b4b1af842f404ab934b30ae" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___d_m_a___l_l_i__t" kindref="compound">XMC_DMA_LLI_t</ref> *</type>
@@ -281,11 +269,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Linked list pointer </para>
-        </detaileddescription>
+<para>Linked list pointer </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="409" column="17" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="409" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="385" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="385" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1ae67f5f14085541cdd19a2d14cb7c14cd" prot="public" static="no" mutable="no">
         <type><ref refid="group___d_m_a_1ga32b4a50ce0fab8b542e0f217c86ea786" kindref="member">XMC_DMA_CH_PRIORITY_t</ref></type>
@@ -295,11 +282,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DMA channel priority (<ref refid="group___d_m_a_1ga32b4a50ce0fab8b542e0f217c86ea786" kindref="member">XMC_DMA_CH_PRIORITY_t</ref>) </para>
-        </detaileddescription>
+<para>DMA channel priority (<ref refid="group___d_m_a_1ga32b4a50ce0fab8b542e0f217c86ea786" kindref="member">XMC_DMA_CH_PRIORITY_t</ref>) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="433" column="25" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="433" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="409" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="409" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a6a462ff6ecd832025b4f8934f226d5b5" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -309,11 +295,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Source address </para>
-        </detaileddescription>
+<para>Source address </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="407" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="407" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="383" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="383" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a6944adbf1087cd2a5de47b88de218492" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -324,11 +309,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Source address count mode (:: XMC_DMA_CH_ADDRESS_COUNT_MODE_t) </para>
-        </detaileddescription>
+<para>Source address count mode (:: XMC_DMA_CH_ADDRESS_COUNT_MODE_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="396" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="396" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="372" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="372" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1abb73dbea3dd5ccf42269058174ca26fa" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -339,11 +323,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Source burst length (:: XMC_DMA_CH_BURST_LENGTH_t) </para>
-        </detaileddescription>
+<para>Source burst length (:: XMC_DMA_CH_BURST_LENGTH_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="398" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="398" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="374" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="374" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1abc140aedfe503ced946b8766c52548b7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -356,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="413" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="413" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="389" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="389" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1ab8f51c2c33f9855f1c08c45ed13ebccd" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -367,11 +350,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Source gather count </para>
-        </detaileddescription>
+<para>Source gather count </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="417" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="417" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="393" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="393" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a74b813186cc8c195c32714b4813a29b8" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -382,11 +364,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Source gather interval </para>
-        </detaileddescription>
+<para>Source gather interval </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="416" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="416" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="392" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="392" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1af6698afbf2c79fc83c842f04c86b47f2" prot="public" static="no" mutable="no">
         <type><ref refid="group___d_m_a_1ga6b3c8a2ea3ce9b3326e362fa3d5e8701" kindref="member">XMC_DMA_CH_SRC_HANDSHAKING_t</ref></type>
@@ -396,11 +377,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DMA source handshaking interface (:: XMC_DMA_CH_SRC_HANDSHAKING_t) </para>
-        </detaileddescription>
+<para>DMA source handshaking interface (:: XMC_DMA_CH_SRC_HANDSHAKING_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="434" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="434" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="410" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="410" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a4681d4c586499239f2ffbbfd67f163fa" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -410,11 +390,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Source peripheral request. See xmc_dma_map.h </para>
-        </detaileddescription>
+<para>Source peripheral request. See xmc_dma_map.h </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="435" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="435" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="411" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="411" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1ab5442f6d0d01b1f02b243a9049cb9d04" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -425,11 +404,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Source transfer width (:: XMC_DMA_CH_TRANSFER_WIDTH_t) </para>
-        </detaileddescription>
+<para>Source transfer width (:: XMC_DMA_CH_TRANSFER_WIDTH_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="394" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="394" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="370" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="370" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a2bf00935d0ba45d2691847c5ca528993" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -440,11 +418,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DMA transfer flow (:: XMC_DMA_CH_TRANSFER_FLOW_t) </para>
-        </detaileddescription>
+<para>DMA transfer flow (:: XMC_DMA_CH_TRANSFER_FLOW_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="402" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="402" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="378" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="378" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a63d63d19340fe8db7a0c4024e5d1252b" prot="public" static="no" mutable="no">
         <type><ref refid="group___d_m_a_1gad6348c4075dfcda149b9423edfb408b7" kindref="member">XMC_DMA_CH_TRANSFER_TYPE_t</ref></type>
@@ -454,32 +431,30 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>DMA transfer type (:: XMC_DMA_CH_TRANSFER_TYPE_t) </para>
-        </detaileddescription>
+<para>DMA transfer type (:: XMC_DMA_CH_TRANSFER_TYPE_t) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="432" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="432" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="408" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="408" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>DMA channel configuration structure </para>
-    </detaileddescription>
+<para>DMA channel configuration structure </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="1">
-        <label>XMC_DMA_CH_CONFIG_t</label>
-        <link refid="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>linked_list_pointer</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
+      <node id="32">
         <label>XMC_DMA_LLI_t</label>
         <link refid="struct_x_m_c___d_m_a___l_l_i__t"/>
       </node>
+      <node id="31">
+        <label>XMC_DMA_CH_CONFIG_t</label>
+        <link refid="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t"/>
+        <childnode refid="32" relation="usage">
+          <edgelabel>linked_list_pointer</edgelabel>
+        </childnode>
+      </node>
     </collaborationgraph>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="385" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="386" bodyend="438"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" line="362" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_dma.h" bodystart="361" bodyend="414"/>
     <listofallmembers>
       <member refid="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_DMA_CH_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___d_m_a___c_h___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_DMA_CH_CONFIG_t</scope><name>__pad1__</name></member>

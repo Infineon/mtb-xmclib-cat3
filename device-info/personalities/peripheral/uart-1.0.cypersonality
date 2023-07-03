@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020-2021 Cypress Semiconductor Corporation
+* Copyright 2020-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -49,7 +49,7 @@
     <ParamBool id="periclk_enabled" name="" group="Internal" default="`${isBlockUsed(periclk_resource)}`" visible="false" editable="false" desc="" />
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${xmc1 ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___u_a_r_t.html" linkText="Open UART Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___u_a_r_t.html" linkText="Open UART Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!--Clock Settings-->
     <ParamChoice id="BaudRateGeneratorClockSrc" name="Baud Rate Generator Clock Source" group="Clock Settings" default="XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER" visible="true" editable="true" desc="Selects the clock source for the baud rate generator">

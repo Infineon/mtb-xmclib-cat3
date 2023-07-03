@@ -1,10 +1,9 @@
 /**
  * @file xmc4_gpio_map.h
- * @date 2019-05-07
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,41 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial draft<br>
- *
- * 2015-06-20:
- *     - Updated copyright information
- *
- * 2015-11-12:
- *     - Added XMC4800
- *
- * 2015-06-20:
- *     - Missing CAN_N0_TXD connectivity
- *     - VADC_EMUXn_IN replaced by VADC_EMUX0xy
- *     - DSD_MCLKOUT replaced by DSD_MCLKx
- *     - Missing connectivity for XMC48/47
- *
- * 2015-12-07:
- *     - Add XMC4300 support
- *
- * 2016-03-09:
- *     - Fixed SDMMC signals names
- *     - Added P2_0_AF_CAN_N0_TXD for XMC44xx
- *     - Added P1_9_AF_U0C0_SCLKOUT, P4_7_AF_U2C1_DOUT0, P6_6_AF_U2C0_DOUT0 for XMC47/48 BGA196
- *
- * 2016-03-22:
- *     - Fixed EBU CS signal names
- *
- * 2016-08-22:
- *     - Added P2_0_AF_CAN_N0_TXD for XMC4300
- *
- * 2019-04-29:
- *     - XMC4300 added missing macros
  *
  * @endcond
  *

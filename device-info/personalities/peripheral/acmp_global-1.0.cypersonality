@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -34,7 +34,7 @@
   <Parameters>
     <ParamString id="InstNumber" name="" group="Internal" default="`${getInstNumber(&quot;acmp&quot;)}`" visible="false" editable="false" desc="" />
 
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/XMC1_api_reference_manual/html/group___a_c_m_p.html" linkText="Open ACMP Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/XMC1_api_reference_manual/html/group___a_c_m_p.html" linkText="Open ACMP Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!-- Power Mode Selection -->
     <ParamBool id="acmp_power_mode_select" name="Low Power Mode" group="Power Mode Selection" default="false" visible="true" editable="true" desc="Configures the analog comparator to operate in low power mode." />

@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,7 +51,7 @@
     <ParamString id="main_clk_resource" name="Main Clock Value" group="Internal" default="scu[0].clock[0].periclk[0]" visible="false" editable="false" desc="Peripheral clock value in MHz." />
     <ParamBool id="main_clk_error" name="Main Clock Error" group="Internal" default="`${!isBlockUsed(main_clk_resource)}`" visible="false" editable="false" desc="True when peripheral clock is not enabled." />
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc`${xmc1400 ? 1 : 4}`_api_reference_manual/html/group___c_a_n.html" linkText="Open CAN Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_a_n.html" linkText="Open CAN Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!-- General Settings - Global -->
     <!-- NOTE - XMC devices with ip_ver1 only have 1 option for clock source. -->

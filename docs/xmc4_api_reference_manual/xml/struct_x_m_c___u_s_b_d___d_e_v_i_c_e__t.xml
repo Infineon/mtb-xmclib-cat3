@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_USBD_DEVICE_t</compoundname>
     <includes local="no">xmc_usbd.h</includes>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Device register interface </para>
-        </detaileddescription>
+<para>Device register interface </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="412" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="412" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="398" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="398" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1abe97c079bd4605f5cc34dc09a663b637" prot="public" static="no" mutable="no">
         <type><ref refid="group___u_s_b_d_1ga4d1be41d2cd37f5c9367b75a91a517d6" kindref="member">XMC_USBD_SignalDeviceEvent_t</ref></type>
@@ -26,11 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The USB device event callback. </para>
-        </detaileddescription>
+<para>The USB device event callback. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="420" column="32" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="420" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="406" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="406" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1adf77c1f00c3290b33c8a6b7a0c6b0fa0" prot="public" static="no" mutable="no">
         <type>dwc_otg_dev_in_ep_regs_t *</type>
@@ -40,11 +38,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>IN Endpoint register interface </para>
-        </detaileddescription>
+<para>IN Endpoint register interface </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="413" column="28" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="413" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="399" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="399" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1a816cfe15b81f83b360c655b5019d03df" prot="public" static="no" mutable="no">
         <type>dwc_otg_dev_out_ep_regs_t *</type>
@@ -54,11 +51,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>OUT Endpoint register interface </para>
-        </detaileddescription>
+<para>OUT Endpoint register interface </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="414" column="29" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="414" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="400" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="400" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1afc697e1dc7a5c5d7155f71006c77ef03" prot="public" static="no" mutable="no">
         <type><ref refid="group___u_s_b_d_1ga52dd28acc7e2e09a7d3a48c136f1ecdb" kindref="member">XMC_USBD_SignalEndpointEvent_t</ref></type>
@@ -68,11 +64,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The USB endpoint event callback. </para>
-        </detaileddescription>
+<para>The USB endpoint event callback. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="421" column="34" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="421" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="407" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="407" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1ac1f09802a53a8988d55b2550fdb4be95" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___u_s_b_d___e_p__t" kindref="compound">XMC_USBD_EP_t</ref></type>
@@ -82,25 +77,23 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Endpoints of the USB device. It is of type <ref refid="struct_x_m_c___u_s_b_d___e_p__t" kindref="compound">XMC_USBD_EP_t</ref> </para>
-        </detaileddescription>
+<para>Endpoints of the USB device. It is of type <ref refid="struct_x_m_c___u_s_b_d___e_p__t" kindref="compound">XMC_USBD_EP_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="410" column="17" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="410" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="396" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="396" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1a70b16638bebb58b548ccd2c106342ebe" prot="public" static="no" mutable="no">
-        <type>volatile uint32_t *</type>
+        <type>uint32_t *</type>
         <definition>volatile uint32_t* fifo[(uint8_t)(7U)]</definition>
         <argsstring>[(uint8_t)(7U)]</argsstring>
         <name>fifo</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Transmit fifo interface </para>
-        </detaileddescription>
+<para>Transmit fifo interface </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="415" column="21" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="415" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="401" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="401" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1aad09a1860a60b039023d3563dd4e10e1" prot="public" static="no" mutable="no">
         <type>dwc_otg_core_global_regs_t *</type>
@@ -110,11 +103,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Global register interface </para>
-        </detaileddescription>
+<para>Global register interface </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="411" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="411" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="397" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="397" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1a41fd6b971723c8bae4f31418c0ca5a39" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -125,11 +117,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Sets if device is currently active </para>
-        </detaileddescription>
+<para>Sets if device is currently active </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="418" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="418" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="404" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="404" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1aa717678bca881b4dfd120cf14601fee2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -140,11 +131,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Sets if device is connected </para>
-        </detaileddescription>
+<para>Sets if device is connected </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="417" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="417" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="403" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="403" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1aaa4cc870c3011a4bb18d19496559ad54" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -155,11 +145,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Sets if device is powered by Vbus </para>
-        </detaileddescription>
+<para>Sets if device is powered by Vbus </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="419" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="419" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="405" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="405" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1a2a8f91aa48195c87fc75b26a33b0d6fb" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -169,34 +158,31 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Mask of used TX fifos </para>
-        </detaileddescription>
+<para>Mask of used TX fifos </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="416" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="416" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="402" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="402" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Describes the XMC USB device<linebreak/>
-</para>
-<para>All information to control an XMC USB device is stored in this structure. It contains register, callbacks, information about the endpoints and the status of the device. </para>
-    </detaileddescription>
+</para><para>All information to control an XMC USB device is stored in this structure. It contains register, callbacks, information about the endpoints and the status of the device. </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="1">
-        <label>XMC_USBD_DEVICE_t</label>
-        <link refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>ep</edgelabel>
-        </childnode>
-      </node>
-      <node id="2">
+      <node id="192">
         <label>XMC_USBD_EP_t</label>
         <link refid="struct_x_m_c___u_s_b_d___e_p__t"/>
       </node>
+      <node id="191">
+        <label>XMC_USBD_DEVICE_t</label>
+        <link refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t"/>
+        <childnode refid="192" relation="usage">
+          <edgelabel>ep</edgelabel>
+        </childnode>
+      </node>
     </collaborationgraph>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="408" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="409" bodyend="422"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" line="395" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_usbd.h" bodystart="394" bodyend="408"/>
     <listofallmembers>
       <member refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1a4fa53c65dd9734d4f4ea64b133843b02" prot="public" virt="non-virtual"><scope>XMC_USBD_DEVICE_t</scope><name>device_register</name></member>
       <member refid="struct_x_m_c___u_s_b_d___d_e_v_i_c_e__t_1abe97c079bd4605f5cc34dc09a663b637" prot="public" virt="non-virtual"><scope>XMC_USBD_DEVICE_t</scope><name>DeviceEvent_cb</name></member>

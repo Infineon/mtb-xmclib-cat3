@@ -1,12 +1,11 @@
 /**
  * @file xmc_dma.h
- * @date 2018-09-18
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,29 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-06-20:
- *     - Add the declarations for the following APIs: <br>
- *       XMC_DMA_DisableRequestLine, XMC_DMA_ClearRequestLine, <br>
- *       XMC_DMA_CH_ClearSourcePeripheralRequest, <br>
- *       XMC_DMA_CH_ClearDestinationPeripheralRequest <br>
- *     - Documentation updates <br>
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *
- * 2016-10-28:
- *     - Fix documentation on maximum block size
- *
- * 2017-09-28:
- *     - Improved documentation and added XMC_DMA_CH_EnableFifo() and XMC_DMA_CH_DisableFifo()
- *
- * 2018-09-18:
- *     - Added XMC_DMA_CH_GetTransferredData()
  *
  * @endcond
  */

@@ -1,10 +1,9 @@
 /**
  * @file xmc_ecat_map.h
- * @date 2019-10-10
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,18 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-09-09:
- *     - Initial
- *
- * 2015-07-20:
- *     - Added XMC_ECAT_PORT_CTRL_LATCHIN0_P9_0 and XMC_ECAT_PORT_CTRL_LATCHIN0_P9_1
- *
- * 2019-10-10:
- *     - Update definitions for input multiplexer settings adding GND settings
  *
  * @endcond
  */

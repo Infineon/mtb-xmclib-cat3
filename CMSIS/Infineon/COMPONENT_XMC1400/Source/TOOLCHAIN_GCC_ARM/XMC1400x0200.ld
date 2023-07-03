@@ -1,6 +1,5 @@
 /**
  * @file XMC1400x0200.ld
- * @date 2021-08-13
  *
  * @cond
  *********************************************************************************************************************
@@ -47,37 +46,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG 
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-07-07:
- *     - Product splitting
- *     - Copyright notice update
- *
- * 2015-11-24:
- *     - Compatibility with GCC 4.9 2015q2
- *
- * 2016-03-15:
- *     - Add assertion to check that region SRAM_combined does not overflowed no_init section
- *
- * 2016-06-07:
- *     - Add XMC1403-Q040X0200
- *
- * 2016-07-20:
- *     - Add XMC1402-T038X0200, XMC1402-Q040X0200, XMC1402-Q048X0200
- *
- * 2016-10-28:
- *     - Fix linker not complaining if sum of data + text sections is bigger that physical FLASH size
- *
- * 2017-04-07:
- *     - Added new symbols __text_size and eText
- *
- * 2017-04-20:
- *     - Change vtable location to flash area to save ram
- *
- * 2021-08-13:
- *     - Include libnosys in the default link step
  *
  * @endcond 
  *

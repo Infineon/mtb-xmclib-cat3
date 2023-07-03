@@ -1,13 +1,12 @@
 
 /**
  * @file xmc_hrpwm.h
- * @date 2019-12-02
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -38,31 +37,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-18:
- *     - Driver description updated<br>
- *     - API's are renamed <br>
- *       XMC_HRPWM_HRC_SetResolutionCR1() -> XMC_HRPWM_HRC_SetCompare1()<br>
- *       XMC_HRPWM_HRC_SetResolutionCR2() -> XMC_HRPWM_HRC_SetCompare2()<br>
- *       XMC_HRPWM_HRC_SetDeadTimeDCF()   -> XMC_HRPWM_HRC_SetDeadTimeFalling()<br>
- *       XMC_HRPWM_HRC_SetDeadTimeDCR()   -> XMC_HRPWM_HRC_SetDeadTimeRising()<br>
- *
- * 2015-05-12:
- *     - XMC_HRPWM_CSG_SelClampingInput() api is added to select the clamping input<br>
- *     - Enum XMC_HRPWM_SHADOW_TX_t is renamed to XMC_HRPWM_SHADOW_TX_DAC_t to represent that shadow transfer is for DAC <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *     - Updated copyright and change history section.
- *
- * 2019-12-02:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2022-12-15:
- *     - Documentation updates
  *
  * @endcond
  *

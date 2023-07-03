@@ -1,45 +1,25 @@
-# MTB CAT3 XMC Library v4.1.0
+# MTB CAT3 XMC Library v4.2.0
 
 Please refer to the [README](./README.md) and the XMCLib for [XMC1000](https://infineon.github.io/mtb-xmclib-cat3/xmc1_api_reference_manual/html/index.html)/[XMC4000](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/index.html) API Reference Manual for a complete description.
 
 ## What Changed?
 
-### New personalities
-
-- ACMP 1.0
-- CAN 1.0
-- [CCU4 2.0](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/page_personalities_reference.html#section_personality_ccu4)
-- CCU8 1.0
-- DAC 1.0
-- DMA 1.0
-- [DSD 1.0](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/page_personalities_reference.html#section_personality_dsd)
-- EEPROM 1.0
-- emUSB 1.0 - Designed to be used with emUSB-Device Middleware.
-- emUSB_OS_Timer 1.0 - Designed to be used with emUSB-Device Middleware.
-- ERU 1.0
-- FCE 1.0
-- [HRPWM 1.0](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/page_personalities_reference.html#section_personality_hrpwm)
-- [POSIF 1.0](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/page_personalities_reference.html#section_personality_posif)
-- RTC 1.0
-- SPI 1.0
-- VADC 1.0
-- [WDT 1.0](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/page_personalities_reference.html#section_personality_wdt)
-
 ### Updated personalities
 
-- [CCU4 1.0](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/page_personalities_reference.html#section_personality_ccu4)
-- I2C 1.0 - Connectivity improvements
-- UART 1.0 - Connectivity improvements
+- All personalities - Updated the parameters naming and images location.
+- emUSB - Removed the redundant code generation. Improved the DRC handling.
+- emUSB OS Timer - Added a new field for the Interrupt Priority selection. Fixed the issue with the Service Request selection.
+- CCU4 Global 1.0 - Fixed the generated interrupt handler and number macros.
+- I2C 1.0 - Obsoleted the functionality cleanup.
+- VADC-GROUP 1.0 -  Updated the connection visibility of Background Gating Input signal. Updated the generated gate and trigger signals configurational macros.
+- WDT 1.0 - Updated the connection visibility of the Service Output signal.
 
 ### Updated drivers
 
-- [Common APIs to all peripherals (COMMON)](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/group___c_o_m_m_o_n.html)
-- [Delta Sigma Demodulator (DSD)](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/group___d_s_d.html)
-- [High Resolution PWM Unit (HRPWM)](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/group___h_r_p_w_m.html)
-- [Position Interface Unit (POSIF)](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/group___p_o_s_i_f.html)
-- [Real-time clock (RTC)](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/group___r_t_c.html)
-- [System Control Unit(SCU)](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/group___s_c_u.html)
-- [Watchdog driver (WDT)](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/group___w_d_t.html)
+- The SCU_CLK_DSLEEPCR_SYSSEL_Msk value of the CMSIS headers XMC4500.h, XMC4502.h, XMC4504.h, XMC4700.h, and XMC4800.h changed to 0x1UL.
+- The DSLEEPCR register SYSSEL section <msb>  parameter changed to 0 for XMC4500.svd, XMC4700.svd, and XMC4800.svd.
+- Updated the High Resolution PWM Unit (HRPWM) mapping file.
+- Removed the change history from the source files.
 
 ## Supported Software and Tools
 
@@ -47,11 +27,11 @@ This version of the XMCLib was validated for compatibility with the following So
 
 | Software and Tools                                                            | Version |
 | :---                                                                          | :----   |
-| ModusToolbox&trade;                                                           |  3.0.0  |
+| ModusToolbox&trade;                                                           |  3.1.0  |
 | [core library](https://github.com/Infineon/core-lib)                          |  1.3.1  |
-| [device-db](https://github.com/Infineon/device-db)                            |  4.0.3  |
+| [device-db](https://github.com/Infineon/device-db)                            |  4.3.0  |
 | CMSIS-Core(M)                                                                 |  5.8.0  |
-| GCC Compiler                                                                  | 10.3.1  |
+| GCC Compiler                                                                  | 11.3.1  |
 
 ## More information
 
@@ -67,4 +47,4 @@ Use the following links for more information, as needed:
 * [XMC4000 Family technical documentation](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/#!documents)
 
 ---
-© Infineon Technologies, 2020-2022.
+© Infineon Technologies, 2020-2023.

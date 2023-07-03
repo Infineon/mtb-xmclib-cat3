@@ -1,10 +1,9 @@
 /**
  * @file xmc_device.h
- * @date 2020-11-23
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,36 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Initial version
- *
- * 2015-09-23:
- *     - Added XMC14 and XMC48/47
- *
- * 2015-11-19:
- *     - Added XMC43
- *
- * 2016-02-26:
- *     - Fixed CCU8 version for XMC43/47/48
- *
- * 2016-06-14:
- *     - Added XMC1201_T028x0016, XMC1202_T016x0064, XMC1301_T016x0032, XMC1302_Q040x0200,
- *             XMC1302_T028x0016, XMC1402_T038x0032, XMC1402_T038x0064, XMC1402_T038x0128,
- *             XMC1403_Q040x0064, XMC1403_Q040x0128, XMC1403_Q040x0200, XMC1402_T038x0200
- *             XMC1402_Q040x0200, XMC1402_Q048x0200, XMC1201_T028x0032
- *
- * 2018-07-30
- *     - Added XMC1302_T028x0200, XMC1302_T028x0128, XMC1302_T028x0064, XMC1302_T028x0032
- *
- * 2019-07-26
- *     - Added XMC1404_Q040x0200, XMC1404_Q040x0128, XMC1404_Q040x0064
- *
- * 2020-11-23
- *     - Added include for XMC4104.h, XMC4108.h, XMC4402.h, XMC4502.h, XMC4504.h
  *
  * @endcond
  *

@@ -1,12 +1,11 @@
 /**
  * @file xmc4_scu.h
- * @date 2020-11-11
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,63 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Initial version
- *     - Documentation improved
- *
- * 2015-11-30:
- *     - Documentation improved
- *
- * 2016-03-09:
- *     - Added XMC_SCU_POWER_EnableMonitor/XMC_SCU_POWER_DisableMonitor
- *             XMC_SCU_POWER_GetEVRStatus, XMC_SCU_POWER_GetEVR13Voltage, XMC_SCU_POWER_GetEVR33Voltage
- *     - Added XMC_SCU_HIB_GetHibernateControlStatus,
- *             XMC_SCU_HIB_GetEventStatus, XMC_SCU_HIB_ClearEventStatus, XMC_SCU_HIB_TriggerEvent,
- *             XMC_SCU_HIB_EnableEvent, XMC_SCU_HIB_DisableEvent
- *     - Added XMC_SCU_HIB_SetWakeupTriggerInput, XMC_SCU_HIB_SetPinMode, XMC_SCU_HIB_SetOutputPinLevel,
- *             XMC_SCU_HIB_SetInput0, XMC_SCU_HIB_EnterHibernateState
- *
- * 2016-04-15:
- *     - Fixed naming of XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG peripheral clock.
- *       Added enable and disable for peripheral clocks
- *
- * 2016-05-19:
- *     - Added XMC_SCU_CLOCK_IsLowPowerOscillatorStable() and XMC_SCU_CLOCK_IsHighPerformanceOscillatorStable()
- *     - Added XMC_SCU_POWER_WaitForInterrupt() and XMC_SCU_POWER_WaitForEvent()
- *     - Added XMC_SCU_CLOCK_EnableLowPowerOscillatorGeneralPurposeInput(),
- *             XMC_SCU_CLOCK_DisableLowPowerOscillatorGeneralPurposeInput(),
- *             XMC_SCU_CLOCK_GetLowPowerOscillatorGeneralPurposeInputStatus()
- *     - Added XMC_SCU_CLOCK_EnableHighPerformanceOscillatorGeneralPurposeInput(),
- *             XMC_SCU_CLOCK_DisableHighPerformanceOscillatorGeneralPurposeInput(),
- *             XMC_SCU_CLOCK_GetHighPerformanceOscillatorGeneralPurposeInputStatus()
- *     - Removed XMC_SCU_INTERRUPT_EVENT_OSCULSTAT_UPDATED, XMC_SCU_INTERRUPT_EVENT_HDSTAT_UPDATED
- *
- * 2016-06-14:
- *     - Added XMC_SCU_HIB_IsWakeupEventDetected() and XMC_SCU_HIB_ClearWakeupEventDetectionStatus()
- *
- * 2016-06-15:
- *     - Added XMC_SCU_HIB_EnterHibernateStateEx() which allows to select between external or internal hibernate mode. This last mode only available in XMC44, XMC42 and XMC41 series.
- *     - Extended wakeup hibernate events using LPAC wakeup on events. Only available in XMC44, XMC42 and XMC41 series.
- *     - Added LPAC APIs. Only available in XMC44, XMC42 and XMC41 series.
- *
- * 2019-02-18:
- *     - Fix conditional definition of XMC_SCU_PARITY_t elements
- *     - Added XMC_SCU_PARITY_OverrideParityBitLogic(uint32_t memory)
- *             XMC_SCU_PARITY_SelectMemoryTest(const XMC_SCU_PARITY_t memory)
- *             XMC_SCU_PARITY_SetParityWriteValue(uint8_t val)
- *             XMC_SCU_PARITY_GetParityReadValue(void)
- *
- * 2020-11-11:
- *     - Change making declaration of functions XMC_SCU_HighTemperature(), XMC_SCU_LowTemperature() and XMC_SCU_SetRawTempLimits() available only XMC41, XMC42 and XMC44
- *
- * 2022-11-15:
- *     - Added XMC_SCU_PCU_IsEnabledUsbPullUp(void),
- *             XMC_SCU_PCU_EnableUsbPullUp(void),
- *             XMC_SCU_PCU_DisableUsbPullUp(void)
  *
  * @endcond
  *
@@ -3589,10 +3531,9 @@ void XMC_SCU_HIB_DisableInternalSlowClock(void);
  * Any interrupt will bring the system back to operation via the NVIC.The clock setup before
  * entering Deep Sleep state is restored upon wake-up.
  *
- * @usage
  * @code
  * // Configure system during SLEEP state
- * XMC_SCU_CLOCK_SetDeepSleepConfig(XMC_SCU_CLOCK_SLEEP_MODE_CONFIG_SYSCLK_FOFI |
+ * XMC_SCU_CLOCK_SetDeepSleepConfig(XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_SYSCLK_FOFI |
  *                                  XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_FLASH_POWERDOWN |
  *                                  XMC_SCU_CLOCK_DEEPSLEEP_MODE_CONFIG_PLL_POWERDOWN);
  *
@@ -3606,6 +3547,16 @@ void XMC_SCU_HIB_DisableInternalSlowClock(void);
  * __WFI();
  *
  * @endcode
+ *
+ * \note
+ * The PLL re-initialization is required after a wake-up from Deep Sleep mode
+ * if the the PLL was enabled before entering Deep Sleep mode and configured to
+ * go into power down while in Deep Sleep mode.
+ * To re-initialize the PLL:
+ * 1.  Enable the PLL by XMC_SCU_CLOCK_EnableSystemPll().
+ * 2.  Start the PLL by XMC_SCU_CLOCK_StartSystemPll().
+ * 3.  Select the PLL as the source for the system clock by
+ *     XMC_SCU_CLOCK_SetSystemClockSource().
  *
  *\par<b>Related APIs:</b><BR>
  * XMC_SCU_CLOCK_Init() \n\n\n

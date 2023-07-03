@@ -1,11 +1,10 @@
 
 /**
  * @file xmc_eth_mac.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,79 +37,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Initial
- *
- * 2015-09-01:
- *     - Add clock gating control in enable/disable APIs
- *     - Add transmit polling if run out of buffers
- *
- * 2015-11-30:
- *     - Fix XMC_ETH_MAC_GetRxFrameSize return value in case of errors
- *
- * 2016-03-16:
- *     - Fix XMC_ETH_MAC_DisableEvent
- *
- * 2016-05-19:
- *     - Changed XMC_ETH_MAC_ReturnTxDescriptor and XMC_ETH_MAC_ReturnRxDescriptor
- *
- * 2016-08-30:
- *     - Changed XMC_ETH_MAC_Init() to disable MMC interrupt events
- *
- * 2016-11-22:
- *     - Changed XMC_ETH_MAC_Init() to optimize access to bus
- *
- * 2017-02-25:
- *     - XMC_ETH_MAC_Enable() and XMC_ETH_MAC_Disable(), fixed compilation warnings
- *
- * 2017-03-27:
- *     - Changed XMC_ETH_MAC_Init() to disable PMT and timestamp interrupt events
- *
- * 2017-04-02:
- *     - Added XMC_ETH_MAC_InitPTPEx()
- *     - Added XMC_ETH_MAC_SetPTPTime()
- *     - Added XMC_ETH_MAC_UpdateAddend()
- *     - Fixed XMC_ETH_MAC_InitPTP(), XMC_ETH_MAC_UpdatePTPTime(), XMC_ETH_MAC_SetPTPAlarm()
- *       - nanoseconds initializazion
- *       - added polling to wait for setup
- *
- * 2017-04-04:
- *     - Changed XMC_ETH_MAC_Init() to disable MMC IPC receive interrupt events
- *
- * 2017-04-11:
- *     - Fixed XMC_ETH_MAC_SetPTPAlarm() nanoseconds conversion
- *
- * 2017-04-17:
- *     - Changed XMC_ETH_MAC_GetTxTimeStamp() and XMC_ETH_MAC_GetRxTimeStamp() return the timestamp depending on status bit in descriptor
- *
- * 2017-04-27:
- *     - Fixed XMC_ETH_MAC_GetRxTimeStamp() and XMC_ETH_MAC_GetTxTimeStamp() fixed returned nanoseconds value
- *
- * 2017-08-03:
- *     - Changed XMC_ETH_MAC_InitPTP(), XMC_ETH_MAC_InitPTPEx(), XMC_ETH_MAC_GetPTPTime(), XMC_ETH_MAC_UpdatePTPTime(), XMC_ETH_MAC_SetPTPAlarm(), XMC_ETH_MAC_GetRxTimeStamp(), XMC_ETH_MAC_GetTxTimeStamp()
- *       rollover mode of nanosecond counter from binary to digital mode, i.e 1ns resolution
- *
- * 2017-09-27:
- *     - Added XMC_ETH_MAC_InitEx()
- *     - XMC_ETH_MAC_SetAddressEx(), XMC_ETH_MAC_GetAddressEx() and XMC_ETH_MAC_SetAddressPerfectFilterEx() which receives a byte array with the MAC address instead of uint64_t
- *
- * 2018-06-21:
- *     - Fixed XMC_ETH_MAC_SetAddressPerfectFilterEx()
- *
- * 2018-08-08:
- *     - Fixed XMC_ETH_MAC_SetVLANTag() which now accepts a 32bit tag parameter that allows setting ETV bit to compare only VLAN Tag ID
- *
- * 2019-11-14:
- *     - Changed XMC_ETH_MAC_InitRxDescriptors() to allow not initialization of rx descriptors buffers when eth_mac->rx_buf == NULL. Used for zero copy
- *     - Changed XMC_ETH_MAC_InitTxDescriptors() to allow not initialization of tx descriptors buffers when eth_mac->tx_buf == NULL
- *     - Changed XMC_ETH_MAC_InitTxDescriptors() enabling interrupt on transmission;
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  */

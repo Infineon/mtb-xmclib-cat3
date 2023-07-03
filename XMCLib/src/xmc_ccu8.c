@@ -1,10 +1,9 @@
 /**
  * @file xmc_ccu8.c
- * @date 2017-04-27
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,40 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-06-20:
- *     - Removed definition of GetDriverVersion API <br>
- *     - Added XMC_CCU8_SLICE_LoadSelector() API, to select which compare register value has to be loaded
- *       during external load event.
- *
- * 2015-07-24:
- *     - XMC_CCU8_SLICE_ConfigureStatusBitOverrideEvent() is updated to support XMC14 device. <br>
- *
- * 2015-08-17:
- *     - XMC_CCU8_SLICE_CHC_CONFIG_MASK is not applicable to XMC14 devices. <br>
- *     - Start of prescaler XMC_CCU8_StartPrescaler() is invoked in XMC_CCU8_Init() API. <br>
- *     - In XMC_CCU8_SLICE_CompareInit(), CHC register is updated according to the device. <br>
- *     - Bug fix XMC_CCU8_SLICE_ConfigureEvent() during the level setting for XMC14 devices. <br>
- *     - XMC_CCU8_EnableShadowTransfer() definition is removed, since the API is made as inline. <br>
- *
- * 2015-10-07:
- *     - XMC_CCU8_SLICE_GetEvent() is made as inline.
- *     - DOC updates for the newly added APIs.
- *
- * 2017-02-25:
- *     - XMC_CCU8_lAssertReset(), XMC_CCU8_lDeassertReset(), XMC_CCU8_lGateClock() and XMC_CCU8_lUngateClock() fix compilation warnings.
- *
- * 2017-04-27:
- *     - XMC_CCU8_SLICE_SetPrescaler() changed div_val parameter to type XMC_CCU8_SLICE_PRESCALER_t
- *
- * 2019-04-29:
- *     - XMC_CCU8_SLICE_SetTimerRepeatMode() fix assertion
  *
  * @endcond
  */

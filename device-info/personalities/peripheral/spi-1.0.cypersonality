@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -52,7 +52,7 @@
     </Repeat>
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${xmc1 ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___s_p_i.html" linkText="Open SPI Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___s_p_i.html" linkText="Open SPI Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!--General-->
     <ParamChoice id="DeviceType" name="Device Type" group="General" default="XMC_SPI_CH_BUS_MODE_MASTER" visible="true" editable="true" desc="Device type selection. The peripheral can work either as a master or a slave.">

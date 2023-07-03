@@ -1,13 +1,12 @@
 
 /**
  * @file xmc_sdmmc.h
- * @date 2019-05-07
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -38,52 +37,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial version
- *     - Documentation updates
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *
- * 2016-01-16:
- *     - Added the following APIs to the XMC_SDMMC low level driver <br>
- *         1) XMC_SDMMC_EnableDelayCmdDatLines <br>
- *         2) XMC_SDMMC_DisableDelayCmdDatLines <br>
- *         3) XMC_SDMMC_SetDelay <br>
- *         4) XMC_SDMMC_EnableHighSpeed <br>
- *         5) XMC_SDMMC_DisableHighSpeed <br>
- *
- * 2016-04-07:
- *     - Added XMC_SDMMC_COMMAND_RESPONSE_t <br>
- *
- * 2016-07-11:
- *     - Adjust masks for the following functions: <br>
- *       1) XMC_SDMMC_SetBusVoltage <br>
- *       2) XMC_SDMMC_SetDataLineTimeout <br>
- *       3) XMC_SDMMC_SDClockFreqSelect <br>
- *
- * 2017-02-14:
- *     - Added: <br>
- *       1) XMC_SDMMC_SetCardDetectionStatus() <br>
- *       2) XMC_SDMMC_SetCardDetectionSource() <br>
- *
- * 2018-08-29:
- *     - XMC_SDMMC_SetCardDetectionStatus() and XMC_SDMMC_SetCardDetectionSource()
- *       Changed for XMC43/XMC47/XMC48 to use SDMMC Write Protection and Card Detection Control register instead of the test register of SDMMC host controller
- *     - Added for XMC43/XMC47/XMC48:
- *       1) XMC_SDMMC_SetWriteProtectionSource()
- *       2) XMC_SDMMC_SetWriteProtectionStatus()
- *
- * 2019-05-07:
- *     - Fix compilation issues on XMC45
- *     - Fix compilation warnings
- *
- * 2020-11-12:
- *     - Fix XMC_SDMMC_SetCardDetectionSource() and XMC_SDMMC_SetCardDetectionStatus()
  *
  * @endcond
  */

@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,7 +50,7 @@
     <ParamString id="mo_starting_object_node_current" name="Starting Message Object Number - Current Node" group="Internal" default="mo_starting_object_node_`${node_num}`" visible="false" editable="false" desc="Starting message object number for currently used node object." />
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc`${xmc1400 ? 1 : 4}`_api_reference_manual/html/group___c_a_n.html" linkText="Open CAN Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_a_n.html" linkText="Open CAN Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!-- General Settings - Node -->
     <ParamString id="general_settings_num_of_objects_id" name="Number of Objects in the List" group="General Settings" default="`${(!module_error) ? (mo_count) : (&quot;Solve DRC First&quot;)}`" visible="true" editable="false" desc="Number of message objects for the CAN node. Set in the global personality." />
@@ -194,18 +194,18 @@
     <ConfigInclude value="xmc_can.h" include="true" />
     <ConfigInclude value="cycfg_routing.h" include="`${!general_settings_loopback_mode_id}`" />
 
-    <ConfigDefine name="`${INST_NAME}`_HW" value="(CAN_NODE`${node_num}`)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_HW" value="CAN_NODE`${node_num}`" public="true" include="true" />
     <ConfigDefine name="`${INST_NAME}`_TIME_CONFIG" value="`${INST_NAME}`_bit_time_config" public="true" include="true" />
     <ConfigDefine name="`${INST_NAME}`_LMO$idx_CONFIG" value="`${INST_NAME}`_LMO_$idx" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
-    <ConfigDefine name="`${INST_NAME}`_LMO$idx_EVENT_ENABLE_TX" value="(`${mo_settings_event_tx_id_$idx}`)" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
-    <ConfigDefine name="`${INST_NAME}`_LMO$idx_EVENT_ENABLE_RX" value="(`${mo_settings_event_rx_id_$idx}`)" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
-    <ConfigDefine name="`${INST_NAME}`_NODE_NUMBER" value="(`${node_num}`U)" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_MO_COUNT" value="(`${general_settings_num_of_objects_id}`U)" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_ENABLE_LOOPBACK" value="(`${general_settings_loopback_mode_id}`)" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_ALERT" value="(`${event_settings_node_alert_id}`)" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_LAST_ERR_CODE" value="(`${event_settings_last_err_code_id}`)" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_TXOK" value="(`${event_settings_transfer_ok_id}`)" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_FRAME_COUNT" value="(`${event_settings_frame_counter_id}`)" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_LMO$idx_EVENT_ENABLE_TX" value="`${mo_settings_event_tx_id_$idx}`" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
+    <ConfigDefine name="`${INST_NAME}`_LMO$idx_EVENT_ENABLE_RX" value="`${mo_settings_event_rx_id_$idx}`" public="true" include="`${$idx &lt; general_settings_num_of_objects_id}`" repeatCount="256" />
+    <ConfigDefine name="`${INST_NAME}`_NODE_NUMBER" value="`${node_num}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_MO_COUNT" value="`${general_settings_num_of_objects_id}`U" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_LOOPBACK" value="`${general_settings_loopback_mode_id}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_ALERT" value="`${event_settings_node_alert_id}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_LAST_ERR_CODE" value="`${event_settings_last_err_code_id}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_TXOK" value="`${event_settings_transfer_ok_id}`" public="true" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_ENABLE_EVENT_FRAME_COUNT" value="`${event_settings_frame_counter_id}`" public="true" include="true" />
 
     <ConfigStruct name="`${INST_NAME}`_bit_time_config" type="XMC_CAN_NODE_NOMINAL_BIT_TIME_CONFIG_t" const="`${inFlash}`" public="true" include="true">
       <Member name="can_frequency" value="CAN_FREQUENCY_VALUE" />

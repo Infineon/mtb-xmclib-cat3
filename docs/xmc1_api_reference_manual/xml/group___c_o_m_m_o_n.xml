@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="group___c_o_m_m_o_n" kind="group">
     <compoundname>COMMON</compoundname>
     <title>Common APIs to all peripherals (COMMON)</title>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="223" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="223" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="169" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___c_o_m_m_o_n_1ga343bdc93bf3c5946e9944ce0b85464f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -41,23 +41,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The function delays by the specified number of milliseconds. The number of cycles to delay is calculated based on the SystemCoreClock.</para>
-<para><parameterlist kind="param"><parameteritem>
+<para>The function delays by the specified number of milliseconds. The number of cycles to delay is calculated based on the SystemCoreClock.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>milliseconds</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The number of milliseconds to delay.</para>
-</parameterdescription>
+<para>The number of milliseconds to delay.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="note"><para>The function calls <ref refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kindref="member">XMC_DelayCycles()</ref> API to generate a delay. If the desired delay is bigger than 0xFFFFFFFD CPU cycles, then an additional loop runs to prevent an overflow in parameter passed to <ref refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kindref="member">XMC_DelayCycles()</ref> API. </para>
-</simplesect>
-</para>
-        </detaileddescription>
+<simplesect kind="note"><para>The function calls <ref refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kindref="member">XMC_DelayCycles()</ref> API to generate a delay. If the desired delay is bigger than 0xFFFFFFFD CPU cycles, then an additional loop runs to prevent an overflow in parameter passed to <ref refid="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" kindref="member">XMC_DelayCycles()</ref> API. </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="258" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="258" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="204" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___c_o_m_m_o_n_1gafe1a065a3618a2fbb3fb1de9b04026c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -71,23 +67,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The function delays by the specified number of CPU clock cycles.</para>
-<para><simplesect kind="note"><para>There is memory reading timing limitation in XMC1xxx device family (see section Memory Read in the device TRM) this may significantly stretch this function execution, especially at high CPU speeds.</para>
-</simplesect>
+<para>The function delays by the specified number of CPU clock cycles.</para><para><simplesect kind="note"><para>There is memory reading timing limitation in XMC1xxx device family (see section Memory Read in the device TRM) this may significantly stretch this function execution, especially at high CPU speeds.</para></simplesect>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>cycles</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The number of CPU clock cycles to delay. Valid range: 0x0 .. 0xFFFFFFFD. </para>
-</parameterdescription>
+<para>The number of CPU clock cycles to delay. Valid range: 0x0 .. 0xFFFFFFFD. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>
-        </detaileddescription>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="240" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="240" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="186" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___c_o_m_m_o_n_1ga87fd14add15725f8cf055e258a2a821a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -101,23 +93,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>The function delays by the specified number of microseconds. The number of cycles to delay is calculated based on the SystemCoreClock.</para>
-<para><parameterlist kind="param"><parameteritem>
+<para>The function delays by the specified number of microseconds. The number of cycles to delay is calculated based on the SystemCoreClock.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>microseconds</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The number of microseconds to delay.</para>
-</parameterdescription>
+<para>The number of microseconds to delay.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="note"><para>If the CPU frequency in MHz is a small number, the actual delay can be significantly bigger than the desired value. The actual delay cannot be shorter than the desired one. </para>
-</simplesect>
-</para>
-        </detaileddescription>
+<simplesect kind="note"><para>If the CPU frequency in MHz is a small number, the actual delay can be significantly bigger than the desired value. The actual delay cannot be shorter than the desired one. </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="275" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="275" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="221" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -130,16 +118,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>XMC_EnterCriticalSection disables interrupts and returns a value indicating whether the interrupts were previously enabled.</para>
-<para><simplesect kind="return"><para>Returns the current interrupt status. Returns 0 if the interrupts were previously enabled or 1 if the interrupts were previously disabled.</para>
-</simplesect>
-<simplesect kind="note"><para>Implementation of XMC_EnterCriticalSection manipulates the IRQ enable bit with interrupts still enabled. </para>
-</simplesect>
-</para>
-        </detaileddescription>
+<para>XMC_EnterCriticalSection disables interrupts and returns a value indicating whether the interrupts were previously enabled.</para><para><simplesect kind="return"><para>Returns the current interrupt status. Returns 0 if the interrupts were previously enabled or 1 if the interrupts were previously disabled.</para></simplesect>
+<simplesect kind="note"><para>Implementation of XMC_EnterCriticalSection manipulates the IRQ enable bit with interrupts still enabled. </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="292" column="10" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="292" declcolumn="10"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="238" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___c_o_m_m_o_n_1ga6dfa72c89386d9c65584d2d526f76112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -153,21 +137,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Re-enables the interrupts if they were enabled before <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref> was called. The argument should be the value returned from <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref>.</para>
-<para><parameterlist kind="param"><parameteritem>
+<para>Re-enables the interrupts if they were enabled before <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref> was called. The argument should be the value returned from <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>savedIntrStatus</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Puts the saved interrupts status returned by the <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref>. </para>
-</parameterdescription>
+<para>Puts the saved interrupts status returned by the <ref refid="group___c_o_m_m_o_n_1ga7f3d583f0a2202d6ef5429253287d136" kindref="member">XMC_EnterCriticalSection()</ref>. </para></parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>
-        </detaileddescription>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="306" column="6" declfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" declline="306" declcolumn="6"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="252" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="define">
@@ -181,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="163" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="163" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="109" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1ga6d01dd58e9748e537c15f5f187bbaa90" prot="public" static="no">
         <name>XMC_DEBUG</name>
@@ -192,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="170" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="170" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="116" column="10" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1gac6d99ca361d4c42402d4fff4c1095384" prot="public" static="no">
         <name>XMC_DIV_ROUND</name>
@@ -202,11 +183,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculates a / b with rounding to the nearest integer, a and b must have the same sign. </para>
-        </detaileddescription>
+<para>Calculates a / b with rounding to the nearest integer, a and b must have the same sign. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="185" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="185" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="131" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1ga9db04aa5f100ccaf9b1f12c7d621739b" prot="public" static="no">
         <name>XMC_DIV_ROUNDUP</name>
@@ -216,22 +196,21 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Calculates a / b with rounding up if remainder != 0, both a and b must be positive. </para>
-        </detaileddescription>
+<para>Calculates a / b with rounding up if remainder != 0, both a and b must be positive. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="195" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="195" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="141" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1ga2a9d6e44ae0353ef2426f35c154c45b9" prot="public" static="no">
         <name>XMC_LIB_MAJOR_VERSION</name>
-        <initializer>(2U)</initializer>
+        <initializer>(4U)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="121" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="121" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="67" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1gae74ace78c5137b972b3f760cd5e09343" prot="public" static="no">
         <name>XMC_LIB_MINOR_VERSION</name>
@@ -242,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="122" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="122" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="68" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1ga83d51c05ca48b74331f3dd393ceafd03" prot="public" static="no">
         <name>XMC_LIB_PATCH_VERSION</name>
@@ -253,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="123" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="123" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="69" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1gaf5e319e51fba35a9c2bf924dc2033776" prot="public" static="no">
         <name>XMC_LIB_VERSION</name>
@@ -264,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="125" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="125" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="71" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1gad2b629bce679930ce0315950fbb2de4f" prot="public" static="no">
         <name>XMC_STRUCT_INIT</name>
@@ -276,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="175" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="175" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="121" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1gaf50650e73583944093685f4dbd0693e4" prot="public" static="no">
         <name>XMC_UNUSED_ARG</name>
@@ -288,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="173" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="173" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="119" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1ga64d434fc320c9489a1e2b1c9df8b6523" prot="public" static="no">
         <name>XMC_VERSION_NUMBER</name>
@@ -302,14 +281,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="127" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="127" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" line="73" column="9" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_common.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Common APIs to all peripherals for XMC microcontroller family. </para>
-    </briefdescription>
+<para>Common APIs to all peripherals for XMC microcontroller family. </para>    </briefdescription>
     <detaileddescription>
-<para>The Common driver contains a set of different system functions. These functions can be called in the application routine. </para>
-    </detaileddescription>
+<para>The Common driver contains a set of different system functions. These functions can be called in the application routine. </para>    </detaileddescription>
   </compounddef>
 </doxygen>

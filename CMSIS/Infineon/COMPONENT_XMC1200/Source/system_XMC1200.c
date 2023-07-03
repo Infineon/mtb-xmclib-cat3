@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     system_XMC1200.c
  * @brief    Device specific initialization for the XMC1200-Series according to CMSIS
- * @version  V1.13
- * @date     02 Dec 2019
  *
  * @cond
  *********************************************************************************************************************
@@ -38,24 +36,6 @@
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
  *
- * *************************** Change history ********************************
- * V1.2, 13 Dec 2012, PKB : Created change history table
- * V1.3, 20 Dec 2012, PKB : Fixed SystemCoreClock computation
- * V1.4, 02 Feb 2013, PKB : SCU_CLOCK -> SCU_CLK
- * V1.5, 27 Nov 2013, DNE : Comments added in SystemInit function for MCLK support
- * V1.6, 19 Feb 2014, JFT : Fixed SystemCoreClock when FDIV != 0 
- * V1.7, 11 Dec 2014, JFT : SystemCoreClockSetup, SystemCoreSetup as weak functions
- * V1.8, 03 Sep 2015, JFT : Override values of CLOCK_VAL1 and CLOCK_VAL2 defined in vector table (startup.s)
- *                          MCLK = 32MHz, PCLK = 64MHz
- * V1.9, 31 Mar 2016, JFT : Fix flash wait states to 1 cycle
- * V1.10,22 Aug 2016, JFT : Update coding for fixed flash wait states using new macros in device header file
- *                          Add macro guard USE_DYNAMIC_FLASH_WS. If defined in compiler options, adaptive wait states
- *                          are used for read accesses to the flash memory. Otherwise a fixed 1 WS is used.
- * V1.11,19 Jun 2017, Rely on cmsis_compiler.h instead of defining __WEAK
- *                    Added support for ARM Compiler 6 (armclang) 
- * V1.12,29 Oct 2018, Fix variable location of SystemCoreClock for ARMCC compiler
- * V1.13,02 Dec 2019, Fix including device header file following the convention: angle brackets are used for standard includes and double quotes for everything else.
- * 
  * @endcond 
  */
 

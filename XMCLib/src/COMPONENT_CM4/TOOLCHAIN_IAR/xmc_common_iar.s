@@ -1,10 +1,9 @@
 /**
  * @file xmc_common_iar.c
- * @date 2022-08-11
  * @brief Assembly routines for IAR Embedded Workbench IDE.
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2022, Infineon Technologies AG
  * All rights reserved.

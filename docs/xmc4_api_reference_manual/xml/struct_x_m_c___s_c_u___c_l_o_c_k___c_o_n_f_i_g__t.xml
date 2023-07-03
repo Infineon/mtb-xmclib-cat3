@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_SCU_CLOCK_CONFIG_t</compoundname>
     <includes local="no">xmc4_scu.h</includes>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Backup clock trimming mode. </para>
-        </detaileddescription>
+<para>Backup clock trimming mode. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="949" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="949" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="891" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="891" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a11fa42f2fb14a29c2c52c6cf4d2686e3" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -26,11 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enable external high precision oscillator. Should be enabled when fOHP has to be source of system clock. </para>
-        </detaileddescription>
+<para>Enable external high precision oscillator. Should be enabled when fOHP has to be source of system clock. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="945" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="945" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="887" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="887" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1ab8f0425906a8dc65344a06085c4537f5" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -40,11 +38,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enable external ultra low power oscillator. Should be enabled when fULP has to be source of standby clock(fSTDBY). </para>
-        </detaileddescription>
+<para>Enable external ultra low power oscillator. Should be enabled when fULP has to be source of standby clock(fSTDBY). </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="947" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="947" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="889" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="889" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a013af3965f9090ce5241045162c9c2f7" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -54,11 +51,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Ratio of fSys to fCCU. </para>
-        </detaileddescription>
+<para>Ratio of fSys to fCCU. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="954" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="954" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="896" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="896" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a579a5e1af4ce90fb62e9bb5daf68c7a9" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -68,11 +64,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Ratio of fSys to fCPU. </para>
-        </detaileddescription>
+<para>Ratio of fSys to fCPU. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="953" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="953" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="895" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="895" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1ac49e13a16215198ae00f59dac16355ac" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -82,11 +77,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Ratio of fSYS to fPERI. </para>
-        </detaileddescription>
+<para>Ratio of fSYS to fPERI. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="955" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="955" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="897" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="897" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1ae983ba9c72025119f3c3c7c5c9ad1a7c" prot="public" static="no" mutable="no">
         <type><ref refid="group___s_c_u_1ga8290034e7a28d8e2e8ed0086d6f92ab5" kindref="member">XMC_SCU_HIB_STDBYCLKSRC_t</ref></type>
@@ -96,11 +90,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Standby clock source. </para>
-        </detaileddescription>
+<para>Standby clock source. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="950" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="950" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="892" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="892" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a6956c72347040184cd805a4ff27ea686" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -110,11 +103,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Ratio of fPLL to fSYS. </para>
-        </detaileddescription>
+<para>Ratio of fPLL to fSYS. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="952" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="952" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="894" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="894" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1ac57094a026c31683326d5d60b9a70db4" prot="public" static="no" mutable="no">
         <type><ref refid="group___s_c_u_1gaccffa04837e2b0c2132f74f3c502139b" kindref="member">XMC_SCU_CLOCK_SYSCLKSRC_t</ref></type>
@@ -124,11 +116,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Choice of system clock. </para>
-        </detaileddescription>
+<para>Choice of system clock. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="951" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="951" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="893" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="893" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1afa66c374c23ebdeb4a29dcf5a4130d14" prot="public" static="no" mutable="no">
         <type><ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_SYSPLL_CONFIG_t</ref></type>
@@ -138,32 +129,30 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>PLL configuration </para>
-        </detaileddescription>
+<para>PLL configuration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="944" column="41" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="944" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="886" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="886" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Defines a data structure used for initializing the clock functional block. Clock functional block configures clock source needed for various peripheral and its divider values. Use type <emphasis><ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_CONFIG_t</ref></emphasis> for accessing these structure parameters. </para>
-    </detaileddescription>
+<para>Defines a data structure used for initializing the clock functional block. Clock functional block configures clock source needed for various peripheral and its divider values. Use type <emphasis><ref refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t" kindref="compound">XMC_SCU_CLOCK_CONFIG_t</ref></emphasis> for accessing these structure parameters. </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="1">
+      <node id="168">
         <label>XMC_SCU_CLOCK_CONFIG_t</label>
         <link refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t"/>
-        <childnode refid="2" relation="usage">
+        <childnode refid="169" relation="usage">
           <edgelabel>syspll_config</edgelabel>
         </childnode>
       </node>
-      <node id="2">
+      <node id="169">
         <label>XMC_SCU_CLOCK_SYSPLL_CONFIG_t</label>
         <link refid="struct_x_m_c___s_c_u___c_l_o_c_k___s_y_s_p_l_l___c_o_n_f_i_g__t"/>
       </node>
     </collaborationgraph>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="942" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="943" bodyend="956"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" line="885" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_scu.h" bodystart="884" bodyend="898"/>
     <listofallmembers>
       <member refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a18ce527740f63f1b382e16e4ba97742a" prot="public" virt="non-virtual"><scope>XMC_SCU_CLOCK_CONFIG_t</scope><name>calibration_mode</name></member>
       <member refid="struct_x_m_c___s_c_u___c_l_o_c_k___c_o_n_f_i_g__t_1a11fa42f2fb14a29c2c52c6cf4d2686e3" prot="public" virt="non-virtual"><scope>XMC_SCU_CLOCK_CONFIG_t</scope><name>enable_oschp</name></member>

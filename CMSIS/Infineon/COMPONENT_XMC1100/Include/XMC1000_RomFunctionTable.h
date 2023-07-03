@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     XMC1000_RomFunctionTable.h
  * @brief    ROM functions prototypes for the XMC1000-Series
- * @version  V1.1
- * @date     06 May 2019
  *
  * @cond
  *********************************************************************************************************************
@@ -38,11 +36,6 @@
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
  *
- **************************** Change history *********************************
- * V1.0, 08 Jan 2013, GD, First version with XMC1000 devices
- * V1.1, 06 May 2019, JFT, Extended ROM functions to incorporate AB step functionality
- *                         _CalcTemperature, _NvmEraseSector, _NvmProgVerifyBlock, _CalcTSEVAR
- *****************************************************************************
  * @endcond 
  */
 

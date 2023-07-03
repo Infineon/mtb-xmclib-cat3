@@ -25,4 +25,4 @@ easy-to-use APIs.
 * [XMC4000 Family technical documentation](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/32-bit-xmc4000-industrial-microcontroller-arm-cortex-m4/#!documents)
 
 ---
-© Infineon Technologies, 2020-2021.
+© Infineon Technologies, 2020-2023.

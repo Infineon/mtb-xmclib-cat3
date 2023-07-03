@@ -1,10 +1,9 @@
 /**
  * @file xmc_eth_phy_ksz8081rnb.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,22 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Initial
- *
- * 2015-12-15:
- *     - Added Reset and exit power down
- *     - Reset function called in Init function
- *
- * 2018-08-06:
- *     - Fixed XMC_ETH_PHY_Init waiting for PHY MDIO being ready
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  */

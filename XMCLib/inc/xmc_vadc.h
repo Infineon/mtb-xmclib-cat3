@@ -1,12 +1,11 @@
 /**
  * @file xmc_vadc.h
- * @date 2019-12-02
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,100 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-15:
- *     - Initial <br>
- *
- * 2015-02-20:
- *     - Revised for XMC1201 device.<br>
- *
- * 2015-04-27:
- *     - Added new APIs for SHS.<br>
- *     - Added New APIs for trigger edge selection.<BR>
- *     - Added new APIs for Queue flush entries, boundary selection, Boundary node pointer.<BR>
- *     - Revised GatingMode APIs and EMUX Control Init API.<BR>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- * 2015-06-25:
- *     - BFL configuration in channel initialization fixed.
- *
- * 2015-07-28:
- *     - CLOCK_GATING_SUPPORTED and PERIPHERAL_RESET_SUPPORTED macros used
- *     - Clubbed the macro definitions for XMC13 XMC12 and XMC14
- *     - Clubbed the macro definitions for XMC44 XMC47 and XMC48
- *     - New APIs Created.
- *           - XMC_VADC_GLOBAL_SetIndividualBoundary
- *           - XMC_VADC_GROUP_SetIndividualBoundary
- *           - XMC_VADC_GROUP_GetAlias
- *           - XMC_VADC_GROUP_GetInputClass
- *           - XMC_VADC_GROUP_ChannelSetIclass
- *           - XMC_VADC_GROUP_ChannelGetResultAlignment
- *           - XMC_VADC_GROUP_ChannelGetInputClass
- *           - XMC_VADC_GROUP_SetResultSubtractionValue
- *
- * 2015-12-01:
- *     - Added:
- *     - XMC4300 device supported
- *
- *     - Fixed:
- *     - XMC_VADC_GLOBAL_TriggerEvent API updated. OR operation removed.
- *     - XMC_VADC_GLOBAL_ClearEvent API updated. Multiple events triggering on clearing the event is fixed.
- *     - Wrong MACRO name defined in xmc_vadc_map.h file corrected for XMC4200/4100 devices.
- *       XMC_VADC_G3_SAMPLE renamed to XMC_VADC_G1_SAMPLE
- *
- * 2015-12-01:
- *     - New APIs Created.
- *           - XMC_VADC_GROUP_ScanIsArbitrationSlotEnabled
- *           - XMC_VADC_GROUP_QueueIsArbitrationSlotEnabled
- *     - Fixed the analog calibration voltage for XMC1100 to external reference upper supply range.
- *     - Fixed the XMC_VADC_GLOBAL_StartupCalibration() for XMC1100.
- *
- * 2016-03-09:
- *     - Optimization of write only registers
- *
- * 2016-03-18:
- *     - Fixed XMC_VADC_GLOBAL_SHS_IsConverterReady(): API checks the STEPCFG register for the ready bit instead of
- *       SHSCFG SFR.
- *
- * 2016-06-17:
- *     - New macros added XMC_VADC_SHS_FULL_SET_REG, XMC_VADC_RESULT_PRIORITY_AVAILABLE
- *     - New Enum added XMC_VADC_SHS_GAIN_LEVEL_t and XMC_VADC_SYNCTR_EVAL_t
- *     - New APIs added are:
- *           - XMC_VADC_GROUP_SetSyncSlaveReadySignal
- *           - XMC_VADC_GROUP_ChannelGetAssertedEvents
- *           - XMC_VADC_GROUP_GetAssertedResultEvents
- *           - XMC_VADC_GROUP_SetResultRegPriority
- *           - XMC_VADC_GROUP_SetSyncReadySignal
- *           - XMC_VADC_GROUP_GetSyncReadySignal
- *           - XMC_VADC_GROUP_GetResultRegPriority
- *
- * 2017-02-06:
- *     - Added new functions to remove channels from background request source, XMC_VADC_GLOBAL_BackgroundRemoveChannelFromSequence() and XMC_VADC_GLOBAL_BackgndRemoveMultipleChannels()
- *
- * 2017-06-24:
- *     - Added new function XMC_VADC_GLOBAL_SHS_SetAnalogReference() for XMC1 family
- *
- * 2017-08-14:
- *     - Added XMC_VADC_GLOBAL_DETAILED_RESULT_t
- *       You can cast the return of XMC_VADC_GLOBAL_GetDetailedResult() to a varible of type XMC_VADC_GLOBAL_DETAILED_RESULT_t to easily access the register bit fields
- *     - Fixed XMC_VADC_GLOBAL_SHS_SetAnalogReference() to update AREF bitfield correctly
- *
- * 2019-03-30:
- *     - Changed XMC_VADC_GROUP_SetChannelAlias() to inline function
- *     - Added XMC_VADC_GROUP_GetChannelAlias()
- *
- * 2019-12-02:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2020-09-03:
- *     - Added XMC_VADC_GROUP_GetPowerMode()
- *
- * 2020-11-11:
- *     - Fixed XMC_VADC_GLOBAL_SHS_SetAnalogReference() and XMC_VADC_GROUP_SetChannelAlias()
  *
  * @endcond
  *

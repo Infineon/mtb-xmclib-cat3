@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2022 Cypress Semiconductor Corporation
+* Copyright 2022-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,7 +60,7 @@
     <ParamString id="globalBaseAddr" name="globalBaseAddr" group="Internal" default="`${module_error ? NULL : getExposedMember(module_resource, &quot;baseAddr&quot;)}`" visible="`${debug}`" editable="false" desc="" />
 
     <!-- Documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="`${&quot;https://infineon.github.io/emusb-device/html/index.html&quot;}`" linkText="&quot;Open emUSB-Device Documentation&quot;" visible="true" desc="Open emUSB-Device Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="`${&quot;https://infineon.github.io/emusb-device/html/index.html&quot;}`" linkText="Open emUSB-Device Documentation" visible="true" desc="Open emUSB-Device Documentation" />
     
     <!-- General Settings -->
     <ParamRange id="prescaler_initial_value" name="prescaler_initial_value" group="General" default="`${(clock_freq &lt; 48000000) ? 1 : (clock_freq &lt; 96000000) ? 2 : 4}`" min="1" max="32768" resolution="1" visible="`${debug}`" editable="false" desc="Prescaler value used to divide the clock." />
@@ -78,6 +78,8 @@
       <Entry name="Service Request 2" value="2" visible="true"/>
       <Entry name="Service Request 3" value="3" visible="true"/>
     </ParamChoice>
+    
+    <ParamRange id="interrupt_priority" name="Interrupt Priority" group="General" default="63" min="0" max="63" resolution="1" visible="true" editable="true" desc="The interrupt priority of the emUSB OS Timer" />
 
     <!-- Compare Mode Settings -->
     <ParamRange id="timer_period_value" name="Timer Period Value" group="Compare Mode" default="`${1000000 / tick_resolution}`" min="0" max="65535" resolution="1" visible="`${debug}`" editable="false" desc="Select value of the timer period." />   
@@ -109,6 +111,7 @@
     <ConfigDefine name="emUSB_OS_Timer_INTERRUPT_HANDLER" value="`${irqHandler}`" public="true" include="true" />
     <ConfigDefine name="emUSB_OS_Timer_IRQN" value="`${irqNumber}`" public="true" include="true" />
     <ConfigDefine name="emUSB_OS_Timer_EVENT" value="XMC_CCU4_SLICE_IRQ_ID_PERIOD_MATCH" public="true" include="true" />
+    <ConfigDefine name="emUSB_OS_Timer_INTERRUPT_PRIORITY" value="`${interrupt_priority}`U" public="true" include="true" />
     <ConfigStruct name="emUSB_OS_Timer_compare_config" type="XMC_CCU4_SLICE_COMPARE_CONFIG_t" const="true" public="true" include="true">
       <Member name="timer_mode" value="XMC_CCU4_SLICE_TIMER_COUNT_MODE_EA" />
       <Member name="monoshot" value="XMC_CCU4_SLICE_TIMER_REPEAT_MODE_REPEAT" />
@@ -128,7 +131,7 @@
     <ConfigInstruction value="XMC_CCU4_SLICE_SetTimerPeriodMatch(emUSB_OS_Timer_HW, `${timer_period_value}`U);" include="true" />
     <ConfigInstruction value="XMC_CCU4_SLICE_`${&quot;Disable&quot;}`CascadedShadowTransfer(emUSB_OS_Timer_HW);" include="`${ip_ver3}`" />
     <ConfigInstruction value="XMC_CCU4_EnableShadowTransfer(`${globalBaseAddr}`,&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SHADOW_TRANSFER_SLICE_`${channel_num}` |&#xA;&#x9;&#x9;XMC_CCU4_SHADOW_TRANSFER_DITHER_SLICE_`${channel_num}` |&#xA;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_`${channel_num}` );" include="true" />
-    <ConfigInstruction value="XMC_CCU4_SLICE_SetInterruptNode(emUSB_OS_Timer_HW, XMC_CCU4_SLICE_IRQ_ID_PERIOD_MATCH, XMC_CCU4_SLICE_SR_ID_0);" include="true" />
+    <ConfigInstruction value="XMC_CCU4_SLICE_SetInterruptNode(emUSB_OS_Timer_HW, XMC_CCU4_SLICE_IRQ_ID_PERIOD_MATCH, XMC_CCU4_SLICE_SR_ID_`${sr}`);" include="true" />
     <ConfigInstruction value="XMC_CCU4_SLICE_EnableEvent(emUSB_OS_Timer_HW, XMC_CCU4_SLICE_IRQ_ID_PERIOD_MATCH);" include="true" />
     <ConfigInstruction value="XMC_CCU4_EnableClock(`${globalBaseAddr}`, emUSB_OS_Timer_NUM);" include="true" />
     <ConfigInstruction value="XMC_CCU4_SLICE_SetTimerValue(emUSB_OS_Timer_HW, 0U);" include="true" />

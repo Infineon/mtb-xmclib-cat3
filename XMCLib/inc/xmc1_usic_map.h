@@ -1,10 +1,9 @@
 /**
  * @file xmc1_usic_map.h
- * @date 2019-07-30
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,24 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial version
- *
- * 2015-08-25:
- *     - Added XMC1400
- *
- * 2016-06-17:
- *     - Added support for XMC1201 TSSOP28, XMC1302 TSSOP28, XMC1402 TSSOP38, XMC1403 VQFN40
- *
- * 2016-08-22:
- *     - Added USIC1_C0_DX1_P3_4 for XMC14xx 64 pins package
- *
- * 2019-07-30:
- *     - Added support for XMC1404-Q040
  *
  * @endcond
  *

@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     startup_XMC1400.S
  * @brief    CMSIS Core Device Startup File for Infineon XMC1400 Device Series
- * @version  V1.4
- * @date     15 Mai 2020
  *
  * @cond
  *********************************************************************************************************************
@@ -37,14 +35,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG 
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
- *
- **************************** Change history ********************************
- * V1.0, Sep, 03, 2015 JFT:Initial version
- *                         MCLK=8MHz, PCLK=16MHz
- * V1.1, Jan, 05, 2016 JFT:Fix .reset section attributes
- * V1.2, Sep, 15, 2017 JFT:Added option to select wait time before ASC BSL channel selection (WAIT_ASCBSL_ENTRY_SSW)
- * V1.3, Mai, 15, 2020 JFT:Added option (ENABLE_OWN_HANDLER) to generate a individual interrupt handlers for unhandled vectors
- * V1.4, Nov, 18, 2021     Added weak cy_toolchain_init
  *
  * @endcond 
  */

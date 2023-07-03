@@ -1,13 +1,12 @@
 
 /**
  * @file xmc_eth_mac.h
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -38,60 +37,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Initial
- *
- * 2016-04-25:
- *     - Change XMC_ETH_MAC_BUF_SIZE to 1524 to allow for Tagged MAC frame format
- *
- * 2016-05-19:
- *      - Added XMC_ETH_MAC_GetTxBuffer() and XMC_ETH_MAC_GetRxBuffer()
- *      - Added XMC_ETH_MAC_SetTxBufferSize()
- *
- * 2016-06-08:
- *      - Added XMC_ETH_MAC_IsRxDescriptorOwnedByDma()
- *
- * 2017-02-25:
- *      - XMC_ETH_MAC_SetPortControl() fixed compilation warning
- *
- * 2017-04-02:
- *     - Added XMC_ETH_MAC_InitPTPEx()
- *     - Added XMC_ETH_MAC_SetPTPTime()
- *     - Added XMC_ETH_MAC_UpdateAddend()
- *
- * 2017-04-11:
- *     - Added XMC_ETH_MAC_EnablePTPAlarm() and XMC_ETH_MAC_DisablePTPAlarm
- *
- * 2017-04-17:
- *     - Fixed ordering of PTP nanoseconds and seconds in XMC_ETH_MAC_DMA_DESC_t
- *
- * 2017-08-07:
- *     - Added XMC_ETH_MAC_TIMESTAMP_STATUS_t
- *
- * 2017-09-27:
- *     - Added XMC_ETH_MAC_InitEx()
- *     - XMC_ETH_MAC_SetAddressEx(), XMC_ETH_MAC_GetAddressEx() and XMC_ETH_MAC_SetAddressPerfectFilterEx() which receives a byte array with the MAC address instead of uint64_t
- *
- * 2018-06-21:
- *     - Changed definition of XMC_ETH_MAC_DMA_DESC_t declaring its fields volatile
- *
- * 2018-08-08:
- *     - Fixed XMC_ETH_MAC_SetVLANTag() which now accepts a 32bit tag parameter that allows setting ETV bit to compare only VLAN Tag ID
- *
- * 2019-12-16:
- *     - Fixed addr parameter qualifier for XMC_ETH_MAC_SetAddressEx()
- *     - Added XMC_ETH_MAC_IsTxDescriptorOwnedByDmaEx()
- *     - Added XMC_ETH_MAC_GetCurrentTxDescIndex(), XMC_ETH_MAC_GetCurrentRxDescIndex()
- *     - Added XMC_ETH_MAC_GetTxBufferEx(), XMC_ETH_MAC_SetTxBuffer(), XMC_ETH_MAC_SetTxBufferEx()
- *     - Added XMC_ETH_MAC_SetRxBuffer(), XMC_ETH_MAC_SetRxBufferEx()
- *     - Added XMC_ETH_MAC_SetTxBufferSizeEx()
- *
- * 2020-11-12:
- *     - Fixed XMC_ETH_MAC_GetAddress()
  *
  * @endcond
  */

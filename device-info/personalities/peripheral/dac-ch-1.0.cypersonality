@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,7 +37,7 @@
     <ParamString id="dac_peri_clock" name="DAC Peripheral Clock" group="Internal" default="`${getExposedMember(&quot;scu[0].clock[0].periclk[0]&quot;, &quot;frequency&quot;)}`" visible="false" editable="false" desc="DAC Peripheral Clock value." />
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___d_a_c.html" linkText="Open DAC Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___d_a_c.html" linkText="Open DAC Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
 
     <!-- Calculation -->
     <ParamString id="desired_frequency_max_calc" name="Desired Frequency Max" group="Calculation" default="`${floor(dac_peri_clock/16/32)}`" visible="false" editable="false" desc="Maximum desired frequency for pattern generation, calculated by dividing clock by 16(min divider) and 32(pattern steps)." />
@@ -51,7 +51,7 @@
       <Entry name="Ramp Mode" value="XMC_DAC_CH_MODE_RAMP" visible="true" />
       <Entry name="Noise Mode" value="XMC_DAC_CH_MODE_NOISE" visible="true" />
     </ParamChoice>
-    <ParamImage id="waveform_selection_image" name="" group="Waveform" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_mode.png" visible="true" desc="" inSummary="true" />
+    <ParamImage id="waveform_selection_image" name="" group="Waveform" default="`${cy_libs_path()}`/device-info/personalities/images/dac_mode.png" visible="true" desc="" inSummary="true" />
     <ParamBool id="waweform_pattern_visible_bool" name="Waveform Pattern Bool" group="Waveform" default="`${waveform_selection eq XMC_DAC_CH_MODE_PATTERN}`" visible="false" editable="false" desc="" />
     <ParamBool id="single_value_visible_bool" name="Single Value Bool" group="Waveform" default="`${waveform_selection eq XMC_DAC_CH_MODE_SINGLE}`" visible="false" editable="false" desc="" />
     <ParamBool id="noise_visible_bool" name="Noise Bool" group="Waveform" default="`${waveform_selection eq XMC_DAC_CH_MODE_NOISE}`" visible="false" editable="false" desc="" />
@@ -67,10 +67,10 @@
     </ParamChoice>
     <ParamBool id="custom_pattern_visible_bool" name="Custom Pattern Bool" group="Pattern" default="`${(pattern_selection eq Custom) &amp;&amp; (waweform_pattern_visible_bool)}`" visible="false" editable="false" desc="" />
 
-    <ParamImage id="pattern_sine_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_sine.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Sine}`" desc="" inSummary="true" />
-    <ParamImage id="pattern_rectangle_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_rectangle.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Rectangle}`" desc="" inSummary="true" />
-    <ParamImage id="pattern_triangle_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_triangle.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Triangle}`" desc="" inSummary="true" />
-    <ParamImage id="pattern_custom_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_custom.png" visible="`${waweform_pattern_visible_bool &amp;&amp; custom_pattern_visible_bool}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_sine_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/images/dac_pattern_sine.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Sine}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_rectangle_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/images/dac_pattern_rectangle.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Rectangle}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_triangle_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/images/dac_pattern_triangle.png" visible="`${waweform_pattern_visible_bool &amp;&amp; pattern_selection eq Triangle}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_custom_image" name="" group="Pattern" default="`${cy_libs_path()}`/device-info/personalities/images/dac_pattern_custom.png" visible="`${waweform_pattern_visible_bool &amp;&amp; custom_pattern_visible_bool}`" desc="" inSummary="true" />
     <ParamChoice id="amplitude_selection" name="Amplitude [V]" group="Pattern" default="1.1" visible="`${waweform_pattern_visible_bool}`" editable="`${waweform_pattern_visible_bool}`" desc="Set Peak amplitude in Volts.">
       <Entry name="0.004" value="0.004" visible="true" />
       <Entry name="0.009" value="0.009" visible="true" />
@@ -108,16 +108,16 @@
 
     <!-- Pattern Expert -->
     <ParamBool id="enable_sign_output_check" name="Enable Sign Output" group="Pattern Expert" default="false" visible="`${waweform_pattern_visible_bool}`" editable="true" desc="Enables sign information of the generated pattern." />
-    <ParamImage id="pattern_sign_output_image" name="" group="Pattern Expert" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_sign_output.png" visible="`${waweform_pattern_visible_bool}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_sign_output_image" name="" group="Pattern Expert" default="`${cy_libs_path()}`/device-info/personalities/images/dac_pattern_sign_output.png" visible="`${waweform_pattern_visible_bool}`" desc="" inSummary="true" />
     <ParamChoice id="start_mode_selection" name="Start Mode" group="Pattern Expert" default="0" visible="`${waweform_pattern_visible_bool &amp;&amp; device_series_4500_visible}`" editable="true" desc="Start mode(Positive/Negative halfwave) configuration. Start with negative halfwave is available only on XMC44 device.">
       <Entry name="Start with Positive Half" value="0" visible="true" />
       <Entry name="Start with Negative Half" value="1" visible="true" />
     </ParamChoice>
-    <ParamImage id="pattern_start_mode_output_image" name="" group="Pattern Expert" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_start_mode.png" visible="`${waweform_pattern_visible_bool &amp;&amp; device_series_4500_visible}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_start_mode_output_image" name="" group="Pattern Expert" default="`${cy_libs_path()}`/device-info/personalities/images/dac_pattern_start_mode.png" visible="`${waweform_pattern_visible_bool &amp;&amp; device_series_4500_visible}`" desc="" inSummary="true" />
     <!-- Pattern Expert END -->
 
     <!-- Custom Pattern -->
-    <ParamImage id="pattern_custom" name="" group="Custom Pattern" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_pattern_custom_configuration.png" visible="`${custom_pattern_visible_bool}`" desc="" inSummary="true" />
+    <ParamImage id="pattern_custom" name="" group="Custom Pattern" default="`${cy_libs_path()}`/device-info/personalities/images/dac_pattern_custom_configuration.png" visible="`${custom_pattern_visible_bool}`" desc="" inSummary="true" />
     <Repeat count="9">
       <ParamRange id="pattern_$idx_range" name="Pattern $idx" group="Custom Pattern" default="0" min="0" max="31" resolution="1" visible="`${custom_pattern_visible_bool}`" editable="true" desc="Pattern $idx for Custom Pattern generation." />
     </Repeat>
@@ -134,7 +134,7 @@
       <Entry name="Unsigned Value" value="1" visible="true" />
     </ParamChoice>
     <ParamRange id="startup_voltage_range" name="Startup Voltage [V]" group="Single Value" default="`${sign_selection == 0 ? 1.4 : 0.30}`" min="0.3" max="2.5" resolution="0.1" visible="`${single_value_visible_bool}`" editable="false" desc="Single Value Mode startup voltage." />
-    <ParamImage id="singleval_signselection_image" name="" group="Single Value" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_single_value_sign_selection.png" visible="`${single_value_visible_bool}`" desc="" inSummary="true" />
+    <ParamImage id="singleval_signselection_image" name="" group="Single Value" default="`${cy_libs_path()}`/device-info/personalities/images/dac_single_value_sign_selection.png" visible="`${single_value_visible_bool}`" desc="" inSummary="true" />
     <!-- Single Value END -->
 
     <!-- Single Value Expert -->
@@ -202,8 +202,8 @@
     <ParamRange id="resolution_ramp_range_value" name="Resolution Integer" group="Ramp" min="0" max="12345" resolution="0.001" default="`${getTclVar(&quot;resolution_ramp&quot;, callsolver_resp)}`" visible="false" editable="false" desc="DAC Resolution depends upon the number of steps which are dependant upon the configured ramp start and stop values." />
     <ParamString id="resolution_ramp_range" name="Resolution [mV/step]" group="Ramp" default="`${callsolver_resp_err ? &quot;Error - Fix DRC&quot; : resolution_ramp_range_value}`" visible="`${ramp_visible_bool}`" editable="false" desc="DAC Resolution depends upon the number of steps which are dependant upon the configured ramp start and stop values." />
 
-    <ParamImage id="negative_ramp_image" name="" group="Ramp" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_ramp_negative.png" visible="`${ramp_visible_bool &amp;&amp; device_series_4500_visible}`" desc="" inSummary="true" />
-    <ParamImage id="positive_ramp_image" name="" group="Ramp" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_ramp_positive.png" visible="`${ramp_visible_bool}`" desc="" inSummary="true" />
+    <ParamImage id="negative_ramp_image" name="" group="Ramp" default="`${cy_libs_path()}`/device-info/personalities/images/dac_ramp_negative.png" visible="`${ramp_visible_bool &amp;&amp; device_series_4500_visible}`" desc="" inSummary="true" />
+    <ParamImage id="positive_ramp_image" name="" group="Ramp" default="`${cy_libs_path()}`/device-info/personalities/images/dac_ramp_positive.png" visible="`${ramp_visible_bool}`" desc="" inSummary="true" />
 
     <ParamString id="dac_frequency_ramp" name="Struct dac_frequency_ramp" group="Config structure" default="`${(use_external_clock_ramp_check == true ? 0 : actual_trigger_frequency_ramp_range) .&quot;U&quot; }`" visible="false" editable="false" desc="" />
     <!-- Ramp END -->
@@ -230,8 +230,8 @@
     <ParamRange id="actual_period_noise_string" name="Actual Period [us]" group="Noise" default="`${1000000.0/(dac_peri_clock/desired_frequenci_divider_noise_minmax_calc)}`" min="`${(1000000.0/floor(dac_peri_clock/16.0))}`" max="`${(1000000.0/ceil(dac_peri_clock/1048575.0))}`" resolution="0.01" visible="`${noise_visible_bool&amp;&amp; (use_external_clock_noise_check == false)}`" editable="false" desc="Configured frequency for Noise generation." />
 
     <ParamBool id="use_average_offset_noise_check" name="Use Average Offset 1.4V" group="Noise" default="false" visible="`${noise_visible_bool}`" editable="true" desc="Generated Noise will be around 1.4V +/- amplitude/2." />
-    <ParamImage id="noise_half_amp_image" name="" group="Noise" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_noise_half_amp.png" visible="`${noise_visible_bool}`" desc="" inSummary="true" />
-    <ParamImage id="noise_conf_image" name="" group="Noise" default="`${cy_libs_path()}`/device-info/personalities/peripheral/dac_noise_configuration.png" visible="`${noise_visible_bool}`" desc="" inSummary="true" />
+    <ParamImage id="noise_half_amp_image" name="" group="Noise" default="`${cy_libs_path()}`/device-info/personalities/images/dac_noise_half_amp.png" visible="`${noise_visible_bool}`" desc="" inSummary="true" />
+    <ParamImage id="noise_conf_image" name="" group="Noise" default="`${cy_libs_path()}`/device-info/personalities/images/dac_noise_configuration.png" visible="`${noise_visible_bool}`" desc="" inSummary="true" />
 
     <ParamString id="dac_frequency_noise" name="Struct dac_frequency_Noise" group="Config structure" default="`${(use_external_clock_noise_check == true ? 0 : floor(1000000/actual_period_noise_string)) .&quot;U&quot; }`" visible="false" editable="false" desc="" />
     <!-- Noise END -->

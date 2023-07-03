@@ -1,12 +1,11 @@
 /**
  * @file xmc4_gpio.h
- * @date 2015-10-09
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -38,17 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial draft<br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- *
- * 2015-10-09:
- *     - Added PORT MACRO checks and definitions for XMC4800/4700 devices
  * @endcond
  *
  */

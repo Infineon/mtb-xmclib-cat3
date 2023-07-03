@@ -1,10 +1,9 @@
 /**
  * @file xmc_rtc.c
- * @date 2019-05-07
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,25 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-06-20:
- *     - Removed GetDriverVersion API
- *
- * 2016-05-19:
- *     - Added XMC_RTC_SetTimeStdFormat() and XMC_RTC_SetAlarmStdFormat()
- *
- * 2018-06-21:
- *     - Fixed value of XMC_RTC_MAXSECONDS, XMC_RTC_MAXMINUTES, XMC_RTC_MAXHOURS macros
- *     - Fixed assertion on XMC_RTC_MAXDAYS
- *
- * 2019-05-07:
- *     - Fixed compilation warnings
  *
  * @endcond
  *

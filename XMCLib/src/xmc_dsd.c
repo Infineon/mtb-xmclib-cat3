@@ -1,10 +1,9 @@
 /**
  * @file xmc_dsd.c
- * @date 2019-05-07
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,21 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-03-30:
- *     - Initial version
- *
- * 2015-06-19:
- *     - Removed GetDriverVersion API <BR>
- *
- * 2015-09-18:
- *     - Support added for XMC4800 microcontroller family <BR>
- *
- * 2019-05-07:
- *     - Fixed compilation warnings
  *
  * @endcond
  *

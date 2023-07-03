@@ -1,10 +1,9 @@
 /**
  * @file xmc_fce.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,31 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-06-20:
- *     - Removed GetDriverVersion API
- *
- * 2017-12-14:
- *     - XMC_FCE_CalculateCRC8()
- *       Ensure 32bit access to IR register
- *     - XMC_FCE_CalculateCRC16()
- *       Ensure 32bit access to IR register
- *       Remove restriction on data source allignment
- *     - XMC_FCE_CalculateCRC32()
- *       Ensure 32bit access to IR register
- *       Remove restriction on data source allignment
- *
- * 2019-03-30:
- *     - Added XMC_FCE_CalculateCRC16Ex() and XMC_FCE_CalculateCRC32Ex()
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  *

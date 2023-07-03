@@ -1,12 +1,11 @@
 /**
  * @file xmc_ebu.h
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,23 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Initial
- *
- * 2016-03-30:
- *     - Added ebu_data_hold_cycles_for_read_accesses to XMC_EBU_BUS_READ_CONFIG_t
- *     - Added ebu_device_addressing_mode and ebu_data_hold_cycles_for_write_accesses to XMC_EBU_BUS_WRITE_CONFIG_t
- *
- * 2017-06-24:
- *     - Changed XMC_EBU_AddressSelectEnable() to make sure arbitartion mode is active
- *
- * 2019-12-16:
- *     - Fix including xmc_common.h and xmc_scu.h following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
  *
  * @endcond
  *

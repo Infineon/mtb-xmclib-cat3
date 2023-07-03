@@ -1,10 +1,9 @@
 /**
  * @file xmc_vadc.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,80 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-15:
- *     - Initial <br>
- *
- * 2015-02-20:
- *     - Revised for XMC1201 device.<br>
- *
- * 2015-04-27:
- *     - Added new APIs for SHS.<br>
- *     - Added New APIs for trigger edge selection.<BR>
- *     - Added new APIs for Queue flush entries, boundary selection, Boundary node pointer.<BR>
- *     - Revised GatingMode APIs and EMUX Control Init API.<BR>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- *
- * 2015-06-25:
- *     - BFL configuration in channel initialization fixed.
- *
- * 2015-07-28:
- *     - CLOCK_GATING_SUPPORTED and PERIPHERAL_RESET_SUPPORTED macros used
- *     - Clubbed the macro definitions for XMC13 XMC12 and XMC14
- *     - Clubbed the macro definitions for XMC44 XMC47 and XMC48
- *     - New APIs Created.
- *           - XMC_VADC_GLOBAL_SetIndividualBoundary
- *           - XMC_VADC_GROUP_SetIndividualBoundary
- *           - XMC_VADC_GROUP_GetAlias
- *           - XMC_VADC_GROUP_GetInputClass
- *           - XMC_VADC_GROUP_ChannelSetIclass
- *           - XMC_VADC_GROUP_ChannelGetResultAlignment
- *           - XMC_VADC_GROUP_ChannelGetInputClass
- *           - XMC_VADC_GROUP_SetResultSubtractionValue
- *
- * 2015-12-01:
- *     - Fixed the analog calibration voltage for XMC1100 to external reference upper supply range.
- *     - Fixed the XMC_VADC_GLOBAL_StartupCalibration() for XMC1100.
- *
- * 2016-06-17:
- *     - New macros added XMC_VADC_SHS_FULL_SET_REG, XMC_VADC_RESULT_PRIORITY_AVAILABLE
- *       and XMC_VADC_SYNCTR_START_LOCATION
- *     - New Enum added XMC_VADC_SHS_GAIN_LEVEL_t and XMC_VADC_SYNCTR_EVAL_t
- *     - Fixed the EVAL configuration in API XMC_VADC_GROUP_CheckSlaveReadiness and XMC_VADC_GROUP_IgnoreSlaveReadiness
- *     - New APIs added are:
- *           - XMC_VADC_GROUP_SetSyncSlaveReadySignal
- *           - XMC_VADC_GROUP_ChannelGetAssertedEvents
- *           - XMC_VADC_GROUP_GetAssertedResultEvents
- *           - XMC_VADC_GROUP_SetResultRegPriority
- *           - XMC_VADC_GROUP_SetSyncReadySignal
- *           - XMC_VADC_GROUP_GetSyncReadySignal
- *           - XMC_VADC_GROUP_GetResultRegPriority
- *
- * 2017-01-11:
- *     - Fix assertion in XMC_VADC_GROUP_CheckSlaveReadiness() and XMC_VADC_GROUP_IgnoreSlaveReadiness() checking the slave_group parameter
- *
- * 2018-06-26:
- *     - Fixed XMC_VADC_GLOBAL_StartupCalibration(), added wait until calibration is started
- *
- * 2019-03-30:
- *     - Changed XMC_VADC_GROUP_SetChannelAlias() to inline function
- *
- * 2019-05-07:
- *     - Fix compilation warnings
- *
- * 2019-10-18:
- *     - Changed XMC_VADC_GLOBAL_StartupCalibration() to ensure calibration has started
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2020-03-18:
- *     - Changed XMC_VADC_GLOBAL_Init() setting ADC clock to 48MHz for XMC1400 series
  *
  * @endcond
  *

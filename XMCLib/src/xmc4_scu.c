@@ -1,12 +1,11 @@
 /**
  * @file xmc4_scu.c
- * @date 2020-12-21
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,79 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-05-20:
- *     - XMC_ASSERT() hanging issues have fixed.  <br>
- *     - Line indentation aligned with 120 characters. <br>
- *
- * 2015-06-20:
- *     - XMC_SCU_INTERRUPT_EnableEvent,XMC_SCU_INTERRUPT_DisableEvent,
- *     - XMC_SCU_INTERRUPT_TriggerEvent,XMC_SCU_INTERUPT_GetEventStatus,
- *     - XMC_SCU_INTERRUPT_ClearEventStatus are added
- *     - Added Weak implementation for OSCHP_GetFrequency()
- *
- * 2015-11-30:
- *     - Documentation improved <br>
- *     - Following API functionalities are improved
- *       XMC_SCU_CLOCK_GatePeripheralClock, XMC_SCU_CLOCK_UngatePeripheralClock, XMC_SCU_CLOCK_IsPeripheralClockGated
- *       XMC_SCU_RESET_AssertPeripheralReset, XMC_SCU_RESET_DeassertPeripheralReset, XMC_SCU_RESET_IsPeripheralResetAsserted
- *
- * 2015-12-08:
- *     - XMC_SCU_GetTemperature renamed to XMC_SCU_GetTemperatureMeasurement
- *
- * 2016-03-09:
- *     - Optimize write only registers
- *     - Added XMC_SCU_HIB_SetPinMode
- *     - Added XMC_SCU_HIB_GetHibernateControlStatus,
- *             XMC_SCU_HIB_GetEventStatus, XMC_SCU_HIB_ClearEventStatus, XMC_SCU_HIB_TriggerEvent,
- *             XMC_SCU_HIB_EnableEvent, XMC_SCU_HIB_DisableEvent
- *     - Added XMC_SCU_HIB_SetWakeupTriggerInput, XMC_SCU_HIB_SetPinMode, XMC_SCU_HIB_SetOutputPinLevel,
- *             XMC_SCU_HIB_SetInput0, XMC_SCU_HIB_EnterHibernateState
- *
- * 2016-04-06:
- *     - Fixed XMC_SCU_ReadFromRetentionMemory functionality
- *
- * 2016-05-19:
- *     - Changed XMC_SCU_CLOCK_StartSystemPll to avoid using floating point calculation which might have an impact on interrupt latency if ISR uses also the FPU
- *     - Added XMC_SCU_CLOCK_IsLowPowerOscillatorStable() and XMC_SCU_CLOCK_IsHighPerformanceOscillatorStable()
- *     - Added XMC_SCU_CLOCK_EnableLowPowerOscillatorGeneralPurposeInput(),
- *             XMC_SCU_CLOCK_DisableLowPowerOscillatorGeneralPurposeInput(),
- *             XMC_SCU_CLOCK_GetLowPowerOscillatorGeneralPurposeInputStatus()
- *     - Added XMC_SCU_CLOCK_EnableHighPerformanceOscillatorGeneralPurposeInput(),
- *             XMC_SCU_CLOCK_DisableHighPerformanceOscillatorGeneralPurposeInput(),
- *             XMC_SCU_CLOCK_GetHighPerformanceOscillatorGeneralPurposeInputStatus()
- *
- * 2016-06-15:
- *     - Added XMC_SCU_HIB_EnterHibernateStateEx() which allows to select between external or internal hibernate mode. This last mode only available in XMC44, XMC42 and XMC41 series.
- *     - Extended wakeup hibernate events using LPAC wakeup on events. Only available in XMC44, XMC42 and XMC41 series
- *     - Added LPAC APIs. Only available in XMC44, XMC42 and XMC41 series.
- *
- * 2018-06-21:
- *     - Fixed XMC_SCU_HIB_SetSR1Input()
- *     - Fixed XMC_SCU_CLOCK_EnableLowPowerOscillator()
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2019-09-30:
- *     - Fixes on XMC_SCU_CLOCK_StartUsbPll(), XMC_SCU_CLOCK_StartSystemPll() and XMC_SCU_CLOCK_StepSystemPllFrequency()
- *
- * 2020-11-11:
- *     - Change making implementation of functions XMC_SCU_HighTemperature(), XMC_SCU_LowTemperature() and XMC_SCU_SetRawTempLimits() available only XMC41, XMC42 and XMC44
- *
- * 2020-12-21:
- *     - Updated XMC_SCU_CLOCK_Init to enable USB PLL locking when the System PLL is disabled.
- * 
- * 2022-11-15:
- *     - Added XMC_SCU_PCU_IsEnabledUsbPullUp(void),
- *             XMC_SCU_PCU_EnableUsbPullUp(void),
- *             XMC_SCU_PCU_DisableUsbPullUp(void)
  *
  * @endcond
  *

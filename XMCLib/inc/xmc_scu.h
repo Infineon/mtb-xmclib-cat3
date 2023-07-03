@@ -1,12 +1,11 @@
 /**
  * @file xmc_scu.h
- * @date 2019-12-02
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,32 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-05-20:
- *     - Documentation improved <br>
- *     - XMC_ASSERT() hanging issues have fixed for XMC4 devices. <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- *     - Removed STATIC_INLINE property for the below APIs and declared as void
- *       XMC_SCU_INTERRUPT_EnableEvent, XMC_SCU_INTERRUPT_DisableEvent,
- *       XMC_SCU_INTERRUPT_TriggerEvent, XMC_SCU_INTERUPT_GetEventStatus,
- *       XMC_SCU_INTERUPT_ClearEventStatus
- *
- * 2015-11-30:
- *     - Documentation improved <br>
- *
- * 2016-03-09:
- *     - Optimization of write only registers
- *
- * 2019-12-02:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  *

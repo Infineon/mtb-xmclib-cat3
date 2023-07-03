@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_POSIF_QD_CONFIG_t</compoundname>
     <includes local="no">xmc_posif.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="311" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="283" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="306" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="306" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="278" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="278" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="308" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="308" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="280" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="280" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1aafd95f8c7a99b9189ede7cdf0871ebe8" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -54,11 +54,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Index signal generation control. Use <ref refid="group___p_o_s_i_f_1ga157c3e8c0476b8fcf6474ec5bd903091" kindref="member">XMC_POSIF_QD_INDEX_GENERATION_t</ref> to configure this field. </para>
-        </detaileddescription>
+<para>Index signal generation control. Use <ref refid="group___p_o_s_i_f_1ga157c3e8c0476b8fcf6474ec5bd903091" kindref="member">XMC_POSIF_QD_INDEX_GENERATION_t</ref> to configure this field. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="307" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="307" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="279" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="279" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1a930128540436de72ff14b9266936b477" prot="public" static="no" mutable="no">
         <type><ref refid="group___p_o_s_i_f_1ga69cbdac80d1da6a266a58eebd5deec6a" kindref="member">XMC_POSIF_QD_MODE_t</ref></type>
@@ -68,11 +67,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Operational Mode of the quadrature encoder and decoder </para>
-        </detaileddescription>
+<para>Operational Mode of the quadrature encoder and decoder </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="298" column="23" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="298" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="270" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="270" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1a7b87e7584ca2055f4beb1284fa56f491" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -83,11 +81,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Phase-A active level configuration </para>
-        </detaileddescription>
+<para>Phase-A active level configuration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="303" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="303" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="275" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="275" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1a4331081d6c34369e9897c3502392f0ff" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -98,11 +95,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Phase-B active level configuration </para>
-        </detaileddescription>
+<para>Phase-B active level configuration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="304" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="304" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="276" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="276" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1af24b2221a0e1eddbd3d6020cf82b603c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -113,11 +109,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Which of the two phase signals[Phase A or Phase B] leads the other? </para>
-        </detaileddescription>
+<para>Which of the two phase signals[Phase A or Phase B] leads the other? </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="305" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="305" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="277" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="277" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1a2cf25ef8a6a9fcc3876a1d406a97be00" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -130,15 +125,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="310" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="310" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="282" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="282" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Defines POSIF quadrature decoder initialization data structure. Use type <ref refid="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_QD_CONFIG_t</ref> for this data structure. It used to configure Quadrature mode using <emphasis>QDC</emphasis> register. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="296" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="297" bodyend="312"/>
+<para>Defines POSIF quadrature decoder initialization data structure. Use type <ref refid="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t" kindref="compound">XMC_POSIF_QD_CONFIG_t</ref> for this data structure. It used to configure Quadrature mode using <emphasis>QDC</emphasis> register. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" line="269" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_posif.h" bodystart="268" bodyend="284"/>
     <listofallmembers>
       <member refid="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_POSIF_QD_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___p_o_s_i_f___q_d___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_POSIF_QD_CONFIG_t</scope><name>__pad1__</name></member>

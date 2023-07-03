@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -64,7 +64,7 @@
     <ParamString id="invert_out_internal" name="Invert Output" group="Internal" default="`${ip_version eq 3 ? &quot;selector_out&quot; : &quot;invert_out&quot;}`" visible="false" editable="false" desc="" />
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u8.html" linkText="Open CCU8 Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u8.html" linkText="Open CCU8 Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!-- General Settings -->
     <ParamChoice id="operation_mode" name="Operation Mode" group="General" default="XMC_CCU8_SLICE_MODE_COMPARE" visible="true" editable="true" desc="Choose between Compare and Capture Mode for the Timer Slice.">
@@ -145,7 +145,7 @@
       <ParamRange id="timer_compare_value$idx" name="Timer Compare Value Channel `${$idx+1}`" group="Compare Mode" default="0" min="0" max="65535" resolution="1" visible="`${operation_mode eq XMC_CCU8_SLICE_MODE_COMPARE}`" editable="true" desc="Select value for the timer comparison." />
     </Repeat>
     <ParamChoice id="dither_mode" name="Dither Mode" group="Compare Mode" default="XMC_CCU8_DITHER_DISABLED" visible="`${operation_mode eq XMC_CCU8_SLICE_MODE_COMPARE}`" editable="true" desc="This field controls the dither mode for the slice.">
-      <Entry name="Dither Is Disabled" value="XMC_CCU8_DITHER_DISABLED" visible="true" />
+      <Entry name="Dither is Disabled" value="XMC_CCU8_DITHER_DISABLED" visible="true" />
       <Entry name="Period +1 Cycle" value="XMC_CCU8_DITHER_PERIOD" visible="true" />
       <Entry name="Compare Match -1 Cycle" value="XMC_CCU8_DITHER_MATCH" visible="true" />
       <Entry name="Period +1 Cycle, Compare Match -1 Cycle" value="XMC_CCU8_DITHER_PERIOD_MATCH" visible="true" />
@@ -229,7 +229,7 @@
         <Entry name="Active on Low Level" value="XMC_CCU8_SLICE_EVENT_LEVEL_SENSITIVITY_ACTIVE_LOW" visible="true" />
       </ParamChoice>
       <ParamChoice id="event$idx_lpf_configuration" name="Event $idx Low Pass Filter Configuration" group="Input Event Configuration" default="XMC_CCU8_SLICE_EVENT_FILTER_DISABLED" visible="true" editable="true" desc="Configures the low pass filter for the Event. This means that the signal must be stable for this number of cycles for a proper transition be considered valid.">
-        <Entry name="LPF Is Disabled" value="XMC_CCU8_SLICE_EVENT_FILTER_DISABLED" visible="true" />
+        <Entry name="LPF is Disabled" value="XMC_CCU8_SLICE_EVENT_FILTER_DISABLED" visible="true" />
         <Entry name="3 Clock Cycles of fCCU8" value="XMC_CCU8_SLICE_EVENT_FILTER_3_CYCLES" visible="true" />
         <Entry name="5 Clock Cycles of fCCU8" value="XMC_CCU8_SLICE_EVENT_FILTER_5_CYCLES" visible="true" />
         <Entry name="7 Clock Cycles of fCCU8" value="XMC_CCU8_SLICE_EVENT_FILTER_7_CYCLES" visible="true" />
@@ -325,7 +325,7 @@
       <Entry name="Clear ST and OUT Signals" value="XMC_CCU8_SLICE_MODULATION_MODE_CLEAR_ST_OUT" visible="true" />
       <Entry name="Clear Only the OUT Signal" value="XMC_CCU8_SLICE_MODULATION_MODE_CLEAR_OUT" visible="true" />
     </ParamChoice>
-    <ParamBool id="enable_modulation_sync_with_pwm" name="Modulation Synchronous With PWM" group="Function Settings" default="false" visible="`${modulation_function ne XMC_CCU8_SLICE_EVENT_NONE}`" editable="true" desc="Select this to synchronize the clear of the ST output with the PWM signal, avoiding possible glitches at the output." />
+    <ParamBool id="enable_modulation_sync_with_pwm" name="Modulation Synchronous with PWM" group="Function Settings" default="false" visible="`${modulation_function ne XMC_CCU8_SLICE_EVENT_NONE}`" editable="true" desc="Select this to synchronize the clear of the ST output with the PWM signal, avoiding possible glitches at the output." />
     <ParamChoice id="override_trigger_function" name="Override Trigger Function" group="Function Settings" default="XMC_CCU8_SLICE_EVENT_NONE" visible="true" editable="true" desc="Select this to allow the override of the status signal (CC8yST) with a value passed through an external signal. This will consume two events: one configured as edge that will act as trigger to override the status bit and the other configured as level that contains the value to be copied in the status bit.">
       <Entry name="Disabled" value="XMC_CCU8_SLICE_EVENT_NONE" visible="true" />
       <Entry name="Triggered by Event 1" value="XMC_CCU8_SLICE_EVENT_1" visible="true" />
@@ -419,9 +419,9 @@
       <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;) &amp;&amp; isSR$idxUsed}`" desc="Service request line $idx" canBeEmpty="true" forbiddenBy="none" />
     </Repeat>
     <Repeat count="4">
-      <ParamSignal port="mci$idx[0]" name="Multi Channel Pattern Input for Channel `${channel_num}`$idx" group="Connections" visible="`${isBlockUsed(&quot;posif[&quot; . module_num . &quot;].mux[0]&quot;)}`" desc="Multi Channel pattern input for CCST1/2 and NOT(CCST1/2)." canBeEmpty="true" />
+      <ParamSignal port="mci$idx[0]" name="Multi-Channel Pattern Input for Channel `${channel_num}`$idx" group="Connections" visible="`${isBlockUsed(&quot;posif[&quot; . module_num . &quot;].mux[0]&quot;)}`" desc="Multi-Channel pattern input for CCST1/2 and NOT(CCST1/2)." canBeEmpty="true" />
     </Repeat>
-    <ParamSignal port="mcss[0]" name="Multi Channel Shadow Transfer Trigger" group="Connections" visible="`${isBlockUsed(&quot;posif[&quot; . module_num . &quot;].mux[0]&quot;)}`" desc="Multi pattern sync with shadow transfer trigger can be used to synchronize two events." canBeEmpty="true" forbiddenBy="none" />
+    <ParamSignal port="mcss[0]" name="Multi-Channel Shadow Transfer Trigger" group="Connections" visible="`${isBlockUsed(&quot;posif[&quot; . module_num . &quot;].mux[0]&quot;)}`" desc="Multi-Pattern sync with shadow transfer trigger can be used to synchronize two events." canBeEmpty="true" forbiddenBy="none" />
     <ParamSignal port="ps[0]" name="Pattern Update Signal Select" group="Connections" visible="`${hasVisibleOption(&quot;ps[0]&quot;)}`" desc="CCU8 slice pattern update signal select" canBeEmpty="true" />
 
     <!-- Advanced -->

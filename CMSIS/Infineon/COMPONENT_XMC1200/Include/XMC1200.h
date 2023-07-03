@@ -38,9 +38,6 @@
  * @brief    CMSIS Cortex-M0 Peripheral Access Layer Header File for
  *           XMC1200 from Infineon.
  *
- * @version  V1.3.2 (Reference Manual v1.3)
- * @date     01. September 2020
- *
  * @note     Generated with SVDConv V2.86c 
  *           from CMSIS SVD File 'XMC1200_Processed_SVD.xml' Version 1.3.0 (Reference Manual v1.3),
  *           added support for ARM Compiler 6 (armclang)   

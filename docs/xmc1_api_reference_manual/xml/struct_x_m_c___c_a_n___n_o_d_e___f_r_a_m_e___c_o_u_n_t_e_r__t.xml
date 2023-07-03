@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_CAN_NODE_FRAME_COUNTER_t</compoundname>
     <includes local="no">xmc_can.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="549" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="487" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="542" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="542" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="480" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="480" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="545" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="545" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="483" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="483" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t_1ac27afcb4bbe4c1c797c445e58ec37865" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -54,11 +54,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Determines the operation mode of the frame counter </para>
-        </detaileddescription>
+<para>Determines the operation mode of the frame counter </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="544" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="544" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="482" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="482" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t_1a3af935dca08a12a07cbcafc74f14b6c5" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -69,12 +68,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Defines function of the frame counter <linebreak/>
- </para>
-        </detaileddescription>
+<para>Defines function of the frame counter </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="543" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="543" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="481" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="481" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t_1acdfae587414c87a704fb99b6ebb4c04c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -87,15 +84,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="547" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="547" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="485" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="485" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Defines frame counter configuration. Use type <emphasis><ref refid="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t" kindref="compound">XMC_CAN_NODE_FRAME_COUNTER_t</ref></emphasis> for this structure. It provides configuration of frame counter that counts transmitted/received CAN frames or obtains information about the time when a frame has been started to transmit or be received by the CAN node. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="535" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="536" bodyend="550"/>
+<para>Defines frame counter configuration. Use type <emphasis><ref refid="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t" kindref="compound">XMC_CAN_NODE_FRAME_COUNTER_t</ref></emphasis> for this structure. It provides configuration of frame counter that counts transmitted/received CAN frames or obtains information about the time when a frame has been started to transmit or be received by the CAN node. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="474" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="473" bodyend="488"/>
     <listofallmembers>
       <member refid="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_CAN_NODE_FRAME_COUNTER_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___c_a_n___n_o_d_e___f_r_a_m_e___c_o_u_n_t_e_r__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_CAN_NODE_FRAME_COUNTER_t</scope><name>__pad1__</name></member>

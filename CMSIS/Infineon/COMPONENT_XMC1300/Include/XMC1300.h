@@ -36,10 +36,7 @@
  * @file     XMC1300.h
  *
  * @brief    CMSIS Cortex-M0 Peripheral Access Layer Header File for
- *           XMC1300 from Infineon.
- *
- * @version  V1.3.2 (Reference Manual v1.3)
- * @date     01. September 2020
+ *           XMC1300 from Infineon.s
  *
  * @note     Generated with SVDConv V2.87l 
  *           from CMSIS SVD File 'XMC1300_Processed_SVD.xml' Version 1.3.0 (Reference Manual v1.3),

@@ -1,7 +1,6 @@
 /* ==========================================================================
  * $File: //dwh/usb_iip/dev/software/otg/linux/drivers/dwc_otg_regs.h $
  * $Revision: #91 $
- * $Date: 2010/11/29 $
  * $Change: 1636033 $
  *
  * Synopsys HS OTG Linux Software Driver and documentation (hereinafter,
@@ -33,11 +32,10 @@
 
 /*
  * @file xmc_usbd_regs.h
- * @date 2015-02-20
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -70,12 +68,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial version
  *
  * @endcond
  *

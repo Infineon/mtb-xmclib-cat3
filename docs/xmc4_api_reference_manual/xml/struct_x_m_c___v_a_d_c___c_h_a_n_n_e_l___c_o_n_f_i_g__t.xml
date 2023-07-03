@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_VADC_CHANNEL_CONFIG_t</compoundname>
     <includes local="no">xmc_vadc.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="900" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="806" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1ab0d688f0252062d67e5f0736501fb7c7" prot="public" static="no" mutable="no">
         <type>union XMC_VADC_CHANNEL_CONFIG_t::@277</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="934" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="840" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a816aa69bdb19c90af8f946db4b1e8925" prot="public" static="no" mutable="no">
         <type>union XMC_VADC_CHANNEL_CONFIG_t::@279</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="951" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="857" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="879" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="879" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="785" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="785" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="889" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="889" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="795" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="795" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="894" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="894" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="800" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="800" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a8a131e0b7795d896bed92b0b774a64eb" prot="public" static="no" mutable="no">
         <type>int8_t</type>
@@ -93,11 +93,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Specifies the channel which has to be aliased with CH0/CH1 (which ever is applicable). Force the value to <bold></bold>(int8_t)-1 to bypass alias feature. Uses <ref refid="group___v_a_d_c_1ga32e761497c835cb7995991380b8b9676" kindref="member">XMC_VADC_CHANNEL_ALIAS_t</ref> for configuration. </para>
-        </detaileddescription>
+<para>Specifies the channel which has to be aliased with CH0/CH1 (which ever is applicable). Force the value to <bold></bold>(int8_t)-1 to bypass alias feature. Uses <ref refid="group___v_a_d_c_1ga32e761497c835cb7995991380b8b9676" kindref="member">XMC_VADC_CHANNEL_ALIAS_t</ref> for configuration. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="954" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="954" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="860" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="860" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1abc694c4a46e96fa73702976d69b0619f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -108,11 +107,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Input reference voltage selection either VARef or CH-0. Uses <ref refid="group___v_a_d_c_1gab0c1eb7f8d8743b6b98ebfe8acd14e28" kindref="member">XMC_VADC_CHANNEL_REF_t</ref> </para>
-        </detaileddescription>
+<para>Input reference voltage selection either VARef or CH-0. Uses <ref refid="group___v_a_d_c_1gab0c1eb7f8d8743b6b98ebfe8acd14e28" kindref="member">XMC_VADC_CHANNEL_REF_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="887" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="887" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="793" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="793" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a6bd36f0b7d0a4acb1defb5c7e9b574d2" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -125,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="933" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="933" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="839" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="839" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1aed9552b866e1ba693d36c0af702080f9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -138,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="950" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="950" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="856" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="856" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a7fb2414d385e31b4446533fd3e789b48" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -149,11 +147,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Specify the basic operation of boundary flag 0 Uses <ref refid="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" kindref="member">XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_t</ref> </para>
-        </detaileddescription>
+<para>Specify the basic operation of boundary flag 0 Uses <ref refid="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" kindref="member">XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="940" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="940" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="846" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="846" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a1b16be24c58631bf71b7eac5d7eccfd6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -164,11 +161,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Specify the basic operation of boundary flag 1 Uses <ref refid="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" kindref="member">XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_t</ref> </para>
-        </detaileddescription>
+<para>Specify the basic operation of boundary flag 1 Uses <ref refid="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" kindref="member">XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="942" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="942" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="848" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="848" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a11e5c96f2e23416b48fcb0ea845dd231" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -179,11 +175,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Specify the basic operation of boundary flag 2 Uses <ref refid="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" kindref="member">XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_t</ref> </para>
-        </detaileddescription>
+<para>Specify the basic operation of boundary flag 2 Uses <ref refid="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" kindref="member">XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="944" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="944" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="850" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="850" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1aa9b6fa496ec6a057cebd4d74fff6a502" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -194,11 +189,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Specify the basic operation of boundary flag 3 Uses <ref refid="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" kindref="member">XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_t</ref> </para>
-        </detaileddescription>
+<para>Specify the basic operation of boundary flag 3 Uses <ref refid="group___v_a_d_c_1ga017b3c6d3e14d46d5cf60602f262659d" kindref="member">XMC_VADC_GROUP_BOUNDARY_FLAG_MODE_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="946" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="946" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="852" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="852" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a3e8ebce22211f9d7c03e9fc7843fd8ea" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -209,11 +203,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Configures extra phase before the capacitor is sampled. </para>
-        </detaileddescription>
+<para>Configures extra phase before the capacitor is sampled. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="897" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="897" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="803" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="803" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a4d8031f9a26f99fde46015f8a65138b0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -224,11 +217,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Source to be used to charge the capacitor for BWD feature. Uses <ref refid="group___v_a_d_c_1ga91049cf62e24988e2df8554af78e2183" kindref="member">XMC_VADC_CHANNEL_BWDCH_t</ref>. </para>
-        </detaileddescription>
+<para>Source to be used to charge the capacitor for BWD feature. Uses <ref refid="group___v_a_d_c_1ga91049cf62e24988e2df8554af78e2183" kindref="member">XMC_VADC_CHANNEL_BWDCH_t</ref>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="895" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="895" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="801" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="801" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a5932b5c8ecb904ae3ed29ee37cedeeca" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -238,11 +230,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Only non priority channels can be converted by Background Request Source </para>
-        </detaileddescription>
+<para>Only non priority channels can be converted by Background Request Source </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="953" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="953" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="859" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="859" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a02b0cafda03d57dc81206cf4295a6c17" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -255,7 +246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="899" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="899" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="805" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="805" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1ad6d48cf05e253058ff97116a5328d605" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -266,11 +257,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>When should an event be generated? Uses <ref refid="group___v_a_d_c_1ga1b6bf4c15562eef67deac95cb36a48d6" kindref="member">XMC_VADC_CHANNEL_EVGEN_t</ref> </para>
-        </detaileddescription>
+<para>When should an event be generated? Uses <ref refid="group___v_a_d_c_1ga1b6bf4c15562eef67deac95cb36a48d6" kindref="member">XMC_VADC_CHANNEL_EVGEN_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="884" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="884" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="790" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="790" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1ae37065e1c1d6bb46b3ac4cbe88dd43e8" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -281,11 +271,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Condition for which the boundary flag should change. Uses <ref refid="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_CONDITION_t</ref> </para>
-        </detaileddescription>
+<para>Condition for which the boundary flag should change. Uses <ref refid="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_CONDITION_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="907" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="907" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="813" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="813" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a861117e4a2663d8c1c983881c6183a69" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -296,11 +285,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Condition for which the boundary flag should change. Uses <ref refid="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_CONDITION_t</ref> </para>
-        </detaileddescription>
+<para>Condition for which the boundary flag should change. Uses <ref refid="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_CONDITION_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="909" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="909" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="815" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="815" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a1693c20a2895511e87e303e0b536b354" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -311,11 +299,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Condition for which the boundary flag should change. Uses <ref refid="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_CONDITION_t</ref> </para>
-        </detaileddescription>
+<para>Condition for which the boundary flag should change. Uses <ref refid="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_CONDITION_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="911" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="911" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="817" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="817" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a1790b248fa78c94775340018d5d75eb9" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -326,11 +313,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Condition for which the boundary flag should change. Uses <ref refid="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_CONDITION_t</ref> </para>
-        </detaileddescription>
+<para>Condition for which the boundary flag should change. Uses <ref refid="group___v_a_d_c_1ga69fe77fd05cfd4a502f14becf6352cea" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_CONDITION_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="913" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="913" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="819" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="819" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a541d8cf63a55e89cd494c04ecbaba22d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -341,11 +327,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Input conversion class selection. Uses <ref refid="group___v_a_d_c_1ga0da7a93877a25398b4e70482b85acd03" kindref="member">XMC_VADC_CHANNEL_CONV_t</ref> </para>
-        </detaileddescription>
+<para>Input conversion class selection. Uses <ref refid="group___v_a_d_c_1ga0da7a93877a25398b4e70482b85acd03" kindref="member">XMC_VADC_CHANNEL_CONV_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="877" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="877" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="783" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="783" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1ae9bca220d6449a8cea505e236ffdbfaf" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -356,11 +341,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Inverts boundary flag output. </para>
-        </detaileddescription>
+<para>Inverts boundary flag output. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="920" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="920" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="826" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="826" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a9f086dba469b4106f42ce3939a8f512f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -371,11 +355,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Inverts boundary flag output. </para>
-        </detaileddescription>
+<para>Inverts boundary flag output. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="921" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="921" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="827" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="827" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a5c43f21835d69a1cd550b844a648afa0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -386,11 +369,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Inverts boundary flag output. </para>
-        </detaileddescription>
+<para>Inverts boundary flag output. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="922" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="922" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="828" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="828" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a0b50807d5bdc349b0293d32200bf798e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -401,11 +383,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Inverts boundary flag output. </para>
-        </detaileddescription>
+<para>Inverts boundary flag output. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="923" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="923" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="829" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="829" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a176b7b24a27a13d8e4c9f3c793d8a33a" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -416,11 +397,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Which boundary register serves as lower bound? Accepts enum <ref refid="group___v_a_d_c_1ga203ae2271679fb3e05d185a6bd14b8b2" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_t</ref> </para>
-        </detaileddescription>
+<para>Which boundary register serves as lower bound? Accepts enum <ref refid="group___v_a_d_c_1ga203ae2271679fb3e05d185a6bd14b8b2" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="880" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="880" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="786" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="786" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1ab7905bc2512f8d908fcc1e0861216910" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -431,11 +411,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Alignment of the results read in the result register. Uses <ref refid="group___v_a_d_c_1ga5db9760a1339267ae158e21ee3047859" kindref="member">XMC_VADC_RESULT_ALIGN_t</ref> </para>
-        </detaileddescription>
+<para>Alignment of the results read in the result register. Uses <ref refid="group___v_a_d_c_1ga5db9760a1339267ae158e21ee3047859" kindref="member">XMC_VADC_RESULT_ALIGN_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="892" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="892" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="798" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="798" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a6242812bf6bf8b9b28199831ef757c1f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -446,11 +425,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Group result register number </para>
-        </detaileddescription>
+<para>Group result register number </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="890" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="890" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="796" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="796" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1ac9b14d97abc821236d6aed27cf4c3cc0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -461,11 +439,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enables synchronous conversion for the configured channel </para>
-        </detaileddescription>
+<para>Enables synchronous conversion for the configured channel </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="886" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="886" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="792" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="792" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a5e0a2b26dc7c9e1eee29fd690d2c6018" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -476,11 +453,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Which boundary register serves as upper bound? Accepts enum <ref refid="group___v_a_d_c_1ga203ae2271679fb3e05d185a6bd14b8b2" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_t</ref> </para>
-        </detaileddescription>
+<para>Which boundary register serves as upper bound? Accepts enum <ref refid="group___v_a_d_c_1ga203ae2271679fb3e05d185a6bd14b8b2" kindref="member">XMC_VADC_CHANNEL_BOUNDARY_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="882" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="882" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="788" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="788" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a8707bc8ffc791a9880f1b229d048516f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -491,19 +467,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Use global result register for background request source channels </para>
-        </detaileddescription>
+<para>Use global result register for background request source channels </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="891" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="891" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="797" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="797" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Structure initializing the VADC channel. Use type <ref refid="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t" kindref="compound">XMC_VADC_CHANNEL_CONFIG_t</ref> for this enumeration. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="871" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="872" bodyend="957"/>
+<para>Structure initializing the VADC channel. Use type <ref refid="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t" kindref="compound">XMC_VADC_CHANNEL_CONFIG_t</ref> for this enumeration. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" line="778" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_vadc.h" bodystart="777" bodyend="863"/>
     <listofallmembers>
       <member refid="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_VADC_CHANNEL_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___v_a_d_c___c_h_a_n_n_e_l___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_VADC_CHANNEL_CONFIG_t</scope><name>__pad1__</name></member>

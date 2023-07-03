@@ -1,12 +1,11 @@
 /**
  * @file xmc_ccu4.h
- * @date 2019-03-30
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,62 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *     - Documentation updates <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *
- * 2015-07-22:
- *     - XMC_CCU4_SLICE_ConfigureStatusBitOverrideEvent() is updated to support XMC14 device. <br>
- *
- * 2015-08-17:
- *     - XMC_CCU4_SLICE_PRESCALER_t enum is added to set the prescaler divider. <br>
- *     - XMC_CCU4_SLICE_SHADOW_TRANSFER_MODE_t enum item names are updated according to the guidelines. <br>
- *     - XMC_CCU4_EnableShadowTransfer() API is made as inline, to improve the speed. <br>
- *
- * 2015-09-29:
- *     - In XMC_CCU4_SLICE_EVENT_LEVEL_SENSITIVITY_t, two more enum items are added to support external count direction
- *       settings.
- *
- * 2015-10-07:
- *     - XMC_CCU4_SLICE_GetEvent() is made as inline.
- *     - XMC_CCU4_SLICE_MULTI_IRQ_ID_t is added to support the XMC_CCU4_SLICE_EnableMultipleEvents() and
- *       XMC_CCU4_SLICE_DisableMultipleEvents() APIs.
- *     - DOC updates for the newly added APIs.
- *
- * 2016-03-09:
- *     - Optimization of write only registers
- *
- * 2016-05-20:
- *     - Added XMC_CCU4_SLICE_StopClearTimer()
- *     - Changed implementation of XMC_CCU4_SLICE_StopTimer() and XMC_CCU4_SLICE_ClearTimer() to avoid RMW access
- *
- * 2017-04-27:
- *     - XMC_CCU4_SLICE_SetPrescaler() changed div_val parameter to type XMC_CCU4_SLICE_PRESCALER_t
- *
- * 2017-09-15:
- *     - Fix XMC_CCU4_SLICE_SetShadowTransferMode()
- *
- * 2019-03-30:
- *     - Changed XMC_CCU4_StartPrescaler(), XMC_CCU4_StopPrescaler(), XMC_CCU4_EnableMultipleClocks(), XMC_CCU4_EnableClock(), XMC_CCU4_DisableClock() to avoid RMW access
- *     - Changed XMC_CCU4_SLICE_SetEvent(), XMC_CCU4_SLICE_ClearEvent() to avoid RMW access
- *     - Added XMC_CCU4_SetSuspendMode(), XMC_CCU4_SLICE_GetPrescaler()
- *
- * 2019-07-29:
- *     - Added XMC_CCU4_GetSliceStatusBit()
- *
- * 2022-03-09:
- *     - Documentation updates
- *
- * 2022-12-15:
- *     - Documentation updates
- *
  * @endcond
  */
 

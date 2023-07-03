@@ -4,8 +4,6 @@
 /*
 * @file     startup_XMC4108.s
 *           XMC4008 Device Series
-* @version  V1.4
-* @date     June 2016
 *
 *********************************************************************************************************************
 * Copyright (c) 2013-2020, Infineon Technologies AG
@@ -38,19 +36,6 @@
 * To improve the quality of the software, users are encouraged to share 
 * modifications, enhancements or bug fixes with Infineon Technologies AG 
 * at XMCSupport@infineon.com.
-*********************************************************************************************************************
-*
-******************************************************************************/
-/* ********************* Version History *********************************** */
-/* ***************************************************************************
-V1.0 January, 30 2013:  In ths version a workoraound for the erratum PMU_CM.001
-is implmented (patch for the Exception and interrupt handlers)
-V1.1 Augsut, 17 2013:  Fix the bug of preprocessor due to workoraound for 
-the erratum PMU_CM.001, and the bug of stack pointer alignment to a 8 byte boundary
-V1.2 November, 20 2014:  Disable CPU workaround. Removed DAVE3 dependency
-V1.3 November, 29 2015:  Remove peripherals not included in device
-V1.4, June     2016, Rename ENABLE_CPU_CM_001_WORKAROUND to ENABLE_PMU_CM_001_WORKAROUND
-                     Action required: If using AA step, use ENABLE_PMU_CM_001_WORKAROUND instead of ENABLE_CPU_CM_001_WORKAROUND
 **************************************************************************** */
 
         MODULE  ?vector_table

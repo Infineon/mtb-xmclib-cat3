@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     startup_XMC4402.S
  * @brief    CMSIS Core Device Startup File for Infineon XMC4402 Device Series
- * @version  V1.3
- * @date     18 Nov 2021
  *
  * @cond
  *********************************************************************************************************************
@@ -37,24 +35,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG 
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
- *
- **************************** Change history ********************************
- * V0.1,Sep, 13, 2012 ES : initial version
- * V0.2,Oct, 12, 2012 PKB: C++ support
- * V0.3,Jan, 26, 2013 PKB: Workaround for prefetch bug
- * V0.4,Jul, 29, 2013 PKB: AAPCS violation in V0.3 fixed
- * V0.5,Feb, 05, 2014 PKB: Removed redundant alignment code from copy+clear funcs   
- * V0.6,May, 05, 2014 JFT: Added ram_code section
- * V0.7,Nov, 25, 2014 JFT: CPU workaround disabled. Single default handler.
- *                         Removed DAVE3 dependency
- * V0.8,Nov, 29, 2015 JFT: Remove peripherals not included in device.
- * V0.9,Jan, 05, 2016 JFT: Fix .reset section attributes
- * V1.0,March,04,2016 JFT: Fix weak definition of Veneers. 
- *                         Only relevant for AA, which needs ENABLE_PMU_CM_001_WORKAROUND 
- * V1.1,June ,01,2016 JFT: Rename ENABLE_CPU_CM_001_WORKAROUND to ENABLE_PMU_CM_001_WORKAROUND
- *                         Action required: If using AA step, use ENABLE_PMU_CM_001_WORKAROUND instead of ENABLE_CPU_CM_001_WORKAROUND 
- * V1.2,Mai, 15, 2020 JFT:Added option (ENABLE_OWN_HANDLER) to generate a individual interrupt handlers for unhandled vectors
- * V1.3,Nov, 18, 2021     Added weak cy_toolchain_init
  *
  * @endcond 
  */

@@ -36,13 +36,6 @@
 ;* at XMCSupport@infineon.com.
 ;*********************************************************************************************************************
 ;*
-;******************* Version History **********************************************   
-;
-;  V1, May,  7,2015 JFT:a) Initial version, MCLK=8MHz, PCLK=16MHz
-;  V2, Sep, 15,2017 JFT:a) JFT:Added option to select wait time before ASC BSL channel selection (WAIT_ASCBSL_ENTRY_SSW)
-;     
-;**********************************************************************************
-;
 ; The modules in this file are included in the libraries, and may be replaced
 ; by any user-defined modules that define the PUBLIC symbol _program_start or
 ; a user defined start symbol.

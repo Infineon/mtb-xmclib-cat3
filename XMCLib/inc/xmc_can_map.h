@@ -1,10 +1,9 @@
 /**
  * @file xmc_can_map.h
- * @date 2020-09-03
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,25 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-09-15:
- *     - Initial version
- *
- * 2015-10-20:
- *     - Removed "const" in the MOs for avoiding compiler warnings
- *
- * 2017-10-30:
- *     - Added support for XMC4700
- *
- * 2019-07-30:
- *     - Added support for XMC1404-Q040
- *
- * 2020-09-03:
- *     -Fixed XMC48/47 BGA196 package support
- *
  * @endcond
  *
  */

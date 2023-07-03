@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -40,7 +40,7 @@
     <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;ch&quot;)}`" visible="`${debug}`" editable="false" desc="" />
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="api_doc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___d_m_a.html" linkText="Open DMA Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___d_m_a.html" linkText="Open DMA Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!-- Channel Settings -->
     <ParamChoice id="transfer_type" name="Transfer Type" group="Channel Settings" default="XMC_DMA_CH_TRANSFER_TYPE_SINGLE_BLOCK" visible="true" editable="true" desc="Select DMA transfer type.">

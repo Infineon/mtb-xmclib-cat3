@@ -1,12 +1,11 @@
 /**
  * @file xmc_i2s.h
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,38 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-08-21:
- *     - Initial <br>
- *
- * 2015-08-24:
- *     - Added APIs for enabling/disabling delay compensation XMC_I2S_CH_DisableDelayCompensation() and
- *       XMC_I2S_CH_EnableDelayCompensation() <br>
- *
- * 2015-09-01:
- *     - Modified XMC_I2S_CH_SetInputSource() for avoiding complete DXCR register overwriting. <br>
- *     - Modified XMC_I2S_CH_EVENT_t enum for supporting XMC_I2S_CH_EnableEvent() and XMC_I2S_CH_DisableEvent() <br>
- *       for supporting multiple events configuration <br>
- *
- * 2015-09-14:
- *     - Modified XMC_I2S_CH_SetSystemWordLength for supporting up to 63 system word length<br>
- *
- * 2016-05-20:
- *     - Added XMC_I2S_CH_EnableDataTransmission() and XMC_I2S_CH_DisableDataTransmission()
- *
- * 2016-06-30:
- *     - Documentation updates.
- *
- * 2019-05-07:
- *     - Added normal_divider_mode to XMC_I2S_CH_CONFIG_t configuration structure.
- *       It selects normal divider mode for baudrate generator instead of default fractional divider decreasing jitter at cost of frequency selection
- *     - Added XMC_I2S_CH_SetBaudrateEx()
- *
- * 2020-12-05:
- *    - Added XMC_I2S_CH_InitEx() that allows user select if automatic baudrate configuration should be done or not
  *
  * @endcond
  *

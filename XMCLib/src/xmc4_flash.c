@@ -1,10 +1,9 @@
 /**
  * @file xmc4_flash.c
- * @date 2016-01-08
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,36 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-10:
- *     - Initial <br>
- *
- * 2015-06-20:
- *     - Removed definition of GetDriverVersion API
- *
- * 2015-08-17:
- *     - Added the below API's to the public interface.
- *       1. XMC_FLASH_Reset
- *       2. XMC_FLASH_ErasePhysicalSector
- *       3. XMC_FLASH_EraseUCB
- *       4. XMC_FLASH_ResumeProtection
- *       5. XMC_FLASH_RepairPhysicalSector
- *
- * 2016-01-08:
- *     - Wait until operation is finished for the next functions:
- *       1. XMC_FLASH_InstallProtection
- *       2. XMC_FLASH_ConfirmProtection
- *       3. XMC_FLASH_ProgramPage
- *       4. XMC_FLASH_EraseSector
- *       5. XMC_FLASH_ErasePhysicalSector
- *       6. XMC_FLASH_EraseUCB
- *     - Fix XMC_FLASH_VerifyReadProtection and XMC_FLASH_VerifyWriteProtection
- *
- * 2018-02-08
- *     - Added implementation of XMC_FLASH_InstallBMI()
  *
  * @endcond
  *

@@ -1,10 +1,9 @@
 /**
  * @file xmc4_usic_map.h
- * @date 2016-07-20
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,23 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial version
- *
- * 2015-08-25:
- *     - Added XMC4800
- *
- * 2015-12-07:
- *     - Add XMC4300 support
- *
- * 2016-07-20:
- *     - Add missing USIC2_C1_DX0_P4_6,USIC1_C0_DX0_P1_14, USIC2_C0_DX0_P6_5, USIC2_C0_DX0_P9_4, USIC2_C1_DX1_P9_9, USIC2_C1_DX2_P9_8  for XMC47/48 BGA196
- *     - Add missing USIC2_C1_DX0_P4_6, USIC1_C0_DX0_P1_14 for XMC47/48 LQFP100
- *     - Add missing USIC2_C1_DX0_P4_6, USIC1_C0_DX0_P1_14, USIC2_C0_DX0_P6_5 for XMC47/48 LQFP144
  *
  * @endcond
  *

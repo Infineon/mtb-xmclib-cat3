@@ -1,13 +1,12 @@
 
 /**
  * @file xmc_math.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -38,35 +37,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *     - Updated copyright and change history section.
- *
- * 2015-09-23:
- *     - Added SQRT functions
- *
- * 2015-10-08:
- *     - Return values for sin(), cos(), sinh(), cosh(), arctan() are corrected.
- *
- * 2017-04-20:
- *     - Foward declaration of __aeabi_* to fix link time optimization (-flto) compilation errors
- *
- * 2017-11-30:
- *     - Fixed reentrancy problems when using __aeabi_* functions (division ‘/’ and modulo ‘%’ C operators) which are active by default
- *       as long as XMC_MATH_DISABLE_DIV_ABI is not defined
- *
- * 2018-08-08:
- *     - Fixed compiler warnings for compiler others than GCC
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * 2022-03-15:
- *     - Remove externally_visible attribute from the __aeabi_* forward declaration for ARM compiler.
  *
  * @endcond
  *

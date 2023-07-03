@@ -1,12 +1,10 @@
 ;*********************************************************************************************************************
 ;* @file     startup_XMC1400.s
 ;* @brief    CMSIS Core Device Startup File for Infineon XMC1400 Device Series
-;* @version  V1.3
-;* @date     January 2021
 ;*
 ;* @cond
 ;*********************************************************************************************************************
-;* Copyright (c) 2015-2020, Infineon Technologies AG
+;* Copyright (c) 2015-2023, Infineon Technologies AG
 ;* All rights reserved.                        
 ;*                                             
 ;* Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,14 +35,6 @@
 ;* modifications, enhancements or bug fixes with Infineon Technologies AG 
 ;* at XMCSupport@infineon.com.
 ;*********************************************************************************************************************
-;*
-;**************************** Change history ********************************
-;* V1.0, Sep, 03, 2015 JFT:Initial version
-;*                         MCLK=8MHz, PCLK=16MHz
-;*
-;* V1.1, Sep, 15, 2017 JFT:Added option to select wait time before ASC BSL channel selection (WAIT_ASCBSL_ENTRY_SSW)
-;* V1.2, Jul, 22, 2018 JFT:Modify way interrupt handler veneers are defined
-;* V1.3, January  2021,Stack configured in scatter file
 ;*
 ;* @endcond 
 ;*

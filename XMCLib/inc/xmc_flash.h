@@ -1,12 +1,11 @@
 /**
  * @file xmc_flash.h
- * @date 2019-05-06
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -38,17 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2014-12-10:
- *     - Initial <br>
- * 2015-02-20:
- *     - Updated for Documentation related changes<br>
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- * 2019-05-06:
- *     - Moved definitions of XMC_FLASH_ProgramPage() and XMC_FLASH_EraseSector() to xmc1_flash.h and xmc4_flash.h
  * @endcond
  *
  */

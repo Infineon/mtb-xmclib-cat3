@@ -2,12 +2,10 @@
 ;* @file     startup_XMC4700.s
 ;* @brief    CMSIS Core Device Startup File for
 ;*           Infineon XMC4700 Device Series
-;* @version  V1.1
-;* @date     Jnauary 2021
 ;*
 ;* @cond
 ;*********************************************************************************************************************
-;* Copyright (c) 2015-2020, Infineon Technologies AG
+;* Copyright (c) 2015-2023, Infineon Technologies AG
 ;* All rights reserved.                        
 ;*                                             
 ;* Boost Software License - Version 1.0 - August 17th, 2003
@@ -39,10 +37,6 @@
 ;* at XMCSupport@infineon.com.
 ;*********************************************************************************************************************
 ;*
-;************************** Version History ************************************
-; V1.0, 03 Sep   2015, First version
-; V1.1, January  2021, Stack configured in scatter file
-;*******************************************************************************
 ;* @endcond
 
 				IMPORT |Image$$ARM_LIB_STACK$$ZI$$Limit|

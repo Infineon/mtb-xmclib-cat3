@@ -1,12 +1,10 @@
 ;*********************************************************************************************************************
 ;* @file     startup_XMC1100.s
 ;* @brief    CMSIS Core Device Startup File for Infineon XMC1100 Device Series
-;* @version  V1.5
-;* @date     January 2021
 ;*
 ;* @cond
 ;*********************************************************************************************************************
-;* Copyright (c) 2013-2020, Infineon Technologies AG
+;* Copyright (c) 2013-2023, Infineon Technologies AG
 ;* All rights reserved.                        
 ;*                                             
 ;* Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,15 +35,6 @@
 ;* modifications, enhancements or bug fixes with Infineon Technologies AG 
 ;* at XMCSupport@infineon.com.
 ;*********************************************************************************************************************
-;*
-;**************************** Change history ********************************
-;* V1.0, Jan, 21, 2013 TYS:Startup file for XMC1
-;* V1.1, Jul, 17, 2013 TYS:remove redundant vector table
-;* V1.2, Nov, 25, 2014 JFT:Removed DAVE3 dependency. 
-;*                         Default handler used for all IRQs
-;* V1.3, Dec, 11, 2014 JFT:Default clocking changed, MCLK=32MHz and PCLK=64MHz
-;* V1.4, Sep, 03, 2015 JFT:SSW default clocking changed, MCLK=8MHz and PCLK=16MHz avoid problems with BMI tool timeout
-;* V1.5, January  2021, Stack configured in scatter file
 ;*
 ;* @endcond 
 ;*

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___c_a_n___m_o__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_CAN_MO_t</compoundname>
     <includes local="no">xmc_can.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="572" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="510" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a2b30ed67af7dce991101056e40b47c4f" prot="public" static="no" mutable="no">
         <type>union XMC_CAN_MO_t::@34</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="581" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="519" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a375691eba44edbfbcbcc4ae7d4e7fcc4" prot="public" static="no" mutable="no">
         <type>union XMC_CAN_MO_t::@36</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="592" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="530" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1acecc85ddf6f11d5fddda5e56ae6ec62e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -51,11 +51,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>can_data[0] lower 4 bytes of the data. can_data[1], higher 4 bytes of the data </para>
-        </detaileddescription>
+<para>can_data[0] lower 4 bytes of the data. can_data[1], higher 4 bytes of the data </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="589" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="589" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="527" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="527" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1ac99cd3b7bd39157fa87d7c625cd4f863" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -65,11 +64,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Each position of the array represents a data byte </para>
-        </detaileddescription>
+<para>Each position of the array represents a data byte </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="587" column="13" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="587" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="525" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="525" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1ace905b2193685e394c9ade25ac146410" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -79,11 +77,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Message data length, Range:0-8 </para>
-        </detaileddescription>
+<para>Message data length, Range:0-8 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="582" column="11" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="582" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="520" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="520" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1ac99a08106aef6d26cb8abb62655f7475" prot="public" static="no" mutable="no">
         <type>uint64_t</type>
@@ -96,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="591" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="591" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="529" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="529" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1ad86eed15a50a137ec3ef4e6811731289" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -106,11 +103,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Each position of the array represents a 16 bits data word </para>
-        </detaileddescription>
+<para>Each position of the array represents a 16 bits data word </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="588" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="588" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="526" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="526" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1aafdb185d7ad247e1d80141451719181e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -121,11 +117,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>CAN Identifier of Message Object </para>
-        </detaileddescription>
+<para>CAN Identifier of Message Object </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="577" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="577" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="515" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="515" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a1bc50d1516b0ac8ecef7689e50907d73" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -136,11 +131,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Standard/Extended identifier support </para>
-        </detaileddescription>
+<para>Standard/Extended identifier support </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="568" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="568" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="506" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="506" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a0b35f45889a24060818e40e5dac8e889" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -151,11 +145,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Identifier Extension Bit of Message Object </para>
-        </detaileddescription>
+<para>Identifier Extension Bit of Message Object </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="578" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="578" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="516" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="516" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a3ac03968891110b9c46b3a83e4a161d6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -166,11 +159,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>standard (11 bit)/Extended (29 bit) message identifier </para>
-        </detaileddescription>
+<para>standard (11 bit)/Extended (29 bit) message identifier </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="567" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="567" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="505" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="505" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a93593ca451037e051fd6e76d116d3f4a" prot="public" static="no" mutable="no">
         <type>CAN_MO_TypeDef *</type>
@@ -180,11 +172,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Pointer to the Message Object CAN register </para>
-        </detaileddescription>
+<para>Pointer to the Message Object CAN register </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="562" column="18" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="562" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="500" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="500" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a9d6efc5caebe53cfabdc7b4358e996df" prot="public" static="no" mutable="no">
         <type><ref refid="group___c_a_n_1ga3fbcea02aab3f82946f94f9a31a23cc6" kindref="member">XMC_CAN_MO_TYPE_t</ref></type>
@@ -194,11 +185,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Message Type </para>
-        </detaileddescription>
+<para>Message Type </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="594" column="21" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="594" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="532" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="532" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a3bacfc6bfd05a5a3e49d9bdbadde84fb" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -209,11 +199,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Arbitration Mode/Priority </para>
-        </detaileddescription>
+<para>Arbitration Mode/Priority </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="569" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="569" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="507" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="507" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a8a1452785a7de1a47685d34960b81ad0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -226,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="580" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="580" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="518" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="518" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___c_a_n___m_o__t_1a968843df2111d453ca2a11a412f6e5bf" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -239,15 +228,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="571" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="571" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="509" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="509" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Defines CAN Message Object runtime elements. Use type <emphasis><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref></emphasis> for this structure. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="560" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="561" bodyend="596"/>
+<para>Defines CAN Message Object runtime elements. Use type <emphasis><ref refid="struct_x_m_c___c_a_n___m_o__t" kindref="compound">XMC_CAN_MO_t</ref></emphasis> for this structure. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" line="499" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_can.h" bodystart="498" bodyend="534"/>
     <listofallmembers>
       <member refid="struct_x_m_c___c_a_n___m_o__t_1acecc85ddf6f11d5fddda5e56ae6ec62e" prot="public" virt="non-virtual"><scope>XMC_CAN_MO_t</scope><name>can_data</name></member>
       <member refid="struct_x_m_c___c_a_n___m_o__t_1ac99cd3b7bd39157fa87d7c625cd4f863" prot="public" virt="non-virtual"><scope>XMC_CAN_MO_t</scope><name>can_data_byte</name></member>

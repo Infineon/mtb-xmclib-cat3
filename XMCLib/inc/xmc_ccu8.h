@@ -1,12 +1,11 @@
 /**
  * @file xmc_ccu8.h
- * @date 2019-07-29
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,76 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *     - Documentation updates <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *     - Added XMC_CCU8_SLICE_LoadSelector() API, to select which compare register value has to be loaded
- *       during external load event.
- *
- * 2015-07-01:
- *     - In XMC_CCU8_SLICE_CHECK_INTERRUPT macro, fixed the missing item for compare match down for channel 2. <br>
- *
- * 2015-07-24:
- *     - XMC_CCU8_SLICE_ConfigureStatusBitOverrideEvent() is updated to support XMC14 device. <br>
- *
- * 2015-08-17:
- *     - XMC_CCU8_SLICE_PRESCALER_t enum is added to set the prescaler divider. <br>
- *     - XMC_CCU8_SLICE_SHADOW_TRANSFER_MODE_t is added for all the devices except XMC45 devices, to set when the
- *       shadow transfer has to happen. <br>
- *     - XMC_CCU8_SOURCE_OUT0_t, XMC_CCU8_SOURCE_OUT1_t, XMC_CCU8_SOURCE_OUT2_t, XMC_CCU8_SOURCE_OUT3_t enums are added
- *       to maps one of the ST to OUT0, OUT1, OUT3, OUT4 signals.
- *     - In XMC_CCU8_SLICE_COMPARE_CONFIG_t structure, selector_out0, selector_out1, selector_out2, selector_out3 are
- *       added to support XMC14 devices.
- *     - XMC_CCU8_EnableShadowTransfer() API is made as inline, to improve the speed. <br>
- *     - XMC_CCU8_SLICE_EnableCascadedShadowTransfer(), XMC_CCU8_SLICE_DisableCascadedShadowTransfer(),
- *       XMC_CCU8_SLICE_SetShadowTransferMode() API are supported for all the devices except XMC45.
- *
- * 2015-09-29:
- *     - In XMC_CCU8_SLICE_EVENT_LEVEL_SENSITIVITY_t, two more enum items are added to support external count direction
- *       settings.
- *
- * 2015-10-07:
- *     - XMC_CCU8_SLICE_SetTimerCompareMatchChannel1(), XMC_CCU8_SLICE_SetTimerCompareMatchChannel2() inline APIs are
- *       added to update the respective compare registers directly.
- *     - XMC_CCU8_SLICE_GetEvent() is made as inline.
- *     - XMC_CCU8_SLICE_MULTI_IRQ_ID_t is added to support the XMC_CCU8_SLICE_EnableMultipleEvents() and
- *       XMC_CCU8_SLICE_DisableMultipleEvents() APIs.
- *     - DOC updates for the newly added APIs.
- *
- * 2016-03-09:
- *     - Optimization of write only registers
- *
- * 2016-05-20:
- *     - Added XMC_CCU8_SLICE_StopClearTimer()
- *     - Changed XMC_CCU8_SLICE_StopTimer() and XMC_CCU8_SLICE_ClearTimer()
- *
- * 2017-04-27:
- *     - XMC_CCU8_SLICE_SetPrescaler() changed div_val parameter to type XMC_CCU8_SLICE_PRESCALER_t
- *
- * 2017-09-15:
- *     - Fix XMC_CCU8_SLICE_SetShadowTransferMode()
- *     - Added parity checking functionality
- *
- * 2019-03-30:
- *     - Changed XMC_CCU8_StartPrescaler(), XMC_CCU8_StartParityChecker(), XMC_CCU8_StopPrescaler(), XMC_CCU8_StopParityChecker(),
- *       XMC_CCU8_EnableMultipleClocks(), XMC_CCU8_EnableClock(), XMC_CCU8_DisableClock() to avoid RMW access
- *     - Changed XMC_CCU8_SLICE_SetEvent(), XMC_CCU8_SLICE_ClearEvent() to avoid RMW access
- *     - Added XMC_CCU8_SetSuspendMode(), XMC_CCU8_SLICE_GetPrescaler()
- *     - Added XMC_CCU8_SLICE_GetTimerCompareMatchChannel1() and XMC_CCU8_SLICE_GetTimerCompareMatchChannel2()
- *
- * 2019-07-29:
- *     - Added XMC_CCU8_GetSliceStatusBit()
- *
- * 2022-03-09:
- *     - Documentation updates
- *
  * @endcond
  */
 
@@ -2371,10 +2300,9 @@ __STATIC_INLINE uint16_t XMC_CCU8_SLICE_GetTimerCompareMatchChannel2(XMC_CCU8_SL
  * Requests of shadow transfer for Period, Compare, Passive level, dither and prescaler, by configuring
  * the GCSS register.\n\n
  * The transfer from the shadow registers to the actual registers is done in the immediate next occurrence of the
- * shadow transfer trigger after the API is called.
- *
- * Any call to XMC_CCU8_SLICE_SetTimerPeriodMatch()<BR>  XMC_CCU8_SLICE_SetTimerCompareMatch()<BR>
- * XMC_XMC_CCU8_SLICE_SetPrescaler()<BR> XMC_CCU8_SLICE_CompareInit()<BR> XMC_CCU8_SLICE_CaptureInit().
+ * shadow transfer trigger after the API is called.\n\n
+ * Any call to XMC_CCU8_SLICE_SetTimerPeriodMatch(), XMC_CCU8_SLICE_SetTimerCompareMatch(),
+ * XMC_CCU8_SLICE_SetPrescaler(), XMC_CCU8_SLICE_CompareInit(), XMC_CCU8_SLICE_CaptureInit()
  * must be succeeded by this API.
  *
  * \par<b>Related APIs:</b><br>
@@ -2485,7 +2413,7 @@ __STATIC_INLINE void XMC_CCU8_SLICE_DisableDithering(XMC_CCU8_SLICE_t *const sli
  *
  * \par<b>Related APIs:</b><br>
  *  XMC_CCU8_SLICE_SetFloatingPrescalerCompareValue()<BR>  XMC_CCU8_SLICE_DisableFloatingPrescaler()<BR>
- *  XMC_XMC_CCU8_SLICE_SetPrescaler().
+ *  XMC_CCU8_SLICE_SetPrescaler().
  */
 __STATIC_INLINE void XMC_CCU8_SLICE_EnableFloatingPrescaler(XMC_CCU8_SLICE_t *const slice)
 {

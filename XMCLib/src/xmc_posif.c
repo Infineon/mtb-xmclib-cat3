@@ -1,10 +1,9 @@
 /**
  * @file xmc_posif.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,27 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-18:
- *     - Initial version
- *
- * 2015-02-20:
- *     - Driver description added <BR>
- *
- * 2015-04-30:
- *     - XMC_POSIF_Enable and XMC_POSIF_Disable APIs updated for POSIF1 peripheral check <BR>
- *
- * 2015-06-19:
- *     - Removed GetDriverVersion API <BR>
- *
- * 2017-02-25:
- *     - XMC_POSIF_Enable() and XMC_POSIF_Disable() fixed compilation warnings
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  *

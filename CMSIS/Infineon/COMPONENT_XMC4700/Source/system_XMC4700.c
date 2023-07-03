@@ -1,8 +1,6 @@
 /*********************************************************************************************************************
  * @file     system_XMC4700.c
  * @brief    CMSIS Cortex-M4 Device Peripheral Access Layer Header File for the Infineon XMC4700 Device Series
- * @version  V1.0.8
- * @date     27. Aug 2020
  *
  * @cond
  *********************************************************************************************************************
@@ -38,21 +36,6 @@
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
  *
- ********************** Version History ***************************************
- * V1.0.0, 03. Sep 2015, Initial version
- * V1.0.1, 26. Jan 2016, Disable trap generation from clock unit
- * V1.0.2, 01. Jun 2016, Fix masking of OSCHPCTRL value
- * V1.0.3, 09. Feb 2017, Fix activation of USBPLL when SDMMC clock is enabled 
- * V1.0.4, 19. Jun 2017, Rely on cmsis_compiler.h instead of defining __WEAK 
- *                       Added support for ARM Compiler 6 (armclang) 
- * V1.0.5, 26. Sep 2017, Disable FPU if FPU_USED is zero    
- * V1.0.6, 29. Oct 2018, Fix variable location of SystemCoreClock and g_chipid for ARMCC compiler
- * V1.0,7, 02. Dec 2019, Fix including device header file following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *                       Fix external clock monitoring pin settings
- * V1.0.8, 27. Aug 2020. Fix K1 divider input clock for PLL in prescaler mode
- *                       Added compiler checks for input VCO and VCO frequencies
- *                       Added wait for K2 divider ready after updating the K2 divider in the PLL ramp up 
- ******************************************************************************
  * @endcond
  */
 

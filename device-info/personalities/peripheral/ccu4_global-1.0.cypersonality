@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2020-2021 Cypress Semiconductor Corporation
+* Copyright 2020-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -62,7 +62,7 @@
     <ParamString id="frequency_info" name="Frequency" group="General"
       default="`${formatFrequency(fCCU4)}`" visible="true" editable="false"
       desc="Input frequency to CCU4 module from System Control Unit (SCU)." />
-    <ParamChoice id="mc_shadow_tx_function" name="Multi Channel Mode Shadow Transfer" group="General"
+    <ParamChoice id="mc_shadow_tx_function" name="Multi-Channel Mode Shadow Transfer" group="General"
       default="XMC_CCU4_SLICE_MCMS_ACTION_TRANSFER_PR_CR" visible="true" editable="true"
       desc="Select this to allow the override of the status signal (CC4yST) with a value passed through an external signal. This will consume two events: one configured as edge that will act as trigger to override the status bit and the other configured as level that contains the value to be copied in the status bit." >
       <Entry name="Period and Compare" value="XMC_CCU4_SLICE_MCMS_ACTION_TRANSFER_PR_CR" visible="true" />
@@ -83,7 +83,7 @@
     <ConfigDefine name="`${INST_NAME}`_NUM" value="`${module_num}`U" public="true" include="true" />
     <ConfigDefine name="`${baseAddr}`" value="CCU4`${module_num}`" public="true" include="true" />
     
-    <ConfigDefine name="`${INST_NAME}`_SR$idx_INTERRUPT_HANDLER" value="CCU8`${module_num}`_$idx_IRQHandler" public="true" 
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_INTERRUPT_HANDLER" value="CCU4`${module_num}`_$idx_IRQHandler" public="true" 
                   include="`${((isSlice0Used &amp;&amp; hasExposedMember(slice0Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice0Rcs, &quot;sr&quot;)) : true) &amp;&amp;
                                (isSlice1Used &amp;&amp; hasExposedMember(slice1Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice1Rcs, &quot;sr&quot;)) : true) &amp;&amp;
                                (isSlice2Used &amp;&amp; hasExposedMember(slice2Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice2Rcs, &quot;sr&quot;)) : true) &amp;&amp;
@@ -92,8 +92,8 @@
                                (isSlice1Used ? getExposedMember(slice1Rcs, &quot;isSR$idxUsed&quot;) : false) ||
                                (isSlice2Used ? getExposedMember(slice2Rcs, &quot;isSR$idxUsed&quot;) : false) ||
                                (isSlice3Used ? getExposedMember(slice3Rcs, &quot;isSR$idxUsed&quot;) : false))}`" repeatCount="4" />
-                              
-    <ConfigDefine name="`${INST_NAME}`_SR$idx_IRQN" value="CCU8`${module_num}`_$idx_IRQn" public="true" 
+
+    <ConfigDefine name="`${INST_NAME}`_SR$idx_IRQN" value="CCU4`${module_num}`_$idx_IRQn" public="true" 
                   include="`${((isSlice0Used &amp;&amp; hasExposedMember(slice0Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice0Rcs, &quot;sr&quot;)) : true) &amp;&amp;
                                (isSlice1Used &amp;&amp; hasExposedMember(slice1Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice1Rcs, &quot;sr&quot;)) : true) &amp;&amp;
                                (isSlice2Used &amp;&amp; hasExposedMember(slice2Rcs, &quot;baseAddress&quot;) ? ($idx ne getExposedMember(slice2Rcs, &quot;sr&quot;)) : true) &amp;&amp;
@@ -102,7 +102,7 @@
                                (isSlice1Used ? getExposedMember(slice1Rcs, &quot;isSR$idxUsed&quot;) : false) ||
                                (isSlice2Used ? getExposedMember(slice2Rcs, &quot;isSR$idxUsed&quot;) : false) ||
                                (isSlice3Used ? getExposedMember(slice3Rcs, &quot;isSR$idxUsed&quot;) : false))}`" repeatCount="4" />
-    
+
     <ConfigInstruction value="XMC_CCU4_Init(`${baseAddr}`, `${mc_shadow_tx_function}`);" include="true"/>
     <ConfigInstruction value="XMC_CCU4_StartPrescaler(`${baseAddr}`);" include="true"/>
   </ConfigFirmware>

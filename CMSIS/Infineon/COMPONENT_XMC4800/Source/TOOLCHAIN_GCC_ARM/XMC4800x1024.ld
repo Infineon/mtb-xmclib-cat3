@@ -1,6 +1,5 @@
 /**
  * @file XMC4800x1024.ld
- * @date 2021-08-13
  *
  * @cond
  *********************************************************************************************************************
@@ -40,28 +39,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG 
  * at XMCSupport@infineon.com.
  *********************************************************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-05-22:
- *     - Initial version
- *
- * 2015-07-13:
- *     - Updates from ARM template for C++ and fixes for GCC 4.9q2
- *
- * 2016-03-08:
- *     - Fix size of BSS and DATA sections to be multiple of 4
- *     - Add assertion to check that region SRAM_combined does not overflowed no_init section
- *
- * 2017-04-07:
- *     - Added new symbols __text_size and eText
- *
- * 2017-04-20:
- *     - Change vtable location to flash area to save ram
- *
- * 2021-08-13:
- *     - Include libnosys in the default link step
  *
  * @endcond 
  *

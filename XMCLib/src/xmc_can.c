@@ -1,10 +1,9 @@
 /**
  * @file xmc_can.c
- * @date 2020-03-17
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,55 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial draft <br>
- *
- * 2015-05-20:
- *     - New API added: XMC_CAN_MO_ReceiveData() <br>
- *     - XMC_CAN_MO_Config() signature has changed <br>
- *     - Minor fix in XMC_CAN_TXFIFO_ConfigMOSlaveObject(). <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- *
- * 2015-09-01:
- *     - Removed  fCANB clock support <br>
- *
- * 2015-09-08:
- *     - Fixed bug in XMC_CAN_Init() <br>
- *
- * 2016-06-07:
- *     - Changed XMC_CAN_AllocateMOtoNodeList to wait for ready status of list controller
- *
- * 2016-06-20:
- *     - Fixed bug in XMC_CAN_MO_Config() <br>
- *
- * 2017-11-09:
- *     - Added XMC_CAN_InitEx() and XMC_CAN_NODE_NominalBitTimeConfigureEx()
- *     - Make XMC_CAN_GetBaudrateClockSource(), XMC_CAN_SetBaudrateClockSource() and XMC_CAN_GetBaudrateClockFrequency() available to all devices
- *     - Changed refactoring XMC_CAN_MO_Config() to configure MOCTR depending on transmit or receive message type
- *
- * 2018-06-21:
- *     - Fixed XMC_CAN_NODE_NominalBitTimeConfigureEx()
- *
- * 2018-11-12:
- *     - Fixed assertion at XMC_CAN_InitEx()
- *
- * 2019-05-07:
- *     - Fixed compilation warnings
- *
- * 2019-06-26:
- *     - Fixed XMC_CAN_NODE_NominalBitTimeConfigureEx() non returning, decrementing ntq before continuing with next iteration
- *     - Added XMC_CAN_GetClockFrequency()
- *     - Fixed XMC_CAN_InitEx() so that XMC_CAN_SetBaudrateClockSource() is invoked before XMC_CAN_GetBaudrateClockFrequency()
- *
- * 2020-03-17:
- *     - Fixed XMC_CAN_MO_ReceiveData() according to description in the reference manual
- *     - Fixed XMC_CAN_MO_SetAcceptanceMask(), checking for matching message IDE
  *
  * @endcond
  *

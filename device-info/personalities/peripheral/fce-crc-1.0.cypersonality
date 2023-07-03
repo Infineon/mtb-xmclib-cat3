@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2021-2022 Cypress Semiconductor Corporation
+* Copyright 2021-2023 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,7 +37,7 @@
     <ParamBool id="module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(module_resource)}`" visible="false" editable="false" desc="True when the FCE module resource is not enabled." />
 
     <!-- Peripheral documentation -->
-    <ParamDoc id="apiDoc" name="Configuration Help" group="Peripheral Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___f_c_e.html" linkText="Open FCE Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___f_c_e.html" linkText="Open FCE Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
 
     <ParamBool id="input_data_reflection" name="Input Data Bytewise Reflection" group="CRC Input Configuration" default="false" visible="true" editable="true" desc="Enables input data bytewise inversion." />
     <ParamRange id="initialization_value" name="Initialization Value" group="CRC Input Configuration" default="0" min="0" max="`${max_seedvalue}`" resolution="1" visible="true" editable="true" desc="Defines the CRC seed value." />

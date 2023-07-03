@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_GPIO_CONFIG_t</compoundname>
     <includes local="no">xmc4_gpio.h</includes>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Defines the direction and characteristics of a pin </para>
-        </detaileddescription>
+<para>Defines the direction and characteristics of a pin </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="282" column="19" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="282" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="270" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="270" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t_1a4b0a44f35dff9e6923d944c2b5fbbdf1" prot="public" static="no" mutable="no">
         <type><ref refid="group___g_p_i_o_1gae796714115da2c77c076003e8ad2053f" kindref="member">XMC_GPIO_OUTPUT_LEVEL_t</ref></type>
@@ -26,11 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Defines output level of a pin </para>
-        </detaileddescription>
+<para>Defines output level of a pin </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="283" column="27" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="283" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="271" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="271" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t_1af4c8c95be0b5ed659d1a2d9366b5fc94" prot="public" static="no" mutable="no">
         <type><ref refid="group___g_p_i_o_1ga7a4984d9a772fdfa15bfd067695963b7" kindref="member">XMC_GPIO_OUTPUT_STRENGTH_t</ref></type>
@@ -40,19 +38,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Defines pad driver mode of a pin </para>
-        </detaileddescription>
+<para>Defines pad driver mode of a pin </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="284" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="284" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="272" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="272" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Structure initializes port pin. Use type <ref refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" kindref="compound">XMC_GPIO_CONFIG_t</ref> for this structure. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="280" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="281" bodyend="285"/>
+<para>Structure initializes port pin. Use type <ref refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t" kindref="compound">XMC_GPIO_CONFIG_t</ref> for this structure. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" line="269" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc4_gpio.h" bodystart="268" bodyend="273"/>
     <listofallmembers>
       <member refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t_1aaa3bc9ee099fd407ab2c81b04e036c0d" prot="public" virt="non-virtual"><scope>XMC_GPIO_CONFIG_t</scope><name>mode</name></member>
       <member refid="struct_x_m_c___g_p_i_o___c_o_n_f_i_g__t_1a4b0a44f35dff9e6923d944c2b5fbbdf1" prot="public" virt="non-virtual"><scope>XMC_GPIO_CONFIG_t</scope><name>output_level</name></member>

@@ -1,10 +1,9 @@
 /**
  * @file xmc_bccu.c
- * @date 2019-12-16
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -37,27 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-19:
- *     - Initial draft <br>
- *
- * 2015-05-08:
- *     - Minor bug fixes in following APIs: XMC_BCCU_ConcurrentStartDimming(), XMC_BCCU_ConcurrentAbortDimming(),
- *               XMC_BCCU_SetGlobalDimmingLevel() <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API
- *
- * 2019-12-16:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
- *
- * <b>Detailed description of file:</b><br>
- * APIs for the functional blocks of BCCU have been defined:<br>
- * -- GLOBAL configuration <br>
- * -- Clock configuration, Function/Event configuration, Interrupt configuration <br>
  *
  * @endcond
  *

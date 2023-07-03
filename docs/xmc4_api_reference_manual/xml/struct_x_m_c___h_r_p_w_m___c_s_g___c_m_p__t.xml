@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_HRPWM_CSG_CMP_t</compoundname>
     <includes local="no">xmc_hrpwm.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="792" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="766" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a8452c070c8639236c0d84bd260e2002b" prot="public" static="no" mutable="no">
         <type>union XMC_HRPWM_CSG_CMP_t::@195</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="811" column="3"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="785" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="772" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="772" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="746" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="746" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="773" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="773" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="747" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="747" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="779" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="779" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="753" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="753" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a4854608c0e776f0704a4d9a4b98ea57d" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="784" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="784" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="758" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="758" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a7b2edc85d90e34c4435951e1e5c59517" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="789" column="7" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="789" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="763" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="763" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a4f7f935f7bc5b46198411d97b68c633f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -109,11 +109,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enable blanking via external trigger. Accepts enum XMC_HRPWM_FUNC_STATUS_t </para>
-        </detaileddescription>
+<para>Enable blanking via external trigger. Accepts enum XMC_HRPWM_FUNC_STATUS_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="781" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="781" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="755" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="755" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1afef925764e58672f6cc37c6af986a785" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -124,11 +123,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Select the edge for blanking. Accepts enum XMC_HRPWM_CSG_EDGE_SEL_t </para>
-        </detaileddescription>
+<para>Select the edge for blanking. Accepts enum XMC_HRPWM_CSG_EDGE_SEL_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="780" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="780" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="754" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="754" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1ad5958626a08bf7f69428d46560047454" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -138,11 +136,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>blanking value, blanking time = blanking_val * module clk freq </para>
-        </detaileddescription>
+<para>blanking value, blanking time = blanking_val * module clk freq </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="794" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="794" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="768" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="768" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a75d55d7ce0393b0129efd88265d92b4c" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -152,11 +149,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Comparator general configuration </para>
-        </detaileddescription>
+<para>Comparator general configuration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="791" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="791" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="765" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="765" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a014e85b3aac875bb3b3799d787449b65" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -167,11 +163,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Select the trigger signal level for clamping the comparator output. Accepts enum XMC_HRPWM_CSG_LVL_SEL_t </para>
-        </detaileddescription>
+<para>Select the trigger signal level for clamping the comparator output. Accepts enum XMC_HRPWM_CSG_LVL_SEL_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="802" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="802" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="776" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="776" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1af5ed926a0b654583be64916b2ee31bac" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -182,11 +177,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Clamping level enter configuration </para>
-        </detaileddescription>
+<para>Clamping level enter configuration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="806" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="806" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="780" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="780" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1aae9f0c3434e35cb5252adfe8c68edaeb" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -197,11 +191,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Clamping level exit configuration </para>
-        </detaileddescription>
+<para>Clamping level exit configuration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="807" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="807" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="781" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="781" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1ae6a20ee53766e9c83ec171ece4eebdd3" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -212,11 +205,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Clamped state exit software configuration </para>
-        </detaileddescription>
+<para>Clamped state exit software configuration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="805" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="805" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="779" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="779" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a7f988059b2359e0219f85d1a3405e14f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -227,11 +219,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Select the comparator output passive level value. </para>
-        </detaileddescription>
+<para>Select the comparator output passive level value. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="804" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="804" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="778" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="778" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a28e060be1518141ef54d4f52b2098701" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -242,11 +233,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enable switching of input between CINA and CINB via external trigger. Accepts enum XMC_HRPWM_FUNC_STATUS_t </para>
-        </detaileddescription>
+<para>Enable switching of input between CINA and CINB via external trigger. Accepts enum XMC_HRPWM_FUNC_STATUS_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="776" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="776" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="750" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="750" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a0b65c21c4e18908ae834b1381c8026ce" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -257,11 +247,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Comparator input pin selection. Accepts enum XMC_HRPWM_CSG_CMP_INPUT_t </para>
-        </detaileddescription>
+<para>Comparator input pin selection. Accepts enum XMC_HRPWM_CSG_CMP_INPUT_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="774" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="774" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="748" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="748" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a0d025e55c495a856022c50a7205b1613" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -272,11 +261,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Comparator input switching configuration. Accepts enum XMC_HRPWM_CSG_LVL_SEL_t </para>
-        </detaileddescription>
+<para>Comparator input switching configuration. Accepts enum XMC_HRPWM_CSG_LVL_SEL_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="775" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="775" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="749" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="749" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a8b6d3056a1cc5d38f96e26b2e7c67609" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -287,11 +275,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Invert comparator output. Accepts enum XMC_HRPWM_FUNC_STATUS_t </para>
-        </detaileddescription>
+<para>Invert comparator output. Accepts enum XMC_HRPWM_FUNC_STATUS_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="778" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="778" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="752" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="752" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1ada74eb6ec44fe9acb3ced84933c11b51" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -302,11 +289,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Select the filter application condition 00B Filtering is always done if enabled 01B Filtering is only done when CSGyDSV1 value is currently fed to the DAC 10B Filtering is only done when the CSGyDSV2 value is currently fed to the DAC </para>
-        </detaileddescription>
+<para>Select the filter application condition 00B Filtering is always done if enabled 01B Filtering is only done when CSGyDSV1 value is currently fed to the DAC 10B Filtering is only done when the CSGyDSV2 value is currently fed to the DAC </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="785" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="785" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="759" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="759" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a154589b56a6dde99236f10fed0d8e92f" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -317,11 +303,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Enable comparator output filter. Accepts enum XMC_HRPWM_FUNC_STATUS_t </para>
-        </detaileddescription>
+<para>Enable comparator output filter. Accepts enum XMC_HRPWM_FUNC_STATUS_t </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="782" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="782" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="756" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="756" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a4379e8d5b51ae2008226b0001059a4d6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -332,11 +317,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Select the comparator output filter window </para>
-        </detaileddescription>
+<para>Select the comparator output filter window </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="783" column="16" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="783" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="757" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="757" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a6e3f82ece1fb862fecaeb417fcd535f7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -346,19 +330,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Comparator passive level configuration </para>
-        </detaileddescription>
+<para>Comparator passive level configuration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="810" column="14" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="810" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="784" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="784" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>CSG Unit - Comparator configuration </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="766" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="767" bodyend="812"/>
+<para>CSG Unit - Comparator configuration </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" line="741" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_hrpwm.h" bodystart="740" bodyend="786"/>
     <listofallmembers>
       <member refid="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_HRPWM_CSG_CMP_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___h_r_p_w_m___c_s_g___c_m_p__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_HRPWM_CSG_CMP_t</scope><name>__pad1__</name></member>

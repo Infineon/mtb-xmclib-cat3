@@ -1,12 +1,11 @@
 /**
  * @file xmc_math.h
- * @date 2019-12-02
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,25 +36,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *     - Updated copyright and change history section.
- *
- * 2015-08-25:
- *     - XMC_MATH_ClearEvent() API is updated to set the event clear flag bit. <br>
- *
- * 2015-09-23:
- *     - Added SQRT functions
- *
- * 2015-10-08:
- *     - Return values for sin(), cos(), sinh(), cosh(), arctan() are corrected.
- *
- * 2019-12-02:
- *     - Fix including files following the convention: angle brackets are used for standard includes and double quotes for everything else.
  *
  * @endcond
  *

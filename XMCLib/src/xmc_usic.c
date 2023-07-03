@@ -1,10 +1,9 @@
 /**
  * @file xmc_usic.c
- * @date 2020-12-05
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,50 +37,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial draft <br>
- *     - Documentation improved <br>
- *
- * 2015-05-08:
- *     - Clearing bit fields PDIV, PCTQ, PPPEN in XMC_USIC_CH_SetBaudrate() API <br>
- *
- * 2015-06-20:
- *     - Removed version macros and declaration of GetDriverVersion API <br>
- *
- * 2015-08-27:
- *     - Added APIs for external input for BRG configuration:XMC_USIC_CH_ConfigExternalInputSignalToBRG() <br>
- *
- * 2015-08-28:
- *     - Added asserts to XMC_USIC_CH_ConfigExternalInputSignalToBRG() <br>
- *
- * 2015-09-01:
- *     - Fixed warning in the asserts <br>
- *
- * 2018-09-29:
- *     - Added XMC_USIC_CH_SetBaudrateEx which uses the integer divider instead of the fractional divider <br>
- *
- * 2019-03-30:
- *     - Changed XMC_USIC_Enable() adding polling to check clock ungate
- *
- * 2019-05-07:
- *     - Added XMC_USIC_CH_GetBaudrate(), XMC_USIC_CH_GetSCLKFrequency() and XMC_USIC_CH_GetMCLKFrequency()
- *
- * 2019-07-01:
- *     - XMC_USIC_CH_SetBaudrateEx() change type of input parameters
- *
- * 2019-09-25:
- *     - Fixed XMC_USIC_CH_SetBaudrate() which under certain circumtances, i.e. if fPERI == baudrate * oversampling, delivers wrong calculations
- *
- * 2020-04-30:
- *     - Fixed XMC_USIC_CH_TXFIFO_SetSizeTriggerLimit() and  XMC_USIC_CH_RXFIFO_SetSizeTriggerLimit(), avoid disabling the FIFO while the channel is active.
- *       For new projects please use XMC_USIC_CH_TXFIFO_SetTriggerLimit() and XMC_USIC_CH_RXFIFO_SetTriggerLimit()
- *
- * 2020-12-05:
- *     - Added XMC_USIC_CH_SetBaudrateDivider()
- * 
  * @endcond
  *
  */

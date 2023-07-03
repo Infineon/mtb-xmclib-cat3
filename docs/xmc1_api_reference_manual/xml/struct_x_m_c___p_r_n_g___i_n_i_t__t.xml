@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="struct_x_m_c___p_r_n_g___i_n_i_t__t" kind="struct" language="C++" prot="public">
     <compoundname>XMC_PRNG_INIT_t</compoundname>
     <includes local="no">xmc_prng.h</includes>
@@ -12,11 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Block size </para>
-        </detaileddescription>
+<para>Block size </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="135" column="30" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="135" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="124" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___p_r_n_g___i_n_i_t__t_1ae294d317ff78e6afef276dbd57b09d44" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -26,21 +25,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Keywords </para>
-        </detaileddescription>
+<para>Keywords </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="134" column="12" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="134" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="123" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Key words and data block size configuration values of PRNG <linebreak/>
-</para>
-<para>The structure presents a convenient way to set/obtain the key word and data block configuration values of PRNG. The <ref refid="group___p_r_n_g_1ga21fe2808ff30944aff357280cb2d9774" kindref="member">XMC_PRNG_Init()</ref> can be used to populate the structure with the key word and data block configuration values of the PRNG module. </para>
-    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="132" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="133" bodyend="136"/>
+</para><para>The structure presents a convenient way to set/obtain the key word and data block configuration values of PRNG. The <ref refid="group___p_r_n_g_1ga21fe2808ff30944aff357280cb2d9774" kindref="member">XMC_PRNG_Init()</ref> can be used to populate the structure with the key word and data block configuration values of the PRNG module. </para>    </detaileddescription>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" line="122" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_prng.h" bodystart="121" bodyend="125"/>
     <listofallmembers>
       <member refid="struct_x_m_c___p_r_n_g___i_n_i_t__t_1a4b87edc7670ff66f98de78d3a15980a1" prot="public" virt="non-virtual"><scope>XMC_PRNG_INIT_t</scope><name>block_size</name></member>
       <member refid="struct_x_m_c___p_r_n_g___i_n_i_t__t_1ae294d317ff78e6afef276dbd57b09d44" prot="public" virt="non-virtual"><scope>XMC_PRNG_INIT_t</scope><name>key_words</name></member>

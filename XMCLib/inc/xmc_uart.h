@@ -1,12 +1,11 @@
 /**
 * @file xmc_uart.h
-* @date 2020-12-05
 *
 * @cond
 *****************************************************************************
-* XMClib v2.2.0 - XMC Peripheral Driver Library
+* XMClib - XMC Peripheral Driver Library
 *
-* Copyright (c) 2015-2020, Infineon Technologies AG
+* Copyright (c) 2015-2023, Infineon Technologies AG
 * All rights reserved.
 *
 * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,38 +36,6 @@
 * modifications, enhancements or bug fixes with Infineon Technologies AG
 * at XMCSupport@infineon.com.
 *****************************************************************************
-*
-* Change History
-* --------------
-*
-* 2015-02-20:
-*     - Initial
-*
-* 2015-05-20:
-*     - Description updated <br>
-*     - Added XMC_UART_CH_TriggerServiceRequest() and XMC_UART_CH_SelectInterruptNodePointer <br>
-*
-* 2015-06-20:
-*     - Removed version macros and declaration of GetDriverVersion API <br>
-*
-* 2015-09-01:
-*     - Modified XMC_UART_CH_SetInputSource() for avoiding complete DXCR register overwriting. <br>
-*     - Modified XMC_UART_CH_EVENT_t enum for supporting XMC_UART_CH_EnableEvent() and XMC_UART_CH_DisableEvent()
-*       for supporting multiple events configuration <br>
-*
-* 2016-05-20:
-*     - Added XMC_UART_CH_EnableDataTransmission() and XMC_UART_CH_DisableDataTransmission()
-*
-* 2017-10-25:
-*     - Added XMC_UART_CH_EnableMasterClock() and XMC_UART_CH_DisableMasterClock()
-*
-* 2019-05-07:
-*     - Added normal_divider_mode to XMC_UART_CH_CONFIG_t configuration structure.
-*       It selects normal divider mode for baudrate generator instead of default fractional divider decreasing jitter at cost of frequency selection
-*     - Added XMC_UART_CH_SetBaudrateEx()
-*
-* 2020-12-05:
-*    - Added XMC_UART_CH_InitEx() that allows user select if automatic baudrate configuration should be done or not
 *
 * @endcond
 *
@@ -401,7 +368,8 @@ XMC_UART_CH_STATUS_t XMC_UART_CH_SetBaudrateEx(XMC_USIC_CH_t *const channel, uin
  * So user can continuously execute the API without checking for TBUF busy status. Based on the number of
  * data bits configured, the lower significant bits will be extracted for transmission.
  *
- * Note: When FIFO is not configured, the API waits for the TBUF to be available.
+ * \par<b>Note:</b><br>
+ * When FIFO is not configured, the API waits for the TBUF to be available.
  * This makes the execution a blocking call.
  *
  * \par<b>Related APIs:</b><BR>
@@ -521,7 +489,9 @@ void XMC_UART_CH_DisableEvent(XMC_USIC_CH_t *const channel, const uint32_t event
  * For all the protocol events enlisted in the enumeration XMC_UART_CH_EVENT_t, one common
  * interrupt gets generated. The service request connects the interrupt node to the UART
  * protocol events.
- * Note: NVIC node should be separately enabled to generate the interrupt.
+ * 
+ * \par<b>Note:</b><br>
+ * NVIC node should be separately enabled to generate the interrupt.
  *
  * \par<b>Related APIs:</b><BR>
  * XMC_UART_CH_EnableEvent() \n\n\n
@@ -547,7 +517,9 @@ __STATIC_INLINE void XMC_UART_CH_SetInterruptNodePointer(XMC_USIC_CH_t *const ch
  * Sets the interrupt node for USIC channel events. \n\n
  * For an event to generate interrupt, node pointer should be configured with service request(SR0, SR1..SR5).
  * The NVIC node gets linked to the interrupt event by doing so.<br>
- * Note: NVIC node should be separately enabled to generate the interrupt.
+ * 
+ * \par<b>Note:</b><br>
+ * NVIC node should be separately enabled to generate the interrupt.
  *
  * \par<b>Related APIs:</b><BR>
  * XMC_UART_CH_EnableEvent() \n\n\n
@@ -867,7 +839,9 @@ __STATIC_INLINE void XMC_UART_CH_SetInputSamplingFreq(XMC_USIC_CH_t *const chann
  * Enable data transmission.\n\n
  * Use this function in combination with XMC_UART_CH_DisableDataTransmission() to fill the FIFO and send the FIFO content without gaps in the transmission.
  * FIFO is filled using XMC_USIC_CH_TXFIFO_PutData().
- * @note If you need more control over the start of transmission use XMC_USIC_CH_SetStartTransmisionMode()
+ * 
+ * \par<b>Note:</b><br>
+ * If you need more control over the start of transmission use XMC_USIC_CH_SetStartTransmisionMode()
  *
  * \par<b>Related APIs:</b><BR>
  * XMC_UART_CH_DisableDataTransmission()\n\n\n

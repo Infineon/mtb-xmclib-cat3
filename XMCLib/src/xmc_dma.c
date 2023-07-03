@@ -1,11 +1,10 @@
 
 /**
  * @file xmc_dma.c
- * @date 2019-05-07
  *
  * @cond
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
  * Copyright (c) 2015-2020, Infineon Technologies AG
  * All rights reserved.
@@ -38,41 +37,6 @@
  * modifications, enhancements or bug fixes with Infineon Technologies AG
  * at XMCSupport@infineon.com.
  *****************************************************************************
- *
- * Change History
- * --------------
- *
- * 2015-02-20:
- *     - Initial <br>
- *
- * 2015-05-20:
- *     - Add the declarations for the following APIs: <br>
- *       XMC_DMA_DisableRequestLine, XMC_DMA_ClearRequestLine, <br>
- *       XMC_DMA_CH_ClearSourcePeripheralRequest, <br>
- *       XMC_DMA_CH_ClearDestinationPeripheralRequest <br>
- *     - Remove PRIOARRAY <br>
- *     - Documentation updates <br>
- *
- * 2015-06-20:
- *     - Removed GetDriverVersion API <br>
- *     - Updated XMC_DMA_CH_Init() to support scatter/gather functionality (only
- *       on advanced DMA channels) <br>
- *     - Updated XMC_DMA_CH_Disable() <br>
- *
- * 2016-03-09:
- *     - Optimize write only registers
- *
- * 2016-04-08:
- *     - Update XMC_DMA_CH_EnableEvent and XMC_DMA_CH_DisableEvent.
- *       Write optimization of MASKCHEV
- *     - Fix XMC_DMA_IRQHandler, clear channel event status before processing the event handler.
- *       It corrects event losses if the DMA triggered in the event handler finished before returning from handler.
- *
- * 2018-02-08:
- *     - Fix XMC_DMA_CH_RequestLastMultiblockTransfer() clearing CTLL_LLP_SRC_EN and CTLL_LLP_DST_EN
- *
- * 2019-05-07:
- *     - Fixed compilation warnings
  *
  * @endcond
  */

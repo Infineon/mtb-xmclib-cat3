@@ -1,11 +1,10 @@
 /**
  * @file xmc_usbh.h
- * @date 2020-11-20
  *
  *****************************************************************************
- * XMClib v2.2.0 - XMC Peripheral Driver Library
+ * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -37,17 +36,6 @@
  * at XMCSupport@infineon.com.
  *****************************************************************************
  *
- * Change History
- * --------------
- *
- * 2016-06-30:
- *     - Initial Version.<br>
- * 2016-09-01:
- *     - Removed Keil specific inclusions and macros<br>
- * 2018-06-21:
- *     - Fixed compilation issues for XMC42
- * 2020-11-20:
- *     - Fixed compilation errors for XMC4504
  * @endcond
  *
  */
