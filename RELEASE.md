@@ -23,7 +23,7 @@ This version of the XMCLib was validated for compatibility with the following So
 | :---                                                                          | :----   |
 | ModusToolbox&trade;                                                           |  3.1.0  |
 | [core library](https://github.com/Infineon/core-lib)                          |  1.4.1  |
-| [device-db](https://github.com/Infineon/device-db)                            |  4.9.0  |
+| [device-db](https://github.com/Infineon/device-db)                            |  4.10.0 |
 | CMSIS-Core(M)                                                                 |  5.8.0  |
 | GCC Compiler                                                                  | 11.3.1  |
 
