@@ -6,13 +6,13 @@
     <includes local="yes">xmc1_gpio.h</includes>
     <includedby refid="xmc__usbh_8h" local="yes">xmc_usbh.h</includedby>
     <incdepgraph>
-      <node id="61">
+      <node id="77">
         <label>xmc1_gpio.h</label>
       </node>
-      <node id="60">
+      <node id="76">
         <label>xmc_gpio.h</label>
         <link refid="xmc__gpio_8h"/>
-        <childnode refid="61" relation="include">
+        <childnode refid="77" relation="include">
         </childnode>
       </node>
     </incdepgraph>

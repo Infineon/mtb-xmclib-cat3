@@ -5,13 +5,13 @@
     <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">xmc1_ccu8_map.h</includes>
     <incdepgraph>
-      <node id="25">
+      <node id="41">
         <label>xmc_ccu8.h</label>
         <link refid="xmc__ccu8_8h"/>
-        <childnode refid="26" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="42">
         <label>xmc1_ccu8_map.h</label>
       </node>
     </incdepgraph>

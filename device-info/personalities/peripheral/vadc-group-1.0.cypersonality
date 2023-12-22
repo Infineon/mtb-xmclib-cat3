@@ -44,6 +44,7 @@
     <ParamBool id="ip_ver1" name="IP Block Version 1" desc="True for XMC1 series." group="Internal" default="`${ip_version == 1}`" visible="false" editable="false" />
     <ParamBool id="ip_ver2" name="IP Block Version 2" desc="True for XMC4 series." group="Internal" default="`${ip_version == 2}`" visible="false" editable="false" />
     <ParamString id="vadc_global_instance" name="VADC Global Instance" group="Internal" default="vadc[0]" visible="false" editable="false" desc="VADC Global index." />
+    <ParamString id="vadc_global_name" name="VADC Global Name" group="Internal" default="`${getExposedMember(vadc_global_instance, &quot;vadc_name&quot;)}`" visible="false" editable="false" desc="VADC Group base address pointer." />
     <ParamBool id="xmc11_dont_include" name="XMC11 Series" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;1100&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC1100 is selected." />
     <ParamBool id="xmc4500_dont_include" name="XMC4500" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4500&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4500 is selected." />
     <ParamBool id="xmc4502_dont_include" name="XMC4502" group="Internal" default="`${(lookupExpression(&quot;XMC_SERIES&quot;) == &quot;4502&quot;) ? (true) : (false) }`" visible="false" editable="false" desc="True when the XMC4502 is selected." />
@@ -486,7 +487,7 @@
       <Member name="external_trigger" value="(uint32_t) `${group_request_sources_external_trigger_id}`" include="true" />
     </ConfigStruct>
 
-    <ConfigStruct name="`${INST_NAME}`_iclass_$idx" type="XMC_VADC_GROUP_CLASS_t" const="`${inFlash}`" public="true" include="`${group_input_classes_phase_std_conv_id_$idx || group_input_classes_phase_emux_conv_id_$idx}`" repeatCount="2">
+    <ConfigStruct name="`${vadc_global_name}`_`${group_num}`_iclass_$idx" type="XMC_VADC_GROUP_CLASS_t" const="`${inFlash}`" public="true" include="true" repeatCount="2">
       <Member name="sample_time_std_conv" value="(uint32_t) `${group_input_classes_phase_std_conv_id_$idx}`" include="true" />
       <Member name="conversion_mode_standard" value="XMC_VADC_CONVMODE_`${group_input_classes_std_conv_mode_id_$idx}`" include="true" />
       <Member name="sampling_phase_emux_channel" value="(uint32_t) `${group_input_classes_phase_emux_conv_id_$idx}`" include="true" />
@@ -515,11 +516,11 @@
 
     <ConfigInstruction value="&#xA;    /* Initialize input classes. */" include="`${group_input_classes_phase_std_conv_id_0 || group_input_classes_phase_emux_conv_id_0 || group_input_classes_phase_std_conv_id_1 || group_input_classes_phase_emux_conv_id_1}`" />
     <ConfigInstruction value="XMC_VADC_GROUP_InputClassInit(`${INST_NAME}`_HW,&#xA;
-                              `${INST_NAME}`_iclass_0,&#xA;
+                              `${vadc_global_name}`_`${group_num}`_iclass_0,&#xA;
                               XMC_VADC_GROUP_CONV_`${$idx ? &quot;EMUX&quot; : &quot;STD&quot;}`,&#xA;
                               `${INST_NAME}`_ICLASS_0);" include="`${(group_input_classes_phase_std_conv_id_0 || group_input_classes_phase_emux_conv_id_0) &amp;&amp; !xmc11_dont_include}`" repeatCount="2" />
     <ConfigInstruction value="XMC_VADC_GROUP_InputClassInit(`${INST_NAME}`_HW,&#xA;
-                              `${INST_NAME}`_iclass_1,&#xA;
+                              `${vadc_global_name}`_`${group_num}`_iclass_1,&#xA;
                               XMC_VADC_GROUP_CONV_`${$idx ? &quot;EMUX&quot; : &quot;STD&quot;}`,&#xA;
                               `${INST_NAME}`_ICLASS_1);" include="`${(group_input_classes_phase_std_conv_id_1 || group_input_classes_phase_emux_conv_id_1) &amp;&amp; !xmc11_dont_include}`" repeatCount="2" />
 
@@ -551,7 +552,7 @@
     <ConfigInstruction value="&#xA;    /* Fast compare configuration for Result Register-$idx. */&#xA;    XMC_VADC_GROUP_SetResultFastCompareValue(`${INST_NAME}`_HW, (uint32_t)$idx, `${group_result_registers_compare_ref_value_id_$idx}`);" include="`${group_result_registers_compare_ref_value_id_$idx &amp;&amp; !xmc11_dont_include}`" repeatCount="16" />
 
     <ConfigInstruction value="&#xA;    /* Insert channels into the background request sources. */" include="`${group_request_sources_background_assigned_id}`" />
-    <ConfigInstruction value="XMC_VADC_GLOBAL_BackgndAddMultipleChannels(`${getExposedMember(&quot;vadc[0]&quot;, &quot;vadc_base&quot;)}`,&#xA;
+    <ConfigInstruction value="XMC_VADC_GLOBAL_BackgndAddMultipleChannels(`${getExposedMember(vadc_global_instance, &quot;vadc_base&quot;)}`,&#xA;
                                                  `${INST_NAME}`_NUM,&#xA;
                                                  `${INST_NAME}`_BACKGROUND_SCAN_CHANNELS);" include="`${group_request_sources_background_assigned_id}`" />
 

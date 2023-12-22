@@ -6,13 +6,13 @@
     <includes local="yes">XMC1000_RomFunctionTable.h</includes>
     <includedby refid="xmc__flash_8h" local="yes">xmc_flash.h</includedby>
     <incdepgraph>
-      <node id="4">
+      <node id="20">
         <label>xmc1_flash.h</label>
         <link refid="xmc1__flash_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="21">
         <label>XMC1000_RomFunctionTable.h</label>
       </node>
     </incdepgraph>

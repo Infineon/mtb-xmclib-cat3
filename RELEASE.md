@@ -4,22 +4,16 @@ Please refer to the [README](./README.md) and the XMCLib for [XMC1000](https://i
 
 ## What Changed?
 
+### New personalities
+
+- PRNG 1.0
+- SDMMC 1.0
+- ETH_MAC 0.5
+
 ### Updated personalities
 
-- All personalities - Updated the parameters naming and images location.
-- emUSB - Removed the redundant code generation. Improved the DRC handling.
-- emUSB OS Timer - Added a new field for the Interrupt Priority selection. Fixed the issue with the Service Request selection.
-- CCU4 Global 1.0 - Fixed the generated interrupt handler and number macros.
-- I2C 1.0 - Obsoleted the functionality cleanup.
-- VADC-GROUP 1.0 -  Updated the connection visibility of Background Gating Input signal. Updated the generated gate and trigger signals configurational macros.
-- WDT 1.0 - Updated the connection visibility of the Service Output signal.
-
-### Updated drivers
-
-- The SCU_CLK_DSLEEPCR_SYSSEL_Msk value of the CMSIS headers XMC4500.h, XMC4502.h, XMC4504.h, XMC4700.h, and XMC4800.h changed to 0x1UL.
-- The DSLEEPCR register SYSSEL section <msb>  parameter changed to 0 for XMC4500.svd, XMC4700.svd, and XMC4800.svd.
-- Updated the High Resolution PWM Unit (HRPWM) mapping file.
-- Removed the change history from the source files.
+- UART
+- VADC
 
 ## Supported Software and Tools
 
@@ -28,8 +22,8 @@ This version of the XMCLib was validated for compatibility with the following So
 | Software and Tools                                                            | Version |
 | :---                                                                          | :----   |
 | ModusToolbox&trade;                                                           |  3.1.0  |
-| [core library](https://github.com/Infineon/core-lib)                          |  1.3.1  |
-| [device-db](https://github.com/Infineon/device-db)                            |  4.3.0  |
+| [core library](https://github.com/Infineon/core-lib)                          |  1.4.1  |
+| [device-db](https://github.com/Infineon/device-db)                            |  4.9.0  |
 | CMSIS-Core(M)                                                                 |  5.8.0  |
 | GCC Compiler                                                                  | 11.3.1  |
 

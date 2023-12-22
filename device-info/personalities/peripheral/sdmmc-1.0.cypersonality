@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file sdmmc-1.0.cypersonality
+* \version 1.0
+*
+* \brief
+* SDMMC personality description file.
+*
+********************************************************************************
+* \copyright
+* Copyright 2020-2023 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_sdmmc" name="SDMMC" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_sdmmc" />
+    <Resource name="sdmmc"/>
+  </Dependencies>
+  <ExposedMembers/>
+  <Parameters>
+    <!--Internal-->
+    <ParamString id="sdmmcclk_resource" name="" group="Internal" default="scu[0].clock[0].sdclk[0]" visible="false" editable="false" desc=""/>
+    <ParamBool id="sdmmcclk_enabled" name="" group="Internal" default="`${isBlockUsed(sdmmcclk_resource)}`" visible="false" editable="false" desc=""/>
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___s_d_m_m_c.html" linkText="Open SDMMC Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation"/>
+
+    <!--General-->
+    <ParamChoice id="bus_width" name="Data Bus Width" group="General" default="XMC_SDMMC_DATA_LINES_1" visible="true" editable="true" desc="This parameter defines the data width of the host controller. The host driver shall select it to match the data width of the SD card.">
+      <Entry name="1-bit SD/MMC" value="XMC_SDMMC_DATA_LINES_1" visible="true"/>
+      <Entry name="4-bit SD/MMC" value="XMC_SDMMC_DATA_LINES_4" visible="true"/>
+      <Entry name="8-bit MMC" value="XMC_SDMMC_DATA_LINES_8" visible="true"/>
+    </ParamChoice>
+    <ParamBool id="enable_sdmmc_cmd_dat_delay" name="SDMMC CMD/DAT Delay" group="General" default="false" visible="true" editable="true" desc="Enables delay on the CMD/DAT lines of the SD host controller."/>
+    <ParamRange id="num_delay_elements" name="Delay Elements" group="General" default="8" min="1" max="16" resolution="1" visible="`${enable_sdmmc_cmd_dat_delay}`" editable="`${enable_sdmmc_cmd_dat_delay}`" desc="Configures number of delay elements used on CMD/DAT out lines of the SD host controller." />
+    <ParamRange id="calc_delay_elements" name="Calculated Delay Elements" group="Internal" default="`${num_delay_elements - 1}`" min="0" max="15" resolution="1" visible="false" editable="false" desc="Calculated number of delay elements used on CMD/DAT out lines of the SD host controller." />
+
+    <!-- Functional Signals -->
+    <ParamBool id="enable_led_signal" name="LED Signal" group="Functional Signals" default="false" visible="true" editable="true" desc="Enable LED signal to indicate data transmission between the SD card and the MCU."/>
+    <ParamBool id="enable_sdwc_signal" name="Write Protection Signal (SDWC)" group="Functional Signals" default="false" visible="true" editable="true" desc="Enable write protection signal. This signal can be used to indicate if the SD card is write protected."/>
+    <ParamBool id="enable_sdcd_signal" name="Card Detection Signal (SDCD)" group="Functional Signals" default="false" visible="true" editable="true" desc="Enable card detection signal. This signal can be used to trigger an interrupt to the processor when the SD card is either inserted OR removed."/>
+    <ParamBool id="enable_bus_power_signal" name="Bus Power Signal" group="Functional Signals" default="false" visible="true" editable="true" desc="Enable bus power signal. This signal is used to provide an input voltage signal to the card. The APP will set the voltage levels in the block layer."/>
+    <ParamBool id="enable_rst_signal" name="Reset Signal (RST)" group="Functional Signals" default="false" visible="true" editable="true" desc="Enable reset signal. The RST pin provides a way for the SDMMC peripheral to reset the SD card."/>
+
+    <!-- Connections -->
+    <Repeat count="8">
+      <ParamSignal port="data$idx_in[0]" name="DATA$idx IN" group="Connections" visible="`${((bus_width eq XMC_SDMMC_DATA_LINES_1) &amp;&amp; ($idx eq 0)) || ((bus_width eq XMC_SDMMC_DATA_LINES_4) &amp;&amp; ($idx lt 4)) || (bus_width eq XMC_SDMMC_DATA_LINES_8)}`" canBeEmpty="`${((bus_width eq XMC_SDMMC_DATA_LINES_1) &amp;&amp; ($idx gt 0)) || ((bus_width eq XMC_SDMMC_DATA_LINES_4) &amp;&amp; ($idx gt 3))}`" multiSelect="false" desc="DATA$idx input.">
+        <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+          <Parameter id="io_function" severity="DEFAULT" reason="">
+            <Fixed value="XMC_GPIO_HWCTRL" />
+          </Parameter>
+          <Parameter id="output_strength" severity="DEFAULT" reason="">
+            <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+          </Parameter>
+        </Constraint>
+      </ParamSignal>
+      <ParamSignal port="data$idx_out[0]" name="DATA$idx OUT" group="Connections" visible="`${((bus_width eq XMC_SDMMC_DATA_LINES_1) &amp;&amp; ($idx eq 0)) || ((bus_width eq XMC_SDMMC_DATA_LINES_4) &amp;&amp; ($idx lt 4)) || (bus_width eq XMC_SDMMC_DATA_LINES_8)}`" canBeEmpty="`${((bus_width eq XMC_SDMMC_DATA_LINES_1) &amp;&amp; ($idx gt 0)) || ((bus_width eq XMC_SDMMC_DATA_LINES_4) &amp;&amp; ($idx gt 3))}`" multiSelect="false" desc="DATA$idx output.">
+        <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+          <Parameter id="io_function" severity="DEFAULT" reason="">
+            <Fixed value="XMC_GPIO_HWCTRL" />
+          </Parameter>
+          <Parameter id="output_strength" severity="DEFAULT" reason="">
+            <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+          </Parameter>
+        </Constraint>
+      </ParamSignal>
+    </Repeat>
+    <ParamSignal port="clk_in[0]" name="CLK IN" group="Connections" visible="true" canBeEmpty="false" multiSelect="false" isDependency="true" desc="Feedback clock of clk_sdcard_out from the pads.">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+    <ParamSignal port="clk_out[0]" name="CLK OUT" group="Connections" visible="true" canBeEmpty="false" multiSelect="false" isDependency="true" desc="Clock supplied to SD/MMC card.">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+    <ParamSignal port="cmd_in[0]" name="CMD IN" group="Connections" visible="true" canBeEmpty="false" multiSelect="false" isDependency="true" desc="Command input.">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+    <ParamSignal port="cmd_out[0]" name="CMD OUT" group="Connections" visible="true" canBeEmpty="false" multiSelect="false" isDependency="true" desc="Command output.">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+    <ParamSignal port="sr0[0]" name="SR0" group="Connections" visible="`${enable_hasVisibleOption(&quot;sr0[0]&quot;)}`" canBeEmpty="true" multiSelect="false" desc="Service request line."/>
+    <ParamSignal port="led[0]" name="LED" group="Connections" visible="`${enable_led_signal}`" canBeEmpty="`${!enable_led_signal}`" multiSelect="false" desc="LED indication.">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+    <ParamSignal port="sdwc[0]" name="SDWC" group="Connections" visible="`${enable_sdwc_signal}`" canBeEmpty="`${!enable_sdwc_signal}`" multiSelect="false" desc="Active High. SD Card Write Protect."/>
+    <ParamSignal port="sdcd[0]" name="SDCD" group="Connections" visible="`${enable_sdcd_signal}`" canBeEmpty="`${!enable_sdcd_signal}`" multiSelect="false" desc="Active low. Card Detection."/>
+    <ParamSignal port="bus_power[0]" name="BUS POWER" group="Connections" visible="`${enable_bus_power_signal}`" canBeEmpty="`${!enable_bus_power_signal}`" multiSelect="false" desc="Control card power supply.">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+    <ParamSignal port="rst[0]" name="RST" group="Connections" visible="`${enable_rst_signal}`" canBeEmpty="`${!enable_rst_signal}`" multiSelect="false" desc="Hardware reset to card.">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+
+    <!-- Advanced Settings -->
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+  </Parameters>
+  <DRCs>
+    <DRC type="ERROR" text="SD/MMC Clock is not enabled" condition="`${!sdmmcclk_enabled}`">
+      <FixIt action="ENABLE_BLOCK" target="`${sdmmcclk_resource}`" value="" valid="true" />
+    </DRC>
+  </DRCs>
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_sdmmc.h" include="true"/>
+
+    <ConfigDefine name="`${INST_NAME}`_HW" value="XMC_SDMMC" public="true" include="true"/>
+    <ConfigDefine name="`${INST_NAME}`_INTERRUPT_HANDLER" value="SDMMC0_0_IRQHandler" public="true" include="true"/>
+    <ConfigDefine name="`${INST_NAME}`_IRQN" value="SDMMC0_0_IRQn" public="true" include="true"/>
+    <ConfigDefine name="`${INST_NAME}`_DATA_TRANSFER_WIDTH" value="`${bus_width}`" public="true" include="true"/>
+
+    <ConfigInstruction value="XMC_SDMMC_Enable(`${INST_NAME}`_HW);" include="true"/>
+    <ConfigInstruction value="XMC_SDMMC_EnableDelayCmdDatLines();" include="`${enable_sdmmc_cmd_dat_delay}`"/>
+    <ConfigInstruction value="XMC_SDMMC_SetDelay(`${calc_delay_elements}`U);" include="`${enable_sdmmc_cmd_dat_delay}`"/>
+    <ConfigInstruction value="XMC_SDMMC_SetCardDetectionSource(`${INST_NAME}`_HW, XMC_SDMMC_CD_SOURCE_SW);" include="`${!enable_sdcd_signal}`"/>
+    <ConfigInstruction value="XMC_SDMMC_SetCardDetectionStatus(`${INST_NAME}`_HW, XMC_SDMMC_CD_STATUS_INSERTED);" include="`${!enable_sdcd_signal}`"/>
+    <ConfigInstruction value="XMC_SDMMC_SetWriteProtectionSource(`${INST_NAME}`_HW, XMC_SDMMC_WP_SOURCE_SW);" include="`${!enable_sdwc_signal}`" guard="(UC_SERIES != XMC45)"/>
+    <ConfigInstruction value="XMC_SDMMC_SetWriteProtectionStatus(`${INST_NAME}`_HW, XMC_SDMMC_WP_STATUS_NO_WRITE_PROTECTION);" include="`${!enable_sdwc_signal}`" guard="(UC_SERIES != XMC45)"/>
+  </ConfigFirmware>
+</Personality>

@@ -5,13 +5,13 @@
     <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">xmc1_eru_map.h</includes>
     <incdepgraph>
-      <node id="37">
+      <node id="53">
         <label>xmc1_eru_map.h</label>
       </node>
-      <node id="36">
+      <node id="52">
         <label>xmc_eru.h</label>
         <link refid="xmc__eru_8h"/>
-        <childnode refid="37" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -59,7 +59,7 @@
 <para>Defines trigger edge for the event generation by ETLx (Event Trigger Logic, x = [0 to 3]) unit, by getting the signal from ERSx(Event request source, x = [0 to 3]) unit. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="169" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="168" bodyend="174"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="170" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="169" bodyend="175"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1ga308f21ee6d582ff8551092860b3f5ba4" prot="public" static="no">
         <name>XMC_ERU_ETL_INPUT_A_t</name>
@@ -102,7 +102,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="122" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="121" bodyend="127"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="123" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="122" bodyend="128"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1gac3fd5e4f15fa5da8177b31e28421bf42" prot="public" static="no">
         <name>XMC_ERU_ETL_INPUT_B_t</name>
@@ -145,7 +145,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="134" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="133" bodyend="139"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="135" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="134" bodyend="140"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1ga15d2fb3d1c965b350e28bcfae34eae87" prot="public" static="no">
         <name>XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL_t</name>
@@ -189,7 +189,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="183" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="182" bodyend="188"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="184" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="183" bodyend="189"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1ga5fff35391900fcd87c7497daee0d0739" prot="public" static="no">
         <name>XMC_ERU_ETL_OUTPUT_TRIGGER_t</name>
@@ -215,7 +215,7 @@
 <para>Defines generation of the trigger pulse by ETLx(Event Trigger Logic, x = [0 to 3]) unit. Use type XMC_ERU_ETL_OUTPUT_TRIGGER_t for this enum. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="195" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="194" bodyend="198"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="196" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="195" bodyend="199"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1gace2abdc83ae2a12af12ca448bc5faa1c" prot="public" static="no">
         <name>XMC_ERU_ETL_SOURCE_t</name>
@@ -322,7 +322,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="147" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="146" bodyend="162"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="148" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="147" bodyend="163"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1ga5ea4e2b56bf3f57b0b59e0158f53d42c" prot="public" static="no">
         <name>XMC_ERU_ETL_STATUS_FLAG_MODE_t</name>
@@ -349,7 +349,7 @@
 <para>Defines status flag reset mode generated by ETLx(Event Trigger Logic, x = [0 to 3]) unit. Use type XMC_ERU_ETL_STATUS_FLAG_MODE_t for this enum. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="205" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="204" bodyend="213"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="206" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="205" bodyend="214"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1gafe843daae3d38c529ffd50b148d61628" prot="public" static="no">
         <name>XMC_ERU_OGU_PATTERN_DETECTION_INPUT_t</name>
@@ -391,7 +391,7 @@
 <para>Defines the inputs for Pattern detection. The configured status flag signal from the ETLx(Event Trigger Logic, x = [0 to 3]) unit indicates the pattern to be detected. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="232" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="231" bodyend="237"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="233" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="232" bodyend="238"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1gaf46891d9f1772a8f9cfb385c0afd3ce2" prot="public" static="no">
         <name>XMC_ERU_OGU_PATTERN_DETECTION_t</name>
@@ -417,7 +417,7 @@
 <para>Defines pattern detection feature to be enabled or not in OGUy(Output gating unit, y = [0 to 3]). </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="220" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="219" bodyend="225"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="221" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="220" bodyend="226"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1gab2ee1dc0cb1c6218868da04976b6819a" prot="public" static="no">
         <name>XMC_ERU_OGU_PERIPHERAL_TRIGGER_t</name>
@@ -451,7 +451,7 @@
 <para>Defines peripheral trigger signal for event generation. Based on the selected peripheral for event generation, the trigger signal is mapped. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="244" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="243" bodyend="248"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="245" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="244" bodyend="249"/>
       </memberdef>
       <memberdef kind="enum" id="group___e_r_u_1gaae4af18f2e9af9ae235a3d69b4007c0e" prot="public" static="no">
         <name>XMC_ERU_OGU_SERVICE_REQUEST_t</name>
@@ -494,7 +494,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="256" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="255" bodyend="265"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="257" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="256" bodyend="266"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -526,7 +526,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="467" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="468" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gaa023eb9a0615ae0322706f53577f000e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -557,7 +557,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="444" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="445" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gab3e95f6b12bef69e7e6d1815048a34ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -591,14 +591,14 @@
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>None</para></simplesect>
-<simplesect kind="par"><title>Description:</title><para>Set the status flag bit(FL) in EXICONx(x = [0 to 3]).<linebreak/>
+<simplesect kind="par"><title>Description:</title><para>Clear the status flag bit(FL) in EXICONx(x = [0 to 3]).<linebreak/>
  </para></simplesect>
 <simplesect kind="par"><title></title><para>If auto clear of the status flag is not enabled by detection of the opposite edge of the event edge, this API clears the Flag. SO that next event is considered as new event. </para></simplesect>
 <simplesect kind="par"><title>Related APIs:</title><para><ref refid="group___e_r_u_1gaf81afcd379c5d8dd9b91847a7266d20a" kindref="member">XMC_ERU_ETL_SetStatusFlag()</ref>, <ref refid="group___e_r_u_1ga83d258683013290648d57f18916e032c" kindref="member">XMC_ERU_ETL_GetStatusFlag()</ref> </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="614" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="614" bodyend="620"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="615" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="615" bodyend="621"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gaba049d5d9c2647fc0a99068609650c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -638,7 +638,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="710" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="711" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga6335e7c97f4834704eb27876741310d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -689,7 +689,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="691" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="692" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gaa4690514e452e671401660e0962592c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group___e_r_u_1ga853b59a72ff0b97692d690697f1c9553" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_t</ref></type>
@@ -729,7 +729,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="573" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="574" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga83d258683013290648d57f18916e032c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -769,7 +769,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="637" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="637" bodyend="643"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="638" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="638" bodyend="644"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga0ada9e9c756616d815c573168c841bd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -833,7 +833,7 @@
 . </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="493" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="494" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga95937af5ccdea42b8a96a9e8aa3215dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -884,7 +884,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="557" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="558" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga4633b3a3c840ddab285503720b1e282e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -950,7 +950,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="516" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="517" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gad32a6e519fa852eba1895ad9b2cb0448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1001,7 +1001,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="538" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="539" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gaf81afcd379c5d8dd9b91847a7266d20a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1043,7 +1043,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="591" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="591" bodyend="597"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="592" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="592" bodyend="598"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gae0f5c34432dc1067976409af3af971ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1095,7 +1095,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="665" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="666" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gaeff77065724a9ad6c1f7da14fbf31af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1135,7 +1135,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="775" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="776" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga66ee1efaa21c1b581756765f6a991a66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1175,7 +1175,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="840" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="841" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga8575bda905514eb0dbf318c55ef7d96d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1226,7 +1226,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="756" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="757" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1gafca497a2865ef65cba5a604483954bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1277,7 +1277,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="819" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="820" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga134cd43e144a5142b668ac2bc85fa984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -1317,7 +1317,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="790" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="790" bodyend="797"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="791" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="791" bodyend="798"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga8f73655169649c7b0599688d390645a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1375,7 +1375,7 @@
 . </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="733" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="734" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group___e_r_u_1ga5dc8b8a92b00cbcb2ed80fa5201a5ce0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1426,7 +1426,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="859" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="860" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1445,344 +1445,344 @@
 <codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc_common.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
-<codeline lineno="86"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
-<codeline lineno="87"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ERU0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU0<sp/>((XMC_ERU_t<sp/>*)<sp/>ERU0_BASE)<sp/></highlight></codeline>
-<codeline lineno="91"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ERU1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU1<sp/>((XMC_ERU_t<sp/>*)<sp/>ERU1_BASE)<sp/></highlight></codeline>
-<codeline lineno="95"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC1</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc1_eru_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC4</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc4_eru_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(XMC_ERU0)<sp/>&amp;&amp;<sp/>defined(XMC_ERU1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU_CHECK_MODULE_PTR(PTR)<sp/><sp/>(((PTR)==<sp/>XMC_ERU0)<sp/>|<sp/>((PTR)==<sp/>XMC_ERU1))</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(XMC_ERU0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU_CHECK_MODULE_PTR(PTR)<sp/><sp/>(((PTR)==<sp/>XMC_ERU0))</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(XMC_ERU1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU_CHECK_MODULE_PTR(PTR)<sp/><sp/>(((PTR)==<sp/>XMC_ERU0))</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
-<codeline lineno="114"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
-<codeline lineno="115"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_INPUT_A</highlight></codeline>
-<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga308f21ee6d582ff8551092860b3f5ba4a2a48a6504d6dfbe37fa302e387f63049" kindref="member">XMC_ERU_ETL_INPUT_A0</ref><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga308f21ee6d582ff8551092860b3f5ba4a8c23ef4f4bfc8d119c75a47b0cbcbc2b" kindref="member">XMC_ERU_ETL_INPUT_A1</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga308f21ee6d582ff8551092860b3f5ba4a212ea13b2e200b2f320747ce42128efb" kindref="member">XMC_ERU_ETL_INPUT_A2</ref><sp/>=<sp/>0x2U,<sp/></highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga308f21ee6d582ff8551092860b3f5ba4a0dbffba00730a26e60ce9fcad3b1290a" kindref="member">XMC_ERU_ETL_INPUT_A3</ref><sp/>=<sp/>0x3U<sp/><sp/></highlight></codeline>
-<codeline lineno="127"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga308f21ee6d582ff8551092860b3f5ba4" kindref="member">XMC_ERU_ETL_INPUT_A_t</ref>;</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_INPUT_B</highlight></codeline>
-<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggac3fd5e4f15fa5da8177b31e28421bf42a32207ebe3bf72fadb9d1b8a5283de3e0" kindref="member">XMC_ERU_ETL_INPUT_B0</ref><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggac3fd5e4f15fa5da8177b31e28421bf42a1d906d6bf951b0ffe585987a37537d58" kindref="member">XMC_ERU_ETL_INPUT_B1</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggac3fd5e4f15fa5da8177b31e28421bf42a941e3e2c1344950a985263641d098716" kindref="member">XMC_ERU_ETL_INPUT_B2</ref><sp/>=<sp/>0x2U,<sp/></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggac3fd5e4f15fa5da8177b31e28421bf42a321fdea9c9cf9633eb2154016581ae2a" kindref="member">XMC_ERU_ETL_INPUT_B3</ref><sp/>=<sp/>0x3U<sp/><sp/></highlight></codeline>
-<codeline lineno="139"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gac3fd5e4f15fa5da8177b31e28421bf42" kindref="member">XMC_ERU_ETL_INPUT_B_t</ref>;</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_SOURCE</highlight></codeline>
-<codeline lineno="147"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1caeab420c3f80513096bf42848412814d6" kindref="member">XMC_ERU_ETL_SOURCE_A</ref><sp/>=<sp/>0x0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca8f65af3ff5e5de3be3bad263c817d296" kindref="member">XMC_ERU_ETL_SOURCE_B</ref><sp/>=<sp/>0x1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1cafd2c864567fd1740bd9065d1ce243e23" kindref="member">XMC_ERU_ETL_SOURCE_A_OR_B</ref><sp/>=<sp/>0x2U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1cab7d2cd9aa27d4eaee8ba5ff94778602f" kindref="member">XMC_ERU_ETL_SOURCE_A_AND_B</ref><sp/>=<sp/>0x3U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca1af919c8a85b5d2983541b1b425a7bbc" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A</ref><sp/>=<sp/>0x4U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca7e36d354d8b6466855747aeb9d003d28" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A_OR_B</ref><sp/>=<sp/>0x6U,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1caaf542d2e81deedf4d32546d728f1fee5" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A_AND_B</ref><sp/>=<sp/>0x7U,<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1caf697d191ffa2fd991a0d7468ef798f14" kindref="member">XMC_ERU_ETL_SOURCE_NOT_B</ref><sp/>=<sp/>0x9U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca967f6679770a1240d9220bba5a0fa393" kindref="member">XMC_ERU_ETL_SOURCE_A_OR_NOT_B</ref><sp/>=<sp/>0xaU,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1cae5170991e6ea496a066941a591a736f6" kindref="member">XMC_ERU_ETL_SOURCE_A_AND_NOT_B</ref><sp/>=<sp/>0xbU,<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca35bb0af7037716205e823f52f5fb3bd1" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A_OR_NOT_B</ref><sp/>=<sp/>0xeU,<sp/></highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca977784360e18610c2db0206892403ebf" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A_AND_NOT_B</ref><sp/>=<sp/>0xfU<sp/></highlight></codeline>
-<codeline lineno="162"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gace2abdc83ae2a12af12ca448bc5faa1c" kindref="member">XMC_ERU_ETL_SOURCE_t</ref>;</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_EDGE_DETECTION</highlight></codeline>
-<codeline lineno="169"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga853b59a72ff0b97692d690697f1c9553a645885fd795a881dd721972fbf3cf98a" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_DISABLED</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga853b59a72ff0b97692d690697f1c9553aa985133b3949739b02349d5e17ce7cab" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_RISING</ref><sp/>=<sp/>1U,<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga853b59a72ff0b97692d690697f1c9553a2f7606c58021c54783e2a4e8ca6f5d9a" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_FALLING</ref><sp/>=<sp/>2U,<sp/><sp/></highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga853b59a72ff0b97692d690697f1c9553ad17cba429516f4a2b6da8f1c30e159f4" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_BOTH</ref><sp/>=<sp/>3U<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="174"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga853b59a72ff0b97692d690697f1c9553" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_t</ref>;</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL</highlight></codeline>
-<codeline lineno="183"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga15d2fb3d1c965b350e28bcfae34eae87a2b1ecb8037ab4c79389648c031cb4be3" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL0</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga15d2fb3d1c965b350e28bcfae34eae87addedc2d56ede0d207343f5f7b24ac537" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL1</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga15d2fb3d1c965b350e28bcfae34eae87aab49c9492b3b41265fc179e5be905fb1" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL2</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga15d2fb3d1c965b350e28bcfae34eae87ab0120f8b0d97ff7bdb8e35b6dae3c07c" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL3</ref><sp/>=<sp/>3U,<sp/></highlight></codeline>
-<codeline lineno="188"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga15d2fb3d1c965b350e28bcfae34eae87" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL_t</ref>;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_OUTPUT_TRIGGER</highlight></codeline>
-<codeline lineno="195"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga5fff35391900fcd87c7497daee0d0739ad73b61f8848d24944749ff1057616172" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_DISABLED</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga5fff35391900fcd87c7497daee0d0739a39ad1bcd93f3adcba320301cec2e399e" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_ENABLED</ref><sp/>=<sp/>1U<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="198"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga5fff35391900fcd87c7497daee0d0739" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_t</ref>;</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_STATUS_FLAG_MODE</highlight></codeline>
-<codeline lineno="205"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga5ea4e2b56bf3f57b0b59e0158f53d42ca5965d4240ed8250ebda43a1883778367" kindref="member">XMC_ERU_ETL_STATUS_FLAG_MODE_SWCTRL</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga5ea4e2b56bf3f57b0b59e0158f53d42cac365114ab18a4ca6fc9eec6b581c6ca9" kindref="member">XMC_ERU_ETL_STATUS_FLAG_MODE_HWCTRL</ref><sp/>=<sp/>1U<sp/><sp/></highlight></codeline>
-<codeline lineno="213"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga5ea4e2b56bf3f57b0b59e0158f53d42c" kindref="member">XMC_ERU_ETL_STATUS_FLAG_MODE_t</ref>;</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_OGU_PATTERN_DETECTION</highlight></codeline>
-<codeline lineno="220"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaf46891d9f1772a8f9cfb385c0afd3ce2af44426efaa292f169ab278be1bab3e57" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_DISABLED</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaf46891d9f1772a8f9cfb385c0afd3ce2aca3188f35e04a604d08e9d6dfbb0c56d" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_ENABLED</ref><sp/>=<sp/>1U<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="225"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gaf46891d9f1772a8f9cfb385c0afd3ce2" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_t</ref>;</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_OGU_PATTERN_DETECTION_INPUT</highlight></codeline>
-<codeline lineno="232"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggafe843daae3d38c529ffd50b148d61628adf1a26796fdb20a72cb1ca335d17085e" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT0</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggafe843daae3d38c529ffd50b148d61628a7016472cfdbf7886f3c25302c328f3fd" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT1</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggafe843daae3d38c529ffd50b148d61628a09b5cb435dabfd13ecc6d582bea54f5a" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT2</ref><sp/>=<sp/>4U,<sp/></highlight></codeline>
-<codeline lineno="236"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggafe843daae3d38c529ffd50b148d61628ae0a0f7f22ac23f1899278e2e2cc107e8" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT3</ref><sp/>=<sp/>8U<sp/><sp/></highlight></codeline>
-<codeline lineno="237"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gafe843daae3d38c529ffd50b148d61628" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT_t</ref>;</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_OGU_PERIPHERAL_TRIGGER</highlight></codeline>
-<codeline lineno="244"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggab2ee1dc0cb1c6218868da04976b6819aa3c1a210cfd4691164e334c87011ef5e4" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER1</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
-<codeline lineno="246"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggab2ee1dc0cb1c6218868da04976b6819aa1c199c7b5768e348f02eade3297b1aaa" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER2</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
-<codeline lineno="247"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggab2ee1dc0cb1c6218868da04976b6819aa63c69e2c28f6e1abce23f130be26b9cc" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER3</ref><sp/>=<sp/>3U<sp/><sp/></highlight></codeline>
-<codeline lineno="248"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gab2ee1dc0cb1c6218868da04976b6819a" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER_t</ref>;</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_OGU_SERVICE_REQUEST</highlight></codeline>
-<codeline lineno="256"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaae4af18f2e9af9ae235a3d69b4007c0ea13ca9db2aa531750aa70efdf176ec854" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_DISABLED</ref><sp/>=<sp/>0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="258"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaae4af18f2e9af9ae235a3d69b4007c0ea5b62a526258183d0d1de2a8f491fd73d" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_ON_TRIGGER</ref><sp/>=<sp/>1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="259"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaae4af18f2e9af9ae235a3d69b4007c0ea57197232226ff2ba44702357f85a510f" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_ON_TRIGGER_AND_PATTERN_MATCH</ref><sp/>=<sp/>2U,<sp/><sp/></highlight></codeline>
-<codeline lineno="262"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaae4af18f2e9af9ae235a3d69b4007c0eaaf704994abfd3973cb9a9e0c132275dd" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_ON_TRIGGER_AND_PATTERN_MISMATCH</ref><sp/>=<sp/>3U</highlight></codeline>
-<codeline lineno="265"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gaae4af18f2e9af9ae235a3d69b4007c0e" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_t</ref>;</highlight></codeline>
-<codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
-<codeline lineno="268"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
-<codeline lineno="269"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="270"><highlight class="normal"></highlight><highlight class="comment">/*Anonymous<sp/>structure/union<sp/>guard<sp/>start*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__CC_ARM)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="272"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>push</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="273"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>anon_unions</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="274"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(__TASKING__)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="276"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281" refid="struct_x_m_c___e_r_u__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_ERU</highlight></codeline>
-<codeline lineno="282"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="283"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="284"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXISEL;</highlight></codeline>
-<codeline lineno="286"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS0A<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS0B<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS1A<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS1B<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS2A<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS2B<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS3A<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS3B<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>EXISEL_b;</highlight></codeline>
-<codeline lineno="298"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED0[3];</highlight></codeline>
-<codeline lineno="300"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="302"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXICON[4];</highlight></codeline>
-<codeline lineno="304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>PE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>LD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
-<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>ED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>OCS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>3;</highlight></codeline>
-<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>FL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
-<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>SS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>4;</highlight></codeline>
-<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED1<sp/><sp/>:<sp/><sp/>20;</highlight></codeline>
-<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>EXICON_b[4];</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="316"><highlight class="normal"></highlight></codeline>
-<codeline lineno="317"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="318"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXOCON[4];</highlight></codeline>
-<codeline lineno="320"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>ISS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>GEEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
-<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>PDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
-<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>GP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
-<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>6;</highlight></codeline>
-<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>IPEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>4;</highlight></codeline>
-<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED2<sp/><sp/>:<sp/><sp/>16;</highlight></codeline>
-<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>EXOCON_b[4];</highlight></codeline>
-<codeline lineno="331"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="332"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref>;</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="342" refid="struct_x_m_c___e_r_u___e_t_l___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_ERU_ETL_CONFIG</highlight></codeline>
-<codeline lineno="343"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="344"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="345"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>input;<sp/></highlight></codeline>
-<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>input_a:<sp/>2;<sp/></highlight></codeline>
-<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>input_b:<sp/>2;<sp/></highlight></codeline>
-<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>28;</highlight></codeline>
-<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="353"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="354"><highlight class="normal"></highlight></codeline>
-<codeline lineno="355"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="356"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>raw;</highlight></codeline>
-<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>enable_output_trigger:<sp/>1;<sp/><sp/></highlight></codeline>
-<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>status_flag_mode:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>edge_detection:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>output_trigger_channel:<sp/>3;<sp/></highlight></codeline>
-<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>1;</highlight></codeline>
-<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>source:<sp/>4;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>20;</highlight></codeline>
-<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="373"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="374"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___e_r_u___e_t_l___c_o_n_f_i_g__t" kindref="compound">XMC_ERU_ETL_CONFIG_t</ref>;</highlight></codeline>
-<codeline lineno="375"><highlight class="normal"></highlight></codeline>
-<codeline lineno="384" refid="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">XMC_ERU_OGU_CONFIG</highlight></codeline>
-<codeline lineno="385"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="386"><highlight class="normal"><sp/><sp/>uint32_t<sp/>raw;</highlight></codeline>
-<codeline lineno="387"><highlight class="normal"></highlight></codeline>
-<codeline lineno="388"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="389"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>peripheral_trigger:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>enable_pattern_detection:<sp/>1;<sp/><sp/></highlight></codeline>
-<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>1;</highlight></codeline>
-<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>service_request:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>6;</highlight></codeline>
-<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>pattern_detection_input:<sp/>4;<sp/><sp/></highlight></codeline>
-<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>16;</highlight></codeline>
-<codeline lineno="402"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="403"><highlight class="normal">}<sp/><ref refid="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t" kindref="compound">XMC_ERU_OGU_CONFIG_t</ref>;</highlight></codeline>
-<codeline lineno="404"><highlight class="normal"></highlight></codeline>
-<codeline lineno="405"><highlight class="normal"></highlight><highlight class="comment">/*Anonymous<sp/>structure/union<sp/>guard<sp/>end<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="406"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__CC_ARM)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="407"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pop</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="408"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(__TASKING__)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="409"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>restore</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="410"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="411"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
-<codeline lineno="412"><highlight class="comment"><sp/>*<sp/>API<sp/>PROTOTYPES</highlight></codeline>
-<codeline lineno="413"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="414"><highlight class="normal"></highlight></codeline>
-<codeline lineno="415"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="416"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="417"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="418"><highlight class="normal"></highlight></codeline>
-<codeline lineno="444"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaa023eb9a0615ae0322706f53577f000e" kindref="member">XMC_ERU_Enable</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru);</highlight></codeline>
-<codeline lineno="445"><highlight class="normal"></highlight></codeline>
-<codeline lineno="467"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga91a95048baad39ad478b0af050e797dd" kindref="member">XMC_ERU_Disable</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru);</highlight></codeline>
-<codeline lineno="468"><highlight class="normal"></highlight></codeline>
-<codeline lineno="469"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>ERU_ETL<sp/>APIs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="470"><highlight class="normal"></highlight></codeline>
-<codeline lineno="493"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga0ada9e9c756616d815c573168c841bd4" kindref="member">XMC_ERU_ETL_Init</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___e_r_u___e_t_l___c_o_n_f_i_g__t" kindref="compound">XMC_ERU_ETL_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
-<codeline lineno="494"><highlight class="normal"></highlight></codeline>
-<codeline lineno="516"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga4633b3a3c840ddab285503720b1e282e" kindref="member">XMC_ERU_ETL_SetInput</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga308f21ee6d582ff8551092860b3f5ba4" kindref="member">XMC_ERU_ETL_INPUT_A_t</ref><sp/>input_a,</highlight></codeline>
-<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gac3fd5e4f15fa5da8177b31e28421bf42" kindref="member">XMC_ERU_ETL_INPUT_B_t</ref><sp/>input_b);</highlight></codeline>
-<codeline lineno="520"><highlight class="normal"></highlight></codeline>
-<codeline lineno="538"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gad32a6e519fa852eba1895ad9b2cb0448" kindref="member">XMC_ERU_ETL_SetSource</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="539"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="540"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gace2abdc83ae2a12af12ca448bc5faa1c" kindref="member">XMC_ERU_ETL_SOURCE_t</ref><sp/>source);</highlight></codeline>
-<codeline lineno="541"><highlight class="normal"></highlight></codeline>
-<codeline lineno="557"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga95937af5ccdea42b8a96a9e8aa3215dc" kindref="member">XMC_ERU_ETL_SetEdgeDetection</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="558"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="559"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga853b59a72ff0b97692d690697f1c9553" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_t</ref><sp/>edge_detection);</highlight></codeline>
-<codeline lineno="560"><highlight class="normal"></highlight></codeline>
-<codeline lineno="573"><highlight class="normal"><ref refid="group___e_r_u_1ga853b59a72ff0b97692d690697f1c9553" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_t</ref><sp/><ref refid="group___e_r_u_1gaa4690514e452e671401660e0962592c4" kindref="member">XMC_ERU_ETL_GetEdgeDetection</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="574"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
-<codeline lineno="591"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaf81afcd379c5d8dd9b91847a7266d20a" kindref="member">XMC_ERU_ETL_SetStatusFlag</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
-<codeline lineno="592"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="593"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_SetStatusFlag:Invalid<sp/>Module<sp/>Pointer&quot;</highlight><highlight class="normal">,<sp/>XMC_ERU_CHECK_MODULE_PTR(eru));</highlight></codeline>
-<codeline lineno="594"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_SetStatusFlag:Invalid<sp/>Channel<sp/>Number&quot;</highlight><highlight class="normal">,<sp/>(channel<sp/>&lt;<sp/>4U));</highlight></codeline>
-<codeline lineno="595"><highlight class="normal"></highlight></codeline>
-<codeline lineno="596"><highlight class="normal"><sp/><sp/>eru-&gt;EXICON_b[channel].FL<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="597"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="598"><highlight class="normal"></highlight></codeline>
-<codeline lineno="614"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gab3e95f6b12bef69e7e6d1815048a34ff" kindref="member">XMC_ERU_ETL_ClearStatusFlag</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
-<codeline lineno="615"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="616"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_ClearStatusFlag:Invalid<sp/>Module<sp/>Pointer&quot;</highlight><highlight class="normal">,<sp/>XMC_ERU_CHECK_MODULE_PTR(eru));</highlight></codeline>
-<codeline lineno="617"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_ClearStatusFlag:Invalid<sp/>Channel<sp/>Number&quot;</highlight><highlight class="normal">,<sp/>(channel<sp/>&lt;<sp/>4U));</highlight></codeline>
-<codeline lineno="618"><highlight class="normal"></highlight></codeline>
-<codeline lineno="619"><highlight class="normal"><sp/><sp/>eru-&gt;EXICON_b[channel].FL<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="620"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="621"><highlight class="normal"></highlight></codeline>
-<codeline lineno="637"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___e_r_u_1ga83d258683013290648d57f18916e032c" kindref="member">XMC_ERU_ETL_GetStatusFlag</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
-<codeline lineno="638"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="639"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_GetStatusFlag:Invalid<sp/>Module<sp/>Pointer&quot;</highlight><highlight class="normal">,<sp/>XMC_ERU_CHECK_MODULE_PTR(eru));</highlight></codeline>
-<codeline lineno="640"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_GetStatusFlag:Invalid<sp/>Channel<sp/>Number&quot;</highlight><highlight class="normal">,<sp/>(channel<sp/>&lt;<sp/>4U));</highlight></codeline>
-<codeline lineno="641"><highlight class="normal"></highlight></codeline>
-<codeline lineno="642"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)eru-&gt;EXICON_b[channel].FL;</highlight></codeline>
-<codeline lineno="643"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="644"><highlight class="normal"></highlight></codeline>
-<codeline lineno="665"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gae0f5c34432dc1067976409af3af971ed" kindref="member">XMC_ERU_ETL_SetStatusFlagMode</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="666"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="667"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga5ea4e2b56bf3f57b0b59e0158f53d42c" kindref="member">XMC_ERU_ETL_STATUS_FLAG_MODE_t</ref><sp/>mode);</highlight></codeline>
-<codeline lineno="668"><highlight class="normal"></highlight></codeline>
-<codeline lineno="691"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga6335e7c97f4834704eb27876741310d7" kindref="member">XMC_ERU_ETL_EnableOutputTrigger</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="692"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="693"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga15d2fb3d1c965b350e28bcfae34eae87" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL_t</ref><sp/>trigger);</highlight></codeline>
-<codeline lineno="694"><highlight class="normal"></highlight></codeline>
-<codeline lineno="710"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaba049d5d9c2647fc0a99068609650c00" kindref="member">XMC_ERU_ETL_DisableOutputTrigger</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
-<codeline lineno="711"><highlight class="normal"></highlight></codeline>
-<codeline lineno="712"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>ERU_OGU<sp/>APIs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="713"><highlight class="normal"></highlight></codeline>
-<codeline lineno="733"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga8f73655169649c7b0599688d390645a0" kindref="member">XMC_ERU_OGU_Init</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="734"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="735"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t" kindref="compound">XMC_ERU_OGU_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
-<codeline lineno="736"><highlight class="normal"></highlight></codeline>
-<codeline lineno="756"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga8575bda905514eb0dbf318c55ef7d96d" kindref="member">XMC_ERU_OGU_EnablePatternDetection</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="757"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="758"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gafe843daae3d38c529ffd50b148d61628" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT_t</ref><sp/>input);</highlight></codeline>
-<codeline lineno="759"><highlight class="normal"></highlight></codeline>
-<codeline lineno="775"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaeff77065724a9ad6c1f7da14fbf31af9" kindref="member">XMC_ERU_OGU_DisablePatternDetection</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
-<codeline lineno="776"><highlight class="normal"></highlight></codeline>
-<codeline lineno="790"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___e_r_u_1ga134cd43e144a5142b668ac2bc85fa984" kindref="member">XMC_ERU_OGU_GetPatternDetectionStatus</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="791"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
-<codeline lineno="792"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="793"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_OGU_GetPatternDetectionStatus:Invalid<sp/>Module<sp/>Pointer&quot;</highlight><highlight class="normal">,<sp/>XMC_ERU_CHECK_MODULE_PTR(eru));</highlight></codeline>
-<codeline lineno="794"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_OGU_GetPatternDetectionStatus:Invalid<sp/>Channel<sp/>Number&quot;</highlight><highlight class="normal">,<sp/>(channel<sp/>&lt;<sp/>4U));</highlight></codeline>
-<codeline lineno="795"><highlight class="normal"></highlight></codeline>
-<codeline lineno="796"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)eru-&gt;EXOCON_b[channel].PDR;</highlight></codeline>
-<codeline lineno="797"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="798"><highlight class="normal"></highlight></codeline>
-<codeline lineno="819"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gafca497a2865ef65cba5a604483954bca" kindref="member">XMC_ERU_OGU_EnablePeripheralTrigger</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="820"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="821"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gab2ee1dc0cb1c6218868da04976b6819a" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER_t</ref><sp/>peripheral_trigger);</highlight></codeline>
-<codeline lineno="822"><highlight class="normal"></highlight></codeline>
-<codeline lineno="840"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga66ee1efaa21c1b581756765f6a991a66" kindref="member">XMC_ERU_OGU_DisablePeripheralTrigger</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="841"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
-<codeline lineno="842"><highlight class="normal"></highlight></codeline>
-<codeline lineno="859"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga5dc8b8a92b00cbcb2ed80fa5201a5ce0" kindref="member">XMC_ERU_OGU_SetServiceRequestMode</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
-<codeline lineno="860"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
-<codeline lineno="861"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaae4af18f2e9af9ae235a3d69b4007c0e" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_t</ref><sp/>mode);</highlight></codeline>
-<codeline lineno="862"><highlight class="normal"></highlight></codeline>
-<codeline lineno="863"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="864"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="865"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="866"><highlight class="normal"></highlight></codeline>
-<codeline lineno="872"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_ERU_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="86"><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ERU0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU0<sp/>((XMC_ERU_t<sp/>*)<sp/>ERU0_BASE)<sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(ERU1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU1<sp/>((XMC_ERU_t<sp/>*)<sp/>ERU1_BASE)<sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc1_eru_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UC_FAMILY<sp/>==<sp/>XMC4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xmc4_eru_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(XMC_ERU0)<sp/>&amp;&amp;<sp/>defined(XMC_ERU1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU_CHECK_MODULE_PTR(PTR)<sp/><sp/>(((PTR)==<sp/>XMC_ERU0)<sp/>|<sp/>((PTR)==<sp/>XMC_ERU1))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(XMC_ERU0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU_CHECK_MODULE_PTR(PTR)<sp/><sp/>(((PTR)==<sp/>XMC_ERU0))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(XMC_ERU1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_ERU_CHECK_MODULE_PTR(PTR)<sp/><sp/>(((PTR)==<sp/>XMC_ERU0))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>ENUMS</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_INPUT_A</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga308f21ee6d582ff8551092860b3f5ba4a2a48a6504d6dfbe37fa302e387f63049" kindref="member">XMC_ERU_ETL_INPUT_A0</ref><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga308f21ee6d582ff8551092860b3f5ba4a8c23ef4f4bfc8d119c75a47b0cbcbc2b" kindref="member">XMC_ERU_ETL_INPUT_A1</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga308f21ee6d582ff8551092860b3f5ba4a212ea13b2e200b2f320747ce42128efb" kindref="member">XMC_ERU_ETL_INPUT_A2</ref><sp/>=<sp/>0x2U,<sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga308f21ee6d582ff8551092860b3f5ba4a0dbffba00730a26e60ce9fcad3b1290a" kindref="member">XMC_ERU_ETL_INPUT_A3</ref><sp/>=<sp/>0x3U<sp/><sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga308f21ee6d582ff8551092860b3f5ba4" kindref="member">XMC_ERU_ETL_INPUT_A_t</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_INPUT_B</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggac3fd5e4f15fa5da8177b31e28421bf42a32207ebe3bf72fadb9d1b8a5283de3e0" kindref="member">XMC_ERU_ETL_INPUT_B0</ref><sp/>=<sp/>0x0U,<sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggac3fd5e4f15fa5da8177b31e28421bf42a1d906d6bf951b0ffe585987a37537d58" kindref="member">XMC_ERU_ETL_INPUT_B1</ref><sp/>=<sp/>0x1U,<sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggac3fd5e4f15fa5da8177b31e28421bf42a941e3e2c1344950a985263641d098716" kindref="member">XMC_ERU_ETL_INPUT_B2</ref><sp/>=<sp/>0x2U,<sp/></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggac3fd5e4f15fa5da8177b31e28421bf42a321fdea9c9cf9633eb2154016581ae2a" kindref="member">XMC_ERU_ETL_INPUT_B3</ref><sp/>=<sp/>0x3U<sp/><sp/></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gac3fd5e4f15fa5da8177b31e28421bf42" kindref="member">XMC_ERU_ETL_INPUT_B_t</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_SOURCE</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1caeab420c3f80513096bf42848412814d6" kindref="member">XMC_ERU_ETL_SOURCE_A</ref><sp/>=<sp/>0x0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca8f65af3ff5e5de3be3bad263c817d296" kindref="member">XMC_ERU_ETL_SOURCE_B</ref><sp/>=<sp/>0x1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1cafd2c864567fd1740bd9065d1ce243e23" kindref="member">XMC_ERU_ETL_SOURCE_A_OR_B</ref><sp/>=<sp/>0x2U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1cab7d2cd9aa27d4eaee8ba5ff94778602f" kindref="member">XMC_ERU_ETL_SOURCE_A_AND_B</ref><sp/>=<sp/>0x3U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca1af919c8a85b5d2983541b1b425a7bbc" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A</ref><sp/>=<sp/>0x4U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca7e36d354d8b6466855747aeb9d003d28" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A_OR_B</ref><sp/>=<sp/>0x6U,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1caaf542d2e81deedf4d32546d728f1fee5" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A_AND_B</ref><sp/>=<sp/>0x7U,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1caf697d191ffa2fd991a0d7468ef798f14" kindref="member">XMC_ERU_ETL_SOURCE_NOT_B</ref><sp/>=<sp/>0x9U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca967f6679770a1240d9220bba5a0fa393" kindref="member">XMC_ERU_ETL_SOURCE_A_OR_NOT_B</ref><sp/>=<sp/>0xaU,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1cae5170991e6ea496a066941a591a736f6" kindref="member">XMC_ERU_ETL_SOURCE_A_AND_NOT_B</ref><sp/>=<sp/>0xbU,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca35bb0af7037716205e823f52f5fb3bd1" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A_OR_NOT_B</ref><sp/>=<sp/>0xeU,<sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggace2abdc83ae2a12af12ca448bc5faa1ca977784360e18610c2db0206892403ebf" kindref="member">XMC_ERU_ETL_SOURCE_NOT_A_AND_NOT_B</ref><sp/>=<sp/>0xfU<sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gace2abdc83ae2a12af12ca448bc5faa1c" kindref="member">XMC_ERU_ETL_SOURCE_t</ref>;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_EDGE_DETECTION</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga853b59a72ff0b97692d690697f1c9553a645885fd795a881dd721972fbf3cf98a" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_DISABLED</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga853b59a72ff0b97692d690697f1c9553aa985133b3949739b02349d5e17ce7cab" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_RISING</ref><sp/>=<sp/>1U,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga853b59a72ff0b97692d690697f1c9553a2f7606c58021c54783e2a4e8ca6f5d9a" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_FALLING</ref><sp/>=<sp/>2U,<sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga853b59a72ff0b97692d690697f1c9553ad17cba429516f4a2b6da8f1c30e159f4" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_BOTH</ref><sp/>=<sp/>3U<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga853b59a72ff0b97692d690697f1c9553" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_t</ref>;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga15d2fb3d1c965b350e28bcfae34eae87a2b1ecb8037ab4c79389648c031cb4be3" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL0</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga15d2fb3d1c965b350e28bcfae34eae87addedc2d56ede0d207343f5f7b24ac537" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL1</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga15d2fb3d1c965b350e28bcfae34eae87aab49c9492b3b41265fc179e5be905fb1" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL2</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga15d2fb3d1c965b350e28bcfae34eae87ab0120f8b0d97ff7bdb8e35b6dae3c07c" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL3</ref><sp/>=<sp/>3U,<sp/></highlight></codeline>
+<codeline lineno="189"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga15d2fb3d1c965b350e28bcfae34eae87" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL_t</ref>;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_OUTPUT_TRIGGER</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga5fff35391900fcd87c7497daee0d0739ad73b61f8848d24944749ff1057616172" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_DISABLED</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga5fff35391900fcd87c7497daee0d0739a39ad1bcd93f3adcba320301cec2e399e" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_ENABLED</ref><sp/>=<sp/>1U<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga5fff35391900fcd87c7497daee0d0739" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_t</ref>;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_ETL_STATUS_FLAG_MODE</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga5ea4e2b56bf3f57b0b59e0158f53d42ca5965d4240ed8250ebda43a1883778367" kindref="member">XMC_ERU_ETL_STATUS_FLAG_MODE_SWCTRL</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1gga5ea4e2b56bf3f57b0b59e0158f53d42cac365114ab18a4ca6fc9eec6b581c6ca9" kindref="member">XMC_ERU_ETL_STATUS_FLAG_MODE_HWCTRL</ref><sp/>=<sp/>1U<sp/><sp/></highlight></codeline>
+<codeline lineno="214"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1ga5ea4e2b56bf3f57b0b59e0158f53d42c" kindref="member">XMC_ERU_ETL_STATUS_FLAG_MODE_t</ref>;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_OGU_PATTERN_DETECTION</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaf46891d9f1772a8f9cfb385c0afd3ce2af44426efaa292f169ab278be1bab3e57" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_DISABLED</ref><sp/>=<sp/>0U,<sp/></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaf46891d9f1772a8f9cfb385c0afd3ce2aca3188f35e04a604d08e9d6dfbb0c56d" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_ENABLED</ref><sp/>=<sp/>1U<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="226"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gaf46891d9f1772a8f9cfb385c0afd3ce2" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_t</ref>;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_OGU_PATTERN_DETECTION_INPUT</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggafe843daae3d38c529ffd50b148d61628adf1a26796fdb20a72cb1ca335d17085e" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT0</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggafe843daae3d38c529ffd50b148d61628a7016472cfdbf7886f3c25302c328f3fd" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT1</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggafe843daae3d38c529ffd50b148d61628a09b5cb435dabfd13ecc6d582bea54f5a" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT2</ref><sp/>=<sp/>4U,<sp/></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggafe843daae3d38c529ffd50b148d61628ae0a0f7f22ac23f1899278e2e2cc107e8" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT3</ref><sp/>=<sp/>8U<sp/><sp/></highlight></codeline>
+<codeline lineno="238"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gafe843daae3d38c529ffd50b148d61628" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT_t</ref>;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_OGU_PERIPHERAL_TRIGGER</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggab2ee1dc0cb1c6218868da04976b6819aa3c1a210cfd4691164e334c87011ef5e4" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER1</ref><sp/>=<sp/>1U,<sp/></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggab2ee1dc0cb1c6218868da04976b6819aa1c199c7b5768e348f02eade3297b1aaa" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER2</ref><sp/>=<sp/>2U,<sp/></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggab2ee1dc0cb1c6218868da04976b6819aa63c69e2c28f6e1abce23f130be26b9cc" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER3</ref><sp/>=<sp/>3U<sp/><sp/></highlight></codeline>
+<codeline lineno="249"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gab2ee1dc0cb1c6218868da04976b6819a" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER_t</ref>;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>XMC_ERU_OGU_SERVICE_REQUEST</highlight></codeline>
+<codeline lineno="257"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaae4af18f2e9af9ae235a3d69b4007c0ea13ca9db2aa531750aa70efdf176ec854" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_DISABLED</ref><sp/>=<sp/>0U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaae4af18f2e9af9ae235a3d69b4007c0ea5b62a526258183d0d1de2a8f491fd73d" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_ON_TRIGGER</ref><sp/>=<sp/>1U,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaae4af18f2e9af9ae235a3d69b4007c0ea57197232226ff2ba44702357f85a510f" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_ON_TRIGGER_AND_PATTERN_MATCH</ref><sp/>=<sp/>2U,<sp/><sp/></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><ref refid="group___e_r_u_1ggaae4af18f2e9af9ae235a3d69b4007c0eaaf704994abfd3973cb9a9e0c132275dd" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_ON_TRIGGER_AND_PATTERN_MISMATCH</ref><sp/>=<sp/>3U</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}<sp/><ref refid="group___e_r_u_1gaae4af18f2e9af9ae235a3d69b4007c0e" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_t</ref>;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="269"><highlight class="comment"><sp/>*<sp/>DATA<sp/>STRUCTURES</highlight></codeline>
+<codeline lineno="270"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="comment">/*Anonymous<sp/>structure/union<sp/>guard<sp/>start*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__CC_ARM)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>push</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>anon_unions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(__TASKING__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>586</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="struct_x_m_c___e_r_u__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_ERU</highlight></codeline>
+<codeline lineno="283"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXISEL;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS0A<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS0B<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS1A<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS1B<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS2A<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS2B<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS3A<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXS3B<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>EXISEL_b;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED0[3];</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXICON[4];</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>PE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>LD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>ED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>OCS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>3;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>FL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>SS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>4;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED1<sp/><sp/>:<sp/><sp/>20;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>EXICON_b[4];</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>EXOCON[4];</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>ISS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>GEEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>PDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>1;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>GP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>2;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>6;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__IO<sp/>uint32_t<sp/><sp/>IPEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><sp/>4;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>__I<sp/><sp/>uint32_t<sp/><sp/>RESERVED2<sp/><sp/>:<sp/><sp/>16;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>EXOCON_b[4];</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="333"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref>;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="struct_x_m_c___e_r_u___e_t_l___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">XMC_ERU_ETL_CONFIG</highlight></codeline>
+<codeline lineno="344"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>input;<sp/></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>input_a:<sp/>2;<sp/></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>input_b:<sp/>2;<sp/></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>28;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">union</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>raw;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>enable_output_trigger:<sp/>1;<sp/><sp/></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>status_flag_mode:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>edge_detection:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>output_trigger_channel:<sp/>3;<sp/></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>source:<sp/>4;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>20;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="375"><highlight class="normal">}<sp/><ref refid="struct_x_m_c___e_r_u___e_t_l___c_o_n_f_i_g__t" kindref="compound">XMC_ERU_ETL_CONFIG_t</ref>;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385" refid="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">XMC_ERU_OGU_CONFIG</highlight></codeline>
+<codeline lineno="386"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/>uint32_t<sp/>raw;</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>peripheral_trigger:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>enable_pattern_detection:<sp/>1;<sp/><sp/></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>service_request:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>6;</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>pattern_detection_input:<sp/>4;<sp/><sp/></highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>:<sp/>16;</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="404"><highlight class="normal">}<sp/><ref refid="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t" kindref="compound">XMC_ERU_OGU_CONFIG_t</ref>;</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"></highlight><highlight class="comment">/*Anonymous<sp/>structure/union<sp/>guard<sp/>end<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__CC_ARM)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(__TASKING__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>restore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************************************************************************</highlight></codeline>
+<codeline lineno="413"><highlight class="comment"><sp/>*<sp/>API<sp/>PROTOTYPES</highlight></codeline>
+<codeline lineno="414"><highlight class="comment"><sp/>********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaa023eb9a0615ae0322706f53577f000e" kindref="member">XMC_ERU_Enable</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru);</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"></highlight></codeline>
+<codeline lineno="468"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga91a95048baad39ad478b0af050e797dd" kindref="member">XMC_ERU_Disable</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru);</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight></codeline>
+<codeline lineno="470"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>ERU_ETL<sp/>APIs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight></codeline>
+<codeline lineno="494"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga0ada9e9c756616d815c573168c841bd4" kindref="member">XMC_ERU_ETL_Init</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_x_m_c___e_r_u___e_t_l___c_o_n_f_i_g__t" kindref="compound">XMC_ERU_ETL_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"></highlight></codeline>
+<codeline lineno="517"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga4633b3a3c840ddab285503720b1e282e" kindref="member">XMC_ERU_ETL_SetInput</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga308f21ee6d582ff8551092860b3f5ba4" kindref="member">XMC_ERU_ETL_INPUT_A_t</ref><sp/>input_a,</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gac3fd5e4f15fa5da8177b31e28421bf42" kindref="member">XMC_ERU_ETL_INPUT_B_t</ref><sp/>input_b);</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"></highlight></codeline>
+<codeline lineno="539"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gad32a6e519fa852eba1895ad9b2cb0448" kindref="member">XMC_ERU_ETL_SetSource</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="540"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="541"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gace2abdc83ae2a12af12ca448bc5faa1c" kindref="member">XMC_ERU_ETL_SOURCE_t</ref><sp/>source);</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight></codeline>
+<codeline lineno="558"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga95937af5ccdea42b8a96a9e8aa3215dc" kindref="member">XMC_ERU_ETL_SetEdgeDetection</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga853b59a72ff0b97692d690697f1c9553" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_t</ref><sp/>edge_detection);</highlight></codeline>
+<codeline lineno="561"><highlight class="normal"></highlight></codeline>
+<codeline lineno="574"><highlight class="normal"><ref refid="group___e_r_u_1ga853b59a72ff0b97692d690697f1c9553" kindref="member">XMC_ERU_ETL_EDGE_DETECTION_t</ref><sp/><ref refid="group___e_r_u_1gaa4690514e452e671401660e0962592c4" kindref="member">XMC_ERU_ETL_GetEdgeDetection</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="575"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="592"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaf81afcd379c5d8dd9b91847a7266d20a" kindref="member">XMC_ERU_ETL_SetStatusFlag</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
+<codeline lineno="593"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="594"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_SetStatusFlag:Invalid<sp/>Module<sp/>Pointer&quot;</highlight><highlight class="normal">,<sp/>XMC_ERU_CHECK_MODULE_PTR(eru));</highlight></codeline>
+<codeline lineno="595"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_SetStatusFlag:Invalid<sp/>Channel<sp/>Number&quot;</highlight><highlight class="normal">,<sp/>(channel<sp/>&lt;<sp/>4U));</highlight></codeline>
+<codeline lineno="596"><highlight class="normal"></highlight></codeline>
+<codeline lineno="597"><highlight class="normal"><sp/><sp/>eru-&gt;EXICON_b[channel].FL<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="598"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="599"><highlight class="normal"></highlight></codeline>
+<codeline lineno="615"><highlight class="normal">__STATIC_INLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gab3e95f6b12bef69e7e6d1815048a34ff" kindref="member">XMC_ERU_ETL_ClearStatusFlag</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
+<codeline lineno="616"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="617"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_ClearStatusFlag:Invalid<sp/>Module<sp/>Pointer&quot;</highlight><highlight class="normal">,<sp/>XMC_ERU_CHECK_MODULE_PTR(eru));</highlight></codeline>
+<codeline lineno="618"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_ClearStatusFlag:Invalid<sp/>Channel<sp/>Number&quot;</highlight><highlight class="normal">,<sp/>(channel<sp/>&lt;<sp/>4U));</highlight></codeline>
+<codeline lineno="619"><highlight class="normal"></highlight></codeline>
+<codeline lineno="620"><highlight class="normal"><sp/><sp/>eru-&gt;EXICON_b[channel].FL<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="621"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="622"><highlight class="normal"></highlight></codeline>
+<codeline lineno="638"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___e_r_u_1ga83d258683013290648d57f18916e032c" kindref="member">XMC_ERU_ETL_GetStatusFlag</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
+<codeline lineno="639"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="640"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_GetStatusFlag:Invalid<sp/>Module<sp/>Pointer&quot;</highlight><highlight class="normal">,<sp/>XMC_ERU_CHECK_MODULE_PTR(eru));</highlight></codeline>
+<codeline lineno="641"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_ETL_GetStatusFlag:Invalid<sp/>Channel<sp/>Number&quot;</highlight><highlight class="normal">,<sp/>(channel<sp/>&lt;<sp/>4U));</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"></highlight></codeline>
+<codeline lineno="643"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)eru-&gt;EXICON_b[channel].FL;</highlight></codeline>
+<codeline lineno="644"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"></highlight></codeline>
+<codeline lineno="666"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gae0f5c34432dc1067976409af3af971ed" kindref="member">XMC_ERU_ETL_SetStatusFlagMode</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="667"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="668"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga5ea4e2b56bf3f57b0b59e0158f53d42c" kindref="member">XMC_ERU_ETL_STATUS_FLAG_MODE_t</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="669"><highlight class="normal"></highlight></codeline>
+<codeline lineno="692"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga6335e7c97f4834704eb27876741310d7" kindref="member">XMC_ERU_ETL_EnableOutputTrigger</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="693"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="694"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga15d2fb3d1c965b350e28bcfae34eae87" kindref="member">XMC_ERU_ETL_OUTPUT_TRIGGER_CHANNEL_t</ref><sp/>trigger);</highlight></codeline>
+<codeline lineno="695"><highlight class="normal"></highlight></codeline>
+<codeline lineno="711"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaba049d5d9c2647fc0a99068609650c00" kindref="member">XMC_ERU_ETL_DisableOutputTrigger</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="712"><highlight class="normal"></highlight></codeline>
+<codeline lineno="713"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>ERU_OGU<sp/>APIs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="714"><highlight class="normal"></highlight></codeline>
+<codeline lineno="734"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga8f73655169649c7b0599688d390645a0" kindref="member">XMC_ERU_OGU_Init</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="735"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="736"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t" kindref="compound">XMC_ERU_OGU_CONFIG_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>config);</highlight></codeline>
+<codeline lineno="737"><highlight class="normal"></highlight></codeline>
+<codeline lineno="757"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga8575bda905514eb0dbf318c55ef7d96d" kindref="member">XMC_ERU_OGU_EnablePatternDetection</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="758"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="759"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gafe843daae3d38c529ffd50b148d61628" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT_t</ref><sp/>input);</highlight></codeline>
+<codeline lineno="760"><highlight class="normal"></highlight></codeline>
+<codeline lineno="776"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaeff77065724a9ad6c1f7da14fbf31af9" kindref="member">XMC_ERU_OGU_DisablePatternDetection</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="777"><highlight class="normal"></highlight></codeline>
+<codeline lineno="791"><highlight class="normal">__STATIC_INLINE<sp/>uint32_t<sp/><ref refid="group___e_r_u_1ga134cd43e144a5142b668ac2bc85fa984" kindref="member">XMC_ERU_OGU_GetPatternDetectionStatus</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="792"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel)</highlight></codeline>
+<codeline lineno="793"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="794"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_OGU_GetPatternDetectionStatus:Invalid<sp/>Module<sp/>Pointer&quot;</highlight><highlight class="normal">,<sp/>XMC_ERU_CHECK_MODULE_PTR(eru));</highlight></codeline>
+<codeline lineno="795"><highlight class="normal"><sp/><sp/>XMC_ASSERT(</highlight><highlight class="stringliteral">&quot;XMC_ERU_OGU_GetPatternDetectionStatus:Invalid<sp/>Channel<sp/>Number&quot;</highlight><highlight class="normal">,<sp/>(channel<sp/>&lt;<sp/>4U));</highlight></codeline>
+<codeline lineno="796"><highlight class="normal"></highlight></codeline>
+<codeline lineno="797"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)eru-&gt;EXOCON_b[channel].PDR;</highlight></codeline>
+<codeline lineno="798"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="799"><highlight class="normal"></highlight></codeline>
+<codeline lineno="820"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gafca497a2865ef65cba5a604483954bca" kindref="member">XMC_ERU_OGU_EnablePeripheralTrigger</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="821"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="822"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gab2ee1dc0cb1c6218868da04976b6819a" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER_t</ref><sp/>peripheral_trigger);</highlight></codeline>
+<codeline lineno="823"><highlight class="normal"></highlight></codeline>
+<codeline lineno="841"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga66ee1efaa21c1b581756765f6a991a66" kindref="member">XMC_ERU_OGU_DisablePeripheralTrigger</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="842"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel);</highlight></codeline>
+<codeline lineno="843"><highlight class="normal"></highlight></codeline>
+<codeline lineno="860"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1ga5dc8b8a92b00cbcb2ed80fa5201a5ce0" kindref="member">XMC_ERU_OGU_SetServiceRequestMode</ref>(<ref refid="struct_x_m_c___e_r_u__t" kindref="compound">XMC_ERU_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eru,</highlight></codeline>
+<codeline lineno="861"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>channel,</highlight></codeline>
+<codeline lineno="862"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group___e_r_u_1gaae4af18f2e9af9ae235a3d69b4007c0e" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_t</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="863"><highlight class="normal"></highlight></codeline>
+<codeline lineno="864"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="865"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="866"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="867"><highlight class="normal"></highlight></codeline>
+<codeline lineno="873"><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>XMC_ERU_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h"/>
   </compounddef>

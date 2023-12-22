@@ -1,0 +1,44 @@
+/**
+ *
+ * @page page_personalities_reference
+ *
+ * \section section_personality_posif POSIF Personality
+ * \subsection subsection_personality_posif_qd Quadrature Decoder Mode
+ * Quadrature Decoder mode is used to find the position and speed of the motor using the incremental encoder.
+ * The profile is designed so that it can estimate the angle by consuming 3 CCU4 slices and an optional CCU4 slice along with POSIF and its interconnections.
+ *
+ * Four CCU4 slices are consumed for the following purposes:
+ * -# Position Counter<br>
+ *    - Set the slice to be in Counter mode, which starts ticking based on encoder pulses to provide the absolute position:
+ *    - Connect the Status Signal of the Position Counter CCU4 to an optional Revolution Counter CCU4 slice Event 0 Input Signal.
+ *    - Set the Count Function of the Revolution Counter CCU4 slice to Triggered by Event 0.
+ *    - Set the Event 0 Edge Selection of the Revolution Counter CCU4 slice to Signal Active on Falling Edge.
+ *    - Set the Event 0 Level Selection of the Revolution Counter CCU4 slice to Active on the High Level.
+ * -# Revolution Counter (optional)<br>
+      - Set the slice to be in Counter mode, which ticks based on the Position Counter period match (Falling edge of ST signal).
+ * -# Time Between Ticks<br>
+ *    - The slice to measure time between ticks for the angle extrapolation.
+ * -# Time Stamp Trigger<br>
+ *    - The slice to generate a trigger at the time stamp point when the angle extrapolation is required.
+ *    - Connect the Status Signal of the Time Stamp Trigger CCU4 slice to the Position Counter and Revolution Counter CCU4 slices Event 2 Input Signal, and the Time Between Ticks CCU4 slice Event 1 Input Signal.
+ *    - Set the Capture 0 Function of the Position Counter and Revolution Counter CCU4 slices to Triggered by Event 2 and set the Capture 1 Function for the Time Between Ticks CCU4 slice to Triggered by Event 1.
+ *    - Set the Event 2 Edge Selection of the Position Counter and Revolution Counter as well as Event 1 Edge Selection of the Time Between Ticks CCU4 slices to Signal Active on Falling Edge.
+ *    - Set the Event 2 Level Selection of the Position Counter and Revolution Counter as well as Event 1 Level Selection of the Time Between Ticks CCU4 slices to Active on High Level.
+ *
+ * The POSIF module and its interconnection with CCU4 are depicted in the following diagram:
+ * \image html posif_encoder_structure.png
+ *
+ * \subsection subsection_personality_posif_hsm Hall Sensor Mode
+ * Hall Sensor mode is used to find the position and speed of the motor using 2 or 3 hall sensors.
+ * The POSIF personality in Hall Sensor mode uses two CCU4 slices - one to add a phase delay and one to capture the time between two correct hall patterns.
+ *
+ * The personality supports 3 hall sensors and 2 hall sensors in the following use cases:
+ * -# Find the speed and position for the PMSM motor:
+ *    In this use case, the speed and position of the PMSM motor is obtained based on the hall sensor input. It is used in the PMSM motor control, which drives the inverter as per SVM algorithm.
+ * -# Find the speed and position for the BLDC motor:
+ *    In this use case, the speed and position of the BLDC motor is obtained based on the hall sensor input. It is used in the BLDC motor control, which drives the inverter as per multi-channel pattern sequence.
+ *
+ * Refer to the API reference \ref POSIF for the API details.
+ *
+ * Refer to the device Datasheet and Reference Manual for the HW details.
+ */

@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="298" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="299" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a356510ba3d07a524eb87cb6be6c9abbc" prot="public" static="no" mutable="no">
         <type>union XMC_ERU_t::@80</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="315" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="316" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a8bfa0f086d71f8a608aa317c9324e31b" prot="public" static="no" mutable="no">
         <type>union XMC_ERU_t::@82</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="331" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="332" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="327" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="327" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="328" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="328" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1ab258afc6b0d91396f4e8d9e57a1cf49b" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="309" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="309" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="310" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="310" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a4c3a79fc32dbe4364cc851e8cbf85a91" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="303" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="303" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="304" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="304" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a96847de323ca78815a15a566e22c15fa" prot="public" static="no" mutable="no">
         <type>struct XMC_ERU_t::@80::@85</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="314" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="315" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1ae01320249b16d00118b06a015514df3c" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="285" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="285" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="286" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="286" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1aad5c6505019872c894ae82fe4432aa03" prot="public" static="no" mutable="no">
         <type>struct XMC_ERU_t::@78::@84</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="297" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="298" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a350d783f21195368d69f295524bc91e3" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="319" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="319" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="320" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="320" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a5b7d8bfb73eb5623007945269f373f92" prot="public" static="no" mutable="no">
         <type>struct XMC_ERU_t::@82::@86</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="330" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="331" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a138e546f7b2f98abea1ac802a4dccc44" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="289" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="289" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="290" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="290" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a5feedfead136e07ba11dccaa0a8aa23a" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="290" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="290" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="291" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="291" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a378201da178da5cd8ddc16825a689f48" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="291" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="291" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="292" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="292" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a8460d57996e7b4e5b06dad18ee66a208" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -203,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="292" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="292" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="293" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="293" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1aac1cb9c9a017f0246b9060a73e2e9842" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="293" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="293" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="294" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="294" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1ac4efca119d266cc3e453e5c99282d68a" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="294" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="294" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="295" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="295" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a0bc66578998c98bb645fce9eaf0b2165" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="295" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="295" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="296" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="296" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a2bafcc3cc5242d87070dd0023846e599" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -259,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="296" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="296" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="297" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="297" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1afb8f0387f99a3245580b19cbb6d0d9d7" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="311" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="311" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="312" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="312" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a711234646458c0d7f08a9baa4a15ece4" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -287,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="324" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="324" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="325" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="325" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1ab31483688f1ed97c5966169b2fdfd67e" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="326" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="326" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="327" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="327" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a77edd1f8fb93e2b4293c76c06776bf94" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="328" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="328" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="329" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="329" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a256ad0dcbf7bfdcb146e6efb076a05f2" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -329,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="323" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="323" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="324" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="324" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a1fb40109bbc1b0191c576dd4097e79f2" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="308" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="308" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="309" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="309" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a7d317fb58a14ebb6838e2c32d9245b58" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -357,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="310" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="310" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="311" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="311" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a9a75268a8af757ae98f6204f36bc6f6c" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -371,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="325" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="325" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="326" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="326" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a76f6db45c0759410784b290f9b434c29" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -385,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="307" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="307" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="308" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="308" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1abf904f8360a449816588a2cf9c9ad3c7" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -398,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="299" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="299" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="300" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="300" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a39fbdbb7ad559315fa9c23de59936655" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -412,7 +412,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="313" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="313" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="314" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="314" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a13d8c36a296a876371d8e463cfce0bc5" prot="public" static="no" mutable="no">
         <type>__I uint32_t</type>
@@ -426,7 +426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="329" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="329" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="330" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="330" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_x_m_c___e_r_u__t_1a17a2b3dae9dae259c4ec09bb1411d6e0" prot="public" static="no" mutable="no">
         <type>__IO uint32_t</type>
@@ -440,14 +440,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="312" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="312" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="313" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="313" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>ERU module </para>    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="282" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="281" bodyend="332"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="283" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="282" bodyend="333"/>
     <listofallmembers>
       <member refid="struct_x_m_c___e_r_u__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_ERU_t</scope><name>__pad0__</name></member>
       <member refid="struct_x_m_c___e_r_u__t_1ab258afc6b0d91396f4e8d9e57a1cf49b" prot="public" virt="non-virtual"><scope>XMC_ERU_t</scope><name>ED</name></member>

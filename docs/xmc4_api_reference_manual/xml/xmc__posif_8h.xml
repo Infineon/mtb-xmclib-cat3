@@ -6,13 +6,13 @@
     <includes refid="xmc__scu_8h" local="yes">xmc_scu.h</includes>
     <includes local="yes">xmc_posif_map.h</includes>
     <incdepgraph>
-      <node id="73">
+      <node id="89">
         <label>xmc_posif_map.h</label>
       </node>
-      <node id="72">
+      <node id="88">
         <label>xmc_posif.h</label>
         <link refid="xmc__posif_8h"/>
-        <childnode refid="73" relation="include">
+        <childnode refid="89" relation="include">
         </childnode>
       </node>
     </incdepgraph>

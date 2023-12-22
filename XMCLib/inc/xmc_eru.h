@@ -51,6 +51,7 @@
 
 
 /**
+ * \anchor brief_pdlapi_eru
  * @addtogroup ERU
  * @brief Event Request Unit (ERU) driver for the XMC microcontroller family.
  *
@@ -604,7 +605,7 @@ __STATIC_INLINE void XMC_ERU_ETL_SetStatusFlag(XMC_ERU_t *const eru, const uint8
  * @return None
  *
  * \par<b>Description:</b><br>
- * Set the status flag bit(FL) in EXICONx(x = [0 to 3]).<br>
+ * Clear the status flag bit(FL) in EXICONx(x = [0 to 3]).<br>
  * \par
  * If auto clear of the status flag is not enabled by detection of the opposite edge of the event edge, this API clears
  * the Flag. SO that next event is considered as new event.

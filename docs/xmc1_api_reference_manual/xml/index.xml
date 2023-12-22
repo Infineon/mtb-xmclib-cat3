@@ -781,7 +781,23 @@
     <member refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1a880a5d11ae52f7279e36a31270eb8f9f" kind="variable"><name>window_lower_bound</name></member>
     <member refid="struct_x_m_c___w_d_t___c_o_n_f_i_g__t_1aff074f1259e6fd21380c7bd67bde38ff" kind="variable"><name>window_upper_bound</name></member>
   </compound>
-  <compound refid="configuration_8txt" kind="file"><name>configuration.txt</name>
+  <compound refid="doc__personality__ccu4__1_80_8txt" kind="file"><name>doc_personality_ccu4_1.0.txt</name>
+  </compound>
+  <compound refid="doc__personality__dsd__1_80_8txt" kind="file"><name>doc_personality_dsd_1.0.txt</name>
+  </compound>
+  <compound refid="doc__personality__eru__1_80_8txt" kind="file"><name>doc_personality_eru_1.0.txt</name>
+  </compound>
+  <compound refid="doc__personality__hrpwm__1_80_8txt" kind="file"><name>doc_personality_hrpwm_1.0.txt</name>
+  </compound>
+  <compound refid="doc__personality__introduction_8txt" kind="file"><name>doc_personality_introduction.txt</name>
+  </compound>
+  <compound refid="doc__personality__pin__1_80_8txt" kind="file"><name>doc_personality_pin_1.0.txt</name>
+  </compound>
+  <compound refid="doc__personality__posif__1_80_8txt" kind="file"><name>doc_personality_posif_1.0.txt</name>
+  </compound>
+  <compound refid="doc__personality__uart__1_80_8txt" kind="file"><name>doc_personality_uart_1.0.txt</name>
+  </compound>
+  <compound refid="doc__personality__wdt__1_80_8txt" kind="file"><name>doc_personality_wdt_1.0.txt</name>
   </compound>
   <compound refid="main__xmc1_8txt" kind="file"><name>main_xmc1.txt</name>
   </compound>

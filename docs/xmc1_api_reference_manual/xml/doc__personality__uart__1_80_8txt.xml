@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
-  <compounddef id="configuration_8txt" kind="file" language="C++">
-    <compoundname>configuration.txt</compoundname>
+  <compounddef id="doc__personality__uart__1_80_8txt" kind="file" language="C++">
+    <compoundname>doc_personality_uart_1.0.txt</compoundname>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -9,6 +9,6 @@
     <programlisting>
 <codeline lineno="1"></codeline>
     </programlisting>
-    <location file="configuration.txt"/>
+    <location file="related_pages/doc_personality_uart_1.0.txt"/>
   </compounddef>
 </doxygen>

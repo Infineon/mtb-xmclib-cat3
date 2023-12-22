@@ -306,7 +306,7 @@
     </ParamChoice>
 
     <!--FIFO Settings-->
-    <ParamChoice id="RxFIFOSize" name="Receive FIFO Size" group="FIFO Settings" default="XMC_USIC_CH_FIFO_DISABLED" visible="true" editable="true" desc="Transmit FIFO size">
+    <ParamChoice id="RxFIFOSize" name="Receive FIFO Size" group="FIFO Settings" default="XMC_USIC_CH_FIFO_DISABLED" visible="true" editable="true" desc="Receive FIFO size">
       <Entry name="0 words" value="XMC_USIC_CH_FIFO_DISABLED" visible="true" />
       <Entry name="2 words" value="XMC_USIC_CH_FIFO_SIZE_2WORDS" visible="true" />
       <Entry name="4 words" value="XMC_USIC_CH_FIFO_SIZE_4WORDS" visible="true" />

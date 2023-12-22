@@ -46,7 +46,7 @@
       default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___p_o_s_i_f.html"
       linkText="Open POSIF Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
     <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation"
-      default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_posif"
+      default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/doc_personality_posif_1.0.html"
       linkText="Open POSIF Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
 
     <ParamChoice id="POSIF_mode" name="Mode Selector" group="General Settings" default="XMC_POSIF_MODE_QD" visible="true" editable="true" desc="Defines position decoder mode selection.">

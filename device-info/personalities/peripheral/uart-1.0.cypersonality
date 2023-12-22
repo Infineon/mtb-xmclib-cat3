@@ -48,8 +48,12 @@
     <ParamString id="periclk_resource" name="" group="Internal" default="scu[0].clock[0].periclk[0]" visible="false" editable="false" desc="" />
     <ParamBool id="periclk_enabled" name="" group="Internal" default="`${isBlockUsed(periclk_resource)}`" visible="false" editable="false" desc="" />
 
+    <ParamString id="dx1_has_option" name="DX1 Signal Has Option" group="Internal" default="`${hasVisibleOption(&quot;dx1[0]&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="dx2_has_option" name="DX2 Signal Has Option" group="Internal" default="`${hasVisibleOption(&quot;dx2[0]&quot;)}`" visible="false" editable="false" desc="" />
+
     <!-- Peripheral documentation -->
     <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___u_a_r_t.html" linkText="Open UART Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="cfgDoc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/doc_personality_uart_1.0.html" linkText="Open UART Personality Documentation" visible="`${xmc1}`" desc="Opens the XMC Peripheral Library Personality Documentation" />
 
     <!--Clock Settings-->
     <ParamChoice id="BaudRateGeneratorClockSrc" name="Baud Rate Generator Clock Source" group="Clock Settings" default="XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER" visible="true" editable="true" desc="Selects the clock source for the baud rate generator">
@@ -98,7 +102,7 @@
     </ParamChoice>
 
     <!--FIFO Settings-->
-    <ParamChoice id="RxFIFOSize" name="Receive FIFO Size" group="FIFO Settings" default="XMC_USIC_CH_FIFO_DISABLED" visible="true" editable="true" desc="Transmit FIFO size">
+    <ParamChoice id="RxFIFOSize" name="Receive FIFO Size" group="FIFO Settings" default="XMC_USIC_CH_FIFO_DISABLED" visible="true" editable="true" desc="Receive FIFO size">
       <Entry name="0 words" value="XMC_USIC_CH_FIFO_DISABLED" visible="true"/>
       <Entry name="2 words" value="XMC_USIC_CH_FIFO_SIZE_2WORDS" visible="true"/>
       <Entry name="4 words" value="XMC_USIC_CH_FIFO_SIZE_4WORDS" visible="true"/>
@@ -205,20 +209,20 @@
     <ParamRange id="TxFIFOLimit" name="Transmit FIFO Limit" group="FIFO Settings" default="1" min="0" max="`${(TxFIFOSizeVal > 0) ? (TxFIFOSizeVal - 1) : 1}`" resolution="1" visible="true" editable="`${TxFIFOSizeVal>0}`" desc="Transmit FIFO limit" />
 
     <!--Advanced Settings-->
-    <ParamBool id="HwTransferGatingEnabled" name="Hardware Controlled Transfer Gating" group="Advanced Settings" default="false" visible="true" editable="true" desc="Enables hardware gated transfer based on DX2 input." />
+    <ParamBool id="HwTransferGatingEnabled" name="Hardware Controlled Transfer Gating" group="Advanced Settings" default="false" visible="`${dx2_has_option}`" editable="`${dx2_has_option}`" desc="Enables hardware gated transfer based on DX2 input." />
     <ParamChoice id="HwTransferGatingLogic" name="Select Hardware Transfer Gating Logic" group="Advanced Settings" default="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_0" visible="`${HwTransferGatingEnabled}`" editable="true" desc="Selects gating logic for the transmission of a data word in TBUF.">
       <Entry name="Transfer on Low (DX2S=0)" value="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_0" visible="true"/>
       <Entry name="Transfer on High (DX2S=1)" value="XMC_USIC_CH_START_TRANSMISION_ON_TDV_DX2S_1" visible="true"/>
     </ParamChoice>
-    <ParamBool id="HwTransferTriggerEnabled" name="Hardware Controlled Transfer Triggering" group="Advanced Settings" default="false" visible="true" editable="true" desc="Enables hardware triggered transfer based on DX2 input." />
+    <ParamBool id="HwTransferTriggerEnabled" name="Hardware Controlled Transfer Triggering" group="Advanced Settings" default="false" visible="`${dx2_has_option}`" editable="`${dx2_has_option}`" desc="Enables hardware triggered transfer based on DX2 input." />
     <ParamChoice id="HwTransferTriggerEdge" name="Select Hardware Transfer Triggering Edge" group="Advanced Settings" default="XMC_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE" visible="`${HwTransferTriggerEnabled}`" editable="true" desc="Selects transfer trigger edge for the triggered transmission of a data word in TBUF.">
       <Entry name="Rising Edge of DX2T" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_RISING_EDGE" visible="true"/>
       <Entry name="Falling Edge of DX2T" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_FALLING_EDGE" visible="true"/>
       <Entry name="Both Edges of DX2T" value="XMC_USIC_CH_INPUT_COMBINATION_MODE_BOTH_EDGES" visible="true"/>
     </ParamChoice>
-    <ParamBool id="DataCollisionEnabled" name="Data Collision Detection" group="Advanced Settings" default="false" visible="`${BaudRateGeneratorClockSrc eq XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER}`" editable="true" desc="Enables data collision detection based on DX1 input." />
+    <ParamBool id="DataCollisionEnabled" name="Data Collision Detection" group="Advanced Settings" default="false" visible="`${(BaudRateGeneratorClockSrc eq XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER) &amp;&amp; dx1_has_option}`" editable="true" desc="Enables data collision detection based on DX1 input." />
     <ParamBool id="TimeMeasurementEnabled" name="Capture Mode Timer" group="Advanced Settings" default="false" visible="true" editable="true" desc="Enables the timing measurement of the capture mode timer." />
-
+    
     <!--Event Settings-->
     <ParamBool id="TransmitBufferInterrupt" name="Transmit Buffer Event" group="Data Transfer Events Settings" default="false" visible="true" editable="true" desc="Set after the start of first data bit of a data word. This is the earliest point in time when a new data word can be written to TBUF" />
     <ParamBool id="ReceiverStartInterrupt" name="Receiver Start Event" group="Data Transfer Events Settings" default="false" visible="true" editable="true" desc="Set after the sample point of the first data bit of a data word" />
@@ -313,34 +317,36 @@
     </ParamChoice>
  
     <!-- Connections -->
-    <ParamSignal port="dx0[0]" name="RXD" group="Connections" visible="true" desc="DX0 signal connection." canBeEmpty="false" multiSelect="false">
-      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" />
-    </ParamSignal>
+    <ParamSignal port="dx0[0]" name="RXD" group="Connections" visible="true" desc="DX0 signal connection." canBeEmpty="false" multiSelect="false" />
     <ParamSignal port="dx1[0]" name="DX1" group="Connections" visible="`${DataCollisionEnabled || (BaudRateGeneratorClockSrc ne XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER) || TimeMeasurementEnabled}`" desc="DX1 signal connection." canBeEmpty="`${!(DataCollisionEnabled || (BaudRateGeneratorClockSrc ne XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER))}`" multiSelect="false" />
     <ParamSignal port="dx2[0]" name="DX2" group="Connections" visible="`${HwTransferGatingEnabled || HwTransferTriggerEnabled}`" desc="DX2 signal connection." canBeEmpty="`${!(HwTransferGatingEnabled || HwTransferTriggerEnabled)}`" multiSelect="false" />
     <ParamSignal port="dout0[0]" name="TXD" group="Connections" visible="true" desc="DOUT0 signal connection." canBeEmpty="false" multiSelect="false">
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" />
     </ParamSignal>
-    <ParamBool id="ShowSystemRelatedOutputs" name="System Related Outputs" group="Connections" default="false" visible="true" editable="true" desc="Enables the system related output signals configuration."/>
+    <ParamBool id="ShowSystemRelatedConnections" name="System Related Connections" group="Connections" default="false" visible="true" editable="true" desc="Enables the system related output signals configuration."/>
+    <ParamSignal port="dx3[0]" name="DX3" group="Connections" visible="`${ShowSystemRelatedConnections &amp;&amp; hasVisibleOption(&quot;dx3[0]&quot;)}`" desc="DX3 signal connection." canBeEmpty="true" multiSelect="false" />
+    <ParamSignal port="dx4[0]" name="DX4" group="Connections" visible="`${ShowSystemRelatedConnections &amp;&amp; hasVisibleOption(&quot;dx4[0]&quot;)}`" desc="DX4 signal connection." canBeEmpty="true" multiSelect="false" />
+    <ParamSignal port="dx5[0]" name="DX5" group="Connections" visible="`${ShowSystemRelatedConnections &amp;&amp; hasVisibleOption(&quot;dx5[0]&quot;)}`" desc="DX5 signal connection." canBeEmpty="true" multiSelect="false" />
     <Repeat count="6">
-      <ParamSignal port="dx$idxins[0]" name="DX$idxINS " group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;dx$idxins[0]&quot;)}`" desc="Selected DX$idx input signal output." canBeEmpty="true" multiSelect="true" />
+      <ParamSignal port="dx$idxins[0]" name="DX$idxINS " group="Connections" visible="`${ShowSystemRelatedConnections &amp;&amp; hasVisibleOption(&quot;dx$idxins[0]&quot;)}`" desc="Selected DX$idx input signal output." canBeEmpty="true" multiSelect="true" />
     </Repeat>
     <Repeat count="6">
-      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal." canBeEmpty="true" multiSelect="true">
-        <Constraint type="DENY" targetLocation="usic\[\d+\]\.ch\[\d+\].*" valid="true" />
-      </ParamSignal>
+      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${ShowSystemRelatedConnections &amp;&amp; hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal." canBeEmpty="true" multiSelect="true" />
     </Repeat>
     <ParamBool id="StartAfterInit" name="Start After Initialization" group="Advanced" default="true" visible="true" editable="true" desc="If enabled the UART will be started at the end of the initialization." />
     <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
   </Parameters>
 
   <DRCs>
-    <DRC type="INFO" text="Enable 'DX$idxINS' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;dx$idxins&quot;, 0)}`" repeatCount="6">
-          <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
+    <DRC type="INFO" text="Enable 'DX$idxINS' signal configuration." condition="`${!ShowSystemRelatedConnections  &amp;&amp; hasConnection(&quot;dx$idxins&quot;, 0)}`" paramId="ShowSystemRelatedConnections" repeatCount="6">
+          <FixIt action="SET_PARAM" target="ShowSystemRelatedConnections" value="true" valid="true" />
     </DRC>
-    <DRC type="INFO" text="Enable 'SR$idx' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;sr$idx&quot;, 0)}`" repeatCount="6">
-      <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
+    <DRC type="INFO" text="Enable 'SR$idx' signal configuration." condition="`${!ShowSystemRelatedConnections  &amp;&amp; hasConnection(&quot;sr$idx&quot;, 0)}`" paramId="ShowSystemRelatedConnections" repeatCount="6">
+      <FixIt action="SET_PARAM" target="ShowSystemRelatedConnections" value="true" valid="true" />
     </DRC>
+    <DRC type="ERROR" text="The 'DX3' parameter must not be empty." condition="`${hasConnection(&quot;dx3ins&quot;, 0) &amp;&amp; !hasConnection(&quot;dx3&quot;, 0)}`" paramId="dx3[0]" />
+    <DRC type="ERROR" text="The 'DX4' parameter must not be empty." condition="`${hasConnection(&quot;dx4ins&quot;, 0) &amp;&amp; !hasConnection(&quot;dx4&quot;, 0)}`" paramId="dx4[0]" />
+    <DRC type="ERROR" text="The 'DX5' parameter must not be empty." condition="`${hasConnection(&quot;dx5ins&quot;, 0) &amp;&amp; !hasConnection(&quot;dx5&quot;, 0)}`" paramId="dx5[0]" />
   </DRCs>
 
   <ConfigFirmware>
@@ -348,9 +354,9 @@
     <ConfigInclude value="xmc_uart.h" include="true" />
     <ConfigDefine name="`${INST_NAME}`_NUM" value="`${ChannelNumber}`U" public="true" include="true" />
     <ConfigDefine name="`${INST_NAME}`_HW" value="XMC_UART`${InstNumber}`_CH`${ChannelNumber}`" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_DX0_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX0CR_DSEL_VALUE" public="true" include="true" />
-    <ConfigDefine name="`${INST_NAME}`_DX3_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX3CR_DSEL_VALUE" public="true" include="`${xmc1}`" guard="defined(USIC`${InstNumber}`_CH`${ChannelNumber}`_DX3CR_DSEL_VALUE)" />
-    <ConfigDefine name="`${INST_NAME}`_DX5_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX5CR_DSEL_VALUE" public="true" include="`${xmc1}`" guard="defined(USIC`${InstNumber}`_CH`${ChannelNumber}`_DX5CR_DSEL_VALUE)" />
+    <ConfigDefine name="`${INST_NAME}`_DX0_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX0CR_DSEL_VALUE" public="true" include="`${hasConnection(&quot;dx0&quot;, 0)}`" />
+    <ConfigDefine name="`${INST_NAME}`_DX3_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX3CR_DSEL_VALUE" public="true" include="`${xmc1 &amp;&amp; hasConnection(&quot;dx3&quot;, 0)}`" />
+    <ConfigDefine name="`${INST_NAME}`_DX5_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX5CR_DSEL_VALUE" public="true" include="`${xmc1 &amp;&amp; hasConnection(&quot;dx5&quot;, 0)}`" />
     <ConfigDefine name="`${INST_NAME}`_DX1_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX1CR_DSEL_VALUE" public="true" include="`${DataCollisionEnabled || (BaudRateGeneratorClockSrc ne XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER) || TimeMeasurementEnabled}`" />    
     <ConfigDefine name="`${INST_NAME}`_DX2_INPUT" value="USIC`${InstNumber}`_CH`${ChannelNumber}`_DX2CR_DSEL_VALUE" public="true" include="`${HwTransferGatingEnabled || HwTransferTriggerEnabled}`" />    
     <ConfigDefine name="`${INST_NAME}`_RXFIFO_SIZE" value="`${RxFIFOSize}`" public="true" include="`${RxFIFOSize ne XMC_USIC_CH_FIFO_DISABLED}`" />
@@ -389,9 +395,9 @@
     </ConfigStruct>
     
     <ConfigInstruction value="XMC_UART_CH_InitEx(`${INST_NAME}`_HW, &amp;`${INST_NAME}`_config, false);" include="true" />
-    <ConfigInstruction value="XMC_UART_CH_SetInputSource(`${INST_NAME}`_HW, (XMC_UART_CH_INPUT_t)XMC_USIC_CH_INPUT_DX0, `${INST_NAME}`_DX0_INPUT);" include="true" />
-    <ConfigInstruction value="XMC_UART_CH_SetInputSource(`${INST_NAME}`_HW, (XMC_UART_CH_INPUT_t)XMC_USIC_CH_INPUT_DX3, `${INST_NAME}`_DX3_INPUT);" include="`${xmc1}`" guard="defined(USIC`${InstNumber}`_CH`${ChannelNumber}`_DX3CR_DSEL_VALUE)" />
-    <ConfigInstruction value="XMC_UART_CH_SetInputSource(`${INST_NAME}`_HW, (XMC_UART_CH_INPUT_t)XMC_USIC_CH_INPUT_DX5, `${INST_NAME}`_DX5_INPUT);" include="`${xmc1}`" guard="defined(USIC`${InstNumber}`_CH`${ChannelNumber}`_DX5CR_DSEL_VALUE)" />
+    <ConfigInstruction value="XMC_UART_CH_SetInputSource(`${INST_NAME}`_HW, (XMC_UART_CH_INPUT_t)XMC_USIC_CH_INPUT_DX0, `${INST_NAME}`_DX0_INPUT);" include="`${hasConnection(&quot;dx0&quot;, 0)}`" />
+    <ConfigInstruction value="XMC_UART_CH_SetInputSource(`${INST_NAME}`_HW, (XMC_UART_CH_INPUT_t)XMC_USIC_CH_INPUT_DX3, `${INST_NAME}`_DX3_INPUT);" include="`${xmc1 &amp;&amp; hasConnection(&quot;dx3&quot;, 0)}`" />
+    <ConfigInstruction value="XMC_UART_CH_SetInputSource(`${INST_NAME}`_HW, (XMC_UART_CH_INPUT_t)XMC_USIC_CH_INPUT_DX5, `${INST_NAME}`_DX5_INPUT);" include="`${xmc1 &amp;&amp; hasConnection(&quot;dx5&quot;, 0)}`" />
     <ConfigInstruction value="XMC_USIC_CH_SetInputSource(`${INST_NAME}`_HW, XMC_USIC_CH_INPUT_DX1, `${INST_NAME}`_DX1_INPUT);" include="`${DataCollisionEnabled || (BaudRateGeneratorClockSrc ne XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER) || TimeMeasurementEnabled}`" />
     <ConfigInstruction value="XMC_USIC_CH_SetInputTriggerCombinationMode(`${INST_NAME}`_HW, XMC_USIC_CH_INPUT_DX1, `${ExternalClockEdge}`);" include="`${BaudRateGeneratorClockSrc ne XMC_USIC_CH_BRG_CLOCK_SOURCE_DIVIDER}`" />
     <ConfigInstruction value="XMC_USIC_CH_SetInputSource(`${INST_NAME}`_HW, XMC_USIC_CH_INPUT_DX2, `${INST_NAME}`_DX2_INPUT);" include="`${HwTransferGatingEnabled || HwTransferTriggerEnabled}`" />

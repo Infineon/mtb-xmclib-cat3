@@ -18,18 +18,17 @@ var NAVTREE =
     ] ],
     [ "PDL API Reference", "modules.html", "modules" ],
     [ "Personalities Reference", "page_personalities_reference.html", [
-      [ "Advanced Settings", "page_personalities_reference.html#section_personality_advanced_settings", null ],
+      [ "Personality Introduction", "page_personalities_reference.html#section_personality_introduction", [
+        [ "Common Groups", "page_personalities_reference.html#subsection_personality_common_groups", null ]
+      ] ],
+      [ "Pin Personality", "page_personalities_reference.html#section_personality_pin", null ],
+      [ "ERU Personality", "page_personalities_reference.html#section_personality_eru", [
+        [ "ERS Personality", "page_personalities_reference.html#subsection_personality_ers", null ],
+        [ "ETL Personality", "page_personalities_reference.html#subsection_personality_etl", null ],
+        [ "OGU Personality.", "page_personalities_reference.html#subsection_personality_ogu", null ]
+      ] ],
       [ "CCU4 Personality", "page_personalities_reference.html#section_personality_ccu4", [
         [ "Code Generation", "page_personalities_reference.html#subsection_ccu_codeGen", null ]
-      ] ],
-      [ "HRPWM Personality", "page_personalities_reference.html#section_personality_hrpwm", [
-        [ "Comparator & Slope Generation Unit (CSG)", "page_personalities_reference.html#subsection_personality_hrpwm_csg", null ],
-        [ "High Resolution Channel (HRC)", "page_personalities_reference.html#subsection_personality_hrpwm_hrc", null ],
-        [ "CCU8 in Edge Aligned Symmetric Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_edge_symmetric", null ],
-        [ "CCU8 in Center Aligned Symmetric Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_center_symmetric", null ],
-        [ "CCU8 in Edge Aligned Asymmetric Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_edge_asymmetric", null ],
-        [ "CCU8 in Center Aligned Asymmetric Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_center_asymmetric", null ],
-        [ "CCU8 with HRPWM Mode of Operation", "page_personalities_reference.html#subsection_personality_hrpwm_ccu8", null ]
       ] ],
       [ "POSIF Personality", "page_personalities_reference.html#section_personality_posif", [
         [ "Quadrature Decoder Mode", "page_personalities_reference.html#subsection_personality_posif_qd", null ],
@@ -37,6 +36,9 @@ var NAVTREE =
       ] ],
       [ "WDT Personality", "page_personalities_reference.html#section_personality_wdt", [
         [ "Code Generation", "page_personalities_reference.html#subsection_wdt_codeGen", null ]
+      ] ],
+      [ "UART Personality", "page_personalities_reference.html#section_personality_uart", [
+        [ "RXD Input Connection Signals", "page_personalities_reference.html#subsection_uart_rx_inputs", null ]
       ] ]
     ] ],
     [ "Deprecated List", "deprecated.html", null ]

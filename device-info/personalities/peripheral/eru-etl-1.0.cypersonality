@@ -35,9 +35,11 @@
     <ParamString id="module_num" name="Module Number" group="Internal" default="`${getInstNumber(&quot;eru&quot;)}`" visible="false" editable="false" desc="ERU parent module index." />
     <ParamString id="channel_num" name="Channel Number" group="Internal" default="`${getInstNumber(&quot;etl&quot;)}`" visible="false" editable="false" desc="ERU channel slice index." />
 
+    <!-- Peripheral documentation -->
     <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___e_r_u.html" linkText="Open ERU Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/doc_personality_eru_1.0.html" linkText="Open ERU Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+
     <!-- General -->
-    <ParamImage id="eru_etl_img" name="" group="General" default="`${cy_libs_path()}`/device-info/personalities/images/eru_etl.png" visible="true" desc="" inSummary="false" />
     <ParamChoice id="eru_edge_detector" name="Edge Detection" group="General" default="XMC_ERU_ETL_EDGE_DETECTION_DISABLED" visible="true" editable="true" desc="Configures the gating scheme to apply on pattern match output">
       <Entry name="Disabled" value="XMC_ERU_ETL_EDGE_DETECTION_DISABLED" visible="true" />
       <Entry name="Rising Edge" value="XMC_ERU_ETL_EDGE_DETECTION_RISING" visible="true" />

@@ -1,0 +1,30 @@
+/**
+ *
+ * @page page_personalities_reference
+ *
+ * \section section_personality_ccu4 CCU4 Personality
+ * There are two major revisions: 1.0 and 2.0.
+ *
+ * CCU4 1.0 is legacy and contains old-style EVENT_HANDLER definitions, which are deprecated and not recommended for usage in new applications.
+ *
+ * CCU4 1.0 is left in XMCLib for the backward compatibility with already created projects not to be updated by the user.
+ *
+ * The CCU4 1.0 support will be removed in the next major XMCLib revision.
+ *
+ * CCU4 2.0 is almost the same as 1.0 but without the deprecated items, so it is recommended for new applications.
+ *
+ * \subsection subsection_ccu_codeGen Code Generation
+ *
+ * Modern INTERRUPT_HANDLER definitions recommended for usage in applications are generated instead of the deprecated items:
+ *
+ * \image html ccu4_sr0_setting.png
+ * \image html ccu4_sr0_handler.png
+ * These newly generated definitions can be used in the application code, for example for the xmc4xxx devices:
+ * \snippet ccu.c snippet_ccu4_irqHandler
+ * and for enabling the CCU4 interrupt before starting the block:
+ * \snippet ccu.c snippet_ccu4_irqEnable
+ *
+ * Refer to the API reference \ref CCU4 for the API details.
+ *
+ * Refer to the device Datasheet and Reference Manual for the HW details.
+ */

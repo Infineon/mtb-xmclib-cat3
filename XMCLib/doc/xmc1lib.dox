@@ -798,7 +798,15 @@ INPUT                  = ../inc/xmc_acmp.h \
                          ../inc/xmc1_gpio.h \
                          ../inc/xmc1_rtc.h \
                          ../inc/xmc1_scu.h \
-                         configuration.txt \
+                         ./related_pages/doc_personality_introduction.txt \
+                         ./related_pages/doc_personality_pin_1.0.txt \
+                         ./related_pages/doc_personality_eru_1.0.txt \
+                         ./related_pages/doc_personality_ccu4_1.0.txt \
+                         ./related_pages/doc_personality_dsd_1.0.txt \
+                         ./related_pages/doc_personality_hrpwm_1.0.txt \
+                         ./related_pages/doc_personality_posif_1.0.txt \
+                         ./related_pages/doc_personality_wdt_1.0.txt \
+                         ./related_pages/doc_personality_uart_1.0.txt \
                          main_xmc1.txt
 
 # This tag can be used to specify the character encoding of the source files
@@ -1168,7 +1176,12 @@ HTML_EXTRA_STYLESHEET  =
 # files will be copied as-is; there are no commands or markers available.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_FILES       =
+HTML_EXTRA_FILES       = ./related_pages/doc_personality_ccu4_1.0.html \
+                         ./related_pages/doc_personality_eru_1.0.html \
+                         ./related_pages/doc_personality_pin_1.0.html \
+                         ./related_pages/doc_personality_posif_1.0.html \
+                         ./related_pages/doc_personality_wdt_1.0.html \
+                         ./related_pages/doc_personality_uart_1.0.html
 
 # The HTML_COLORSTYLE_HUE tag controls the color of the HTML output. Doxygen
 # will adjust the colors in the style sheet and background images according to

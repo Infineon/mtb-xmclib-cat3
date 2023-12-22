@@ -1473,7 +1473,7 @@ This is applicable only in the Capture mode of operation. The signal whose timin
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">module</td><td>Constant pointer to CCU4 module </td></tr>
-    <tr><td class="paramname">slice_number</td><td>Slice for which the clock should be disabled. Range: [0x0 to 0x3] </td></tr>
+    <tr><td class="paramname">slice_number</td><td>Slice for which the status bit should be obtained. Range: [0x0 to 0x3] </td></tr>
   </table>
   </dd>
 </dl>
@@ -2860,7 +2860,7 @@ The lowest register is evaluated first followed by the next higher ordered regis
 </dd></dl>
 <dl class="section user"><dt>Description:</dt><dd>Returns current prescaler value.<br />
 <br />
-Used to detrmine the clock frequency of the CCU8 slice <a class="el" href="group___s_c_u.html#ga22725a6c39f19f4089e45509e63f936e">XMC_SCU_CLOCK_GetCcuClockFrequency()</a> / <a class="el" href="group___c_c_u4.html#gace251376e4d8988e023fbf11013791c4">XMC_CCU4_SLICE_GetPrescaler()</a></dd></dl>
+Used to detrmine the clock frequency of the CCU4 slice <a class="el" href="group___s_c_u.html#ga22725a6c39f19f4089e45509e63f936e">XMC_SCU_CLOCK_GetCcuClockFrequency()</a> / <a class="el" href="group___c_c_u4.html#gace251376e4d8988e023fbf11013791c4">XMC_CCU4_SLICE_GetPrescaler()</a></dd></dl>
 <dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___c_c_u4.html#ga24127bd989b62814c2ba0cc876b99473">XMC_CCU4_SLICE_SetPrescaler()</a>. </dd></dl>
 
 </div>

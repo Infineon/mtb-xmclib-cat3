@@ -37,7 +37,7 @@
  *****************************************************************************
  * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2023, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -1778,7 +1778,7 @@ typedef union deptsiz0_data
     unsigned reserved21_28: 8;
     /**Setup Packet Count (DOEPTSIZ0 Only) */
     unsigned supcnt: 2;
-    unsigned reserved31;
+    unsigned reserved31: 1;
   } b;
 }
 #if __GNUC__ /*GCC*/

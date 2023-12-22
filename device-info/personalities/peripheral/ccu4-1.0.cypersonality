@@ -55,7 +55,7 @@
 
     <!-- Documentation -->
     <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_c_u4.html" linkText="Open CCU4 Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Driver Documentation" />
-    <ParamDoc id="cfgDoc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_ccu4" linkText="Open CCU4 Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+    <ParamDoc id="cfgDoc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/doc_personality_ccu4_1.0.html" linkText="Open CCU4 Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
 
     <!-- General Settings -->
     <ParamChoice id="operation_mode" name="Operation Mode" group="General" default="XMC_CCU4_SLICE_MODE_COMPARE" visible="true" editable="true" desc="Choose between Compare and Capture Mode for the Timer Slice." >

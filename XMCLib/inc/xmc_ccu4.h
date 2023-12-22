@@ -1889,7 +1889,7 @@ void XMC_CCU4_SLICE_SetPrescaler(XMC_CCU4_SLICE_t *const slice, const XMC_CCU4_S
  *
  * \par<b>Description:</b><br>
  * Returns current prescaler value.\n\n
- * Used to detrmine the clock frequency of the CCU8 slice XMC_SCU_CLOCK_GetCcuClockFrequency() / XMC_CCU4_SLICE_GetPrescaler()
+ * Used to detrmine the clock frequency of the CCU4 slice XMC_SCU_CLOCK_GetCcuClockFrequency() / XMC_CCU4_SLICE_GetPrescaler()
  *
  * \par<b>Related APIs:</b><br>
  *  XMC_CCU4_SLICE_SetPrescaler().
@@ -2400,7 +2400,7 @@ __STATIC_INLINE void XMC_CCU4_SLICE_DisableAutomaticShadowTransferRequest(XMC_CC
 
 /**
  * @param module Constant pointer to CCU4 module
- * @param slice_number Slice for which the clock should be disabled.
+ * @param slice_number Slice for which the status bit should be obtained.
  *                   Range: [0x0 to 0x3]
  * @return status bit of slice passive (false) or active (true)
  *

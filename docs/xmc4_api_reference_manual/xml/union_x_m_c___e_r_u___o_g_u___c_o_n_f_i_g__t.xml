@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="402" column="1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="403" column="1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="394" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="394" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="395" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="395" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="397" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="397" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="398" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="398" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1a9ce12a63de64ef64ae2d59d128251cae" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="401" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="401" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="402" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="402" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1abcc483ab4303eadec1b836df7d0fbcb6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -71,7 +71,7 @@
 <para>Enable generation of(GEEN) event for pattern detection result change. This accepts boolean values as input. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="392" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="392" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="393" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="393" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1a6b0203da525dc5fd2b284ffe9e964904" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -85,7 +85,7 @@
 <para>Enable input for the pattern detection(IPENx, x = [0 to 3]). Refer <ref refid="group___e_r_u_1gafe843daae3d38c529ffd50b148d61628" kindref="member">XMC_ERU_OGU_PATTERN_DETECTION_INPUT_t</ref> for valid values. <bold>OR</bold> combination of the enum items given as input </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="398" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="398" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="399" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="399" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1aaaba12878092ef18157eae0cf89bc766" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -99,7 +99,7 @@
 <para>peripheral trigger(ISS) input selection. Refer <ref refid="group___e_r_u_1gab2ee1dc0cb1c6218868da04976b6819a" kindref="member">XMC_ERU_OGU_PERIPHERAL_TRIGGER_t</ref> for valid values. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="390" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="390" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="391" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="391" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1a0a595268561edc58e347ca8387000bc6" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="386" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="386" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="387" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="387" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1af4b7148c93733c140d5b8c9d8bd9929e" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -126,14 +126,14 @@
 <para>Gating(GP) on service request generation for pattern detection result. Refer <ref refid="group___e_r_u_1gaae4af18f2e9af9ae235a3d69b4007c0e" kindref="member">XMC_ERU_OGU_SERVICE_REQUEST_t</ref> for valid values. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="395" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="395" bodyend="-1"/>
+        <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="396" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="396" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>Structure for initializing ERUx_OGUy (x = [0..1], y = [0..4]) module. </para>    </detaileddescription>
-    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="385" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="384" bodyend="403"/>
+    <location file="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" line="386" column="1" bodyfile="/builds/repo/mtb-xmclib-cat3/XMCLib/inc/xmc_eru.h" bodystart="385" bodyend="404"/>
     <listofallmembers>
       <member refid="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1a3e57c2ef1c3ffb36722f000cc1156824" prot="public" virt="non-virtual"><scope>XMC_ERU_OGU_CONFIG_t</scope><name>__pad0__</name></member>
       <member refid="union_x_m_c___e_r_u___o_g_u___c_o_n_f_i_g__t_1a6712ba6dd1d5b43d2d56ff8ac4e275a7" prot="public" virt="non-virtual"><scope>XMC_ERU_OGU_CONFIG_t</scope><name>__pad1__</name></member>

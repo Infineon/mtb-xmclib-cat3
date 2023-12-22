@@ -40,7 +40,7 @@
 
     <!-- Documentation -->
     <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___d_s_d.html" linkText="Open DSD Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Driver Documentation" />
-    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_dsd" linkText="Open DSD Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/doc_personality_dsd_1.0.html" linkText="Open DSD Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
 
     <!-- General Settings -->
     <ParamChoice id="preconfiguration_mode" name="Preconfiguration Mode" group="General Settings" default="1" visible="true" editable="true" desc="The Advance configuration allows setting a manual value for the decimation factor as well as the option to add an integration feature. Select basic or advance functionality of DSD channels.">
@@ -165,7 +165,7 @@
     <ParamBool id="enable_aux_filter_result_event" name="Auxiliary Filter Result Event" group="Event Settings" default="false" visible="`${enable_aux_filter &amp;&amp; enable_comparator}`" editable="true" desc="Enable aux filter alarm event for DSD channel." />
 
     <!-- Connections -->
-    <ParamSignal port="din_inp[0]" name="Data Bitstream Input [din_inp]" group="Connections" visible="true" desc="" canBeEmpty="false" />
+    <ParamSignal port="din_inp[0]" name="Data Bitstream Input [din_inp]" group="Connections" visible="true" desc="" canBeEmpty="false" isDependency="true" />
     <ParamSignal port="mclk_inp[0]" name="Modulator Clock Input [mclk_inp]" group="Connections" visible="`${clock_master == 1}`" desc="" canBeEmpty="`${clock_master == 2}`" />
     <ParamSignal port="mclk[0]" name="Modulator Clock Output [mclk]" group="Connections" visible="`${clock_master == 2}`" desc="" canBeEmpty="true" />
     <ParamSignal port="itr_inp[0]" name="Trigger Signal Input A [itr_inp]" group="Connections" visible="`${enable_trigger_integrator}`" desc="" canBeEmpty="true" />

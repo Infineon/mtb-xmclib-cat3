@@ -48,7 +48,7 @@
     <Block name="eth"/>
   </RemoveListWounding>
   <RemoveListWounding name="ECAT_REMOVED">
-    <Block name="ecat"/>
+    <Block name="ecat.port"/>
   </RemoveListWounding>
   <RemoveListWounding name="EBU_REMOVED">
     <Block name="ebu"/>

@@ -6,13 +6,13 @@
     <includes refid="xmc__scu_8h" local="yes">xmc_scu.h</includes>
     <includes local="yes">xmc_vadc_map.h</includes>
     <incdepgraph>
-      <node id="100">
+      <node id="116">
         <label>xmc_vadc_map.h</label>
       </node>
-      <node id="99">
+      <node id="115">
         <label>xmc_vadc.h</label>
         <link refid="xmc__vadc_8h"/>
-        <childnode refid="100" relation="include">
+        <childnode refid="116" relation="include">
         </childnode>
       </node>
     </incdepgraph>

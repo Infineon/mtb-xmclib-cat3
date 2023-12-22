@@ -48,7 +48,7 @@
 
     <!-- Documentation -->
     <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___w_d_t.html" linkText="Open WDT Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Driver Documentation" />
-    <ParamDoc id="cfgDoc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_wdt" linkText="Open WDT Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+    <ParamDoc id="cfgDoc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/doc_personality_wdt_1.0.html" linkText="Open WDT Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
 
     <!-- General Settings -->
     <ParamRange id="desired_ms_wlb" name="Desired [ms]" group="Window Lower Bound" default="0" min="0" max="`${cast(float, clock_source_divided)*cast(int64,clock_source_multiplier)}`" resolution="0.01" visible="true" editable="true" desc="Set the minimal time before watchdog can be serviced." />

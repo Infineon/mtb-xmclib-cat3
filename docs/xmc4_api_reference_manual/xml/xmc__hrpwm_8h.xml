@@ -5,13 +5,13 @@
     <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">xmc_hrpwm_map.h</includes>
     <incdepgraph>
-      <node id="64">
+      <node id="80">
         <label>xmc_hrpwm_map.h</label>
       </node>
-      <node id="63">
+      <node id="79">
         <label>xmc_hrpwm.h</label>
         <link refid="xmc__hrpwm_8h"/>
-        <childnode refid="64" relation="include">
+        <childnode refid="80" relation="include">
         </childnode>
       </node>
     </incdepgraph>

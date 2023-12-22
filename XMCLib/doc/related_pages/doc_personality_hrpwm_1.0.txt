@@ -1,71 +1,8 @@
 /**
  *
- * @page page_personalities_reference Personalities Reference
- *
- * The XMC Peripheral Library includes a set of files to enable the  ModusToolbox&trade; Device Configurator functionality.
- * These files are known as personalities and describe the user interface for the Device Configurator in the xml format.
- * Based on the user settings, personalities generate initialization code (the configuration structures and initialization API calls), which is executed within the init_cycfg_all() function.
- * The init_cycfg_all() is usually executed within the cybsp_init() function, or may be called directly in the main() function by the user.
- * The system clock personalities generate a strong definition of the SystemCoreClockSetup() function, which is executed at a startup (before jumping to main.c, not within the init_cycfg_all() unlike other ModusToolbox&trade; PDL products).
- *
- * \section section_personality_advanced_settings Advanced Settings
- * Most of the personalities have several common parameters located in the Advanced Settings group:
- *
- * - <b>Start After Initialization:</b> if enabled, the peripheral will start at the end of the peripheral initialization.
- * - <b>Store Config in Flash:</b> controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false).
- *
- *
- * \section section_personality_ccu4 CCU4 Personality
- * There are two major revisions: 1.0 and 2.0
- *
- * The CCU4 1.0 is legacy and contains old-style EVENT_HANDLER definitions, which are deprecated and not recommended for usage in new applications.
- *
- * It is left in the XMCLib for the backward compatibility with already created projects that the user does not want to update.
- *
- * This support will be removed in the next major XMCLib revision.
- *
- * The CCU4 2.0 is almost the same as 1.0 but without the deprecated items, so it is recommended for new applications.
- *
- * \subsection subsection_ccu_codeGen Code Generation
- *
- * Instead of the deprecated items, modern INTERRUPT_HANDLER definitions are generated that are recommended for usage in applications:
- *
- * \image html ccu4_sr0_setting.png
- * \image html ccu4_sr0_handler.png
- * Then, these definitions can be used in the application code, for example for the xmc4xxx devices:
- * \snippet ccu.c snippet_ccu4_irqHandler
- * and for enabling the CCU4 interrupt before starting the block:
- * \snippet ccu.c snippet_ccu4_irqEnable
- *
- * Refer to the API reference \ref CCU4 for the API details.
- *
- * Refer to the device Datasheet and Reference Manual for the HW details.
- *
+ * @page page_personalities_reference
  *
  * \if XMC4
- * \section section_personality_dsd DSD Personality
- *
- * The general DSD block configuration structure:
- * \image html dsd_settings_general.png
- *
- * The single channel GUI configurates a separate DSD channel:
- * \image html dsd_configuration_advanced.png
- * The Trigger (Integrator) settings are available for Advanced Preconfiguration Mode only.
- *
- * \subsection subsection_dsd_codeGen Code Generation
- * Note that all the public generated code items are prefixed with the name given in the Device Configurator:
- * \image html dsd_instName.png
- * The personality generates a base address, channel ID, and interrupt-related macros that can be used in the application code:
- * \snippet dsd.c snippet_dsd_irqHandlers
- * and then, for enabling the DSD interrupts and starting the block itself:
- * \snippet dsd.c snippet_dsd_irqEnable
- *
- * Refer to the API reference \ref DSD for the API details.
- *
- * Refer to the device Datasheet and Reference Manual for the HW details.
- * \endif
- *
- *
  * \section section_personality_hrpwm HRPWM Personality
  * \subsection subsection_personality_hrpwm_csg Comparator &amp; Slope Generation Unit (CSG)
  * The personality provides the following functionalities using the CSG peripheral:
@@ -266,62 +203,5 @@
  * Refer to the API reference \ref HRPWM for the API details.
  *
  * Refer to the device Datasheet and Reference Manual for the HW details.
- *
- *
- * \section section_personality_posif POSIF Personality
- * \subsection subsection_personality_posif_qd Quadrature Decoder Mode
- * Quadrature Decoder mode is used to find the position and speed of the motor using the incremental encoder.
- * The profile is designed so that it can estimate the angle by consuming 3 CCU4 slices and an optional CCU4 slice along with POSIF and its interconnections.
- *
- * Four CCU4 slices are consumed for the following purposes:
- * -# Position Counter - set the slice to be in Counter mode, which starts ticking based on encoder pulses to provide the absolute position:
- *    - Connect the Status Signal of the Position Counter CCU4 to an optional Revolution Counter CCU4 slice Event 0 Input Signal.
- *    - Set the Count Function of the Revolution Counter CCU4 slice to Triggered by Event 0.
- *    - Set the Event 0 Edge Selection of the Revolution Counter CCU4 slice to Signal Active on Falling Edge.
- *    - Set the Event 0 Level Selection of the Revolution Counter CCU4 slice to Active on the High Level.
- * -# Revolution Counter (optional) - set the slice to be in Counter mode, which ticks based on the Position Counter period match (Falling edge of ST signal).
- * -# Time Between Ticks - the slice to measure time between ticks for the angle extrapolation.
- * -# Time Stamp Trigger - the slice to generate a trigger at the time stamp point when the angle extrapolation is required.
- *    - Connect the Status Signal of the Time Stamp Trigger CCU4 slice to the Position Counter and Revolution Counter CCU4 slices Event 2 Input Signal, and the Time Between Ticks CCU4 slice Event 1 Input Signal.
- *    - Set the Capture 0 Function of the Position Counter and Revolution Counter CCU4 slices to Triggered by Event 2 and set the Capture 1 Function for the Time Between Ticks CCU4 slice to Triggered by Event 1.
- *    - Set the Event 2 Edge Selection of the Position Counter and Revolution Counter as well as Event 1 Edge Selection of the Time Between Ticks CCU4 slices to Signal Active on Falling Edge.
- *    - Set the Event 2 Level Selection of the Position Counter and Revolution Counter as well as Event 1 Level Selection of the Time Between Ticks CCU4 slices to Active on High Level.
- *
- * The POSIF module and its interconnection with CCU4 are depicted in the following diagram:
- * \image html posif_encoder_structure.png
- *
- * \subsection subsection_personality_posif_hsm Hall Sensor Mode
- * Hall Sensor mode is used to find the position and speed of the motor using 2 or 3 hall sensors.
- * The POSIF personality in Hall Sensor mode uses two CCU4 slices - one to add a phase delay and one to capture the time between two correct hall patterns.
- *
- * The personality supports 3 hall sensors and 2 hall sensors in the following use cases:
- * -# Find the speed and position for the PMSM motor:
- *    In this use case, the speed and position of the PMSM motor is obtained based on the hall sensor input. It is used in the PMSM motor control, which drives the inverter as per SVM algorithm.
- * -# Find the speed and position for the BLDC motor:
- *    In this use case, the speed and position of the BLDC motor is obtained based on the hall sensor input. It is used in the BLDC motor control, which drives the inverter as per multi-channel pattern sequence.
- *
- * Refer to the API reference \ref POSIF for the API details.
- *
- * Refer to the device Datasheet and Reference Manual for the HW details.
- *
- *
- * \section section_personality_wdt WDT Personality
- *
- * The Window boundaries configuration:
- * \image html wdt_window.png
- * \image html wdt_window_cfg.png
- *
- * The Pre-Warning Alarm interrupt configuration:
- * \image html wdt_prewarn.png
- * \image html wdt_prewarn_cfg.png
- *
- * \subsection subsection_wdt_codeGen Code Generation
- * The configurator performs the [name]_EventHandler registration in the generated code, so declare it in the application code, for example for the xmc4xxx devices:
- * \snippet wdt.c snippet_wdt_irqHandlers
- * and then start the block itself (the rest of configurations are performed in the generated code):
- * \snippet wdt.c snippet_wdt_start
- *
- * Refer to the API reference \ref WDT for the API details.
- *
- * Refer to the device Datasheet and Reference Manual for HW details.
+ * \endif
  */

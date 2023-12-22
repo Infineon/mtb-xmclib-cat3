@@ -6,13 +6,13 @@
     <includes local="yes">xmc1_flash.h</includes>
     <includes refid="xmc4__flash_8h" local="yes">xmc4_flash.h</includes>
     <incdepgraph>
-      <node id="57">
+      <node id="73">
         <label>xmc_flash.h</label>
         <link refid="xmc__flash_8h"/>
-        <childnode refid="58" relation="include">
+        <childnode refid="74" relation="include">
         </childnode>
       </node>
-      <node id="58">
+      <node id="74">
         <label>xmc1_flash.h</label>
       </node>
     </incdepgraph>

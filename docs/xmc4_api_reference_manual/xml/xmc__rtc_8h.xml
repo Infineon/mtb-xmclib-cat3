@@ -7,18 +7,18 @@
     <includes local="yes">xmc1_rtc.h</includes>
     <includes refid="xmc4__rtc_8h" local="yes">xmc4_rtc.h</includes>
     <incdepgraph>
-      <node id="75">
+      <node id="91">
         <label>xmc_rtc.h</label>
         <link refid="xmc__rtc_8h"/>
-        <childnode refid="76" relation="include">
+        <childnode refid="92" relation="include">
         </childnode>
-        <childnode refid="77" relation="include">
+        <childnode refid="93" relation="include">
         </childnode>
       </node>
-      <node id="76">
+      <node id="92">
         <label>time.h</label>
       </node>
-      <node id="77">
+      <node id="93">
         <label>xmc1_rtc.h</label>
       </node>
     </incdepgraph>

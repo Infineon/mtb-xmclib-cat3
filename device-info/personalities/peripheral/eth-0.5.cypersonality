@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--****************************************************************************
+* \file eth-0.5.cypersonality
+* \version 0.5
+*
+* \brief
+* Ethernet MAC (ETH) personality description file for XMC4000 family.
+*
+********************************************************************************
+* \copyright
+* Copyright 2023 Cypress Semiconductor Corporation
+* SPDX-License-Identifier: Apache-2.0
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*****************************************************************************-->
+
+<Personality id="xmc_eth" name="ETH_MAC" version="0.5" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+  <Dependencies>
+    <IpBlock name="xmc_eth" />
+    <Resource name="eth\.mux" />
+  </Dependencies>
+  <ExposedMembers />
+  <Parameters>
+    <!-- Internal -->
+    <ParamString id="phy_interface_has_option" name="PHY Intarface Has Option" group="Internal" 
+      default="`${(hasVisibleOption(&quot;crs[0]&quot;) &amp;&amp; hasVisibleOption(&quot;col[0]&quot;) &amp;&amp; hasVisibleOption(&quot;rxdv[0]&quot;) &amp;&amp; hasVisibleOption(&quot;rxd2[0]&quot;) &amp;&amp; hasVisibleOption(&quot;rxd3[0]&quot;) &amp;&amp; hasVisibleOption(&quot;txer[0]&quot;) &amp;&amp; hasVisibleOption(&quot;txd2[0]&quot;) &amp;&amp; hasVisibleOption(&quot;txd3[0]&quot;) &amp;&amp; hasVisibleOption(&quot;clk_tx[0]&quot;) &amp;&amp; hasVisibleOption(&quot;clkrx[0]&quot;))}`"
+      visible="false" editable="false" desc="" />
+    <ParamString id="eth_clock_resource" name="ETH CLK Resource Path" group="Internal" default="scu[0].clock[0].ethclk[0]" visible="false" editable="false" desc="" />
+    <ParamBool id="eth_clock_error" name="ETH Clock Error" group="Internal" default="`${!isBlockUsed(eth_clock_resource)}`" visible="false" editable="false" desc="True when the ETH module clock resource is not enabled." />
+
+    <!-- Peripheral documentation -->
+    <ParamDoc id="mac_api_doc" name="MAC API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___e_t_h___m_a_c.html" linkText="Open ETH_MAC Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+    <ParamDoc id="phy_api_doc" name="PHY API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___e_t_h___p_h_y.html" linkText="Open ETH_PHY Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation." />
+    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/doc_personality_eth_0.5.html" linkText="Open ETH Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+
+    <!-- Network Interface -->
+    <ParamChoice id="eth_phy_interconnect" name="PHY Interconnect" group="Network Interface" default="XMC_ETH_LINK_INTERFACE_RMII" visible="true" editable="true" desc="Depending on the chip package type, the ETH peripheral will be connected to the external PHY by either Reduced Media Independent Interface (RMII) or by Media Independent Interface (MII). The MII interface is available only for devices with more than 100 pins.">
+      <Entry name="RMII" value="XMC_ETH_LINK_INTERFACE_RMII" visible="true" />
+      <Entry name="MII" value="XMC_ETH_LINK_INTERFACE_MII" visible="`${phy_interface_has_option}`" />
+    </ParamChoice>
+    <ParamChoice id="eth_phy_device" name="PHY Device" group="Network Interface" default="XMC_ETH_PHY_KSZ8081RNB" visible="true" editable="true" desc="Physical layer device (PHY) selection. The available PHY devices: KSZ8031RNL(MICREL), KSZ8081RNB(MICREL), DP83848C(TI). To use any other PHY device, select the &quot;User Defined&quot; option.">
+      <Entry name="KSZ8031RNL" value="XMC_ETH_PHY_KSZ8031RNL" visible="true" />
+      <Entry name="KSZ8081RNB" value="XMC_ETH_PHY_KSZ8081RNB" visible="true" />
+      <Entry name="DP83848C" value="XMC_ETH_PHY_DP83848C" visible="true" />
+      <Entry name="User Defined" value="XMC_ETH_PHY_USER_DEFINED" visible="true" />
+    </ParamChoice>
+    <ParamRange id="eth_phy_address" name="PHY Address" group="Network Interface" default="0" min="0" max="31" resolution="1" visible="true" editable="true" desc="Physical layer device ID. This ID is specified by the manufacturer." />
+    <ParamBool id="eth_phy_autonegotation" name="Enable Autonegotation" group="Network Interface" default="false" visible="true" editable="true" desc="Enables the autonegotiation of PHY speed and Duplex mode." />
+    <ParamChoice id="eth_phy_speed" name="PHY Speed" group="Network Interface" default="XMC_ETH_LINK_SPEED_10M" visible="`${(!eth_phy_autonegotation)}`" editable="`${(!eth_phy_autonegotation)}`" desc="If the autonegotiation is disabled, the configuration code configures a speed and duplex of the PHY. These values will be configured to the selected PHY device in its initialization sequence.">
+      <Entry name="10 Mbit/s" value="XMC_ETH_LINK_SPEED_10M" visible="true" />
+      <Entry name="100 Mbit/s" value="XMC_ETH_LINK_SPEED_100M" visible="true" />
+    </ParamChoice>
+    <ParamChoice id="eth_phy_duplex" name="PHY Duplex Mode" group="Network Interface" default="XMC_ETH_LINK_DUPLEX_FULL" visible="`${(!eth_phy_autonegotation)}`" editable="`${(!eth_phy_autonegotation)}`" desc="If the autonegotiation is disabled, the configuration code configures the type of the physical layer communication as either half duplex or full duplex.">
+      <Entry name="Half Duplex" value="XMC_ETH_LINK_DUPLEX_HALF" visible="true" />
+      <Entry name="Full Duplex" value="XMC_ETH_LINK_DUPLEX_FULL" visible="true" />
+    </ParamChoice>
+    <ParamString id="eth_mac_address" name="MAC Address" group="Network Interface" default="00:03:19:45:00:00" visible="true" editable="true" desc="The MAC address for the device. The values are in the hexadecimal format. Configures a hardware address of the ETH peripheral. The values require the hexadecimal format MM:MM:MM:SS:SS:SS." />
+    <ParamRange id="eth_rxbuf_num" name="Number Of Receive Buffers" group="Network Interface" default="4" min="1" max="16" resolution="1" visible="true" editable="true" desc="Configures a number of the receive buffers. This value is directly related to the number of used receive DMA descriptors. Each receive buffer is configured for the maximum buffer size of 1518 bytes." />
+    <ParamRange id="eth_txbuf_num" name="Number Of Transmit Buffers" group="Network Interface" default="4" min="1" max="16" resolution="1" visible="true" editable="true" desc="Configures a number of the transmit buffers. This value is directly related to the number of used transmit DMA descriptors. Each transmit buffer is configured for the maximum buffer size of 1518 bytes." />
+    <ParamBool id="eth_mac_promiscuous" name="Enable Promiscuous Mode" group="Network Interface" default="false" visible="true" editable="true" desc="Enables Promiscuous mode in the ETH peripheral. When enabled, even not-host-addressed packets are received." />
+    <ParamBool id="eth_mac_broadcast" name="Accept Broadcast Frames" group="Network Interface" default="false" visible="true" editable="true" desc="Enables the reception of broadcast frames by configuring the ETH peripheral." />
+    <ParamBool id="eth_mac_poll" name="Poll For Received Data" group="Network Interface" default="false" visible="true" editable="true" desc="Enables Polling mode for the packet reception. By default, the interrupt is enabled to read received data and propagate it along the software stack to the application. On selecting this option, the interrupt will not be used for reading received data. Implement the periodic read-function call to allow the propagation of received data along the software stack." />
+
+    <!-- Connections -->
+    <ParamSignal port="crs[0]" name="ETH_CRS" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="Carrier Sense" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="col[0]" name="ETH_COL" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="Collision Detect" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="rxdv[0]" name="ETH_RX_DV" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="Receive Data Valid" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="crs_dv[0]" name="ETH_CRS_DV" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_RMII)}`" desc="Carrier Sense Data Valid" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_RMII)}`" />
+    <ParamSignal port="rxer[0]" name="ETH_RX_ER" group="Connections" visible="true" desc="Receive Error" canBeEmpty="false" />
+    <ParamSignal port="rxd0[0]" name="ETH_RXD0" group="Connections" visible="true" desc="Receive Data Line 0" canBeEmpty="false" />
+    <ParamSignal port="rxd1[0]" name="ETH_RXD1" group="Connections" visible="true" desc="Receive Data Line 1" canBeEmpty="false" />
+    <ParamSignal port="rxd2[0]" name="ETH_RXD2" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="Receive Data Line 2" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="rxd3[0]" name="ETH_RXD3" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="Receive Data Line 3" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="tx_en[0]" name="ETH_TX_EN" group="Connections" visible="true" desc="Transmit Enable" canBeEmpty="false" />
+    <ParamSignal port="txer[0]" name="ETH_TX_ER" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="Transmit Error" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="txd0[0]" name="ETH_TXD0" group="Connections" visible="true" desc="Transmit Data Line 0" canBeEmpty="false" />
+    <ParamSignal port="txd1[0]" name="ETH_TXD1" group="Connections" visible="true" desc="Transmit Data Line 1" canBeEmpty="false" />
+    <ParamSignal port="txd2[0]" name="ETH_TXD2" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="Transmit Data Line 2" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="txd3[0]" name="ETH_TXD3" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="Transmit Data Line 3" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="clk_tx[0]" name="ETH_CLKTX" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="PHY Transmit Clock" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="clkrx[0]" name="ETH_CLKRX" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" desc="PHY Receive Clock" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_MII)}`" />
+    <ParamSignal port="clk_rmii[0]" name="ETH_CLKRMII" group="Connections" visible="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_RMII)}`" desc="PHY Clock" canBeEmpty="`${(eth_phy_interconnect ne XMC_ETH_LINK_INTERFACE_RMII)}`" />
+    <ParamSignal port="mdc[0]" name="ETH_MDC" group="Connections" visible="true" desc="Management Data Clock" canBeEmpty="false" />
+    <ParamSignal port="mdo[0]" name="ETH_MDO" group="Connections" visible="true" canBeEmpty="false" multiSelect="false" desc="Management Data I/O">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+    <ParamSignal port="mdi[0]" name="ETH_MDI" group="Connections" visible="true" canBeEmpty="false" multiSelect="false" desc="Management Data I/O">
+      <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
+        <Parameter id="io_function" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_HWCTRL" />
+        </Parameter>
+        <Parameter id="output_strength" severity="DEFAULT" reason="">
+          <Fixed value="XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE" />
+        </Parameter>
+      </Constraint>
+    </ParamSignal>
+
+    <!-- Advanced Settings -->
+    <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
+
+    <!-- Internal -->
+    <ParamString id="call_mac_parser" name="MAC Parser" group="Internal" default="`${runTcl(&quot;eth_mac_parser-1.0.tcl&quot;, eth_mac_address)}`" visible="false" editable="false" desc="" />
+  </Parameters>
+
+  <DRCs>
+    <DRC type="ERROR" text="ETH Clock is not enabled" condition="`${eth_clock_error}`">
+      <FixIt action="ENABLE_BLOCK" target="`${eth_clock_resource}`" value="" valid="true" />
+    </DRC>
+    <DRC type="ERROR" text="Unable to parse the MAC address, because it does not match the hexadecimal format MM:MM:MM:SS:SS:SS." condition="`${!hasMatch(eth_mac_address, &quot;^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$&quot;)}`" paramId="eth_mac_address" />
+    <DRC type="ERROR" text="MDO and MDI signals must be connected to the same pin." condition="`${getBlockFromSignal(&quot;mdo[0]&quot;) ne getBlockFromSignal(&quot;mdi[0]&quot;)}`" />
+    <DRC type="INFO" text="To connect PHY driver in to the project, make global declaration in project properties with define: `${eth_phy_device}`." condition="`${eth_phy_device gt &quot;&quot;}`" paramId="eth_phy_device" />
+    <DRC type="INFO" text="If the autonegotiation is enabled, then, required - an additional implementation of the function with such functionality into the project. That functionality is available in the appropriate PHY device driver." condition="`${eth_phy_autonegotation}`" paramId="eth_phy_autonegotation" />
+    <DRC type="INFO" text="If the polling is enabled, then, required - an additional implementation of the function with such functionality into the project. The user has to call this function periodically to get data." condition="`${eth_mac_poll}`" paramId="eth_mac_poll" />
+  </DRCs>
+
+  <ConfigFirmware>
+    <ConfigInclude value="xmc_eth_phy.h" include="true" />
+    <ConfigDefine name="`${eth_phy_device}`" value="" public="true" include="false" />
+    <ConfigDefine name="`${INST_NAME}`_PHY_ADDR" value="`${eth_phy_address}`" public="false" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_MTL_NUM_RX_BUF" value="`${eth_rxbuf_num}`U" public="false" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_MTL_NUM_TX_BUF" value="`${eth_txbuf_num}`U" public="false" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_BROADCAST_EN" value="`${(eth_mac_broadcast) ? 1 : 0}`U" public="false" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_RXD_POLLING_EN" value="`${(eth_mac_poll) ? 1 : 0}`U" public="false" include="true" />
+    <ConfigDefine name="`${INST_NAME}`_MAC_ADDR$idx" value="0x`${getTclVar(&quot;macField$idx&quot;, call_mac_parser)}`U" public="false" include="true" repeatCount="6" />
+    <ConfigDefine name="`${INST_NAME}`_MAC_ADDR" value="(((uint64_t)`${INST_NAME}`_MAC_ADDR0&lt;&lt;0) | ((uint64_t)`${INST_NAME}`_MAC_ADDR1&lt;&lt;8) | ((uint64_t)`${INST_NAME}`_MAC_ADDR2&lt;&lt;16) | ((uint64_t)`${INST_NAME}`_MAC_ADDR3&lt;&lt;24) | ((uint64_t)`${INST_NAME}`_MAC_ADDR4&lt;&lt;32) | ((uint64_t)`${INST_NAME}`_MAC_ADDR5&lt;&lt;40))" public="false" include="true" />
+
+    <ConfigStruct name="`${INST_NAME}`_MTL_rx_desc" type="XMC_ETH_MAC_DMA_DESC_t" const="false" public="false" include="true" isArray="true" >
+      <Member name="`${##}`" value="(XMC_ETH_MAC_DMA_DESC_t){0,0,0,0,0,0,0,0}" include="true" count="4"/>
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_MTL_tx_desc" type="XMC_ETH_MAC_DMA_DESC_t" const="false" public="false" include="true" isArray="true" >
+      <Member name="`${##}`" value="(XMC_ETH_MAC_DMA_DESC_t){0,0,0,0,0,0,0,0}" include="true" count="4"/>
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_phy_config" type="XMC_ETH_PHY_CONFIG_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="interface" value="`${eth_phy_interconnect}`" />
+      <Member name="enable_auto_negotiate" value="`${eth_phy_autonegotation}`" include="`${eth_phy_autonegotation}`" />
+      <Member name="duplex" value="`${eth_phy_duplex}`" include="`${!eth_phy_autonegotation}`" />
+      <Member name="speed" value="`${eth_phy_speed}`" include="`${!eth_phy_autonegotation}`" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_mac" type="XMC_ETH_MAC_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="regs" value="ETH0" />
+      <Member name="address" value="`${INST_NAME}`_MAC_ADDR" />
+      <Member name="rx_desc" value="`${INST_NAME}`_MTL_rx_desc /*Dummy value. ETH0_MTL_rx_desc needs declaration in the special RAM section &quot;ETH_RAM&quot;*/" />
+      <Member name="tx_desc" value="`${INST_NAME}`_MTL_tx_desc /*Dummy value. ETH0_MTL_tx_desc needs declaration in the special RAM section &quot;ETH_RAM&quot;*/" />
+      <Member name="rx_buf" value="(0U) /*Dummy value. &amp;ETH0_MTL_rx_buf[0][0] needs declaration in the special RAM section &quot;ETH_RAM&quot;*/" />
+      <Member name="tx_buf" value="(0U) /*Dummy value. &amp;ETH0_MTL_tx_buf[0][0] needs declaration in the special RAM section &quot;ETH_RAM&quot;*/" />
+      <Member name="num_rx_buf" value="`${INST_NAME}`_MTL_NUM_RX_BUF" />
+      <Member name="num_tx_buf" value="`${INST_NAME}`_MTL_NUM_TX_BUF" />
+    </ConfigStruct>
+    <ConfigStruct name="`${INST_NAME}`_port_control" type="XMC_ETH_MAC_PORT_CTRL_t" const="`${inFlash}`" public="true" include="true">
+      <Member name="mode" value="`${eth_phy_interconnect}`" />
+      <Member name="rxd0" value="ETH0_PHY_RXD0" include="true" />
+      <Member name="rxd1" value="ETH0_PHY_RXD1" include="true" />
+      <Member name="rxd2" value="ETH0_MII_RXD2" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" />
+      <Member name="rxd3" value="ETH0_MII_RXD3" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" />
+      <Member name="clk_rmii" value="ETH0_RMII_CLK_RMII" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_RMII)}`" />
+      <Member name="clk_rmii" value="ETH0_MII_CLKRX" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" />
+      <Member name="crs_dv" value="ETH0_RMII_CRS_DV" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_RMII)}`" />
+      <Member name="crs_dv" value="ETH0_MII_RXDV" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" />
+      <Member name="crs" value="ETH0_MII_CRS" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" />
+      <Member name="rxer" value="ETH0_PHY_RX_ERR" include="true" />
+      <Member name="col" value="ETH0_MII_COL" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" />
+      <Member name="clk_tx" value="ETH0_MII_CLK_TX" include="`${(eth_phy_interconnect eq XMC_ETH_LINK_INTERFACE_MII)}`" />
+      <Member name="mdio" value="ETH0_SMA_MDI" include="true" />
+
+    </ConfigStruct>
+    <ConfigInstruction value="XMC_ETH_MAC_SetPortControl((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac, `${INST_NAME}`_port_control);" include="true" />
+    <ConfigInstruction value="XMC_ETH_MAC_Enable((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac);" include="true" />
+    <ConfigInstruction value="XMC_ETH_MAC_SetManagmentClockDivider((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac);" include="true" />
+    <ConfigInstruction value="XMC_ETH_PHY_Init((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac, `${INST_NAME}`_PHY_ADDR, &amp;`${INST_NAME}`_phy_config);" include="true" guard="defined(XMC_ETH_PHY_KSZ8031RNL) || defined(XMC_ETH_PHY_KSZ8081RNB) || defined(XMC_ETH_PHY_DP83848C) || defined(XMC_ETH_PHY_USER_DEFINED)" />
+    <ConfigInstruction value="XMC_ETH_MAC_SetAddress((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac, `${INST_NAME}`_mac.address);" include="true" />
+    <ConfigInstruction value="XMC_ETH_MAC_DisableJumboFrame((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac);" include="true" />
+    <ConfigInstruction value="XMC_ETH_MAC_EnablePromiscuousMode((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac);" include="`${eth_mac_promiscuous}`" />
+    <ConfigInstruction value="XMC_ETH_MAC_EnableReceptionBroadcastFrames((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac);" include="`${eth_mac_broadcast}`" />
+    <ConfigInstruction value="XMC_ETH_MAC_DisableReceptionBroadcastFrames((XMC_ETH_MAC_t*)&amp;`${INST_NAME}`_mac);" include="`${!eth_mac_broadcast}`" />
+  </ConfigFirmware>
+</Personality>

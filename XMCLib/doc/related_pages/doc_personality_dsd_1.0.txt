@@ -1,0 +1,27 @@
+/**
+ *
+ * @page page_personalities_reference
+ *
+ * \if XMC4
+ * \section section_personality_dsd DSD Personality
+ *
+ * The general DSD block configuration structure:
+ * \image html dsd_settings_general.png
+ *
+ * The single channel GUI configurates a separate DSD channel:
+ * \image html dsd_configuration_advanced.png
+ * The Trigger (Integrator) settings are available for Advanced Preconfiguration Mode only.
+ *
+ * \subsection subsection_dsd_codeGen Code Generation
+ * Note that all the public generated code items are prefixed with the name given in the Device Configurator:
+ * \image html dsd_instName.png
+ * The personality generates a base address, channel ID, and interrupt-related macros that can be used in the application code:
+ * \snippet dsd.c snippet_dsd_irqHandlers
+ * and then, for enabling the DSD interrupts and starting the block itself:
+ * \snippet dsd.c snippet_dsd_irqEnable
+ *
+ * Refer to the API reference \ref DSD for the API details.
+ *
+ * Refer to the device Datasheet and Reference Manual for the HW details.
+ * \endif
+ */

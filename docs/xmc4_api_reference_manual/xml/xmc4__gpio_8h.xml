@@ -5,13 +5,13 @@
     <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes local="yes">xmc4_gpio_map.h</includes>
     <incdepgraph>
-      <node id="7">
+      <node id="23">
         <label>xmc4_gpio_map.h</label>
       </node>
-      <node id="6">
+      <node id="22">
         <label>xmc4_gpio.h</label>
         <link refid="xmc4__gpio_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
     </incdepgraph>

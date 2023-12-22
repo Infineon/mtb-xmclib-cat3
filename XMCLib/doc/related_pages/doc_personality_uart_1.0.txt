@@ -1,0 +1,21 @@
+/**
+ *
+ * @page page_personalities_reference
+ *
+ * \section section_personality_uart UART Personality
+ *
+ * \subsection subsection_uart_rx_inputs RXD Input Connection Signals
+ * There is a possibility to extend the set of pins available as UART RXD input using pins from DX3 and DX5 input stages.
+ * By selecting DX3INS connection for RXD signal, the pin configured on DX3 input is used as RXD, for example:
+ *
+ * \image html uart_dx3.png
+ *
+ * Additionally, the pin set for RXD connection could be extended further with DX5 inputs,
+ * if DX5INS connection is selected for DX3 input in the previous example:
+ *
+ * \image html uart_dx5.png
+ *
+ * Refer to the API reference \ref UART for the API details.
+ *
+ * Refer to the device Datasheet and Reference Manual for HW details.
+ */

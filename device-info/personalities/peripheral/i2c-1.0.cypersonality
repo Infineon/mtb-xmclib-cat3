@@ -29,6 +29,7 @@
   <Dependencies>
     <IpBlock name="xmc_usic"/>
     <Resource name="usic\.ch"/>
+    <DependentResource name="usic.ch.i2c" />
   </Dependencies>
   <ExposedMembers>
     <ExposedMember key="RxFIFOSize" paramId="RxFIFOSizeVal"/>
@@ -119,7 +120,7 @@
     <ParamRange id="BaudRate" name="BaudRate" group="Internal" default="`${Master? MasterBaudRate: (SlaveBaudRate eq SLAVE_100KHZ)? 100000:400000}`" min="1" max="400000" resolution="1" visible="false" editable="false" desc="Final baud rate that I2C operates."/>
 
    <!--FIFO Settings-->
-    <ParamChoice id="RxFIFOSize" name="Receive FIFO Size" group="FIFO Settings" default="XMC_USIC_CH_FIFO_DISABLED" visible="true" editable="true" desc="Transmit FIFO size">
+    <ParamChoice id="RxFIFOSize" name="Receive FIFO Size" group="FIFO Settings" default="XMC_USIC_CH_FIFO_DISABLED" visible="true" editable="true" desc="Receive FIFO size">
       <Entry name="0 words" value="XMC_USIC_CH_FIFO_DISABLED" visible="true"/>
       <Entry name="2 words" value="XMC_USIC_CH_FIFO_SIZE_2WORDS" visible="true"/>
       <Entry name="4 words" value="XMC_USIC_CH_FIFO_SIZE_4WORDS" visible="true"/>

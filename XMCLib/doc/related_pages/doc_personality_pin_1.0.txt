@@ -1,0 +1,15 @@
+/**
+ *
+ * @page page_personalities_reference
+ *
+ * \section section_personality_pin Pin Personality
+ * The pins of the Pin personality for XMC family microcontrollers do not generate service requests. This feature is determined by the hardware architecture of the XMC family.<br>
+ * However, pins can be configured as event resources for the Event Request Unit (ERU), and ERU will generate a service request instead of Pin.<br>
+ *
+ * To adjust an Interrupt from a pin (GPIO) requires the adjustments by the configurations chain: \ref section_personality_pin "Pin" - \ref subsection_personality_ers "ERU_ERS" - \ref subsection_personality_etl "ERU_ETL" - \ref subsection_personality_ogu "ERU_OGU/Service Request".
+ * \image html pin_interrupt_config.png width=70%
+ *
+ * Refer to the \ref section_personality_eru section for Interrupt configuration details. <br>
+ * Refer to the API reference \ref GPIO for the API details. <br>
+ * Refer to the device Datasheet and Reference Manual for HW details.
+ */

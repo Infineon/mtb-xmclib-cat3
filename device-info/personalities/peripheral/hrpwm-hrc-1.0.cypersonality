@@ -61,10 +61,12 @@
     <ParamString id="hrpwm_module_resource" name="Module Resource" group="Internal" default="hrpwm[0]" visible="false" editable="false" desc="HRPWM parent module resource path." />
     <ParamBool id="hrpwm_module_error" name="Module Error" group="Internal" default="`${!isBlockUsed(hrpwm_module_resource)}`" visible="false" editable="false" desc="True when the HRPWM module resource is not enabled." />
     <ParamString id="hrpwm_module_global" name="HRPWM Module Base Address" group="Internal" default="`${hrpwm_module_error ? &quot;NULL&quot; : getExposedMember(hrpwm_module_resource, &quot;hrpwm_module_base_address&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamString id="shadow_hrc" name="Shadow HRC macro"  group="Internal" default="(uint32_t)XMC_HRPWM_HRC_SHADOW_TX_HRC`${channel_num}`_VALUE" visible="false" editable="false" desc="" />
+    <ParamString id="shadow_dt" name="Shadow DT macro"  group="Internal" default="(uint32_t)XMC_HRPWM_HRC_SHADOW_TX_HRC`${channel_num}`_DT_VALUE" visible="false" editable="false" desc="" /> 
 
     <!-- Peripheral Documentation -->
-    <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/group___h_r_p_w_m.html" linkText="Open HRPWM Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
-    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/xmc4_api_reference_manual/html/page_personalities_reference.html&#35;section_personality_hrpwm" linkText="Open HRPWM Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
+    <ParamDoc id="api_doc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___h_r_p_w_m.html" linkText="Open HRPWM Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
+    <ParamDoc id="cfg_doc" name="Personality Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/doc_personality_hrpwm_1.0.html" linkText="Open HRPWM Personality Documentation" visible="true" desc="Opens the XMC Peripheral Library Personality Documentation" />
 
     <!-- General Settings -->
     <ParamBool id="advanced_settings" name="Advanced Settings" group="General Settings" default="false" visible="true" editable="true" desc="Enable advanced settings." />
@@ -315,6 +317,10 @@
 
     <ConfigInstruction value="XMC_HRPWM_EnableHighResolutionPath(`${hrpwm_module_global}`, (uint32_t)XMC_HRPWM_HR_PATH_HRC`${channel_num}`);" include="`${enable_high_res_path}`" />
     <ConfigInstruction value="XMC_HRPWM_EnableLowResolutionPath(`${hrpwm_module_global}`, (uint32_t)XMC_HRPWM_LR_PATH_HRC`${channel_num}`);" include="`${enable_low_res_path}`" />
+    <ConfigInstruction value="XMC_HRPWM_EnableHighResolutionShadowTransfer(`${hrpwm_module_global}`, 0U`${
+        (hrc_shadow_xfer_linktoCCU8 ? &quot; | &quot; . shadow_hrc : &quot;&quot;) .
+        (dt_shadow_xfer_linktoCCU8 ? &quot; | &quot; . shadow_dt : &quot;&quot;)}`);"
+        include="`${enable_high_res_path &amp;&amp; (hrc_shadow_xfer_linktoCCU8 || dt_shadow_xfer_linktoCCU8)}`" />
   </ConfigFirmware>
 
 

@@ -14,13 +14,13 @@
     <includedby refid="xmc__vadc_8h" local="yes">xmc_vadc.h</includedby>
     <includedby refid="xmc__wdt_8h" local="yes">xmc_wdt.h</includedby>
     <incdepgraph>
-      <node id="80">
+      <node id="96">
         <label>xmc1_scu.h</label>
       </node>
-      <node id="79">
+      <node id="95">
         <label>xmc_scu.h</label>
         <link refid="xmc__scu_8h"/>
-        <childnode refid="80" relation="include">
+        <childnode refid="96" relation="include">
         </childnode>
       </node>
     </incdepgraph>

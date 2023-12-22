@@ -18,7 +18,16 @@ var NAVTREE =
     ] ],
     [ "PDL API Reference", "modules.html", "modules" ],
     [ "Personalities Reference", "page_personalities_reference.html", [
-      [ "Advanced Settings", "page_personalities_reference.html#section_personality_advanced_settings", null ],
+      [ "Personality Introduction", "page_personalities_reference.html#section_personality_introduction", [
+        [ "Common Groups", "page_personalities_reference.html#subsection_personality_common_groups", null ]
+      ] ],
+      [ "Pin Personality", "page_personalities_reference.html#section_personality_pin", null ],
+      [ "ERU Personality", "page_personalities_reference.html#section_personality_eru", [
+        [ "ERS Personality", "page_personalities_reference.html#subsection_personality_ers", null ],
+        [ "ETL Personality", "page_personalities_reference.html#subsection_personality_etl", null ],
+        [ "OGU Personality.", "page_personalities_reference.html#subsection_personality_ogu", null ]
+      ] ],
+      [ "ETH Personality", "page_personalities_reference.html#section_personality_eth", null ],
       [ "CCU4 Personality", "page_personalities_reference.html#section_personality_ccu4", [
         [ "Code Generation", "page_personalities_reference.html#subsection_ccu_codeGen", null ]
       ] ],
@@ -66,9 +75,9 @@ var NAVTREEINDEX =
 "group___u_s_i_c.html#gaad85027beef2c0cf3dd897e889acf939",
 "group___v_a_d_c.html#ga96c47634e7fcc9e50f4212e31a533dd8",
 "modules.html",
-"struct_x_m_c___e_b_u___b_u_s___r_e_a_d___c_o_n_f_i_g__t.html#ae468133f8f830ef27d7a18423c8516cc",
-"struct_x_m_c___l_e_d_t_s___g_l_o_b_a_l___c_o_n_f_i_g__t.html#abb6d71ecc8375e01bfb440af42bc6b59",
-"struct_x_m_c___u_s_i_c___c_h__t.html#a60442d8bed2e194af31a7bedbabf0c16"
+"struct_x_m_c___e_b_u___b_u_s___r_e_a_d___c_o_n_f_i_g__t.html#aafea8fcb570ed737119ff6e02685fa8e",
+"struct_x_m_c___i2_s___c_h___c_o_n_f_i_g__t.html#a6f7bf88acfbc472b56107dd8c3d02e46",
+"struct_x_m_c___u_s_i_c___c_h__t.html#a40ae57e054b61a2ff08b68b84ddc1f86"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -6,13 +6,13 @@
     <includes refid="xmc__common_8h" local="yes">xmc_common.h</includes>
     <includes refid="xmc1__rtc_8h" local="yes">xmc1_rtc.h</includes>
     <incdepgraph>
-      <node id="58">
+      <node id="74">
         <label>xmc_rtc.h</label>
         <link refid="xmc__rtc_8h"/>
-        <childnode refid="59" relation="include">
+        <childnode refid="75" relation="include">
         </childnode>
       </node>
-      <node id="59">
+      <node id="75">
         <label>time.h</label>
       </node>
     </incdepgraph>

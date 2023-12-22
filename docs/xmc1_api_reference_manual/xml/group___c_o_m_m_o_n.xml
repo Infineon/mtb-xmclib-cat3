@@ -214,7 +214,7 @@
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1gae74ace78c5137b972b3f760cd5e09343" prot="public" static="no">
         <name>XMC_LIB_MINOR_VERSION</name>
-        <initializer>(2U)</initializer>
+        <initializer>(3U)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>

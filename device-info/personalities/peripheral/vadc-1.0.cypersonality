@@ -31,6 +31,7 @@
     <Resource name="vadc" />
   </Dependencies>
   <ExposedMembers>
+    <ExposedMember key="vadc_name" paramId="vadc_name" />
     <ExposedMember key="vadc_base" paramId="vadc_base" />
     <ExposedMember key="background_load_mode_id" paramId="background_load_mode_id" />
   </ExposedMembers>
@@ -50,6 +51,7 @@
     <ParamString id="shs0_resource" name="Internal SHS Clock Value" group="Internal" default="scu[0].clock[0].periclk[0]" visible="false" editable="false" desc="SHS clock value in MHz." />
     <ParamBool id="shs0_error" name="Internal SHS Clock Error" group="Internal" default="`${!isBlockUsed(periclk_resource)}`" visible="false" editable="false" desc="True when shs clock is not enabled." />
     <ParamString id="group_num" name="Group Number" group="Internal" default="`${lookupExpression(&quot;GROUP_CNT&quot;)}`" visible="false" editable="false" desc="VADC Group number." />
+    <ParamString id="vadc_name" name="Internal VADC Module Name" group="Internal" default="`${INST_NAME}`" visible="false" editable="false" desc="VADC module instance name." />
     <ParamString id="vadc_base" name="Internal VADC Module Pointer" group="Internal" default="`${INST_NAME}`_HW" visible="false" editable="false" desc="VADC base address pointer." />
     <ParamString id="shs0_base" name="Internal SHS Module Pointer" group="Internal" default="`${INST_NAME}`_SHS_HW" visible="false" editable="false" desc="SHS base address pointer." />
 
@@ -265,20 +267,12 @@
       <Member name="sh_unit_step##" value="(uint32_t)XMC_VADC_GROUP_INDEX_`${(sample_and_hold_stepper_step_group_## == 2)?(0):(sample_and_hold_stepper_step_group_##)}`" count="8" />
     </ConfigStruct>
 
-    <ConfigStruct name="`${INST_NAME}`_group$idx_init_config" type="XMC_VADC_GROUP_CONFIG_t" const="`${inFlash}`" public="true" include="`${($idx &lt; group_num) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="4">
+    <ConfigStruct name="`${INST_NAME}`_group$idx_init_config" type="XMC_VADC_GROUP_CONFIG_t" const="false" public="true" include="`${($idx &lt; group_num) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="4">
       <Member name="`${&quot;emux_config.starting_external_channel&quot;}`" value="(uint32_t) 0" />
       <Member name="`${&quot;emux_config.connected_channel&quot;}`" value="(uint32_t) 0" />
       <Member name="`${&quot;emux_config.emux_mode&quot;}`" value="XMC_VADC_GROUP_EMUXMODE_SWCTRL" />
       <Member name="`${&quot;emux_config.emux_coding&quot;}`" value="XMC_VADC_GROUP_EMUXCODE_BINARY" />
       <Member name="`${&quot;emux_config.stce_usage&quot;}`" value="(uint32_t) 0" />
-      <Member name="`${&quot;class0.sample_time_std_conv&quot;}`" value="(uint32_t) 0" />
-      <Member name="`${&quot;class0.conversion_mode_standard&quot;}`" value="XMC_VADC_CONVMODE_12BIT" />
-      <Member name="`${&quot;class0.sampling_phase_emux_channel&quot;}`" value="(uint32_t) 0" include="`${!xmc11_dont_include}`" />
-      <Member name="`${&quot;class0.conversion_mode_emux&quot;}`" value="XMC_VADC_CONVMODE_12BIT" include="`${!xmc11_dont_include}`" />
-      <Member name="`${&quot;class1.sample_time_std_conv&quot;}`" value="(uint32_t) 0" />
-      <Member name="`${&quot;class1.conversion_mode_standard&quot;}`" value="XMC_VADC_CONVMODE_12BIT" />
-      <Member name="`${&quot;class1.sampling_phase_emux_channel&quot;}`" value="(uint32_t) 0" include="`${!xmc11_dont_include}`" />
-      <Member name="`${&quot;class1.conversion_mode_emux&quot;}`" value="XMC_VADC_CONVMODE_12BIT" include="`${!xmc11_dont_include}`" />
       <Member name="boundary0" value="(uint32_t) 0" />
       <Member name="boundary1" value="(uint32_t) 0" />
       <Member name="arbitration_round_length" value="(uint32_t) `${groups_arbitration_slots_num_id_$idx}`" />
@@ -318,6 +312,10 @@
       <Member name="enable_auto_scan" value="(uint32_t) `${background_enable_autoscan_id}`" />
       <Member name="load_mode" value="(uint32_t) XMC_VADC_SCAN_LOAD_`${background_load_mode_id}`" />
     </ConfigStruct>
+
+    <ConfigInstruction value="/* Update group input classes configuration. */" include="`${(!xmc11_dont_include &amp;&amp; (isBlockUsed(&quot;vadc[0].group[0]&quot;) || isBlockUsed(&quot;vadc[0].group[1]&quot;) || isBlockUsed(&quot;vadc[0].group[2]&quot;) || isBlockUsed(&quot;vadc[0].group[3]&quot;)))}`" />
+    <ConfigInstruction value="`${INST_NAME}`_group$idx_init_config.class0 = `${INST_NAME}`_$idx_iclass_0;" include="`${(!xmc11_dont_include) &amp;&amp; ($idx &lt; group_num) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="4" />
+    <ConfigInstruction value="`${INST_NAME}`_group$idx_init_config.class1 = `${INST_NAME}`_$idx_iclass_1;" include="`${(!xmc11_dont_include) &amp;&amp; ($idx &lt; group_num) &amp;&amp; (isBlockUsed(&quot;vadc[0].group[$idx]&quot;))}`" repeatCount="4" />
 
     <ConfigInstruction value="/* Global configuration. */" include="true" />
     <!-- General instructions -->

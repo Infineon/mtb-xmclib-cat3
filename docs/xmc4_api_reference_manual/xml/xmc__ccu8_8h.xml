@@ -6,18 +6,18 @@
     <includes local="yes">xmc1_ccu8_map.h</includes>
     <includes local="yes">xmc4_ccu8_map.h</includes>
     <incdepgraph>
-      <node id="23">
+      <node id="39">
         <label>xmc4_ccu8_map.h</label>
       </node>
-      <node id="21">
+      <node id="37">
         <label>xmc_ccu8.h</label>
         <link refid="xmc__ccu8_8h"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="38">
         <label>xmc1_ccu8_map.h</label>
       </node>
     </incdepgraph>

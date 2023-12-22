@@ -9,13 +9,13 @@
     <includedby refid="xmc__spi_8h" local="yes">xmc_spi.h</includedby>
     <includedby refid="xmc__uart_8h" local="yes">xmc_uart.h</includedby>
     <incdepgraph>
-      <node id="67">
+      <node id="83">
         <label>xmc_usic.h</label>
         <link refid="xmc__usic_8h"/>
-        <childnode refid="68" relation="include">
+        <childnode refid="84" relation="include">
         </childnode>
       </node>
-      <node id="68">
+      <node id="84">
         <label>xmc1_usic_map.h</label>
       </node>
     </incdepgraph>

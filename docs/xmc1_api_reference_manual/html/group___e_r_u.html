@@ -173,7 +173,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga5dc8b8a92b00cbcb2ed80fa5201a5ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>The Event Request Unit (ERU) is a versatile multiple input event detection and processing unit. The ERU module can be used to expand the P-to-P connections of the device: ports-to-peripherals, peripherals-to-peripherals and ports-to-ports. It also offers configurable logic, that allows the generation of triggers, pattern detection and real-time signal monitoring.</p>
+<p><a class="anchor" id="brief_pdlapi_eru"></a> The Event Request Unit (ERU) is a versatile multiple input event detection and processing unit. The ERU module can be used to expand the P-to-P connections of the device: ports-to-peripherals, peripherals-to-peripherals and ports-to-ports. It also offers configurable logic, that allows the generation of triggers, pattern detection and real-time signal monitoring.</p>
 <div class="image">
 <img src="eru_overview.png" alt="eru_overview.png"/>
 </div>
@@ -577,7 +577,7 @@ Interrupt gating signal</div></div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>None</dd></dl>
-<dl class="section user"><dt>Description:</dt><dd>Set the status flag bit(FL) in EXICONx(x = [0 to 3]).<br />
+<dl class="section user"><dt>Description:</dt><dd>Clear the status flag bit(FL) in EXICONx(x = [0 to 3]).<br />
  </dd></dl>
 <dl class="section user"><dt></dt><dd>If auto clear of the status flag is not enabled by detection of the opposite edge of the event edge, this API clears the Flag. SO that next event is considered as new event. </dd></dl>
 <dl class="section user"><dt>Related APIs:</dt><dd><a class="el" href="group___e_r_u.html#gaf81afcd379c5d8dd9b91847a7266d20a">XMC_ERU_ETL_SetStatusFlag()</a>, <a class="el" href="group___e_r_u.html#ga83d258683013290648d57f18916e032c">XMC_ERU_ETL_GetStatusFlag()</a> </dd></dl>
