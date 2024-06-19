@@ -119,7 +119,7 @@
         </Parameter>
       </Constraint>
     </ParamSignal>
-    <ParamSignal port="sr0[0]" name="SR0" group="Connections" visible="`${enable_hasVisibleOption(&quot;sr0[0]&quot;)}`" canBeEmpty="true" multiSelect="false" desc="Service request line."/>
+    <ParamSignal port="sr0[0]" name="SR0" group="Connections" visible="`${hasVisibleOption(&quot;sr0[0]&quot;)}`" canBeEmpty="true" multiSelect="false" desc="Service request line."/>
     <ParamSignal port="led[0]" name="LED" group="Connections" visible="`${enable_led_signal}`" canBeEmpty="`${!enable_led_signal}`" multiSelect="false" desc="LED indication.">
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true">
         <Parameter id="io_function" severity="DEFAULT" reason="">

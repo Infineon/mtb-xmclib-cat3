@@ -371,14 +371,14 @@
     <ParamSignal port="dx3[0]" name="" group="Internal" visible="false" desc="DX3 signal connection." canBeEmpty="true" multiSelect="false"/>
     <ParamSignal port="dx4[0]" name="" group="Internal" visible="false" desc="DX4 signal connection." canBeEmpty="true" multiSelect="false"/>
     <ParamSignal port="dx5[0]" name="" group="Internal" visible="false" desc="DX5 signal connection." canBeEmpty="true" multiSelect="false"/>
+    <Repeat count="6">
+      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal." canBeEmpty="true" multiSelect="true">
+        <Constraint type="DENY" targetLocation="usic\[\d+\]\.ch\[\d+\].*" valid="true" />
+      </ParamSignal>
+    </Repeat>
     <ParamBool id="ShowSystemRelatedOutputs" name="System Related Outputs" group="Connections" default="false" visible="true" editable="true" desc="Enables the system related output signals configuration."/>
     <Repeat count="6">
       <ParamSignal port="dx$idxins[0]" name="DX$idxINS " group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;dx$idxins[0]&quot;)}`" desc="Selected DX$idx input signal output." canBeEmpty="true" multiSelect="true" />
-    </Repeat>
-    <Repeat count="6">
-      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal." canBeEmpty="true" multiSelect="true">
-        <Constraint type="DENY" targetLocation="usic\[\d+\]\.ch\[\d+\].*" valid="true" />
-      </ParamSignal>
     </Repeat>
 
     <ParamBool id="StartAfterInit" name="Start After Initialization" group="Advanced" default="true" visible="true" editable="true" desc="If enabled the I2C will be started at the end of the initialization." />
@@ -391,9 +391,6 @@
     <DRC type="ERROR" text="All SCL signals should be connected to the same pin."
       condition="`${getBlockFromSignal(&quot;dx1[0]&quot;) ne getBlockFromSignal(&quot;sclkout[0]&quot;)}`" />
     <DRC type="INFO" text="Enable 'DX$idxINS' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;dx$idxins&quot;, 0)}`" repeatCount="6">
-      <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
-    </DRC>
-    <DRC type="INFO" text="Enable 'SR$idx' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;sr$idx&quot;, 0)}`" repeatCount="6">
       <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
     </DRC>
   </DRCs>

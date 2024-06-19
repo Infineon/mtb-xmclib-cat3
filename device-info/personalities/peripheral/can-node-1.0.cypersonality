@@ -53,7 +53,7 @@
     <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___c_a_n.html" linkText="Open CAN Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
 
     <!-- General Settings - Node -->
-    <ParamString id="general_settings_num_of_objects_id" name="Number of Objects in the List" group="General Settings" default="`${(!module_error) ? (mo_count) : (&quot;Solve DRC First&quot;)}`" visible="true" editable="false" desc="Number of message objects for the CAN node. Set in the global personality." />
+    <ParamString id="general_settings_num_of_objects_id" name="Number of Objects in the List" group="General Settings" default="`${(!module_error) ? (mo_count) : (0)}`" visible="true" editable="false" desc="Number of message objects for the CAN node. Set in the global personality." />
     <ParamRange id="general_settings_baud_rate_id" name="Baud Rate [Kbps]" group="General Settings" default="500" min="100" max="1000" resolution="1" visible="true" editable="true" desc="Required CAN node baud rate." />
     <ParamBool id="general_settings_loopback_mode_id" name="Enable Loopback Mode" group="General Settings" default="false" visible="true" editable="true" desc="Connect to internal CAN bus." />
 

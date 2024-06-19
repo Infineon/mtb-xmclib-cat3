@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2022-2023 Cypress Semiconductor Corporation
+* Copyright 2022-2024 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -36,15 +36,13 @@
     <ParamChoice id="mode" name="Mode" group="General" default="`${(1 eq lookupExpression(&quot;HOST&quot;)) ? &quot;Host&quot; : &quot;Device&quot;}`" visible="true" editable="`${1 eq lookupExpression(&quot;HOST&quot;)}`" desc="Selects the USB mode">
       <Entry name="Host" value="Host" visible="true" />
       <Entry name="Device" value="Device" visible="true" />
-    <!-- OTG is not planned in current relese. -->
-    <!-- <Entry name="OTG" value="OTG" visible="true" /> -->
+      <Entry name="OTG" value="OTG" visible="true" />
     </ParamChoice>
     <ParamBool id="debug" name="debug" group="Internal" default="false" visible="false" editable="false" desc="" />
-    <ParamBool id="modeIsDevice" name="modeIsDevice" group="Internal" default="`${mode eq Device}`" visible="false" editable="false" desc="USB mode is Device" />
-    <ParamBool id="modeIsHost" name="modeIsHost" group="Internal" default="`${mode eq Host}`" visible="false" editable="false" desc="USB Mode is Host" />
-    <!-- OTG is not planned in current relese. -->
-    <!-- <ParamBool id="modeIsOtg" name="modeIsOtg" group="Internal" default="`${mode eq 2}`" visible="`${debug}`" editable="false" desc="" /> -->
-    
+    <ParamBool id="modeIsOtg" name="modeIsOtg" group="Internal" default="`${mode eq OTG}`" visible="`${debug}`" editable="false" desc="" />
+    <ParamBool id="modeIsDevice" name="modeIsDevice" group="Internal" default="`${(mode eq OTG) ? &quot;true&quot; : (mode eq Device)}`" visible="false" editable="false" desc="USB mode is Device" />
+    <ParamBool id="modeIsHost" name="modeIsHost" group="Internal" default="`${(mode eq OTG) ? &quot;true&quot; : (mode eq Host)}`" visible="false" editable="false" desc="USB Mode is Host" />
+
     <!-- Documentation -->
     <ParamDoc id="emUsbDoc" name="API Help" group="Documentation" default="`${modeIsHost ? &quot;https://infineon.github.io/emusb-host/html/index.html&quot; : &quot;https://infineon.github.io/emusb-device/html/index.html&quot;}`" linkText="`${modeIsHost ? &quot;Open emUSB-Host Documentation&quot; : &quot;Open emUSB-Device Documentation&quot;}`" visible="true" desc="Open the USB Documentation" />
 
@@ -57,8 +55,8 @@
     <ParamRange id="accTol"  name="accuracy tolerance"  group="Internal" default="`${modeIsHost ? 0.05 : 0.25}`" min="0" max="1" resolution="0.01" visible="`${debug}`" editable="false" desc="" />
 
     <!--**************************************************************************** -->
-    <!-- OTG is not planned in current relese. -->
-    <!--****************************************************************************
+    <!-- ID pin for OTG -->
+    <!--**************************************************************************** -->
     <ParamSignal port="id[0]" name="ID" group="Connections" visible="`${modeIsOtg}`" canBeEmpty="`${!modeIsOtg}`" multiSelect="false" desc="The OTG ID sensing signal">
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" >
         <Parameter id="io_function" severity="INFO" reason="">
@@ -69,7 +67,10 @@
         </Parameter>
       </Constraint>
     </ParamSignal>
-    **************************************************************************** -->
+
+    <!--**************************************************************************** -->
+    <!-- Drive Bus pin for Host -->
+    <!--**************************************************************************** -->
     <ParamSignal port="drivevbus[0]" name="Drive Bus" group="Connections" visible="`${modeIsHost}`" canBeEmpty="false" multiSelect="false" desc="The VBus control signal">
       <Constraint type="ACCEPT" targetLocation="ioss\[\d+\]\.port\[\d+\]\.pin.*" valid="true" >
         <Parameter id="io_function" severity="INFO" reason="">
@@ -109,7 +110,7 @@
     <DRC type="ERROR" text="The chosen CCU Timer Period must be 1 ms." condition="`${ccuEnabled &amp;&amp; (1000000 != (hasExposedMember(ccuRsc, &quot;period&quot;) ? getExposedMember(ccuRsc, &quot;period&quot;) : 1000000))}`"  location="`${ccuRsc}`" />
     <DRC type="ERROR" text="1. Enable CCU4 and CCU4 Slise;  2. Select emUSB OS Timer-1.0 personality into drop-down list of CCU4 Slice;  3. Select the CCU resource from CCU Recource drop-down list of the emUSB personality." condition="`${modeIsDevice &amp;&amp; ccuOsEnable &amp;&amp; !ccuEnabled}`"  location="`${ccuRsc}`" />
     
-    <DRC type="ERROR" text="'CCU for OS' is not applicable for 'Host' mode. Empty the text of 'CCU Resource' parameter and uncheck the 'CCU for OS' checkbox into emUSB 'Device' mode" condition="`${modeIsHost &amp;&amp; ccuOsEnable &amp;&amp; !ccuEnabled}`"  location="`${ccuRsc}`" />
+    <DRC type="ERROR" text="'CCU for OS' is not applicable for 'Host' mode. Empty the text of 'CCU Resource' parameter and uncheck the 'CCU for OS' checkbox into emUSB 'Device' mode" condition="`${modeIsHost &amp;&amp; !modeIsOtg &amp;&amp; ccuOsEnable &amp;&amp; !ccuEnabled}`"  location="`${ccuRsc}`" />
     
     <DRC type="ERROR" text="Empty the text of 'CCU Resource' section of emUSB personality before unchecking of CCU for OS checkbox." condition="`${!ccuOsEnable &amp;&amp; ccuEnabled}`"  location="`${ccuRsc}`" />
   </DRCs>

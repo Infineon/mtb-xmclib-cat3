@@ -9,7 +9,7 @@
 *
 ********************************************************************************
 * \copyright
-* Copyright 2022-2023 Cypress Semiconductor Corporation
+* Copyright 2022-2024 Cypress Semiconductor Corporation
 * SPDX-License-Identifier: Apache-2.0
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
@@ -28,6 +28,7 @@
   <Dependencies>
     <IpBlock name="xmc_ccu4" />
     <Resource name="ccu4\.ch"/>
+    <DependentResource name="usb"/>
   </Dependencies>
   <ExposedMembers>
     <ExposedMember key="baseAddress"  paramId="baseAddress" />

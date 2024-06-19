@@ -128,7 +128,7 @@
       </memberdef>
       <memberdef kind="define" id="group___c_o_m_m_o_n_1gae74ace78c5137b972b3f760cd5e09343" prot="public" static="no">
         <name>XMC_LIB_MINOR_VERSION</name>
-        <initializer>(3U)</initializer>
+        <initializer>(4U)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -368,7 +368,7 @@
 <codeline lineno="65"><highlight class="comment"><sp/>*<sp/>MACROS</highlight></codeline>
 <codeline lineno="66"><highlight class="comment"><sp/>*********************************************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_MAJOR_VERSION<sp/><sp/><sp/>(4U)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_MINOR_VERSION<sp/><sp/><sp/>(3U)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_MINOR_VERSION<sp/><sp/><sp/>(4U)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_PATCH_VERSION<sp/><sp/><sp/>(0U)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XMC_LIB_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((XMC_LIB_MAJOR_VERSION<sp/>&lt;&lt;<sp/>16U)<sp/>+<sp/>(XMC_LIB_MINOR_VERSION<sp/>&lt;&lt;<sp/>8U)<sp/>+<sp/>XMC_LIB_PATCH_VERSION)</highlight><highlight class="normal"></highlight></codeline>

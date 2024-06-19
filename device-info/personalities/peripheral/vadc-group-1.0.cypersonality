@@ -37,6 +37,7 @@
     <ExposedMember key="group_other_boundaries_flag_activation_id_$idx" paramId="group_other_boundaries_flag_activation_id_$idx" repeatCount="4" />
     <ExposedMember key="group_other_boundaries_flag_operation_id_$idx" paramId="group_other_boundaries_flag_operation_id_$idx" repeatCount="4" />
     <ExposedMember key="group_channels_result_register_id_$idx" paramId="group_channels_result_register_id_$idx" repeatCount="8" />
+    <ExposedMember key="is_master" paramId="is_master" />
   </ExposedMembers>
   <Parameters>
     <!-- Internal -->
@@ -59,6 +60,9 @@
     <Repeat count="8">
       <ParamBool id="group_channels_configure_channel_id_$idx" name="Configure Channel $idx" group="Internal" default="`${isBlockUsed(module_resource_$idx)}`" visible="false" editable="false" desc="Enable and configure channel $idx for group `${group_num}`." />
     </Repeat>
+    <ParamString id="group_count" name="Group Count" group="Internal" default="`${lookupExpression(&quot;GROUP_CNT&quot;)}`" visible="false" editable="false" desc="VADC Group count." />
+    <ParamRange id="last_group" name="Last Enabled Group" group="Internal" default="`${isBlockUsed(&quot;vadc[0].group[3]&quot;) ? 3 : isBlockUsed(&quot;vadc[0].group[2]&quot;) ? 2 : isBlockUsed(&quot;vadc[0].group[1]&quot;) ? 1 : isBlockUsed(&quot;vadc[0].group[0]&quot;) ? 0 : -1}`" min="-1" max="3" resolution="1" visible="false" editable="false" desc="Index of the last enabled group." />
+    <ParamBool id="is_last" name="Personality Instantiated on Last Enabled Group" group="Internal" default="`${last_group == group_num}`" visible="false" editable="false" desc="True if the personality is instantiated on the last enabled group." />
 
     <!-- Peripheral documentation -->
     <ParamDoc id="apiDoc" name="API Help" group="Documentation" default="file:///`${cy_libs_path()}`/docs/`${lookupExpression(&quot;XMC1&quot;, 0) ? &quot;xmc1&quot; : &quot;xmc4&quot;}`_api_reference_manual/html/group___v_a_d_c.html" linkText="Open VADC Driver Documentation" visible="true" desc="Opens the XMC Peripheral Library Documentation" />
@@ -230,10 +234,12 @@
     <!-- EOF Result Registers - Group -->
 
     <!-- Other Settings - Group -->
-    <ParamChoice id="group_other_sync_id" name="Group Kernel Synchronization" group="Other Settings" default="4" visible="true" editable="true" desc="Select the behaviour of the group in synchronized conversion. Master: Select this if the group is either a master or doesn&apos;t participate in any synchronized conversion. Slave, His Master is Kernel-0: Select if the channel is acting as a sync slave and the master group is Group-0. Slave, His Master is Kernel-1: Select if the channel is acting as a sync slave and the master group is Group-1. Slave, His Master is Kernel-2: Select if the channel is acting as a sync slave and the master group is Group-2. Slave, His Master is Kernel-3: Select if the channel is acting as a sync slave and the master group is Group-3.">
+    <ParamChoice id="group_other_sync_id" name="Group Kernel Synchronization" group="Other Settings" default="5" visible="true" editable="true" desc="Select the behaviour of the group in synchronized conversion. None: Select this if the group doesn&apos;t participate in any synchronized conversion. Master: Select this if the group is a master. Slave, His Master is Kernel-0: Select if the channel is acting as a sync slave and the master group is Group-0. Slave, His Master is Kernel-1: Select if the channel is acting as a sync slave and the master group is Group-1. Slave, His Master is Kernel-2: Select if the channel is acting as a sync slave and the master group is Group-2. Slave, His Master is Kernel-3: Select if the channel is acting as a sync slave and the master group is Group-3.">
+      <Entry name="None" value="5" visible="true" />
       <Entry name="Master" value="4" visible="true" />
-      <Entry name="Slave, His Master is Kernel $idx" value="$idx" visible="true" repeatCount="4" />
+      <Entry name="Slave, His Master is Kernel $idx" value="$idx" visible="`${($idx &lt; group_count) &amp;&amp; ($idx ne group_num)}`" repeatCount="4" />
     </ParamChoice>
+    <ParamBool id="is_master" name="Master Kernel Synchronization" group="Internal" default="`${group_other_sync_id == 4}`" visible="false" editable="false" desc="True if Group Kernel Synchronization is set to Master." />
     <Repeat count="2">
       <ParamRange id="group_other_boundaries_value_id_$idx" name="Boundary Value $idx" group="Other Settings" default="0" min="0" max="4095" resolution="1" visible="true" editable="true" desc="This field has a different meaning in each conversion mode, so in standard conversions, it defines a value against which a conversion result can be directly compared in fast compare conversions, it defines a delta limit which can be added (or subtracted from) a compare value stored in the result register and allow defining an arbitrary hysteresis band." />
     </Repeat>
@@ -259,7 +265,7 @@
     <Repeat count="8">
       <ParamBool id="group_other_mux_channel_id_$idx" name="Connect Channel $idx to EMUX" group="Other Settings" default="false" visible="`${group_other_mux_mode_id ne &quot;SWCTRL&quot;}`" editable="true" desc="Connect channel $idx to EMUX." />
     </Repeat>
-    <ParamRange id="group_other_mux_start_id" name="Start Selection" group="Other Settings" default="0" min="-9223372036854775808" max="9223372036854775807" resolution="1" visible="`${group_other_mux_mode_id ne &quot;SWCTRL&quot;}`" editable="true" desc="Set EMUX start value." />
+    <ParamRange id="group_other_mux_start_id" name="Start Selection" group="Other Settings" default="0" min="0" max="7" resolution="1" visible="`${group_other_mux_mode_id ne &quot;SWCTRL&quot;}`" editable="true" desc="Set EMUX start value." />
     <ParamChoice id="group_other_mux_coding_id" name="Coding Scheme" group="Other Settings" default="BINARY" visible="`${group_other_mux_mode_id ne &quot;SWCTRL&quot;}`" editable="true" desc="Set desired EMUX coding scheme.">
       <Entry name="Binary Code" value="BINARY" visible="true" />
       <Entry name="Gray Code" value="GRAY" visible="true" />
@@ -401,6 +407,13 @@
     <DRC type="ERROR" text="Channel `${7-$idx}` is not configured." condition="`${group_request_sources_background_assigned_channel_id_$idx &amp;&amp; (getParamValue(getParamValue(&quot;channel_error_request_source_$idx&quot;)) eq &quot;false&quot;)}`" paramId="channel_error_request_source_$idx" repeatCount="8">
       <FixIt action="ENABLE_BLOCK" target="vadc[0].group[`${group_num}`].ch[`${7-$idx}`]" value="" valid="true" />
     </DRC>
+    <DRC type="ERROR" text="Only one VADC Master kernel is allowed." condition="`${is_master &amp;&amp; (1 &lt; (
+        cast(uint64, (isBlockUsed(&quot;vadc[0].group[0]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[0]&quot;, &quot;is_master&quot;))) + 
+        cast(uint64, (isBlockUsed(&quot;vadc[0].group[1]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[1]&quot;, &quot;is_master&quot;))) + 
+        cast(uint64, (isBlockUsed(&quot;vadc[0].group[2]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[2]&quot;, &quot;is_master&quot;))) + 
+        cast(uint64, (isBlockUsed(&quot;vadc[0].group[3]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[3]&quot;, &quot;is_master&quot;)))))}`">
+      <FixIt action="SET_PARAM" target="group_other_sync_id" value="5" valid="true" />
+    </DRC>
   </DRCs>
   <ConfigFirmware>
     <ConfigInclude value="xmc_vadc.h" include="true" />
@@ -415,9 +428,9 @@
     <ConfigDefine name="`${INST_NAME}`_LOWER_BOUND_VALUE" value="`${group_other_boundaries_value_id_0}`U" public="true" include="`${group_other_boundaries_value_id_0 || group_other_boundaries_value_id_1}`" />
     <ConfigDefine name="`${INST_NAME}`_UPPER_BOUND_VALUE" value="`${group_other_boundaries_value_id_1}`U" public="true" include="`${group_other_boundaries_value_id_0 || group_other_boundaries_value_id_1}`" />
     <!-- Applicable only for sync operations -->
-    <ConfigDefine name="`${INST_NAME}`_MASTER_GROUP_PTR" value="VADC_G`${group_num}`" public="true" include="`${group_other_sync_id != 4}`" />
-    <ConfigDefine name="`${INST_NAME}`_MASTER_GROUP_NUM" value="`${group_num}`U" public="true" include="`${group_other_sync_id != 4}`" />
-    <ConfigDefine name="`${INST_NAME}`_ALL_EVAL_MASK" value="0U" public="true" include="`${group_other_sync_id != 4}`" />
+    <ConfigDefine name="`${INST_NAME}`_MASTER_GROUP_PTR" value="VADC_G`${group_num}`" public="true" include="`${group_other_sync_id &lt; 4}`" />
+    <ConfigDefine name="`${INST_NAME}`_MASTER_GROUP_NUM" value="`${group_num}`U" public="true" include="`${group_other_sync_id &lt; 4}`" />
+    <ConfigDefine name="`${INST_NAME}`_ALL_EVAL_MASK" value="0U" public="true" include="`${group_other_sync_id &lt; 4}`" />
     <ConfigDefine name="`${INST_NAME}`_SR$idx_INTERRUPT_HANDLER" value="VADC0_G`${group_num}`_$idx_IRQHandler" public="true" include="`${(ip_ver1 &amp;&amp; ($idx &lt; 2) &amp;&amp; !xmc11_dont_include) || ip_ver2}`" repeatCount="4" />
     <ConfigDefine name="`${INST_NAME}`_SR$idx_IRQN" value="VADC0_G`${group_num}`_$idx_IRQn" public="true" include="`${(ip_ver1 &amp;&amp; ($idx &lt; 2) &amp;&amp; !xmc11_dont_include) || ip_ver2}`" repeatCount="4" />
 
@@ -530,13 +543,30 @@
                               `${INST_NAME}`_LOWER_BOUND_VALUE,&#xA;
                               `${INST_NAME}`_UPPER_BOUND_VALUE);" include="`${(group_other_boundaries_value_id_0 || group_other_boundaries_value_id_1) &amp;&amp; !xmc11_dont_include}`" />
 
-    <ConfigInstruction value="&#xA;    /* Sync related init. */" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
-    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_HW, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_OFF);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
-    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_MASTER_GROUP_PTR, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_OFF);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
-    <ConfigInstruction value="XMC_VADC_GROUP_SetSyncSlave(`${INST_NAME}`_MASTER_GROUP_PTR, `${INST_NAME}`_MASTER_GROUP_NUM, `${INST_NAME}`_NUM);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
-    <ConfigInstruction value="XMC_VADC_GROUP_CheckSlaveReadiness(`${INST_NAME}`_MASTER_GROUP_PTR, `${INST_NAME}`_NUM);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
-    <ConfigInstruction value="XMC_VADC_GROUP_SetSyncReadySignal(`${INST_NAME}`_HW, `${INST_NAME}`_ALL_EVAL_MASK);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
-    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_MASTER_GROUP_PTR, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_NORMAL);" include="`${(group_other_sync_id != 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="&#xA;    /* Sync related init. */" include="`${(group_other_sync_id &lt; 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_HW, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_OFF);" include="`${(group_other_sync_id &lt; 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_MASTER_GROUP_PTR, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_OFF);" include="`${(group_other_sync_id &lt; 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetSyncSlave(`${INST_NAME}`_MASTER_GROUP_PTR, `${INST_NAME}`_MASTER_GROUP_NUM, `${INST_NAME}`_NUM);" include="`${(group_other_sync_id &lt; 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_CheckSlaveReadiness(`${INST_NAME}`_MASTER_GROUP_PTR, `${INST_NAME}`_NUM);" include="`${(group_other_sync_id &lt; 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetSyncReadySignal(`${INST_NAME}`_HW, `${INST_NAME}`_ALL_EVAL_MASK);" include="`${(group_other_sync_id &lt; 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_MASTER_GROUP_PTR, (XMC_VADC_GROUP_POWERMODE_t )XMC_VADC_GROUP_POWERMODE_NORMAL);" include="`${(group_other_sync_id &lt; 4) &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${INST_NAME}`_HW, (XMC_VADC_GROUP_POWERMODE_t) XMC_VADC_GROUP_POWERMODE_OFF);" include="`${is_master  &amp;&amp; !xmc11_dont_include}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetSyncMaster(`${(isBlockUsed(&quot;vadc[0].group[0]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[0]&quot;, &quot;is_master&quot;)) ? getExposedMember(&quot;vadc[0].group[0]&quot;, &quot;group_base&quot;) :
+                                                              (isBlockUsed(&quot;vadc[0].group[1]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[1]&quot;, &quot;is_master&quot;)) ? getExposedMember(&quot;vadc[0].group[1]&quot;, &quot;group_base&quot;) :
+                                                              (isBlockUsed(&quot;vadc[0].group[2]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[2]&quot;, &quot;is_master&quot;)) ? getExposedMember(&quot;vadc[0].group[2]&quot;, &quot;group_base&quot;) :
+                                                              (isBlockUsed(&quot;vadc[0].group[3]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[3]&quot;, &quot;is_master&quot;)) ? getExposedMember(&quot;vadc[0].group[3]&quot;, &quot;group_base&quot;) : NULL}`);"
+                       include="`${is_last &amp;&amp; (((isBlockUsed(&quot;vadc[0].group[0]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[0]&quot;, &quot;is_master&quot;)) ||
+                                                        (isBlockUsed(&quot;vadc[0].group[1]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[1]&quot;, &quot;is_master&quot;)) ||
+                                                        (isBlockUsed(&quot;vadc[0].group[2]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[2]&quot;, &quot;is_master&quot;)) ||
+                                                        (isBlockUsed(&quot;vadc[0].group[3]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[3]&quot;, &quot;is_master&quot;))) &amp;&amp; !xmc11_dont_include)}`" />
+    <ConfigInstruction value="XMC_VADC_GROUP_SetPowerMode(`${(isBlockUsed(&quot;vadc[0].group[0]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[0]&quot;, &quot;is_master&quot;)) ? getExposedMember(&quot;vadc[0].group[0]&quot;, &quot;group_base&quot;) :
+                                                             (isBlockUsed(&quot;vadc[0].group[1]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[1]&quot;, &quot;is_master&quot;)) ? getExposedMember(&quot;vadc[0].group[1]&quot;, &quot;group_base&quot;) :
+                                                             (isBlockUsed(&quot;vadc[0].group[2]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[2]&quot;, &quot;is_master&quot;)) ? getExposedMember(&quot;vadc[0].group[2]&quot;, &quot;group_base&quot;) :
+                                                             (isBlockUsed(&quot;vadc[0].group[3]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[3]&quot;, &quot;is_master&quot;)) ? getExposedMember(&quot;vadc[0].group[3]&quot;, &quot;group_base&quot;) : NULL}`, (XMC_VADC_GROUP_POWERMODE_t) XMC_VADC_GROUP_POWERMODE_NORMAL);"
+                       include="`${is_last &amp;&amp;  (((isBlockUsed(&quot;vadc[0].group[0]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[0]&quot;, &quot;is_master&quot;)) ||
+                                                         (isBlockUsed(&quot;vadc[0].group[1]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[1]&quot;, &quot;is_master&quot;)) ||
+                                                         (isBlockUsed(&quot;vadc[0].group[2]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[2]&quot;, &quot;is_master&quot;)) ||
+                                                         (isBlockUsed(&quot;vadc[0].group[3]&quot;) &amp;&amp; getExposedMember(&quot;vadc[0].group[3]&quot;, &quot;is_master&quot;))) &amp;&amp; !xmc11_dont_include)}`" />
 
     <ConfigInstruction value="&#xA;    /* RESULT init. */" include="`${group_channels_check_id &amp;&amp; group_channels_check_res_reg_id &amp;&amp; !xmc11_dont_include}`" />
     <ConfigInstruction value="XMC_VADC_GROUP_ResultInit(`${INST_NAME}`_HW, (uint32_t)`${group_channels_result_register_id_$idx}`, &amp;`${INST_NAME}`_result_`${group_channels_result_register_id_$idx}`_config);" include="`${group_channels_configure_channel_id_$idx &amp;&amp; ((1 &lt;&lt; group_channels_result_register_id_$idx) &amp; group_channels_check_id) &amp;&amp; !xmc11_dont_include}`" repeatCount="8" />

@@ -479,12 +479,12 @@
     </Repeat>
     <ParamString id="dx2_name" name="dx2 Port Name" group="Connections" default="`${(getParamValueDisplay(&quot;DX2InputStageMaster&quot;))}`" visible="false" editable="false" desc="" />
     <ParamSignal port="dx2[0]" name="`${dx2_name}` [dx2]" group="Connections" visible="`${DX2InputStageMaster ne DX2None}`" desc="DX2 signal connection." canBeEmpty="`${DX2InputStageMaster eq DX2None}`" multiSelect="false" />
+    <Repeat count="6">
+      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal." canBeEmpty="true" multiSelect="true" />
+    </Repeat>
     <ParamBool id="ShowSystemRelatedOutputs" name="System Related Outputs" group="Connections" default="false" visible="true" editable="true" desc="Enables the system related output signals configuration."/>
     <Repeat count="6">
       <ParamSignal port="dx$idxins[0]" name="DX$idxINS " group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;dx$idxins[0]&quot;)}`" desc="Selected DX$idx input signal output." canBeEmpty="true" multiSelect="true" />
-    </Repeat>
-    <Repeat count="6">
-      <ParamSignal port="sr$idx[0]" name="Service Request $idx" group="Connections" visible="`${ShowSystemRelatedOutputs &amp;&amp; hasVisibleOption(&quot;sr$idx[0]&quot;)}`" desc="Service request $idx output signal." canBeEmpty="true" multiSelect="true" />
     </Repeat>
 
     <ParamBool id="StartAfterInit" name="Start After Initialization" group="Advanced" default="true" visible="true" editable="true" desc="If enabled the SPI will be started at the end of the initialization." />
@@ -500,9 +500,6 @@
   <DRCs>
     <DRC type="ERROR" text="DOUT0 connections should use the same pin: `${valueDout}`" condition="`${(valueDout ne &quot;&quot;) &amp;&amp; (pinDout eq &quot;&quot;)}`" />
     <DRC type="INFO" text="Enable 'DX$idxINS' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;dx$idxins&quot;, 0)}`" repeatCount="6">
-      <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
-    </DRC>
-    <DRC type="INFO" text="Enable 'SR$idx' signal configuration." condition="`${!ShowSystemRelatedOutputs  &amp;&amp; hasConnection(&quot;sr$idx&quot;, 0)}`" repeatCount="6">
       <FixIt action="SET_PARAM" target="ShowSystemRelatedOutputs" value="true" valid="true" />
     </DRC>
   </DRCs>
