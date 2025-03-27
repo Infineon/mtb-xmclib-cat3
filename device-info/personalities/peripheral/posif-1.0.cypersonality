@@ -314,7 +314,6 @@
                  enables an update of the Multi-Channel pattern. When set to 1B, the Multi-Channel pattern can only be updated after the SW has
                  written a 1B into the MCMS.MNPS field."
                  canBeEmpty="true">
-      <Constraint type="DENY" targetLocation=".*" valid="`${is_default_hall_profile_used}`" />
     </ParamSignal>
     <ParamString id="msets_block" name="msets block name" group="Connections" default="`${getBlockFromSignal(&quot;msets[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />
     <ParamString id="msets_value" name="msets value" group="Connections" default="`${getParamValue(&quot;msets[0]&quot;)}`" visible="`${is_debug_mode}`" editable="false" desc="" />

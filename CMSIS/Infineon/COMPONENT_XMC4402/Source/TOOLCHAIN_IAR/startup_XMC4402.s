@@ -3,10 +3,10 @@
 /*****************************************************************************/
 /**
 * @file     startup_XMC4402.s
-*           XMC4002 Device Series
+*           XMC4402 Device Series
 *
 *********************************************************************************************************************
-* Copyright (c) 2013-2020, Infineon Technologies AG
+* Copyright (c) 2013-2025, Infineon Technologies AG
 * All rights reserved.                        
 *                                             
 * Boost Software License - Version 1.0 - August 17th, 2003

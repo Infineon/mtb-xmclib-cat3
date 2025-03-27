@@ -572,7 +572,7 @@ void XMC_ETH_MAC_SetAddressEx(XMC_ETH_MAC_t *const eth_mac, const uint8_t *const
 __STATIC_INLINE uint64_t XMC_ETH_MAC_GetAddress(XMC_ETH_MAC_t *const eth_mac)
 {
   uint32_t mac_addr_high = eth_mac->regs->MAC_ADDRESS0_HIGH;
-  uint32_t mac_addr_low = eth_mac->regs->MAC_ADDRESS0_HIGH;
+  uint32_t mac_addr_low = eth_mac->regs->MAC_ADDRESS0_LOW;
   return ((((uint64_t)mac_addr_high << 32)) | (uint64_t)mac_addr_low);
 }
 

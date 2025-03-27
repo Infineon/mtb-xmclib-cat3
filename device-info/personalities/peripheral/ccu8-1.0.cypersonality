@@ -121,7 +121,6 @@
       <Entry name="Channel 1" value="1" visible="true" />
       <Entry name="Channel 2" value="2" visible="true" />
       <Entry name="Channel 1 and 2" value="3" visible="true" />
-      <Entry name="Channel 1 or 2" value="1" visible="`${ip_ver3}`" />
     </ParamChoice>
 
     <ParamChoice id="slice_status" name="Channel Output" group="General" default="1_AND_2" visible="true" editable="true" desc="Sets which of the two channels drives the slice status output.">

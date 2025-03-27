@@ -624,6 +624,22 @@
 #define UC_FLASH     (64UL)
 #define CCU4V2
 
+#elif defined(XMC1100_T038x0128)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC11
+#define UC_DEVICE    XMC1100
+#define UC_PACKAGE   TSSOP38
+#define UC_FLASH     (128UL)
+#define CCU4V2
+
+#elif defined(XMC1100_T038x0200)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC11
+#define UC_DEVICE    XMC1100
+#define UC_PACKAGE   TSSOP38
+#define UC_FLASH     (200UL)
+#define CCU4V2
+
 #elif defined(XMC1201_Q040x0016)
 #define UC_FAMILY    XMC1
 #define UC_SERIES    XMC12

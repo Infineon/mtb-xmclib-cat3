@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc_gpdma_channel" name="GPDMA-CH" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+<Personality id="xmc_gpdma_channel" name="GPDMA-CH" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v8">
   <Dependencies>
     <IpBlock name="xmc_gpdma" />
     <Resource name="gpdma\.ch" />
@@ -198,7 +198,6 @@
     <ConfigExternVariable name="`${source_address}`" type="void *" const="false" include="`${are_source_fields_enabled &amp;&amp; is_source_address_extern}`" />
     <ConfigExternVariable name="`${destination_address}`" type="void *" const="false" include="`${are_destination_fields_enabled &amp;&amp; is_destination_address_extern}`" />
     <ConfigExternVariable name="`${linked_list_pointer}`" type="XMC_DMA_LLI_t * const" const="false" include="`${is_linked_list_pointer_enabled &amp;&amp; is_linked_list_pointer_extern}`" />
-    <ConfigExternVariable name="`${dma_channel_event_handler . &quot;(XMC_DMA_CH_EVENT_t event)&quot;}`" type="void" const="false" include="`${is_any_event_enabled &amp;&amp; event_handler_gen}`" />
     <ConfigVariable name="`${INST_NAME}`_events" type="uint32_t" const="`${in_flash}`" public="true" include="true" value="`${enable_dma_transfer_complete_event ? &quot;XMC_DMA_CH_EVENT_TRANSFER_COMPLETE&quot; : &quot;0U&quot;}` | `${enable_block_transfer_complete_event ? &quot;XMC_DMA_CH_EVENT_BLOCK_TRANSFER_COMPLETE&quot; : &quot;0U&quot;}` | `${((source_handshaking eq XMC_DMA_CH_SRC_HANDSHAKING_HARDWARE) &amp;&amp; enable_source_transaction_complete_event) ? &quot;XMC_DMA_CH_EVENT_SRC_TRANSACTION_COMPLETE&quot; : &quot;0U&quot;}` | `${((destination_handshaking eq XMC_DMA_CH_DST_HANDSHAKING_HARDWARE) &amp;&amp; enable_destination_transaction_complete_event) ? &quot;XMC_DMA_CH_EVENT_DST_TRANSACTION_COMPLETE&quot; : &quot;0U&quot;}` | `${enable_error_event ? &quot;XMC_DMA_CH_EVENT_ERROR&quot; : &quot;0U&quot;}`" />
 
     <ConfigStruct name="`${INST_NAME}`_config" type="XMC_DMA_CH_CONFIG_t" const="`${in_flash}`" public="true" include="true">
@@ -227,12 +226,13 @@
       <Member name="dst_handshaking" value="`${destination_handshaking}`" include="`${is_destination_handshaking_enabled}`" />
       <Member name="dst_peripheral_request" value="DMA_PERIPHERAL_REQUEST(XMC_GPDMA`${module_num}`_CH`${channel_num}`_DEST_PER, `${dest_per_signal_name}`_TRIGGER_IN)" include="`${is_destination_handshaking_enabled &amp;&amp; (destination_handshaking eq XMC_DMA_CH_DST_HANDSHAKING_HARDWARE)}`" />
     </ConfigStruct>
+    <ConfigExternFunction signature="`${&quot;void &quot; . dma_channel_event_handler . &quot;(XMC_DMA_CH_EVENT_t event)&quot;}`" include="`${is_any_event_enabled &amp;&amp; event_handler_gen}`" />
     <ConfigFunction signature="void `${INST_NAME}`_reload(void)"
                     body     ="    XMC_DMA_CH_SetBlockSize(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${block_size}`U);&#13;`${are_source_fields_enabled ? (&quot;    XMC_DMA_CH_SetSourceAddress(&quot; . INST_NAME . &quot;_HW, &quot; . INST_NAME . &quot;_NUM, &quot; . (((source_address eq &quot;&quot;) || (source_address eq &quot;NULL&quot;)) ? &quot;(uint32_t)NULL&quot; : (!is_source_address_hex ? (&quot;(uint32_t)&quot; . source_address) : source_address . &quot;UL&quot;)) . &quot;);&#13;&quot;) :&quot;&quot;}``${are_destination_fields_enabled ? (&quot;    XMC_DMA_CH_SetDestinationAddress(&quot; . INST_NAME . &quot;_HW, &quot; . INST_NAME . &quot;_NUM, &quot; . (((destination_address eq &quot;&quot;) || (destination_address eq &quot;NULL&quot;)) ? &quot;(uint32_t)NULL&quot; : (!is_destination_address_hex ? (&quot;(uint32_t)&quot; . destination_address) : destination_address . &quot;UL&quot;)) . &quot;);&#13;&quot;) : &quot;&quot;}``${is_linked_list_pointer_enabled ? (&quot;    XMC_DMA_CH_SetLinkedListPointer(&quot; . INST_NAME . &quot;_HW, &quot; . INST_NAME . &quot;_NUM, &quot; . (((linked_list_pointer eq &quot;&quot;) || (linked_list_pointer eq &quot;NULL&quot;)) ? &quot;NULL&quot; : &quot;(XMC_DMA_LLI_t *)&quot; . linked_list_pointer) . &quot;);&#13;&quot;) : &quot;&quot;}`" public="true" include="true" />
-    <ConfigInstruction value="XMC_DMA_CH_Init(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, &amp;`${INST_NAME}`_config);" include="true" />
-    <ConfigInstruction value="XMC_DMA_CH_EnableEvent(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${INST_NAME}`_events);" include="true" />
-    <ConfigInstruction value="XMC_DMA_CH_SetEventHandler(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${(is_any_event_enabled &amp;&amp; event_handler_gen)? &quot;(XMC_DMA_CH_EVENT_HANDLER_t)&amp;&quot; . dma_channel_event_handler : &quot;NULL&quot;}`);" include="true" />
+    <ConfigInstruction value="XMC_DMA_CH_Init(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, &amp;`${INST_NAME}`_config);" include="true" purpose="INITIALIZE" />
+    <ConfigInstruction value="XMC_DMA_CH_EnableEvent(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${INST_NAME}`_events);" include="true" purpose="INITIALIZE" />
+    <ConfigInstruction value="XMC_DMA_CH_SetEventHandler(`${INST_NAME}`_HW, `${INST_NAME}`_NUM, `${(is_any_event_enabled &amp;&amp; event_handler_gen)? &quot;(XMC_DMA_CH_EVENT_HANDLER_t)&amp;&quot; . dma_channel_event_handler : &quot;NULL&quot;}`);" include="true" purpose="INITIALIZE" />
 
-    <ConfigInstruction value="`${INST_NAME}`_reload();" include="true" />
+    <ConfigInstruction value="`${INST_NAME}`_reload();" include="true" purpose="INITIALIZE" />
   </ConfigFirmware>
 </Personality>

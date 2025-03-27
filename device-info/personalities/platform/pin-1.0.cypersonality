@@ -30,9 +30,14 @@
     <IpBlock name="xmc_ioss" />
     <Resource name="ioss\.port\.pin" />
   </Dependencies>
-  <ExposedMembers/>
+  <ExposedMembers>
+    <ExposedMember key="InstName" paramId="InstName" />
+  </ExposedMembers>
+
   <Parameters>
     <!--Internal-->
+    <ParamString id="InstName" name="Inst Name" group="Internal" default="`${INST_NAME}`" visible="false" editable="false" desc="Get Instance Name" />
+
     <ParamBool id="xmc1" name="xmc1" group="Internal" default="`${lookupExpression(&quot;XMC1&quot;, 0)}`" visible="false" editable="false" desc="" />
     <ParamBool id="xmc4" name="xmc4" group="Internal" default="`${lookupExpression(&quot;XMC4&quot;, 0)}`" visible="false" editable="false" desc="" />
     <ParamRange id="port" name="Port Number" group="Internal" default="`${getInstNumber(&quot;port&quot;)}`" min="0" max="16" resolution="1" visible="false" editable="false" desc="" />
@@ -93,6 +98,10 @@
 
     <!-- Skip code gen: analog[0] may be connected to external clock -->
     <ParamBool id="skipConfigCodeGen" name="skipConfigCodeGen" group="Internal" default="`${hasConnection(&quot;analog&quot;, 0) &amp;&amp; hasExposedMember(getBlockFromSignal(&quot;analog[0]&quot;), &quot;suppressCodeGen&quot;) &amp;&amp; getExposedMember(getBlockFromSignal(&quot;analog[0]&quot;), &quot;suppressCodeGen&quot;)}`" visible="false" editable="false" desc="" />
+    
+    <!-- Skip code gen for ECAT -->
+    <ParamBool id="skipECATDigIn" name="skipConfigECATCodeGen" group="Internal" default="`${hasConnection(&quot;digital_in&quot;, 0) &amp;&amp; hasExposedMember(getBlockFromSignal(&quot;digital_in[0]&quot;), &quot;suppressEcatPinCodeGen&quot;) &amp;&amp; getExposedMember(getBlockFromSignal(&quot;digital_in[0]&quot;), &quot;suppressEcatPinCodeGen&quot;)}`" visible="false" editable="false" desc="" />
+    <ParamBool id="skipECATDigOut" name="skipConfigECATCodeGen" group="Internal" default="`${hasConnection(&quot;digital_out&quot;, 0) &amp;&amp; hasExposedMember(getBlockFromSignal(&quot;digital_out[0]&quot;), &quot;suppressEcatPinCodeGen&quot;) &amp;&amp; getExposedMember(getBlockFromSignal(&quot;digital_out[0]&quot;), &quot;suppressEcatPinCodeGen&quot;)}`" visible="false" editable="false" desc="" />
 
     <!--Config-->
     <ParamBool id="inFlash" name="Store Config in Flash" group="Advanced" default="true" visible="true" editable="true" desc="Controls whether the configuration structure is stored in flash (const, true) or SRAM (not const, false)." />
@@ -128,7 +137,7 @@
       <Member name="output_strength" value="`${output_strength}`" include="`${xmc4 &amp;&amp; (io_function ne XMC_GPIO_INPUT) &amp;&amp; (output_strength ne XMC_GPIO_OUTPUT_STRENGTH_NONE)}`" />
     </ConfigStruct>
 
-    <ConfigInstruction value="XMC_GPIO_Init(`${INST_NAME}`_PORT, `${INST_NAME}`_PIN, &amp;`${INST_NAME}`_config);" include="`${!skipConfigCodeGen}`"/>
-    <ConfigInstruction value="XMC_GPIO_SetHardwareControl(`${INST_NAME}`_PORT, `${INST_NAME}`_PIN, `${INST_NAME}`_HWO);" include="`${!skipConfigCodeGen}`" />
+    <ConfigInstruction value="XMC_GPIO_Init(`${INST_NAME}`_PORT, `${INST_NAME}`_PIN, &amp;`${INST_NAME}`_config);" include="`${!skipConfigCodeGen &amp;&amp; !skipECATDigIn &amp;&amp; !skipECATDigOut}`"/>
+    <ConfigInstruction value="XMC_GPIO_SetHardwareControl(`${INST_NAME}`_PORT, `${INST_NAME}`_PIN, `${INST_NAME}`_HWO);" include="`${!skipConfigCodeGen &amp;&amp; !skipECATDigIn &amp;&amp; !skipECATDigOut}`" />
   </ConfigFirmware>
 </Personality>

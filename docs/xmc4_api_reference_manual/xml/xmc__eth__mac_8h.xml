@@ -4848,7 +4848,7 @@ registers are marked as failing the SA Address filter&quot;. </para></simplesect
 <codeline lineno="572"><highlight class="normal">__STATIC_INLINE<sp/>uint64_t<sp/><ref refid="group___e_t_h___m_a_c_1gadb48547d7bf26333094b120e13c497b7" kindref="member">XMC_ETH_MAC_GetAddress</ref>(<ref refid="struct_x_m_c___e_t_h___m_a_c__t" kindref="compound">XMC_ETH_MAC_t</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>eth_mac)</highlight></codeline>
 <codeline lineno="573"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="574"><highlight class="normal"><sp/><sp/>uint32_t<sp/>mac_addr_high<sp/>=<sp/>eth_mac-&gt;<ref refid="struct_x_m_c___e_t_h___m_a_c__t_1a7febd80638cbe7497e478e50cb3dada0" kindref="member">regs</ref>-&gt;MAC_ADDRESS0_HIGH;</highlight></codeline>
-<codeline lineno="575"><highlight class="normal"><sp/><sp/>uint32_t<sp/>mac_addr_low<sp/>=<sp/>eth_mac-&gt;<ref refid="struct_x_m_c___e_t_h___m_a_c__t_1a7febd80638cbe7497e478e50cb3dada0" kindref="member">regs</ref>-&gt;MAC_ADDRESS0_HIGH;</highlight></codeline>
+<codeline lineno="575"><highlight class="normal"><sp/><sp/>uint32_t<sp/>mac_addr_low<sp/>=<sp/>eth_mac-&gt;<ref refid="struct_x_m_c___e_t_h___m_a_c__t_1a7febd80638cbe7497e478e50cb3dada0" kindref="member">regs</ref>-&gt;MAC_ADDRESS0_LOW;</highlight></codeline>
 <codeline lineno="576"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((((uint64_t)mac_addr_high<sp/>&lt;&lt;<sp/>32))<sp/>|<sp/>(uint64_t)mac_addr_low);</highlight></codeline>
 <codeline lineno="577"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="578"><highlight class="normal"></highlight></codeline>

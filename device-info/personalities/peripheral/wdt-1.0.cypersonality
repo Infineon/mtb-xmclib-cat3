@@ -25,7 +25,7 @@
 * limitations under the License.
 *****************************************************************************-->
 
-<Personality id="xmc_wdt" name="WDT" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v7">
+<Personality id="xmc_wdt" name="WDT" version="1.0" xmlns="http://cypress.com/xsd/cyhwpersonality_v8">
   <Dependencies>
     <IpBlock name="xmc_wdt" />
     <Resource name="wdt" />
@@ -92,20 +92,20 @@
     <ConfigDefine name="WATCHDOG_EVENT_VIA_NMI" value="`${enable_pwa &amp; event_request_pwa}`U" public="true" include="true" />
     <ConfigDefine name="WATCHDOG_PREWARNING_CHECK" value="`${enable_pwa ? 1 : 0}`U" public="true" include="true" />
 
-    <ConfigExternVariable name="`${event_handler_pwa . &quot;(void)&quot;}`" type="void" const="false" include="`${enable_pwa &amp;&amp; !event_request_pwa}`" />
-
     <ConfigStruct name="`${INST_NAME}`_config" type="XMC_WDT_CONFIG_t" const="`${inFlash}`" public="true" include="true">
-      <Member name="window_lower_bound" value="`${desired_ms_wlb}`" />
-      <Member name="window_upper_bound" value="`${desired_ms_wub}`" />
+      <Member name="window_lower_bound" value="`${toHex(actual_ms_wlb * clock_source_value)}`U" />
+      <Member name="window_upper_bound" value="`${toHex(actual_ms_wub * clock_source_value)}`U" />
       <Member name="prewarn_mode" value="`${enable_pwa}`" />
       <Member name="service_pulse_width" value="`${width_sip}`U" />
       <Member name="run_in_debug_mode" value="`${runInDebug ? 1 : 0}`U" />
     </ConfigStruct>
 
-    <ConfigInstruction value="XMC_SCU_INTERRUPT_EnableEvent(XMC_SCU_INTERRUPT_EVENT_WDT_WARN);" include="`${enable_pwa}`" />
-    <ConfigInstruction value="XMC_SCU_INTERRUPT_SetEventHandler(XMC_SCU_INTERRUPT_EVENT_WDT_WARN, &amp;`${event_handler_pwa}`);" include="`${enable_pwa &amp;&amp; !event_request_pwa}`" />
-    <ConfigInstruction value="XMC_SCU_INTERRUPT_EnableNmiRequest(XMC_SCU_INTERRUPT_EVENT_WDT_WARN);" include="`${enable_pwa &amp;&amp; !xmc1}`" />
-    <ConfigInstruction value="XMC_WDT_Init(&amp;`${INST_NAME}`_config);" include="true" />
-    <ConfigInstruction value="XMC_WDT_Start();" include="`${start_after_init}`" />
+    <ConfigExternFunction signature="`${&quot;void &quot; . event_handler_pwa . &quot;(void)&quot;}`" include="`${enable_pwa &amp;&amp; !event_request_pwa}`" />
+
+    <ConfigInstruction value="XMC_SCU_INTERRUPT_EnableEvent(XMC_SCU_INTERRUPT_EVENT_WDT_WARN);" include="`${enable_pwa}`" purpose="INITIALIZE" />
+    <ConfigInstruction value="XMC_SCU_INTERRUPT_SetEventHandler(XMC_SCU_INTERRUPT_EVENT_WDT_WARN, &amp;`${event_handler_pwa}`);" include="`${enable_pwa &amp;&amp; !event_request_pwa}`" purpose="INITIALIZE" />
+    <ConfigInstruction value="XMC_SCU_INTERRUPT_EnableNmiRequest(XMC_SCU_INTERRUPT_EVENT_WDT_WARN);" include="`${enable_pwa &amp;&amp; !xmc1}`" purpose="INITIALIZE" />
+    <ConfigInstruction value="XMC_WDT_Init(&amp;`${INST_NAME}`_config);" include="true" purpose="INITIALIZE" />
+    <ConfigInstruction value="XMC_WDT_Start();" include="`${start_after_init}`" purpose="INITIALIZE" />
   </ConfigFirmware>
 </Personality>

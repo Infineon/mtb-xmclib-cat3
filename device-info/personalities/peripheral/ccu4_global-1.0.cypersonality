@@ -76,6 +76,7 @@
       <FixIt action="ENABLE_BLOCK" target="`${clock_resource}`" value="" valid="true" />
     </DRC>
     <DRC type="INFO" text="SR`${getExposedMember(slice$idxRcs, &quot;sr&quot;)}` is reserved for the emUSB middleware" condition="`${hasExposedMember(slice$idxRcs, &quot;baseAddress&quot;)}`" repeatCount="4"/>
+    <DRC type="INFO" text="SR`${getExposedMember(slice$idxRcs, &quot;sr_ecat&quot;)}` is reserved for the ECAT personality" condition="`${hasExposedMember(slice$idxRcs, &quot;baseAddressecat&quot;)}`" repeatCount="4"/>
   </DRCs>
 
   <ConfigFirmware>

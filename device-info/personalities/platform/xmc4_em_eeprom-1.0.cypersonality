@@ -32,7 +32,9 @@
     <Resource name="scu\.eeprom" />
   </Dependencies>
 
-  <ExposedMembers />
+  <ExposedMembers>
+    <ExposedMember key="eeprom_size" paramId="eeprom_size" />
+  </ExposedMembers>
 
   <Parameters>
     <!-- EM_EEPROM documentation -->
