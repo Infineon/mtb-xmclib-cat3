@@ -112,16 +112,16 @@
                                                          frequency value during runtime for XMC11/12/13  device. */
 #endif
 
-#define ROM_BmiInstallationReq \
-        (*((uint32_t (**)(uint32_t requestedBmiValue))0x00000108U)) /**< Pointer to Request BMI installation routine is
+#define ROM_BmiInstallationReq(requestedBmiValue) \
+        ((uint32_t (*)(uint32_t))0x00000108U)(requestedBmiValue) /**< Pointer to Request BMI installation routine is
                                                                          available inside ROM. */
 
-#define ROM_CalcTemperature \
-        (*((uint32_t (**)(void))0x0000010cU)) /**<  Pointer to Calculate chip temperature routine is
+#define ROM_CalcTemperature() \
+        ((uint32_t (*)(void))0x0000010cU)() /**<  Pointer to Calculate chip temperature routine is
                                                     available inside ROM. */
 
-#define ROM_CalcTSEVAR \
-        (*((uint32_t (**)(uint32_t temperature))0x00000120U)) /**<  Pointer to Calculate target level for temperature
+#define ROM_CalcTSEVAR(temperature) \
+        ((uint32_t (*)(uint32_t))0x00000120U)(temperature) /**<  Pointer to Calculate target level for temperature
                                                                     comparison routine is available inside ROM. */
 
 /*********************************************************************************************************************

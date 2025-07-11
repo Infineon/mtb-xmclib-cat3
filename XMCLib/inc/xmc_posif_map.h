@@ -5,7 +5,7 @@
  *****************************************************************************
  * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2025, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -246,6 +246,31 @@
 #endif
 
 
+#if (UC_DEVICE == XMC1402) && (UC_PACKAGE == LQFP48)
+#define POSIF0_IN0_ERU0_PDOUT0	3
+#define POSIF0_IN0_P0_13    	1
+#define POSIF0_IN0_P1_2     	0
+#define POSIF0_IN0_VADC_G1BFL0	2
+#define POSIF0_IN1_ERU0_PDOUT1	3
+#define POSIF0_IN1_P0_14    	1
+#define POSIF0_IN1_P1_1     	0
+#define POSIF0_IN1_VADC_G1BFL1	2
+#define POSIF0_IN2_ERU0_PDOUT2	3
+#define POSIF0_IN2_P0_15    	1
+#define POSIF0_IN2_P1_0     	0
+#define POSIF0_IN2_VADC_G1BFL2	2
+#define POSIF1_IN0_ERU1_PDOUT0	3
+#define POSIF1_IN0_P4_1     	1
+#define POSIF1_IN0_VADC_G1BFL0	2
+#define POSIF1_IN1_ERU1_PDOUT1	3
+#define POSIF1_IN1_P4_2     	1
+#define POSIF1_IN1_VADC_G1BFL1	2
+#define POSIF1_IN2_ERU1_PDOUT2	3
+#define POSIF1_IN2_P4_3     	1
+#define POSIF1_IN2_VADC_G1BFL2	2
+#endif
+
+
 #if (UC_DEVICE == XMC1402) && (UC_PACKAGE == VQFN64)
 #define POSIF0_IN0_ERU0_PDOUT0	3
 #define POSIF0_IN0_P0_13    	1
@@ -353,6 +378,29 @@
 #define POSIF1_IN2_VADC_G1BFL2	2
 #endif
 
+#if (UC_DEVICE == XMC1404) && (UC_PACKAGE == LQFP48)
+#define POSIF0_IN0_ERU0_PDOUT0	3
+#define POSIF0_IN0_P0_13    	1
+#define POSIF0_IN0_P1_2     	0
+#define POSIF0_IN0_VADC_G1BFL0	2
+#define POSIF0_IN1_ERU0_PDOUT1	3
+#define POSIF0_IN1_P0_14    	1
+#define POSIF0_IN1_P1_1     	0
+#define POSIF0_IN1_VADC_G1BFL1	2
+#define POSIF0_IN2_ERU0_PDOUT2	3
+#define POSIF0_IN2_P0_15    	1
+#define POSIF0_IN2_P1_0     	0
+#define POSIF0_IN2_VADC_G1BFL2	2
+#define POSIF1_IN0_ERU1_PDOUT0	3
+#define POSIF1_IN0_P4_1     	1
+#define POSIF1_IN0_VADC_G1BFL0	2
+#define POSIF1_IN1_ERU1_PDOUT1	3
+#define POSIF1_IN1_P4_2     	1
+#define POSIF1_IN1_VADC_G1BFL1	2
+#define POSIF1_IN2_ERU1_PDOUT2	3
+#define POSIF1_IN2_P4_3     	1
+#define POSIF1_IN2_VADC_G1BFL2	2
+#endif
 
 #if (UC_DEVICE == XMC1404) && (UC_PACKAGE == VQFN64)
 #define POSIF0_IN0_ERU0_PDOUT0	3

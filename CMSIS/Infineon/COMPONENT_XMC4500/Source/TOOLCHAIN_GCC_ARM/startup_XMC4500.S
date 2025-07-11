@@ -230,6 +230,15 @@ __Vectors:
     .globl  Reset_Handler
     .type   Reset_Handler, %function
 Reset_Handler:
+
+/* START of workaround for PFU */
+    b ._skip_cache_row
+    nop
+    nop
+    nop
+    ._skip_cache_row :
+/* END of workaround for PFU */
+
     ldr sp,=__initial_sp
 
 #ifndef __SKIP_SYSTEM_INIT

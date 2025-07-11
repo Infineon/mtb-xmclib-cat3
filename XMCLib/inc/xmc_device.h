@@ -5,7 +5,7 @@
  *****************************************************************************
  * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2025, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -99,6 +99,7 @@
 #define    VQFN40     (11)
 #define    VQFN64     (12)
 #define    BGA196     (13)
+#define    LQFP48     (14)
 
 #if defined(XMC4800_E196x2048)
 #define UC_FAMILY    XMC4
@@ -1151,6 +1152,38 @@
 #define UC_FLASH     (128UL)
 #define CCU4V3
 
+#elif defined(XMC1401_F048x0032)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1401
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (32UL)
+#define CCU4V3
+
+#elif defined(XMC1401_F048x0064)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1401
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (64UL)
+#define CCU4V3
+
+#elif defined(XMC1401_F048x0128)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1401
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (128UL)
+#define CCU4V3
+
+#elif defined(XMC1401_F048x0200)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1401
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (200UL)
+#define CCU4V3
+
 #elif defined(XMC1402_T038x0032)
 #define UC_FAMILY    XMC1
 #define UC_SERIES    XMC14
@@ -1313,6 +1346,41 @@
 #define CCU4V3
 #define CCU8V3
 
+#elif defined(XMC1402_F048x0032)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1402
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (32UL)
+#define CCU4V3
+#define CCU8V3
+
+#elif defined(XMC1402_F048x0064)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1402
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (64UL)
+#define CCU4V3
+#define CCU8V3
+
+#elif defined(XMC1402_F048x0128)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1402
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (128UL)
+#define CCU4V3
+#define CCU8V3
+
+#elif defined(XMC1402_F048x0200)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1402
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (200UL)
+#define CCU4V3
+#define CCU8V3
 
 #elif defined(XMC1403_Q048x0064)
 #define UC_FAMILY    XMC1
@@ -1510,6 +1578,36 @@
 #define UC_SERIES    XMC14
 #define UC_DEVICE    XMC1404
 #define UC_PACKAGE   LQFP64
+#define UC_FLASH     (200UL)
+#define MULTICAN_PLUS
+#define CCU4V3
+#define CCU8V3
+
+#elif defined(XMC1404_F048x0064)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1404
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (64UL)
+#define MULTICAN_PLUS
+#define CCU4V3
+#define CCU8V3
+
+#elif defined(XMC1404_F048x0128)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1404
+#define UC_PACKAGE   LQFP48
+#define UC_FLASH     (128UL)
+#define MULTICAN_PLUS
+#define CCU4V3
+#define CCU8V3
+
+#elif defined(XMC1404_F048x0200)
+#define UC_FAMILY    XMC1
+#define UC_SERIES    XMC14
+#define UC_DEVICE    XMC1404
+#define UC_PACKAGE   LQFP48
 #define UC_FLASH     (200UL)
 #define MULTICAN_PLUS
 #define CCU4V3

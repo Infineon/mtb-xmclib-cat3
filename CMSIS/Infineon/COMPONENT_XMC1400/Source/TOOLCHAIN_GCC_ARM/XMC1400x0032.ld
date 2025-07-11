@@ -4,9 +4,11 @@
  * @cond
  *********************************************************************************************************************
  * Linker file for the GNU C Compiler v1.6
- * Supported devices: XMC1402-Q040X0032
+ * Supported devices: XMC1401-F048X0032
+ *                    XMC1402-Q040X0032
  *                    XMC1402-Q048X0032
  *                    XMC1402-T038X0032
+ *                    XMC1402-F048X0032
  *
  * Copyright (c) 2015-2021, Infineon Technologies AG
  * All rights reserved.                        
