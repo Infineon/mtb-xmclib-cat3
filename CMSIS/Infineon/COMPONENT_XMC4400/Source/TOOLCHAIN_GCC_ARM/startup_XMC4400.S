@@ -4,7 +4,7 @@
  *
  * @cond
  *********************************************************************************************************************
- * Copyright (c) 2012-2021, Infineon Technologies AG
+ * Copyright (c) 2012-2025, Infineon Technologies AG
  * All rights reserved.                        
  *                                             
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -232,11 +232,156 @@ __Vectors:
 Reset_Handler:
 
 /* START of workaround for PFU */
-    b ._skip_cache_row
+
+    .macro PFU_NOP_BLOCK idx
+    b ._skip_cache_row_\idx
     nop
     nop
     nop
-    ._skip_cache_row :
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+    nop
+._skip_cache_row_\idx:
+    .endm
+
+    PFU_NOP_BLOCK 0
+    PFU_NOP_BLOCK 1
+    PFU_NOP_BLOCK 2
+    PFU_NOP_BLOCK 3
+    PFU_NOP_BLOCK 4
+    PFU_NOP_BLOCK 5
+    PFU_NOP_BLOCK 6
+    PFU_NOP_BLOCK 7
+    PFU_NOP_BLOCK 8
+    PFU_NOP_BLOCK 9
+    PFU_NOP_BLOCK 10
+    PFU_NOP_BLOCK 11
+    PFU_NOP_BLOCK 12
+    PFU_NOP_BLOCK 13
+    PFU_NOP_BLOCK 14
+    PFU_NOP_BLOCK 15
+    PFU_NOP_BLOCK 16
+    PFU_NOP_BLOCK 17
+    PFU_NOP_BLOCK 18
+    PFU_NOP_BLOCK 19
+    PFU_NOP_BLOCK 20
+    PFU_NOP_BLOCK 21
+    PFU_NOP_BLOCK 22
+    PFU_NOP_BLOCK 23
+    PFU_NOP_BLOCK 24
+    PFU_NOP_BLOCK 25
+    PFU_NOP_BLOCK 26
+    PFU_NOP_BLOCK 27
+    PFU_NOP_BLOCK 28
+    PFU_NOP_BLOCK 29
+    PFU_NOP_BLOCK 30
+    PFU_NOP_BLOCK 31
+    PFU_NOP_BLOCK 32
+    PFU_NOP_BLOCK 33
+    PFU_NOP_BLOCK 34
+    PFU_NOP_BLOCK 35
+    PFU_NOP_BLOCK 36
+    PFU_NOP_BLOCK 37
+    PFU_NOP_BLOCK 38
+    PFU_NOP_BLOCK 39
+    PFU_NOP_BLOCK 40
+    PFU_NOP_BLOCK 41
+    PFU_NOP_BLOCK 42
+    PFU_NOP_BLOCK 43
+    PFU_NOP_BLOCK 44
+    PFU_NOP_BLOCK 45
+    PFU_NOP_BLOCK 46
+    PFU_NOP_BLOCK 47
+    PFU_NOP_BLOCK 48
+    PFU_NOP_BLOCK 49
+    PFU_NOP_BLOCK 50
+    PFU_NOP_BLOCK 51
+    PFU_NOP_BLOCK 52
+    PFU_NOP_BLOCK 53
+    PFU_NOP_BLOCK 54
+    PFU_NOP_BLOCK 55
+    PFU_NOP_BLOCK 56
+    PFU_NOP_BLOCK 57
+    PFU_NOP_BLOCK 58
+    PFU_NOP_BLOCK 59
+    PFU_NOP_BLOCK 60
+    PFU_NOP_BLOCK 61
+    PFU_NOP_BLOCK 62
+    PFU_NOP_BLOCK 63
+    PFU_NOP_BLOCK 64
+    PFU_NOP_BLOCK 65
+    PFU_NOP_BLOCK 66
+    PFU_NOP_BLOCK 67
+    PFU_NOP_BLOCK 68
+    PFU_NOP_BLOCK 69
+    PFU_NOP_BLOCK 70
+    PFU_NOP_BLOCK 71
+    PFU_NOP_BLOCK 72
+    PFU_NOP_BLOCK 73
+    PFU_NOP_BLOCK 74
+    PFU_NOP_BLOCK 75
+    PFU_NOP_BLOCK 76
+    PFU_NOP_BLOCK 77
+    PFU_NOP_BLOCK 78
+    PFU_NOP_BLOCK 79
+    PFU_NOP_BLOCK 80
+    PFU_NOP_BLOCK 81
+    PFU_NOP_BLOCK 82
+    PFU_NOP_BLOCK 83
+    PFU_NOP_BLOCK 84
+    PFU_NOP_BLOCK 85
+    PFU_NOP_BLOCK 86
+    PFU_NOP_BLOCK 87
+    PFU_NOP_BLOCK 88
+    PFU_NOP_BLOCK 89
+    PFU_NOP_BLOCK 90
+    PFU_NOP_BLOCK 91
+    PFU_NOP_BLOCK 92
+    PFU_NOP_BLOCK 93
+    PFU_NOP_BLOCK 94
+    PFU_NOP_BLOCK 95
+    PFU_NOP_BLOCK 96
+    PFU_NOP_BLOCK 97
+    PFU_NOP_BLOCK 98
+    PFU_NOP_BLOCK 99
+    PFU_NOP_BLOCK 100
+    PFU_NOP_BLOCK 101
+    PFU_NOP_BLOCK 102
+    PFU_NOP_BLOCK 103
+    PFU_NOP_BLOCK 104
+    PFU_NOP_BLOCK 105
+    PFU_NOP_BLOCK 106
+    PFU_NOP_BLOCK 107
+    PFU_NOP_BLOCK 108
+    PFU_NOP_BLOCK 109
+    PFU_NOP_BLOCK 110
+    PFU_NOP_BLOCK 111
+    PFU_NOP_BLOCK 112
+    PFU_NOP_BLOCK 113
+    PFU_NOP_BLOCK 114
+    PFU_NOP_BLOCK 115
+    PFU_NOP_BLOCK 116
+    PFU_NOP_BLOCK 117
+    PFU_NOP_BLOCK 118
+    PFU_NOP_BLOCK 119
+    PFU_NOP_BLOCK 120
+    PFU_NOP_BLOCK 121
+    PFU_NOP_BLOCK 122
+    PFU_NOP_BLOCK 123
+    PFU_NOP_BLOCK 124
+    PFU_NOP_BLOCK 125
+    PFU_NOP_BLOCK 126
+    PFU_NOP_BLOCK 127
+
 /* END of workaround for PFU */
 
     ldr sp,=__initial_sp

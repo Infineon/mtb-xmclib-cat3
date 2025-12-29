@@ -5,7 +5,7 @@
  *****************************************************************************
  * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2025, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -112,16 +112,16 @@
                                                          frequency value during runtime for XMC11/12/13  device. */
 #endif
 
-#define ROM_BmiInstallationReq(requestedBmiValue) \
-        ((uint32_t (*)(uint32_t))0x00000108U)(requestedBmiValue) /**< Pointer to Request BMI installation routine is
+#define ROM_BmiInstallationReq \
+        (*((uint32_t (**)(uint32_t requestedBmiValue))0x00000108U)) /**< Pointer to Request BMI installation routine is
                                                                          available inside ROM. */
 
-#define ROM_CalcTemperature() \
-        ((uint32_t (*)(void))0x0000010cU)() /**<  Pointer to Calculate chip temperature routine is
+#define ROM_CalcTemperature \
+        (*((uint32_t (**)(void))0x0000010cU)) /**<  Pointer to Calculate chip temperature routine is
                                                     available inside ROM. */
 
-#define ROM_CalcTSEVAR(temperature) \
-        ((uint32_t (*)(uint32_t))0x00000120U)(temperature) /**<  Pointer to Calculate target level for temperature
+#define ROM_CalcTSEVAR \
+        (*((uint32_t (**)(uint32_t temperature))0x00000120U)) /**<  Pointer to Calculate target level for temperature
                                                                     comparison routine is available inside ROM. */
 
 /*********************************************************************************************************************
@@ -209,13 +209,34 @@ static uint32_t XMC_SCU_CalcTSEVAR(uint32_t temperature)
 
   XMC_ASSERT("XMC_SCU_CalcTSEVAR: temperature out of range", (temperature >= 233U) && (temperature <= 388U));
 
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic push")
+  _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+  #endif
   limit = ROM_CalcTSEVAR(temperature);
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic pop")
+  #endif  
   if (limit == 0U)
   {
+    #if defined(__GNUC__)
+    _Pragma("GCC diagnostic push")
+    _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+    #endif
     limit = ROM_CalcTSEVAR(temperature + 1U);
+    #if defined(__GNUC__)
+    _Pragma("GCC diagnostic pop")
+    #endif
     if (limit == 0U)
     {
+      #if defined(__GNUC__)
+      _Pragma("GCC diagnostic push")
+      _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+      #endif
       limit = ROM_CalcTSEVAR(temperature - 1U);
+      #if defined(__GNUC__)
+      _Pragma("GCC diagnostic pop")
+      #endif
     }
   }
 
@@ -474,7 +495,14 @@ uint32_t XMC_SCU_GetTemperature(void)
 /* Calculates the die temperature value using ROM function */
 uint32_t XMC_SCU_CalcTemperature(void)
 {
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic push")
+  _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+  #endif
   return (ROM_CalcTemperature());
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic pop")
+  #endif
 }
 
 
@@ -856,9 +884,23 @@ void XMC_SCU_IRQHandler(uint32_t sr_num)
 uint32_t XMC_SCU_SetBMI(uint32_t flags, uint8_t timeout)
 {
 #if (UC_SERIES == XMC14)
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic push")
+  _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+  #endif
   return ROM_BmiInstallationReq((flags & 0x0fffU) | ((timeout << 12) & 0xf000U));
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic pop")
+  #endif
 #else
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic push")
+  _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+  #endif
   return ROM_BmiInstallationReq((flags & 0x07ffU) | ((timeout << 12) & 0xf000U) | 0x08c0U);
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic pop")
+  #endif
 #endif
 }
 

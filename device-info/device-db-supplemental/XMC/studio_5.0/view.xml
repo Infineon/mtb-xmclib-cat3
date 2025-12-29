@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <View xmlns="http://cypress.com/xsd/cystudioview_v1">
+  <Parameters>
+    <Param name="PERFORM_CODEGEN_IN_EVAL_ORDER" value="" />
+  </Parameters>
   <ExposedParameterKeys>
     <ExposedParamKey id="CPU_MAX_MHZ" param_name="Speed_MHz" />
     <ExposedParamKey id="POWER_MODES" param_name="Power_Modes" />

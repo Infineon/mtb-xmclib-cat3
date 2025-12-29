@@ -1,16 +1,19 @@
-# MTB CAT3 XMC Library v4.6.0
+# MTB CAT3 XMC Library v4.7.0
 
 Please refer to the [README](./README.md) and the XMCLib for [XMC1000](https://infineon.github.io/mtb-xmclib-cat3/xmc1_api_reference_manual/html/index.html)/[XMC4000](https://infineon.github.io/mtb-xmclib-cat3/xmc4_api_reference_manual/html/index.html) API Reference Manual for a complete description.
 
 ## What Changed?
 
-- XMC1400 device series: added support of new QFP-48 Package MPNs.
-- Added the mtb_stdlib_stubs.c file with weak stub implementations for GCC_ARM nosys library.
-- Added workaround for ERRATA entry PMU_CM.001 for XMC44xx and XMC45xx devices
+- Fixed CPU faults with enabled Prefetch Unit during startup sequence for low temperature range. Impacted devices: XMC44xx and XMC45xx.
 
-### Updated personalities
+### New personalities
 
-- 2.0 DMA and WDT personality are introduced for ModusToolbox&trade;3.1+ with no functional updates. Older versions of these personalitites are remaining for ModusToolbox&trade; 3.0.
+- SPI 3.0 - In the new version was fixed the logic for Half-Duplex and Full-Duplex to ensure correct pin validation for DOUT and DIN.
+
+### Updated drivers
+
+- FLASH - Fixed a crash in XMC_FLASH_ProgramVerifyPage and XMC_FLASH_ErasePage on XMC1xxx devices that occurred during flash write/verify operations.
+- FLASH and SCU - Fixed GCC Compiler 14.2.1 warnings for XMC1xxx devices.
 
 ## Supported Software and Tools
 
@@ -18,10 +21,10 @@ This version of the XMCLib was validated for compatibility with the following So
 
 | Software and Tools                                                            | Version |
 | :---                                                                          | :----   |
-| ModusToolbox&trade;                                                           |  3.5.0  |
-| [core library](https://github.com/Infineon/core-lib)                          |  1.4.3  |
-| [device-db](https://github.com/Infineon/device-db)                            |  4.26.0 |
-| CMSIS-Core(M)                                                                 |  5.8.2  |
+| ModusToolbox&trade;                                                           |  3.6.0  |
+| [core library](https://github.com/Infineon/core-lib)                          |  1.6.0  |
+| [device-db](https://github.com/Infineon/device-db)                            |  4.33.0 |
+| CMSIS-Core(M)                                                                 |  6.1.0  |
 | GCC Compiler                                                                  | 14.2.1  |
 
 ## More information

@@ -23,7 +23,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  **************************************************************************************************/
-#if defined(__GNUC__) && !defined(__ARMCC_VERSION)
+#if defined(__GNUC__) && !defined(__ARMCC_VERSION) && !defined(MTB_STDLIB_STUBS_DISABLE)
 
 #include <errno.h>
 #include <sys/stat.h>
@@ -418,4 +418,4 @@ __WEAK int _wait(int* status)
 CY_MISRA_BLOCK_END('MISRA C-2012 Directive 4.6')
 CY_MISRA_BLOCK_END('MISRA C-2012 Rule 8.13')
 
-#endif // defined(__GNUC__) && !defined(__ARMCC_VERSION)
+#endif // if defined(__GNUC__) && !defined(__ARMCC_VERSION) && !defined(MTB_STDLIB_STUBS_DISABLE)

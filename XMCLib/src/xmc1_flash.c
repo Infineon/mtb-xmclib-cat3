@@ -5,7 +5,7 @@
  *****************************************************************************
  * XMClib - XMC Peripheral Driver Library
  *
- * Copyright (c) 2015-2020, Infineon Technologies AG
+ * Copyright (c) 2015-2025, Infineon Technologies AG
  * All rights reserved.
  *
  * Boost Software License - Version 1.0 - August 17th, 2003
@@ -104,12 +104,26 @@ void XMC_FLASH_DisableEvent(const uint32_t event_msk)
 
 int32_t XMC_FLASH_ErasePage(uint32_t *address)
 {
-  return ((int32_t (*)(uint32_t *))_NvmErase)(address);
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic push")
+  _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+  #endif
+  return XMC1000_NvmErasePage(address);
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic pop")
+  #endif
 }
 
 int32_t XMC_FLASH_ProgramVerifyPage(uint32_t *address, const uint32_t *data)
 {
-  return ((int32_t (*)(const uint32_t *, uint32_t *))_NvmProgVerify)(data, address);
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic push")
+  _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+  #endif
+  return XMC1000_NvmProgVerify(data, address);
+  #if defined(__GNUC__)
+  _Pragma("GCC diagnostic pop")
+  #endif
 }
 
 /* Write blocks of data into flash*/
@@ -163,7 +177,14 @@ int32_t XMC_FLASH_ErasePages(uint32_t *address, uint32_t num_pages)
   int32_t status = NVM_E_FAIL;
   for (page = 0U; page < num_pages; ++page)
   {
-    status = ((int32_t (*)(uint32_t *))_NvmErase)(address);
+    #if defined(__GNUC__)
+    _Pragma("GCC diagnostic push")
+    _Pragma("GCC diagnostic ignored \"-Warray-bounds\"")
+    #endif
+    status = XMC1000_NvmErasePage(address);
+    #if defined(__GNUC__)
+    _Pragma("GCC diagnostic pop")
+    #endif
     if (status != NVM_PASS)
     {
       return status;
